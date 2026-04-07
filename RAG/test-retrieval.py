@@ -28,5 +28,5 @@ if __name__ == "__main__":
 
     model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2") #Model za embedding stavkov - tentative change glede na to kaj se zmenmo
 
-    r = find_suitable_documents(index, model, "Kdaj je bil odpuščen Tung Tung Tung Sahur?")
+    r = find_suitable_documents(index, model, "Dohodki za podjetje Sinji Delfini v letu 2023.")
     print(r)
