@@ -1,0 +1,10 @@
+[
+    {"dokument": "doc1.txt",
+     "dovoljene skupine": ["finance"]},
+     {"dokument": "doc2.txt",
+     "dovoljene skupine": ["kadrovska"]},
+     {"dokument": "doc3.txt",
+     "dovoljene skupine": ["finance"]},
+     {"dokument": "doc4.txt",
+     "dovoljene skupine": ["šef"]}
+]
