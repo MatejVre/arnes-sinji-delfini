@@ -6,5 +6,11 @@
      {"dokument": "doc3.txt",
      "dovoljene skupine": ["finance"]},
      {"dokument": "doc4.txt",
+     "dovoljene skupine": ["šef"]},
+     {"dokument": "doc5.txt",
+     "dovoljene skupine": ["finance"]},
+     {"dokument": "doc6.txt",
+     "dovoljene skupine": ["šef"]},
+     {"dokument": "doc77.txt",
      "dovoljene skupine": ["šef"]}
 ]
