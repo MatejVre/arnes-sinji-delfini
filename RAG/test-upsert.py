@@ -4,6 +4,7 @@ from sentence_transformers import SentenceTransformer
 import os
 import json
 import sys
+import csv
 
 load_dotenv()
 
@@ -14,6 +15,7 @@ PATH_TO_METADATA = os.path.join(BASE_DIRECTORY, "../documents/permissions.json")
 PATH_TO_DOCUMENTS = os.path.join(BASE_DIRECTORY, "../documents")
 CHUNK_SIZE = 200
 CHUNK_OVERLAP = 20
+ROWS_PER_CHUNK = 2
 
 
 def match_documents_with_metadata(path_to_metadata, path_to_documents):
@@ -25,8 +27,7 @@ def match_documents_with_metadata(path_to_metadata, path_to_documents):
     for entry in metadata:
         filepath = os.path.join(path_to_documents, entry["dokument"])
         try:
-            with open(filepath, "r", encoding="utf-8") as f:
-                text = f.read()
+            text = read_document(filepath)
         except FileNotFoundError:
             print(f"Dokument {entry["dokument"]} ne obstaja v vaši zbirki dokumentov!")
             #Ce se ta error zgodi se ne bo noben fajl uploudou na pinecone. Razlog je ta da upserti stanejo, oz se stejejo
@@ -40,15 +41,36 @@ def match_documents_with_metadata(path_to_metadata, path_to_documents):
 
     return docs
 
-def chunk_text(text, chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP):
+def read_document(filepath):
 
-    words = text.split()
+    if filepath.endswith(".csv"):
+        rows = []
+        with open(filepath, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                rows.append(", ".join(f"{k}: {v}" for k, v in row.items()))
+        return "\n".join(rows)
+    else:
+        with open(filepath, "r", encoding="utf-8") as f:
+            return f.read()
+
+def chunk_text(doc, chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP, rows_per_chunk=ROWS_PER_CHUNK):
+    
     chunks = []
-    i = 0
-    while i < len(words):
-        chunk = " ".join(words[i:i+chunk_size])
-        chunks.append(chunk)
-        i += chunk_size - overlap
+
+    if doc["dokument"].endswith(".csv"):
+        rows = [row for row in doc["text"].split("\n") if row.strip()]  # remove empty lines
+        chunks =  ["\n".join(rows[i:i+rows_per_chunk]) for i in range(0, len(rows), rows_per_chunk)]
+        print(len(chunks))
+    
+    else:
+        words = doc["text"].split()
+
+        i = 0
+        while i < len(words):
+            chunk = " ".join(words[i:i+chunk_size])
+            chunks.append(chunk)
+            i += chunk_size - overlap
     return chunks
 
 #rabmo chunke za dolge dokumente ker embedding daljsih rata ful slab. Je pa naceloma to odvisn od dokumenta. Ce so kratki se lahko chunking umakne,
@@ -56,7 +78,7 @@ def chunk_text(text, chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP):
 def create_embedings(model, docs):
 
     for doc in docs:
-        doc["chunks"] = chunk_text(doc["text"])
+        doc["chunks"] = chunk_text(doc)
         doc["embeddings"] = [model.encode(chunk).tolist() for chunk in doc["chunks"]]
 
     return docs
@@ -105,7 +127,7 @@ if __name__ == "__main__":
 
         index = pc.Index(INDEX_NAME)
 
-        model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2") #Model za embedding stavkov - tentative change glede na to kaj se zmenmo
+    model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2") #Model za embedding stavkov - tentative change glede na to kaj se zmenmo
 
     docs = match_documents_with_metadata(PATH_TO_METADATA, PATH_TO_DOCUMENTS)
 

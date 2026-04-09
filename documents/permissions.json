@@ -12,5 +12,7 @@
      {"dokument": "doc6.txt",
      "dovoljene skupine": ["šef"]},
      {"dokument": "doc77.txt",
-     "dovoljene skupine": ["šef"]}
+     "dovoljene skupine": ["šef"]},
+     {"dokument": "stroski_2023.csv",
+     "dovoljene skupine": ["finance"]}
 ]
