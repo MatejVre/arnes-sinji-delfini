@@ -35,7 +35,7 @@ def match_documents_with_metadata(path_to_metadata, path_to_documents):
 
         docs.append({
             "text": text, #ta del je za zment se
-            "dovoljene skupine": entry["dovoljene skupine"],
+            "allowed_groups": entry["allowed_groups"],
             "dokument": entry["dokument"]
         })
 
@@ -94,7 +94,7 @@ def upsert_to_index(docs, index):
                 "values": embedding,
                 "metadata": {
                     "text": chunk,
-                    "dovoljene skupine": doc["dovoljene skupine"]
+                    "allowed_groups": doc["allowed_groups"]
                 }
             })
         index.upsert(vectors=vectors)

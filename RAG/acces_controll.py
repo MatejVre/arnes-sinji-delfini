@@ -30,29 +30,19 @@ def adaptive_threshold_filter(
 def filter_documents_by_permissions(
     matches: Iterable[dict[str, Any]],
     user_groups: Iterable[str],
-    *,
-    permissions_by_document: dict[str, list[str]] | None = None,
 ) -> list[dict[str, Any]]:
     """
     Keep only matches user is allowed to read.
 
-    Permission source priority:
-    1. `permissions_by_document[document_name]` if provided
-    2. `match["metadata"]["dovoljene skupine"]` from Pinecone metadata
+    Permission source:
+    - `match["metadata"]["allowed_groups"]` from Pinecone metadata
     """
     user_groups_set = set(user_groups)
     filtered: list[dict[str, Any]] = []
 
     for match in matches:
         metadata = match.get("metadata") or {}
-        document_name = _extract_document_name(match.get("id"))
-
-        allowed_groups = None
-        if permissions_by_document and document_name:
-            allowed_groups = permissions_by_document.get(document_name)
-
-        if allowed_groups is None:
-            allowed_groups = metadata.get("dovoljene skupine", [])
+        allowed_groups = metadata.get("allowed_groups", [])
 
         if not isinstance(allowed_groups, list):
             continue
@@ -61,14 +51,3 @@ def filter_documents_by_permissions(
             filtered.append(match)
 
     return filtered
-
-
-def _extract_document_name(match_id: str | None) -> str | None:
-    if not match_id:
-        return None
-
-    # IDs are inserted as: "<dokument>-chunk-<i>"
-    marker = "-chunk-"
-    if marker in match_id:
-        return match_id.split(marker, 1)[0]
-    return match_id

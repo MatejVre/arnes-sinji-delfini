@@ -1,18 +1,18 @@
 [
     {"dokument": "doc1.txt",
-     "dovoljene skupine": ["finance"]},
+     "allowed_groups": ["finance"]},
      {"dokument": "doc2.txt",
-     "dovoljene skupine": ["kadrovska"]},
+     "allowed_groups": ["HR"]},
      {"dokument": "doc3.txt",
-     "dovoljene skupine": ["finance"]},
+     "allowed_groups": ["finance"]},
      {"dokument": "doc4.txt",
-     "dovoljene skupine": ["šef"]},
+     "allowed_groups": ["CEO"]},
      {"dokument": "doc5.txt",
-     "dovoljene skupine": ["finance"]},
+     "allowed_groups": ["finance"]},
      {"dokument": "doc6.txt",
-     "dovoljene skupine": ["šef"]},
+     "allowed_groups": ["CEO"]},
      {"dokument": "doc77.txt",
-     "dovoljene skupine": ["šef"]},
+     "allowed_groups": ["CEO"]},
      {"dokument": "stroski_2023.csv",
-     "dovoljene skupine": ["finance"]}
+     "allowed_groups": ["finance"]}
 ]

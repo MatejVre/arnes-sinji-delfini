@@ -26,9 +26,11 @@ numpy==2.4.4
 openai==2.30.0
 orjson==3.11.8
 packaging==26.0
+passlib[bcrypt]==1.7.4
 pinecone==8.1.1
 pinecone-plugin-assistant==3.0.3
 pinecone-plugin-interface==0.0.7
+PyJWT==2.10.1
 pydantic==2.12.5
 pydantic_core==2.41.5
 Pygments==2.20.0
