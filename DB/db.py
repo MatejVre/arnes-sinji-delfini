@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import sqlite3
 from pathlib import Path
 from typing import Any
@@ -11,11 +12,16 @@ class Db:
         db_path: str = "DB/app.db",
         schema_path: str | None = None,
         seed_path: str | None = None,
+        data_documents_dir: str | None = None,
+        data_permissions_path: str | None = None,
         init_schema_on_start: bool = True,
     ) -> None:
         self.db_path = db_path
+        project_root = Path(__file__).resolve().parents[1]
         self.schema_path = schema_path or str(Path(__file__).with_name("sqlite_init.sql"))
         self.seed_path = seed_path or str(Path(__file__).with_name("seed.sql"))
+        self.data_documents_dir = data_documents_dir or str(project_root / "data" / "documents")
+        self.data_permissions_path = data_permissions_path or str(project_root / "data" / "permissions.json")
 
         Path(db_path).parent.mkdir(parents=True, exist_ok=True)
         self.conn = sqlite3.connect(db_path, check_same_thread=False)
@@ -29,13 +35,93 @@ class Db:
         with self.conn:
             self.conn.executescript(schema_sql)
 
-    def seed(self, password_hash: str) -> None:
+    def seed(self, password_hash: str) -> dict[str, Any]:
         self.init_schema()
         escaped_password_hash = password_hash.replace("'", "''")
         seed_sql = Path(self.seed_path).read_text(encoding="utf-8")
         seed_sql = seed_sql.replace("__PASSWORD_HASH__", escaped_password_hash)
         with self.conn:
             self.conn.executescript(seed_sql)
+        dynamic_summary = self._seed_documents_from_data()
+        return dynamic_summary
+
+    def _seed_documents_from_data(self) -> dict[str, Any]:
+        permissions_raw = Path(self.data_permissions_path).read_text(encoding="utf-8")
+        permissions = json.loads(permissions_raw)
+
+        permissions_by_document: dict[str, list[str]] = {}
+        for entry in permissions:
+            document_name = entry.get("dokument")
+            allowed_groups = entry.get("allowed_groups", [])
+            if not document_name or not isinstance(allowed_groups, list):
+                continue
+            permissions_by_document[document_name] = [str(group) for group in allowed_groups]
+
+        documents_dir = Path(self.data_documents_dir)
+        files_in_directory = sorted(
+            file.name
+            for file in documents_dir.iterdir()
+            if file.is_file() and file.suffix.lower() in {".txt", ".csv"}
+        )
+        files_set = set(files_in_directory)
+        permissions_set = set(permissions_by_document.keys())
+
+        skipped_files_missing_permissions = sorted(
+            document_name for document_name in files_in_directory if document_name not in permissions_set
+        )
+        ignored_permissions_missing_files = sorted(
+            document_name for document_name in permissions_set if document_name not in files_set
+        )
+
+        seeded_documents: list[str] = []
+        seeded_groups_from_permissions: set[str] = set()
+
+        with self.conn:
+            for document_name in files_in_directory:
+                allowed_groups = permissions_by_document.get(document_name)
+                if allowed_groups is None:
+                    continue
+
+                self.conn.execute(
+                    "INSERT OR IGNORE INTO documents(name) VALUES (?)",
+                    (document_name,),
+                )
+
+                document_row = self.conn.execute(
+                    "SELECT id FROM documents WHERE name = ? LIMIT 1",
+                    (document_name,),
+                ).fetchone()
+                if document_row is None:
+                    continue
+                document_id = int(document_row["id"])
+
+                for group_name in allowed_groups:
+                    self.conn.execute(
+                        "INSERT OR IGNORE INTO groups(name) VALUES (?)",
+                        (group_name,),
+                    )
+                    seeded_groups_from_permissions.add(group_name)
+
+                    group_row = self.conn.execute(
+                        "SELECT id FROM groups WHERE name = ? LIMIT 1",
+                        (group_name,),
+                    ).fetchone()
+                    if group_row is None:
+                        continue
+
+                    self.conn.execute(
+                        "INSERT OR IGNORE INTO document_group(document_id, group_id) VALUES (?, ?)",
+                        (document_id, int(group_row["id"])),
+                    )
+
+                seeded_documents.append(document_name)
+
+        return {
+            "seeded_documents": seeded_documents,
+            "seeded_groups_from_permissions": sorted(seeded_groups_from_permissions),
+            "skipped_files_missing_permissions": skipped_files_missing_permissions,
+            "ignored_permissions_missing_files": ignored_permissions_missing_files,
+        }
 
     def fetch_documents_with_groups(self) -> list[dict[str, Any]]:
         rows = self.conn.execute(

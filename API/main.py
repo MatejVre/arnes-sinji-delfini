@@ -55,8 +55,8 @@ async def schema_restart_endpoint():
 
 @app.get("/schema/seed")
 async def seed_endpoint():
-    app.state.db.seed(password_hash=hash_password("testing"))
-    return {"status": "ok", "message": "Seed data inserted."}
+    summary = app.state.db.seed(password_hash=hash_password("testing"))
+    return {"status": "ok", "message": "Seed data inserted.", "summary": summary}
 
 
 @app.post("/index/clear")

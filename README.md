@@ -44,7 +44,20 @@ curl http://127.0.0.1:8000/schema/init
 curl http://127.0.0.1:8000/schema/seed
 ```
 
-Seed creates demo users and groups, including user logins with password `testing`.
+Seed creates demo users and groups (password `testing`), then dynamically seeds document/group permissions from:
+
+- `data/documents/` for document files (`.txt`, `.csv`)
+- `data/permissions.json` for per-document `allowed_groups`
+
+Seeding behavior:
+
+- If a file exists in `data/documents/` but is missing in `data/permissions.json`, it is skipped.
+- If `data/permissions.json` references a file not present in `data/documents/` (for example `doc77.txt`), it is ignored.
+- `/schema/seed` response includes this in `summary`:
+  - `seeded_documents`
+  - `seeded_groups_from_permissions`
+  - `skipped_files_missing_permissions`
+  - `ignored_permissions_missing_files`
 
 ## 4) Documents Upsert Flow (Pinecone)
 
@@ -62,7 +75,7 @@ curl -X POST http://127.0.0.1:8000/index/clear
 curl http://127.0.0.1:8000/upsert/all
 ```
 
-This reads documents from `documents/`, permissions from SQLite tables, and writes vectors to Pinecone.
+This reads documents from `data/documents/`, permissions from SQLite tables, and writes vectors to Pinecone.
 
 ## 5) Swagger UI
 
@@ -70,4 +83,3 @@ When API is running:
 
 - Swagger UI: `http://127.0.0.1:8000/docs`
 - ReDoc: `http://127.0.0.1:8000/redoc`
-

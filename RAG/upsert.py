@@ -20,7 +20,7 @@ CHUNK_OVERLAP = 20
 ROWS_PER_CHUNK = 2
 
 BASE_DIRECTORY = os.path.dirname(os.path.abspath(__file__))
-DEFAULT_DOCUMENTS_DIR = os.path.join(BASE_DIRECTORY, "../documents")
+DEFAULT_DOCUMENTS_DIR = os.path.join(BASE_DIRECTORY, "../data/documents")
 
 
 def create_upsert_resources() -> tuple[object, SentenceTransformer]:
