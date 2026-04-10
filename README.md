@@ -16,9 +16,82 @@ Create/update `.env` with at least:
 PINECONE_API_KEY=your_pinecone_api_key
 JWT_SECRET=your_jwt_secret
 JWT_EXPIRES_MINUTES=480
+LLM_BASE_MODEL_ID=cjvt/GaMS3-12B-Instruct
+LLM_USE_4BIT=1
+LLM_ENABLE_CPU_OFFLOAD=1
+LLM_DEVICE_MAP=auto
 ```
 
-## 2) Run API
+`LLM_USE_4BIT` controls model quantization:
+
+- `1` (default): enable 4-bit quantization (GPU/CUDA required)
+- `0`: disable quantization
+
+`LLM_ENABLE_CPU_OFFLOAD` controls whether quantized loading may offload some layers to CPU/disk:
+
+- `1` (default): allow offload (more stable on limited VRAM, can be slower)
+- `0`: disable offload (requires enough GPU VRAM)
+
+`LLM_DEVICE_MAP` controls model placement strategy used by Transformers:
+
+- `auto` (default): automatic placement
+- `cpu`: force CPU
+- `cuda` (or other valid device string): force a specific GPU
+
+`LLM_BASE_MODEL_ID` controls which base model is loaded. The loader uses the model basename
+(for example `GaMS3-12B-Instruct`) for local cache and finetuning folder matching.
+
+### 4-bit Troubleshooting
+
+If you see an error like:
+
+`Params4bit.__new__() got an unexpected keyword argument '_is_hf_initialized'`
+
+it means your quantization dependency versions are mismatched. This project pins compatible versions in `requirements.txt`.
+
+Fix:
+
+```bash
+pip install -r requirements.txt --upgrade
+```
+
+At runtime, if this compatibility error still appears, loader will automatically retry once without 4-bit quantization so API startup can continue.
+
+## 2) LLM Folder Setup
+
+Before running the API, create this structure for optional finetuned adapters:
+
+```text
+LLM/
+  finetuning/
+    <model_basename>/
+```
+
+Example:
+
+```text
+LLM/finetuning/GaMS3-12B-Instruct/
+```
+
+Required files inside each model folder:
+
+- `adapter_config.json`
+- `adapter_model.safetensors`
+- `tokenizer.json`
+- `tokenizer_config.json`
+
+Optional but recommended:
+
+- `chat_template.jinja`
+
+Notes:
+
+- Base model is downloaded on first run and cached locally in `LLM/models/<model_basename>/`.
+- If `LLM/finetuning/<model_basename>/` exists with required files, loader uses base model + qLoRA adapter.
+- If finetuning folder is missing/incomplete, loader falls back to base model only (startup still succeeds).
+- Subsequent runs load model from local files.
+
+## 3) Run API
 
 ```bash
 uvicorn API.main:app --reload
@@ -28,7 +101,7 @@ Default local URL:
 
 - `http://127.0.0.1:8000`
 
-## 3) Setup Database (SQLite)
+## 4) Setup Database (SQLite)
 
 Call endpoints in this order:
 
@@ -59,7 +132,7 @@ Seeding behavior:
   - `skipped_files_missing_permissions`
   - `ignored_permissions_missing_files`
 
-## 4) Documents Upsert Flow (Pinecone)
+## 5) Documents Upsert Flow (Pinecone)
 
 Use this order when reindexing:
 
@@ -77,7 +150,7 @@ curl http://127.0.0.1:8000/upsert/all
 
 This reads documents from `data/documents/`, permissions from SQLite tables, and writes vectors to Pinecone.
 
-## 5) Swagger UI
+## 6) Swagger UI
 
 When API is running:
 

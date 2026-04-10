@@ -6,6 +6,7 @@ from pydantic import BaseModel, Field
 
 from API.auth import create_access_token, get_current_user, hash_password, verify_password
 from DB.db import Db
+from LLM.llm import chat_with_model, create_llm_resources
 from RAG.acces_controll import adaptive_threshold_filter, filter_documents_by_permissions
 from RAG.retrieval import (
     create_retrieval_resources,
@@ -21,6 +22,7 @@ async def lifespan(app: FastAPI):
     index, model = create_retrieval_resources()
     app.state.index = index
     app.state.model = model
+    app.state.llm_resources = create_llm_resources()
     yield
     app.state.db.close()
 
@@ -147,10 +149,36 @@ async def chat_endpoint(payload: ChatRequest, current_user: dict = Depends(get_c
     relevant_matches = adaptive_threshold_filter(matches)
     allowed_matches = filter_documents_by_permissions(relevant_matches, current_user["groups"])
 
-    # pass this to LLM
-    
+    context_chunks = []
+    for match in allowed_matches:
+        metadata = match.get("metadata") or {}
+        text = metadata.get("text")
+        if isinstance(text, str) and text.strip():
+            context_chunks.append(text.strip())
 
+    retrieval_context = "\n\n".join(context_chunks)
+    if retrieval_context:
+        user_content = (
+            "Use the provided context to answer the question. "
+            "If context is insufficient, say so clearly.\n\n"
+            f"Context:\n{retrieval_context}\n\n"
+            f"Question:\n{payload.chat}"
+        )
+    else:
+        user_content = payload.chat
 
+    messages = [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant. Answer in concise clear text.",
+        },
+        {
+            "role": "user",
+            "content": user_content,
+        },
+    ]
+
+    llm_response = chat_with_model(app.state.llm_resources, messages)
 
     return {
         "status": "ok",
@@ -160,4 +188,5 @@ async def chat_endpoint(payload: ChatRequest, current_user: dict = Depends(get_c
             "groups": current_user["groups"],
         },
         "allowed_matches": allowed_matches,
+        "response": llm_response,
     }

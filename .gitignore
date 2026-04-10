@@ -5,3 +5,6 @@
 app.db
 
 __pycache__
+
+LLM/models/*
+LLM/finetuning/*

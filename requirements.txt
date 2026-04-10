@@ -1,9 +1,11 @@
 annotated-doc==0.0.4
 annotated-types==0.7.0
+accelerate==1.8.1
 anyio==4.13.0
 certifi==2026.2.25
 charset-normalizer==3.4.7
 click==8.3.2
+bitsandbytes==0.46.1
 colorama==0.4.6
 distro==1.9.0
 filelock==3.25.2
@@ -27,6 +29,7 @@ openai==2.30.0
 orjson==3.11.8
 packaging==26.0
 passlib[bcrypt]==1.7.4
+peft==0.18.1
 pinecone==8.1.1
 pinecone-plugin-assistant==3.0.3
 pinecone-plugin-interface==0.0.7
