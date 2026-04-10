@@ -126,7 +126,7 @@ class Db:
     def fetch_documents_with_groups(self) -> list[dict[str, Any]]:
         rows = self.conn.execute(
             """
-            SELECT d.name AS document_name, g.name AS group_name
+            SELECT d.id AS document_id, d.name AS document_name, g.name AS group_name
             FROM documents d
             LEFT JOIN document_group dg ON dg.document_id = d.id
             LEFT JOIN groups g ON g.id = dg.group_id
@@ -134,21 +134,26 @@ class Db:
             """
         ).fetchall()
 
-        grouped: dict[str, list[str]] = {}
+        grouped: dict[int, dict[str, Any]] = {}
         for row in rows:
+            document_id = int(row["document_id"])
             document_name = row["document_name"]
             group_name = row["group_name"]
-            grouped.setdefault(document_name, [])
+            if document_id not in grouped:
+                grouped[document_id] = {
+                    "document_id": document_id,
+                    "document_name": document_name,
+                    "allowed_groups": [],
+                }
             if group_name is not None:
-                grouped[document_name].append(group_name)
+                grouped[document_id]["allowed_groups"].append(group_name)
 
-        return [
-            {
-                "document_name": document_name,
-                "allowed_groups": sorted(set(group_names)),
-            }
-            for document_name, group_names in grouped.items()
-        ]
+        result: list[dict[str, Any]] = []
+        for document_id in sorted(grouped.keys()):
+            item = grouped[document_id]
+            item["allowed_groups"] = sorted(set(item["allowed_groups"]))
+            result.append(item)
+        return result
 
     def get_user_groups(self, user_id: int) -> list[str]:
         cursor = self.conn.execute(

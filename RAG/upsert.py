@@ -66,6 +66,7 @@ def upsert_all_documents_from_db(
     docs_path = Path(documents_dir)
 
     for document in documents:
+        document_id = document["document_id"]
         document_name = document["document_name"]
         allowed_groups = document["allowed_groups"]
         file_path = docs_path / document_name
@@ -74,6 +75,7 @@ def upsert_all_documents_from_db(
             summary["skipped_files"].append(document_name)
             summary["documents"].append(
                 {
+                    "document_id": document_id,
                     "document_name": document_name,
                     "status": "skipped_missing_file",
                     "allowed_groups": allowed_groups,
@@ -86,6 +88,7 @@ def upsert_all_documents_from_db(
         if not chunks:
             summary["documents"].append(
                 {
+                    "document_id": document_id,
                     "document_name": document_name,
                     "status": "skipped_empty_document",
                     "allowed_groups": allowed_groups,
@@ -102,6 +105,7 @@ def upsert_all_documents_from_db(
                     "values": embedding,
                     "metadata": {
                         "text": chunk,
+                        "document_id": document_id,
                         "document_name": document_name,
                         "allowed_groups": allowed_groups,
                     },
@@ -113,6 +117,7 @@ def upsert_all_documents_from_db(
         summary["upserted_vectors"] += len(vectors)
         summary["documents"].append(
             {
+                "document_id": document_id,
                 "document_name": document_name,
                 "status": "upserted",
                 "allowed_groups": allowed_groups,
