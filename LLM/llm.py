@@ -3,6 +3,7 @@ from pathlib import Path
 from typing import Any
 
 from huggingface_hub import snapshot_download
+from openai import OpenAI
 import torch
 from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
@@ -21,6 +22,33 @@ REQUIRED_ADAPTER_FILES = [
 
 
 def create_llm_resources(
+    base_model_id: str | None = None,
+    finetuning_root: str = DEFAULT_FINETUNING_ROOT,
+    local_models_dir: str = DEFAULT_LOCAL_MODELS_DIR,
+    offload_dir: str = DEFAULT_OFFLOAD_DIR,
+    device_map: str | None = None,
+    use_4bit: bool | None = None,
+    enable_cpu_offload: bool | None = None,
+    hf_token: str | None = None,
+    trust_remote_code: bool = True,
+) -> dict[str, Any]:
+    if not _resolve_use_local_llm():
+        return _create_api_llm_resources()
+
+    return _create_local_llm_resources(
+        base_model_id=base_model_id,
+        finetuning_root=finetuning_root,
+        local_models_dir=local_models_dir,
+        offload_dir=offload_dir,
+        device_map=device_map,
+        use_4bit=use_4bit,
+        enable_cpu_offload=enable_cpu_offload,
+        hf_token=hf_token,
+        trust_remote_code=trust_remote_code,
+    )
+
+
+def _create_local_llm_resources(
     base_model_id: str | None = None,
     finetuning_root: str = DEFAULT_FINETUNING_ROOT,
     local_models_dir: str = DEFAULT_LOCAL_MODELS_DIR,
@@ -107,6 +135,7 @@ def create_llm_resources(
         tokenizer.pad_token = tokenizer.eos_token
 
     return {
+        "llm_mode": "local",
         "tokenizer": tokenizer,
         "model": model,
         "base_model_id": resolved_base_model_id,
@@ -126,6 +155,48 @@ def create_llm_resources(
     }
 
 
+def _create_api_llm_resources() -> dict[str, Any]:
+    provider = _resolve_api_provider()
+
+    if provider == "openai":
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise RuntimeError("OPENAI_API_KEY is required when USE_LOCAL_LLM=0 and LLM_API_PROVIDER=openai.")
+        model_name = os.getenv("OPENAI_MODEL")
+        if not model_name:
+            raise RuntimeError("OPENAI_MODEL is required when USE_LOCAL_LLM=0 and LLM_API_PROVIDER=openai.")
+        client = OpenAI(api_key=api_key, base_url=os.getenv("OPENAI_BASE_URL") or None)
+        return {
+            "llm_mode": "api",
+            "api_provider": provider,
+            "api_model": model_name,
+            "client": client,
+            "api_base_url": os.getenv("OPENAI_BASE_URL") or None,
+        }
+
+    if provider == "gemini":
+        api_key = os.getenv("GEMINI_API_KEY")
+        if not api_key:
+            raise RuntimeError("GEMINI_API_KEY is required when USE_LOCAL_LLM=0 and LLM_API_PROVIDER=gemini.")
+        model_name = os.getenv("GEMINI_MODEL")
+        if not model_name:
+            raise RuntimeError("GEMINI_MODEL is required when USE_LOCAL_LLM=0 and LLM_API_PROVIDER=gemini.")
+
+        base_url = os.getenv("GEMINI_BASE_URL", "https://generativelanguage.googleapis.com/v1beta/openai/")
+        client = OpenAI(api_key=api_key, base_url=base_url)
+        return {
+            "llm_mode": "api",
+            "api_provider": provider,
+            "api_model": model_name,
+            "client": client,
+            "api_base_url": base_url,
+        }
+
+    raise RuntimeError(
+        f"Unsupported LLM_API_PROVIDER '{provider}'. Supported values: openai, gemini."
+    )
+
+
 def chat_with_model(
     resources: dict[str, Any],
     messages: list[dict[str, str]],
@@ -135,6 +206,19 @@ def chat_with_model(
     do_sample: bool = True,
 ) -> str:
     _validate_messages(messages)
+
+    llm_mode = resources.get("llm_mode", "local")
+    if llm_mode == "api":
+        return _chat_with_api_provider(
+            resources=resources,
+            messages=messages,
+            max_new_tokens=max_new_tokens,
+            temperature=temperature,
+            top_p=top_p,
+        )
+
+    if llm_mode != "local":
+        raise ValueError(f"Unsupported llm_mode '{llm_mode}'.")
 
     tokenizer = resources.get("tokenizer")
     model = resources.get("model")
@@ -170,6 +254,59 @@ def chat_with_model(
     new_tokens = output_ids[0][prompt_inputs.shape[-1] :]
     response = tokenizer.decode(new_tokens, skip_special_tokens=True).strip()
     return response
+
+
+def _chat_with_api_provider(
+    resources: dict[str, Any],
+    messages: list[dict[str, str]],
+    max_new_tokens: int,
+    temperature: float,
+    top_p: float,
+) -> str:
+    client = resources.get("client")
+    model_name = resources.get("api_model")
+    provider = resources.get("api_provider", "unknown")
+    if client is None or not isinstance(model_name, str) or not model_name:
+        raise ValueError("Invalid API LLM resources. Expected keys: 'client' and non-empty 'api_model'.")
+
+    try:
+        response = client.chat.completions.create(
+            model=model_name,
+            messages=messages,
+            temperature=temperature,
+            top_p=top_p,
+            max_tokens=max_new_tokens,
+        )
+    except Exception as exc:
+        raise RuntimeError(f"{provider} API call failed: {exc}") from exc
+
+    text = _extract_api_text_response(response)
+    if not text:
+        raise RuntimeError(f"{provider} API returned an empty response.")
+    return text
+
+
+def _extract_api_text_response(response: Any) -> str:
+    choices = getattr(response, "choices", None)
+    if not choices:
+        return ""
+
+    first = choices[0]
+    message = getattr(first, "message", None)
+    if message is None:
+        return ""
+
+    content = getattr(message, "content", None)
+    if isinstance(content, str):
+        return content.strip()
+    if isinstance(content, list):
+        texts: list[str] = []
+        for item in content:
+            text_value = getattr(item, "text", None)
+            if isinstance(text_value, str) and text_value.strip():
+                texts.append(text_value.strip())
+        return "\n".join(texts).strip()
+    return ""
 
 
 def _load_base_model(
@@ -275,6 +412,15 @@ def _resolve_base_model_id(base_model_id: str | None) -> str:
     if base_model_id and base_model_id.strip():
         return base_model_id.strip()
     return os.getenv("LLM_BASE_MODEL_ID", DEFAULT_BASE_MODEL_ID).strip()
+
+
+def _resolve_use_local_llm() -> bool:
+    raw = os.getenv("USE_LOCAL_LLM", "1").strip().lower()
+    return raw in {"1", "true", "yes", "on"}
+
+
+def _resolve_api_provider() -> str:
+    return os.getenv("LLM_API_PROVIDER", "").strip().lower()
 
 
 def _model_basename(base_model_id: str) -> str:

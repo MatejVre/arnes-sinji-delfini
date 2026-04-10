@@ -178,7 +178,16 @@ async def chat_endpoint(payload: ChatRequest, current_user: dict = Depends(get_c
         },
     ]
 
-    llm_response = chat_with_model(app.state.llm_resources, messages)
+    try:
+        llm_response = chat_with_model(app.state.llm_resources, messages)
+    except RuntimeError as exc:
+        llm_mode = (app.state.llm_resources or {}).get("llm_mode")
+        if llm_mode == "api":
+            raise HTTPException(
+                status_code=status.HTTP_502_BAD_GATEWAY,
+                detail=f"Upstream LLM provider error: {exc}",
+            ) from exc
+        raise
 
     return {
         "status": "ok",

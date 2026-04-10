@@ -16,11 +16,56 @@ Create/update `.env` with at least:
 PINECONE_API_KEY=your_pinecone_api_key
 JWT_SECRET=your_jwt_secret
 JWT_EXPIRES_MINUTES=480
+USE_LOCAL_LLM=1
 LLM_BASE_MODEL_ID=cjvt/GaMS3-12B-Instruct
 LLM_USE_4BIT=1
 LLM_ENABLE_CPU_OFFLOAD=1
 LLM_DEVICE_MAP=auto
 ```
+
+## LLM Mode Selection
+
+`/chat` can run in 2 modes:
+
+- Local model mode (`USE_LOCAL_LLM=1`)
+- Hosted API mode (`USE_LOCAL_LLM=0`)
+
+OpenAI and Gemini are different native APIs, but this project uses one internal adapter so `/chat` input/output stays the same.
+
+### Local mode example
+
+```env
+USE_LOCAL_LLM=1
+LLM_BASE_MODEL_ID=cjvt/GaMS3-12B-Instruct
+LLM_USE_4BIT=1
+LLM_ENABLE_CPU_OFFLOAD=1
+LLM_DEVICE_MAP=auto
+```
+
+### OpenAI mode example
+
+```env
+USE_LOCAL_LLM=0
+LLM_API_PROVIDER=openai
+OPENAI_API_KEY=your_openai_key
+OPENAI_MODEL=gpt-4.1-mini
+# optional:
+# OPENAI_BASE_URL=https://api.openai.com/v1
+```
+
+### Gemini mode example
+
+```env
+USE_LOCAL_LLM=0
+LLM_API_PROVIDER=gemini
+GEMINI_API_KEY=your_gemini_key
+GEMINI_MODEL=gemini-2.5-flash
+# optional (OpenAI-compatible Gemini endpoint):
+# GEMINI_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai/
+```
+
+When `USE_LOCAL_LLM=0`, missing provider/model env values cause startup errors.
+If provider calls fail during `/chat`, the API returns `502 Bad Gateway` (no automatic fallback to local model).
 
 `LLM_USE_4BIT` controls model quantization:
 
