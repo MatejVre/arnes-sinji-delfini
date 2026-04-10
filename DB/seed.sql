@@ -2,7 +2,6 @@ BEGIN TRANSACTION;
 
 INSERT OR IGNORE INTO groups(name) VALUES ('finance');
 INSERT OR IGNORE INTO groups(name) VALUES ('HR');
-INSERT OR IGNORE INTO groups(name) VALUES ('kadrovska');
 INSERT OR IGNORE INTO groups(name) VALUES ('CEO');
 
 INSERT OR IGNORE INTO users(name, password_hash) VALUES ('šef', '__PASSWORD_HASH__');
@@ -40,7 +39,7 @@ WHERE u.name = 'HR';
 INSERT OR IGNORE INTO user_group(user_id, group_id)
 SELECT u.id, g.id
 FROM users u
-JOIN groups g ON g.name = 'kadrovska'
+JOIN groups g ON g.name = 'HR'
 WHERE u.name = 'HR';
 
 INSERT OR IGNORE INTO user_group(user_id, group_id)
@@ -72,7 +71,7 @@ WHERE d.name = 'doc1.txt';
 INSERT OR IGNORE INTO document_group(document_id, group_id)
 SELECT d.id, g.id
 FROM documents d
-JOIN groups g ON g.name = 'kadrovska'
+JOIN groups g ON g.name = 'HR'
 WHERE d.name = 'doc2.txt';
 
 INSERT OR IGNORE INTO document_group(document_id, group_id)

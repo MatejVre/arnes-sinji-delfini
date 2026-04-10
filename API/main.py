@@ -6,7 +6,7 @@ from pydantic import BaseModel, Field
 
 from API.auth import create_access_token, get_current_user, hash_password, verify_password
 from DB.db import Db
-from LLM.llm import chat_with_model, create_llm_resources
+from LLM.llm import chat_with_model, create_llm_resources, preprocess_rag_data
 from RAG.acces_controll import adaptive_threshold_filter, filter_documents_by_permissions
 from RAG.retrieval import (
     create_retrieval_resources,
@@ -149,45 +149,27 @@ async def chat_endpoint(payload: ChatRequest, current_user: dict = Depends(get_c
     relevant_matches = adaptive_threshold_filter(matches)
     allowed_matches = filter_documents_by_permissions(relevant_matches, current_user["groups"])
 
-    context_chunks = []
-    for match in allowed_matches:
-        metadata = match.get("metadata") or {}
-        text = metadata.get("text")
-        if isinstance(text, str) and text.strip():
-            context_chunks.append(text.strip())
+    relevant_matches_len = len(relevant_matches)
+    allowed_matches_len = len(allowed_matches)
+    
+    num_not_allowed = relevant_matches_len - allowed_matches_len
 
-    retrieval_context = "\n\n".join(context_chunks)
-    if retrieval_context:
-        user_content = (
-            "Use the provided context to answer the question. "
-            "If context is insufficient, say so clearly.\n\n"
-            f"Context:\n{retrieval_context}\n\n"
-            f"Question:\n{payload.chat}"
-        )
+    if num_not_allowed == relevant_matches_len:
+        llm_response = "Files exist but you do not have permission to view them"
+
     else:
-        user_content = payload.chat
+        messages = preprocess_rag_data(payload.chat, allowed_matches)
 
-    messages = [
-        {
-            "role": "system",
-            "content": "You are a helpful assistant. Answer in concise clear text.",
-        },
-        {
-            "role": "user",
-            "content": user_content,
-        },
-    ]
-
-    try:
-        llm_response = chat_with_model(app.state.llm_resources, messages)
-    except RuntimeError as exc:
-        llm_mode = (app.state.llm_resources or {}).get("llm_mode")
-        if llm_mode == "api":
-            raise HTTPException(
-                status_code=status.HTTP_502_BAD_GATEWAY,
-                detail=f"Upstream LLM provider error: {exc}",
-            ) from exc
-        raise
+        try:
+            llm_response = chat_with_model(app.state.llm_resources, messages)
+        except RuntimeError as exc:
+            llm_mode = (app.state.llm_resources or {}).get("llm_mode")
+            if llm_mode == "api":
+                raise HTTPException(
+                    status_code=status.HTTP_502_BAD_GATEWAY,
+                    detail=f"Upstream LLM provider error: {exc}",
+                ) from exc
+            raise
 
     return {
         "status": "ok",
@@ -198,4 +180,5 @@ async def chat_endpoint(payload: ChatRequest, current_user: dict = Depends(get_c
         },
         "allowed_matches": allowed_matches,
         "response": llm_response,
+        "num_docs_not_allowed": num_not_allowed
     }

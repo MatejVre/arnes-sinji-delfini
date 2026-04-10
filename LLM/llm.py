@@ -256,6 +256,42 @@ def chat_with_model(
     return response
 
 
+def preprocess_rag_data(
+    question: str,
+    allowed_matches: list[dict[str, Any]],
+    system_prompt: str | None = None,
+) -> list[dict[str, str]]:
+    context_chunks = []
+    for match in allowed_matches:
+        metadata = match.get("metadata") or {}
+        text = metadata.get("text")
+        if isinstance(text, str) and text.strip():
+            context_chunks.append(text.strip())
+
+    retrieval_context = "\n\n".join(context_chunks)
+    if retrieval_context:
+        user_content = (
+            "Use the provided context to answer the question. "
+            "If context is insufficient, say so clearly.\n\n"
+            f"Context:\n{retrieval_context}\n\n"
+            f"Question:\n{question}"
+        )
+    else:
+        user_content = question
+
+    effective_system_prompt = system_prompt or "You are a helpful assistant. Answer in concise clear text."
+    return [
+        {
+            "role": "system",
+            "content": effective_system_prompt,
+        },
+        {
+            "role": "user",
+            "content": user_content,
+        },
+    ]
+
+
 def _chat_with_api_provider(
     resources: dict[str, Any],
     messages: list[dict[str, str]],
