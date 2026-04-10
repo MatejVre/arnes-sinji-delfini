@@ -32,8 +32,6 @@ def create_llm_resources(
     trust_remote_code: bool = True,
 ) -> dict[str, Any]:
     resolved_base_model_id = _resolve_base_model_id(base_model_id)
-    print("?????????????????????????")
-    print(resolved_base_model_id)
     model_basename = _model_basename(resolved_base_model_id)
 
     finetuning_root_path = Path(finetuning_root)
