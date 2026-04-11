@@ -1,24 +1,26 @@
 import sqlite3
 from contextlib import asynccontextmanager
+from pathlib import Path
+
 from dotenv import load_dotenv
 from fastapi import Depends, FastAPI, HTTPException, status
+from fastapi.responses import RedirectResponse
+from fastapi.staticfiles import StaticFiles
+from openai import APIConnectionError, APIStatusError, RateLimitError
 from pydantic import BaseModel, Field
 
 from API.auth import create_access_token, get_current_user, hash_password, verify_password
 from DB.db import Db
 from RAG.acces_controll import adaptive_threshold_filter, filter_documents_by_permissions
-from RAG.retrieval import (
-    create_retrieval_resources,
-    find_suitable_documents,
-    normalize_retrieval_response,
-)
-from RAG.upsert import upsert_all_documents_from_db
+from RAG.openai_reply import generate_rag_reply
+from RAG.retrieval import find_suitable_documents, normalize_retrieval_response
+from RAG.upsert import create_upsert_resources, upsert_all_documents_from_db
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     load_dotenv()
     app.state.db = Db(init_schema_on_start=False)
-    index, model = create_retrieval_resources()
+    index, model = create_upsert_resources()
     app.state.index = index
     app.state.model = model
     yield
@@ -146,14 +148,33 @@ async def chat_endpoint(payload: ChatRequest, current_user: dict = Depends(get_c
     matches = normalize_retrieval_response(retrieval_response)
     relevant_matches = adaptive_threshold_filter(matches)
     allowed_matches = filter_documents_by_permissions(relevant_matches, current_user["groups"])
-
-    # pass this to LLM
-    
-
-
+    #LLM step
+    try:
+        reply = await generate_rag_reply(payload.chat, allowed_matches)
+    except ValueError as exc:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail=str(exc),
+        ) from exc
+    except RateLimitError as exc:
+        raise HTTPException(
+            status_code=status.HTTP_429_TOO_MANY_REQUESTS,
+            detail="OpenAI rate limit exceeded. Try again shortly.",
+        ) from exc
+    except APIStatusError as exc:
+        raise HTTPException(
+            status_code=status.HTTP_502_BAD_GATEWAY,
+            detail=f"OpenAI API error: {exc}",
+        ) from exc
+    except APIConnectionError as exc:
+        raise HTTPException(
+            status_code=status.HTTP_502_BAD_GATEWAY,
+            detail="Could not reach OpenAI. Check your network.",
+        ) from exc
 
     return {
         "status": "ok",
+        "reply": reply,
         "user": {
             "id": current_user["id"],
             "name": current_user["name"],
@@ -161,3 +182,13 @@ async def chat_endpoint(payload: ChatRequest, current_user: dict = Depends(get_c
         },
         "allowed_matches": allowed_matches,
     }
+
+
+@app.get("/")
+async def root_redirect():
+    return RedirectResponse(url="/ui/", status_code=302)
+
+
+_static_dir = Path(__file__).resolve().parent.parent / "static"
+if _static_dir.is_dir():
+    app.mount("/ui", StaticFiles(directory=str(_static_dir), html=True), name="ui")

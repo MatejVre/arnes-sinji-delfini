@@ -8,6 +8,7 @@ From project root:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+pip install fastapi "uvicorn[standard]"
 ```
 
 Create/update `.env` with at least:
@@ -16,6 +17,9 @@ Create/update `.env` with at least:
 PINECONE_API_KEY=your_pinecone_api_key
 JWT_SECRET=your_jwt_secret
 JWT_EXPIRES_MINUTES=480
+OPENAI_API_KEY=your_openai_api_key
+# Optional: defaults to gpt-4o-mini
+# OPENAI_CHAT_MODEL=gpt-4o-mini
 ```
 
 ## 2) Run API
