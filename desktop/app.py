@@ -1,8 +1,16 @@
 from __future__ import annotations
 
+import json
+import os
+import platform
 import queue
+import subprocess
+import threading
 import tkinter as tk
+import urllib.error
+import urllib.request
 from pathlib import Path
+from tkinter import filedialog
 from tkinter import font as tkfont
 from tkinter import scrolledtext
 
@@ -49,11 +57,14 @@ class SinjiDesktopApp(tk.Tk):
         self._server_log: scrolledtext.ScrolledText | None = None
 
         self._env_path: Path = REPO_ROOT / ".env"
+        self._idx_busy = False
 
         self._build_welcome()
         self._build_server_page()
         self._build_logs_page()
         self._build_ai_page()
+        self._build_index_page()
+        self._build_documents_page()
         self._build_placeholders()
 
         self.protocol("WM_DELETE_WINDOW", self._on_close_window)
@@ -753,13 +764,438 @@ class SinjiDesktopApp(tk.Tk):
         except OSError as exc:
             self._ai_status.set(f"Napaka: {exc}")
 
+    def _build_index_page(self) -> None:
+        page = tk.Frame(self._container, bg=COLORS["bg"])
+        self._pages["index"] = page
+        self._page_header(page, "Indeks (Pinecone)")
+
+        body = tk.Frame(page, bg=COLORS["bg"])
+        body.pack(fill=tk.BOTH, expand=True, padx=28, pady=20)
+
+        card = tk.Frame(body, bg=COLORS["card"], highlightbackground=COLORS["border"], highlightthickness=1)
+        card.pack(fill=tk.BOTH, expand=True)
+
+        pad = tk.Frame(card, bg=COLORS["card"])
+        pad.pack(fill=tk.BOTH, expand=True, padx=20, pady=18)
+
+        tk.Label(
+            pad,
+            text="Ključ in ime indeksa se shranita v .env. Sprememba imena indeksa velja šele po ponovnem zagonu API strežnika. "
+            "»Posodobi indeks« kliče GET /upsert/all (strežnik mora teči).",
+            font=("Segoe UI", 9),
+            fg=COLORS["muted"],
+            bg=COLORS["card"],
+            wraplength=820,
+            justify=tk.LEFT,
+        ).pack(anchor=tk.W, pady=(0, 14))
+
+        self._idx_key = tk.StringVar()
+        self._idx_name = tk.StringVar(value="sinji-delfini-test")
+        self._idx_base = tk.StringVar(value="http://127.0.0.1:8000")
+        self._idx_row(pad, "PINECONE_API_KEY", self._idx_key, show="*")
+        self._idx_row(pad, "PINECONE_INDEX_NAME", self._idx_name)
+        self._idx_row(pad, "Naslov API (za upsert)", self._idx_base)
+
+        btn_row = tk.Frame(pad, bg=COLORS["card"])
+        btn_row.pack(fill=tk.X, pady=(12, 8))
+        tk.Button(
+            btn_row,
+            text="Shrani v .env",
+            font=self._nav_font,
+            fg="#ffffff",
+            bg=COLORS["accent"],
+            activeforeground="#ffffff",
+            activebackground=COLORS["accent_hover"],
+            highlightthickness=0,
+            bd=0,
+            padx=18,
+            pady=10,
+            cursor="hand2",
+            command=self._idx_save,
+        ).pack(side=tk.LEFT, padx=(0, 10))
+        tk.Button(
+            btn_row,
+            text="Naloži iz .env",
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg_elevated"],
+            activeforeground=COLORS["text"],
+            activebackground=COLORS["border"],
+            highlightthickness=0,
+            bd=0,
+            padx=14,
+            pady=8,
+            cursor="hand2",
+            command=self._idx_load,
+        ).pack(side=tk.LEFT, padx=(0, 10))
+
+        self._btn_idx_reindex = tk.Button(
+            btn_row,
+            text="Posodobi indeks",
+            font=self._nav_font,
+            fg=COLORS["text"],
+            bg="#2a6b4f",
+            activeforeground=COLORS["text"],
+            activebackground=COLORS["accent"],
+            highlightthickness=0,
+            bd=0,
+            padx=18,
+            pady=10,
+            cursor="hand2",
+            command=self._idx_reindex,
+        )
+        self._btn_idx_reindex.pack(side=tk.LEFT)
+
+        self._idx_status = tk.StringVar(value="")
+        tk.Label(
+            pad,
+            textvariable=self._idx_status,
+            font=self._subtitle_font,
+            fg=COLORS["muted"],
+            bg=COLORS["card"],
+            anchor=tk.W,
+        ).pack(fill=tk.X, pady=(4, 8))
+
+        tk.Label(pad, text="Odgovor strežnika", font=self._subtitle_font, fg=COLORS["muted"], bg=COLORS["card"], anchor=tk.W).pack(
+            fill=tk.X
+        )
+        self._idx_out = scrolledtext.ScrolledText(
+            pad,
+            font=("Consolas", 10),
+            fg=COLORS["text"],
+            bg="#1e1c24",
+            insertbackground=COLORS["text"],
+            highlightthickness=1,
+            highlightbackground=COLORS["border"],
+            bd=0,
+            wrap=tk.WORD,
+            state=tk.DISABLED,
+            height=12,
+        )
+        self._idx_out.pack(fill=tk.BOTH, expand=True)
+
+        self._idx_load()
+
+    def _idx_row(self, parent: tk.Widget, label: str, var: tk.StringVar, show: str | None = None) -> None:
+        row = tk.Frame(parent, bg=COLORS["card"])
+        row.pack(fill=tk.X, pady=6)
+        tk.Label(row, text=label, font=self._subtitle_font, fg=COLORS["muted"], bg=COLORS["card"], width=22, anchor=tk.W).pack(
+            side=tk.LEFT, padx=(0, 10)
+        )
+        tk.Entry(
+            row,
+            textvariable=var,
+            font=self._body_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg"],
+            insertbackground=COLORS["text"],
+            show=show or "",
+            highlightthickness=1,
+            highlightbackground=COLORS["border"],
+            highlightcolor=COLORS["accent"],
+            bd=0,
+        ).pack(side=tk.LEFT, fill=tk.X, expand=True, ipady=5, ipadx=6)
+
+    def _idx_load(self) -> None:
+        d = read_env(self._env_path)
+        self._idx_key.set(d.get("PINECONE_API_KEY", ""))
+        self._idx_name.set(d.get("PINECONE_INDEX_NAME", "").strip() or "sinji-delfini-test")
+        self._idx_status.set(f"Naloženo iz {self._env_path}")
+
+    def _idx_save(self) -> None:
+        try:
+            update_env_keys(
+                self._env_path,
+                {
+                    "PINECONE_API_KEY": self._idx_key.get().strip() or "",
+                    "PINECONE_INDEX_NAME": self._idx_name.get().strip() or "",
+                },
+            )
+            self._idx_status.set("Shranjeno — ob spremembi indeksa znova zaženite strežnik.")
+        except OSError as exc:
+            self._idx_status.set(f"Napaka: {exc}")
+
+    def _idx_reindex(self) -> None:
+        if self._idx_busy:
+            return
+        base = self._idx_base.get().strip().rstrip("/")
+        if not base:
+            self._idx_status.set("Vnesite naslov API.")
+            return
+        url = f"{base}/upsert/all"
+        self._idx_busy = True
+        self._btn_idx_reindex.configure(state=tk.DISABLED)
+        self._idx_status.set("Poteka upsert … (lahko traja dlje)")
+
+        def work() -> None:
+            ok = False
+            raw = ""
+            try:
+                req = urllib.request.Request(url, method="GET")
+                with urllib.request.urlopen(req, timeout=7200) as resp:
+                    ok = True
+                    raw = resp.read().decode("utf-8", errors="replace")
+            except urllib.error.HTTPError as exc:
+                try:
+                    raw = exc.read().decode("utf-8", errors="replace")
+                except OSError:
+                    raw = str(exc)
+                raw = f"HTTP {exc.code}\n{raw}"
+            except Exception as exc:
+                raw = str(exc)
+            self.after(0, lambda o=ok, t=raw: self._idx_reindex_done(o, t))
+
+        threading.Thread(target=work, daemon=True).start()
+
+    def _idx_reindex_done(self, ok: bool, text: str) -> None:
+        self._idx_busy = False
+        self._btn_idx_reindex.configure(state=tk.NORMAL)
+        if ok:
+            self._idx_status.set("Upsert končan.")
+        else:
+            self._idx_status.set("Upsert ni uspel (glej spodaj).")
+        display = text
+        if text.strip():
+            try:
+                display = json.dumps(json.loads(text), indent=2, ensure_ascii=False)
+            except (json.JSONDecodeError, ValueError):
+                pass
+        self._idx_out.configure(state=tk.NORMAL)
+        self._idx_out.delete("1.0", tk.END)
+        self._idx_out.insert(tk.END, display or "(prazen odgovor)")
+        self._idx_out.configure(state=tk.DISABLED)
+
+    def _build_documents_page(self) -> None:
+        page = tk.Frame(self._container, bg=COLORS["bg"])
+        self._pages["documents"] = page
+        self._page_header(page, "Dokumenti")
+
+        body = tk.Frame(page, bg=COLORS["bg"])
+        body.pack(fill=tk.BOTH, expand=True, padx=28, pady=20)
+
+        card = tk.Frame(body, bg=COLORS["card"], highlightbackground=COLORS["border"], highlightthickness=1)
+        card.pack(fill=tk.BOTH, expand=True)
+
+        pad = tk.Frame(card, bg=COLORS["card"])
+        pad.pack(fill=tk.BOTH, expand=True, padx=20, pady=18)
+
+        tk.Label(
+            pad,
+            text="Mapa z datotekami .txt in .csv. Pot lahko nastavite z .env ključem DATA_DOCUMENTS_DIR "
+            "(absolutna ali relativna na koren projekta). Po spremembi znova zaženite strežnik; za Pinecone še »Posodobi indeks«.",
+            font=("Segoe UI", 9),
+            fg=COLORS["muted"],
+            bg=COLORS["card"],
+            wraplength=820,
+            justify=tk.LEFT,
+        ).pack(anchor=tk.W, pady=(0, 14))
+
+        self._doc_path = tk.StringVar(value=str(REPO_ROOT / "data" / "documents"))
+        path_row = tk.Frame(pad, bg=COLORS["card"])
+        path_row.pack(fill=tk.X, pady=(0, 8))
+        tk.Label(path_row, text="Mapa dokumentov", font=self._subtitle_font, fg=COLORS["muted"], bg=COLORS["card"], width=18, anchor=tk.W).pack(
+            side=tk.LEFT, padx=(0, 10)
+        )
+        tk.Entry(
+            path_row,
+            textvariable=self._doc_path,
+            font=self._body_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg"],
+            insertbackground=COLORS["text"],
+            highlightthickness=1,
+            highlightbackground=COLORS["border"],
+            highlightcolor=COLORS["accent"],
+            bd=0,
+        ).pack(side=tk.LEFT, fill=tk.X, expand=True, ipady=5, ipadx=6)
+        tk.Button(
+            path_row,
+            text="Izberi …",
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg_elevated"],
+            activebackground=COLORS["border"],
+            highlightthickness=0,
+            bd=0,
+            padx=12,
+            pady=6,
+            cursor="hand2",
+            command=self._doc_browse,
+        ).pack(side=tk.LEFT, padx=(8, 0))
+
+        btn_row = tk.Frame(pad, bg=COLORS["card"])
+        btn_row.pack(fill=tk.X, pady=(0, 10))
+        tk.Button(
+            btn_row,
+            text="Shrani v .env",
+            font=self._nav_font,
+            fg="#ffffff",
+            bg=COLORS["accent"],
+            activeforeground="#ffffff",
+            activebackground=COLORS["accent_hover"],
+            highlightthickness=0,
+            bd=0,
+            padx=18,
+            pady=10,
+            cursor="hand2",
+            command=self._doc_save,
+        ).pack(side=tk.LEFT, padx=(0, 10))
+        tk.Button(
+            btn_row,
+            text="Naloži iz .env",
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg_elevated"],
+            highlightthickness=0,
+            bd=0,
+            padx=14,
+            pady=8,
+            cursor="hand2",
+            command=self._doc_load,
+        ).pack(side=tk.LEFT, padx=(0, 10))
+        tk.Button(
+            btn_row,
+            text="Osveži seznam",
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg_elevated"],
+            highlightthickness=0,
+            bd=0,
+            padx=14,
+            pady=8,
+            cursor="hand2",
+            command=self._doc_refresh_list,
+        ).pack(side=tk.LEFT, padx=(0, 10))
+        tk.Button(
+            btn_row,
+            text="Odpri mapo",
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg_elevated"],
+            highlightthickness=0,
+            bd=0,
+            padx=14,
+            pady=8,
+            cursor="hand2",
+            command=self._doc_open_folder,
+        ).pack(side=tk.LEFT)
+
+        self._doc_status = tk.StringVar(value="")
+        tk.Label(
+            pad,
+            textvariable=self._doc_status,
+            font=self._subtitle_font,
+            fg=COLORS["muted"],
+            bg=COLORS["card"],
+            anchor=tk.W,
+        ).pack(fill=tk.X, pady=(0, 8))
+
+        tk.Label(pad, text="Datoteke .txt in .csv v mapi", font=self._subtitle_font, fg=COLORS["muted"], bg=COLORS["card"], anchor=tk.W).pack(
+            fill=tk.X
+        )
+        list_frame = tk.Frame(pad, bg=COLORS["card"])
+        list_frame.pack(fill=tk.BOTH, expand=True)
+        sb = tk.Scrollbar(list_frame)
+        sb.pack(side=tk.RIGHT, fill=tk.Y)
+        self._doc_list = tk.Listbox(
+            list_frame,
+            font=("Consolas", 10),
+            fg=COLORS["text"],
+            bg="#1e1c24",
+            selectbackground=COLORS["accent"],
+            highlightthickness=1,
+            highlightbackground=COLORS["border"],
+            bd=0,
+            yscrollcommand=sb.set,
+        )
+        self._doc_list.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        sb.config(command=self._doc_list.yview)
+
+        self._doc_load()
+        self._doc_refresh_list()
+
+    def _doc_resolved_dir(self) -> Path:
+        raw = self._doc_path.get().strip()
+        if not raw:
+            return (REPO_ROOT / "data" / "documents").resolve()
+        p = Path(raw)
+        if not p.is_absolute():
+            p = (REPO_ROOT / p).resolve()
+        return p
+
+    def _doc_browse(self) -> None:
+        initial = self._doc_resolved_dir()
+        if not initial.is_dir():
+            initial = REPO_ROOT
+        picked = filedialog.askdirectory(title="Mapa z dokumenti", initialdir=str(initial))
+        if picked:
+            self._doc_path.set(picked)
+            self._doc_refresh_list()
+
+    def _doc_load(self) -> None:
+        d = read_env(self._env_path)
+        env_p = d.get("DATA_DOCUMENTS_DIR", "").strip()
+        if env_p:
+            self._doc_path.set(env_p)
+        else:
+            self._doc_path.set(str((REPO_ROOT / "data" / "documents").resolve()))
+        self._doc_status.set(f"Naloženo iz {self._env_path}")
+        self._doc_refresh_list()
+
+    def _doc_save(self) -> None:
+        try:
+            resolved = self._doc_resolved_dir()
+            # shranimo absolutno pot za nedvoumnost
+            update_env_keys(
+                self._env_path,
+                {"DATA_DOCUMENTS_DIR": str(resolved)},
+            )
+            self._doc_path.set(str(resolved))
+            self._doc_status.set("Shranjeno — znova zaženite strežnik.")
+            self._doc_refresh_list()
+        except OSError as exc:
+            self._doc_status.set(f"Napaka: {exc}")
+
+    def _doc_refresh_list(self) -> None:
+        self._doc_list.delete(0, tk.END)
+        folder = self._doc_resolved_dir()
+        if not folder.is_dir():
+            self._doc_list.insert(tk.END, f"(mapa ne obstaja: {folder})")
+            return
+        names = sorted(
+            f.name
+            for f in folder.iterdir()
+            if f.is_file() and f.suffix.lower() in {".txt", ".csv"}
+        )
+        if not names:
+            self._doc_list.insert(tk.END, "(ni datotek .txt / .csv)")
+            return
+        for n in names:
+            self._doc_list.insert(tk.END, n)
+
+    def _doc_open_folder(self) -> None:
+        folder = self._doc_resolved_dir()
+        if not folder.is_dir():
+            self._doc_status.set("Mapa ne obstaja.")
+            return
+        path = str(folder)
+        try:
+            system = platform.system()
+            if system == "Windows":
+                os.startfile(path)
+            elif system == "Darwin":
+                subprocess.Popen(["open", path])
+            else:
+                subprocess.Popen(["xdg-open", path])
+            self._doc_status.set("Mapa odprta v sistemu.")
+        except OSError as exc:
+            self._doc_status.set(f"Ni mogoče odpreti: {exc}")
+
     def _build_placeholders(self) -> None:
         titles = {
-            "documents": "Dokumenti",
             "groups": "Skupine",
             "users": "Uporabniki",
             "permissions": "Pravice do dokumentov",
-            "index": "Indeks (Pinecone)",
             "backup": "Varnostno kopiranje",
         }
         for key, title in titles.items():

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import sqlite3
 from pathlib import Path
 from typing import Any
@@ -20,7 +21,20 @@ class Db:
         project_root = Path(__file__).resolve().parents[1]
         self.schema_path = schema_path or str(Path(__file__).with_name("sqlite_init.sql"))
         self.seed_path = seed_path or str(Path(__file__).with_name("seed.sql"))
-        self.data_documents_dir = data_documents_dir or str(project_root / "data" / "documents")
+        if data_documents_dir is not None:
+            p = Path(data_documents_dir)
+            if not p.is_absolute():
+                p = (project_root / p).resolve()
+            self.data_documents_dir = str(p)
+        else:
+            env_dir = os.getenv("DATA_DOCUMENTS_DIR", "").strip()
+            if env_dir:
+                p = Path(env_dir)
+                if not p.is_absolute():
+                    p = (project_root / p).resolve()
+                self.data_documents_dir = str(p)
+            else:
+                self.data_documents_dir = str((project_root / "data" / "documents").resolve())
         self.data_permissions_path = data_permissions_path or str(project_root / "data" / "permissions.json")
 
         Path(db_path).parent.mkdir(parents=True, exist_ok=True)

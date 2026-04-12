@@ -170,6 +170,7 @@ async def upsert_all_endpoint():
         db=app.state.db,
         index=app.state.index,
         model=app.state.model,
+        documents_dir=app.state.db.data_documents_dir,
     )
     return {"status": "ok", "summary": summary}
 
