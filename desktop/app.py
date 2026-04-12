@@ -69,6 +69,8 @@ class SinjiDesktopApp(tk.Tk):
         self._build_index_page()
         self._build_documents_page()
         self._build_groups_page()
+        self._build_users_page()
+        self._build_permissions_page()
         self._build_placeholders()
 
         self.protocol("WM_DELETE_WINDOW", self._on_close_window)
@@ -119,7 +121,6 @@ class SinjiDesktopApp(tk.Tk):
             ("ai", "AI / LLM"),
             ("index", "Indeks (Pinecone)"),
             ("server", "Strežnik in omrežje"),
-            ("backup", "Varnostno kopiranje"),
             ("logs", "Dnevnik / konzola"),
         ]
 
@@ -1206,6 +1207,658 @@ class SinjiDesktopApp(tk.Tk):
 
         return Db(db_path=str(REPO_ROOT / "DB" / "app.db"), init_schema_on_start=False)
 
+    def _hash_password_plain(self, password: str) -> str:
+        try:
+            from API.auth import hash_password
+        except ImportError:
+            root = str(REPO_ROOT)
+            if root not in sys.path:
+                sys.path.insert(0, root)
+            from API.auth import hash_password
+
+        return hash_password(password)
+
+    def _build_users_page(self) -> None:
+        page = tk.Frame(self._container, bg=COLORS["bg"])
+        self._pages["users"] = page
+        self._page_header(page, "Uporabniki")
+
+        body = tk.Frame(page, bg=COLORS["bg"])
+        body.pack(fill=tk.BOTH, expand=True, padx=28, pady=20)
+
+        card = tk.Frame(body, bg=COLORS["card"], highlightbackground=COLORS["border"], highlightthickness=1)
+        card.pack(fill=tk.BOTH, expand=True)
+
+        pad = tk.Frame(card, bg=COLORS["card"])
+        pad.pack(fill=tk.BOTH, expand=True, padx=20, pady=18)
+
+        tk.Label(
+            pad,
+            text="SQLite: users + user_group. Gesla se hashirajo kot pri /auth/register (passlib). "
+            "Med urejanjem je bolje ustaviti API strežnik.",
+            font=("Segoe UI", 9),
+            fg=COLORS["muted"],
+            bg=COLORS["card"],
+            wraplength=820,
+            justify=tk.LEFT,
+        ).pack(anchor=tk.W, pady=(0, 12))
+
+        self._usr_rows: list[tuple[int, str]] = []
+        self._usr_grp_vars: list[tuple[int, tk.IntVar]] = []
+
+        mid = tk.Frame(pad, bg=COLORS["card"])
+        mid.pack(fill=tk.BOTH, expand=True, pady=(0, 12))
+
+        left = tk.LabelFrame(
+            mid,
+            text="Računi",
+            font=self._subtitle_font,
+            fg=COLORS["accent"],
+            bg=COLORS["card"],
+            bd=0,
+            highlightthickness=0,
+        )
+        left.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(0, 14))
+        ul_sb = tk.Scrollbar(left)
+        ul_sb.pack(side=tk.RIGHT, fill=tk.Y)
+        self._usr_list = tk.Listbox(
+            left,
+            font=("Segoe UI", 11),
+            fg=COLORS["text"],
+            bg="#1e1c24",
+            selectbackground=COLORS["accent"],
+            highlightthickness=1,
+            highlightbackground=COLORS["border"],
+            bd=0,
+            height=12,
+            yscrollcommand=ul_sb.set,
+        )
+        self._usr_list.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        ul_sb.config(command=self._usr_list.yview)
+        self._usr_list.bind("<<ListboxSelect>>", self._usr_on_select)
+
+        right = tk.LabelFrame(
+            mid,
+            text="Skupine izbranega uporabnika",
+            font=self._subtitle_font,
+            fg=COLORS["accent"],
+            bg=COLORS["card"],
+            bd=0,
+            highlightthickness=0,
+        )
+        right.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        self._usr_grp_frame = tk.Frame(right, bg=COLORS["card"])
+        self._usr_grp_frame.pack(fill=tk.BOTH, expand=True, pady=(4, 8), padx=4)
+
+        tk.Button(
+            right,
+            text="Shrani skupine",
+            font=self._subtitle_font,
+            fg="#ffffff",
+            bg=COLORS["accent"],
+            activebackground=COLORS["accent_hover"],
+            highlightthickness=0,
+            bd=0,
+            padx=14,
+            pady=8,
+            cursor="hand2",
+            command=self._usr_save_groups,
+        ).pack(anchor=tk.W, pady=(0, 4))
+
+        add_fr = tk.LabelFrame(
+            pad,
+            text="Nov uporabnik",
+            font=self._subtitle_font,
+            fg=COLORS["muted"],
+            bg=COLORS["card"],
+            bd=0,
+            highlightthickness=0,
+        )
+        add_fr.pack(fill=tk.X, pady=(0, 10))
+        r1 = tk.Frame(add_fr, bg=COLORS["card"])
+        r1.pack(fill=tk.X, pady=6, padx=4)
+        tk.Label(r1, text="Ime", font=self._subtitle_font, fg=COLORS["muted"], bg=COLORS["card"], width=12, anchor=tk.W).pack(
+            side=tk.LEFT, padx=(0, 8)
+        )
+        self._usr_new_name = tk.StringVar()
+        tk.Entry(
+            r1,
+            textvariable=self._usr_new_name,
+            font=self._body_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg"],
+            insertbackground=COLORS["text"],
+            highlightthickness=1,
+            highlightbackground=COLORS["border"],
+            highlightcolor=COLORS["accent"],
+            bd=0,
+        ).pack(side=tk.LEFT, fill=tk.X, expand=True, ipady=4, ipadx=6)
+        r2 = tk.Frame(add_fr, bg=COLORS["card"])
+        r2.pack(fill=tk.X, pady=6, padx=4)
+        tk.Label(r2, text="Geslo (≥6)", font=self._subtitle_font, fg=COLORS["muted"], bg=COLORS["card"], width=12, anchor=tk.W).pack(
+            side=tk.LEFT, padx=(0, 8)
+        )
+        self._usr_new_pw = tk.StringVar()
+        tk.Entry(
+            r2,
+            textvariable=self._usr_new_pw,
+            font=self._body_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg"],
+            show="*",
+            insertbackground=COLORS["text"],
+            highlightthickness=1,
+            highlightbackground=COLORS["border"],
+            highlightcolor=COLORS["accent"],
+            bd=0,
+        ).pack(side=tk.LEFT, fill=tk.X, expand=True, ipady=4, ipadx=6)
+        tk.Button(
+            add_fr,
+            text="Ustvari račun",
+            font=self._subtitle_font,
+            fg="#ffffff",
+            bg=COLORS["accent"],
+            highlightthickness=0,
+            bd=0,
+            padx=14,
+            pady=8,
+            cursor="hand2",
+            command=self._usr_add,
+        ).pack(anchor=tk.W, padx=4, pady=(0, 8))
+
+        pw_fr = tk.LabelFrame(
+            pad,
+            text="Novo geslo (izbran uporabnik)",
+            font=self._subtitle_font,
+            fg=COLORS["muted"],
+            bg=COLORS["card"],
+            bd=0,
+            highlightthickness=0,
+        )
+        pw_fr.pack(fill=tk.X, pady=(0, 10))
+        r3 = tk.Frame(pw_fr, bg=COLORS["card"])
+        r3.pack(fill=tk.X, pady=6, padx=4)
+        self._usr_chg_pw = tk.StringVar()
+        tk.Entry(
+            r3,
+            textvariable=self._usr_chg_pw,
+            font=self._body_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg"],
+            show="*",
+            insertbackground=COLORS["text"],
+            highlightthickness=1,
+            highlightbackground=COLORS["border"],
+            highlightcolor=COLORS["accent"],
+            bd=0,
+        ).pack(side=tk.LEFT, fill=tk.X, expand=True, ipady=4, ipadx=6)
+        tk.Button(
+            r3,
+            text="Posodobi geslo",
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg_elevated"],
+            highlightthickness=0,
+            bd=0,
+            padx=12,
+            pady=6,
+            cursor="hand2",
+            command=self._usr_update_password,
+        ).pack(side=tk.LEFT, padx=(10, 0))
+
+        btn_row = tk.Frame(pad, bg=COLORS["card"])
+        btn_row.pack(fill=tk.X, pady=(4, 8))
+        tk.Button(
+            btn_row,
+            text="Osveži seznam",
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg_elevated"],
+            highlightthickness=0,
+            bd=0,
+            padx=14,
+            pady=8,
+            cursor="hand2",
+            command=self._usr_refresh_all,
+        ).pack(side=tk.LEFT, padx=(0, 10))
+        tk.Button(
+            btn_row,
+            text="Izbriši izbranega",
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg="#5c3030",
+            activebackground="#703838",
+            highlightthickness=0,
+            bd=0,
+            padx=14,
+            pady=8,
+            cursor="hand2",
+            command=self._usr_delete,
+        ).pack(side=tk.LEFT)
+
+        self._usr_status = tk.StringVar(value="")
+        tk.Label(
+            pad,
+            textvariable=self._usr_status,
+            font=self._subtitle_font,
+            fg=COLORS["muted"],
+            bg=COLORS["card"],
+            anchor=tk.W,
+        ).pack(fill=tk.X)
+
+        self._usr_refresh_all()
+
+    def _usr_selected_id(self) -> int | None:
+        idxs = self._usr_list.curselection()
+        if not idxs:
+            return None
+        return self._usr_rows[idxs[0]][0]
+
+    def _usr_refresh_users_list(self, keep_selection_id: int | None = None) -> None:
+        self._usr_list.delete(0, tk.END)
+        self._usr_rows = []
+        db = self._groups_db()
+        try:
+            rows = db.list_users()
+        except Exception as exc:
+            self._usr_status.set(f"Napaka: {exc}")
+        else:
+            self._usr_rows = [(int(r["id"]), r["name"]) for r in rows]
+            for _uid, name in self._usr_rows:
+                self._usr_list.insert(tk.END, name)
+            if keep_selection_id is not None:
+                for i, (uid, _) in enumerate(self._usr_rows):
+                    if uid == keep_selection_id:
+                        self._usr_list.selection_set(i)
+                        self._usr_list.see(i)
+                        break
+            self._usr_status.set(f"{len(self._usr_rows)} uporabnikov")
+        finally:
+            db.close()
+
+    def _usr_rebuild_group_checks(self) -> None:
+        for w in self._usr_grp_frame.winfo_children():
+            w.destroy()
+        self._usr_grp_vars = []
+        db = self._groups_db()
+        try:
+            groups = db.list_groups()
+        except Exception as exc:
+            tk.Label(
+                self._usr_grp_frame,
+                text=str(exc),
+                font=self._subtitle_font,
+                fg="#f87171",
+                bg=COLORS["card"],
+            ).pack(anchor=tk.W)
+            return
+        finally:
+            db.close()
+        if not groups:
+            tk.Label(
+                self._usr_grp_frame,
+                text="Ni definiranih skupin (najprej jih dodajte v modulu Skupine).",
+                font=self._subtitle_font,
+                fg=COLORS["muted"],
+                bg=COLORS["card"],
+                wraplength=320,
+                justify=tk.LEFT,
+            ).pack(anchor=tk.W)
+            return
+        for g in groups:
+            gid = int(g["id"])
+            var = tk.IntVar(value=0)
+            self._usr_grp_vars.append((gid, var))
+            tk.Checkbutton(
+                self._usr_grp_frame,
+                text=g["name"],
+                variable=var,
+                font=self._subtitle_font,
+                fg=COLORS["text"],
+                bg=COLORS["card"],
+                selectcolor=COLORS["bg"],
+                activebackground=COLORS["card"],
+            ).pack(anchor=tk.W, pady=2)
+
+    def _usr_on_select(self, _event: tk.Event | None = None) -> None:
+        uid = self._usr_selected_id()
+        if uid is None:
+            for _gid, var in self._usr_grp_vars:
+                var.set(0)
+            return
+        db = self._groups_db()
+        try:
+            member = set(db.get_user_group_ids(uid))
+        except Exception:
+            member = set()
+        finally:
+            db.close()
+        for gid, var in self._usr_grp_vars:
+            var.set(1 if gid in member else 0)
+
+    def _usr_refresh_all(self) -> None:
+        keep = self._usr_selected_id()
+        self._usr_refresh_users_list(keep_selection_id=keep)
+        self._usr_rebuild_group_checks()
+        self._usr_on_select()
+
+    def _usr_save_groups(self) -> None:
+        uid = self._usr_selected_id()
+        if uid is None:
+            messagebox.showinfo("Uporabniki", "Izberite uporabnika na seznamu.")
+            return
+        chosen = [gid for gid, var in self._usr_grp_vars if var.get()]
+        db = self._groups_db()
+        try:
+            db.set_user_groups(uid, chosen)
+            self._usr_status.set("Skupine shranjene.")
+        except Exception as exc:
+            messagebox.showerror("Uporabniki", str(exc))
+        finally:
+            db.close()
+
+    def _usr_add(self) -> None:
+        name = self._usr_new_name.get().strip()
+        pw = self._usr_new_pw.get()
+        if len(name) < 3:
+            messagebox.showwarning("Uporabniki", "Ime mora imeti vsaj 3 znake.")
+            return
+        if len(pw) < 6:
+            messagebox.showwarning("Uporabniki", "Geslo mora imeti vsaj 6 znakov.")
+            return
+        db = self._groups_db()
+        try:
+            db.create_user(name, self._hash_password_plain(pw))
+            self._usr_new_name.set("")
+            self._usr_new_pw.set("")
+            self._usr_status.set("Uporabnik ustvarjen.")
+            self._usr_refresh_all()
+        except sqlite3.IntegrityError:
+            messagebox.showerror("Uporabniki", "To uporabniško ime že obstaja.")
+        except Exception as exc:
+            messagebox.showerror("Uporabniki", str(exc))
+        finally:
+            db.close()
+
+    def _usr_update_password(self) -> None:
+        uid = self._usr_selected_id()
+        if uid is None:
+            messagebox.showinfo("Uporabniki", "Izberite uporabnika.")
+            return
+        pw = self._usr_chg_pw.get()
+        if len(pw) < 6:
+            messagebox.showwarning("Uporabniki", "Novo geslo mora imeti vsaj 6 znakov.")
+            return
+        db = self._groups_db()
+        try:
+            db.update_user_password(uid, self._hash_password_plain(pw))
+            self._usr_chg_pw.set("")
+            self._usr_status.set("Geslo posodobljeno.")
+        except ValueError as exc:
+            messagebox.showerror("Uporabniki", str(exc))
+        finally:
+            db.close()
+
+    def _usr_delete(self) -> None:
+        uid = self._usr_selected_id()
+        if uid is None:
+            messagebox.showinfo("Uporabniki", "Izberite uporabnika.")
+            return
+        name = self._usr_rows[self._usr_list.curselection()[0]][1]
+        if not messagebox.askyesno(
+            "Uporabniki",
+            f"Izbrisati uporabnika »{name}«? Klepeti in sporočila bodo odstranjeni (CASCADE).",
+        ):
+            return
+        db = self._groups_db()
+        try:
+            if db.delete_user(uid):
+                self._usr_status.set("Uporabnik izbrisan.")
+                self._usr_chg_pw.set("")
+            else:
+                messagebox.showwarning("Uporabniki", "Uporabnik ni bil najden.")
+            self._usr_refresh_all()
+        finally:
+            db.close()
+
+    def _build_permissions_page(self) -> None:
+        page = tk.Frame(self._container, bg=COLORS["bg"])
+        self._pages["permissions"] = page
+        self._page_header(page, "Pravice do dokumentov")
+
+        body = tk.Frame(page, bg=COLORS["bg"])
+        body.pack(fill=tk.BOTH, expand=True, padx=28, pady=20)
+
+        card = tk.Frame(body, bg=COLORS["card"], highlightbackground=COLORS["border"], highlightthickness=1)
+        card.pack(fill=tk.BOTH, expand=True)
+
+        pad = tk.Frame(card, bg=COLORS["card"])
+        pad.pack(fill=tk.BOTH, expand=True, padx=20, pady=18)
+
+        tk.Label(
+            pad,
+            text="Za vsak dokument v bazi izberete, katere skupine ga smejo videti pri iskanju (RAG). "
+            "Podatki so v SQLite (document_group); ob shranjevanju se posodobi tudi data/permissions.json "
+            "(ista oblika kot pri seedu). Če dokumentu ne označite nobene skupine, ga filtri ne prikažejo nikomur. "
+            "Metapodatki v indeksu (Pinecone) se ob tem ne spremenijo sami — po spremembi pravic v modulu "
+            "Pinecone zaženite posodobitev indeksa, da se allowed_groups ujemajo z bazo.",
+            font=("Segoe UI", 9),
+            fg=COLORS["muted"],
+            bg=COLORS["card"],
+            wraplength=820,
+            justify=tk.LEFT,
+        ).pack(anchor=tk.W, pady=(0, 12))
+
+        self._perm_doc_rows: list[tuple[int, str]] = []
+        self._perm_grp_vars: list[tuple[int, tk.IntVar]] = []
+
+        mid = tk.Frame(pad, bg=COLORS["card"])
+        mid.pack(fill=tk.BOTH, expand=True, pady=(0, 12))
+
+        left = tk.LabelFrame(
+            mid,
+            text="Dokumenti (SQLite)",
+            font=self._subtitle_font,
+            fg=COLORS["accent"],
+            bg=COLORS["card"],
+            bd=0,
+            highlightthickness=0,
+        )
+        left.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(0, 14))
+        pl_sb = tk.Scrollbar(left)
+        pl_sb.pack(side=tk.RIGHT, fill=tk.Y)
+        self._perm_doc_list = tk.Listbox(
+            left,
+            font=("Segoe UI", 11),
+            fg=COLORS["text"],
+            bg="#1e1c24",
+            selectbackground=COLORS["accent"],
+            highlightthickness=1,
+            highlightbackground=COLORS["border"],
+            bd=0,
+            height=12,
+            yscrollcommand=pl_sb.set,
+        )
+        self._perm_doc_list.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        pl_sb.config(command=self._perm_doc_list.yview)
+        self._perm_doc_list.bind("<<ListboxSelect>>", self._perm_on_select)
+
+        right = tk.LabelFrame(
+            mid,
+            text="Dovoljene skupine za izbran dokument",
+            font=self._subtitle_font,
+            fg=COLORS["accent"],
+            bg=COLORS["card"],
+            bd=0,
+            highlightthickness=0,
+        )
+        right.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        self._perm_grp_frame = tk.Frame(right, bg=COLORS["card"])
+        self._perm_grp_frame.pack(fill=tk.BOTH, expand=True, pady=(4, 8), padx=4)
+
+        tk.Button(
+            right,
+            text="Shrani pravice in JSON",
+            font=self._subtitle_font,
+            fg="#ffffff",
+            bg=COLORS["accent"],
+            activebackground=COLORS["accent_hover"],
+            highlightthickness=0,
+            bd=0,
+            padx=14,
+            pady=8,
+            cursor="hand2",
+            command=self._perm_save,
+        ).pack(anchor=tk.W, pady=(0, 4))
+
+        btn_row = tk.Frame(pad, bg=COLORS["card"])
+        btn_row.pack(fill=tk.X, pady=(4, 8))
+        tk.Button(
+            btn_row,
+            text="Osveži seznam",
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg_elevated"],
+            highlightthickness=0,
+            bd=0,
+            padx=14,
+            pady=8,
+            cursor="hand2",
+            command=self._perm_refresh_all,
+        ).pack(side=tk.LEFT, padx=(0, 10))
+
+        self._perm_status = tk.StringVar(value="")
+        tk.Label(
+            pad,
+            textvariable=self._perm_status,
+            font=self._subtitle_font,
+            fg=COLORS["muted"],
+            bg=COLORS["card"],
+            anchor=tk.W,
+        ).pack(fill=tk.X)
+
+        self._perm_refresh_all()
+
+    def _perm_selected_doc_id(self) -> int | None:
+        idxs = self._perm_doc_list.curselection()
+        if not idxs:
+            return None
+        return self._perm_doc_rows[idxs[0]][0]
+
+    def _perm_refresh_docs_list(self, keep_selection_id: int | None = None) -> None:
+        self._perm_doc_list.delete(0, tk.END)
+        self._perm_doc_rows = []
+        db = self._groups_db()
+        try:
+            rows = db.list_document_permissions()
+        except Exception as exc:
+            self._perm_status.set(f"Napaka: {exc}")
+        else:
+            self._perm_doc_rows = [(int(r["document_id"]), str(r["document_name"])) for r in rows]
+            for _did, name in self._perm_doc_rows:
+                self._perm_doc_list.insert(tk.END, name)
+            if keep_selection_id is not None:
+                for i, (did, _) in enumerate(self._perm_doc_rows):
+                    if did == keep_selection_id:
+                        self._perm_doc_list.selection_set(i)
+                        self._perm_doc_list.see(i)
+                        break
+            db_path = REPO_ROOT / "DB" / "app.db"
+            json_path = Path(db.data_permissions_path)
+            self._perm_status.set(
+                f"{len(self._perm_doc_rows)} dokumentov — {db_path} · JSON: {json_path}"
+            )
+        finally:
+            db.close()
+
+    def _perm_rebuild_group_checks(self) -> None:
+        for w in self._perm_grp_frame.winfo_children():
+            w.destroy()
+        self._perm_grp_vars = []
+        db = self._groups_db()
+        try:
+            groups = db.list_groups()
+        except Exception as exc:
+            tk.Label(
+                self._perm_grp_frame,
+                text=str(exc),
+                font=self._subtitle_font,
+                fg="#f87171",
+                bg=COLORS["card"],
+            ).pack(anchor=tk.W)
+            return
+        finally:
+            db.close()
+        if not groups:
+            tk.Label(
+                self._perm_grp_frame,
+                text="Ni definiranih skupin (najprej jih dodajte v modulu Skupine).",
+                font=self._subtitle_font,
+                fg=COLORS["muted"],
+                bg=COLORS["card"],
+                wraplength=320,
+                justify=tk.LEFT,
+            ).pack(anchor=tk.W)
+            return
+        for g in groups:
+            gid = int(g["id"])
+            var = tk.IntVar(value=0)
+            self._perm_grp_vars.append((gid, var))
+            tk.Checkbutton(
+                self._perm_grp_frame,
+                text=g["name"],
+                variable=var,
+                font=self._subtitle_font,
+                fg=COLORS["text"],
+                bg=COLORS["card"],
+                selectcolor=COLORS["bg"],
+                activebackground=COLORS["card"],
+            ).pack(anchor=tk.W, pady=2)
+
+    def _perm_on_select(self, _event: tk.Event | None = None) -> None:
+        did = self._perm_selected_doc_id()
+        if did is None:
+            for _gid, var in self._perm_grp_vars:
+                var.set(0)
+            return
+        db = self._groups_db()
+        try:
+            allowed = set(db.get_document_group_ids(did))
+        except Exception:
+            allowed = set()
+        finally:
+            db.close()
+        for gid, var in self._perm_grp_vars:
+            var.set(1 if gid in allowed else 0)
+
+    def _perm_refresh_all(self) -> None:
+        keep = self._perm_selected_doc_id()
+        self._perm_refresh_docs_list(keep_selection_id=keep)
+        self._perm_rebuild_group_checks()
+        self._perm_on_select()
+
+    def _perm_save(self) -> None:
+        did = self._perm_selected_doc_id()
+        if did is None:
+            messagebox.showinfo("Pravice", "Izberite dokument na seznamu.")
+            return
+        chosen = [gid for gid, var in self._perm_grp_vars if var.get()]
+        db = self._groups_db()
+        try:
+            db.set_document_groups(did, chosen)
+            db.sync_permissions_json_from_db()
+            self._perm_status.set("Pravice in permissions.json posodobljeni.")
+            messagebox.showinfo(
+                "Pravice",
+                "Shranjeno v bazo in v permissions.json.\n\n"
+                "Če uporabljate vektorski indeks, za usklajenost metapodatkov "
+                "(allowed_groups) zaženite še posodobitev indeksa v modulu Pinecone.",
+            )
+        except Exception as exc:
+            messagebox.showerror("Pravice", str(exc))
+        finally:
+            db.close()
+
     def _build_groups_page(self) -> None:
         page = tk.Frame(self._container, bg=COLORS["bg"])
         self._pages["groups"] = page
@@ -1451,14 +2104,7 @@ class SinjiDesktopApp(tk.Tk):
         finally:
             db.close()
 
-    def _build_placeholders(self) -> None:
-        titles = {
-            "users": "Uporabniki",
-            "permissions": "Pravice do dokumentov",
-            "backup": "Varnostno kopiranje",
-        }
-        for key, title in titles.items():
-            self._pages[key] = self._placeholder_page(title)
+
 
     def _placeholder_page(self, title: str) -> tk.Frame:
         page = tk.Frame(self._container, bg=COLORS["bg"])
