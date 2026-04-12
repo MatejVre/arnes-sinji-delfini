@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sinji Delfini — RAG chat</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a2332;
+      --border: #2d3a4d;
+      --text: #e7ecf3;
+      --muted: #8b9cb3;
+      --accent: #3d8bfd;
+      --accent-dim: #2563c4;
+      --danger: #f87171;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 1.25rem; }
+    h1 { font-size: 1.25rem; font-weight: 600; margin: 0 0 0.25rem; }
+    .sub { color: var(--muted); font-size: 0.875rem; margin-bottom: 1.5rem; }
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1rem;
+    }
+    label { display: block; font-size: 0.8rem; color: var(--muted); margin-bottom: 0.35rem; }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 0.55rem 0.65rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      margin-bottom: 0.75rem;
+    }
+    button {
+      cursor: pointer;
+      border: none;
+      border-radius: 6px;
+      padding: 0.55rem 1rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-primary:hover { background: var(--accent-dim); }
+    .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+    .btn-ghost { background: transparent; color: var(--muted); margin-left: 0.5rem; }
+    .row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+    .badge {
+      font-size: 0.75rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      background: var(--border);
+      color: var(--muted);
+    }
+    .err { color: var(--danger); font-size: 0.875rem; margin-top: 0.5rem; }
+    .messages { display: flex; flex-direction: column; gap: 0.75rem; max-height: min(58vh, 640px); overflow-y: auto; margin-bottom: 1rem; }
+    .msg { padding: 0.65rem 0.85rem; border-radius: 8px; max-width: 100%; }
+    .msg.user { background: #243044; align-self: flex-end; }
+    .msg.bot { background: #1e2a3d; border: 1px solid var(--border); align-self: stretch; }
+    .msg.bot h4 { margin: 0 0 0.5rem; font-size: 0.8rem; color: var(--muted); font-weight: 600; }
+    .bot-answer {
+      margin: 0 0 0.75rem;
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-size: 0.9375rem;
+      line-height: 1.55;
+      color: var(--text);
+    }
+    .sources-details {
+      margin-top: 0.5rem;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.18);
+      overflow: hidden;
+    }
+    .sources-details[open] {
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+    }
+    .sources-summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 0.7rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--text);
+      transition: background 0.15s ease;
+    }
+    .sources-summary:hover { background: rgba(61, 139, 253, 0.08); }
+    .sources-summary:focus { outline: none; }
+    .sources-summary:focus-visible {
+      box-shadow: inset 0 0 0 2px var(--accent);
+    }
+    .sources-summary::-webkit-details-marker { display: none; }
+    .sources-summary-left {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .sources-chevron {
+      flex-shrink: 0;
+      width: 1.25rem;
+      height: 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      transition: transform 0.2s ease, color 0.15s;
+    }
+    .sources-details[open] .sources-chevron {
+      transform: rotate(180deg);
+      color: var(--accent);
+    }
+    .sources-chevron svg { width: 14px; height: 14px; }
+    .sources-body {
+      padding: 0 1rem 1rem;
+      border-top: 1px solid var(--border);
+    }
+    .sources-hint {
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin: 0.65rem 0 0;
+      line-height: 1.45;
+    }
+    .chunk-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 0.75rem;
+      margin-top: 0.75rem;
+    }
+    .chunk-card {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.85rem;
+      background: var(--surface);
+      display: flex;
+      flex-direction: column;
+      min-height: 7.5rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .chunk-card:hover {
+      border-color: rgba(61, 139, 253, 0.35);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.28);
+    }
+    .chunk-card-header {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      font-weight: 700;
+      margin-bottom: 0.45rem;
+    }
+    .chunk-card-text {
+      font-size: 0.8125rem;
+      line-height: 1.5;
+      white-space: pre-wrap;
+      word-break: break-word;
+      flex: 1;
+      color: var(--text);
+    }
+    .chunk-card-meta {
+      font-size: 0.7rem;
+      color: var(--muted);
+      margin-top: 0.65rem;
+      padding-top: 0.55rem;
+      border-top: 1px solid var(--border);
+      line-height: 1.4;
+    }
+    .count-pill {
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.15rem 0.45rem;
+      border-radius: 999px;
+      background: var(--border);
+      color: var(--text);
+    }
+    textarea {
+      width: 100%;
+      min-height: 80px;
+      padding: 0.65rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      resize: vertical;
+      font-family: inherit;
+    }
+    .hidden { display: none !important; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Sinji Delfini</h1>
+    <p class="sub">Role-based RAG: answers use only chunks from documents your groups may access.</p>
+
+    <div id="login-panel" class="panel">
+      <p style="margin:0 0 1rem;font-size:0.9rem;color:var(--muted);">Sign in (seed users use password <code style="color:var(--text);">testing</code>).</p>
+      <label for="username">Username</label>
+      <input id="username" type="text" autocomplete="username" />
+      <label for="password">Password</label>
+      <input id="password" type="password" autocomplete="current-password" />
+      <div class="row">
+        <button type="button" class="btn-primary" id="btn-login">Log in</button>
+      </div>
+      <div id="login-err" class="err hidden"></div>
+    </div>
+
+    <div id="chat-panel" class="hidden">
+      <div class="panel row" style="justify-content: space-between;">
+        <div>
+          <strong id="me-name"></strong>
+          <span class="badge" id="me-groups"></span>
+        </div>
+        <button type="button" class="btn-ghost" id="btn-logout">Log out</button>
+      </div>
+
+      <div class="panel">
+        <div id="messages" class="messages"></div>
+        <label for="chat-input">Message</label>
+        <textarea id="chat-input" placeholder="Ask something related to your documents…"></textarea>
+        <div class="row" style="margin-top:0.75rem;">
+          <button type="button" class="btn-primary" id="btn-send">Send</button>
+        </div>
+        <div id="chat-err" class="err hidden"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const TOKEN_KEY = "sinji_access_token";
+
+    function getToken() {
+      return localStorage.getItem(TOKEN_KEY);
+    }
+
+    function setToken(t) {
+      if (t) localStorage.setItem(TOKEN_KEY, t);
+      else localStorage.removeItem(TOKEN_KEY);
+    }
+
+    async function api(path, options = {}) {
+      const headers = { "Content-Type": "application/json", ...(options.headers || {}) };
+      const token = getToken();
+      if (token) headers["Authorization"] = "Bearer " + token;
+      const res = await fetch(path, { ...options, headers });
+      const text = await res.text();
+      let data = null;
+      try {
+        data = text ? JSON.parse(text) : null;
+      } catch (_) {
+        data = { detail: text || res.statusText };
+      }
+      if (!res.ok) {
+        const msg = (data && data.detail) ? (Array.isArray(data.detail) ? data.detail.map((d) => d.msg || d).join(", ") : data.detail) : res.statusText;
+        throw new Error(msg);
+      }
+      return data;
+    }
+
+    const loginPanel = document.getElementById("login-panel");
+    const chatPanel = document.getElementById("chat-panel");
+    const loginErr = document.getElementById("login-err");
+    const chatErr = document.getElementById("chat-err");
+    const messagesEl = document.getElementById("messages");
+
+    function showLogin() {
+      loginPanel.classList.remove("hidden");
+      chatPanel.classList.add("hidden");
+      setToken(null);
+    }
+
+    function showChat() {
+      loginPanel.classList.add("hidden");
+      chatPanel.classList.remove("hidden");
+    }
+
+    function appendUser(text) {
+      const div = document.createElement("div");
+      div.className = "msg user";
+      div.textContent = text;
+      messagesEl.appendChild(div);
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+
+    function appendBot(reply, matches) {
+      const div = document.createElement("div");
+      div.className = "msg bot";
+      const h = document.createElement("h4");
+      h.textContent = "Assistant";
+      div.appendChild(h);
+      const answer = document.createElement("p");
+      answer.className = "bot-answer";
+      answer.textContent = reply && reply.trim() ? reply.trim() : "(Empty reply from model.)";
+      div.appendChild(answer);
+
+      const n = matches && matches.length ? matches.length : 0;
+      const details = document.createElement("details");
+      details.className = "sources-details";
+
+      const summary = document.createElement("summary");
+      summary.className = "sources-summary";
+      const left = document.createElement("span");
+      left.className = "sources-summary-left";
+      const label = document.createElement("span");
+      label.textContent = "Show source chunks";
+      const pill = document.createElement("span");
+      pill.className = "count-pill";
+      pill.textContent = n === 0 ? "None" : n + (n === 1 ? " chunk" : " chunks");
+      left.appendChild(label);
+      left.appendChild(pill);
+      const chev = document.createElement("span");
+      chev.className = "sources-chevron";
+      chev.setAttribute("aria-hidden", "true");
+      chev.innerHTML = '<svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 4.5L6 8l3.5-3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+      summary.appendChild(left);
+      summary.appendChild(chev);
+      details.appendChild(summary);
+
+      const body = document.createElement("div");
+      body.className = "sources-body";
+
+      if (!matches || !matches.length) {
+        const hint = document.createElement("p");
+        hint.className = "sources-hint";
+        hint.textContent =
+          "No chunks were retrieved for your roles, or none met the relevance threshold. The assistant was run with empty or minimal context.";
+        body.appendChild(hint);
+      } else {
+        const hint = document.createElement("p");
+        hint.className = "sources-hint";
+        hint.textContent =
+          "Grounding passages sent to the model (role-filtered). Each card is one vector chunk from your knowledge base.";
+        body.appendChild(hint);
+        const grid = document.createElement("div");
+        grid.className = "chunk-grid";
+        matches.forEach((m, i) => {
+          const meta = m.metadata || {};
+          const chunkText = meta.text != null ? String(meta.text) : "(No text in metadata)";
+          const card = document.createElement("article");
+          card.className = "chunk-card";
+          const head = document.createElement("div");
+          head.className = "chunk-card-header";
+          const docName = meta.document_name != null ? String(meta.document_name) : "Document";
+          head.textContent = "Chunk " + (i + 1) + " · " + docName;
+          const textEl = document.createElement("div");
+          textEl.className = "chunk-card-text";
+          textEl.textContent = chunkText;
+          const foot = document.createElement("div");
+          foot.className = "chunk-card-meta";
+          const scoreStr = m.score != null ? Number(m.score).toFixed(4) : "—";
+          let metaBits = "Similarity score: " + scoreStr;
+          if (meta.source) metaBits += " · Source: " + meta.source;
+          if (meta.allowed_groups != null) {
+            try {
+              metaBits += " · Groups: " + JSON.stringify(meta.allowed_groups);
+            } catch (_) {
+              metaBits += " · Groups: (unavailable)";
+            }
+          }
+          foot.textContent = metaBits;
+          card.appendChild(head);
+          card.appendChild(textEl);
+          card.appendChild(foot);
+          grid.appendChild(card);
+        });
+        body.appendChild(grid);
+      }
+      details.appendChild(body);
+      details.addEventListener("toggle", () => {
+        label.textContent = details.open ? "Hide source chunks" : "Show source chunks";
+      });
+      div.appendChild(details);
+
+      messagesEl.appendChild(div);
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+
+    document.getElementById("btn-login").onclick = async () => {
+      loginErr.classList.add("hidden");
+      const username = document.getElementById("username").value.trim();
+      const password = document.getElementById("password").value;
+      try {
+        const data = await api("/auth/login", {
+          method: "POST",
+          body: JSON.stringify({ username, password }),
+        });
+        setToken(data.access_token);
+        const me = await api("/auth/me");
+        document.getElementById("me-name").textContent = me.name;
+        document.getElementById("me-groups").textContent = (me.groups && me.groups.length) ? me.groups.join(", ") : "no groups";
+        messagesEl.innerHTML = "";
+        showChat();
+      } catch (e) {
+        loginErr.textContent = e.message;
+        loginErr.classList.remove("hidden");
+      }
+    };
+
+    document.getElementById("btn-logout").onclick = async () => {
+      try {
+        await api("/auth/logout", { method: "POST", body: "{}" });
+      } catch (_) {
+        /* ignore */
+      }
+      showLogin();
+    };
+
+    document.getElementById("btn-send").onclick = async () => {
+      chatErr.classList.add("hidden");
+      const input = document.getElementById("chat-input");
+      const text = input.value.trim();
+      if (!text) return;
+      input.value = "";
+      appendUser(text);
+      const btn = document.getElementById("btn-send");
+      btn.disabled = true;
+      try {
+        const data = await api("/chat", {
+          method: "POST",
+          body: JSON.stringify({ chat: text }),
+        });
+        appendBot(data.reply, data.allowed_matches);
+      } catch (e) {
+        chatErr.textContent = e.message;
+        chatErr.classList.remove("hidden");
+        if (e.message.includes("401") || e.message.toLowerCase().includes("token")) {
+          showLogin();
+        }
+      } finally {
+        btn.disabled = false;
+      }
+    };
+
+    document.getElementById("chat-input").addEventListener("keydown", (ev) => {
+      if (ev.key === "Enter" && !ev.shiftKey) {
+        ev.preventDefault();
+        document.getElementById("btn-send").click();
+      }
+    });
+
+    (async () => {
+      const token = getToken();
+      if (!token) return;
+      try {
+        const me = await api("/auth/me");
+        document.getElementById("me-name").textContent = me.name;
+        document.getElementById("me-groups").textContent = (me.groups && me.groups.length) ? me.groups.join(", ") : "no groups";
+        showChat();
+      } catch (_) {
+        showLogin();
+      }
+    })();
+  </script>
+</body>
+</html>

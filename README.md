@@ -8,6 +8,7 @@ From project root:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+pip install fastapi "uvicorn[standard]"
 ```
 
 Create/update `.env` with at least:

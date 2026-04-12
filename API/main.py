@@ -1,25 +1,27 @@
 import sqlite3
 from contextlib import asynccontextmanager
+from pathlib import Path
+
 from dotenv import load_dotenv
 from fastapi import Depends, FastAPI, HTTPException, status
+from fastapi.responses import RedirectResponse
+from fastapi.staticfiles import StaticFiles
+from openai import APIConnectionError, APIStatusError, RateLimitError
 from pydantic import BaseModel, Field
 
 from API.auth import create_access_token, get_current_user, hash_password, verify_password
 from DB.db import Db
 from LLM.llm import chat_with_model, create_llm_resources, generate_chat_name, preprocess_rag_data
 from RAG.acces_controll import adaptive_threshold_filter, filter_documents_by_permissions
-from RAG.retrieval import (
-    create_retrieval_resources,
-    find_suitable_documents,
-    normalize_retrieval_response,
-)
-from RAG.upsert import upsert_all_documents_from_db
+from RAG.openai_reply import generate_rag_reply
+from RAG.retrieval import find_suitable_documents, normalize_retrieval_response
+from RAG.upsert import create_upsert_resources, upsert_all_documents_from_db
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     load_dotenv()
     app.state.db = Db(init_schema_on_start=False)
-    index, model = create_retrieval_resources()
+    index, model = create_upsert_resources()
     app.state.index = index
     app.state.model = model
     app.state.llm_resources = create_llm_resources()
