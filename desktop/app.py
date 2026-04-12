@@ -71,7 +71,6 @@ class SinjiDesktopApp(tk.Tk):
         self._build_groups_page()
         self._build_users_page()
         self._build_permissions_page()
-        self._build_placeholders()
 
         self.protocol("WM_DELETE_WINDOW", self._on_close_window)
         self.after(120, self._drain_log_queue)
@@ -2103,43 +2102,6 @@ class SinjiDesktopApp(tk.Tk):
             self._grp_refresh()
         finally:
             db.close()
-
-
-
-    def _placeholder_page(self, title: str) -> tk.Frame:
-        page = tk.Frame(self._container, bg=COLORS["bg"])
-        self._page_header(page, title)
-
-        body = tk.Frame(page, bg=COLORS["bg"])
-        body.pack(fill=tk.BOTH, expand=True, padx=40, pady=32)
-
-        card = tk.Frame(body, bg=COLORS["card"], highlightbackground=COLORS["border"], highlightthickness=1)
-        card.pack(fill=tk.BOTH, expand=True)
-
-        inner = tk.Frame(card, bg=COLORS["card"])
-        inner.pack(expand=True, pady=48, padx=32)
-
-        tk.Label(
-            inner,
-            text="Ta modul bo na voljo v naslednji fazi.",
-            font=self._body_font,
-            fg=COLORS["text"],
-            bg=COLORS["card"],
-            wraplength=520,
-            justify=tk.CENTER,
-        ).pack()
-
-        tk.Label(
-            inner,
-            text="Tukaj boste urejali nastavitve in podatke za to področje.",
-            font=self._subtitle_font,
-            fg=COLORS["muted"],
-            bg=COLORS["card"],
-            wraplength=520,
-            justify=tk.CENTER,
-        ).pack(pady=(12, 0))
-
-        return page
 
     def show_page(self, name: str) -> None:
         for child in self._container.winfo_children():
