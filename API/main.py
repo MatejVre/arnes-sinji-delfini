@@ -234,15 +234,15 @@ async def chat_endpoint(payload: ChatRequest, current_user: dict = Depends(get_c
         user_message_with_context = payload.chat
         if groups_to_contact:
             llm_response = (
-                "Relevant documents were found in the index, but your account does not have access. "
-                "Ask your administrator or a member of one of these groups: "
+                "V indeksu so na voljo relevantni dokumenti, vaš račun pa do njih nima dostopa. "
+                "Obrnite se na skrbnika ali člane teh skupin: "
                 + ", ".join(groups_to_contact)
                 + "."
             )
         else:
             llm_response = (
-                "Relevant documents may exist, but your account does not have access "
-                "and no contact groups could be determined from metadata."
+                "Obstajajo ujemanja z dokumenti, vendar vaš račun nima dostopa; "
+                "iz metapodatkov ni bilo mogoče določiti kontaktnih skupin."
             )
 
     else:
@@ -262,7 +262,7 @@ async def chat_endpoint(payload: ChatRequest, current_user: dict = Depends(get_c
             if llm_mode == "api":
                 raise HTTPException(
                     status_code=status.HTTP_502_BAD_GATEWAY,
-                    detail=f"Upstream LLM provider error: {exc}",
+                    detail=f"Napaka ponudnika LLM: {exc}",
                 ) from exc
             raise
 

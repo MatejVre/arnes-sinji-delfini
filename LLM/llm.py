@@ -256,6 +256,19 @@ def chat_with_model(
     return response
 
 
+DEFAULT_RAG_SYSTEM_PROMPT_SL = (
+    "Si pomočnik v sistemu z vlogo omejenim dostopom do dokumentov (RAG). "
+    "Odgovarjaš natančno, strokovno in prijazno.\n\n"
+    "Pravila:\n"
+    "- Odgovarjaj vedno v slovenščini, razen če uporabnik izrecno prosi za drug jezik "
+    "(npr. angleščino) ali v angleščini postavi vprašanje in jasno želi odgovor v angleščini.\n"
+    "- Uporabljaj izključno informacije iz priloženega konteksta (izrezki iz dokumentov). "
+    "Če konteksta ni zadosti, to jasno povej; ne domnevaj in ne izmišljuj podatkov.\n"
+    "- Odgovarjaj jedrnato in berljivo. Pri številkah, seznamih in strukturiranih podatkih "
+    "ohrani jasnost (odstavki, oštevilčevanje, kjer pomaga)."
+)
+
+
 def preprocess_rag_data(
     question: str,
     allowed_matches: list[dict[str, Any]],
@@ -272,15 +285,15 @@ def preprocess_rag_data(
     retrieval_context = "\n\n".join(context_chunks)
     if retrieval_context:
         user_content = (
-            "Use the provided context to answer the question. "
-            "If context is insufficient, say so clearly.\n\n"
-            f"Context:\n{retrieval_context}\n\n"
-            f"Question:\n{question}"
+            "Na podlagi spodnjega konteksta odgovori na vprašanje. "
+            "Če kontekst ne vsebuje zadostnih podatkov, to izrecno napiši.\n\n"
+            f"Kontekst:\n{retrieval_context}\n\n"
+            f"Vprašanje:\n{question}"
         )
     else:
         user_content = question
 
-    effective_system_prompt = system_prompt or "You are a helpful assistant. Answer in concise clear text."
+    effective_system_prompt = system_prompt or DEFAULT_RAG_SYSTEM_PROMPT_SL
     messages: list[dict[str, str]] = [
         {
             "role": "system",
@@ -311,14 +324,16 @@ def generate_chat_name(
 ) -> str:
     cleaned_prompt = prompt.strip()
     if not cleaned_prompt:
-        return "New Chat"
+        return "Nov pogovor"
 
     name_messages = [
         {
             "role": "system",
             "content": (
-                "Generate a very short chat title for the user prompt. "
-                f"Use at most {max_words} words. Return title text only."
+                "Ustvari zelo kratko ime pogovora (naslov) za uporabnikovo prvo sporočilo. "
+                "Kadar je smiselno, uporabi slovenščino. "
+                f"Največ toliko besed: {max_words}. "
+                "Vrni samo besedilo naslova, brez narekovajev in brez dodatnega besedila."
             ),
         },
         {
@@ -412,7 +427,7 @@ def _sanitize_chat_name(value: str, max_words: int) -> str:
 def _fallback_chat_name(prompt: str, max_words: int) -> str:
     words = prompt.split()
     if not words:
-        return "New Chat"
+        return "Nov pogovor"
     return " ".join(words[:max_words]).strip()[:80]
 
 

@@ -25,9 +25,9 @@ def _context_block_from_matches(allowed_matches: list[dict[str, Any]]) -> str:
         text = raw.strip() if isinstance(raw, str) else (str(raw) if raw is not None else "")
         if not text:
             continue
-        parts.append(f"[Chunk {i}]\n{text}")
+        parts.append(f"[Izvlek {i}]\n{text}")
     if not parts:
-        return "(No document chunks are available for this question under your access.)"
+        return "(Za to vprašanje ni na voljo izvlekov dokumentov z vašim dostopom.)"
     return "\n\n".join(parts)
 
 
@@ -53,16 +53,16 @@ async def generate_rag_reply(user_question: str, allowed_matches: list[dict[str,
             {
                 "role": "system",
                 "content": (
-                    "You are a helpful assistant in a system with role-based document access. "
-                    "Answer using ONLY the information in the CONTEXT below. "
-                    "If CONTEXT is empty or does not support an answer, say that the documents "
-                    "you may access do not contain enough information — do not guess or use outside knowledge. "
-                    "Be concise."
+                    "Si pomočnik v sistemu z vlogo omejenim dostopom do dokumentov. "
+                    "Odgovarjaj izključno na podlagi spodnjega KONTEKSTA. "
+                    "Če je kontekst prazen ali ne zadošča, to jasno povej; ne ugibaj in ne uporabljaj znanja izven konteksta. "
+                    "Odgovarjaj vedno v slovenščini, razen če uporabnik izrecno prosi za drug jezik. "
+                    "Bodi jedrnat."
                 ),
             },
             {
                 "role": "user",
-                "content": f"CONTEXT:\n{context_block}\n\nQUESTION:\n{user_question.strip()}",
+                "content": f"KONTEKST:\n{context_block}\n\nVPRAŠANJE:\n{user_question.strip()}",
             },
         ],
         temperature=0.2,

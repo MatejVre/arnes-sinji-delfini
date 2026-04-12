@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sinji Delfini</title>
+  <title>Sinji Delfin</title>
+  <link rel="icon" href="images/favicon_io/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png" />
   <style>
     :root {
       --bg-main: #343541;
@@ -106,10 +110,26 @@
       min-height: 0;
     }
     .sidebar-brand {
-      padding: 0.85rem 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.65rem 0.75rem;
       font-weight: 600;
       font-size: 0.95rem;
       border-bottom: 1px solid var(--border);
+      min-height: 0;
+    }
+    .sidebar-brand-logo {
+      max-height: 30px;
+      width: auto;
+      max-width: 140px;
+      object-fit: contain;
+      display: block;
+      flex-shrink: 0;
+    }
+    .sidebar-brand-text {
+      min-width: 0;
+      line-height: 1.2;
     }
     .sidebar-new {
       padding: 0.65rem 0.75rem;
@@ -181,10 +201,89 @@
       min-width: 0;
       min-height: 0;
     }
+    .main-fill {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+      min-width: 0;
+    }
+    .main-inner {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      min-height: 0;
+      width: 100%;
+      max-width: 48rem;
+      margin: 0 auto;
+      padding: 0 1rem;
+      box-sizing: border-box;
+    }
+    .main-col.chat-empty .main-fill {
+      justify-content: center;
+      padding: 2rem 0;
+    }
+    .main-col.chat-empty .main-inner {
+      flex: 0 1 auto;
+      justify-content: center;
+    }
+
+    /* Prazen pogovor: naslov + ikona (Hackathon / javna uprava) */
+    .welcome-block {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 0.5rem 1.5rem;
+      max-width: 36rem;
+      margin: 0 auto;
+    }
+    .main-col.chat-empty .welcome-block {
+      display: flex;
+    }
+    .welcome-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0.4rem;
+    }
+    .welcome-icon img {
+      max-height: 88px;
+      width: auto;
+      max-width: 220px;
+      height: auto;
+      object-fit: contain;
+      display: block;
+    }
+    .welcome-title {
+      margin: 0 0 0.5rem;
+      font-size: 1.75rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: var(--text);
+    }
+    .welcome-sub {
+      margin: 0 0 0.65rem;
+      font-size: 1rem;
+      line-height: 1.45;
+      color: var(--text);
+      font-weight: 500;
+    }
+    .welcome-hint {
+      margin: 0;
+      font-size: 0.8125rem;
+      line-height: 1.5;
+      color: var(--muted);
+      max-width: 28rem;
+    }
+
     .messages-scroll {
       flex: 1;
       overflow-y: auto;
       min-height: 0;
+    }
+    .main-col.chat-empty .messages-scroll {
+      display: none;
     }
     .messages-inner {
       max-width: 48rem;
@@ -318,9 +417,17 @@
 
     /* —— Composer —— */
     .composer-outer {
-      border-top: 1px solid var(--border);
-      padding: 0.75rem 1rem 1.25rem;
+      padding: 0.75rem 0 1.25rem;
       background: var(--bg-main);
+      flex-shrink: 0;
+    }
+    .main-col:not(.chat-empty) .composer-outer {
+      border-top: 1px solid var(--border);
+      padding-top: 0.75rem;
+    }
+    .main-col.chat-empty .composer-outer {
+      padding-bottom: 0.5rem;
+      margin-top: 0.25rem;
     }
     .composer-inner {
       max-width: 48rem;
@@ -369,30 +476,40 @@
     .btn-send:hover:not(:disabled) { background: var(--accent-hover); }
     .btn-send:disabled { opacity: 0.4; cursor: not-allowed; }
     .btn-send svg { width: 18px; height: 18px; }
-    .chat-err-wrap { max-width: 48rem; margin: 0 auto; padding: 0 1rem; }
+    .chat-err-wrap { width: 100%; padding: 0; margin-bottom: 0.35rem; }
   </style>
 </head>
 <body>
   <div id="login-panel" class="login-screen">
     <div class="login-card">
-      <h1>Sinji Delfini</h1>
-      <p class="sub">Role-based RAG — sign in to continue.</p>
-      <p style="margin:0 0 1rem;font-size:0.8rem;color:var(--muted);">Demo password: <code style="color:var(--text);">testing</code></p>
-      <label for="username">Username</label>
+      <h1>Sinji Delfin</h1>
+      <p class="sub">Klepet z vlogo omejenim dostopom do dokumentov (RAG). Prijavite se.</p>
+      <p style="margin:0 0 1rem;font-size:0.8rem;color:var(--muted);">Demo geslo: <code style="color:var(--text);">testing</code></p>
+      <label for="username">Uporabniško ime</label>
       <input id="username" type="text" autocomplete="username" />
-      <label for="password">Password</label>
+      <label for="password">Geslo</label>
       <input id="password" type="password" autocomplete="current-password" />
-      <button type="button" class="btn-primary btn-wide" id="btn-login">Log in</button>
+      <button type="button" class="btn-primary btn-wide" id="btn-login">Prijava</button>
       <div id="login-err" class="err hidden"></div>
     </div>
   </div>
 
   <div id="chat-panel" class="app-shell hidden">
     <aside class="sidebar">
-      <div class="sidebar-brand">Chats</div>
+      <div class="sidebar-brand">
+        <img
+          class="sidebar-brand-logo"
+          src="images/logo2.png"
+          width="256"
+          height="256"
+          alt=""
+          decoding="async"
+        />
+        <span class="sidebar-brand-text">Pogovori</span>
+      </div>
       <div class="sidebar-new">
-        <button type="button" class="btn-new" id="btn-new-chat" title="New chat">
-          <span style="font-size:1.1rem;line-height:1;">+</span> New chat
+        <button type="button" class="btn-new" id="btn-new-chat" title="Nov pogovor">
+          <span style="font-size:1.1rem;line-height:1;">+</span> Nov pogovor
         </button>
       </div>
       <div id="chat-list" class="chat-list" role="list"></div>
@@ -400,26 +517,47 @@
         <strong id="me-name"></strong>
         <div class="groups" id="me-groups"></div>
         <div class="sidebar-actions">
-          <button type="button" class="btn-icon" id="btn-delete-chat" title="Delete current chat">Delete chat</button>
-          <button type="button" class="btn-icon" id="btn-logout">Log out</button>
+          <button type="button" class="btn-icon" id="btn-delete-chat" title="Izbriši ta pogovor">Izbriši pogovor</button>
+          <button type="button" class="btn-icon" id="btn-logout">Odjava</button>
         </div>
       </div>
     </aside>
 
-    <main class="main-col">
-      <div class="messages-scroll" id="messages-scroll">
-        <div id="messages" class="messages-inner"></div>
-      </div>
-      <div class="composer-outer">
-        <div class="chat-err-wrap"><div id="chat-err" class="err hidden"></div></div>
-        <div class="composer-inner">
-          <div class="composer">
-            <textarea id="chat-input" rows="1" placeholder="Message…"></textarea>
-            <button type="button" class="btn-send" id="btn-send" title="Send" aria-label="Send">
-              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
-              </svg>
-            </button>
+    <main class="main-col chat-empty" id="main-col">
+      <div class="main-fill" id="main-fill">
+        <div class="main-inner" id="main-inner">
+          <header class="welcome-block" id="welcome-block" aria-hidden="false">
+            <div class="welcome-icon" aria-hidden="true">
+              <img
+                src="images/logo2.png"
+                width="256"
+                height="256"
+                alt=""
+                decoding="async"
+              />
+            </div>
+            <!-- <h1 class="welcome-title">Sinji Delfini</h1> -->
+            <p class="welcome-sub">Sistem AI pomočnikov z nadzorovanim dostopom za javno upravo</p>
+            <p class="welcome-hint">
+              Klepeta z iskanjem po dokumentih,  pravicami glede na vlogo in usmeritvijo,
+              če informacije niso na voljo.
+            </p>
+          </header>
+          <div class="messages-scroll" id="messages-scroll">
+            <div id="messages" class="messages-inner"></div>
+          </div>
+          <div class="composer-outer" id="composer-outer">
+            <div class="chat-err-wrap"><div id="chat-err" class="err hidden"></div></div>
+            <div class="composer-inner">
+              <div class="composer">
+                <textarea id="chat-input" rows="1" placeholder="Postavite vprašanje o dokumentih…"></textarea>
+                <button type="button" class="btn-send" id="btn-send" title="Pošlji" aria-label="Pošlji">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -438,13 +576,22 @@
     }
 
     function displayUserMessageForUi(content) {
-      const marker = "Question:\n";
-      const idx = content.lastIndexOf(marker);
-      if (idx !== -1) {
-        const q = content.slice(idx + marker.length).trim();
-        if (q) return q;
+      const markers = ["Vprašanje:\n", "Question:\n"];
+      for (let i = 0; i < markers.length; i++) {
+        const marker = markers[i];
+        const idx = content.lastIndexOf(marker);
+        if (idx !== -1) {
+          const q = content.slice(idx + marker.length).trim();
+          if (q) return q;
+        }
       }
       return content;
+    }
+
+    function steviloIzvlekov(n) {
+      if (n === 1) return "1 izvlek";
+      if (n >= 2 && n <= 4) return n + " izvleka";
+      return n + " izvlekov";
     }
 
     async function api(path, options = {}) {
@@ -485,11 +632,19 @@
 
     const loginPanel = document.getElementById("login-panel");
     const chatPanel = document.getElementById("chat-panel");
+    const mainCol = document.getElementById("main-col");
     const loginErr = document.getElementById("login-err");
     const chatErr = document.getElementById("chat-err");
     const messagesEl = document.getElementById("messages");
     const messagesScroll = document.getElementById("messages-scroll");
     const chatListEl = document.getElementById("chat-list");
+    const welcomeBlock = document.getElementById("welcome-block");
+
+    function syncEmptyChatLayout() {
+      const empty = messagesEl.children.length === 0;
+      if (mainCol) mainCol.classList.toggle("chat-empty", empty);
+      if (welcomeBlock) welcomeBlock.setAttribute("aria-hidden", empty ? "false" : "true");
+    }
 
     function scrollMessagesToBottom() {
       messagesScroll.scrollTop = messagesScroll.scrollHeight;
@@ -517,6 +672,7 @@
       row.appendChild(div);
       messagesEl.appendChild(row);
       scrollMessagesToBottom();
+      syncEmptyChatLayout();
     }
 
     async function renderChatList() {
@@ -536,7 +692,7 @@
         btn.type = "button";
         btn.className = "chat-list-item" + (c.id === currentChatId ? " active" : "");
         btn.setAttribute("role", "listitem");
-        btn.textContent = (c.name && String(c.name).trim()) ? String(c.name).trim() : ("Chat #" + c.id);
+        btn.textContent = (c.name && String(c.name).trim()) ? String(c.name).trim() : ("Pogovor #" + c.id);
         btn.addEventListener("click", async () => {
           currentChatId = c.id;
           sessionStorage.setItem(CHAT_ID_KEY, String(c.id));
@@ -579,6 +735,7 @@
         }
       });
       scrollMessagesToBottom();
+      syncEmptyChatLayout();
     }
 
     /**
@@ -602,15 +759,18 @@
 
       const role = document.createElement("div");
       role.className = "msg-role";
-      role.textContent = "Assistant";
+      role.textContent = "Pomočnik";
       div.appendChild(role);
 
       if (partialRag) {
         const note = document.createElement("p");
         note.className = "perm-note";
-        let t = numDocsNotAllowed + " related passage(s) were not shown because of your access.";
+        let t =
+          "Število relevantnih zadetkov v indeksu, ki jih zaradi vaših pravic ne vidite: " +
+          numDocsNotAllowed +
+          ".";
         if (groupsToContact.length) {
-          t += " For access, contact: " + groupsToContact.join(", ") + ".";
+          t += " Za dostop se obrnite na: " + groupsToContact.join(", ") + ".";
         }
         note.textContent = t;
         div.appendChild(note);
@@ -618,13 +778,14 @@
 
       const answer = document.createElement("p");
       answer.className = "bot-answer";
-      answer.textContent = reply && reply.trim() ? reply.trim() : "(Empty reply.)";
+      answer.textContent = reply && reply.trim() ? reply.trim() : "(Prazen odgovor.)";
       div.appendChild(answer);
 
       if (!showSources || !hasChunks) {
         row.appendChild(div);
         messagesEl.appendChild(row);
         scrollMessagesToBottom();
+        syncEmptyChatLayout();
         return;
       }
 
@@ -636,10 +797,10 @@
       const left = document.createElement("span");
       left.className = "sources-summary-left";
       const label = document.createElement("span");
-      label.textContent = "Sources";
+      label.textContent = "Viri";
       const pill = document.createElement("span");
       pill.className = "count-pill";
-      pill.textContent = n + (n === 1 ? " chunk" : " chunks");
+      pill.textContent = steviloIzvlekov(n);
       left.appendChild(label);
       left.appendChild(pill);
       const chev = document.createElement("span");
@@ -653,29 +814,30 @@
       body.className = "sources-body";
       const hint = document.createElement("p");
       hint.className = "sources-hint";
-      hint.textContent = "Passages used as context (already filtered to your roles).";
+      hint.textContent =
+        "Izvleki, uporabljeni kot kontekst (že filtrirani glede na vaše skupine).";
       body.appendChild(hint);
       const grid = document.createElement("div");
       grid.className = "chunk-grid";
       matchList.forEach((m, i) => {
         const meta = m.metadata || {};
-        const chunkText = meta.text != null ? String(meta.text) : "(No text in metadata)";
+        const chunkText = meta.text != null ? String(meta.text) : "(Ni besedila v metapodatkih)";
         const card = document.createElement("article");
         card.className = "chunk-card";
         const head = document.createElement("div");
         head.className = "chunk-card-header";
-        const docName = meta.document_name != null ? String(meta.document_name) : "Document";
-        head.textContent = "Chunk " + (i + 1) + " · " + docName;
+        const docName = meta.document_name != null ? String(meta.document_name) : "Dokument";
+        head.textContent = "Izvlek " + (i + 1) + " · " + docName;
         const textEl = document.createElement("div");
         textEl.className = "chunk-card-text";
         textEl.textContent = chunkText;
         const foot = document.createElement("div");
         foot.className = "chunk-card-meta";
         const scoreStr = m.score != null ? Number(m.score).toFixed(4) : "—";
-        let metaBits = "Score: " + scoreStr;
+        let metaBits = "Podobnost: " + scoreStr;
         if (meta.allowed_groups != null) {
           try {
-            metaBits += " · Groups: " + JSON.stringify(meta.allowed_groups);
+            metaBits += " · Skupine: " + JSON.stringify(meta.allowed_groups);
           } catch (_) {}
         }
         foot.textContent = metaBits;
@@ -687,13 +849,14 @@
       body.appendChild(grid);
       details.appendChild(body);
       details.addEventListener("toggle", () => {
-        label.textContent = details.open ? "Hide sources" : "Sources";
+        label.textContent = details.open ? "Skrij vire" : "Viri";
       });
       div.appendChild(details);
 
       row.appendChild(div);
       messagesEl.appendChild(row);
       scrollMessagesToBottom();
+      syncEmptyChatLayout();
     }
 
     function autoResizeComposer() {
@@ -717,7 +880,7 @@
         const me = await api("/auth/me");
         document.getElementById("me-name").textContent = me.name;
         document.getElementById("me-groups").textContent =
-          me.groups && me.groups.length ? me.groups.join(", ") : "No groups";
+          me.groups && me.groups.length ? me.groups.join(", ") : "Brez skupin";
         showChat();
         await bootstrapChatSession();
       } catch (e) {
@@ -739,7 +902,7 @@
       const text = input.value.trim();
       if (!text) return;
       if (currentChatId == null) {
-        chatErr.textContent = "No conversation selected.";
+        chatErr.textContent = "Noben pogovor ni izbran.";
         chatErr.classList.remove("hidden");
         return;
       }
@@ -784,6 +947,7 @@
         sessionStorage.setItem(CHAT_ID_KEY, String(currentChatId));
         await renderChatList();
         messagesEl.innerHTML = "";
+        syncEmptyChatLayout();
       } catch (e) {
         chatErr.textContent = e.message;
         chatErr.classList.remove("hidden");
@@ -792,7 +956,7 @@
 
     document.getElementById("btn-delete-chat").onclick = async () => {
       if (currentChatId == null) return;
-      if (!confirm("Delete this conversation?")) return;
+      if (!confirm("Želite izbrisati ta pogovor? Tega ni mogoče razveljaviti.")) return;
       chatErr.classList.add("hidden");
       try {
         await apiDelete("/chat/delete/" + currentChatId);
@@ -812,7 +976,7 @@
         const me = await api("/auth/me");
         document.getElementById("me-name").textContent = me.name;
         document.getElementById("me-groups").textContent =
-          me.groups && me.groups.length ? me.groups.join(", ") : "No groups";
+          me.groups && me.groups.length ? me.groups.join(", ") : "Brez skupin";
         showChat();
         await bootstrapChatSession();
       } catch (_) {
