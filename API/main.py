@@ -220,17 +220,30 @@ async def chat_endpoint(payload: ChatRequest, current_user: dict = Depends(get_c
 
     matches = normalize_retrieval_response(retrieval_response)
     relevant_matches = adaptive_threshold_filter(matches)
-    allowed_matches = filter_documents_by_permissions(relevant_matches, current_user["groups"])
+    allowed_matches, groups_to_contact = filter_documents_by_permissions(
+        relevant_matches, current_user["groups"]
+    )
 
     relevant_matches_len = len(relevant_matches)
     allowed_matches_len = len(allowed_matches)
-    
+
     num_not_allowed = relevant_matches_len - allowed_matches_len
 
     llm_succeeded = False
     if relevant_matches_len > 0 and num_not_allowed == relevant_matches_len:
         user_message_with_context = payload.chat
-        llm_response = "Files exist but you do not have permission to view them"
+        if groups_to_contact:
+            llm_response = (
+                "Relevant documents were found in the index, but your account does not have access. "
+                "Ask your administrator or a member of one of these groups: "
+                + ", ".join(groups_to_contact)
+                + "."
+            )
+        else:
+            llm_response = (
+                "Relevant documents may exist, but your account does not have access "
+                "and no contact groups could be determined from metadata."
+            )
 
     else:
         messages = preprocess_rag_data(
@@ -273,5 +286,16 @@ async def chat_endpoint(payload: ChatRequest, current_user: dict = Depends(get_c
         },
         "allowed_matches": allowed_matches,
         "response": llm_response,
-        "num_docs_not_allowed": num_not_allowed
+        "num_docs_not_allowed": num_not_allowed,
+        "groups_to_contact": groups_to_contact,
     }
+
+
+@app.get("/")
+async def root_redirect():
+    return RedirectResponse(url="/ui/", status_code=302)
+
+
+_static_dir = Path(__file__).resolve().parent.parent / "static"
+if _static_dir.is_dir():
+    app.mount("/ui", StaticFiles(directory=str(_static_dir), html=True), name="ui")

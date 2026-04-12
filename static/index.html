@@ -203,6 +203,25 @@
       font-family: inherit;
     }
     .hidden { display: none !important; }
+    .chat-toolbar label { margin-bottom: 0.35rem; }
+    .chat-select {
+      flex: 1;
+      min-width: 0;
+      padding: 0.55rem 0.65rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      font-size: 0.9rem;
+    }
+    .perm-note {
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin: 0 0 0.5rem;
+      line-height: 1.4;
+    }
+    .toolbar-row { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; width: 100%; }
+    .toolbar-row .btn-primary, .toolbar-row .btn-ghost { margin-left: 0; flex-shrink: 0; }
   </style>
 </head>
 <body>
@@ -231,6 +250,15 @@
         <button type="button" class="btn-ghost" id="btn-logout">Log out</button>
       </div>
 
+      <div class="panel chat-toolbar">
+        <label for="chat-select">Conversation</label>
+        <div class="toolbar-row">
+          <select id="chat-select" class="chat-select" aria-label="Select conversation"></select>
+          <button type="button" class="btn-primary" id="btn-new-chat">New chat</button>
+          <button type="button" class="btn-ghost" id="btn-delete-chat">Delete</button>
+        </div>
+      </div>
+
       <div class="panel">
         <div id="messages" class="messages"></div>
         <label for="chat-input">Message</label>
@@ -245,6 +273,8 @@
 
   <script>
     const TOKEN_KEY = "sinji_access_token";
+    const CHAT_ID_KEY = "sinji_last_chat_id";
+    let currentChatId = null;
 
     function getToken() {
       return localStorage.getItem(TOKEN_KEY);
@@ -274,6 +304,35 @@
       return data;
     }
 
+    function displayUserMessageForUi(content) {
+      const marker = "Question:\n";
+      const idx = content.lastIndexOf(marker);
+      if (idx !== -1) {
+        const q = content.slice(idx + marker.length).trim();
+        if (q) return q;
+      }
+      return content;
+    }
+
+    async function apiDelete(path) {
+      const headers = {};
+      const token = getToken();
+      if (token) headers["Authorization"] = "Bearer " + token;
+      const res = await fetch(path, { method: "DELETE", headers });
+      const text = await res.text();
+      let data = null;
+      try {
+        data = text ? JSON.parse(text) : null;
+      } catch (_) {
+        data = { detail: text || res.statusText };
+      }
+      if (!res.ok) {
+        const msg = (data && data.detail) ? (Array.isArray(data.detail) ? data.detail.map((d) => d.msg || d).join(", ") : data.detail) : res.statusText;
+        throw new Error(msg);
+      }
+      return data;
+    }
+
     const loginPanel = document.getElementById("login-panel");
     const chatPanel = document.getElementById("chat-panel");
     const loginErr = document.getElementById("login-err");
@@ -284,6 +343,8 @@
       loginPanel.classList.remove("hidden");
       chatPanel.classList.add("hidden");
       setToken(null);
+      sessionStorage.removeItem(CHAT_ID_KEY);
+      currentChatId = null;
     }
 
     function showChat() {
@@ -299,16 +360,90 @@
       messagesEl.scrollTop = messagesEl.scrollHeight;
     }
 
-    function appendBot(reply, matches) {
+    async function refreshChatSelector() {
+      const sel = document.getElementById("chat-select");
+      const data = await api("/chat/list");
+      const chats = data.chats || [];
+      sel.innerHTML = "";
+      chats.forEach((c) => {
+        const opt = document.createElement("option");
+        opt.value = String(c.id);
+        opt.textContent = (c.name && String(c.name).trim()) ? String(c.name).trim() : ("Chat #" + c.id);
+        sel.appendChild(opt);
+      });
+      if (chats.length === 0) return;
+      const valid = currentChatId != null && chats.some((c) => c.id === currentChatId);
+      if (!valid) {
+        currentChatId = chats[0].id;
+        sessionStorage.setItem(CHAT_ID_KEY, String(currentChatId));
+      }
+      sel.value = String(currentChatId);
+    }
+
+    async function bootstrapChatSession() {
+      const list = await api("/chat/list");
+      let chats = list.chats || [];
+      if (chats.length === 0) {
+        const created = await api("/chat/create", { method: "POST", body: "{}" });
+        currentChatId = created.chat_id;
+      } else {
+        const last = sessionStorage.getItem(CHAT_ID_KEY);
+        if (last && chats.some((c) => String(c.id) === last)) {
+          currentChatId = parseInt(last, 10);
+        } else {
+          currentChatId = chats[0].id;
+        }
+      }
+      sessionStorage.setItem(CHAT_ID_KEY, String(currentChatId));
+      await refreshChatSelector();
+      await loadChatMessages(currentChatId);
+    }
+
+    async function loadChatMessages(chatId) {
+      const data = await api("/chat/get/" + chatId);
+      messagesEl.innerHTML = "";
+      const msgs = (data.chat && data.chat.messages) || [];
+      msgs.forEach((m) => {
+        if (m.role === "user") {
+          appendUser(displayUserMessageForUi(m.content));
+        } else if (m.role === "assistant") {
+          appendAssistantBubble(m.content, [], null, { showSources: false });
+        }
+      });
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+
+    function appendAssistantBubble(reply, matches, numDocsNotAllowed, options) {
+      const showSources = !options || options.showSources !== false;
       const div = document.createElement("div");
       div.className = "msg bot";
       const h = document.createElement("h4");
       h.textContent = "Assistant";
       div.appendChild(h);
+      if (numDocsNotAllowed != null && numDocsNotAllowed > 0) {
+        const note = document.createElement("p");
+        note.className = "perm-note";
+        let t =
+          "Some indexed matches were hidden by your role (" +
+          numDocsNotAllowed +
+          " not accessible).";
+        const gc = options && options.groupsToContact;
+        if (gc && gc.length) {
+          t += " Groups that may be able to help with access: " + gc.join(", ") + ".";
+        }
+        note.textContent = t;
+        div.appendChild(note);
+      }
       const answer = document.createElement("p");
       answer.className = "bot-answer";
       answer.textContent = reply && reply.trim() ? reply.trim() : "(Empty reply from model.)";
       div.appendChild(answer);
+
+      if (!showSources) {
+        messagesEl.appendChild(div);
+        messagesEl.scrollTop = messagesEl.scrollHeight;
+        return;
+      }
 
       const n = matches && matches.length ? matches.length : 0;
       const details = document.createElement("details");
@@ -405,8 +540,8 @@
         const me = await api("/auth/me");
         document.getElementById("me-name").textContent = me.name;
         document.getElementById("me-groups").textContent = (me.groups && me.groups.length) ? me.groups.join(", ") : "no groups";
-        messagesEl.innerHTML = "";
         showChat();
+        await bootstrapChatSession();
       } catch (e) {
         loginErr.textContent = e.message;
         loginErr.classList.remove("hidden");
@@ -427,6 +562,11 @@
       const input = document.getElementById("chat-input");
       const text = input.value.trim();
       if (!text) return;
+      if (currentChatId == null) {
+        chatErr.textContent = "No conversation selected. Create a new chat.";
+        chatErr.classList.remove("hidden");
+        return;
+      }
       input.value = "";
       appendUser(text);
       const btn = document.getElementById("btn-send");
@@ -434,9 +574,13 @@
       try {
         const data = await api("/chat", {
           method: "POST",
-          body: JSON.stringify({ chat: text }),
+          body: JSON.stringify({ chat_id: currentChatId, chat: text }),
         });
-        appendBot(data.reply, data.allowed_matches);
+        appendAssistantBubble(data.response, data.allowed_matches, data.num_docs_not_allowed, {
+          showSources: true,
+          groupsToContact: data.groups_to_contact || [],
+        });
+        await refreshChatSelector();
       } catch (e) {
         chatErr.textContent = e.message;
         chatErr.classList.remove("hidden");
@@ -455,6 +599,43 @@
       }
     });
 
+    document.getElementById("chat-select").addEventListener("change", async (ev) => {
+      const id = parseInt(ev.target.value, 10);
+      if (Number.isNaN(id)) return;
+      currentChatId = id;
+      sessionStorage.setItem(CHAT_ID_KEY, String(id));
+      await loadChatMessages(id);
+    });
+
+    document.getElementById("btn-new-chat").onclick = async () => {
+      chatErr.classList.add("hidden");
+      try {
+        const created = await api("/chat/create", { method: "POST", body: "{}" });
+        currentChatId = created.chat_id;
+        sessionStorage.setItem(CHAT_ID_KEY, String(currentChatId));
+        await refreshChatSelector();
+        messagesEl.innerHTML = "";
+      } catch (e) {
+        chatErr.textContent = e.message;
+        chatErr.classList.remove("hidden");
+      }
+    };
+
+    document.getElementById("btn-delete-chat").onclick = async () => {
+      if (currentChatId == null) return;
+      if (!confirm("Delete this conversation? This cannot be undone.")) return;
+      chatErr.classList.add("hidden");
+      try {
+        await apiDelete("/chat/delete/" + currentChatId);
+        sessionStorage.removeItem(CHAT_ID_KEY);
+        currentChatId = null;
+        await bootstrapChatSession();
+      } catch (e) {
+        chatErr.textContent = e.message;
+        chatErr.classList.remove("hidden");
+      }
+    };
+
     (async () => {
       const token = getToken();
       if (!token) return;
@@ -463,6 +644,7 @@
         document.getElementById("me-name").textContent = me.name;
         document.getElementById("me-groups").textContent = (me.groups && me.groups.length) ? me.groups.join(", ") : "no groups";
         showChat();
+        await bootstrapChatSession();
       } catch (_) {
         showLogin();
       }
