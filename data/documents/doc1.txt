@@ -1,6 +1,18 @@
-Račun za zadevo "Patria":
+INTERNO POROČILO — FINANČNA SLUŽBA
+Realizacija proračuna stroškovnih mest — januar–marec 2025
+Podjetje: Sinji Delfini d.o.o.
 
-Za nakup oklepnikov smo porabili približno 15 miljard evrov davkoplačevalskega denarja.
-Nakazilo smo izvedli v 3 obrokih.
+Povzetek
+V prvem četrtletju 2025 je bilo načrtovano porabo 412.000 EUR za operativne stroške (energija, vzdrževanje, storitve tretjih oseb, potne stroške). Dejanska poraba je znašala 398.600 EUR, kar je 3,3 % pod načrtom. Odstopanje je predvsem posledica nižjih računov za električno energijo zaradi tople zime in usklajenih pogodb z dobaviteljem od januarja 2025.
 
-01-04-2008
+Podrobnosti po postavkah
+— Energija in komunalne storitve: načrt 68.000 EUR, realizacija 61.200 EUR.
+— IT licence in podpora: načrt 54.000 EUR, realizacija 55.800 EUR (presežek zaradi enkratne nadgradnje varnostnega paketa).
+— Potni in reprezentančni stroški: načrt 31.000 EUR, realizacija 28.400 EUR.
+— Storitve pravnega svetovanja: načrt 24.000 EUR, realizacija 26.900 EUR (dodatni postopki v zvezi z registracijo blagovne znamke v EU).
+
+Priporočilo finančne službe
+V drugem četrtletju predlagamo zamrznitev novih angažmajev zunanjih svetovalcev, razen nujnih, dokler se ne zaključi revizija pogodb. Dokument je namenjen internemu usklajevanju z računovodstvom in vodstvom finančnih operacij.
+
+Datum izdelave: 8. april 2025
+Pripravila: Finančna služba

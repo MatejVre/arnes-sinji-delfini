@@ -1,7 +1,21 @@
-Račun za pisarniško zabavo:
+POROČILO O DDV IN OBRAČUNU DOHODKOV OD DOLOČENIH VRST PLAČIL
+Obdobje: januar–februar 2025
+Sinji Delfini d.o.o. | Finančno-računovodski oddelek
 
-Za mafine in čips smo porabili približno 200 evrov.
-Za kokakolo smo dali 50 evrov.
-Skupaj smo zapravili 250 evrov.
+DDV
+— Obračunani DDV od domačih dobav: 127.400 EUR (feb.).
+— Vstopni DDV (od nabav blaga in storitev): 89.100 EUR (feb.).
+— DDV za plačilo v rokih: 38.300 EUR.
 
-11-06-2025
+Obveznosti do inženirskih storitev (inostrani dobavitelji)
+V februarju 2025 je bilo obračunanih 14.200 EUR bruto za storitve obdelave podatkov iz Estonije in Irske. Uveljavljen je bil mehanizem obrnjene davčne obveznosti v skladu z veljavno zakonodajo.
+
+Dohodki od določenih vrst plačil (povzetek)
+— Dividende: v obdobju ni izplačil.
+— Obresti od depozitov: 1.840 EUR (bruto), obdržani davčni odtegljaj po pogodbah z bankami.
+
+Opozorilo
+Pri eni dobavi storitev iz tretje države je prišlo do zamude pri prejemu potrdila o identifikaciji za DDV namene; zadeva je usklajena z davčnim svetovalcem in bo vknjižena v marču 2025.
+
+Interna oznaka: FIN-DDV-2025-02
+Datum: 12. marec 2025
