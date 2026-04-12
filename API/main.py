@@ -156,7 +156,7 @@ async def create_chat_endpoint(current_user: dict = Depends(get_current_user)):
     }
 
 
-@app.delete("/chat/{chat_id}")
+@app.delete("/chat/delete/{chat_id}")
 async def delete_chat_endpoint(chat_id: int, current_user: dict = Depends(get_current_user)):
     deletion_status = app.state.db.delete_chat_for_user(chat_id=chat_id, user_id=current_user["id"])
 
