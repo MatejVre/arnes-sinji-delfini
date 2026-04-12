@@ -3,272 +3,427 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sinji Delfini — RAG chat</title>
+  <title>Sinji Delfini</title>
   <style>
     :root {
-      --bg: #0f1419;
-      --surface: #1a2332;
-      --border: #2d3a4d;
-      --text: #e7ecf3;
-      --muted: #8b9cb3;
-      --accent: #3d8bfd;
-      --accent-dim: #2563c4;
+      --bg-main: #343541;
+      --bg-sidebar: #202123;
+      --bg-composer: #40414f;
+      --bg-user: #343541;
+      --bg-assistant: transparent;
+      --border: rgba(255, 255, 255, 0.1);
+      --text: #ececf1;
+      --muted: #8e8ea0;
+      --accent: #19c37d;
+      --accent-hover: #1a9f6a;
       --danger: #f87171;
+      --sidebar-width: 260px;
     }
     * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
     body {
-      margin: 0;
-      min-height: 100vh;
-      font-family: "Segoe UI", system-ui, sans-serif;
-      background: var(--bg);
+      font-family: "Söhne", "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: var(--bg-main);
       color: var(--text);
       line-height: 1.5;
     }
-    .wrap { max-width: 720px; margin: 0 auto; padding: 1.25rem; }
-    h1 { font-size: 1.25rem; font-weight: 600; margin: 0 0 0.25rem; }
-    .sub { color: var(--muted); font-size: 0.875rem; margin-bottom: 1.5rem; }
-    .panel {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 1rem 1.25rem;
-      margin-bottom: 1rem;
+
+    /* —— Login (centered card) —— */
+    .login-screen {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      background: var(--bg-main);
     }
-    label { display: block; font-size: 0.8rem; color: var(--muted); margin-bottom: 0.35rem; }
-    input[type="text"], input[type="password"] {
+    .login-card {
       width: 100%;
-      padding: 0.55rem 0.65rem;
-      border-radius: 6px;
+      max-width: 400px;
+      background: var(--bg-sidebar);
       border: 1px solid var(--border);
-      background: var(--bg);
-      color: var(--text);
-      margin-bottom: 0.75rem;
+      border-radius: 12px;
+      padding: 1.5rem 1.75rem;
     }
+    .login-card h1 { font-size: 1.25rem; font-weight: 600; margin: 0 0 0.35rem; }
+    .login-card .sub { color: var(--muted); font-size: 0.875rem; margin: 0 0 1.25rem; }
+    .login-card label { display: block; font-size: 0.8rem; color: var(--muted); margin-bottom: 0.35rem; }
+    .login-card input {
+      width: 100%;
+      padding: 0.65rem 0.75rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--bg-main);
+      color: var(--text);
+      margin-bottom: 0.85rem;
+      font-size: 0.95rem;
+    }
+    .login-card .btn-wide {
+      width: 100%;
+      margin-top: 0.25rem;
+    }
+
+    .hidden { display: none !important; }
+    .err { color: var(--danger); font-size: 0.875rem; margin-top: 0.65rem; }
+
     button {
       cursor: pointer;
       border: none;
-      border-radius: 6px;
-      padding: 0.55rem 1rem;
+      font-family: inherit;
       font-size: 0.9rem;
       font-weight: 500;
     }
-    .btn-primary { background: var(--accent); color: #fff; }
-    .btn-primary:hover { background: var(--accent-dim); }
-    .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
-    .btn-ghost { background: transparent; color: var(--muted); margin-left: 0.5rem; }
-    .row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
-    .badge {
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+      border-radius: 8px;
+      padding: 0.6rem 1rem;
+    }
+    .btn-primary:hover { background: var(--accent-hover); }
+    .btn-primary:disabled { opacity: 0.45; cursor: not-allowed; }
+    .btn-ghost {
+      background: transparent;
+      color: var(--muted);
+      padding: 0.45rem 0.65rem;
+      border-radius: 6px;
+    }
+    .btn-ghost:hover { background: rgba(255, 255, 255, 0.06); color: var(--text); }
+
+    /* —— App shell —— */
+    .app-shell {
+      display: flex;
+      height: 100vh;
+      min-height: 0;
+    }
+
+    .sidebar {
+      width: var(--sidebar-width);
+      flex-shrink: 0;
+      background: var(--bg-sidebar);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+    .sidebar-brand {
+      padding: 0.85rem 0.75rem;
+      font-weight: 600;
+      font-size: 0.95rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar-new {
+      padding: 0.65rem 0.75rem;
+    }
+    .sidebar-new .btn-new {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.45rem;
+      padding: 0.55rem 0.75rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text);
+      font-size: 0.875rem;
+    }
+    .sidebar-new .btn-new:hover { background: rgba(255, 255, 255, 0.06); }
+    .chat-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 0.35rem 0.5rem 0.75rem;
+      min-height: 0;
+    }
+    .chat-list-item {
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 0.55rem 0.65rem;
+      margin-bottom: 2px;
+      border-radius: 8px;
+      border: none;
+      background: transparent;
+      color: var(--text);
+      font-size: 0.8125rem;
+      line-height: 1.35;
+      cursor: pointer;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .chat-list-item:hover { background: rgba(255, 255, 255, 0.06); }
+    .chat-list-item.active {
+      background: rgba(255, 255, 255, 0.1);
+    }
+    .sidebar-footer {
+      border-top: 1px solid var(--border);
+      padding: 0.75rem;
       font-size: 0.75rem;
-      padding: 0.2rem 0.5rem;
-      border-radius: 4px;
-      background: var(--border);
       color: var(--muted);
     }
-    .err { color: var(--danger); font-size: 0.875rem; margin-top: 0.5rem; }
-    .messages { display: flex; flex-direction: column; gap: 0.75rem; max-height: min(58vh, 640px); overflow-y: auto; margin-bottom: 1rem; }
-    .msg { padding: 0.65rem 0.85rem; border-radius: 8px; max-width: 100%; }
-    .msg.user { background: #243044; align-self: flex-end; }
-    .msg.bot { background: #1e2a3d; border: 1px solid var(--border); align-self: stretch; }
-    .msg.bot h4 { margin: 0 0 0.5rem; font-size: 0.8rem; color: var(--muted); font-weight: 600; }
-    .bot-answer {
-      margin: 0 0 0.75rem;
-      white-space: pre-wrap;
-      word-break: break-word;
+    .sidebar-footer strong { color: var(--text); font-size: 0.8125rem; display: block; margin-bottom: 0.25rem; }
+    .sidebar-footer .groups { font-size: 0.7rem; opacity: 0.9; margin-bottom: 0.5rem; word-break: break-word; }
+    .sidebar-actions { display: flex; gap: 0.35rem; flex-wrap: wrap; }
+    .btn-icon {
+      padding: 0.4rem 0.55rem;
+      border-radius: 6px;
+      background: transparent;
+      color: var(--muted);
+      font-size: 0.75rem;
+    }
+    .btn-icon:hover { background: rgba(255, 255, 255, 0.08); color: var(--text); }
+
+    /* —— Main column —— */
+    .main-col {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      min-height: 0;
+    }
+    .messages-scroll {
+      flex: 1;
+      overflow-y: auto;
+      min-height: 0;
+    }
+    .messages-inner {
+      max-width: 48rem;
+      margin: 0 auto;
+      width: 100%;
+      padding: 1.25rem 1rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .msg-row {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .msg-row.assistant { justify-content: flex-start; }
+    .msg {
+      max-width: 85%;
+      border-radius: 12px;
+      padding: 0.75rem 1rem;
       font-size: 0.9375rem;
       line-height: 1.55;
+    }
+    .msg.user {
+      background: var(--bg-composer);
       color: var(--text);
     }
+    .msg.bot {
+      background: var(--bg-assistant);
+      border: none;
+      max-width: 100%;
+      padding-left: 0;
+    }
+    .msg-role {
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-bottom: 0.35rem;
+    }
+    .bot-answer {
+      margin: 0;
+      white-space: pre-wrap;
+      word-break: break-word;
+      color: var(--text);
+    }
+    .perm-note {
+      font-size: 0.8125rem;
+      color: var(--muted);
+      margin: 0 0 0.65rem;
+      padding: 0.55rem 0.65rem;
+      background: rgba(234, 179, 8, 0.08);
+      border-radius: 8px;
+      border-left: 3px solid rgba(234, 179, 8, 0.5);
+    }
+
     .sources-details {
-      margin-top: 0.5rem;
+      margin-top: 0.75rem;
       border: 1px solid var(--border);
       border-radius: 10px;
-      background: rgba(0, 0, 0, 0.18);
+      background: rgba(0, 0, 0, 0.2);
       overflow: hidden;
-    }
-    .sources-details[open] {
-      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
     }
     .sources-summary {
       list-style: none;
       cursor: pointer;
-      padding: 0.7rem 1rem;
+      padding: 0.65rem 0.85rem;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 0.75rem;
-      font-size: 0.8125rem;
-      font-weight: 600;
-      color: var(--text);
-      transition: background 0.15s ease;
-    }
-    .sources-summary:hover { background: rgba(61, 139, 253, 0.08); }
-    .sources-summary:focus { outline: none; }
-    .sources-summary:focus-visible {
-      box-shadow: inset 0 0 0 2px var(--accent);
-    }
-    .sources-summary::-webkit-details-marker { display: none; }
-    .sources-summary-left {
-      display: flex;
-      align-items: center;
       gap: 0.5rem;
-      flex-wrap: wrap;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      color: var(--muted);
     }
+    .sources-summary:hover { color: var(--text); background: rgba(255, 255, 255, 0.04); }
+    .sources-summary::-webkit-details-marker { display: none; }
+    .sources-summary-left { display: flex; align-items: center; gap: 0.45rem; flex-wrap: wrap; }
     .sources-chevron {
-      flex-shrink: 0;
-      width: 1.25rem;
-      height: 1.25rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
       color: var(--muted);
-      transition: transform 0.2s ease, color 0.15s;
+      transition: transform 0.2s;
     }
-    .sources-details[open] .sources-chevron {
-      transform: rotate(180deg);
-      color: var(--accent);
-    }
-    .sources-chevron svg { width: 14px; height: 14px; }
-    .sources-body {
-      padding: 0 1rem 1rem;
-      border-top: 1px solid var(--border);
-    }
-    .sources-hint {
-      font-size: 0.75rem;
-      color: var(--muted);
-      margin: 0.65rem 0 0;
-      line-height: 1.45;
-    }
+    .sources-details[open] .sources-chevron { transform: rotate(180deg); color: var(--accent); }
+    .sources-chevron svg { width: 14px; height: 14px; display: block; }
+    .sources-body { padding: 0 0.85rem 0.85rem; border-top: 1px solid var(--border); }
+    .sources-hint { font-size: 0.75rem; color: var(--muted); margin: 0.5rem 0 0; line-height: 1.45; }
+    /* auto-fit collapses empty tracks so 1–2 chunks span full width; not narrow columns like auto-fill */
     .chunk-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 0.75rem;
-      margin-top: 0.75rem;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+      gap: 0.65rem;
+      margin-top: 0.65rem;
     }
     .chunk-card {
       border: 1px solid var(--border);
       border-radius: 10px;
-      padding: 0.85rem;
-      background: var(--surface);
-      display: flex;
-      flex-direction: column;
-      min-height: 7.5rem;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-      transition: border-color 0.15s ease, box-shadow 0.15s ease;
-    }
-    .chunk-card:hover {
-      border-color: rgba(61, 139, 253, 0.35);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.28);
+      padding: 0.75rem;
+      background: var(--bg-composer);
+      min-height: 6rem;
+      min-width: 0;
+      width: 100%;
     }
     .chunk-card-header {
       font-size: 0.65rem;
       text-transform: uppercase;
-      letter-spacing: 0.06em;
+      letter-spacing: 0.05em;
       color: var(--accent);
       font-weight: 700;
-      margin-bottom: 0.45rem;
+      margin-bottom: 0.4rem;
     }
     .chunk-card-text {
-      font-size: 0.8125rem;
-      line-height: 1.5;
+      font-size: 0.8rem;
+      line-height: 1.45;
       white-space: pre-wrap;
       word-break: break-word;
-      flex: 1;
-      color: var(--text);
     }
     .chunk-card-meta {
-      font-size: 0.7rem;
+      font-size: 0.68rem;
       color: var(--muted);
-      margin-top: 0.65rem;
-      padding-top: 0.55rem;
+      margin-top: 0.5rem;
+      padding-top: 0.45rem;
       border-top: 1px solid var(--border);
-      line-height: 1.4;
     }
     .count-pill {
-      font-size: 0.7rem;
-      font-weight: 600;
-      padding: 0.15rem 0.45rem;
+      font-size: 0.65rem;
+      padding: 0.12rem 0.4rem;
       border-radius: 999px;
-      background: var(--border);
-      color: var(--text);
+      background: rgba(255, 255, 255, 0.08);
     }
-    textarea {
+
+    /* —— Composer —— */
+    .composer-outer {
+      border-top: 1px solid var(--border);
+      padding: 0.75rem 1rem 1.25rem;
+      background: var(--bg-main);
+    }
+    .composer-inner {
+      max-width: 48rem;
+      margin: 0 auto;
       width: 100%;
-      min-height: 80px;
-      padding: 0.65rem;
-      border-radius: 8px;
-      border: 1px solid var(--border);
-      background: var(--bg);
-      color: var(--text);
-      resize: vertical;
-      font-family: inherit;
     }
-    .hidden { display: none !important; }
-    .chat-toolbar label { margin-bottom: 0.35rem; }
-    .chat-select {
+    .composer {
+      display: flex;
+      align-items: flex-end;
+      gap: 0.5rem;
+      background: var(--bg-composer);
+      border: 1px solid var(--border);
+      border-radius: 1.25rem;
+      padding: 0.45rem 0.55rem 0.45rem 1rem;
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+    }
+    .composer:focus-within {
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+    #chat-input {
       flex: 1;
-      min-width: 0;
-      padding: 0.55rem 0.65rem;
-      border-radius: 6px;
-      border: 1px solid var(--border);
-      background: var(--bg);
+      min-height: 44px;
+      max-height: 200px;
+      padding: 0.5rem 0;
+      border: none;
+      background: transparent;
       color: var(--text);
-      font-size: 0.9rem;
+      font-family: inherit;
+      font-size: 0.9375rem;
+      line-height: 1.45;
+      resize: none;
+      outline: none;
     }
-    .perm-note {
-      font-size: 0.75rem;
-      color: var(--muted);
-      margin: 0 0 0.5rem;
-      line-height: 1.4;
+    .btn-send {
+      flex-shrink: 0;
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: var(--accent);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1px;
     }
-    .toolbar-row { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; width: 100%; }
-    .toolbar-row .btn-primary, .toolbar-row .btn-ghost { margin-left: 0; flex-shrink: 0; }
+    .btn-send:hover:not(:disabled) { background: var(--accent-hover); }
+    .btn-send:disabled { opacity: 0.4; cursor: not-allowed; }
+    .btn-send svg { width: 18px; height: 18px; }
+    .chat-err-wrap { max-width: 48rem; margin: 0 auto; padding: 0 1rem; }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <h1>Sinji Delfini</h1>
-    <p class="sub">Role-based RAG: answers use only chunks from documents your groups may access.</p>
-
-    <div id="login-panel" class="panel">
-      <p style="margin:0 0 1rem;font-size:0.9rem;color:var(--muted);">Sign in (seed users use password <code style="color:var(--text);">testing</code>).</p>
+  <div id="login-panel" class="login-screen">
+    <div class="login-card">
+      <h1>Sinji Delfini</h1>
+      <p class="sub">Role-based RAG — sign in to continue.</p>
+      <p style="margin:0 0 1rem;font-size:0.8rem;color:var(--muted);">Demo password: <code style="color:var(--text);">testing</code></p>
       <label for="username">Username</label>
       <input id="username" type="text" autocomplete="username" />
       <label for="password">Password</label>
       <input id="password" type="password" autocomplete="current-password" />
-      <div class="row">
-        <button type="button" class="btn-primary" id="btn-login">Log in</button>
-      </div>
+      <button type="button" class="btn-primary btn-wide" id="btn-login">Log in</button>
       <div id="login-err" class="err hidden"></div>
     </div>
+  </div>
 
-    <div id="chat-panel" class="hidden">
-      <div class="panel row" style="justify-content: space-between;">
-        <div>
-          <strong id="me-name"></strong>
-          <span class="badge" id="me-groups"></span>
-        </div>
-        <button type="button" class="btn-ghost" id="btn-logout">Log out</button>
+  <div id="chat-panel" class="app-shell hidden">
+    <aside class="sidebar">
+      <div class="sidebar-brand">Chats</div>
+      <div class="sidebar-new">
+        <button type="button" class="btn-new" id="btn-new-chat" title="New chat">
+          <span style="font-size:1.1rem;line-height:1;">+</span> New chat
+        </button>
       </div>
+      <div id="chat-list" class="chat-list" role="list"></div>
+      <div class="sidebar-footer">
+        <strong id="me-name"></strong>
+        <div class="groups" id="me-groups"></div>
+        <div class="sidebar-actions">
+          <button type="button" class="btn-icon" id="btn-delete-chat" title="Delete current chat">Delete chat</button>
+          <button type="button" class="btn-icon" id="btn-logout">Log out</button>
+        </div>
+      </div>
+    </aside>
 
-      <div class="panel chat-toolbar">
-        <label for="chat-select">Conversation</label>
-        <div class="toolbar-row">
-          <select id="chat-select" class="chat-select" aria-label="Select conversation"></select>
-          <button type="button" class="btn-primary" id="btn-new-chat">New chat</button>
-          <button type="button" class="btn-ghost" id="btn-delete-chat">Delete</button>
+    <main class="main-col">
+      <div class="messages-scroll" id="messages-scroll">
+        <div id="messages" class="messages-inner"></div>
+      </div>
+      <div class="composer-outer">
+        <div class="chat-err-wrap"><div id="chat-err" class="err hidden"></div></div>
+        <div class="composer-inner">
+          <div class="composer">
+            <textarea id="chat-input" rows="1" placeholder="Message…"></textarea>
+            <button type="button" class="btn-send" id="btn-send" title="Send" aria-label="Send">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
-
-      <div class="panel">
-        <div id="messages" class="messages"></div>
-        <label for="chat-input">Message</label>
-        <textarea id="chat-input" placeholder="Ask something related to your documents…"></textarea>
-        <div class="row" style="margin-top:0.75rem;">
-          <button type="button" class="btn-primary" id="btn-send">Send</button>
-        </div>
-        <div id="chat-err" class="err hidden"></div>
-      </div>
-    </div>
+    </main>
   </div>
 
   <script>
@@ -276,32 +431,10 @@
     const CHAT_ID_KEY = "sinji_last_chat_id";
     let currentChatId = null;
 
-    function getToken() {
-      return localStorage.getItem(TOKEN_KEY);
-    }
-
+    function getToken() { return localStorage.getItem(TOKEN_KEY); }
     function setToken(t) {
       if (t) localStorage.setItem(TOKEN_KEY, t);
       else localStorage.removeItem(TOKEN_KEY);
-    }
-
-    async function api(path, options = {}) {
-      const headers = { "Content-Type": "application/json", ...(options.headers || {}) };
-      const token = getToken();
-      if (token) headers["Authorization"] = "Bearer " + token;
-      const res = await fetch(path, { ...options, headers });
-      const text = await res.text();
-      let data = null;
-      try {
-        data = text ? JSON.parse(text) : null;
-      } catch (_) {
-        data = { detail: text || res.statusText };
-      }
-      if (!res.ok) {
-        const msg = (data && data.detail) ? (Array.isArray(data.detail) ? data.detail.map((d) => d.msg || d).join(", ") : data.detail) : res.statusText;
-        throw new Error(msg);
-      }
-      return data;
     }
 
     function displayUserMessageForUi(content) {
@@ -314,6 +447,24 @@
       return content;
     }
 
+    async function api(path, options = {}) {
+      const headers = { "Content-Type": "application/json", ...(options.headers || {}) };
+      const token = getToken();
+      if (token) headers["Authorization"] = "Bearer " + token;
+      const res = await fetch(path, { ...options, headers });
+      const text = await res.text();
+      let data = null;
+      try { data = text ? JSON.parse(text) : null; }
+      catch (_) { data = { detail: text || res.statusText }; }
+      if (!res.ok) {
+        const msg = (data && data.detail)
+          ? (Array.isArray(data.detail) ? data.detail.map((d) => d.msg || d).join(", ") : data.detail)
+          : res.statusText;
+        throw new Error(msg);
+      }
+      return data;
+    }
+
     async function apiDelete(path) {
       const headers = {};
       const token = getToken();
@@ -321,13 +472,12 @@
       const res = await fetch(path, { method: "DELETE", headers });
       const text = await res.text();
       let data = null;
-      try {
-        data = text ? JSON.parse(text) : null;
-      } catch (_) {
-        data = { detail: text || res.statusText };
-      }
+      try { data = text ? JSON.parse(text) : null; }
+      catch (_) { data = { detail: text || res.statusText }; }
       if (!res.ok) {
-        const msg = (data && data.detail) ? (Array.isArray(data.detail) ? data.detail.map((d) => d.msg || d).join(", ") : data.detail) : res.statusText;
+        const msg = (data && data.detail)
+          ? (Array.isArray(data.detail) ? data.detail.map((d) => d.msg || d).join(", ") : data.detail)
+          : res.statusText;
         throw new Error(msg);
       }
       return data;
@@ -338,6 +488,12 @@
     const loginErr = document.getElementById("login-err");
     const chatErr = document.getElementById("chat-err");
     const messagesEl = document.getElementById("messages");
+    const messagesScroll = document.getElementById("messages-scroll");
+    const chatListEl = document.getElementById("chat-list");
+
+    function scrollMessagesToBottom() {
+      messagesScroll.scrollTop = messagesScroll.scrollHeight;
+    }
 
     function showLogin() {
       loginPanel.classList.remove("hidden");
@@ -353,31 +509,43 @@
     }
 
     function appendUser(text) {
+      const row = document.createElement("div");
+      row.className = "msg-row";
       const div = document.createElement("div");
       div.className = "msg user";
       div.textContent = text;
-      messagesEl.appendChild(div);
-      messagesEl.scrollTop = messagesEl.scrollHeight;
+      row.appendChild(div);
+      messagesEl.appendChild(row);
+      scrollMessagesToBottom();
     }
 
-    async function refreshChatSelector() {
-      const sel = document.getElementById("chat-select");
+    async function renderChatList() {
       const data = await api("/chat/list");
       const chats = data.chats || [];
-      sel.innerHTML = "";
-      chats.forEach((c) => {
-        const opt = document.createElement("option");
-        opt.value = String(c.id);
-        opt.textContent = (c.name && String(c.name).trim()) ? String(c.name).trim() : ("Chat #" + c.id);
-        sel.appendChild(opt);
-      });
+      chatListEl.innerHTML = "";
       if (chats.length === 0) return;
+
       const valid = currentChatId != null && chats.some((c) => c.id === currentChatId);
       if (!valid) {
         currentChatId = chats[0].id;
         sessionStorage.setItem(CHAT_ID_KEY, String(currentChatId));
       }
-      sel.value = String(currentChatId);
+
+      chats.forEach((c) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "chat-list-item" + (c.id === currentChatId ? " active" : "");
+        btn.setAttribute("role", "listitem");
+        btn.textContent = (c.name && String(c.name).trim()) ? String(c.name).trim() : ("Chat #" + c.id);
+        btn.addEventListener("click", async () => {
+          currentChatId = c.id;
+          sessionStorage.setItem(CHAT_ID_KEY, String(c.id));
+          chatListEl.querySelectorAll(".chat-list-item").forEach((el) => el.classList.remove("active"));
+          btn.classList.add("active");
+          await loadChatMessages(c.id);
+        });
+        chatListEl.appendChild(btn);
+      });
     }
 
     async function bootstrapChatSession() {
@@ -395,7 +563,7 @@
         }
       }
       sessionStorage.setItem(CHAT_ID_KEY, String(currentChatId));
-      await refreshChatSelector();
+      await renderChatList();
       await loadChatMessages(currentChatId);
     }
 
@@ -410,122 +578,131 @@
           appendAssistantBubble(m.content, [], null, { showSources: false });
         }
       });
-      messagesEl.scrollTop = messagesEl.scrollHeight;
+      scrollMessagesToBottom();
     }
 
+    /**
+     * One surface for the assistant text. Optional perm-note only when some chunks were shown
+     * but others were hidden (additive). Source panel only when there are chunks to show.
+     */
     function appendAssistantBubble(reply, matches, numDocsNotAllowed, options) {
       const showSources = !options || options.showSources !== false;
+      const matchList = matches && matches.length ? matches : [];
+      const hasChunks = matchList.length > 0;
+      const partialRag =
+        numDocsNotAllowed != null &&
+        numDocsNotAllowed > 0 &&
+        hasChunks;
+      const groupsToContact = (options && options.groupsToContact) || [];
+
+      const row = document.createElement("div");
+      row.className = "msg-row assistant";
       const div = document.createElement("div");
       div.className = "msg bot";
-      const h = document.createElement("h4");
-      h.textContent = "Assistant";
-      div.appendChild(h);
-      if (numDocsNotAllowed != null && numDocsNotAllowed > 0) {
+
+      const role = document.createElement("div");
+      role.className = "msg-role";
+      role.textContent = "Assistant";
+      div.appendChild(role);
+
+      if (partialRag) {
         const note = document.createElement("p");
         note.className = "perm-note";
-        let t =
-          "Some indexed matches were hidden by your role (" +
-          numDocsNotAllowed +
-          " not accessible).";
-        const gc = options && options.groupsToContact;
-        if (gc && gc.length) {
-          t += " Groups that may be able to help with access: " + gc.join(", ") + ".";
+        let t = numDocsNotAllowed + " related passage(s) were not shown because of your access.";
+        if (groupsToContact.length) {
+          t += " For access, contact: " + groupsToContact.join(", ") + ".";
         }
         note.textContent = t;
         div.appendChild(note);
       }
+
       const answer = document.createElement("p");
       answer.className = "bot-answer";
-      answer.textContent = reply && reply.trim() ? reply.trim() : "(Empty reply from model.)";
+      answer.textContent = reply && reply.trim() ? reply.trim() : "(Empty reply.)";
       div.appendChild(answer);
 
-      if (!showSources) {
-        messagesEl.appendChild(div);
-        messagesEl.scrollTop = messagesEl.scrollHeight;
+      if (!showSources || !hasChunks) {
+        row.appendChild(div);
+        messagesEl.appendChild(row);
+        scrollMessagesToBottom();
         return;
       }
 
-      const n = matches && matches.length ? matches.length : 0;
+      const n = matchList.length;
       const details = document.createElement("details");
       details.className = "sources-details";
-
       const summary = document.createElement("summary");
       summary.className = "sources-summary";
       const left = document.createElement("span");
       left.className = "sources-summary-left";
       const label = document.createElement("span");
-      label.textContent = "Show source chunks";
+      label.textContent = "Sources";
       const pill = document.createElement("span");
       pill.className = "count-pill";
-      pill.textContent = n === 0 ? "None" : n + (n === 1 ? " chunk" : " chunks");
+      pill.textContent = n + (n === 1 ? " chunk" : " chunks");
       left.appendChild(label);
       left.appendChild(pill);
       const chev = document.createElement("span");
       chev.className = "sources-chevron";
-      chev.setAttribute("aria-hidden", "true");
-      chev.innerHTML = '<svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 4.5L6 8l3.5-3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+      chev.innerHTML = '<svg viewBox="0 0 12 12" fill="none"><path d="M2.5 4.5L6 8l3.5-3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
       summary.appendChild(left);
       summary.appendChild(chev);
       details.appendChild(summary);
 
       const body = document.createElement("div");
       body.className = "sources-body";
-
-      if (!matches || !matches.length) {
-        const hint = document.createElement("p");
-        hint.className = "sources-hint";
-        hint.textContent =
-          "No chunks were retrieved for your roles, or none met the relevance threshold. The assistant was run with empty or minimal context.";
-        body.appendChild(hint);
-      } else {
-        const hint = document.createElement("p");
-        hint.className = "sources-hint";
-        hint.textContent =
-          "Grounding passages sent to the model (role-filtered). Each card is one vector chunk from your knowledge base.";
-        body.appendChild(hint);
-        const grid = document.createElement("div");
-        grid.className = "chunk-grid";
-        matches.forEach((m, i) => {
-          const meta = m.metadata || {};
-          const chunkText = meta.text != null ? String(meta.text) : "(No text in metadata)";
-          const card = document.createElement("article");
-          card.className = "chunk-card";
-          const head = document.createElement("div");
-          head.className = "chunk-card-header";
-          const docName = meta.document_name != null ? String(meta.document_name) : "Document";
-          head.textContent = "Chunk " + (i + 1) + " · " + docName;
-          const textEl = document.createElement("div");
-          textEl.className = "chunk-card-text";
-          textEl.textContent = chunkText;
-          const foot = document.createElement("div");
-          foot.className = "chunk-card-meta";
-          const scoreStr = m.score != null ? Number(m.score).toFixed(4) : "—";
-          let metaBits = "Similarity score: " + scoreStr;
-          if (meta.source) metaBits += " · Source: " + meta.source;
-          if (meta.allowed_groups != null) {
-            try {
-              metaBits += " · Groups: " + JSON.stringify(meta.allowed_groups);
-            } catch (_) {
-              metaBits += " · Groups: (unavailable)";
-            }
-          }
-          foot.textContent = metaBits;
-          card.appendChild(head);
-          card.appendChild(textEl);
-          card.appendChild(foot);
-          grid.appendChild(card);
-        });
-        body.appendChild(grid);
-      }
+      const hint = document.createElement("p");
+      hint.className = "sources-hint";
+      hint.textContent = "Passages used as context (already filtered to your roles).";
+      body.appendChild(hint);
+      const grid = document.createElement("div");
+      grid.className = "chunk-grid";
+      matchList.forEach((m, i) => {
+        const meta = m.metadata || {};
+        const chunkText = meta.text != null ? String(meta.text) : "(No text in metadata)";
+        const card = document.createElement("article");
+        card.className = "chunk-card";
+        const head = document.createElement("div");
+        head.className = "chunk-card-header";
+        const docName = meta.document_name != null ? String(meta.document_name) : "Document";
+        head.textContent = "Chunk " + (i + 1) + " · " + docName;
+        const textEl = document.createElement("div");
+        textEl.className = "chunk-card-text";
+        textEl.textContent = chunkText;
+        const foot = document.createElement("div");
+        foot.className = "chunk-card-meta";
+        const scoreStr = m.score != null ? Number(m.score).toFixed(4) : "—";
+        let metaBits = "Score: " + scoreStr;
+        if (meta.allowed_groups != null) {
+          try {
+            metaBits += " · Groups: " + JSON.stringify(meta.allowed_groups);
+          } catch (_) {}
+        }
+        foot.textContent = metaBits;
+        card.appendChild(head);
+        card.appendChild(textEl);
+        card.appendChild(foot);
+        grid.appendChild(card);
+      });
+      body.appendChild(grid);
       details.appendChild(body);
       details.addEventListener("toggle", () => {
-        label.textContent = details.open ? "Hide source chunks" : "Show source chunks";
+        label.textContent = details.open ? "Hide sources" : "Sources";
       });
       div.appendChild(details);
 
-      messagesEl.appendChild(div);
-      messagesEl.scrollTop = messagesEl.scrollHeight;
+      row.appendChild(div);
+      messagesEl.appendChild(row);
+      scrollMessagesToBottom();
     }
+
+    function autoResizeComposer() {
+      const ta = document.getElementById("chat-input");
+      ta.style.height = "auto";
+      ta.style.height = Math.min(ta.scrollHeight, 200) + "px";
+    }
+
+    document.getElementById("chat-input").addEventListener("input", autoResizeComposer);
 
     document.getElementById("btn-login").onclick = async () => {
       loginErr.classList.add("hidden");
@@ -539,7 +716,8 @@
         setToken(data.access_token);
         const me = await api("/auth/me");
         document.getElementById("me-name").textContent = me.name;
-        document.getElementById("me-groups").textContent = (me.groups && me.groups.length) ? me.groups.join(", ") : "no groups";
+        document.getElementById("me-groups").textContent =
+          me.groups && me.groups.length ? me.groups.join(", ") : "No groups";
         showChat();
         await bootstrapChatSession();
       } catch (e) {
@@ -551,9 +729,7 @@
     document.getElementById("btn-logout").onclick = async () => {
       try {
         await api("/auth/logout", { method: "POST", body: "{}" });
-      } catch (_) {
-        /* ignore */
-      }
+      } catch (_) {}
       showLogin();
     };
 
@@ -563,11 +739,12 @@
       const text = input.value.trim();
       if (!text) return;
       if (currentChatId == null) {
-        chatErr.textContent = "No conversation selected. Create a new chat.";
+        chatErr.textContent = "No conversation selected.";
         chatErr.classList.remove("hidden");
         return;
       }
       input.value = "";
+      input.style.height = "auto";
       appendUser(text);
       const btn = document.getElementById("btn-send");
       btn.disabled = true;
@@ -580,7 +757,7 @@
           showSources: true,
           groupsToContact: data.groups_to_contact || [],
         });
-        await refreshChatSelector();
+        await renderChatList();
       } catch (e) {
         chatErr.textContent = e.message;
         chatErr.classList.remove("hidden");
@@ -599,21 +776,13 @@
       }
     });
 
-    document.getElementById("chat-select").addEventListener("change", async (ev) => {
-      const id = parseInt(ev.target.value, 10);
-      if (Number.isNaN(id)) return;
-      currentChatId = id;
-      sessionStorage.setItem(CHAT_ID_KEY, String(id));
-      await loadChatMessages(id);
-    });
-
     document.getElementById("btn-new-chat").onclick = async () => {
       chatErr.classList.add("hidden");
       try {
         const created = await api("/chat/create", { method: "POST", body: "{}" });
         currentChatId = created.chat_id;
         sessionStorage.setItem(CHAT_ID_KEY, String(currentChatId));
-        await refreshChatSelector();
+        await renderChatList();
         messagesEl.innerHTML = "";
       } catch (e) {
         chatErr.textContent = e.message;
@@ -623,7 +792,7 @@
 
     document.getElementById("btn-delete-chat").onclick = async () => {
       if (currentChatId == null) return;
-      if (!confirm("Delete this conversation? This cannot be undone.")) return;
+      if (!confirm("Delete this conversation?")) return;
       chatErr.classList.add("hidden");
       try {
         await apiDelete("/chat/delete/" + currentChatId);
@@ -642,7 +811,8 @@
       try {
         const me = await api("/auth/me");
         document.getElementById("me-name").textContent = me.name;
-        document.getElementById("me-groups").textContent = (me.groups && me.groups.length) ? me.groups.join(", ") : "no groups";
+        document.getElementById("me-groups").textContent =
+          me.groups && me.groups.length ? me.groups.join(", ") : "No groups";
         showChat();
         await bootstrapChatSession();
       } catch (_) {
