@@ -192,6 +192,7 @@ Notes:
 
 - SQL seed uses `INSERT OR IGNORE`, so repeated seed runs are idempotent.
 - Dynamic seeding can add new documents/groups beyond the base demo rows from `seed.sql`.
+- Test document data is available in `test_data.zip` (project root) if you need sample files.
 
 ## 5) Documents Upsert Flow (Pinecone)
 
