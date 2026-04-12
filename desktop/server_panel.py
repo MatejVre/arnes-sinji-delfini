@@ -1,4 +1,4 @@
-"""Zagon lokalnega uvicorn API-ja iz namiznega GUI (koren repozitorija = cwd)."""
+"""root directory = cwd)."""
 
 from __future__ import annotations
 

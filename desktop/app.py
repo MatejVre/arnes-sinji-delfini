@@ -2,12 +2,15 @@ from __future__ import annotations
 
 import queue
 import tkinter as tk
+from pathlib import Path
 from tkinter import font as tkfont
 from tkinter import scrolledtext
 
 try:
+    from desktop.env_file import read_env, update_env_keys
     from desktop.server_panel import REPO_ROOT, start_uvicorn, stop_process
 except ImportError:
+    from env_file import read_env, update_env_keys
     from server_panel import REPO_ROOT, start_uvicorn, stop_process
 
 
@@ -45,9 +48,12 @@ class SinjiDesktopApp(tk.Tk):
         self._log_queue: queue.Queue[str] = queue.Queue()
         self._server_log: scrolledtext.ScrolledText | None = None
 
+        self._env_path: Path = REPO_ROOT / ".env"
+
         self._build_welcome()
         self._build_server_page()
         self._build_logs_page()
+        self._build_ai_page()
         self._build_placeholders()
 
         self.protocol("WM_DELETE_WINDOW", self._on_close_window)
@@ -437,13 +443,322 @@ class SinjiDesktopApp(tk.Tk):
         self._server_proc = None
         self.destroy()
 
+    def _build_ai_page(self) -> None:
+        page = tk.Frame(self._container, bg=COLORS["bg"])
+        self._pages["ai"] = page
+        self._page_header(page, "AI / LLM")
+
+        outer = tk.Frame(page, bg=COLORS["bg"])
+        outer.pack(fill=tk.BOTH, expand=True, padx=24, pady=16)
+
+        canvas = tk.Canvas(outer, bg=COLORS["bg"], highlightthickness=0)
+        sb = tk.Scrollbar(outer, orient=tk.VERTICAL, command=canvas.yview)
+        body = tk.Frame(canvas, bg=COLORS["bg"])
+        body.bind("<Configure>", lambda e: canvas.configure(scrollregion=canvas.bbox("all")))
+        inner_win = canvas.create_window((0, 0), window=body, anchor=tk.NW)
+
+        def _on_canvas_configure(event: tk.Event) -> None:
+            canvas.itemconfig(inner_win, width=max(event.width - 4, 1))
+
+        canvas.bind("<Configure>", _on_canvas_configure)
+        canvas.configure(yscrollcommand=sb.set)
+        sb.pack(side=tk.RIGHT, fill=tk.Y)
+        canvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+
+        card = tk.Frame(body, bg=COLORS["card"], highlightbackground=COLORS["border"], highlightthickness=1)
+        card.pack(fill=tk.BOTH, expand=True)
+
+        pad = tk.Frame(card, bg=COLORS["card"])
+        pad.pack(fill=tk.BOTH, expand=True, padx=20, pady=18)
+
+        tk.Label(
+            pad,
+            text="Nastavitve se zapišejo v .env v korenu projekta. Po spremembi ponovno zaženite API strežnik.",
+            font=("Segoe UI", 9),
+            fg=COLORS["muted"],
+            bg=COLORS["card"],
+            wraplength=820,
+            justify=tk.LEFT,
+        ).pack(anchor=tk.W, pady=(0, 14))
+
+        self._ai_mode = tk.StringVar(value="local")
+        mode_row = tk.Frame(pad, bg=COLORS["card"])
+        mode_row.pack(fill=tk.X, pady=(0, 12))
+        tk.Label(mode_row, text="Način", font=self._nav_font, fg=COLORS["text"], bg=COLORS["card"]).pack(anchor=tk.W)
+        mr = tk.Frame(mode_row, bg=COLORS["card"])
+        mr.pack(anchor=tk.W, pady=(6, 0))
+        tk.Radiobutton(
+            mr,
+            text="Lokalni model (Hugging Face / CUDA)",
+            variable=self._ai_mode,
+            value="local",
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg=COLORS["card"],
+            selectcolor=COLORS["bg"],
+            activebackground=COLORS["card"],
+            command=self._ai_refresh_mode_visibility,
+        ).pack(anchor=tk.W)
+        tk.Radiobutton(
+            mr,
+            text="API ponudnik (OpenAI ali Gemini)",
+            variable=self._ai_mode,
+            value="api",
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg=COLORS["card"],
+            selectcolor=COLORS["bg"],
+            activebackground=COLORS["card"],
+            command=self._ai_refresh_mode_visibility,
+        ).pack(anchor=tk.W)
+
+        self._ai_local_frame = tk.LabelFrame(
+            pad,
+            text="Lokalni model",
+            font=self._subtitle_font,
+            fg=COLORS["accent"],
+            bg=COLORS["card"],
+            bd=0,
+            highlightthickness=0,
+        )
+        self._ai_base_model = tk.StringVar(value="cjvt/GaMS3-12B-Instruct")
+        self._ai_4bit = tk.IntVar(value=1)
+        self._ai_offload = tk.IntVar(value=1)
+        self._ai_device_map = tk.StringVar(value="auto")
+        self._ai_hf_token = tk.StringVar(value="")
+        self._ai_row_entry(self._ai_local_frame, "LLM_BASE_MODEL_ID", self._ai_base_model)
+        self._ai_row_check(self._ai_local_frame, "LLM_USE_4BIT (priporočeno na GPU)", self._ai_4bit)
+        self._ai_row_check(self._ai_local_frame, "LLM_ENABLE_CPU_OFFLOAD", self._ai_offload)
+        self._ai_row_entry(self._ai_local_frame, "LLM_DEVICE_MAP", self._ai_device_map)
+        self._ai_row_entry(self._ai_local_frame, "HF_TOKEN (opcijsko)", self._ai_hf_token, show="*")
+
+        self._ai_api_frame = tk.LabelFrame(
+            pad,
+            text="API",
+            font=self._subtitle_font,
+            fg=COLORS["accent"],
+            bg=COLORS["card"],
+            bd=0,
+            highlightthickness=0,
+        )
+        prov_row = tk.Frame(self._ai_api_frame, bg=COLORS["card"])
+        prov_row.pack(fill=tk.X, pady=(0, 10))
+        tk.Label(prov_row, text="LLM_API_PROVIDER", font=self._subtitle_font, fg=COLORS["muted"], bg=COLORS["card"]).pack(
+            side=tk.LEFT, padx=(0, 12)
+        )
+        self._ai_provider = tk.StringVar(value="openai")
+        om = tk.OptionMenu(
+            prov_row,
+            self._ai_provider,
+            "openai",
+            "gemini",
+            command=lambda *_: self._ai_refresh_provider_visibility(),
+        )
+        om.config(font=self._subtitle_font, fg=COLORS["text"], bg=COLORS["bg"], highlightthickness=0, bd=0)
+        om.pack(side=tk.LEFT)
+
+        self._ai_openai_frame = tk.Frame(self._ai_api_frame, bg=COLORS["card"])
+        self._ai_o_key = tk.StringVar()
+        self._ai_o_model = tk.StringVar()
+        self._ai_o_base = tk.StringVar()
+        self._ai_row_entry(self._ai_openai_frame, "OPENAI_API_KEY", self._ai_o_key, show="*")
+        self._ai_row_entry(self._ai_openai_frame, "OPENAI_MODEL", self._ai_o_model)
+        self._ai_row_entry(self._ai_openai_frame, "OPENAI_BASE_URL (opcijsko)", self._ai_o_base)
+
+        self._ai_gemini_frame = tk.Frame(self._ai_api_frame, bg=COLORS["card"])
+        self._ai_g_key = tk.StringVar()
+        self._ai_g_model = tk.StringVar()
+        self._ai_g_base = tk.StringVar(value="https://generativelanguage.googleapis.com/v1beta/openai/")
+        self._ai_row_entry(self._ai_gemini_frame, "GEMINI_API_KEY", self._ai_g_key, show="*")
+        self._ai_row_entry(self._ai_gemini_frame, "GEMINI_MODEL", self._ai_g_model)
+        self._ai_row_entry(self._ai_gemini_frame, "GEMINI_BASE_URL", self._ai_g_base)
+
+        btn_row = tk.Frame(pad, bg=COLORS["card"])
+        btn_row.pack(fill=tk.X, pady=(16, 8))
+        tk.Button(
+            btn_row,
+            text="Shrani v .env",
+            font=self._nav_font,
+            fg="#ffffff",
+            bg=COLORS["accent"],
+            activeforeground="#ffffff",
+            activebackground=COLORS["accent_hover"],
+            highlightthickness=0,
+            bd=0,
+            padx=20,
+            pady=10,
+            cursor="hand2",
+            command=self._ai_save,
+        ).pack(side=tk.LEFT, padx=(0, 10))
+        tk.Button(
+            btn_row,
+            text="Naloži iz .env",
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg_elevated"],
+            activeforeground=COLORS["text"],
+            activebackground=COLORS["border"],
+            highlightthickness=0,
+            bd=0,
+            padx=16,
+            pady=8,
+            cursor="hand2",
+            command=self._ai_load,
+        ).pack(side=tk.LEFT)
+
+        self._ai_status = tk.StringVar(value="")
+        tk.Label(
+            pad,
+            textvariable=self._ai_status,
+            font=self._subtitle_font,
+            fg=COLORS["muted"],
+            bg=COLORS["card"],
+            anchor=tk.W,
+        ).pack(fill=tk.X, pady=(4, 0))
+
+        self._ai_load()
+        self._ai_refresh_mode_visibility()
+
+    def _ai_row_entry(
+        self,
+        parent: tk.Widget,
+        label: str,
+        var: tk.StringVar,
+        show: str | None = None,
+    ) -> None:
+        row = tk.Frame(parent, bg=COLORS["card"])
+        row.pack(fill=tk.X, pady=6)
+        tk.Label(row, text=label, font=self._subtitle_font, fg=COLORS["muted"], bg=COLORS["card"], width=28, anchor=tk.W).pack(
+            side=tk.LEFT, padx=(0, 10)
+        )
+        e = tk.Entry(
+            row,
+            textvariable=var,
+            font=self._body_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg"],
+            insertbackground=COLORS["text"],
+            show=show or "",
+            highlightthickness=1,
+            highlightbackground=COLORS["border"],
+            highlightcolor=COLORS["accent"],
+            bd=0,
+        )
+        e.pack(side=tk.LEFT, fill=tk.X, expand=True, ipady=5, ipadx=6)
+
+    def _ai_row_check(self, parent: tk.Widget, label: str, var: tk.IntVar) -> None:
+        row = tk.Frame(parent, bg=COLORS["card"])
+        row.pack(fill=tk.X, pady=4)
+        tk.Checkbutton(
+            row,
+            text=label,
+            variable=var,
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg=COLORS["card"],
+            selectcolor=COLORS["bg"],
+            activebackground=COLORS["card"],
+        ).pack(anchor=tk.W)
+
+    def _ai_refresh_mode_visibility(self) -> None:
+        self._ai_local_frame.pack_forget()
+        self._ai_api_frame.pack_forget()
+        if self._ai_mode.get() == "local":
+            self._ai_local_frame.pack(fill=tk.X, pady=(8, 0))
+        else:
+            self._ai_api_frame.pack(fill=tk.X, pady=(8, 0))
+            self._ai_refresh_provider_visibility()
+
+    def _ai_refresh_provider_visibility(self) -> None:
+        self._ai_openai_frame.pack_forget()
+        self._ai_gemini_frame.pack_forget()
+        if self._ai_provider.get() == "gemini":
+            self._ai_gemini_frame.pack(fill=tk.X, pady=(8, 0))
+        else:
+            self._ai_openai_frame.pack(fill=tk.X, pady=(8, 0))
+
+    def _ai_load(self) -> None:
+        d = read_env(self._env_path)
+        use_local = d.get("USE_LOCAL_LLM", "1").strip().lower() in {"1", "true", "yes", "on"}
+        self._ai_mode.set("local" if use_local else "api")
+        self._ai_base_model.set(d.get("LLM_BASE_MODEL_ID", "").strip() or "cjvt/GaMS3-12B-Instruct")
+        self._ai_4bit.set(1 if d.get("LLM_USE_4BIT", "1").strip().lower() in {"1", "true", "yes", "on"} else 0)
+        self._ai_offload.set(1 if d.get("LLM_ENABLE_CPU_OFFLOAD", "1").strip().lower() in {"1", "true", "yes", "on"} else 0)
+        self._ai_device_map.set(d.get("LLM_DEVICE_MAP", "auto"))
+        self._ai_hf_token.set(d.get("HF_TOKEN", d.get("HUGGINGFACE_HUB_TOKEN", "")))
+        prov = d.get("LLM_API_PROVIDER", "openai").strip().lower()
+        self._ai_provider.set("gemini" if prov == "gemini" else "openai")
+        self._ai_o_key.set(d.get("OPENAI_API_KEY", ""))
+        self._ai_o_model.set(d.get("OPENAI_MODEL", ""))
+        self._ai_o_base.set(d.get("OPENAI_BASE_URL", ""))
+        self._ai_g_key.set(d.get("GEMINI_API_KEY", ""))
+        self._ai_g_model.set(d.get("GEMINI_MODEL", ""))
+        self._ai_g_base.set(d.get("GEMINI_BASE_URL", "https://generativelanguage.googleapis.com/v1beta/openai/"))
+        self._ai_status.set(f"Naloženo iz: {self._env_path}")
+        self._ai_refresh_mode_visibility()
+
+    def _ai_save(self) -> None:
+        try:
+            if self._ai_mode.get() == "local":
+                tok = self._ai_hf_token.get().strip()
+                updates: dict[str, str | None] = {
+                    "USE_LOCAL_LLM": "1",
+                    "LLM_BASE_MODEL_ID": self._ai_base_model.get().strip(),
+                    "LLM_USE_4BIT": "1" if self._ai_4bit.get() else "0",
+                    "LLM_ENABLE_CPU_OFFLOAD": "1" if self._ai_offload.get() else "0",
+                    "LLM_DEVICE_MAP": self._ai_device_map.get().strip() or "auto",
+                    "HF_TOKEN": tok if tok else "",
+                    "HUGGINGFACE_HUB_TOKEN": "",
+                    "LLM_API_PROVIDER": "",
+                    "OPENAI_API_KEY": "",
+                    "OPENAI_MODEL": "",
+                    "OPENAI_BASE_URL": "",
+                    "GEMINI_API_KEY": "",
+                    "GEMINI_MODEL": "",
+                    "GEMINI_BASE_URL": "",
+                }
+            else:
+                prov = self._ai_provider.get()
+                updates = {
+                    "USE_LOCAL_LLM": "0",
+                    "LLM_API_PROVIDER": prov,
+                    "LLM_BASE_MODEL_ID": "",
+                    "LLM_USE_4BIT": "",
+                    "LLM_ENABLE_CPU_OFFLOAD": "",
+                    "LLM_DEVICE_MAP": "",
+                    "HF_TOKEN": "",
+                    "HUGGINGFACE_HUB_TOKEN": "",
+                }
+                if prov == "openai":
+                    updates["OPENAI_API_KEY"] = self._ai_o_key.get().strip()
+                    updates["OPENAI_MODEL"] = self._ai_o_model.get().strip()
+                    ob = self._ai_o_base.get().strip()
+                    updates["OPENAI_BASE_URL"] = ob if ob else ""
+                    updates["GEMINI_API_KEY"] = ""
+                    updates["GEMINI_MODEL"] = ""
+                    updates["GEMINI_BASE_URL"] = ""
+                else:
+                    updates["GEMINI_API_KEY"] = self._ai_g_key.get().strip()
+                    updates["GEMINI_MODEL"] = self._ai_g_model.get().strip()
+                    gb = self._ai_g_base.get().strip()
+                    updates["GEMINI_BASE_URL"] = (
+                        gb if gb else "https://generativelanguage.googleapis.com/v1beta/openai/"
+                    )
+                    updates["OPENAI_API_KEY"] = ""
+                    updates["OPENAI_MODEL"] = ""
+                    updates["OPENAI_BASE_URL"] = ""
+
+            update_env_keys(self._env_path, updates)
+            self._ai_status.set(f"Shranjeno v {self._env_path} — znova zaženite strežnik.")
+        except OSError as exc:
+            self._ai_status.set(f"Napaka: {exc}")
+
     def _build_placeholders(self) -> None:
         titles = {
             "documents": "Dokumenti",
             "groups": "Skupine",
             "users": "Uporabniki",
             "permissions": "Pravice do dokumentov",
-            "ai": "AI / LLM",
             "index": "Indeks (Pinecone)",
             "backup": "Varnostno kopiranje",
         }
