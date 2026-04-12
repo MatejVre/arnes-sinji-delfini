@@ -177,6 +177,22 @@ Seeding behavior:
   - `skipped_files_missing_permissions`
   - `ignored_permissions_missing_files`
 
+Seeded data overview:
+
+| Source | Table(s) | Seeded data |
+|---|---|---|
+| `DB/seed.sql` | `users` | `šef`, `finance`, `HR` (all with password `testing`) |
+| `DB/seed.sql` | `groups` | `finance`, `HR`, `CEO` |
+| `DB/seed.sql` | `user_group` | `šef -> finance, HR, CEO`; `finance -> finance`; `HR -> HR` |
+| `DB/seed.sql` | `documents` | Base demo docs: `doc1.txt` ... `doc6.txt`, `stroski_2023.csv` |
+| `DB/seed.sql` | `document_group` | Base links: `doc1->finance`, `doc2->HR`, `doc3->finance`, `doc4->CEO`, `doc5->finance`, `doc6->CEO`, `stroski_2023.csv->finance` |
+| Dynamic (`Db._seed_documents_from_data`) | `documents`, `groups`, `document_group` | Reads `data/documents/` + `data/permissions.json`, inserts missing docs/groups, and links docs to `allowed_groups` |
+
+Notes:
+
+- SQL seed uses `INSERT OR IGNORE`, so repeated seed runs are idempotent.
+- Dynamic seeding can add new documents/groups beyond the base demo rows from `seed.sql`.
+
 ## 5) Documents Upsert Flow (Pinecone)
 
 Use this order when reindexing:
