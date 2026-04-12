@@ -1,4 +1,6 @@
+import asyncio
 import sqlite3
+import threading
 from contextlib import asynccontextmanager
 from pathlib import Path
 
@@ -13,7 +15,6 @@ from API.auth import create_access_token, get_current_user, hash_password, verif
 from DB.db import Db
 from LLM.llm import chat_with_model, create_llm_resources, generate_chat_name, preprocess_rag_data
 from RAG.acces_controll import adaptive_threshold_filter, filter_documents_by_permissions
-from RAG.openai_reply import generate_rag_reply
 from RAG.retrieval import find_suitable_documents, normalize_retrieval_response
 from RAG.upsert import create_upsert_resources, upsert_all_documents_from_db
 
@@ -31,6 +32,91 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 K_LATEST_MESSAGES = 10
+
+_CHAT_ML_LOCK = threading.Lock()#lock for embedding inside LLM step to prevent race conditions
+
+def _chat_rag_and_llm_sync(
+    index: object,
+    embed_model: object,
+    llm_resources: dict | None,
+    user_question: str,
+    previous_messages: list[dict[str, str]],
+    groups: list[str],
+    should_generate_name: bool,
+) -> dict:
+    retrieval_response = find_suitable_documents(
+        index,
+        embed_model,
+        user_question,
+        encode_lock=_CHAT_ML_LOCK,
+    )
+
+    matches = normalize_retrieval_response(retrieval_response)
+    relevant_matches = adaptive_threshold_filter(matches)
+    allowed_matches, groups_to_contact = filter_documents_by_permissions(
+        relevant_matches, groups
+    )
+
+    relevant_matches_len = len(relevant_matches)
+    num_not_allowed = relevant_matches_len - len(allowed_matches)
+
+    llm_succeeded = False
+    chat_name: str | None = None
+    llm_mode = (llm_resources or {}).get("llm_mode")
+
+    if relevant_matches_len > 0 and num_not_allowed == relevant_matches_len:
+        user_message_with_context = user_question
+        if groups_to_contact:
+            llm_response = (
+                "V indeksu so na voljo relevantni dokumenti, vaš račun pa do njih nima dostopa. "
+                "Obrnite se na skrbnika ali člane teh skupin: "
+                + ", ".join(groups_to_contact)
+                + "."
+            )
+        else:
+            llm_response = (
+                "Obstajajo ujemanja z dokumenti, vendar vaš račun nima dostopa; "
+                "iz metapodatkov ni bilo mogoče določiti kontaktnih skupin."
+            )
+    else:
+        messages = preprocess_rag_data(
+            question=user_question,
+            allowed_matches=allowed_matches,
+            previous_messages=previous_messages,
+        )
+        user_message_with_context = messages[-1]["content"]
+
+        try:
+            if llm_mode == "local":
+                with _CHAT_ML_LOCK:
+                    llm_response = chat_with_model(llm_resources, messages)
+            else:
+                llm_response = chat_with_model(llm_resources, messages)
+            llm_succeeded = True
+        except RuntimeError as exc:
+            if llm_mode == "api":
+                raise HTTPException(
+                    status_code=status.HTTP_502_BAD_GATEWAY,
+                    detail=f"Napaka ponudnika LLM: {exc}",
+                ) from exc
+            raise
+
+        if should_generate_name and llm_succeeded:
+            if llm_mode == "local":
+                with _CHAT_ML_LOCK:
+                    chat_name = generate_chat_name(llm_resources, prompt=user_question)
+            else:
+                chat_name = generate_chat_name(llm_resources, prompt=user_question)
+
+    return {
+        "user_message_with_context": user_message_with_context,
+        "llm_response": llm_response,
+        "llm_succeeded": llm_succeeded,
+        "allowed_matches": allowed_matches,
+        "groups_to_contact": groups_to_contact,
+        "num_not_allowed": num_not_allowed,
+        "chat_name": chat_name,
+    }
 
 
 class ChatRequest(BaseModel):
@@ -211,69 +297,33 @@ async def chat_endpoint(payload: ChatRequest, current_user: dict = Depends(get_c
         )
 
     previous_messages = app.state.db.fetch_latest_chat_messages(payload.chat_id, K_LATEST_MESSAGES)
+    should_generate_name = chat_meta.get("name") is None and len(previous_messages) == 0
 
-    retrieval_response = find_suitable_documents(
+    worker = await asyncio.to_thread(
+        _chat_rag_and_llm_sync,
         app.state.index,
         app.state.model,
+        app.state.llm_resources,
         payload.chat,
+        previous_messages,
+        current_user["groups"],
+        should_generate_name,
     )
 
-    matches = normalize_retrieval_response(retrieval_response)
-    relevant_matches = adaptive_threshold_filter(matches)
-    allowed_matches, groups_to_contact = filter_documents_by_permissions(
-        relevant_matches, current_user["groups"]
-    )
-
-    relevant_matches_len = len(relevant_matches)
-    allowed_matches_len = len(allowed_matches)
-
-    num_not_allowed = relevant_matches_len - allowed_matches_len
-
-    llm_succeeded = False
-    if relevant_matches_len > 0 and num_not_allowed == relevant_matches_len:
-        user_message_with_context = payload.chat
-        if groups_to_contact:
-            llm_response = (
-                "V indeksu so na voljo relevantni dokumenti, vaš račun pa do njih nima dostopa. "
-                "Obrnite se na skrbnika ali člane teh skupin: "
-                + ", ".join(groups_to_contact)
-                + "."
-            )
-        else:
-            llm_response = (
-                "Obstajajo ujemanja z dokumenti, vendar vaš račun nima dostopa; "
-                "iz metapodatkov ni bilo mogoče določiti kontaktnih skupin."
-            )
-
-    else:
-        messages = preprocess_rag_data(
-            question=payload.chat,
-            allowed_matches=allowed_matches,
-            previous_messages=previous_messages,
-        )
-
-        user_message_with_context = messages[-1]["content"]
-        
-        try:
-            llm_response = chat_with_model(app.state.llm_resources, messages)
-            llm_succeeded = True
-        except RuntimeError as exc:
-            llm_mode = (app.state.llm_resources or {}).get("llm_mode")
-            if llm_mode == "api":
-                raise HTTPException(
-                    status_code=status.HTTP_502_BAD_GATEWAY,
-                    detail=f"Napaka ponudnika LLM: {exc}",
-                ) from exc
-            raise
-
+    user_message_with_context = worker["user_message_with_context"]
+    llm_response = worker["llm_response"]
+    llm_succeeded = worker["llm_succeeded"]
+    allowed_matches = worker["allowed_matches"]
+    groups_to_contact = worker["groups_to_contact"]
+    num_not_allowed = worker["num_not_allowed"]
+    chat_name = worker["chat_name"]
 
     app.state.db.insert_chat_message(payload.chat_id, "user", user_message_with_context)
     assistant_message_id = app.state.db.insert_chat_message(payload.chat_id, "assistant", llm_response)
     allowed_document_ids = app.state.db.extract_unique_allowed_document_ids(allowed_matches)
     app.state.db.insert_chat_message_documents(assistant_message_id, allowed_document_ids)
 
-    if llm_succeeded and len(previous_messages) == 0 and chat_meta.get("name") is None:
-        chat_name = generate_chat_name(app.state.llm_resources, prompt=payload.chat)
+    if chat_name:
         app.state.db.set_chat_name(payload.chat_id, chat_name)
 
     return {
