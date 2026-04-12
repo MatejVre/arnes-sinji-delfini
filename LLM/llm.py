@@ -259,6 +259,7 @@ def chat_with_model(
 def preprocess_rag_data(
     question: str,
     allowed_matches: list[dict[str, Any]],
+    previous_messages: list[dict[str, str]] | None = None,
     system_prompt: str | None = None,
 ) -> list[dict[str, str]]:
     context_chunks = []
@@ -280,16 +281,68 @@ def preprocess_rag_data(
         user_content = question
 
     effective_system_prompt = system_prompt or "You are a helpful assistant. Answer in concise clear text."
-    return [
+    messages: list[dict[str, str]] = [
         {
             "role": "system",
             "content": effective_system_prompt,
-        },
+        }
+    ]
+
+    if previous_messages:
+        for message in previous_messages:
+            role = message.get("role")
+            content = message.get("content")
+            if role in {"system", "user", "assistant"} and isinstance(content, str) and content.strip():
+                messages.append({"role": role, "content": content})
+
+    messages.append(
         {
             "role": "user",
             "content": user_content,
+        }
+    )
+    return messages
+
+
+def generate_chat_name(
+    resources: dict[str, Any],
+    prompt: str,
+    max_words: int = 6,
+) -> str:
+    cleaned_prompt = prompt.strip()
+    if not cleaned_prompt:
+        return "New Chat"
+
+    name_messages = [
+        {
+            "role": "system",
+            "content": (
+                "Generate a very short chat title for the user prompt. "
+                f"Use at most {max_words} words. Return title text only."
+            ),
+        },
+        {
+            "role": "user",
+            "content": cleaned_prompt,
         },
     ]
+
+    try:
+        raw_name = chat_with_model(
+            resources=resources,
+            messages=name_messages,
+            max_new_tokens=24,
+            temperature=0.1,
+            top_p=0.9,
+            do_sample=False,
+        )
+    except Exception:
+        return _fallback_chat_name(cleaned_prompt, max_words)
+
+    sanitized = _sanitize_chat_name(raw_name, max_words=max_words)
+    if not sanitized:
+        return _fallback_chat_name(cleaned_prompt, max_words)
+    return sanitized
 
 
 def _chat_with_api_provider(
@@ -343,6 +396,24 @@ def _extract_api_text_response(response: Any) -> str:
                 texts.append(text_value.strip())
         return "\n".join(texts).strip()
     return ""
+
+
+def _sanitize_chat_name(value: str, max_words: int) -> str:
+    text = value.strip().replace("\n", " ")
+    text = text.strip(" \"'`")
+    if not text:
+        return ""
+    words = text.split()
+    if not words:
+        return ""
+    return " ".join(words[:max_words]).strip()[:80]
+
+
+def _fallback_chat_name(prompt: str, max_words: int) -> str:
+    words = prompt.split()
+    if not words:
+        return "New Chat"
+    return " ".join(words[:max_words]).strip()[:80]
 
 
 def _load_base_model(

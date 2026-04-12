@@ -6,7 +6,7 @@ from pydantic import BaseModel, Field
 
 from API.auth import create_access_token, get_current_user, hash_password, verify_password
 from DB.db import Db
-from LLM.llm import chat_with_model, create_llm_resources, preprocess_rag_data
+from LLM.llm import chat_with_model, create_llm_resources, generate_chat_name, preprocess_rag_data
 from RAG.acces_controll import adaptive_threshold_filter, filter_documents_by_permissions
 from RAG.retrieval import (
     create_retrieval_resources,
@@ -28,9 +28,11 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(lifespan=lifespan)
+K_LATEST_MESSAGES = 10
 
 
 class ChatRequest(BaseModel):
+    chat_id: int
     chat: str
 
 
@@ -136,9 +138,78 @@ async def me_endpoint(current_user: dict = Depends(get_current_user)):
         "groups": current_user["groups"],
     }
 
+@app.get("/chat/list")
+async def list_chats_endpoint(current_user: dict = Depends(get_current_user)):
+    chats = app.state.db.list_user_chats(current_user["id"])
+    return {
+        "status": "ok",
+        "chats": chats,
+    }
+
+
+@app.post("/chat/create")
+async def create_chat_endpoint(current_user: dict = Depends(get_current_user)):
+    chat_id = app.state.db.create_chat(current_user["id"])
+    return {
+        "status": "ok",
+        "chat_id": chat_id,
+    }
+
+
+@app.delete("/chat/{chat_id}")
+async def delete_chat_endpoint(chat_id: int, current_user: dict = Depends(get_current_user)):
+    deletion_status = app.state.db.delete_chat_for_user(chat_id=chat_id, user_id=current_user["id"])
+
+    if deletion_status == "not_found":
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Chat with id {chat_id} not found.",
+        )
+
+    if deletion_status == "forbidden":
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Chat does not belong to current user.",
+        )
+
+    return {
+        "status": "ok",
+        "message": f"Chat {chat_id} deleted.",
+    }
+
+
+@app.get("/chat/get/{chat_id}")
+async def get_chat_endpoint(chat_id: int, current_user: dict = Depends(get_current_user)):
+    result = app.state.db.get_chat_for_user(chat_id=chat_id, user_id=current_user["id"])
+    if result["status"] == "not_found":
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Chat with id {chat_id} not found.",
+        )
+    if result["status"] == "forbidden":
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Chat does not belong to current user.",
+        )
+    return {"status": "ok", "chat": result["chat"]}
+
 
 @app.post("/chat")
 async def chat_endpoint(payload: ChatRequest, current_user: dict = Depends(get_current_user)):
+    chat_meta = app.state.db.get_chat_meta(payload.chat_id)
+    if chat_meta is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Chat with id {payload.chat_id} not found.",
+        )
+    if chat_meta["user_id"] != current_user["id"]:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Chat does not belong to current user.",
+        )
+
+    previous_messages = app.state.db.fetch_latest_chat_messages(payload.chat_id, K_LATEST_MESSAGES)
+
     retrieval_response = find_suitable_documents(
         app.state.index,
         app.state.model,
@@ -154,14 +225,23 @@ async def chat_endpoint(payload: ChatRequest, current_user: dict = Depends(get_c
     
     num_not_allowed = relevant_matches_len - allowed_matches_len
 
-    if num_not_allowed == relevant_matches_len:
+    llm_succeeded = False
+    if relevant_matches_len > 0 and num_not_allowed == relevant_matches_len:
+        user_message_with_context = payload.chat
         llm_response = "Files exist but you do not have permission to view them"
 
     else:
-        messages = preprocess_rag_data(payload.chat, allowed_matches)
+        messages = preprocess_rag_data(
+            question=payload.chat,
+            allowed_matches=allowed_matches,
+            previous_messages=previous_messages,
+        )
 
+        user_message_with_context = messages[-1]["content"]
+        
         try:
             llm_response = chat_with_model(app.state.llm_resources, messages)
+            llm_succeeded = True
         except RuntimeError as exc:
             llm_mode = (app.state.llm_resources or {}).get("llm_mode")
             if llm_mode == "api":
@@ -171,8 +251,19 @@ async def chat_endpoint(payload: ChatRequest, current_user: dict = Depends(get_c
                 ) from exc
             raise
 
+
+    app.state.db.insert_chat_message(payload.chat_id, "user", user_message_with_context)
+    assistant_message_id = app.state.db.insert_chat_message(payload.chat_id, "assistant", llm_response)
+    allowed_document_ids = app.state.db.extract_unique_allowed_document_ids(allowed_matches)
+    app.state.db.insert_chat_message_documents(assistant_message_id, allowed_document_ids)
+
+    if llm_succeeded and len(previous_messages) == 0 and chat_meta.get("name") is None:
+        chat_name = generate_chat_name(app.state.llm_resources, prompt=payload.chat)
+        app.state.db.set_chat_name(payload.chat_id, chat_name)
+
     return {
         "status": "ok",
+        "chat_id": payload.chat_id,
         "user": {
             "id": current_user["id"],
             "name": current_user["name"],

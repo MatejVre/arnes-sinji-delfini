@@ -23,6 +23,7 @@ CREATE INDEX IF NOT EXISTS idx_user_group_group_id ON user_group(group_id);
 
 CREATE TABLE IF NOT EXISTS chat (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT DEFAULT NULL,
     user_id INTEGER NOT NULL,
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
@@ -34,10 +35,24 @@ CREATE TABLE IF NOT EXISTS chat_message (
     chat_id INTEGER NOT NULL,
     role TEXT NOT NULL,
     content TEXT NOT NULL,
+    created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (chat_id) REFERENCES chat(id) ON DELETE CASCADE
 );
 
 CREATE INDEX IF NOT EXISTS idx_chat_message_chat_id ON chat_message(chat_id);
+CREATE INDEX IF NOT EXISTS idx_chat_message_created_at ON chat_message(created_at);
+
+CREATE TABLE IF NOT EXISTS chat_message_document (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    chat_message_id INTEGER NOT NULL,
+    document_id INTEGER NOT NULL,
+    UNIQUE(chat_message_id, document_id),
+    FOREIGN KEY (chat_message_id) REFERENCES chat_message(id) ON DELETE CASCADE,
+    FOREIGN KEY (document_id) REFERENCES documents(id) ON DELETE CASCADE
+);
+
+CREATE INDEX IF NOT EXISTS idx_chat_message_document_chat_message_id ON chat_message_document(chat_message_id);
+CREATE INDEX IF NOT EXISTS idx_chat_message_document_document_id ON chat_message_document(document_id);
 
 CREATE TABLE IF NOT EXISTS documents (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
