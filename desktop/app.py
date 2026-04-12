@@ -4,7 +4,9 @@ import json
 import os
 import platform
 import queue
+import sqlite3
 import subprocess
+import sys
 import threading
 import tkinter as tk
 import urllib.error
@@ -12,6 +14,7 @@ import urllib.request
 from pathlib import Path
 from tkinter import filedialog
 from tkinter import font as tkfont
+from tkinter import messagebox
 from tkinter import scrolledtext
 
 try:
@@ -65,6 +68,7 @@ class SinjiDesktopApp(tk.Tk):
         self._build_ai_page()
         self._build_index_page()
         self._build_documents_page()
+        self._build_groups_page()
         self._build_placeholders()
 
         self.protocol("WM_DELETE_WINDOW", self._on_close_window)
@@ -1191,9 +1195,264 @@ class SinjiDesktopApp(tk.Tk):
         except OSError as exc:
             self._doc_status.set(f"Ni mogoče odpreti: {exc}")
 
+    def _groups_db(self):
+        try:
+            from DB.db import Db
+        except ImportError:
+            root = str(REPO_ROOT)
+            if root not in sys.path:
+                sys.path.insert(0, root)
+            from DB.db import Db
+
+        return Db(db_path=str(REPO_ROOT / "DB" / "app.db"), init_schema_on_start=False)
+
+    def _build_groups_page(self) -> None:
+        page = tk.Frame(self._container, bg=COLORS["bg"])
+        self._pages["groups"] = page
+        self._page_header(page, "Skupine")
+
+        body = tk.Frame(page, bg=COLORS["bg"])
+        body.pack(fill=tk.BOTH, expand=True, padx=28, pady=20)
+
+        card = tk.Frame(body, bg=COLORS["card"], highlightbackground=COLORS["border"], highlightthickness=1)
+        card.pack(fill=tk.BOTH, expand=True)
+
+        pad = tk.Frame(card, bg=COLORS["card"])
+        pad.pack(fill=tk.BOTH, expand=True, padx=20, pady=18)
+
+        tk.Label(
+            pad,
+            text="Skupine v SQLite (tabela groups). Brisanje odstrani tudi povezave v user_group in document_group. "
+            "Med urejanjem je bolje ustaviti API strežnik (zaklep baze).",
+            font=("Segoe UI", 9),
+            fg=COLORS["muted"],
+            bg=COLORS["card"],
+            wraplength=820,
+            justify=tk.LEFT,
+        ).pack(anchor=tk.W, pady=(0, 12))
+
+        self._grp_rows: list[tuple[int, str]] = []
+        list_fr = tk.Frame(pad, bg=COLORS["card"])
+        list_fr.pack(fill=tk.BOTH, expand=True, pady=(0, 12))
+        gsb = tk.Scrollbar(list_fr)
+        gsb.pack(side=tk.RIGHT, fill=tk.Y)
+        self._grp_list = tk.Listbox(
+            list_fr,
+            font=("Segoe UI", 11),
+            fg=COLORS["text"],
+            bg="#1e1c24",
+            selectbackground=COLORS["accent"],
+            highlightthickness=1,
+            highlightbackground=COLORS["border"],
+            bd=0,
+            height=10,
+            yscrollcommand=gsb.set,
+        )
+        self._grp_list.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        gsb.config(command=self._grp_list.yview)
+        self._grp_list.bind("<<ListboxSelect>>", self._grp_on_select)
+
+        form = tk.Frame(pad, bg=COLORS["card"])
+        form.pack(fill=tk.X)
+
+        row1 = tk.Frame(form, bg=COLORS["card"])
+        row1.pack(fill=tk.X, pady=(0, 8))
+        tk.Label(row1, text="Nova skupina", font=self._subtitle_font, fg=COLORS["muted"], bg=COLORS["card"], width=14, anchor=tk.W).pack(
+            side=tk.LEFT, padx=(0, 10)
+        )
+        self._grp_new_name = tk.StringVar()
+        tk.Entry(
+            row1,
+            textvariable=self._grp_new_name,
+            font=self._body_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg"],
+            insertbackground=COLORS["text"],
+            highlightthickness=1,
+            highlightbackground=COLORS["border"],
+            highlightcolor=COLORS["accent"],
+            bd=0,
+        ).pack(side=tk.LEFT, fill=tk.X, expand=True, ipady=5, ipadx=6)
+        tk.Button(
+            row1,
+            text="Dodaj",
+            font=self._subtitle_font,
+            fg="#ffffff",
+            bg=COLORS["accent"],
+            activebackground=COLORS["accent_hover"],
+            highlightthickness=0,
+            bd=0,
+            padx=14,
+            pady=6,
+            cursor="hand2",
+            command=self._grp_add,
+        ).pack(side=tk.LEFT, padx=(10, 0))
+
+        row2 = tk.Frame(form, bg=COLORS["card"])
+        row2.pack(fill=tk.X, pady=(0, 8))
+        tk.Label(row2, text="Uredi ime", font=self._subtitle_font, fg=COLORS["muted"], bg=COLORS["card"], width=14, anchor=tk.W).pack(
+            side=tk.LEFT, padx=(0, 10)
+        )
+        self._grp_edit_name = tk.StringVar()
+        tk.Entry(
+            row2,
+            textvariable=self._grp_edit_name,
+            font=self._body_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg"],
+            insertbackground=COLORS["text"],
+            highlightthickness=1,
+            highlightbackground=COLORS["border"],
+            highlightcolor=COLORS["accent"],
+            bd=0,
+        ).pack(side=tk.LEFT, fill=tk.X, expand=True, ipady=5, ipadx=6)
+        tk.Button(
+            row2,
+            text="Shrani ime",
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg_elevated"],
+            highlightthickness=0,
+            bd=0,
+            padx=12,
+            pady=6,
+            cursor="hand2",
+            command=self._grp_rename,
+        ).pack(side=tk.LEFT, padx=(10, 0))
+
+        btn_row = tk.Frame(pad, bg=COLORS["card"])
+        btn_row.pack(fill=tk.X, pady=(4, 8))
+        tk.Button(
+            btn_row,
+            text="Osveži seznam",
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg_elevated"],
+            highlightthickness=0,
+            bd=0,
+            padx=14,
+            pady=8,
+            cursor="hand2",
+            command=self._grp_refresh,
+        ).pack(side=tk.LEFT, padx=(0, 10))
+        tk.Button(
+            btn_row,
+            text="Izbriši izbrano",
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg="#5c3030",
+            activebackground="#703838",
+            highlightthickness=0,
+            bd=0,
+            padx=14,
+            pady=8,
+            cursor="hand2",
+            command=self._grp_delete,
+        ).pack(side=tk.LEFT)
+
+        self._grp_status = tk.StringVar(value="")
+        tk.Label(
+            pad,
+            textvariable=self._grp_status,
+            font=self._subtitle_font,
+            fg=COLORS["muted"],
+            bg=COLORS["card"],
+            anchor=tk.W,
+        ).pack(fill=tk.X)
+
+        self._grp_refresh()
+
+    def _grp_on_select(self, _event: tk.Event | None = None) -> None:
+        idxs = self._grp_list.curselection()
+        if not idxs:
+            return
+        self._grp_edit_name.set(self._grp_rows[idxs[0]][1])
+
+    def _grp_selected_id(self) -> int | None:
+        idxs = self._grp_list.curselection()
+        if not idxs:
+            return None
+        return self._grp_rows[idxs[0]][0]
+
+    def _grp_refresh(self) -> None:
+        self._grp_list.delete(0, tk.END)
+        self._grp_rows = []
+        db = self._groups_db()
+        try:
+            rows = db.list_groups()
+        except Exception as exc:
+            self._grp_status.set(f"Napaka: {exc}")
+        else:
+            self._grp_rows = [(r["id"], r["name"]) for r in rows]
+            for _gid, name in self._grp_rows:
+                self._grp_list.insert(tk.END, name)
+            self._grp_status.set(f"{len(self._grp_rows)} skupin — {REPO_ROOT / 'DB' / 'app.db'}")
+        finally:
+            db.close()
+
+    def _grp_add(self) -> None:
+        name = self._grp_new_name.get().strip()
+        if not name:
+            messagebox.showwarning("Skupine", "Vnesite ime nove skupine.")
+            return
+        db = self._groups_db()
+        try:
+            db.create_group(name)
+            self._grp_new_name.set("")
+            self._grp_status.set("Skupina dodana.")
+            self._grp_refresh()
+        except sqlite3.IntegrityError:
+            messagebox.showerror("Skupine", "Skupina s tem imenom že obstaja.")
+        except ValueError as exc:
+            messagebox.showerror("Skupine", str(exc))
+        finally:
+            db.close()
+
+    def _grp_rename(self) -> None:
+        gid = self._grp_selected_id()
+        if gid is None:
+            messagebox.showinfo("Skupine", "Izberite skupino na seznamu.")
+            return
+        name = self._grp_edit_name.get().strip()
+        if not name:
+            messagebox.showwarning("Skupine", "Ime ne sme biti prazno.")
+            return
+        db = self._groups_db()
+        try:
+            db.update_group(gid, name)
+            self._grp_status.set("Ime posodobljeno.")
+            self._grp_refresh()
+        except sqlite3.IntegrityError:
+            messagebox.showerror("Skupine", "Skupina s tem imenom že obstaja.")
+        except ValueError as exc:
+            messagebox.showerror("Skupine", str(exc))
+        finally:
+            db.close()
+
+    def _grp_delete(self) -> None:
+        gid = self._grp_selected_id()
+        if gid is None:
+            messagebox.showinfo("Skupine", "Izberite skupino na seznamu.")
+            return
+        name = self._grp_rows[self._grp_list.curselection()[0]][1]
+        if not messagebox.askyesno(
+            "Skupine",
+            f"Izbrisati skupino »{name}«? Povezave z uporabniki in dokumenti bodo odstranjene.",
+        ):
+            return
+        db = self._groups_db()
+        try:
+            if db.delete_group(gid):
+                self._grp_status.set("Skupina izbrisana.")
+                self._grp_edit_name.set("")
+            else:
+                messagebox.showwarning("Skupine", "Skupina ni bila najdena.")
+            self._grp_refresh()
+        finally:
+            db.close()
+
     def _build_placeholders(self) -> None:
         titles = {
-            "groups": "Skupine",
             "users": "Uporabniki",
             "permissions": "Pravice do dokumentov",
             "backup": "Varnostno kopiranje",

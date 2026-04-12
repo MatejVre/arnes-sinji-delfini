@@ -183,6 +183,40 @@ class Db:
         )
         return [row["name"] for row in cursor.fetchall()]
 
+    def list_groups(self) -> list[dict[str, Any]]:
+        rows = self.conn.execute(
+            "SELECT id, name FROM groups ORDER BY name COLLATE NOCASE",
+        ).fetchall()
+        return [{"id": int(row["id"]), "name": row["name"]} for row in rows]
+
+    def create_group(self, name: str) -> int:
+        cleaned = name.strip()
+        if not cleaned:
+            raise ValueError("Ime skupine ne sme biti prazno.")
+        with self.conn:
+            cursor = self.conn.execute(
+                "INSERT INTO groups(name) VALUES (?)",
+                (cleaned,),
+            )
+        return int(cursor.lastrowid)
+
+    def update_group(self, group_id: int, name: str) -> None:
+        cleaned = name.strip()
+        if not cleaned:
+            raise ValueError("Ime skupine ne sme biti prazno.")
+        with self.conn:
+            cursor = self.conn.execute(
+                "UPDATE groups SET name = ? WHERE id = ?",
+                (cleaned, group_id),
+            )
+        if cursor.rowcount == 0:
+            raise ValueError(f"Skupina z id {group_id} ne obstaja.")
+
+    def delete_group(self, group_id: int) -> bool:
+        with self.conn:
+            cursor = self.conn.execute("DELETE FROM groups WHERE id = ?", (group_id,))
+        return cursor.rowcount > 0
+
     def get_chat_owner_id(self, chat_id: int) -> int | None:
         row = self.conn.execute(
             "SELECT user_id FROM chat WHERE id = ? LIMIT 1",
