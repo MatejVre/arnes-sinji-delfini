@@ -182,11 +182,11 @@ Seeded data overview:
 
 | Source | Table(s) | Seeded data |
 |---|---|---|
-| `DB/seed.sql` | `users` | `šef`, `finance`, `HR` (all with password `testing`) |
-| `DB/seed.sql` | `groups` | `finance`, `HR`, `CEO` |
-| `DB/seed.sql` | `user_group` | `šef -> finance, HR, CEO`; `finance -> finance`; `HR -> HR` |
-| `DB/seed.sql` | `documents` | Base demo docs: `doc1.txt` ... `doc6.txt`, `stroski_2023.csv` |
-| `DB/seed.sql` | `document_group` | Base links: `doc1->finance`, `doc2->HR`, `doc3->finance`, `doc4->CEO`, `doc5->finance`, `doc6->CEO`, `stroski_2023.csv->finance` |
+| `DB/seed.sql` | `users` | `šef`, `finance`, `hr`, `law` (all with password `testing`) |
+| `DB/seed.sql` | `groups` | `finance`, `hr`, `law` |
+| `DB/seed.sql` | `user_group` | `šef -> finance, hr, law`; `finance -> finance`; `hr -> hr`; `law -> law` |
+| `DB/seed.sql` | `documents` | Files listed in `data/permissions.json` (current demo set from `data/documents/`) |
+| `DB/seed.sql` | `document_group` | Links matching `data/permissions.json` (`finance`, `hr`, `law`) |
 | Dynamic (`Db._seed_documents_from_data`) | `documents`, `groups`, `document_group` | Reads `data/documents/` + `data/permissions.json`, inserts missing docs/groups, and links docs to `allowed_groups` |
 
 Notes:
