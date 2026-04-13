@@ -1,0 +1,1984 @@
+ANALIZA STANJA NA 
+PODROČJU INTELEKTUALNE 
+LASTNINE V SLOVENIJI  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Pripravili: Damjan Kavaš, Nika Murovec, Klemen Koman 
+September 2023 
+
+ 
+i 
+KAZALO VSEBINE 
+1. UVOD .................................................................................................................................. 1 
+2. KLJUČNI PODATKI ZA PODROČJE INTELEKTUALNE LASTNINE V SLOVENIJI ............. 3 
+2.1 Podatki za Slovenijo .................................................................................................................3 
+2.2 Mednarodne primerjave in kazalniki ..................................................................................8 
+3. PREGLED STRATEŠKIH DOKUMENTOV ......................................................................... 15 
+3.1 Mednarodni dokumenti ....................................................................................................... 15 
+3.2 Nacionalni dokumenti .......................................................................................................... 20 
+4. PREGLED VELJAVNE ZAKONODAJE ............................................................................... 22 
+5. PREGLED UPRAVNIH IN PRAVOSODNIH STRUKTUR .................................................. 25 
+5.1 Upravne strukture .................................................................................................................. 25 
+5.2 Pravosodne strukture ............................................................................................................ 26 
+6. PREGLED STRUKTUR, KI PODPIRAJO ŠIRŠE PODROČJE INOVACIJ IN KREATIVNIH 
+INDUSTRIJ ........................................................................................................................ 28 
+7. PRIMERJAVA STRATEŠKIH USMERITEV IZBRANIH DRŽAV ........................................ 33 
+8. ANALIZA SWOT ............................................................................................................... 40 
+9. ZAKLJUČEK ....................................................................................................................... 42 
+10. LITERATURA IN VIRI ........................................................................................................ 44 
+ 
+ 
+
+ 
+1 
+1. UVOD 
+Izhodišče in temelj za razvoj celovite nacionalne strategije intelektualne lastnine (IL) mora 
+predstavljati celovito razumevanje dejanskih in potencialnih povezav med nacionalnim 
+sistemom IL ( angl. IP system ) ter glavnimi gospodarskimi, družbenimi, tehnološkimi ter 
+kreativnimi sektorji. Ključni korak v procesu priprave strategije tako predstavlja analiza 
+potrebnih podatkov in informacij, ki prispevajo k takšnemu celovitemu razumevanju. Skladno 
+s tem je namen pričujoče analize predvsem nudenje pomembne strokovne podlage za 
+oblikovanje najustreznejših smeri ukrepanja oziroma strateških ciljev na področju IL v Sloveniji 
+do leta 2030.  
+V metodološkem smislu analiza sledi smernicam, ki jih je posebej za razvoj nacionalnih strategij 
+IL oblikovala Svetovna organizacija za intelektualno lastnino (WIPO, 2020). Skladno s tem je 
+poleg analize obstoječe literature in podatkov poudarek tudi na posvetu z deležniki – tako 
+tistimi znotraj kot tudi izven medresorske delovne skupine, ustanovljene s strani  Vlade RS v 
+novembru 2022.  
+Tematsko zbrane informacije obsegajo ključne podatke o področju IL v Sloveniji, pregled 
+relevantnih strateških dokumentov,  pregled veljavne zakonodaje, pregled upravnih in 
+pravosodnih struktur ter struktur, ki podpirajo inovacijske in kreativne dejavnosti, in še nekatere 
+druge relevantne informacije, zbrane s pomočjo vključenih deležnikov ter obstoječih gradiv.   
+Vse informacije, pridobljene v analizi iz različnih virov, združujemo v tabeli SWOT, predstavljeni 
+v zadnjem vsebinskem poglavju. Tabela SWOT predstavlja glavni rezultat analize in bo služila 
+kot temeljna analitična podlaga za pripravo predloga nacionalne strategije varstva IL.   
+V tem dokumentu IL razumemo kot vrsto lastnine, ki izvira iz človekovega intelekta oziroma 
+razuma in je upravičena do pravnega varstva. Varstvo IL pridobiva pomen pri nas in v svetu, saj 
+je človekov um eno glavnih vodil tehnološkega in kulturnega razvoja. Med pravice IL sodijo 
+zlasti patenti, dodatni varstveni certifikati, modeli, znamke, geografske označbe, avtorska in 
+sorodne pravice, topografije polprevodniških vezij, žlahtniteljske pravice in firme 1. Varstvo IL 
+omogoča izumiteljem, ustvarjalcem in podjetjem, da preprečijo nedovoljeno uporabo njihove 
+IL ter da za svoj vložek prejmejo nagrado, s tem pa hkrati tudi spodbuja nadaljnje ustvarjanje, 
+inovativnost, razvoj in distribucijo novih proizvodov in storitev, ki temeljijo na IL. IL je 
+instrument, ki povezuje inovacije in ustvarjalne dosežke s podjetništvom, ustvarjanjem (visoko 
+plačanih) delovnih mest in rastjo podjetij, posledično pa tudi z naraščanjem bruto družbenega 
+proizvoda. Tako študija »Intellectual property rights and firm performance in  the European 
+Union: Firm -level analysis report « (EUIPO, EPO, 2021) na podlagi ekonometrične analize 2 
+potrjuje pozitivno povezavo med lastništvom pravic IL in gospodarsko uspešnostjo analiziranih 
+podjetij. Tako imajo podjetja, ki so lastniki pravic IL 55 % višji prihodek na zaposlenega kot 
+ 
+1 https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/intelektualna-lastnina/ 
+2 V ekonometrični analizi so izolirali učinke pravic IL od drugih dejavnikov, kot so velikost podjetja ali države in 
+sektor(ji), v katerih je podjetje deluje. 
+
+ 
+2 
+nelastniki. To razmerje je še posebej izrazito pri MSP, kjer imajo lastniki pravic IL 68 % višji 
+prihodek na zaposlenega kot MSP, ki nimajo nobenih pravic IL. Pri tem je povečanje uspešnosti 
+podjetja odvisno tudi od obli ke in kombinacije pravic IL. Največja povečanja prihodkov na 
+zaposlenega so povezana z združeni mi lastniki znamk in modelov ter združeni mi lastniki 
+patentov, znamk in modelov, s premijami za uspešnost 63 % oziroma 60 %.  
+Pravice IL imajo pomembno vlogo v g ospodarstvu EU. S panogami, v katerih se intenzivno 
+uporabljajo pravice IL, se ustvari skoraj 45 % bruto domačega proiz voda EU in 29 % delovnih 
+mest (Evropsko računsko sodišče, 2022). Tako varstvo IL pozitivno vpliva na večjo 
+konkurenčnost celotnega gospodarstva, omogoča dolgoročni razvoj, pospešuje raziskave in 
+vlaganja, pripomore k ustvarjanju novih ali širjenj u že obstoječih vej gospodarstva, ustvarja 
+nova delovna mesta in ne nazadnje vpliva tudi na povečanje davčnih prihodkov države. Prav 
+tako pripomore k hitrejšemu reševanju globalnih izzivov (npr. v zdravstvu, energetiki, prehodu 
+v nizko in brezogljično dru žbo), spodbuja inovativno kulturo, varuje potrošnike  in nagrajuje 
+podjetniške pobude3. 
+  
+ 
+3 https://www.theglobalipcenter.com/why-is-ip-important/ 
+
+ 
+3 
+2. KLJUČNI PODATKI ZA PODROČJE INTELEKTUALNE 
+LASTNINE V SLOVENIJI 
+2.1 Podatki za Slovenijo 
+Podatke, povezane z IL v Sloveniji , spremlja Urad RS za intelektualno lastnino (URSIL), poleg 
+tega pa Ministrstvo RS za kmetijstvo, gozdarstvo in prehrano  zbira podatke o geografskih 
+označbah, ki se nanašajo na kmetijske pridelke, živila ter vina in druge proizvode iz grozdja, in 
+drugih oznakah shem kakovosti.  
+Po podatkih URSIL se je v letu 2022 število nacionalnih patentnih prijav povišalo za 3 % glede 
+na leto poprej  (Poslovno poročilo URSIL za leto 2022) . V obdobju 2016–2022 je sicer število 
+prijav precej nihalo, maksimalno število pa je bilo doseženo v letu 2017 , kar je razvidno iz 
+spodnjega grafikona. Prav tako je iz grafa razvidno, da je bilo v tem obdobju  od 22 % (leta 
+2019) do 39 % (leta 2018) prijav patentov zavrženih ali zavrnjenih  oziroma so se štele za 
+umaknjene.  
+Slika 1: Število vloženih nacionalnih patentnih prijav in delež zavrženih/umaknjenih prijav v 
+2022 
+ 
+Vir: Poslovno poročilo URSIL za leto 2022, lastni preračuni. 
+V letu 2022 je bilo število zahtev za vpis evropskega patenta v register 29 % nižje od leta prej 
+(že od leta 2018  je viden trend upadanja) . Omenjeni trend bi lahko povezovali z  zmanjšanim 
+zanimanjem tujcev za slovenski trg4. Na drugi strani je bilo za 32 % višje število mednarodnih 
+prijav v skladu s Pogodbo o sodelovanju na področju patentov (Patent Cooperation Treaty – 
+PCT), vendar pa to število med leti niha . Število zahtev za ugotovitvene odločbe oziroma 
+zanimanje za podaljšanje veljavnosti patentov z 10 na 20 let je bilo v letu 2022 v primerjavi z 
+ 
+4 https://www.gov.si/novice/2022-12-27-pregled-stevila-nacionalnih-prijav-patentov-znamk-in-modelov/ 
+
+
+ 
+4 
+letom poprej nižje kar za 45 %, vendar pa med leti prav tako niha. Grafično so navedeni trendi 
+predstavljeni v naslednjih prikazih. 
+Slika 2: Število vloženih zahtev za vpis EP v register, obdobje 2016–2022 
+ 
+Vir: Poslovno poročilo URSIL za leto 2022, lastni preračuni. 
+Slika 3: Število mednarodnih (PCT) prijav pri uradu, obdobje 2016–2022 
+ 
+Vir: Poslovno poročilo URSIL za leto 2022, lastni preračuni. 
+  
+
+
+ 
+5 
+Slika 4: Število zahtev za izdajo ugotovitvene odločbe, obdobje 2016–2022 
+ 
+Vir: Poslovno poročilo URSIL za leto 2022, lastni preračuni. 
+Pri znamkah podatki URSIL za leto 2022 kažejo nadaljevanje trenda upadanja števila prijav. Do 
+padca glede na leto 2021 je prišlo tako pri številu novih prijav za nacionalne znamke ( -14 %), 
+pri številu novih vlog za mednarodno registracijo (-24 %) kot tudi pri mednarodnih znamkah, 
+designiranih na Slovenijo (-9 %). Negativen je tudi trend pri modelih, saj je bilo v letu 2022 21 
+% manj prijav glede na prejšnje leto. Svetlo izjemo predstavlja število prijav znamk EU s strani 
+slovenskih prijaviteljev, ki v zadnjih letih znatno narašča. 
+Slika 5: Statistični pregled za znamke in modele, Slovenija, obdobje 2016–2022 
+ 
+Vir: Poslovno poročilo URSIL za leto 2022, lastni preračuni. 
+
+
+ 
+6 
+Bolj ali manj stagnira tudi število geografskih označb. Registrirani geografski označbi po 
+Zakonu o industrijski lastnini sta po podatkih URSIL le dve. Prav tako so po podatkih Ministrstva 
+RS za kmetijstvo, gozdarstvo in prehrano v splošnem precej redke tudi nove vloge za 
+registracijo zaščitenih kmetijskih pridelkov in živil, kot so zaščitena označba porekla, zaščitena 
+geografska označba in zajamčena tradicionalna kakovost 5. To je tudi posledica dejstva, da je 
+večina pridelovalcev (razen ekoloških z lastno predelavo) nezadovoljnih s sodelovanjem v 
+shemah kakovosti, ker niso opravičile pričakovanja po višji vrednosti živilskega izdelka (Erjavec, 
+2022). Večina potrošnikov pri izbiri oziroma nakupu daje prednost ceni, sledi izvor in na 
+zadnjem mestu je označba (Kos Skubic, 2019). 
+Oblikovalci inovacijskih poli tik se sicer trudijo slediti razvoju in vse večji kompleksnosti IL in 
+sistema standardov. Kar zadeva IL, je bila razprava tradicionalno osredotočena na teme, kot je 
+vloga patentov pri prenosu tehnologije iz akademskih krogov v industrijo ali na uporabo 
+patentiranja kot posrednika za uspešnost inovacij. Slabo politično razumevanje konceptov IL je 
+povzročilo neustrezno zasnovo vladnih posegov. Primer tega je pretirano zanašanje na štetje 
+patentov, ki temelji na zavajajoči predpostavki, da je več patentov bolj še kot manj (dodatne 
+točke za patentne prijave lahko povzročijo povečano število prijav »tržno nezanimivih « 
+patentov). Pojem IL v širšem pomenu  – ki zajema tako pravice IL  kot so poslovne skrivnosti, 
+avtorska pravica, znamke, modeli, kot tudi vprašanja upravljanja IL –, je bil v najboljšem primeru 
+obravnavan le površno6. 
+Kljub temu, da je pregled obstoječih domačih in mednarodnih kazalnikov (glej tudi poglavje 
+2.2) razkril, da je to področje dobro analitično pokrito, po mnenju nekaterih slovenskih 
+strokovnjakov obstaja tudi potreba po globljem vpogledu, kot ga omogočajo zgolj obstoječi 
+statistični podatki in kazalniki. Tudi strateški dokumenti kot ciljne vrednosti namreč največkrat 
+navajajo enostavn e kazalnike ozkega področja industrijske lastnine (npr. število vloženih 
+patentnih prijav, število prijav za registracijo znamke ali modela) , vendar pa ti kazalnik i po 
+njihovem mnenju ne prikazujejo vselej prave oziroma celotne slike. Poleg obstoječih bi bilo pri 
+pripravi strateških ciljev zato možno dodati še kakšen kazalnik, ki bi (v kombinaciji z drugimi, 
+obstoječimi) omogočal bolj realno spremljanje stanja  na obravnavanem področju. Priprava 
+predloga dodatnih kazalnikov (npr. stopnja ozaveščenosti, delež odprtih podatkovnih baz … ) 
+za spremljanje področja IL bi zahtevala vključitev širšega nabora deležnikov, ki bi v 
+participativnem procesu dorekli definicijo, metodologijo, potrebne vire podatkov in odgovorne 
+inštitucije za pridobivanje, spremljanje in analizo podatkov.  Pri tem se je treba zavedati, da 
+vsakršna posebna izvedena anketa ter dodatni kazalniki, ki bi izhajali iz nje , nimajo  prave 
+vrednosti brez vzpostavitve celovitega sistema za redno spremljanje in analizo, ki omogoča vsaj 
+primerjavo med leti, če že ne tudi mednarodne primerjave. Poleg kvantitativnega vpogleda bi 
+ 
+5 https://www.gov.si/teme/sheme-kakovosti-in-zasciteni-kmetijski-pridelki-in-zivila/. 
+6 https://www.technopolis-group.com/why-ip-standards-and-regulation-should-matter-more-in-innovation-
+policy/ 
+
+ 
+7 
+bilo treba tudi natančneje raziskati razloge za nekatere (neugodne) trende, razvidne iz analize 
+podatkov.  
+Statistične podatke, zbrane za celotno populacijo, in različne kazalnike, ki izhajajo iz njih, 
+pomembno dopolnjujejo tudi podatki, zbrani na podlagi anketnih vprašalnikov, pripravljenih 
+posebej za specifičen namen. Tovrstni vprašalniki omogočajo več fleksibilnosti pri zbiranju 
+informacij, zbiranje podrobnejših podatkov in tudi subjektivnih vpogledov v problematiko. 
+Imajo pa seveda v primerjavi s statističnimi bazami podatkov tudi več pomanjkljivosti, običajno 
+težavo med drugim še posebej predstavljajo velikost in reprezentativnost vzorca ter morebitna 
+pristranskost. 
+Anketa na vzorcu več kot 500 malih in srednjih podjetij (MSP), ki jo je opravil URSIL v letu 2022 
+(Aragon, 2022), je pokazala, da pravice IL na deklarativni ravni pozna 50 % predstavnikov MSP, 
+dejansko poznavanje pa je seveda še bistveno slabše. Tako pri posedovanju pravic IL kot tudi 
+pri ozaveščenosti o koristih pravic IL ter izkušnjah z vlaganjem prijav za pridobitev pravic IL je 
+pri mikropodjetjih pomembno odstopanje navzdol v primerjavi z MSP. Raziskava v kulturnem 
+in kreativnem sektorju (Murovec, Kavaš, Uršič, 2022), v katerem mikro podjetja prevladujejo, 
+ugotavlja podobno, in sicer, da ustvarjalcem pogosto primanjkuje znanj in tudi sr edstev za 
+ustrezno varstvo pravic IL.  
+Sodeč po raziskavi »Vrednotenje IL kot podlaga za predlog dolgoročno vzdržnega modela 
+državnih pomoči za spodbujanje sodelovanja znanosti in gospodarstva« (Pal in ostali, 2022) je 
+v Sloveniji izredno majhen delež malih do srednje velikih podjetij (MSP) v letih od 2016 do 2018 
+upravljal s pravicami IL: prijava patentov (1 % malih in 3 % srednje velikih podjetij), znamk (3 % 
+malih in 4 % srednje velikih podjetij ), modelov (1 % MSP), uveljavljanje avtorskih pravic (1 % 
+tako malih kot srednje velikih podjetij), poslovnih skrivnosti (4 % malih in 6 % srednje velikih 
+podjetij), licenciranje in prodaja pravic IL tretjim osebam (1 % tako malih kot srednje velikih 
+podjetij), izmenjava pravic IL (1 %  malih in manj kot 1 % srednje velikih podjetij), odkup licenc 
+od tretjih oseb (2 % tako malih kot srednje velikih podjetij). V primerjavi z majhnimi do srednje 
+velikimi podjetji so deleži upravljanja s pravicami IL v velikih podjetjih v povprečju tri do štirikrat 
+višji. Podjetja so od vseh kategorij IL v največjih deležih uporabila poslovno skrivnost (4 %, 6 % 
+in 15 % vseh malih, srednjih in velikih podjetij). Vsebina poslovnih skrivnosti ni znana, saj je 
+zaradi svoje narave ta oblika intelektualne lastnine registrirana interno v podjetjih, ni prijavljena 
+na uradih za IL in ni javno objavljena. V majhnih in srednje velikih podjetjih večinoma ni 
+vzpostavljene organizacijske infrastrukture, ki bi se ciljno ukvarjala s pripravo, zaščito in 
+trženjem IL, tako kot je to vzpostavljeno s pisarnami za prenos tehnologij na precej večjih javnih 
+raziskovalnih organizacijah. Taka podjetja imajo za pravno in finančno-računovodsko podporo 
+zunanje izvajalce (Pal in ostali, 2022). Kljub slabši splošni sliki so n ekatera slovenska podjetja 
+zelo uspešna pri uresničevanju svojih poslovnih idej s pomočjo pravic IL (npr. podjetja, ki so 
+prejela globalno nagrado WIPO, podjetja, ki so dobila nagrado Red Dot ali podjetja, ki so med 
+prejemniki priznanj za inovacije, ki jih podeljuje Gospodarska zbornica Slovenije v sodelovanju 
+z Ministrstvom za gospodarstvo, turizem in šport ter SPIRIT Slovenija , in številna ostala 
+
+ 
+8 
+tehnološka podjetja). IL v Sloveniji praviloma ni prepoznana kot premoženje podjetja, ki bi 
+lahko bilo uporabljeno kot zavarovanje (npr. za pridobitev  posojila), izjema so znamke. Eden 
+od razlogov je odsotnost splošno sprejetih standardov vrednotenja IL. Ustrezno vrednotenje IL 
+bi spodbudilo tako dolžniško kot tudi lastniško financiranje. Tudi v večini drugih držav je 
+področje financiranja neopredmetenih sredstev še v povojih. Najbolj napredne države na tem 
+področju so azijske države (npr. Kitajska, Južna Koreja, Singapur, Japonska) (WIPO, 2022).  
+Poročilo o produktivnosti za leto 2022 (UMAR, 2022) ugotavlja, da so v Sloveniji investicije v 
+opremo in stroje, ki so med pomembnejšimi z vidika produktivnosti, relativno visoke, vlaganja 
+v proizvode intelektualne lastnine pa nizka. Slovenija se uvršča med države EU, v katerih je 
+razmerje med investicijami v opremo in stroje ter BDP nadpovprečno. To povezuje mo z 
+relativno visokim deležem industrije v gospodarstvu ter s številnimi uspešnimi in 
+dobičkonosnimi podjetji v tej dejavnosti. Manj ugodna pa je slika pri vlaganjih v proizvode 
+intelektualne lastnine (računalniška programska oprema in podatkovne baze, ra ziskave in 
+razvoj), ki so v sodobnem gospodarstvu eden izmed ključnih dejavnikov rasti produktivnosti. V 
+Sloveniji vlaganja v te proizvode precej zaostajajo za državami, ki so na tem področju najbolj 
+napredne, delež tovrstnih investicij pa je tudi nižji ko t v povprečju EU. V obdobju 2015 –2022 
+se je relativen položaj Slovenije glede na povprečje EU še poslabšal.  
+2.2 Mednarodne primerjave in kazalniki 
+Kazalniki  
+Ker nam samo število vloženih prijav in  pravic IL brez primerjave z drugimi državami ne pove 
+veliko, se v nadaljevanju osredotočamo predvsem na podatke, ki nam takšno primerjavo 
+omogočajo. Varstvo IL je zelo pomembno z ekonomskega vidika, zato nas podatki o IL ne 
+zanimajo le sami zase, temveč tudi v širšem kontekstu inovativnosti in kreativnosti. V 
+nadaljevanju tako predstavljamo predvsem podatke oziroma kazalnike, ki omogočajo 
+postavitev domačih številk v relevanten kontekst. Ti, sicer mednarodno uveljavljeni kazalniki, 
+po mnenju nekaterih strokovnjakov ne prikazujejo vselej prave slike na področju inovativnosti, 
+zato velja biti pri njihovi splošni interpretaciji oziroma uporabi previden.  
+Podatki Evropskega patentnega urada 7 o patentnih prijavah na milijon prebivalcev pri 
+Evropskem patentnem uradu tako kažejo, da Slovenija zaostaja za večino razvitih evropskih 
+držav8. Od 2018 –2020 je bil sicer opazen trend naraščanja, v letu 2020 se je Slovenija celo 
+prebila med države  z najvišjim porastom patentnih prijav, vendar je po tem letu število 
+podeljenih patentov ponovno začelo upadati in se spustil o celo pod raven izpred desetih let, 
+Slovenija pa je pristala med državami z najmanjšo rastjo števila patentnih prijav. Primerjava z 
+ 
+7 https://new.epo.org/en/statistics-centre#/applicationspercapita 
+8 https://documents.epo.org/projects/babylon/eponet.nsf/0/20D20AC93CAD5324C125897F0029E64F/ 
+$File/Patent_Index_2022_European_applications.xlsx 
+
+ 
+9 
+izbranimi državami – Finsko, Nemčijo, Južno Korejo, Singapurjem, Estonijo, Španijo in Slovaško 
+– v letu 2022 je razvidna iz spodnjega grafikona. 
+Slika 6: Patentne prijave in podeljeni patenti pri Evropskem patentnem uradu na 1 milijon 
+prebivalcev v 2022 za izbrane države 
+ 
+Vir: https://www.epo.org/about-us/annual-reports-statistics/statistics.html, lastni preračuni. 
+Med tehnološkimi področji  so bile po številu patentnih prijav  pri E vropskem patentnem 
+uradu v letu 2022 številčno najpomembnejše digitalne komunikacije  (8,6 % vseh pa tentnih 
+prijav), medicinska tehnologija (8,1 %), računalniška tehnologija (7,9 %) in električne naprave in 
+stroji ter energija (7,2 %), vendar pa v Sloveniji od teh področij pomemben delež patentnih 
+prijav predstavljata le medicinska tehnologija (8,1 %) in električne naprave in stroji ter energija 
+(6,5 %) 9. Z vidika prepoznave trendov so p odročja z visokim številom patentnih prijav na 
+Evropskem patentnem uradu v obdobju 2013–2022, hkrati pa z visoko rastjo števila prijav  – 
+izpostavljena so tista področja, ki so imela preko 50 % rast patentnih prijav – digitalne 
+komunikacije (+ 78,0 % rast v tem obdobju ), farmacija (+67,2 %), računalniška tehnologija 
+(+65,7 %), kontrolna tehnika (+65,7 %), druge potrošne dobrine (+55,8 %)  in biotehnologija 
+(+54,9 % ). Izmed teh področij, ki so izkazovale največjo rast , je Slovenija v istem obdobju 
+dosegla pomembno rast patentnih prijav  pri Evropskem patentnem uradu  le na področj ih 
+kontrolne tehnike in biotehnologije. 
+Zanimiv je sicer podatek, da je Slovenija v obdobju 2017–2019 po deležu BDP in zaposlitev, ki 
+ga ustvarjajo patentno intenzivne panoge, z 22,5 % deležem BDP ter 15 % deležem zaposlitev 
+precej presegala povprečje EU-27 (17,4 % BDP, 11 % zaposlitev). Prav tako je v istem obdobju 
+Slovenija nekoliko presegala povprečje EU -27 po deležu BDP (za 1 odstotno točko) in 
+ 
+9 https://documents.epo.org/projects/babylon/eponet.nsf/0/2FFE0BFBEBE44304C125897A003462FC/$File/ 
+European_patent_applications_per_field_of_technology_per_country_of_residence_2013-2022_en.xlsx 
+
+
+ 
+10 
+zaposlitev (za 2 odstotni točki), ki ga ustvarjajo panoge, intenzivne po registriranih znamkah 
+(EPO, EUIPO, 202210). 
+Raziskava o dojemanju, ozaveščenosti in vedenju, povezanem z IL, med evropskimi državljani, 
+ki jo je EUIPO opravil v letu 2023 in je vključevala tudi preko 1000 anketirancev iz Slovenije, je 
+pokazala, da je ozaveščenost o IL v Sloveniji slabša od povprečja EU . Delež slovenskih 
+anketirancev, ki so svoje subjektivno razumevanje pojma IL ocenili kot dokaj dobro ali zelo 
+dobro, znaša 73 %, kar je za 10 odstotnih točk manj od povprečja EU (83 %). Prav tako se za 10 
+odstotnih točk manj Slovencev (27 %) v primerjavi z Evropejci (37 %) povsem strinja s trditvijo, 
+da kupovanje ponareje nih izdelkov predstavlja neetično ravnanje . Za 9 odstotnih točk manj 
+Slovencev (28 % v primerjavi z 37 % v EU) se povsem strinja s trditvijo, da kupovanje 
+ponarejenih izdelkov podpira kriminalne združbe in za kar 13 odstotnih točk manj Slovencev 
+(21 % v primerjavi z 34 % v EU) se povsem strinja s trditvijo, da nakupi ponarejenih izdelkov 
+uničujejo podjetja in delovna mesta.  Hkrati 17 % anketiranih Slovencev priznava, da je v 
+preteklem letu namerno kupilo ponarejene izdelke, medtem ko za povprečje držav EU ta delež 
+znaša 13 %. Nekoliko večji od povprečja za državljane EU (14 %) je tudi delež Slovencev (17 %), 
+ki so v zadnjem letu za dostop do digitalnih vsebin namenoma uporabljali nezakonite vire.  
+Spodnje slike grafično ponazarjajo razlike omenjenih dimenzij med Slovenijo in EU. 
+Slika 7: Poznavanje pojma intelektualn e lastnine (delež anketirancev, ki so svoje 
+razumevanje označili z dokaj dobro ali zelo dobro), Slovenija in EU 
+ 
+Vir: https://euipo.europa.eu/tunnel-web/secure/webdav/guest/document_library/observatory/documents/reports/ 
+2023_IP_Perception_Study/2023_IP_Perception_Study_FullR_en.pdf. 
+ 
+10 https://euipo.europa.eu/tunnel-web/secure/webdav/guest/document_library/observatory/documents/ 
+reports/IPR-intensive_industries_and_economic_in_EU_2022/2022_IPR_Intensive_Industries_FullR_en.pdf 
+
+
+ 
+11 
+Slika 8: Percepcija anketirancev glede negativnih učinkov nakupa ponaredkov, Slovenija in 
+EU 
+ 
+ 
+Vir: https://euipo.europa.eu/tunnel-web/secure/webdav/guest/document_library/observatory/documents/reports/ 
+2023_IP_Perception_Study/2023_IP_Perception_Study_FullR_en.pdf. 
+Slika 9: Nameren n akup ponarejenih izdelkov in dostopanje do nezakonitih digitalnih 
+vsebin, Slovenija in EU 
+ 
+Vir: https://euipo.europa.eu/tunnel-web/secure/webdav/guest/document_library/observatory/documents/reports/ 
+2023_IP_Perception_Study/2023_IP_Perception_Study_FullR_en.pdf. 
+  
+
+
+ 
+12 
+Sestavljeni kazalniki 
+Združeni narodi spremljajo uresničevanje ciljev trajnostnega razv oja (SDG) 11 in uvrstitev 
+Slovenije je po indeksu uresničevanja teh ciljev visoka – v letu 2022 je namreč dosegla 15. 
+mesto med 163 državami, pri čemer pa je treba omeniti, da je uvrstitev Slovenije v primerjavi z 
+letom 2021, ko se je uvrstila na izredno vi soko 9. mesto, kljub temu relativno precej slabša. 
+Kljub temu, da je seveda področje IL posredno povezano in lahko v širšem smislu prispeva k 
+uresničevanju več ciljev trajnostnega razvoja (WIPO, 2023), se l e eden od več kot 200 
+kazalnikov, vključenih v ind eks, specifično nanaša na področje IL. Tako se  v okviru cilja 9 : 
+Industrija, inovacije in infrastruktura  spremlja tudi število podeljenih triadnih patentov  na 
+milijon prebivalcev, to je patentov, podeljenih za isti izum pri treh patentnih uradih: EPU, 
+japonskem patentnem uradu in ameriškem uradu za patente in blagovne znamke. Triadni 
+patenti v svetu veljajo za najuporabnejši in najboljši patentni kazalnik za inovacije. Iz njihovega 
+števila je razvidna globalna tržna zanimivost izuma, vendar pa je pri tem treba izpostaviti, da 
+slovenski izumitelji, razen izjem, nimajo tržnega interesa za hkratno registracijo patentov pri 
+vseh treh patentnih uradih. Po tem kaza lniku Slovenija močno zaostaja za najuspešnejšimi 
+državami, saj je bila v letu 2019 vrednost tega kazalnika 4,63 in izkazuje trend stagnacije, 
+medtem ko je povprečna vrednost tega kazalnika pri najuspešnejših državah 115,7. Zaradi 
+osredotočenosti slovenskih podjetij pretežno na evropski trg (in ne tudi ameriški in japonski), 
+bistvenega izboljšanja tega kazalnika tudi v prihodnosti ni pričakovati. 
+WIPO izračunava globalni inovacijski indeks  (GII)12, ki spremlja inovacijske trende in 
+uspešnost inovacijskih ek osistemov v 132 državah. GII je sestavljen iz 81 kazalnikov, ki 
+vključujejo tudi kazalnike, ki se nanašajo na število patentnih družin, število nacionalnih in PCT 
+patentnih prijav (mednarodnih prijav v skladu s Pogodbo o sodelovanju na področju patentov), 
+nacionalnih prijav modelov, znamk. Slovenija glede na svojo uvrstitev po GII od leta 2018 dalje 
+izkazuje rahel, a vztrajen trend upadanja – s 30. mesta v letu 2018 je padla na 33. mesto v letu 
+2022. Spremembe uvrstitev Slovenije in izbranih držav od leta 2018 do leta 2022 so razvidne iz 
+spodnjega grafikona. 
+  
+ 
+11 https://dashboards.sdgindex.org/rankings 
+12 https://www.globalinnovationindex.org/analysis-indicator 
+
+ 
+13 
+Slika 10: Uvrstitev izbranih držav glede na GII, leti 2018 in 2022 
+ 
+Vir: https://www.wipo.int/edocs/pubdocs/en/wipo_pub_gii_2018.pdf, https://www.wipo.int/edocs/ 
+pubdocs/en/wipo-pub-2000-2022-en-main-report-global-innovation-index-2022-15th-edition.pdf 
+Evropski sistem inovacijskih kazalnikov 13 omogoča primerjalno analizo inovac ijske 
+uspešnosti ter pomaga oceniti relativne prednosti in slabosti nacionalnih inovacijskih sistemov. 
+Na podlagi rezultatov so države razvrščene v štiri skupine: vodilne inovatorke, močne 
+inovatorke, zmerne inovatorke in nastajajoče inovatorke. Podatki za  leto 2023 kažejo, da se 
+inovacijska uspešnost EU izboljšuje, vendar pa je Slovenija ostala v skupini zmernih inovatork – 
+nahaja se na 13. mestu in dosega 95 % povprečja EU. Inovacijska uspešnost Slovenije se sicer 
+izboljšuje (za skoraj 3 odstotne točke v obdobju 2016–2023), vendar pa počasneje od povprečja 
+EU (za 8,5 odstotnih točk v istem obdobju). Evropski sistem inovacijskih kazalnikov vsebuje 
+(izmed 32 kazalnikov) tudi skupino kazalnikov, imenovano Intelektualn a sredstva (angl. 
+Intellectual assets), v kateri se zbirajo podatki o številu mednarodnih (PCT) patentnih prijav in 
+številu prijav znamke EU in modelov Skupnosti. Izmed teh največji padec v obdobju 2016–2023 
+Slovenija beleži pri številu mednarodnih (PCT) patentnih prijav (za 23,7 odstotnih točk ; za 
+primerjavo, EU v povprečju beleži padec v višini 9,5 odstotnih točk) ter prijav modelov (za 13,4 
+odstotnih točk; EU celo  za 20,7 odstotnih točk) . Med letoma 202 1 in 202 3 pa je do daleč 
+največjega padca izmed vseh 32 kazalnikov prišlo pri številu PCT pat entnih prijav (za 20,4 
+odstotnih točk)14. Skladno s Strategijo razvoja Slovenije 2030 je cilj Slovenije, da se do leta 2030 
+uvrsti v skupino držav vodilnih inovatork EU. 
+  
+ 
+13 https://research-and-innovation.ec.europa.eu/statistics/performance-indicators/european-innovation-
+scoreboard_sl 
+14 https://ec.europa.eu/research-and-innovation/en/statistics/performance-indicators/european-innovation-
+scoreboard/eis 
+
+
+ 
+14 
+Slika 11: Lestvica Evropskega inovacijskega indeksa (European Innovation Scoreboard), 
+2023 
+ 
+Vir: https://ec.europa.eu/research-and-innovation/en/statistics/performance-indicators/european-innovation-
+scoreboard/eis 
+Legenda 
+
+ 
+15 
+3. PREGLED STRATEŠKIH DOKUMENTOV 
+Področje IL je bodisi posredno bodisi neposredno vključeno v mnogo veljavnih strateških 
+dokumentov, tako na mednarodni kot tudi nacionalni ravni. V nadaljevanju sledi povzetek 
+poudarkov iz teh dokumentov z namenom prevzema že veljavnih usmeritev v nacionalno 
+strategijo varstva intelektualne lastnine in obenem identifikacije tistih področij varstva IL, ki v 
+obstoječih strateških dokumentih niso dovolj zastopana in bi zato potrebovala svoje mesto v 
+novem strateškem dokumentu, da bi ustrezno nakazala smer razvoja. Prav t ako je pri pripravi 
+strateških ciljev treba upoštevati v veljavnih strateških dokumentih države že postavljene ciljne 
+vrednosti kazalnikov inovativnosti, ki se nanašajo na področje IL.  
+3.1 Mednarodni dokumenti 
+a) Agenda za trajnostni razvoj do leta 2030 (OZN)15  
+V dokumentu je določenih 17 ciljev trajnostnega razvoja in 169 povezanih konkretnih ciljev. 
+Področja IL se dotika Cilj 9 - Zgraditi vzdržljivo infrastrukturo, spodbujati vključujočo in 
+trajnostno industrializacijo ter pospeševati inovacije. Za cilje je vzpostavljen tudi sistem 
+kazalnikov, pri čemer je eden od kazalnikov Cilja 9 »število triadnih patentov (n a milijon 
+prebivalcev)«. Pravice IL, še zlasti patenti, so namreč povezane z inovacijami. Navedeni kazalnik 
+usmerja prizadevanja držav v povečanje števila podeljenih patentov, v primeru Agende 2030, 
+triadnih patentov. 
+b) Strateški načrt Generalnega direktorata Evropske komisije za raziskave in inovacije (DG 
+RTD) za obdobje 2020-202416 
+Službe Evropske komisije v svojih strateških načrtih opišejo, kako bodo uresničevale skupne 
+politične cilje Evropske komisije, opredelijo svoje posebne cilje za petletno obdobje ter določijo 
+kazalnike za spremljanje napredka. Strateški načrt Generalnega direktorata Evropske komisije 
+za raziskave in inovacije za obdobje 2020–2024 iz leta 2020 med drugim vsebuje dva specifična 
+cilja, na katera sta vezana kazalnika, povezana s pravicami IL: 
+- Specifični cilj 1.1: Visokokakovostna znanost, znanje in inovativne rešitve podpirajo 
+podnebne politike in pomagajo ohranjati biotsko raznovrstnost, ekosisteme in naravne 
+vire. Ta cilj je povezan s kazalnikom rezultata 1: Število novo prijavljenih vlog za pravice 
+IL (IPR) iz projektov programa Obzorje, ki obravnavajo evropski zeleni dogovor, na leto. 
+- Specifični cilj 2.1: Visokokakovostna znanost, znanje in inovativne rešitve olajšajo 
+digitalni prehod v Evropi, vključno z novim evropskim pristopom do umetne 
+inteligence. Ta cilj je povezan s kazalnikom rezultata 6: Število novo prijavljenih vlog za 
+ 
+15 https://www.gov.si/assets/ministrstva/MZZ/Dokumenti/multilaterala/razvojno-sodelovanje/publikacije/Agenda_ 
+za_trajnostni_razvoj_2030.pdf 
+16 https://commission.europa.eu/document/download/5ac1ff20-d41e-4c10-9a05-048b7339292e_en?filename= 
+rtd_sp_2020_2024_en.pdf 
+
+ 
+16 
+pravice IL  (IPR) iz projektov programa Obzorje, ki obravnavajo digitalni prehod v Evropi, 
+na leto. 
+c) Strateški načrt Generalnega direktorata Evropske komisije za notranji trg, industrijo, 
+podjetništvo ter mala in srednja podjetja (DG GROW) za obdobje 2020–202417 
+DG GROW je med dru gim odgovoren za politiko o znamkah EU, modelih EU in nekmetijskih 
+geografskih označbah, za horizontalno uveljavljanje pravic IL  in podporo malim in srednjim 
+podjetjem (MSP) na področju pravic IL. Strateški načrt DG GROW za obdobje 2020–2024 iz leta 
+2020 pri temi A (Industrijska politika) navaja, da bo v letu 2020 sprejet Akcijski načrt 
+intelektualne lastnine, v katerem bo predstavljena vizija Evropske komisije glede vloge IL v 
+prihajajočih letih. Politika bo temeljila na petih stebrih: n adgradnja sistema IL, spodbujanje 
+pametne uporabe IL , omogočanje učinkovitega in poštenega razširjanja in uvajanja zaščitenih 
+sredstev IL, zagotavljanje boljšega uveljavljanja IL  ter spodbujanje poštene igre v globalnem 
+kontekstu.  
+Tema B se nanaša na st rategijo (MSP). V okviru te teme je postavljen specifični cilj 2: »Več 
+evropskih MSP ima dostop do čezmejnega poslovanja ob uporabi digitalnih sredstev«. Med 
+fokusnimi področji tega cilja je navedeno izkoriščanje talentov in IL, kjer so predvidene 
+aktivnosti za nudenje podpore MSP, da vzpostavijo in upravljajo lasten portfelj IL. 
+d) Akcijski načrt za pravice intelektualne lastnine v podporo okrevanju in odpornosti EU18 
+Dokument je bil s strani Evropske komisije sprejet ob koncu leta 2020. V njem je opredeljeni h 
+pet izzivov: 
+1. del sistema IL EU je še vedno preveč razdrobljen, postopki so zapleteni in dragi, včasih 
+tudi nejasni; 
+2. vse preveč podjetij, zlasti MSP, in vse preveč raziskovalcev ne izkorišča v celoti 
+priložnosti, ki jih ponuja varstvo IL; 
+3. orodja za olajšanje dostopa do IL (ter s tem omogočanje prevzemanja in razširjanja 
+tehnologij) niso dovolj razvita; 
+4. še vedno uspevata ponarejanje in piratstvo, tudi z izkoriščanjem digitalnih tehnologij; 
+5. na svetovni ravni je veliko nepoštenega ravnanja, podjetja EU pa so pri poslovanju v 
+tujini pogosto izpodrinjena. 
+Dokument ponuja naslednji odziv na prepoznane izzive: 
+1. Nadgradnja sistema za varstvo IL. 
+2. Spodbujanje zlasti MSP k učinkoviti uporabi in razvoju IL. 
+3. Olajšanje licenciranja in souporabe IL. 
+4. Boj proti kršitvam pravic IL. 
+ 
+17 https://commission.europa.eu/document/download/7f80bcdb-fd01-4f59-af34-45fd8d205330_en?filename= 
+grow_sp_2020_2024_en.pdf 
+18 https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020DC0760 
+
+ 
+17 
+5. Pošteno ravnanje na svetovni ravni. 
+Iz sklepnega teksta dokumenta izhaja poziv Evropske komis ije državam članicam EU, naj 
+nacionalne politike in strategije na področju IL razvijejo v skladu s cilji iz tega dokumenta 
+ter v prizadevanjih za zagotovitev gospodarskega okrevanja kot prednostno nalogo 
+določijo boljše varstvo in uveljavljanje pravic IL. 
+e) Nova industrijska strategija za Evropo19 
+V dokumentu, ki ga je Evropska komisija sprejela v začetku leta 2020, je med drugim zapisano, 
+da mora EU zagotoviti, da bo njena politika na področju  IL prispevala k ohranjanju in 
+krepitvi evropske tehnološke s uverenosti ter spodbujala enake konkurenčne pogoje.  IL 
+pomaga določiti tržno vrednost in konkurenčnost evropskih podjetij. Gre za neopredmetena 
+sredstva podjetij, kot so znamke, zasnove, patenti, podatki, strokovno znanje in algoritmi. 
+Pametne politike na področju IL so bistvenega pomena za pomoč podjetjem pri rasti, 
+ustvarjanju delovnih mest ter zaščiti in razvijanju tistega, kar jih dela edinstvena in 
+konkurenčna. 
+f) Strategija za mala in srednja podjetja za trajnostno in digitalno Evropo20 
+V dokumentu, ki ga je Evropska komisija sprejela v začetku leta 2020, je med drugim zapisano, 
+da MSP težko razvijejo strategije za pravice IL , da bi zaščitila svoje naložbe v raziskave in razvoj 
+ter zbrala kapital za rast, čeprav sta to ključna dejavnika v dvojnem prehodu. Le 9 % MSP zaščiti 
+svoje pravice IL , saj ne poznajo pobud EU in nacionalnih pobud za IL ali se bojijo kompleksnosti 
+in stroškov njihovega pridobivanja in uveljavljanja. V prihodnjem akcijskem načrtu za IL bodo 
+zato predlagani ukrepi za povečanje učinkovitosti sistema pravic  IL za MSP, in sicer s 
+poenostavitvijo postopkov registracije IL (npr. reformo zakonodaje EU o modelih),  
+boljšim dostopom do strateških nasvetov glede intelektualne lastnine (npr. s tem, da 
+takšni nasveti postanejo standardni pri vsem financiranju raziskav in razvoja na ravni EU) 
+in olajšanjem uporabe IL kot vzvoda za dostop do financiranja. 
+g) Strategija o umetni inteligenci za Evropo21 
+V svojem sporočilu Komisija v zvezi z zagotavljanjem ustreznega etičnega in pravnega okvira 
+omenja potrebo po razmisleku o medsebojnih vplivih med umetno inteligenco in pravicami IL, 
+tako z vidika uradov za IL kot z vidika upora bnikov, da bi se inovacije in pravna varnost 
+spodbujale uravnoteženo. Uporaba umetne inteligence za ustvarjanje del namreč lahko vpliva 
+na IL  in sproži vprašanja o patentiranju, avtorskih pravicah in lastništvu. 
+ 
+19 https://www.ceps.eu/wp-content/uploads/2022/01/Prospectus-CEPS-Forum-on-the-New-Industrial-Strategy-
+for-Europe.pdf 
+20 https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2020%3A103%3AFIN 
+21 https://eur-lex.europa.eu/legal-content/SL/TXT/PDF/?uri=CELEX:52018DC0237 
+
+ 
+18 
+h) Kodeks ravnanja na področju upravljanja intelektualnih sredstev za valorizacijo znanja v 
+evropskem raziskovalnem prostoru (Priporočilo Komisije (EU) 223/499)22 
+Učinkovito upravljanje intelektualnih sredstev je ključno za pospešitev uvajanja inovativnih 
+rešitev ter razvoj novih tehnologij, proizvodov in storitev za reševanje najbolj perečih 
+družbenih izzivov, kot je zagotavljanje pravičnega zelenega in digitalnega prehoda v skladu s 
+ciljem novega evropskega programa za inovacije, pri čemer se upošteva odprta strateška 
+avtonomija Unije na področju raziskav in inovacij. Poleg formalnih pravic intelektualne 
+lastnine (kot so patenti in avtorske pravice) je bistveno upo števati tudi druge vrste 
+intelektualnih sredstev, kot so publikacije, podatki in strokovno znanje, ki ga ustvarjajo 
+akterji na področju raziskav in inovacij, da bi povečali priložnosti za ustvarjanje 
+vrednosti in socialne inovacije. Intelektualna sredstva so ključni element valorizacije znanja 
+za rezultate programa Obzorje Evropa in drugih programov financiranja EU, ki se financirajo z 
+instrumenti, kot so kohezijska politika, mehanizem za okrevanje in odpornost ali sklad za 
+inovacije. Cilj strategije upravl janja intelektualnih sredstev je oblikovati portfelj 
+dragocenih intelektualnih sredstev, ki jih je mogoče strateško upravljati za uporabo na 
+več poteh ustvarjanja vrednosti, zlasti pri vložitvi prošnje  za financiranje raziskav, 
+privabljanju in vzpostavljanju sodelovanja na področju raziskav, izkoriščanju poslovnih 
+priložnosti z licenciranjem, prodajo ali ustanavljanjem podjetij.  Vzpostavitev okolja, v 
+katerem se jasno opredelijo, sporočajo in izvajajo prakse upravljanja intelektualnih sredstev, je 
+prvi kora k za olajšanje njihove valorizacije v ekosistemu raziskav in inovacij.  Akterje na 
+področju raziskav in inovacij bi bilo treba spodbujati, da se strateško lotijo različnih korakov 
+upravljanja intelektualnih sredstev in obravnavajo izzive, povezane z ustrezn im nadzorom in 
+zadostnim izkoriščanjem intelektualnih sredstev. Poleg tega bi bilo treba spodbujati strateško 
+izmenjavo znanja kot trdno podlago za sodelovanje. Upoštevati bi bilo treba tudi poslovne 
+priložnosti, ki izhajajo iz odprtih inovacij, in pomen odprtosti raziskav, kot se odraža v končnem 
+sporazumu o reformi ocenjevanja raziskav. 
+i) Priporočilo Sveta (EU) o vodilnih načelih za valorizacijo znanja23  
+»Valorizacija znanja« je proces ustvarjanja družbene in gospodarske vrednosti znanja s 
+povezovanjem različnih področij in sektorjev ter preoblikovanjem podatkov, znanj in 
+izkušenj ter rezultatov raziskav v trajnostne izdelke, storitve, rešitve in politike, ki 
+temeljijo na znan ju in koristijo družbi.  Valorizacija znanja je sprememba paradigme, ki 
+prinaša nove vidike za maksimalno vrednost obstoječih in prihodnjih raziskav in inovacij ter 
+fonda znanja, vključno s tihim znanjem, pri čemer je tiho znanje vsako znanje, ki ga ni mogoče 
+kodificirati in prenesti kot informacije prek dokumentacije, akademskih člankov, predavanj, 
+konferenc ali drugih komunikacijskih kanalov. Cilj vodilnih načel za valorizacijo znanja bi moral 
+biti sprejetje skupnega stališča o ukrepih in pobudah politike za izboljšanje valorizacije znanja 
+v Uniji, zlasti: (a) z razširitvijo obsega akterjev in dejavnosti v primerjavi s Priporočilom 
+ 
+22 https://eur-lex.europa.eu/legal-content/SL/TXT/PDF/?uri=CELEX:32023H0499&from=EN 
+23 https://eur-lex.europa.eu/legal-content/SL/TXT/?uri=CELEX:32022H2415 
+
+ 
+19 
+2008/416/ES; (b) s poudarkom na celotnem raziskovalnem in inovacijskem ekosistemu in 
+njegovih povezavah, soustvarjanju med akte rji in ustvarjanju družbene vrednosti; (c) z 
+razširitvijo njihovega področja uporabe, da se vključi upravljanje intelektualnih sredstev in 
+poudari pomen razvoja podjetniške kulture, praks ter znanj in spretnosti; (d) s poudarjanjem 
+novih potreb za povečanj e učinka raziskav in inovacij, kot so obravnavanje novih in trajnih 
+izzivov politike, krepitev sodelovanja državljanov in državljank ter izmenjava najboljših praks 
+med različnimi akterji na področju raziskav in inovacij. 
+j) Strateški načrt Urada Evropske unije za intelektualno lastnino (EUIPO) do leta 202524 
+EUIPO je pristojen za registracijo znamk EU in modelov skupnosti, pri njem pa deluje tudi 
+Evropski opazovalni urad za kršitve pravic IL. Ob koncu leta 2019 je EUIPO sprejel svoj strateški 
+načrt do leta 2025. Dokument vsebuje tri strateške gonilce: (1) medsebojno povezan, učinkovit 
+in zanesljiv sistem IL za notranji trg, (2) napredne storitve, osredotočene na stranke , in (3) 
+dinamični nabor organizacijskih veščin in inovativno delovno mesto po izbiri, znotraj katerih so 
+opredeljeni posamezni cilji EUIPO in ključne iniciative za njihovo realizacijo. Za dosego 
+postavljenih ciljev so sprejete ustrezne iniciative. Ciljev in iniciativ tu (zaradi njihovega obsega) 
+ne navajamo. 
+k) Strateški načrt 2023 Evropskega patentnega urada (EPU)25 
+EPU predstavlja izvršno telo Evropske patentne organizacije. Z agotavlja enoten postopek 
+prijave in podelitve patenta, ki izumiteljem omogoča, da iščejo patentno varstvo v do 44 
+državah. V strateškem načrtu EPU, ki je bil sprejet leta 2018 so opredeljeni cilji, ki se nanašajo 
+na (1) EPU kot vključujočo, na znanju temelječo in sodelovalno organizacijo, (2) na 
+poenostavitev in modernizacijo IT sistemov v EP U, (3) na učinkovitost dostave visoko 
+kakovostnih izdelkov in storit ev EPU, (4) na izgradnjo evropskega patentnega sistema z 
+globalnim učinkom in (5) na zagotovitev dolgoročne vzdržnosti EPU. Iniciativ za dosego ciljev 
+na tem mestu (zaradi njihovega obsega) ne navajamo. 
+l) Srednjeročni strateški načrt Svetovne organizacije za intelektualno lastnino (WIPO) za 
+obdobje 2022–202626 
+V srednjeročnem strateškem načrtu za obdobje 2022–2026, ki ga je WIPO sprejel v letu 2021, 
+so opredeljeni štirje strateški stebri , in sicer:  1. steber: Doseči, da po celem svetu razumejo 
+potencial IL  za izboljšanje življenja vsem, povsod; 2. steber: Združiti ljudi in v partnerstvu z 
+deležniki oblikovati prihodnost globalnega ekosistema IL; 3. steber: Zagotavljanje 
+visokokakovostnih storitev IL , znanja in podatkov, ki dajejo vrednost uporabnikom po sv etu; 
+4. steber: Podpora vladam, podjetjem, skupnostim in posameznikom , da uporabljajo IL kot 
+ 
+24 https://euipo.europa.eu/tunnel-web/secure/webdav/guest/document_library/contentPdfs/about_euipo/ 
+strategic_plan/strategic-plan-2025_en.pdf 
+25 https://documents.epo.org/projects/babylon/eponet.nsf/0/2217f5b7cc07d47cc125841c00610386/$FILE/EPO_ 
+Strategic_Plan_2023_en.pdf 
+26 https://www.wipo.int/edocs/mdocs/govbody/en/wo_pbc_32/wo_pbc_32_3.pdf 
+
+ 
+20 
+orodje za rast in trajnostni razvoj, znotraj katerih so zapisane usmeritve (tu jih, zaradi njihovega 
+obsega, ne navajamo) za delovanje v prihodnjih letih. 
+3.2 Nacionalni dokumenti 
+a) Strategija razvoja Slovenije 203027 
+Dokument Strategija razvoja Slovenije 2030 je Vlada Republike Slovenije sprejela konec leta 
+2017. V strategiji je določenih dvanajst razvojnih ciljev Republike Slovenije, vsi se navezujejo 
+tudi na cilje trajnostnega razvoja Agende 2030. Za področje  IL je najbolj pomemben cilj 6 
+Konkurenčen in družbeno odgovoren podjetniški in raziskovalni sektor, kjer je kot eden od treh 
+kazalnikov uspešnosti izražen v vrednosti Evropskega inovacijskega indeksa, in sicer je 
+njegova ciljna vrednost leta 2030 uvrstitev Republike Slovenije v skupino držav vodilnih 
+inovatork EU . I L, s poudarkom na industrijski lastnini, ustvarja dodano vrednost za 
+gospodarstvo, njeno varovanje in izvrševanje pa prispevata k spodbujanju inovaci j in  h 
+gospodarski rasti. 
+b) Resolucija o znanstvenoraziskovalni in inovacijski strategiji Slovenije 203028 
+V Resoluciji o znanstvenoraziskovalni in inovacijski strategiji Slovenije 2030, ki jo je Državni zbor 
+Republike Slovenije sprejel leta 2022, je med drugim navedeno, da se bo Republika Slovenija 
+do leta 2030 razvila v uspešno, na znanju in inovacijah temelječo družbo in se uvrstila v 
+skupino držav vodilnih inovatork na lestvici evropskega inovacijskega indeksa.  
+Pričakovane razvojne učinke in rezultate bo Republika Slovenija dosegla s petimi krovnimi cilji, 
+horizontalnimi cilji in ključnimi ukrepi (tu ne navajamo vseh), ki bodo prispevali k približevanju 
+zastavljenemu cilju uvrstitve med deset najuspešnejših držav EU, merjeno z evropskim 
+inovacijskim indeksom. Področje IL je naslovljeno v okviru cilja 5: Pospešeno sodelovanje med 
+znanostjo in gospodarstvom, prenos znanja in inovacije, za katerega je v pripravi tudi akcijski 
+načrt. Na področje IL vpliva tudi v resoluciji naveden horizontalni cilj: 6.2. Odprta znanost za 
+izboljšanje kakovosti, učinkovitosti in odzivnosti raziskav. 
+Za spremljanje učinkovitosti nacionalne politike za izvajanje in pospeševanje 
+znanstvenoraziskovalne in inovacijske dejavnosti se bodo uporabili posamezni kazalniki 
+Evropskega inovacijskega indeksa. Struktura evropskega inovacijskega indeksa v letu 202 3 
+temelji na štirih sklopih kazalnikov in dvanajstih inovacijskih dimenzijah, kar skupaj predstavlja 
+32 kazalnikov. Za področje IL  so relevantni kazalniki v inovacijski dimenz iji 3.c 
+Intelektualna sredstva, ti kazalniki spremljanja so: 
+- prijava za podelitev patenta na podlagi PCT, 
+- prijava za registracijo znamke, 
+- prijava za registracijo modela. 
+ 
+27 https://www.gov.si/assets/ministrstva/MKRR/Strategija-razvoja-Slovenije-2030/Strategija_razvoja_Slovenije_ 
+2030.pdf 
+28 http://www.pisrs.si/Pis.web/npbDocPdf?idPredpisa=RESO133&type=pdf 
+
+ 
+21 
+c) Slovenska industrijska strategija 2021–203029 
+Vlada Republike Slovenije je dokument Slovenska industrijska strategija 2021–2023 sprejela v 
+letu 2021. Strategija izhaja iz Strategije razvoja Slovenije 2030, pri tem pa upošteva tudi druge 
+strateške dokumente na nacionalni in evropski ravni. Predstavlja vizijo razvoja slovenske 
+industrije kot zelene, ustvarjalne in pametne.  
+V dokumentu so opredeljeni kazalniki, ki predstavljajo vrednostne cilje s ciljnimi vrednostmi v 
+letu 2030. Poleg krovnega kazalnika (produktivnost dela) in splošnih kazalnikov finančnega 
+poslovanja, dokument opre deljuje tudi podkazalnike za področje zelenega, ustvarjalnega in 
+pametnega razvoja.  
+Za področje IL so pomembni naslednji podkazalniki in njihove ciljne vrednosti v letu 
+2030: 
+- število patentnih prijav slovenskih prijaviteljev pri Evropskem patentnem uradu;  cilj v 
+letu 2030: 150; 
+- inovacijski indeks (glede na razvitost EU); cilj v letu 2030: 110 %; 
+- število veljavnih nacionalnih znamk; cilj v letu 2030: 26.000. 
+d) Krovna strategija digitalne preobrazbe Slovenije do leta 2030 – Digitalna Slovenija 203030 
+Vlada Republike Slovenije je dokument Digitalna Slovenija 2030 sprejela leta 2023. Področje IL 
+je v dokumentu omenjeno v več poglavjih. V poglavju 2 - Digitalne kompetence in vključenost 
+je navedeno, da med digitalne kompetence sodijo tudi vprašanja IL . Poglavje 4 - Pot v pametno 
+družbo 5.0  naslavlja IL  v kontekstu uporabe podatkov in sledenje načelu varstva IL ob 
+siceršnjem zavzemanju za privzeto odprto . Poglavje 6, ki naslavlja kibernetsko varnost, pa 
+vključuje varnost pred krajo IL. 
+e) Nacionalni program spodbujanja razvoja in uporabe umetne inteligence v Republiki Sloveniji do 
+leta 202531 
+Vprašanja IL se nacionalni program dotika zgolj pri omembi potrebe po zagotovitvi ustreznega pravnega 
+okvirja, ki bo omogočal upravljanje neosebnih podatkov (npr. zbiranje, dostop, delitev, uporabo, 
+spreminjanje oziroma dopolnjevanje tudi z vidika lastništva, odgovornosti, avtorskih pravic itd.).  
+  
+ 
+29 https://www.gzs.si/Portals/206/Slovenska%20industrijska%20strategija.pdf 
+30 https://www.gov.si/assets/ministrstva/MDP/Dokumenti/Digitalna-Slovenija-2030.pdf 
+31 https://www.gov.si/assets/ministrstva/MDP/DID/NpUI-SI-2025.docx 
+
+ 
+22 
+4. PREGLED VELJAVNE ZAKONODAJE  
+IL je samostojno pravno področje, saj zakonodaja določa vrsto in obseg pravic IL, način njihove 
+pridobitve, način uveljavljanja pravic v primeru njihove kršitve i n podobno . Področje IL v 
+Republiki Sloveniji opredeljujejo naslednji  zakoni, za katere je pristojen URSIL: Zakon o 
+industrijski lastnini32, Zakon o avtorski in sorodnih pravicah33, Zakon o kolektivnem upravljanju 
+avtorske in sorodnih pravic 34, Zakon o varstvu topografije polprevodniških vezij 35, Zakon o 
+izumih iz delovnega razmerja36. Posamezna področja IL urejajo tudi drugi predpisi, npr. Zakon 
+o poslovni skrivnosti 37, Zakon o gospodarskih družbah 38, Zakon o kmetijstvu 39 in Zakon o 
+varstvu novih sort rastlin 40, pa tudi Obligacijski zakonik 41, Kazenski zakonik 42 in Zakon o 
+odgovornosti pravnih oseb za kazniva dejanja43.  
+Republiko Slovenijo kot članico Evropske unije zavezuje tudi sprejeta evropska zakonodaja 
+(uredbe in direktive), ki je za področje IL dokaj obsežna. V tem okviru Republika Slovenija 
+intenzivno sodeluje tudi z Uradom Evropske unije za intelektualno lastnino (EUIPO) – agencijo 
+Evropske unije (ustanovljena leta 1994 kot Urad za usklajevanje na notranjem trgu) (znamke in 
+modeli), ki je pristojna za registracijo znamk Evropske unije (EU) in modelov Skupnosti, ki veljajo 
+kot enotne pravice v vseh državah članicah EU. Pri EUIPO deluje tudi Evropski opazovalni urad 
+za kršitve pravic IL. Kljub temu prenos direktiv omogoča državam članicam tudi določeno 
+fleksibilnost oziroma izjeme. Pri tem je zelo pomembno usklajevanje varovanja pravic IL ter 
+javnega interesa oziroma dopuščanja izjem in omejitev avtorske in sorodnih pravic (npr. na 
+področju znanosti, šolstva). To se še posebej kaže pri konceptu odprte znanosti: namreč, v 
+skladu z Evropsko strategijo za podatke (2020) so podatki v središču digitalne transformacije, 
+saj bo njihova odprtost omogočila številne inovacije, ki bodo posledično vodile k izboljšanju 
+življenja državljanov. Podatki so pomembni za ekonomsko rast, konkurenčnost, inovacije, 
+kreiranje novih delovnih mest in napredek celotne družbe. Zato želi Evropska komisija 
+vzpostaviti enoten trg za podatke, kar bi Evropi zagotovilo globalno konkurenčnost in 
+podatkovno suverenost. Pri tem je pomembno vprašanje odprtega dostopa do rezultatov 
+znanstvenoraziskovalne dejavnosti (odprta znanost). Odprta znanost je pomemben del 
+znanstvenoraziskovalne politike EU in tudi Slovenije. Odprta znanost obsega predvsem odprt 
+dostop do raziskovalnih rezultatov, vrednotenje kakovosti in vpliva znanstvenoraziskovalnega 
+dela z uporabo odgovornih metrik ter povezovanje in vključevanje zainteresirane javnosti v 
+ 
+32 http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO1668 
+33 http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4148 
+34 http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7317 
+35 http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO404 
+36 http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO361 
+37 http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7758 
+38 http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4291 
+39 http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4716 
+40 http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO557 
+41 http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO1263 
+42 http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO5050 
+43 http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO1259 
+
+ 
+23 
+raziskovalni proces. Podrobnejše zahteve za izvajanje znanstvenoraziskovalnega dela po 
+načelih odprte znanosti določi vlada ob upoštevanju Znanstvenoraziskov alne in inovacijske 
+strategije Slovenije ter priporočil evropskih raziskovalnih politik. Ukrepi odprte znanosti se 
+opredelijo v akcijskem načrtu, ki ga sprejme vlada. Tako je v mesecu maju 2023 Vlada Republike 
+Slovenije v okviru Nacionalnega reformnega pro grama za 2023 sprejela dva pomembna 
+dokumenta na področju znanstvenoraziskovalne dejavnosti. Gre za Uredbo o izvajanju 
+znanstvenoraziskovalnega dela v skladu z načeli odprte znanosti (Uradni list RS, št. 59/23) in 
+Akcijski načrt za odprto znanost za izvedbo Ukrepa 6.2: Odprta znanost za izboljšanje kakovosti, 
+učinkovitosti in odzivnosti raziskav. Vsebinsko se Akcijski načrt za odprto znanost navezuje na 
+Akcijski načrt izvedbe Nacionalne strategije odprtega dostopa do znanstvenih objav in 
+raziskovalnih podatkov v Sloveniji 2015‒2020. Izjeme od odprte dostopnosti rezultatov raziskav 
+v javno financiranih raziskavah (sofinancirane z javnimi viri najmanj v višini 50 %) so mogoče v 
+utemeljenih primerih, kadar popolnoma odprto dostopnost preprečuje varstvo IL, vars tvo 
+osebnih podatkov, varnost oseb ali države ali druge zakonske omejitve. Sem lahko prištevamo 
+tudi poslovno skrivnost. Informacija o tem, kateri podatki ne bodo odprto dostopni, mora biti 
+financerju ustrezno obrazložena in utemeljena v načrtu ravnanja z raziskovalnimi podatki. 
+Pogodbe o raziskovalni dejavnosti med raziskovalno organizacijo in subjektom zasebnega 
+prava, kjer ni vključenih javnih virov ali so ti manjši od 50 %, niso predmet te uredbe. Morebitna 
+odprtost raziskovalnih podatkov v tem primeru se izvaja, kot je dogovorjeno v taki pogodbi 
+(na primer v delu, kjer se ščiti poslovni interes). 
+Pri prenosu aktov EU v nacionalno zakonodajo občasno prihaja tudi do zamud, ki so predvsem 
+posledica dolgotrajnega medresorskega usklajevanja in usklajevanja interesov različnih skupin. 
+Po nujnem postopku in z zamudo je bila septembra 2022 sprejeta nova zakonodaja o avtorski 
+in sorodnih pravicah, ki je implementirala Direktivo (EU) 2019/790 44 o avtorski in sorodnih 
+pravicah na digitalnem trgu. Kljub sprejetju novel je javna razprava na tem področju še vedno 
+odprta, saj je treba poiskati ravnotežje med različnimi interesi, identificirati javni interes 
+Slovenije in ga jasno zastopati že v času priprave sprememb avtorskopravne ureditve na ravni 
+EU. V času priprave te analize je Slovenija zamujala tudi s prenosom določbe Direktive (EU) 
+2015/243645 v zvezi z znamkami (rok je potekel 14. 1. 2023), kar je bilo odpravljeno s sprejemom 
+novele Zakona o industrijski lastnini (ZIL-1F) dne 28. 6. 2023.  
+Področje IL urejajo tudi številne mednarodne pogodbe, ki obvezujejo Republiko Slovenijo, 
+predvsem: Sporazum o trgovinskih vidikih pravic IL, Pariška konvencija za varstvo industrijske 
+lastnine, Bernska konvencija za varstvo književnih in umetniških del, Svetovna konvencija o 
+avtorski pravici, Konvencija o razdelitvi signalov za prenos programa po satelitu, Mednarodna 
+konvencija za varstvo izv ajalcev, proizvajalcev fonogramov in radiodifuznih organizacij, 
+Konvencija za varstvo proizvajalcev fonogramov pred nedovoljenim presnemavanjem njihovih 
+fonogramov, Pogodba WIPO o avtorski pravici, Pogodba WIPO o izvedbah in fonogramih, 
+Marakeška pogodba o olajšanem dostopu do objavljenih del za slepe in slabovidne osebe ter 
+ 
+44 https://eur-lex.europa.eu/legal-content/SL/ALL/?uri=CELEX:32019L0790 
+45 https://eur-lex.europa.eu/legal-content/SL/TXT/?uri=CELEX%3A32015L2436 
+
+ 
+24 
+osebe z drugimi motnjami branja, Pogodba o sodelovanju na področju patentov, 
+Budimpeštanska pogodba o mednarodnem priznanju depozita mikroorganizmov za postopek 
+patentiranja, Strasbourš ki sporazum o mednarodni klasifikaciji patentov, Pogodba o 
+patentnem pravu,  Konvencija o podeljevanju evropskih patentov, Sporazum o enotnem 
+sodišču za patente, Pogodba o pravu znamk, Madridski aranžma o mednarodnem registriranju 
+znamk in Protokol k Madridskemu sporazumu o mednarodnem registriranju znamk , Nicejski 
+aranžma o mednarodni klasifikaciji proizvodov in storitev zaradi registracije znamk,  Dunajski 
+sporazum o mednarodni klasifikaciji figurativnih elementov znamk, Nairobijska pogodba o 
+varstvu olimpijskega simbola, Haaški sporazum o mednarodnem depozitu industrijskih vzorcev 
+in modelov, Ženevski akt Haaškega sporazuma o mednarodni registraciji modelov, Locarnski 
+aranžma o ustanovitvi mednarodne klasifikacije za industrijske vzorce in modele  in Ženevski 
+akt lizbonskega sporazuma o označbah porekla in geografskih označbah. 
+Področje IL je mednarodno pravno dobro urejeno in pravice  so večinoma poenotene. 
+Mednarodne pogodbe  na področju IL določajo skupna pravila in postopke za registracijo, 
+varstvo in/ali uveljavljanje IL v različnih državah. T e pogodbe  omogočajo podjetjem lažje 
+izvajanje pravic na mednarodni ravni, poenostavljajo postopke in zmanjšujejo administrativne 
+ovire. 
+Razvoj novih in nastajajočih tehnologij, kot so tehnologije razpršene evidence (najbolj 
+izpostavljena je tehnologija veriženja blokov), umetna inteligenca, tehnologije, povezane z 
+metaverzumom (nadgrajena resničnost (AR), virtualna resničnost (VR), razš irjena resničnost 
+(XR) in digitalni dvojčki), bodo za varovanje IL predstavljali velik izziv. To velja tako z vidika virov 
+(npr. podatkovne baze, avtorske pravice …), rezultatov (npr. avtorska zaščita izdelka, ki ga 
+ustvari umetna inteligenca), kakor tudi splošne ureditve posameznih področij, kot je npr. Akt o 
+umetni inteligenci, čeprav le -ta specifično ne naslavlja pravic IL (Picht, Thouvenin, 2023). Na 
+potencialne kršitve pravic IL v povezavi z novimi in nastajajočimi tehnologijami opozarjajo 
+številne študije in članki, ki so bile objavljene v zadnjih letih. Tako Hupont Torres, I. et al. (2023) 
+analizirajo novo generacijo virtualnih svetov; EUIPO (2022) analizira potencialne kršitve pravic 
+znamk in modelov zaradi uporabe umetne inteligence, v študiji Inter national Trademark 
+Association (2023) analizirajo izzive znamk v metaverzumu, Mendis, D., Nordemann, J., 
+Ballardini, R. et al. (2020) analizirajo potencialne vplive industrijskega 3 D tiskanja na pravice IL, 
+Bogataj Jančič (2021) preučuje, ali je lahko umetna inteligenca avtor avtorskega dela, podobno 
+tudi Appel, G., Neelbauer, J., Schweidel, D. A. (2023) analizirajo razmerja med generativnimi 
+modeli umetne inteligence in pravicami IL ... Reševanje omenjenih izzivov bo zahtevalo 
+mednarodno sodelovanje, kar pa bi lahko zaradi hitrega tehnološkega razvoja in zaradi 
+geopolitičnega tekmovanja (nove in nastajajoče tehnologije kot vir gospodarske in vojaške 
+moči velesil) oteženo.  
+ 
+  
+
+ 
+25 
+5. PREGLED UPRAVNIH IN PRAVOSODNIH STRUKTUR  
+V Sloveniji so vzpostavljene vse potreb ne upravne in pravosodne strukture za pridobitev in 
+uveljavljanje oziroma varstvo pravic IL, pri čemer je ureditev primerljiva z drugimi državami EU. 
+5.1 Upravne strukture 
+Naloge s področja IL, ki vključuje področje avtorskega prava in prava industrijske lastnine, 
+opravlja Urad za intelektualno lastnino 46, ki deluje kot organ v sestavi Ministrstva za 
+gospodarstvo, turizem in šport (MGTŠ) ter je pri svojem delu samostojen. Glavne naloge URSIL 
+so vodenje postopkov za podelitev patentov in dodatnih varstvenih certifikatov za zdravila in 
+fitofarmacevtska sredstva ter postopkov za registracijo znamk, modelov, topografij 
+polprevodniških vezij in geografskih označb, z izjemo tistih,  ki se nanašajo na kmetijske 
+pridelke, živila ter vina in druge proizvode iz grozdja in vina, vodenje registrov pravic 
+industrijske lastnine in drugih registrov, predvsem registra zastopnikov, vodenje postopkov 
+razveljavitve in ugotovitve ničnosti znamke, priprava strokovnih predlog sprememb in 
+dopolnitev zakonskih predpisov s področja IL, opravljanje informacijskih storitev v zvezi s 
+pravicami industrijske lastnine, izdajanje dovoljenj za kolektivno upravljanje avtorske in 
+sorodnih pravic ter nadzor nad de lovanjem kolektivnih organizacij, zastopanje Republike 
+Slovenije pri tujih in mednarodnih organizacijah, ki delujejo na področju  IL, na podlagi 
+pooblastil vlade, izdajanje Biltena za industrijsko lastnino. Na  URSIL opravljajo tudi upravno-
+tehnične naloge z a Poravnalni svet 47, ki deluje na podlagi Zakona o izumih iz delovnega 
+razmerja in pred katerim se rešujejo  spori med delodajalci in delojemalci v zvezi z izumi, 
+ustvarjenimi v delovnem razmerju. Poleg tega URSIL nudi administrativno pomo č Svetu za 
+avtorsko pravo 48, mediatorjem pri reševanju sporov med kolektivnimi organizacijami , 
+organizacijami avtorjev posameznih kategorij avtorskih del in reprezentativnimi združenji 
+uporabnikov varovanih del, uporabnikom in imetnikom pravice v katerem koli sporu v zvezi z 
+avtorsko pravico. Ena pomembnejših nalog urada postaja tudi promocija oziroma osveščanje 
+različnih javnosti o področju IL.   
+URSIL sodi med manjše tovrstne ustanove v Evropi, vendar glede na razmerje med številom 
+vloženih prijav za pravice industrijske lastnine in številom zaposlenih dosega visoko 
+produktivnost49. Z optimizacijo procesov si URSIL prizadeva skrajšati čas pridobitve varstva 
+pravic. Tako je Urad uspešno nadaljeval proces digitalizacije poslovanja. Proces, ki se je začel 
+pred leti na področju podpornih sistemov za znamke in modele, se bo z novo začeti m 
+projektom zamenjave zalednega sistema za patente in DVC nadaljeval tudi v prihodnje. Tudi v 
+prihodnosti bo treba napore Urada usmeriti v čim večjo digitalizacijo, ki mora biti tudi 
+ 
+46 https://www.gov.si/drzavni-organi/organi-v-sestavi/urad-za-intelektualno-lastnino/o-uradu/ 
+47 https://www.gov.si/zbirke/delovna-telesa/poravnalni-svet/  
+48 https://www.gov.si/zbirke/delovna-telesa/svet-za-avtorsko-pravo/ 
+49 https://www.gov.si/drzavni-organi/organi-v-sestavi/urad-za-intelektualno-lastnino/o-uradu 
+
+ 
+26 
+uporabniku prijazna. Zaradi majhnosti je povezovanje URSIL s tujimi uradi  ter izmenjava 
+izkušenj z njimi ključnega pomena.  
+Največja pomanjkljivost nacionalnega postopka patentne prijave je, da ne vsebuje obveznosti 
+ugotavljanja novosti izuma, vendar URSIL za to tudi nima ustreznih kadrovskih in 
+organizacijskih pogojev. Posledično je bilo pri URSIL po preteku devetih let po vložitvi patentne 
+prijave veljavnih samo 12  % patentov, kar je malo ter bistveno manj v primerjavi z  EPU in je 
+lahko neposredna posledica trenutno veljavne zakonodaje, predvsem 91. člena Zakona o 
+industrijski lastnini (ZIL-1-UPB3), ki z določilom, da mora imetnik patenta ali imetnik izključne 
+pravice iz patenta najkasneje do izteka devetega leta trajanja pate nta URSIL predložiti pisno 
+dokazilo o tem, da patentirani izum ustreza vsem zahtevam po 10., 12., 14. in 15. členu ZIL -1-
+UPB3, v bistvu de facto uzakonja možnost preverjanja novosti šele po devetih letih od vložitve 
+patentne prijave . To predstavlja vir neu činkovitosti in vzpostavlja neustrezne spodbude za 
+oportunistično vlaganje patentnih prijav. Majhen odstotek veljavnih prijav bi lahko nakazoval 
+tudi na potencialne selekcijske učinke, neznanje in nepoznavanje obstoječih tehničnih rešitev 
+ali pa na pridobi vanje neupravičenih rent ( angl. rent-seeking behaviour), moralni hazard ter 
+ustvarjanje neupravičenih in škodljivih monopolov (Kovač, Spruk, Vandenberghe, 2016).  
+Nedavno sprejeta novela ZIL -1 (ZIL-1F) je usmerjena v poenostavitev in pocenitev nekaterih 
+obstoječih postopkov – z njeno uveljavitvijo je namreč omogočeno hitrejše pridobivanje 
+informacij v postopkih dodelitve patenta in cenejša upravna postopka razveljavitve in 
+ugotovitve ničnosti znamke. 
+Poleg Ministrstva za gospodarstvo, turizem in šport imajo pomembno vlogo za področje IL 
+tudi Ministrstvo za kmetijstvo, gozdarstvo in prehrano, ki med drugim vodi postopke za 
+podelitev geografskih označb in označb porekla blaga , ki se nanašajo na kmetijske  pridelke, 
+živila ter vina in druge proizvode iz grozdja in vina, Ministrstvo za visoko šolstvo, znanost in 
+inovacije, Ministrstvo za kulturo , Ministrstvo za pravosodje , Ministrstvo za vzgojo in 
+izobraževanje ter Ministrstvo za digitalno preobrazbo.   
+5.2 Pravosodne strukture 
+Analiza stanja na področju uveljavljanja pravic IL v RS v letu 2021 50 (Drobež, Teppey, 2022), iz 
+katere tudi navajamo podatke v tej točki, je pokazala, da je bilo v letu 2021 na slovenski h 
+sodiščih malo pripadlih zadev v zvezi z uveljavljanjem pravic IL. Trend upadanja sporov s 
+področja IL predstavlja oviro za hiter razvoj sodne prakse. Poleg tega je bil opazen negativen 
+vpliv pandemije covid-19 na število izobraževalnih seminarjev za vse sodnike, ki se ukvarjajo s 
+tem področjem.  
+V nadaljevanju navajamo pravosodne strukture, ki v Sloveniji rešujejo spore o pravicah IL. 
+ 
+50 https://www.gov.si/assets/organi-v-sestavi/URSIL/Dokumenti/Novice/Analiza-stanja-na-podrocju-uveljavljanja-
+pravic-intelektualne-lastnine-2021-17.-6.-2022.pdf 
+
+ 
+27 
+Okrožno sodišče v Ljubljani  je v Sloveniji izključno pristojno za reševanje civilnih in 
+gospodarskih sporov s področja pra vic IL na prvi stopnji. Na gospodarskem oddelku spore s 
+tega področja rešuje specializirana skupina sodnikov, ki se sproti izobražujejo. 
+Višje sodišče v Ljubljani, gospodarski oddelek: spore s področja IL rešuje specializirani senat 
+treh sodnikov. Rešujejo  avtorske zadeve (28 v letu 2021 – avtorski spori in spori s področja 
+kolektivnega upravljanja avtorske in sorodnih pravic), patentne zadeve (2 v 2021), zadeve s 
+področja znamk (2 v 2021) in druge zadeve s področij IL. Število sporov izkazuje trend 
+upadanja, kar je možno pripisati tako ustaljenosti sodne prakse na področju kolektivnega 
+upravljanja avtorske in sorodnih pravic kot tudi splošnemu trendu upadanja zadev na 
+gospodarskem oddelku Okrožnega sodišča v Ljubljani.  
+Vrhovno sodišče v Ljubljani: redko rešuje zadeve s področja IL, v 2021 en spor o pristojnosti 
+in en sklep, da se revizija ne dopusti. 
+Kazenski oddelki višjih sodišč in Vrhovnega sodišča: v 2021 ni bilo zadev s področja IL. 
+Višje sodišče v Ljubljani, civilni oddelek: 7 odločb v 2021, od tega 6 s področja kolektivnega 
+uveljavljanja avtorske in sorodnih pravic. 
+Upravno sodišče RS: v 2021 ena odločba v zvezi z registracijo znamke. 
+Delovno in socialno sodišče v Ljubljani rešuje spore med delodajalci in delojemalci v zvezi z 
+izumi, ustvarjenimi v delovnem razmerju. 
+Z uvedbo  Evropskega patenta z enotnim učinkom  ter uveljavitvijo Sporazuma o enotnem 
+sodišču za patente je vzpostavljeno enotno patentno varstvo v vseh sodelujočih državah 
+članicah EU. Enotno sodišče za patente, mednarodno sodišče , vzpostavljeno na podlagi 
+Sporazuma o Enotnem sodišč u za patente, zagotavlja enotno reševanje patentnih sporov o 
+veljavnosti in kršitvah evropskih patentov z enotnim učinkom ter evropskih patentov (tj. 
+skladno z Evropsko patentno konvencijo) in krepi pravno varnost na tem področju v primerjavi 
+z uveljavljanjem pravic iz patenta pred nacionalnimi sodišči držav članic EU, kar je pogosto 
+vodilo do različnih odločitev o istih okoliščinah kršitve enakega patenta ob hkratnih logističnih 
+težavah in izredno visokih stroških pravdanja pred več nacionalnimi sodišči hkrati. Pomemben 
+sestavni del Enotnega sodišča za patente  je tudi Center za mediacijo in arbitražo v patentnih 
+sporih, ki bo imel sedež tako v Ljubljani kot Lizboni in ki bi lahko imel – vsaj glede na nekatere 
+izkušnje iz tujine – pomembno vlogo pri reševanju patentnih sporov. 
+Zaradi nizkega števila patentnih sporov bi v Sloveniji veljalo razmisliti o možnosti vzpostavitve 
+koncentracije pristojnosti za vse pa tentne spore, izvzemši posebne delovnopravne patentne 
+spore, in sicer tako, da bi spore v zvezi s patenti, ki jih zdaj razrešuje Upravno sodišče, prenesli 
+na Okrožno sodišče v Ljubljani.   
+  
+
+ 
+28 
+6. PREGLED STRUKTUR, KI PODPIRAJO ŠIRŠE PODROČJE 
+INOVACIJ IN KREATIVNIH INDUSTRIJ 
+Slovenski nacionalni inovacijski sistem sestavljajo politični podsistem, izobraževalno -
+raziskovalni podsistem ter industrijski podsistem. Slovenski inovacijski sistem z glavnimi akterji 
+predstavljamo v spodnji sliki. 
+Slika 12: Slovenski inovacijski ekosistem 
+ 
+Legenda: ARIS – Agencija za znanstvenoraziskovalno in inovacijsko dejavnost; CZK – Center za kreativnost; EIT RIS – 
+Regionalna inovacijska shema Evropskega in štituta za inovacije in tehnologijo; MDP – Ministrstvo za digitalno 
+preobrazbo; MK – Ministrstvo za kulturo;  MKRR – Ministrstvo za  kohezijo in regionalni razvoj; MVI – Ministrstvo za 
+vzgojo in izobraževanje; MVZI – Ministrstvo za visoko šolstvo, znanost in inovacije;  SPOT – Slovenska poslovna točka; 
+SRIP – Strateška razvojno-inovacijska partnerstva; SRIPS – Javni štipendijski, razvojni, invalidski in preživninski sklad. 
+Vir: Prirejeno po Current state of play of the Slovenian national innovation ecosystem, SPIRIT, 2021. 
+
+
+ 
+29 
+Politični podsistem mora skrbeti za medsektorsko usklajevanje in posvetovanje pri razvoju 
+politik in ukrepov. Vključuje institucije, kot so parlament in njegovi organi, povezani z 
+raziskavami in razvojem ter inovacijami, vlado in ministrstva, ki pripravljajo, usklajujejo politike 
+in njihovo izvajanje ter izvajalske oziroma posredniške agencije, kot so SPIRIT, Javna agencija 
+za znanstvenoraziskovalno in inovacijsko dejavnost Republike Slovenije (ARIS), Slovenski 
+podjetniški sklad ter Slovenski regionalno razvojni sklad.  
+Izobraževalno-raziskovalni podsistem ima vlogo ponudnika kadrov, hkrati pa imajo 
+pomembno vlogo tudi raziskovalno -razvojni centri, v katerih nastajajo nove ideje, izdelki in 
+procesi. Ta del ekosistema sestavljajo visokošolski zavodi z univerzami, samostojne fakultete in 
+visokošolski zavodi, javni in zasebni raziskovalni inštituti ter laboratoriji in ustanove za 
+strokovno izobraževanje in usposabljanje. 
+Industrijski podsistem sestavljajo različni poslovni subjekti: velika podjetja ter MSP, zagonska 
+podjetja, skladi tveganega kapitala … 
+Vsi navedeni podsistemi so med seboj povezani s posredniškimi institucijami in podpornimi 
+službami, katerih naloga je, da izboljšajo povezanost znotraj ekosistema, tako da tvorijo 
+povezave med vsemi akterji z ustvarjan jem ugodnih pogojev za razvoj izdelkov in podjetij. 
+Specializirajo se za določene dejavnosti in cilje z razvojem podpornih ukrepov in orodij. Akterji 
+znotraj tega podsistema so lahko tudi tesneje povezani ali celo odvisni od katerega od drugih 
+navedenih po dsistemov (npr. zbornice, poslovni klubi, pisarne za prenos tehnologije, 
+univerzitetni inkubatorji, nacionalne kontaktne točke za programe EU …). 
+Analiza slovenskega inovacijskega ekosistema 51 je pokazala, da vertikalnemu principu 
+koordinacije manjka koordinacija med več strategijami in politikami, ki se razvijajo. Usklajevanje 
+med obema vertikalama je ključni dejavnik uspeha, ki s horizontalnim vključevanjem RR 
+(raziskovalne in razvojne) politike v druge politike postaja še pomembnejši. Priporočila za 
+okrepitev inovacijskega sistema52 ugotavljajo, da ima Slovenija sicer precej močnih sektorjev, 
+vendar pa večina slovenskih podjetij nastopa v vlogi dobavitelja in ne ponuja končnih 
+produktov na trgu. 
+V zvezi z IL je v priporočilih kot eden k ljučnih izzivov izpostavljena konsolidacija obstoječe 
+podpore ter dodatne usmerjene podpore, ki vključuje tudi podporo raziskovalnim inštitutom 
+in univerzam pri ustvarjanju dodatnih prihodkov iz naslova IL . Poleg tega je  za inovacijsko 
+dejavnost zelo pomem bno tudi , kako uspešno deluje prenos znanj in tehnologij iz javnih 
+raziskovalnih organizacij (univerz, inštitutov, laboratorijev) v aplikativno uporabo, kar skuša 
+spodbujati tudi država. Sodelovanje pri raziskavah in razvoju  vključuje prehajanje IL med 
+partnerji, pri čemer pa v slovenskem prostoru primanjkuje znanj in izkušenj. S to tematiko so 
+ 
+51 https://www.podjetniski-portal.si/uploads/gradiva/krepitev_inovacijskega_ekosistema/srss161_slovenia_ 
+ecosystem_d2_state_of_play_report.pdf 
+52 https://www.podjetniski-portal.si/uploads/gradiva/krepitev_inovacijskega_ekosistema/ 
+srss161sloveniaecosystem_d4_reccommendations_report.pdf 
+
+ 
+30 
+se ukvarjali v CRP projektu53 (Pal in drugi, 2022), kjer so avtorji med drugim analizirali kritične 
+točke prenosa pravic IL ter pripravili smernice za upravljanje s pravicami IL v okviru sodelovalnih 
+RR projektov. 
+Priporočila42 omenjajo tudi vavčer za zaščito IL, ki je bil dobro sprejet in bi ga bilo z določenimi 
+prilagoditvami smiselno nadaljevati, ter odsotnost t. i. patentnih paketov (ang l. R&D patent 
+box) oziroma posebne oblike olajšav za dobičke, ki izhajajo iz IL, in davčnih kreditov oziroma 
+posebne oblike olajšav za RR (angl. R&D tax credits). Poleg tega je zelo pomembna tudi vloga 
+različnih podpornih inštitucij za inovacije z vidika promocije in osveščanja o IL . Slednje 
+predstavlja tudi eno glavnih nalog URSIL, poleg vodenja postopkov za podelitev pravic IL. 
+Eden pomembnejših pozitivnih premikov  v zadnjem času  je uvedba e vropskega patenta z 
+enotnim učinkom (od 1. junija 2023) , ki omogoča ugodnejšo in enostavnejšo zaščito v 17 -ih 
+državah EU (Avstrija, Belgija, Bolgarija, Danska, Estonija, Finska, Francija, Italija, Latvija, Litva, 
+Luksemburg, Malta, Nemčija, Nizozemska, Portugalska, Sloveni ja, Švedska), kasneje se lahko 
+pridružijo še ostale države članice okrepljenega sodelovanja (Ciper, Češka, Grčija, Madžarska, 
+Irska, Poljska, Romunija in Slovaška). Enotni patentni sistem po mnenju Evropske komisije 54 
+zagotavlja enotno kontaktno točko za registracijo in uveljavljanje patentov v Evropi. To pomeni 
+nižje stroške, manj birokracije in manjše upravno breme za inovatorje, zlasti za mala in srednja 
+podjetja. Podjetjem in drugim inovatorjem omogoča, da za svoje izume prejmejo evropski 
+patent z enotnim učinkom, ki velja v vseh sodelujočih državah članicah. S tem se bodo izognili 
+zapletenemu mozaiku nacionalnih patentnih zakonov in postopkov ter dragim nacionalnim 
+zahtevam za potrjevanje evropskih patentov. Poleg tega bo novo Enotno sodišče za patente,  
+ki bo pristojno za evropske patente z enotnim učinkom in obstoječe evropske patente, 
+podjetjem omogočilo učinkovitejše uveljavljanje patentnih pravic. Zagotovilo bo tudi 
+doslednejši pravni okvir za patentne spore in zmanjšalo tveganje neskladnih odločitev . Tako 
+bo na primer ena sama tožba pred Enotnim sodiščem za patente nadomestila več vzporednih 
+postopkov pred nacionalnimi sodišči. Se bo pa preglednost nad obstoječimi patenti zaradi 
+povečanja številčnosti poslabšala, kar bi lahko predstavljalo težavo za poslovanje nekaterih 
+podjetij ter večje tveganje (nezavedne) kršitve obstoječih patentov. S tega vidika se kaže 
+potreba po dodatnih podpornih storitvah za podjetja, ki bi jim pomagale pri spopadanju s 
+tovrstnimi težavami. 
+Pomembno vlogo imajo pisarne za prenos tehnologij (TTO), definirane skladno s cilji Resolucije 
+o raziskovalni in inovacijski strategiji Slovenije 2011–2020 (RISS), ki kot svoj prvi cilj navaja, da 
+se bo boljši prenos znanja doseglo z ureditvijo sistemskega financiranja pisarn za prenos 
+tehnologij in vzpostavitvijo metrike za vrednotenje njegove učinkovitosti, z namenom, da se 
+prenos znanja opredeli kot eden ključnih strateških poslanstev javnih raziskovalnih organizacij 
+(JRO) do družbe, v sistemu, ki bo spodbujal sodelovanje, zaupanje in do bro vpetost v 
+ 
+53 https://www.gov.si/assets/ministrstva/MVZI/Znanost/CRP/Vrednotenje-intelektualne-lastnine-kot-podlaga-za-
+predlog-dolgorocno-vzdrznega-modela-drzavnih-pomoci-za-spodbujanje-sodelovanja-znanosti-in-
+gospodarstva.pdf 
+54 https://ec.europa.eu/commission/presscorner/detail/sl/IP_23_3004 
+
+ 
+31 
+raziskovalno sfero. Pisarne za prenos tehnologij z osmih različnih slovenskih JRO so bile do 
+sedaj financirane iz projekta javnega razpisa MIZŠ »Spodbujanje dejavnosti prenosa znanja 
+preko delovanja pisarn za prenos tehnologij« (KTT – Konzorcij za prenos tehnologij iz JRO v 
+gospodarstvo).  Pomembno vlogo so odigrale tudi pri ozaveščanju o pomenu IL (vključevanje 
+tematike v priročnike za prenos tehnologij). 
+V Sloveniji težavo predstavlja tudi neustrezna vključenost področja IL v kurikulum na ra zličnih 
+stopnjah izobraževanja . Tako imajo nekatere fakultete obvezne predmete, ki vključujejo 
+področje IL  (npr. Pravo intelektualne lastnine na Evropski pravni fakulteti: magistrski program 
+Civilno in gospodarsko pravo; Intelektualna lastnina, legislativa in regulativa na Fakulteti za 
+farmacijo: magistrski program Industrijska farmacija), nekatere fakultete imajo izbirne 
+predmete (npr. Pravo intelektualne lastnine na Pravni fakulteti v Ljubljani in na Pravni fakulteti 
+v Mariboru ; Katoliški inštitut: Fakulteta za pravo in poslovne vede ; MLC Fakulteta za 
+management in pravo Ljubljana). Računsko sodišče je revizijskem poročilu Patentno varstvo v 
+Republiki Sloveniji ugotovilo, da v obdobju od 1. 1. 2012 do 31. 12. 2017 področje patentnega 
+varstva v Republiki Sloveniji ni bilo vključeno kot obvezna vsebina v noben izobraževalni 
+program na nobeni stopnji izobraževanja (Računsko sodišče, 2019).  Prav tako primanjkuje 
+ponudbe strokovnih izobraževanj v slovenskem jeziku. 
+ IL ima zelo pomembno vlogo v kulturno -kreativnem sektorju (KKS). Tako je prva definicija 
+sektorja (opredelitev kreativnih industrij), ki so jo začeli uporabljati v Veliki Britaniji, vključevala 
+pojem IL. Ministrstvo za kulturo, medije in  šport (DCSM) je kreativne industrije definiralo kot 
+tiste panoge, ki »temeljijo na individualni kreativnosti, spretnosti in talentu s potencialom za 
+ustvarjanje blaginje in delovnih mest s pomočjo razvoja intelektualne lastnine«. 
+Analiza KKS (Kavaš, Murovec, 2023) na podlagi intervjujev in delavnic ugotavlja, da varstvo IL v 
+KKS predstavlja problem, saj ustvarjalcem na tem področju pogosto primanjkuje znanj in tudi 
+sredstev za reševanje sporov v primeru kršitev, medtem ko pri drugih akterjih in tudi v splošni 
+javnosti primanjkuje ozaveščenosti in spoštovanja teh pravic. Problematika pravic IL je 
+kompleksna in pogledi posameznih deležnikov v KKS se med seboj razlikujejo. Uspešen razvoj 
+in dober izdelek ali storitev na trgu še ne pomenita odloči lne prednosti pred konkurenco, če 
+nista tudi ustrezno varovana in če nismo sposobni uveljavljati pridobljene pravice IL. Iz tega 
+razloga postaja varovanje izdelkov ali storitev v obliki pravic  IL oziroma njihova ohranitev v 
+obliki poslovnih in drugih skrivnosti eden od tistih dejavnikov, ki podjetju lahko omogoči korak 
+naprej v doseganju konkurenčne prednosti. Podjetja v KKS (npr. oblikovalska podjetja) so 
+večinoma majhna, zato imajo premalo kadrovskih in  finančnih sredstev za  varstvo in 
+uveljavljanje varstva IL. Primanjkuje jim znanj in tudi informacij, kje lahko pridobijo strokovno 
+pomoč (RCKE, 2013). V zvezi z IL se pogosto postavlja tudi vprašanje učinkovitosti in 
+transparentnosti kolektivnih organizacij (Kavaš, Murovec, 2023).  
+Na področju kulturnega in kreativnega sektorja se kot pomembna težava kaže tudi majhnost 
+oziroma odsotnost ustreznih vmesnih specializiranih akterjev v verigi vrednosti, ki bi 
+profesionalno upravljali s pravicami IL in znamkami. Posamezni ustvarjalci zaradi odsotnosti 
+
+ 
+32 
+ustreznih akterjev, nezaupanja ali zniževanja stroškov skušajo sami poskrbeti za vse, za kar pa 
+jim seveda primanjkuje ustreznih znanj, izkušenj in časa. Podobne so tudi ugotovitve projekta 
+Creative FLIP (Finance, Learning, Innovation and Intellectual Property Rights for the Cultural 
+and Creative Sectors and Industries), ki ga je financirala Evropska komisija. Tako so v okviru 
+analize patentiranja v KKS ugotovili, da se zdi ustvarjalcem iz KKS patentna zaščita na splošno 
+preveč zapletena (48 %) ter draga in neučinkovita (43 %). Poleg tega je bilo ugotovljeno, da je 
+vpliv patentiranja na podjetja iz KKS manj pomemben kot pri drugih pravicah IL (36 % v 
+primerjavi s 50 %). Po drugi strani pa visoki deleži » ne vem « za vsako trditev še enkrat 
+potrjujejo, da je v sektorju precejšnje pomanjkanje znanja o IL (IPIL G.I.E. et al., 2021).  
+  
+
+ 
+33 
+7. PRIMERJAVA STRATEŠKIH USMERITEV IZBRANIH 
+DRŽAV 
+V nadaljevanju predstavljamo kratko primerjavo strateških usmeritev v izbranih državah. 
+Iz predvidenega nabora držav (Singapur, Južna Koreja, Estonija, Nemčija, Finska, Slovaška, 
+Španija) v nadaljevanju predstavljamo primerjavo strateških usmeritev za tiste države, za katere 
+so strategije IL na voljo (Singapur, Južna Koreja, Finska).  
+Država SINGAPUR 
+Globalni inovacijski indeks (razvrstitev 
+2022) 
+7 od 132  
+Ali ima država veljaven strateški 
+dokument za pravice IL (naslov, 
+povezava ...)?   
+Da, Singapore IP Strategy 2030, https://www.ipos.gov.sg/docs/ 
+default-source/default-document-library/singapore-ip-strategy-
+report-2030-18May2021.pdf  
+Kdo je odgovoren za izvajanje 
+strategije? 
+Medagencijski usmerjevalni odbor SIPS 2030 (angl. »inter-agency«), 
+ki ga sestavlja več kot 10 vladnih agencij. 
+Kakšno je poslanstvo/vizija 
+strategije? 
+Okrepiti položaj Singapurja kot globalnega vozlišča za dejavnosti na 
+področju neopredmetenih sredstev (NS) in IL z namenom 
+izkoriščanja novih priložnosti ter ohranitve vodilnega položaja 
+Singapurja ter ohraniti vodilni položaj Singapurja kot sistema za 
+upravljanje z IL.. 
+Kateri so ključni cilji strategije? Glavna cilja: 
+1. Razviti Singapur kot globalno vozlišče za dejavnosti na področju 
+NS/IL 
+2. Ohraniti vodilni položaj z vidika upravljanja NS/IL z namenom 
+spodbujanja zaupanja vlagateljev in inovatorjev. 
+Trije povezani cilji: 
+1. Okrepiti položaj Singapurja kot globalnega vozlišča za NS/IL: 
+- Zagotoviti vodilni položaj z vidika upravljanja NS/IL. 
+- Pozicionirati Singapur kot vozlišče, ki predstavlja podporo 
+sporazumu ASEAN in se povezuje s svetom. 
+- Povečati obseg mednarodnega reševanja sporov na 
+področju IL v Singapurju. 
+2. Pritegniti in razvijati inovativna podjetja, ki uporabljajo NS/IL: 
+- Omogočiti podjetjem, da bolje izkoristijo NS/IL za rast. 
+- Razviti verodostojen in zanesljiv ekosistem vrednotenja 
+NS/IL. 
+3. Razviti kakovostna delovna mesta ter veščine na področju NS/IL: 
+- Ustvarjanje delovne sile z znanjem s področja NS/IL in baze 
+talentov na tem področju. 
+- Ustvarjanje dobrih zaposlitvenih možnosti za prebivalce 
+Singapurja. 
+- Krepitev mednarodnega ugleda Singapurja zaradi 
+kakovostnih znanj in spretnosti na področju NS/IL. 
+Ali so v strategiji določene 
+prednostne naloge za izvajanje? 
+Ne eksplicitno.  
+SIPS 2030 služi kot 10-letni načrt, ki bo usmerjal prizadevanja Urada 
+za intelektualno lastnino (IPOS) za izkoriščanje IL/NS in vzpostavitev 
+Singapurja kot globalno-azijskega vozlišča tehnologije, inovacij in 
+podjetij.  
+Ali strategija posebej poudarja 
+izobraževanje in ozaveščanje o 
+pravicah IL? 
+Da. 
+SIPS 2030 usmerja singapursko vlado pri tesnem sodelovanju z 
+industrijskimi partnerji za krepitev ozaveščenosti in kompetenc na 
+
+ 
+34 
+področju IL/NS, na primer s sodelovanjem v posameznih sektorjih in 
+tečaji usposabljanja. 
+SIPS 2030 priznava tudi pomen usposabljanja bodoče delovne sile 
+za razvoj dobrih delovnih mest in dragocenih veščin na področju 
+IL/NS. Delovna sila, ki pozna IL/NS, ima osnovno razumevanje zadev, 
+povezanih z IL/NS in je sposobna to znanje in veščine uporabiti pri 
+delu. Da bi to dosegli, so bili tečaji/programi IL/NS predstavljeni 
+študentom na visokošolskih ustanovah. 
+Ali si strategija posebej prizadeva 
+za spodbujanje kulture 
+spoštovanja IL in razumevanja 
+zakonodaje o IL? 
+Da. 
+Strategija vključuje spodbujanje močnega razumevanja zakonodaje 
+o intelektualni lastnini prek programov usposabljanja. 
+Ali strategija vključuje poseben 
+poudarek/ukrepe za 
+poenostavitev postopkov na 
+področju IL, pomoč pri 
+uveljavljanju in zagotavljanju virov 
+za MSP? 
+Da. 
+Prvi primer je nov sistem za arhiviranje in obdelavo IL IPOS DIgital 
+Hub (IDH), ki je bil predstavljen leta 2022. 
+Drugi primer je singapurski predlog zakona o IL (sprememba) iz leta 
+2021, ki je izboljšal poslovno prijaznost v postopkih registracije v 
+različnih vrstah intelektualne lastnine, ki jih je mogoče registrirati, in 
+izboljšal operativno učinkovitost IPOS.  
+Ali so v strategiji določeni merljivi 
+cilji in kazalniki za ocenjevanje 
+napredka? 
+Ne v sami strategiji. 
+Je pa usmerjevalni odbor SIPS 2030 določil interne mejnike in 
+kazalnike za spremljanje implementacije strategije. 
+Ali obstaja poseben usklajevalni 
+organ/mehanizem na področju pravic IL 
+(odgovoren za usklajevanje med 
+ministrstvi, zainteresiranimi stranmi, 
+ravnmi upravljanja itd.)? 
+Koordinacijo in implementacijo SIPS 2030 nadzira večagencijski 
+usmerjevalni odbor SIPS 2030. 
+Kateri so ključni dejavniki prispevka 
+politike pravic IL k večji konkurenčnosti 
+države? 
+Uspešen zagon SIPS 2030 lahko pripišemo: 
+- Aktivnemu sodelovanju in povratnim informacijam več kot 
+1000 deležnikov, 
+- Usklajevanju na ravni celotne vlade, 
+- Skupnemu sodelovanju med javnim in zasebnim sektorjem. 
+ 
+Država JUŽNA KOREJA 
+Globalni inovacijski indeks (razvrstitev 
+2022) 
+6 od 132 
+Ali ima država veljaven strateški 
+dokument za pravice IL (naslov, 
+povezava ...)?   
+“3rd Basic Plan for Intellectual Property (2022-2026)” 
+V skladu z zakonskim okvirjem za IL (IP Framework Act) vlada vsakih 
+pet let pripravi temeljni načrt (“basic plan” oz. “master plan”) za 
+intelektualno lastnino, v katerem določi srednje- do dolgoročne cilje 
+politike in osnovne usmeritve za področje intelektualne lastnine. 
+Trenutno je v veljavi Tretji temeljni načrt za intelektualno lastnino 
+(Third Basic Plan for Intellectual Property, 2022-2026).   
+Kdo je odgovoren za izvajanje 
+strategije? 
+Predsedniški svet za intelektualno lastnino (The Presidential Council 
+on Intellectual Property  - PCIP) 
+Kakšno je poslanstvo/vizija 
+strategije? 
+Vizija Tretjega temeljnega načrta za IL je postati vodilna država na 
+področju globalnih inovacij, ki temeljijo na IL.   
+Kateri so ključni cilji strategije? Tretji temeljni načrt za intelektualno lastnino (2022-2026) določa tri 
+cilje: 
+1. Zagotoviti konkurenčnost za ključno IL na nacionalnem 
+strateškem področju. 
+2. Ohraniti nacionalno rast, ki temelji na inovacijah na podlagi IL, in 
+spodbujati globalne skrite prvake. 
+3. Preprečevati kršitve pravic IL v digitalnem gospodarstvu in 
+krepitev zmogljivosti za zaščito IL. 
+
+ 
+35 
+In 5 temeljnih ukrepov: 
+1. Spodbujanje ustvarjanja in uporabe ključne IL v dobi digitalne 
+preobrazbe. 
+2. Izboljšanje strateškega sistema varstva IL. 
+3. Spodbujanje globalnih skritih prvakov, ki temeljijo na IL. 
+4. Spodbujanje K-vsebin za nov "korejski val". 
+5. Postavitev temeljev za vodilno državo na področju IL. 
+Ali so v strategiji določene 
+prednostne naloge za izvajanje? 
+Ne.  
+Ali strategija posebej poudarja 
+izobraževanje in ozaveščanje o 
+pravicah IL? 
+Tretji temeljni načrt za intelektualno lastnino vključuje naslednje 
+naloge, povezane z izobraževanjem in ozaveščanjem v obdobju 
+2022-2026: 
+Izobraževanje: 
+Naloga 3-1: Krepitev izobraževanja in svetovanja na področju IL za 
+spodbujanje podjetništva, ki temelji na IL. 
+Naloga 5-1:Razvijati talente in strokovno znanje na področju IL: 
+zagotavljanje izobraževanja na področju IL v osnovnih, srednjih in 
+visokih šolah za spodbujanje talentov na področju IL; 
+osredotočenost na potrebe univerzitetnih študentov, povezane s 
+področjem IL.  
+Ozaveščanje: 
+Naloga 5-4: Krepitev temeljev za širjenje zavedanja o vrednosti IL in 
+krepitev regionalne konkurenčnosti IL: vzpostavitev sistema 
+nagrajevanja s področja IL in širjenje ustreznih vrednot, obveščanje 
+javnosti o politikah IL in krepitev sodelovanja s povezanimi 
+agencijami. 
+Ali si strategija posebej prizadeva 
+za spodbujanje kulture 
+spoštovanja IL in razumevanja 
+zakonodaje o IL? 
+Tovrstne naloge v Tretjem nacionalnem temeljnem načrtu za 
+intelektualno lastnino so: 
+a. Povezane s kulturnim ustvarjanjem: 
+Naloga 4-3: Ustvarjanje okolja za širjenje K-vsebin. 
+Naloga 5-4: Krepitev temeljev za širjenje vrednosti IL in krepitev 
+regionalne konkurenčnosti IL: vzpostavitev sistema nagrajevanja s 
+področja IL in širjenje ustreznih vrednot, obveščanje javnosti o 
+politikah IL in krepitev sodelovanja s povezanimi agencijami. 
+b. Povezane z zakonodajo:  
+Naloga 1-3: Proaktivni pravni in institucionalni razvoj kot odziv na 
+spreminjajoče se digitalno okolje: ustvarjanje okolja za širjenje 
+uporabe novih tehnologij (npr. metaverse, umetna inteligenca …) ter 
+sistematičnega upravljanja in uporabe podatkovnih baz. 
+4-3: Ustvarjanje okolja za širjenje K-vsebin.: izboljšanje pravnega 
+sistema (avtorskega prava) za zaščito pravic ustvarjalcev kot temelja 
+za širjenje K-vsebin. 
+Ali strategija vključuje poseben 
+poudarek/ukrepe za 
+poenostavitev postopkov na 
+področju IL, pomoč pri 
+uveljavljanju in zagotavljanju virov 
+za MSP? 
+S tem povezane naloge v Tretjem temeljnem načrtu za intelektualno 
+lastnino so:  
+a. Poenostavitev postopkov IL: 
+Naloga 1-3: Proaktivni pravni in institucionalni razvoj kot odziv na 
+spreminjajoče se digitalno okolje: vzpostavitev sistema za 
+spremljanje konvergenčnih tehnologij z namenom priprave 
+pravnega sistema v smislu odziva na spremembe v digitalnem 
+okolju. 
+b. Podpora izvajanju: 
+Naloga 2-1: Krepitev strateškega varstva IL nacionalnih ključnih 
+tehnologij: krepitev preiskav o kršenju varstva IL. 
+Naloga 2-2: Krepitev domačih in mednarodnih sistemov za 
+preprečevanje kršitev pravic IL: krepitev preprečevanja kršitev pravic 
+
+ 
+36 
+IL v J. Koreji; krepitev preprečevanja kršitev pravic IL v tujini; 
+odzivanje na spore. 
+c. Ukrepi za MSP: 
+Naloga 2-2: Krepitev domačih in mednarodnih sistemov za 
+preprečevanje kršitev pravic IL: krepitev sposobnosti MSP in podjetij, 
+ki so izpostavljena večjim tveganjem, za odzivanje na mednarodne 
+patentne spore ter spodbujanje poštenega trgovanja z IL med 
+velikimi in MSP-ji.  
+Naloga 3-1: Spodbujanje inovativnih zagonskih podjetij, ki temeljijo 
+na IL: promocija, podpora zagonskim podjetjem, ki temeljijo na IL, 
+pri komercializaciji ustvarjalnih idej; izobraževanje in svetovanje na 
+področju IL za spodbujanje podjetij, ki temeljijo na IL. 
+Naloga 3-2: Širitev finančne podpore za MSP: širitev podpore za 
+financiranje naložb in posojil za MSP ter vzpostavitev infrastrukture 
+za širitev posojil in naložb v IL. 
+Naloga 3-3: Spodbujanje globalne širitve MSP, ki temeljijo na IL: 
+podpora MSP, za pridobivanje pravice do uporabe tuje IL; 
+sodelovanje pri preverjanju intelektualne lastnine in usklajevanju 
+sistemov med državami za internacionalizacijo MSP. 
+Ali so v strategiji določeni merljivi 
+cilji in kazalniki za ocenjevanje 
+napredka? 
+Za vsako strategijo so predstavljene podrobne naloge in kazalniki 
+uspešnosti, za vsako nalogo pa je predstavljen časovni načrt 
+izvajanja. 
+Na podlagi temeljnega načrta se vsako leto (marca vsako leto) 
+pripravi izvedbeni načrt povezanih ministrstev in lokalnih oblasti, 
+preveri/oceni se dejanska uspešnost izvajanja v preteklem letu, 
+rezultati pa se odrazijo v usmeritvah za dodeljevanje sredstev za IL v 
+naslednjem letu. 
+Ali obstaja poseben usklajevalni 
+organ/mehanizem na področju pravic IL 
+(odgovoren za usklajevanje med 
+ministrstvi, zainteresiranimi stranmi, 
+ravnmi upravljanja itd.)? 
+Predsedniški svet za intelektualno lastnino (Presidential Councill on 
+Intellectual Property) 
+Nacionalni odbor za intelektualno lastnino (The National Intellectual 
+Property Committee) 
+Nacionalni odbor za intelektualno lastnino pregleduje in potrjuje 
+nacionalne izvedbene načrte za intelektualno lastnino s sintezo 
+izvedbenih načrtov relevantnih osrednjih administrativnih agencij in 
+metropolitanskih lokalnih oblasti. 
+Kateri so ključni dejavniki prispevka 
+politike pravic IL k večji konkurenčnosti 
+države? 
+• Močna podpora na najvišji politični ravni (The Presidential 
+Council on Intellectual Property) 
+• Povečanje gospodarskega učinka širjenja kulture 
+korejskega vala. 
+• Krepitev svoje konkurenčnosti z varovanjem IL. 
+Vzpostavitev politik za krepitev zaščite IL v vseh panogah. 
+ 
+Država FINSKA 
+Globalni inovacijski indeks (razvrstitev 
+2022) 
+9 od 132  
+Ali ima država veljaven strateški 
+dokument za pravice IL (naslov, 
+povezava ...)?   
+Da, “Government resolution on the national intellectual property 
+rights strategy” iz leta 2022, https://julkaisut.valtioneuvosto.fi/ 
+bitstream/handle/10024/164520/VN_2023_79.pdf?sequence=1 
+&isAllowed=y 
+Kdo je odgovoren za izvajanje 
+strategije? 
+Za izvajanje resolucije je odgovornih več ministrstev, agencij in 
+drugih deležnikov. Ministrstvo za gospodarstvo in zaposlovanje je 
+glavni koordinator izvajanja resolucije, pri različnih vidikih pa 
+sodelujejo tudi ministrstvo za izobraževanje in kulturo, ministrstvo za 
+pravosodje, ministrstvo za socialne zadeve in zdravje ter ministrstvo 
+
+ 
+37 
+za kmetijstvo in gozdarstvo. Finski urad za intelektualno lastnino, 
+javna agencija za spodbujanje investicij in trgovine, financiranje 
+inovacij in privabljanje talentov Business Finland, finski inovacijski 
+sklad Sitra in Finska akademija so nekatere od ključnih agencij, ki 
+podpirajo izvajanje resolucije. Poleg tega resolucija spodbuja 
+sodelovanje in dialog med različnimi akterji v javnem in zasebnem 
+sektorju, kot so univerze, raziskovalni inštituti, podjetja, združenja in 
+organizacije civilne družbe. 
+Kakšno je poslanstvo/vizija 
+strategije? 
+Do leta 2030 bo imela Finska učinkovito okolje za upravljanje pravic 
+IL, ki bo podpiralo inovacije in ustvarjalno delo, kar bo povečalo 
+gospodarsko blaginjo in konkurenčnost z upoštevanjem 
+uresničevanja temeljnih pravic in različnih družbenih interesov na 
+raznolik način. 
+Kateri so ključni cilji strategije? Glavni cilj: 
+- Finska se bo z razvojem raziskovalnega in inovacijskega okolja 
+ter naraščanjem materialnih in nematerialnih naložb močno 
+razvila. 
+Podcilji, ki podpirajo uresničitev vizije: 
+- Finski akterji imajo močno strokovno znanje in izkušnje na 
+področju pravic intelektualne lastnine,  
+- na Finskem se ustvarjajo in tržijo inovacije svetovnega razreda,  
+- IL je sestavni del političnega odločanja,  
+- Finska ima delujoč in konkurenčen sistem pravic IL, 
+Finska spodbuja razvoj sistema in ureditev pravic IL v EU in na 
+mednarodni ravni. 
+Ali so v strategiji določene 
+prednostne naloge za izvajanje? 
+Ne. Je pa v strategiji opredeljenih 15 ukrepov, ki so usmerjeni v 
+uresničevanje zastavljenih ciljev. 
+Ali strategija posebej poudarja 
+izobraževanje in ozaveščanje o 
+pravicah IL? 
+Da, več ukrepov v strategiji je namreč povezanih z izobraževanjem in 
+ozaveščanjem o pravicah IL, kot npr.: 
+- Krepitev aktivnosti svetovanja o pravicah IL in dostopa do 
+informacij za mala in srednja podjetja: pri tem mentorska shema 
+za IL predstavlja odziv na želje malih in srednjih podjetij po 
+boljši informiranosti in nasvetih o identifikaciji celotnega 
+potenciala IL podjetja, upravljanju in uporabi IL ter 
+prepoznavanju možnosti financiranja. 
+- Krepitev vloge Univerzitetnega centra za pravice intelektualne 
+lastnine (IPRUC) kot izvajalca usposabljanja o pravicah IL: cilj je, 
+da IPRUC zagotovi obsežnejša usposabljanja, pripravi analitične 
+informacije in diseminira aktualne informacije o IL v skladu s 
+potrebami  podjetij, javnih organov, sodišč in izobraževalnega 
+sektorja. IPRUC se bo osredotočil tudi na specifična 
+usposabljanja za novoustanovljena podjetja. 
+- Povečanje usposobljenosti javnega sektorja z vidika pravic IL z 
+zagotavljanjem ustreznega izobraževanja in usposabljanja na 
+nacionalni in lokalni ravni, pa tudi glede pomena pravic IL – vsa 
+ministrstva bi namreč morala prepoznati pomen pravic IL za 
+podjetja in družbo kot celoto. 
+Ali si strategija posebej prizadeva 
+za spodbujanje kulture 
+spoštovanja IL in razumevanja 
+zakonodaje o IL? 
+Do neke mere da. Namreč, eden od ukrepov v strategiji je namenjen 
+»razvoju statistike v zvezi z določanjem vrednosti pravic IL ter 
+izboljšanju razpoložljivosti in uporabnosti obstoječih podatkov«: za 
+razumevanje družbenega pomena pravic IL je nujno razviti njihovo 
+statistiko ter izboljšati razpoložljivost in uporabnost obstoječih 
+nacionalnih in evropskih podatkovnih baz. Poleg tega je cilj enega 
+od ukrepov spodbujati nadaljnjo obdelavo in komercializacijo 
+rezultatov raziskav, ustvarjenih v odprtih in skupnih raziskavah, ter 
+zagotavljati širšo obravnavo vprašanj, povezanih s pravicami IL. 
+Pomembno je upoštevati ne le krepitev usposobljenosti, temveč tudi 
+
+ 
+38 
+druge izzive, povezane z uporabo pravic IL v raziskovalnih 
+organizacijah, kot so različne prakse v zvezi s prenosom pravic IL, ki 
+nastanejo pri skupnih raziskovalnih naporih različnih visokošolskih in 
+raziskovalnih ustanov, ter pomanjkanje ozaveščenosti institucij in 
+raziskovalcev o procesih pravic IL v raziskovalnih organizacijah. 
+Ali strategija vključuje poseben 
+poudarek/ukrepe za 
+poenostavitev postopkov na 
+področju IL, pomoč pri 
+uveljavljanju in zagotavljanju virov 
+za MSP? 
+Da, eden od ukrepov v strategiji je namenjen krepitvi aktivnosti 
+svetovanja o pravicah IL in dostopa do informacij za mala in srednja 
+podjetja: pri tem mentorska shema za IL predstavlja odziv na želje 
+malih in srednjih podjetij po boljši informiranosti in nasvetih o 
+identifikaciji celotnega potenciala IL podjetja, upravljanju in uporabi 
+IL ter prepoznavanju možnosti financiranja.  
+Prav tako je v kontekstu poenostavitve specifičen ukrep namenjen 
+izvedbi celovite reforme patentne zakonodaje, ki bo med drugim 
+omogočila razvoj e-storitev. 
+Ali so v strategiji določeni merljivi 
+cilji in kazalniki za ocenjevanje 
+napredka? 
+Ne. 
+Ali obstaja poseben usklajevalni 
+organ/mehanizem na področju pravic IL 
+(odgovoren za usklajevanje med 
+ministrstvi, zainteresiranimi stranmi, 
+ravnmi upravljanja itd.)? 
+Ministrstvo za gospodarstvo in zaposlovanje je ustanovilo 
+usmerjevalno skupino za podporo pripravi strategije IL in projektno 
+skupino za njeno podporo. Ministrstvo za gospodarstvo in 
+zaposlovanje naj bi tudi ustanovilo posebno usmerjevalno skupino 
+za usmerjanje in koordinacijo izvajanja strategije, ki bo vsakih šest 
+mesecev poročala ministrski delovni skupini za kompetence, 
+izobraževanje, kulturo in inovacije. 
+Kateri so ključni dejavniki prispevka 
+politike pravic IL k večji konkurenčnosti 
+države? 
+Skladno s strategijo imajo raziskovalne, razvojne in inovacijske 
+dejavnosti ključno vlogo pri konkurenčnosti Finske. Vladni cilj je do 
+leta 2030 povečati delež finskih izdatkov za raziskave in razvoj s 
+sedanjih 2,7 % na 4 % BDP. V tem kontekstu je zelo pomembna 
+skupna usmeritev ustvarjanja pogojev in krepitve razvijanja vrednosti 
+pravic IL v smeri komercializacije ter ustvarjanja industrijskih inovacij 
+podjetij in visokošolskih/raziskovalnih institucij v industrijskem 
+obsegu na mednarodnem trgu. Kot je navedeno v strategiji, pravice 
+IL spodbujajo inovativnost in ustvarjalno delo ter spodbujajo 
+uporabo inovacij v družbi. Zato so pomemben del inovacijske 
+politike, katere cilj je ustvariti takšne razmere, ki podjetja spodbujajo 
+k inoviranju, nenehnim izboljšavam in mednarodni rasti. Pravice IL so 
+tudi hrbtenica kreativnih industrij in igrajo ključno vlogo pri 
+doseganju ciljev umetniške in kulturne politike, kot sta npr. 
+spodbujanje delovanja umetnikov in raznovrstna dostopnost 
+ustvarjalnih vsebin v družbi. Pravice IL so povezane tudi z 
+izkoriščanjem podatkov, ki dandanes predstavlja sestavni del 
+poslovanja, raziskav in delovanja javne uprave. 
+Skratka, ključni dejavniki uspeha politike pravic IL na Finskem so 
+močna politična podpora, intenzivno sodelovanje in dialog med 
+različnimi deležniki v javnem in zasebnem sektorju ter široko 
+priznavanje pomena pravic IL kot gonila inovacij in ustvarjalnosti. 
+Za primerjavo: Slovenija je bila v letu 2022 po GII uvrščena na 33. mesto med 132 državami, 
+trenutno še nima strateškega dokumenta za pravice IL – je pa v pripravi izdelava strategije za 
+to področje , kot usklajevaln i organ pa skrbi Medresorska delovna skupina, ki jo je vlada 
+ustanovila leta 2022 in jo vodi državni sekretar na Ministrstvu za gospodarstvo, turizem in šport. 
+Sicer pa večina držav nima posebnega strateškega dokumenta za področje IL. Nekatere države 
+to po dročje ustrezno umeščajo znotraj različnih drugih strategij (sektorske, inovacijske 
+strategije …), nekatere pa k področju pristopajo strateško , kljub temu, da nimajo posebnega 
+
+ 
+39 
+strateškega dokumenta. Oblikovanje nacionalne strategije je kljub temu pomembno predvsem 
+z vidika vključevanja različnih institucij, agencij in drugih deležnikov v proces, s čimer se 
+izboljšajo tudi njihova ozaveščenost, sodelovanje in zavezanost kot tudi kasneje izvajanje. 
+Strategije IL v različnih državah so si sicer na prvi pogled pogosto podobne, pri čemer pa se, 
+predvsem zaradi različne stopnje gospodarske razvitosti, pomembno razlikujejo podrobnejši 
+ukrepi. Uspešnost nacionalnih strategij IL ovirajo predvsem: 
+- pomanjkljiva implementacija (pogosto zaradi pomanjkanja jasne odgovornosti), 
+- pomanjkanje ustreznega sistema vrednotenja in kazalnikov za spremljanje napredka in 
+učinka, 
+- postavljanje nerealnih ali premalo selektivnih ciljev (nejasne prioritete). 
+Dobra strategija ni nujno tista, ki je videti dobro na papirju, ampak predvsem tista, ki resnično 
+odraža nacionalno politično, gospodarsko in institucionalno realnost55. Pri tem je nujno redno 
+spremljanje in vrednotenje strategije . Zato je pomembno, da bo sistem ključnih kazalnikov 
+uspešnosti vključen tudi v slovensko strategijo IL , čeprav naše ugotovitve pravzaprav kažejo, 
+da strateški dokumenti drugih držav tega pogosto nimajo. 
+Kot vrhunske države na področju strateškega upravljanja IL se pogosto izpostavljajo predvsem 
+nekatere azijske države, pri katerih navdih iščejo tudi druge države. Pri tem pa je pri prenosu v 
+evropski kontekst potrebna previdnost, saj razvoj zakonodaje na področju IL v Aziji poganjajo 
+tehnokrati na ministrstvih za trgovino ali industrijo ter uradih za IL, ki so pogosto pod pritiskom 
+posebnih interesnih in lobističnih skupin. Posledica tega je, da so posamezne problematike 
+različno urejene v različnih zakonih o IL, pri čemer je javni interes pogosto žrtvovan. Pravice IL 
+pretehtajo nad drugimi pravicami, včasih celo nad osnovnimi človeškimi pravicami ter 
+pravicami potrošnikov (Liu, Zheng, 2020). 
+  
+ 
+55 https://www.technopolis-group.com/the-current-wave-of-national-ip-strategies/ 
+
+ 
+40 
+8. ANALIZA SWOT 
+Informacije, zbrane v prejšnjih poglavjih s pomočjo  analize obstoječih podatkov in gradiv ter 
+intervjujev z deležniki, služijo kot podlaga za pripravo analize SWOT (prednosti, slabosti, 
+priložnosti in nevarnosti) za področje IL v Sloveniji. Pri pripravi analize SWOT ugotavljamo 
+predvsem pomanjkanje podatkov in analiz, ki bi omogočile podrobnejši vpogled v stanje na 
+področju IL. Analiza SWOT se običajno uporablja v zgodnjih fazah načrtovanja (npr. projekta, 
+strategije) in njen namen je pomagati oceniti realno stanje s stališča konkurenčnosti in 
+sprememb v poslovnem okolju, s katerimi se bo treba spoprijeti v prihodnosti. Zagotovi lahko 
+okvir za opredelitev in analizo prednosti, slabosti, priložnosti in nevarnosti ter na podlagi tega 
+omogoča razvoj ustreznih strategij in politik. 
+Pri pripravi analize SWOT smo sledili naslednjim stebrom javne politike podpore področju IL 
+(Kavaš, Murovec, 2023): 
+• Splošni pogoji poslovanja. 
+• Trg (povpraševanje na trgu). 
+• Kompetence in usposabljanja. 
+• Financiranje. 
+• Internacionalizacija. 
+• Infrastruktura. 
+• Ozaveščenost in promocija. 
+• Podporne politike (strategije, programi). 
+PREDNOSTI SLABOSTI 
+Splošni pogoji poslovanja 
+Relativno dobro delujoč sistem podpore upravljanja IL. Relativno malo je primerov sodnega varstva s področja 
+IL, kar ima za posledico, da obstaja nezadostna pravna 
+praksa in posamezni sodniki ne poznajo ustrezno 
+dobro področja IL. 
+ IL v Sloveniji ni prepoznana kot premoženje podjetja, ki 
+bi lahko bilo uporabljeno kot zavarovanje (npr. za 
+pridobitev posojila).  
+ Odsotnost splošno sprejetih standardov vrednotenja IL. 
+Infrastruktura 
+URSIL – poseben urad kot osrednja institucija v Sloveniji 
+na področju izvajanja strokovnih in upravnih nalog 
+varstva IL. 
+Razdrobljen podjetniško-inovacijski ekosistem (veliko 
+število podpornih organizacij, nejasna vloga in razmerja 
+med posameznimi organizacijami, omejene 
+kompetence s področja IL). 
+Delujoče pisarne za prenos tehnologij. Storitve varovanja IL so uporabniku pogosto premalo 
+prijazne (potreba po poenostavitvah in nadaljnji 
+digitalizaciji). 
+Ozaveščenost in promocija 
+Okrepljene komunikacijske aktivnosti ozaveščanja o 
+pomenu IL v zadnjih letih (UIRLS, pisarne za prenos 
+tehnologije). 
+Šibko zavedanje pomena IL v gospodarstvu in javnem 
+sektorju. 
+ Pomanjkljiva ozaveščenost in omejeno spoštovanje 
+pravic IL v splošni javnosti (raziskava EUIPO, opravljena 
+
+ 
+41 
+v letu 2023, je pokazala, da je ozaveščenost o IL v 
+Sloveniji slabša od povprečja EU). 
+Podporne politike (strategije, programi) 
+ Odsotnost strateških usmeritev, potrebnih za razvoj 
+politik na področju IL, ter jasnih stališč že v času 
+priprave sprememb ureditev na ravni EU. 
+ Pomanjkanje informacij, ki bi omogočile podrobnejšo 
+analizo in spremljanje stanja na področju IL (npr. 
+ozaveščenost različnih javnosti o IL, poznavanje pravic 
+IL, ovire za potencialne prijavitelje, stroški in koristi 
+pravic IL, strategije upravljanja z IL v podjetjih, analiza 
+tržne uspešnosti patentov, analiza vzrokov (negativnih) 
+trendov na področju IL, vrednotenje uspešnosti 
+podpornih ukrepov ministrstev …). 
+ Različni pogledi deležnikov na u reditev pravic IL, 
+predvsem na področju avtorskih pravic. 
+Kompetence in usposabljanja 
+ Neustrezna vključenost področja IL v kurikulum na 
+različnih stopnjah izobraževanja. Primanjkuje tudi 
+strokovnih izobraževanj s področja IL v slovenskem 
+jeziku.  
+ Pomanjkanje ustreznih kompetenc s področja IL v 
+gospodarstvu in javnem sektorju. 
+Internacionalizacija 
+Močna vpetost URSIL v mednarodno okolje (članstvo v 
+organizacijah oziroma agencijah: OECD, WIPO, EUIPO, 
+EPO) omogoča enostavno mreženje v strokovnih 
+skupinah za varstvo IL (izmenjava znanj, izkušenj) 
+ 
+Trg (povpraševanje na trgu) 
+Obstoj slovenskih podjetij, ki konkurenčnost temeljijo 
+tudi na IL.  
+Prenizka inovativnost slovenskega gospodarstva. 
+V Sloveniji je v panogah, ki intenzivno uporabljajo 
+pravice IL, število zaposlenih pa tudi prispevek v BDP 
+nad povprečjem EU. 
+V Sloveniji izredno majhen delež malih in srednje 
+velikih podjetij (MSP) varuje in upravlja s pravicami IL. 
+Zaradi omejenih virov imajo MSP težave pri 
+uveljavljanju pravic IL. To je še posebej značilno za KKS. 
+Financiranje 
+Cenovna dostopnost pridobitve pravic IL (v primerjavi z 
+drugimi državami). 
+Davčnih spodbud oziroma podpor za varovanje pravic 
+IL (poslovni subjekti) je relativno malo. 
+PRILOŽNOSTI NEVARNOSTI 
+Povečevanja pomena IL v gospodarstvu, raziskovalnem 
+sektorju in v izobraževalnem sistemu. 
+Upad gospodarske rasti, kar ima lahko za posledico 
+nižja proračunska sredstva za delovanje URSIL-a in nižja 
+javna sredstva za spodbujanje inovativnosti v 
+poslovnem sektorju. 
+Povečano povpraševanje po kreativnih produktih, kar 
+spodbuja kreativnost, inovativnost in upravljanje IL. 
+Neurejanje pravic IL v povezavi z novimi in 
+nastajajočimi tehnologijami (npr. umetna inteligenca, 
+tehnologije, povezane z metaverzumom, tehnologije 
+razpršene evidence) zaradi hitrega tehnološkega 
+razvoja in globalnega tekmovanja. 
+Mednarodno sodelovanje na področju upravljanja IL 
+(EU, globalno sodelovanje, sodelovanje med patentnimi 
+uradi). 
+Huda mednarodna konkurenca na trgu, ki se še krepi. 
+Uporaba novih tehnologij (npr. umetne inteligence) za 
+lažje upravljanje IL ter za izboljšanje učinkovitosti 
+odkrivanja kršitev pravic IL. 
+Nadaljevanje padanja inovativnosti in konkurenčnosti 
+Slovenije. 
+  
+
+ 
+42 
+9. ZAKLJUČEK 
+Glavne ugotovitve analize so naslednje: 
+- V Sloveniji imamo relativno dobro delujoč sistem podpore upravljanja IL. Računsko 
+sodišče v reviziji Patentno varstvo v Republiki Sloveniji ugotavlja, da odgovorno 
+ministrstvo področju IL ni namenjalo dovolj pozornosti.   
+- Statistični podatki s področja IL v Sloveniji ne kažejo spodbudnih trendov , kar še 
+posebej velja na n ekatere pravice IL, kjer smo v zadnjih letih priča trendu upadanja 
+števila prijav znamk in modelov . Svetlo izjemo predstavlja število prijav znamk EU s 
+strani slovenskih prijaviteljev, ki znatno narašča. Podatki Evropskega patentnega urada 
+o patentnih prijavah na milijon prebivalcev pri Evropskem patentnem uradu kažejo, da 
+Slovenija zaostaja za večino razvitih evropskih držav. 
+- Slovenija mednarodno zaostaja pri inovacijskih indeksih/kazalnikih (npr. Globalni 
+inovacijski indeks; Evropski sistem inovacijskih kazalnikov). 
+- Razdrobljen podjetniško -inovacijski ekosistem (veliko število podpornih organizacij, 
+nejasna vloga in razmerja med posameznimi organizacijami, omejene kompetence s 
+področja IL). 
+- V Sloveniji obstoji razkorak med strukturo gospodarstva in zaščito pravic IL. Slovenija 
+je v obdobju 2017 –2019 po deležu BDP in zaposlitev, ki ga ustvarjajo patentno 
+intenzivne panoge, z 22,5 % deležem BDP ter 15 % deležem zaposlitev precej presegala 
+povprečje EU-27 (17,4 % BDP, 11 % zaposlitev). Prav tako je v istem obdobju Slovenija 
+nekoliko presegala povprečje EU-27 po deležu BDP (za 1 odstotno točko) in zaposlitev 
+(za 2 odstotni točki), ki ga ustvarjajo panoge, intenzivne po zaščitenih znamkah (EPO, 
+EUIPO, 2022). 
+- Šibko zavedanje pomena IL v gospodarstvu in javnem sektorju. Predvsem so 
+problematična mala in srednje velika podjetja (MSP) , še posebej mikropodjetja. Zelo 
+majhen delež majhnih in srednjih podjetij upravlja  s pravicami IL. V primerjavi z 
+majhnimi in srednje velikimi podjetji so deleži upravljanja s pravicami IL v velikih 
+podjetjih v povprečju tri do štirikrat višji. Podjetja so od vseh kategorij IL v največjih 
+deležih uporabila poslovno skrivnost (4  %, 6 % in 15 % vseh malih, srednjih in velikih 
+podjetij). V majhnih in srednje velikih podjetjih večinoma ni vzpostavljene 
+organizacijske infrastrukture, ki bi se ciljno ukvarjala s pripravo, zaščito in trženjem 
+intelektualne lastnine.  Kljub slabši splošni sliki so nekatera slovenska podjetja zelo 
+uspešna pri uresničevanju svojih poslovnih idej s pomočjo pravic IL.  
+- IL v Sloveniji praviloma ni prepoznana kot premoženje podjetja, ki bi lahko bilo 
+uporabljeno kot zavarovanje (npr. za pridobitev posojila), izjema so znamke. Eden od 
+razlogov je odsotnost splošn o sprejetih standardov vrednotenja IL. Ustrezno 
+vrednotenje IL bi spodbudilo tako dolžniško kot tudi lastniško financiranje. 
+- V slovenskem kulturnem in kreativnem sektorju (KKS) predstavlja  varstvo IL težavo za 
+ustvarjalce, saj jim  na tem področju pogosto p rimanjkuje znanj in tudi sredstev za 
+
+ 
+43 
+reševanje sporov, medtem ko pri drugih akterjih in tudi v splošni javnosti primanjkuje 
+ozaveščenosti in spoštovanja teh pravic. Uspešen razvoj in dober izdelek ali storitev na 
+trgu še ne pomenita odločilne prednosti pre d konkurenco, če nista tudi ustrezno  
+varovana in če nismo sposobni uveljavljati pridobljene pravice IL. Na področju KKS se 
+kot pomembna težava kaže tudi majhnost oziroma odsotnost ustreznih vmesnih 
+specializiranih akterjev v verigi vrednosti, ki bi profesionalno upravljali tudi pravice IL. 
+- Pomanjkanje ustreznih kompetenc s področja IL v gospodarstvu in javnem sektorju. 
+- Področje upravljanja IL urejajo številni mednarodni in strateški dokumenti, vendar v 
+Sloveniji nimamo nacionalne strategije upravljanja IL.  
+- Pomanjkljiva ozaveščenost in omejeno spoštovanje pravic IL v splošni javnosti  (npr. 
+uporaba ponaredkov in  dostopanje do digitalnih vsebin iz nezakonitih virov) , v 
+gospodarstvu in v javnem sektorju. 
+- Davčnih spodbud oziroma podpor za varovanje pravic IL (poslovni subjekti) je relativno 
+malo. Gospodarske družbe lažje pridobijo in uveljavijo davčne olajšave za investiranje 
+v opremo, zaposlovanje invalidov, donacije ipd. kot pa za RRD. 
+- Pomanjkanje podatkov in raziskav, ki bi omogočile podrobnejšo analizo in spremljanje 
+stanja na področju upravljanja IL v Sloveniji ( npr. ozaveščenost različnih javnosti o IL, 
+poznavanje pravic IL, ovire za potencialne prijavitelje, stroški in koristi pravic IL, 
+strategije upravljanja z IL v podjetjih, analiza tržne uspešnosti patentov, analiza vzrokov 
+(negativnih) trendov na področju IL, vrednotenje uspešnosti podpornih ukrepov 
+ministrstev …).   
+- Odsotnost vsebin s področja IL na vseh ravneh šolanja (za namen ozaveščanja) ter tudi 
+v visokošolskem izobraževanju  (strokovna znanja) . Tako imajo le nekatere fakultete 
+obvezne predmete, ki vključujejo področje IL (Evropska pravna fakulteta, Fakulteta za 
+farmacijo), nekatere fakultete imajo izbirne predmete (npr. Pravna fakulteta v Ljubljani  
+in v Mariboru; Katoliški inštitut: Fakulteta za pravo in poslovne vede; MLC Fakulteta za 
+management in pravo Ljubljana).  Primanjkuje tudi strokovnih izobraževanj s področja 
+IL v slovenskem jeziku. 
+- Različni pogledi deležnikov na urejanje pravic IL, predvsem na področju avtorske 
+pravice. 
+- Urejanje pravic IL v povezavi z novimi in nastajajočimi tehnologijami (npr. umetna 
+inteligenca, tehnologije, povezane z metaverzumom, tehnologije razpršene evidence) 
+zaradi hitrega tehnološkega razvoja in globalnega tekmovanja predstavlja velik izziv. 
+- Večina držav nima posebnega strateškega dokumenta za področje IL. Nekatere države 
+to področje ustrezno umeščajo znotraj različnih drugih strategij (sektorske, inovacijske 
+strategije, industrijske strategije …), nekatere pa k področju pristopajo strateško, klju b 
+temu, da nimajo posebnega strateškega dokumenta.  Uspešnost nacionalnih strategij 
+upravljanja IL ovirajo predvsem pomanjkljiva implementacija (pogosto zaradi 
+pomanjkanja jasne odgovornosti), pomanjkanje ustreznega sistema vrednotenja in 
+kazalnikov za spre mljanje napredka in učinka ter postavljanje nerealnih ali premalo 
+selektivnih ciljev (nejasne prioritete).  
+
+ 
+44 
+10. LITERATURA IN VIRI  
+1. Akcijski načrt za odprto znanost za izvedbo Ukrepa 6.2: Odprta znanost za izboljšanje 
+kakovosti, učinkovitosti in odzivnosti raziskav: Dostopno na: https://www.gov.si/assets/ 
+ministrstva/MVZI/Znanost/Dokumenti/AN_VG_5.docx. 
+2. Appel, G., Neelbauer, J.,  Schweidel, D. A. 2023. Generative AI Has an Intellectual Property 
+Problem. Harvard Business Review. Dostopno na: https://hbr.org/2023/04/generative-ai-
+has-an-intellectual-property-problem. 
+3. Aragon, 2022. Izvedba raziskave s področja intelektualne lastnine med MSP. Interno 
+gradivo URSIL. 
+4. Bogataj Jančič, M. 2021. Ali je lahko umetna inteligenca avtor avtorskega dela? V “Pravo 
+in umetna inteligenca: vprašanja etike, človekovih pravic in družbene škode”, Inštitut za 
+kriminologijo pri PF v Ljubljani. 
+5. Digitalna Slovenija 2030. Dostopno na: https://www.gov.si/assets/ministrstva/MDP/ 
+Dokumenti/Digitalna-Slovenija-2030.pdf. 
+6. Drobež, E., & Teppey, M., 2022. Analiza stanja na področju uveljavljanja pravic 
+intelektualne lastnine v Republiki Sloveniji v letu 2021. Dostopno na: https://www.gov.si/ 
+novice/2022-06-17-predstavitev-analize-kljucnih-odlocitev-slovenskih-sodisc-na-
+podrocju-intelektualne-lastnine/. 
+7. Erjavec, K. 2022. Sodelovanje slovenskih pridelovalcev v shemi kakovosti. V Izzivi 
+globalizacije in družbeno-ekonomsko okolje EU: zbornik prispevkov: 11 mednarodna 
+znanstvena konferenca. Dostopno na: https://www.zalozba-unm.si/index.php/press/ 
+catalog/book/34. 
+8. EUIPO (European Union Intellectual Property Office). 2023. European Citizens and IP: 
+Perception, Awareness and Behaviour 2023. Dostopno na: https://euipo.europa.eu/ 
+tunnel-web/secure/webdav/guest/document_library/observatory/documents/reports/ 
+2023_IP_Perception_Study/2023_IP_Perception_Study_FullR_en.pdf. 
+9. EUIPO (European Union Intellectual Property Office). Strategic plan 2025. Dostopno na: 
+https://euipo.europa.eu/tunnel-web/secure/webdav/guest/document_library/ 
+contentPdfs/about_euipo/strategic_plan/SP2025_en.pdf. 
+10. European Innovation Scoreboard. Dostopno na: https://ec.europa.eu/info/research-and-
+innovation/statistics/performance-indicators/european-innovation-scoreboard_sl. 
+11. Evropska komisija: 2022 Country Report – Slovenia. Dostopno na: 
+https://commission.europa.eu/system/files/2022-05/2022-european-semester-country-
+report-slovenia_en.pdf. 
+12. Evropska komisija: Akcijski načrt za pravice intelektualne lastnine v podporo okrevanju in 
+odpornosti EU. Dostopno na:  https://eur-lex.europa.eu/legal-content/SL/TXT/PDF/ 
+?uri=CELEX:52020DC0760&from=EN.  
+13. Evropska komisija: DG Grow Strategic Plan 2020–2024. Dostopno na: 
+https://commission.europa.eu/document/download/7f80bcdb-fd01-4f59-af34-
+45fd8d205330_en?filename=grow_sp_2020_2024_en.pdf. 
+
+ 
+45 
+14. Evropska komisija: DG Research and Innovation Strategic plan 2022–2024. Dostopno na: 
+https://commission.europa.eu/system/files/2020-11/rtd_sp_2020_2024_en.pdf. 
+15. Evropska komisija: European Research Area Policy Agenda. Dostopno na: 
+https://research-and-innovation.ec.europa.eu/system/files/2021-11/ec_rtd_era-policy-
+agenda-2021.pdf. 
+16. Evropska komisija: The New Industrial Strategy for Europe. Dostopno na: 
+https://www.ceps.eu/wp-content/uploads/2022/01/Prospectus-CEPS-Forum-on-the-New-
+Industrial-Strategy-for-Europe.pdf. 
+17. Evropska komisija: Umetna inteligenca za Evropo. Dostopno na: https://eur-lex.europa.eu/ 
+legal-content/SL/TXT/PDF/?uri=CELEX:52018DC0237. 
+18. Evropska strategija za podatke. Dostopno na: https://eur-lex.europa.eu/legal-content/EN/ 
+TXT/?uri=CELEX%3A52020DC0066. 
+19. Evropski patentni urad (European Patent Office – EPO), Urad Evropske unije za 
+intelektualno lastnino (European Union Intellectual Property Office - EUIPO). 2022. IPR-
+intensive industries and economic performance in the European Union. Dostopno na: 
+https://euipo.europa.eu/tunnel-web/secure/webdav/guest/document_library/ 
+observatory/documents/reports/IPR-intensive_industries_and_ 
+economic_in_EU_2022/2022_IPR_Intensive_Industries_FullR_en.pdf. 
+20. Evropski patentni urad (European Patent Office – EPO), Urad Evropske unije za 
+intelektualno lastnino (European Union Intellectual Property Office - EUIPO). 2021. 
+Intellectual property rights and firm performance in the European Union: Firm-level 
+analysis report. Dostopno na: https://euipo.europa.eu/tunnel-web/secure/webdav/guest/ 
+document_library/observatory/documents/reports/IPContributionStudy/IPR_firm_perform
+ance_in_EU/2021_IP_Rights_and_firm_performance_in_the_EU_en.pdf. 
+21. Evropski patentni urad (European Patent Office - EPO). Statistics & Trends Centre. 
+Dostopno na: https://new.epo.org/en/statistics-centre#/applicationspercapita. 
+22. Evropski patentni urad: Strateški plan 2023 (European Patent Office – EPO: Strategic plan 
+2023). Dostopno na: https://documents.epo.org/projects/babylon/eponet.nsf/0/ 
+2217f5b7cc07d47cc125841c00610386/$FILE/EPO_Strategic_Plan_2023_en.pdf. 
+23. Hartmann, C., Allan, J., Hugenholtz, P. et al. 2020. Trends and developments in artificial 
+intelligence – Challenges to the intellectual property rights framework – Final report. 
+European Commission. Dostopno na: https://op.europa.eu/en/publication-detail/-
+/publication/394345a1-2ecf-11eb-b27b-01aa75ed71a1/language-en.  
+24. Hupont Torres, I. et al. 2023. Next Generation Virtual Worlds: Societal, Technological, 
+Economic and Policy Challenges for the EU. Joint Research Centre. Dostopno na: 
+https://publications.jrc.ec.europa.eu/repository/handle/JRC133757. 
+25. IPIL G.I.E., 2021. Creative FLIP Final Report: Work Package 4 - Patenting. Dostopno na: 
+http://creativeflip.creativehubs.net/publications/Creative%20FLIP_Final%20Report_WP4%
+20Patenting.pdf. 
+
+ 
+46 
+26. Kos Skubic, M. 2019. Poznavanje in zaznavanje živil z geografsko označbo ali označbo 
+porekla pri potrošnikih: doktorska disertacija. Univerza v Ljubljani. Dostopno na: 
+https://repozitorij.uni-lj.si/IzpisGradiva.php?id=106518. 
+27. Kovač, M., Spruk, R., Vandenberghe, A.-S., 2016. Celovita analiza učinkov uvedbe 
+evropskega patenta z enotnim učinkom na slovensko gospodarstvo. Univerza v Ljubljani, 
+Ekonomska fakulteta. Dostopno na: https://dokumen.tips/documents/celovita-analiza-
+ucinkov-uvedbe-evropskega-patenta-z-analiza-trenutno-mora.html?page=1. 
+28. Liu, K. C., Zheng, S., 2020. Asian IP law: an area of rising importance. GRUR 
+International, 69(3), 249-259. 
+29. Mendis, D., Nordemann, J., Ballardini, R. et al. 2020. The Intellectual Property Implications 
+of the Development of Industrial 3D Printing. European Commission. Dostopno na: 
+https://op.europa.eu/en/publication-detail/-/publication/e193a586-7f8c-11ea-aea8-
+01aa75ed71a1.  
+30. Murovec, N., Kavaš, D., Uršič, S., 2023. Analiza kulturnega in kreativnega sektorja v 
+Sloveniji. Ljubljana: Muzej za arhitekturo in oblikovanje (MAO), Center za kreativnost. 
+Dostopno na: https://czk.si/wp-content/uploads/2023/04/analiza-kulturnega-in-
+kreativnega-sektorja-v-sloveniji.pdf. 
+31. Nacionalni program spodbujanja razvoja in uporabe umetne inteligence v Republiki 
+Sloveniji do leta 2025 (NpUI). Dostopno na: https://www.gov.si/assets/ministrstva/MDP/ 
+DID/NpUI-SI-2025.docx. 
+32. Organizacija združenih narodov: Spremenimo svet: Agenda za trajnostni razvoj do leta 
+2030. Dostopno na: https://www.gov.si/assets/vladne-sluzbe/SVRK/Agenda-2030/ 
+Agenda_za_trajnostni_razvoj_2030.doc. 
+33. Pal, L., Stres, Š., Blatnik, R., Lutman, T., Justin, T., 2022. Zaključno poročilo projekta CRP, št. 
+V7-2145: Vrednotenje IL kot podlaga za predlog dolgoročno vzdržnega modela državnih 
+pomoči za spodbujanje sodelovanja znanosti in gospodarstva. Ljubljana: Center za prenos 
+tehnologij in inovacij, Institut “Jožef Stefan”. Dostopno na: https://www.gov.si/assets/ 
+ministrstva/MVZI/Znanost/CRP/Vrednotenje-intelektualne-lastnine-kot-podlaga-za-
+predlog-dolgorocno-vzdrznega-modela-drzavnih-pomoci-za-spodbujanje-sodelovanja-
+znanosti-in-gospodarstva.pdf. 
+34. Patentno varstvo v Republiki Sloveniji. 2019. Revizijsko poročilo. Računsko sodišče. 
+35. Picht, P. G., Thouvenin, F. 2023. AI and IP: Theory to Policy and Back Again – Policy and 
+Research Recommendations at the Intersection of Artificial Intelligence and Intellectual 
+Property. IIC - International Review of Intellectual Property and Competition Law 54(4). 
+Dostopno na: https://link.springer.com/article/10.1007/s40319-023-01344-5. 
+36. Poročilo o produktivnosti 2022. 2022. UMAR. Dostopno na: https://www.umar.gov.si/ 
+fileadmin/user_upload/sporocila_za_javnost/2022/Sporocila_za_javnost/Konferenca_PoP2
+2/PoP_2022_s.pdf. 
+37. Pravice intelektualne lastnine EU: varstvo ni popolnoma zanesljivo. 2022. Evropsko 
+računsko sodišče. Dostopno na: https://www.eca.europa.eu/sl/publications?did=61056. 
+
+ 
+47 
+38. Resolucija o znanstvenoraziskovalni in inovacijski strategiji Slovenije 2030. Dostopno na: 
+http://www.pisrs.si/Pis.web/pregledPredpisa?id=RESO133. 
+39. Strategija razvoja Slovenije 2030. Dostopno na: https://www.gov.si/assets/vladne-
+sluzbe/SVRK/Strategija-razvoja-Slovenije-2030/Strategija_razvoja_Slovenije_2030.pdf. 
+40. Strengthening the Innovation Ecosystem in Slovenia: Current state of play of the 
+Slovenian national innovation ecosystem, 2021. Dostopno na: https://www.podjetniski-
+portal.si/uploads/gradiva/krepitev_inovacijskega_ekosistema/srss161_slovenia_ecosystem
+_d2_state_of_play_report.pdf. 
+41. Strengthening the Innovation Ecosystem in Slovenia: Report with actionable 
+recommendations Dostopno na: https://www.podjetniski-portal.si/uploads/gradiva/ 
+krepitev_inovacijskega_ekosistema/srss161sloveniaecosystem_d4_reccommendations_rep
+ort.pdf. 
+42. Study on the impact of Artificial Intelligence on the infringement and enforcement of 
+copyright and designs. 2022. EUIPO. Dostopno na: https://euipo.europa.eu/tunnel-
+web/secure/webdav/guest/document_library/observatory/documents/reports/2022_Impa
+ct_AI_on_the_Infringement_and_Enforcement_CR_Designs/2022_Impact_AI_on_the_Infring
+ement_and_Enforcement_CR_Designs_FullR_en.pdf. 
+43. Sustainable development report 2020. Dostopno na: https://www.sdgindex.org/ 
+reports/sustainable-development-report-2020/. 
+44. Sustainable development report 2021. Dostopno na: 
+https://2021.dashboards.sdgindex.org/. 
+45. Sustainable development report 2022. Dostopno na: https://dashboards.sdgindex.org. 
+46. Trademarks in the Metaverse White Paper. 2023. International Trademark Association. 
+Dostopno na: https://www.inta.org/wp-content/uploads/public-files/perspectives/ 
+industry-research/METAVERSE_REPORT-070323.pdf. 
+47. Uredba o izvajanju znanstvenoraziskovalnega dela v skladu z načeli odprte znanosti, 
+Uradni list RS 59/2023. 
+48. Vlada Republike Slovenije, program za delo koalicije 2022-2026. Dostopno na: 
+https://www.gov.si/assets/vlada/Vlada_predstavitev_dokumenti/Koalicijski-dogovor-2022-
+2026-Programski-del-18.5.2022.pdf. 
+49. World Intellectual Property Organization (WIPO). Global innovation index. Dostopno na: 
+https://www.wipo.int/global_innovation_index/en/. 
+50. World Intellectual Property Organization (WIPO). 2021. Medium-Term Strategic Plan 
+(MTSP) 2022–2026. Dostopno na: https://www.wipo.int/edocs/mdocs/govbody/en/ 
+wo_pbc_32/wo_pbc_32_3.pdf. 
+51. World Intellectual Property Organization (WIPO). 2022. WIPO and Intangible Asset 
+Finance: Moving Intangible Asset Finance from the Margins to the Mainstream. Dostopno 
+na: https://www.wipo.int/sme/en/ip-backed-financing-for-policy-makers.html. 
+52. World Intellectual Property Organization (WIPO). 2023. Intellectual property offices and 
+sustainable innovation. Implementing the SDGs in national intellectual property systems. 
+Dostopno na: https://www.wipo.int/publications/en/details.jsp?id=4654&plang=EN.

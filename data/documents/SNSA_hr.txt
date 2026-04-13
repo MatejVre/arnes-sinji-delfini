@@ -1,0 +1,2263 @@
+FINAL REPORT 
+ENCO-FR-(23)-37 
+Rev.1 November 2023 
+ 
+SLOVENIAN NUCLEAR SAFETY 
+ADMINISTRATION (SNSA) 
+ 
+Review of the SNSA's Work Areas, Tasks, and 
+Staff Needs and Proposal of a Long-Term 
+Human Resource Plan 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report  Page ii 
+ 
+ 
+ 
+Review of the SNSA's Work Areas, 
+Tasks, and Staff Needs and 
+Proposal of a Long-Term Human 
+Resource Plan 
+ 
+ 
+ 
+ 
+Final Report 
+ENCO FR-(23)-37 
+Rev.1 November 2023 
+ 
+ 
+ 
+ 
+Prepared by: 
+ 
+Prepared for: 
+ 
+ 
+ 
+ 
+
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report  Page iii 
+ 
+ 
+TABLE OF CONTENTS 
+ 
+ 
+1 Introduction .................................................................................................................................................... 6 
+1.1 Project Background ................................................................................................................................... 6 
+1.2 Project Objectives and Outputs ................................................................................................................ 7 
+2 Overview of SNSA Organization and Tasks ..................................................................................................... 8 
+2.1 SNSA Organization .................................................................................................................................... 8 
+2.2 SNSA Responsibilities, Processes and Tasks ............................................................................................. 9 
+ SNSA Processes ................................................................................................................................ 10 
+ SNSA Tasks ....................................................................................................................................... 10 
+ Allocation of Tasks into Task Groups ............................................................................................... 12 
+ Distribution of Workload Analysis ................................................................................................... 13 
+3 Overview of Comparable Regulatory Bodies in EU ...................................................................................... 25 
+3.1 Description of ANVS ................................................................................................................................ 26 
+3.2 Organization and Functions of the ANVS................................................................................................ 27 
+3.3 Operation of the ANVS and Division of Responsibilities......................................................................... 31 
+3.4 Analysis of ANVS Staff Distribution ......................................................................................................... 32 
+4 Comparison and Analysis .............................................................................................................................. 35 
+5 Proposal of SNSA Reorganization ................................................................................................................. 37 
+6 SNSA Recruitment and Training Plan ............................................................................................................ 41 
+6.1 SNSA Recruitment plan ........................................................................................................................... 41 
+ General Education of New Staff ...................................................................................................... 41 
+6.2 SNSA Training Plan .................................................................................................................................. 42 
+7 Conclusion .................................................................................................................................................... 44 
+References ............................................................................................................................................................. 47 
+Annex 1 Review and Association of SNSA Tasks to Task Groups ...................................................................... 48 
+ 
+  
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report  Page iv 
+ 
+LIST OF FIGURES 
+ 
+Figure 1: SNSA organization chart .......................................................................................................................... 8 
+Figure 2: Distribution of workload in the Nuclear Safety Division by task groups ............................................... 14 
+Figure 3: Distribution of workload in the “nuclear safety” task group by its task subgroups .............................. 14 
+Figure 4: Distribution of workload in the Radiation Safety Section by task groups ............................................. 15 
+Figure 5: Distribution of workload in the “radiation safety” task group by its task subgroups ........................... 15 
+Figure 6: Distribution of workload in the Monitoring Section by task groups ..................................................... 16 
+Figure 7: Distribution of workload in the Safeguards & Security by task groups ................................................. 17 
+Figure 8: Distribution of workload in the Radiation and Nuclear Safety Inspection Division by task groups ...... 17 
+Figure 9: Distribution of workload in the Emergency Preparedness Division by task groups .............................. 18 
+Figure 10: Distribution of workload in the International Cooperation Service by task groups ............................ 19 
+Figure 11: Distribution of workload in the General Affairs Service by task groups .............................................. 19 
+Figure 12: Distribution of workload of the Main Office by task groups ............................................................... 20 
+Figure 13: Distribution of workload of the Legal Affairs by task groups .............................................................. 20 
+Figure 14: Distribution of workload in the Cyber Security Division by task groups ............................................. 21 
+Figure 15: Distribution of workload in the “cyber security & IT” task group by its task subgroups .................... 21 
+Figure 16: Ratio of professional vs support role in task groups ........................................................................... 23 
+Figure 17: Task groups workload distribution with professional vs support ratio ............................................... 24 
+Figure 18: ANVS organization chart ...................................................................................................................... 28 
+Figure 19: Distribution of the experts’ basic education ....................................................................................... 42 
+ 
+ 
+LIST OF TABLES 
+ 
+Table 1: Expected and current number of SNSA staff ............................................................................................ 9 
+Table 2: No. of staff in organizational units with professional vs support ratio................................................... 24 
+Table 3: Regulatory authorities (RA) in EU countries operating NPPs.................................................................. 25 
+Table 4: Distribution of ANVS staff by organizational units ................................................................................. 33 
+Table 5: Allocation of ANVS staff into “SNSA organizational units” ..................................................................... 35 
+Table 6: Proposal of adjusted number of SNSA positions .................................................................................... 37 
+Table 7: Proposal of SNSA recruitment plan......................................................................................................... 41 
+  
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report  Page v 
+ 
+ABBREVIATIONS 
+ 
+ANVS Dutch Authority for Nuclear Safety and Radiation Protection 
+CNPP (IAEA) Country Nuclear Power Profiles 
+CNS Convention on Nuclear Safety 
+DBA ANVS Assessment & Advice Department (Dutch: Directie Beoordeling & Advies) 
+DBI ANVS Business Operations & Information Department (Dutch: Directie Bedrijfsvoering & 
+Informatievoorziening) 
+DBG ANVS Competent Authority Department (Dutch: Directie Bevoegd Gezag) 
+DID Direktor izrednega dogodka (Director of emergency event) 
+ERDS Emergency Response Data System 
+EPR Emergency Preparedness and Response 
+EPREV Emergency Preparedness Review 
+EU European Union 
+HERCA Heads of the European Radiological Protection Competent Authorities 
+IAEA International Atomic Energy Agency 
+ICT Information and Communications Technology 
+IMS Integrated Management System 
+IRRS Integrated Regulatory Review Service 
+IRS International Reporting System for Operating Experience 
+IT Information Technology 
+JEK2 Jedrska elektrarna Krško 2 (project of Krško NPP new unit construction) 
+KID KID - Komunikacijski sistem med izrednim dogodkom (SNSA communication system for emergency events) 
+MNRSP Ministry of Natural Resources and Spatial Planning 
+MZO Mreža Zgodnjega Obveščanja (Early Warning Network) 
+NPP Nuclear Power Plant 
+OECD Organization for Economic Co-operation and Development 
+OECD/NEA OECD Nuclear Energy Agency 
+OEF Operating Experience Feedback 
+PSA Probabilistic Safety Analysis 
+PSR Periodic Safety Review 
+RA Regulatory Authority 
+R&A Review and Assessment 
+R&D Research and Development 
+ROKO “Radioaktivnost v Okolju” database (Slovenian environmental radioactivity measurements database) 
+SAT Systematic Approach to Training 
+SNSA Slovenian Nuclear Safety Administration 
+SRPA Slovenian Radiation Protection Administration 
+SW Software 
+TPR Topical Peer Review 
+TSO Technical Support Organization 
+US NRC United States’ Nuclear Regulatory Commission 
+WENRA Western European Nuclear Regulators' Association  
+ 
+ 
+ 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 6 
+ 
+1 INTRODUCTION 
+ 
+1.1 PROJECT BACKGROUND 
+Slovenian Nuclear Safety Administration (SNSA) is a nuclear regulatory authority in Slovenia established in 1987. 
+It operates under the auspices of the Ministry of Natural Resources and Spatial Planning. SNSA is responsible for 
+performing expert, administrative, supervisory and development tasks in the areas of nuclear and radiation 
+safety, the implementation of radiation practices and the activities of using sources of ionizing radiation (except 
+in healthcare or veterinary medicine), environmental protection against ionizing radiation, physical protection 
+of nuclear substances and facilities, non-proliferation of nuclear weapons and protection of nuclear goods.  
+In addition to that, the SNSA is also very much involved internationally as an active member of various 
+organizations (e.g., IAEA, OECD/NEA, ENSREG, WENRA, etc.), to which it reports, actively participates in peer 
+reviews of other regulators (e.g., IRRS, ARTEMIS, EPREV, TPR and other peer review missions), or in working 
+groups for various expert tasks. 
+SNSA supervises several nuclear and radiation facilities, including the Krško NPP, the TRIGA Mark II research 
+reactor, the central radioactive waste storage for low and intermediate level solid radio-active waste from 
+institutional users, the Žirovski Vrh Uranium Mine (in decommissioning), the mining waste disposal site Jazbec, 
+and Boršt uranium mill tailings disposal site, as well as hundreds of users of radiation sources. 
+Furthermore, SNSA is also the main developer of legislation in the areas of nuclear and radiation safety, where 
+it drafts and amends laws and regulations to be adopted by the Government or the Ministries. Likewise, SNSA 
+has the right (and obligation) to develop guidance documents (so called “practical guidelines”), which guide the 
+operators of nuclear and radiation facilities, and users of radiation sources on how to implement the regulatory 
+requirements given in acts and regulations. 
+SNSA performs all these tasks with an admirably low number of staff. SNSA regularly employs around 40 staff, 
+of whom around 35 are experts in certain technical areas, and the rest are administrative and legal support. 
+SNSA has had the same number of staff for the last 20 years, but the nature of the work performed by SNSA is 
+such that the number of tasks is constantly growing; number of source users to be supervised is constantly 
+increasing, the number and types of objects that need licensing and regular inspections is growing, and 
+international cooperation is becoming more and more intense, requiring regular and increased reporting, 
+collaboration on development of new state-of-the-art requirements, and cooperating in peer reviews.  
+In 2007 SNSA developed an integrated management system (IMS) and has been maintaining it ever since. Today 
+the SNSA’s IMS contains over 160 different procedures, which direct the workflow of SNSA processes in a 
+manner to use the resources (human and financial) as efficiently as possible. Every year SNSA conducts internal 
+audits and management reviews (one per year) of the management system in search of opportunities for 
+additional improvements to its processes in order to make the most of every employee. However, even the 
+constant improvements of processes have their limit, and increasing workload cannot be successfully managed 
+with the same number of people, without degrading the quality of the work. 
+This is precisely why SNSA decided to carry out this project with the purpose to obtain an independent opinion 
+and perspective on its operation and ideas for possible future development. 
+ 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 7 
+ 
+1.2 PROJECT OBJECTIVES AND OUTPUTS 
+The objective of this project is to carry out an independent and unbiased review of SNSA's organization and all 
+the tasks that certain organizational units and employees perform and, based on a comparison with foreign 
+modern regulatory bodies that perform a similar number of tasks and in the context of a similarly large nuclear 
+program, to prepare a proposal of a long-term human resource plan that would enable SNSA to efficiently and 
+effectively perform all of its mandated tasks with the highest level of quality. 
+ 
+The main outputs of the project shall include: 
+ review of current SNSA organization, number of staff, responsibilities and tasks performed by SNSA and 
+its organizational units; 
+ comparison with similar organizations, overview of their responsibilities and scope of tasks performed; 
+ analysis of staff required to perform all prescribed SNSA tasks, their required education and 
+competencies; 
+ preparation of a proposal of long-term human resource plan together with recruitment and training 
+plan. 
+ 
+ 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 8 
+ 
+2 OVERVIEW OF SNSA ORGANIZATION AND TASKS 
+ 
+2.1 SNSA ORGANIZATION 
+SNSA is an organization, which is divided into several divisions, sections and services. Two of the largest divisions 
+are further divided into sections. The 5 main divisions (and their sections) are the following: 
+ Nuclear Safety Division 
+- Analysis and Licensing Section 
+- Operational Safety Section 
+ Radiation, Safety and Materials Division 
+- Radiation Safety Section 
+- Monitoring Section 
+- Non-proliferation and Nuclear Security 
+ Radiation and Nuclear Safety Inspection Division 
+ Emergency Preparedness Division 
+ Cyber Security Division 
+In addition, SNSA comprises of 2 services, which are: 
+ International Cooperation Service, and 
+ General Affairs Service. 
+Last but not least, there is one director of SNSA, and one position of management system manager reporting 
+directly to the SNSA director. 
+The SNSA organization chart is shown on Figure 1. 
+ 
+Figure 1: SNSA organization chart 
+
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 9 
+ 
+SNSA is a body within the Ministry of Natural Resources and Spatial Planning (MNRSP), and although SNSA is 
+functionally autonomous institution it has certain shared services with the Ministry, such as finance and human 
+resource services, and is in a way bound to the limitations of resources (financial and human) of the Ministry, 
+which are set by the Slovenian Government. According to the MNRSP personnel/staffing plan for 2022 and 2023 
+the personnel policy for the SNSA sets a quota of 41 employees. 
+The employment of these 41 personnel are financed from the integral state budget. Occasionally SNSA also hires 
+one or two interns, but this is for a fixed period, usually up to a year. Likewise, SNSA sometimes employs 
+additional one or two staff to work on different SNSA projects (usually international projects of support to other 
+newcomer regulators). This staff is also employed on fixed (one or two year) contract. Sometimes these interns 
+or staff working on projects are then permanently employed, but only if there are vacancies (if somebody retires 
+or leaves SNSA). The number of permanently employed staff always remains the same (41). 
+At the moment of implementing this study SNSA employs 42 staff, as there are two interns (one in the Nuclear 
+Safety Division and another in the Radiation Safety Division), and one vacant post in the General Affairs Service. 
+Expected (according to MNRSP plan) and current staff numbers are shown in Table 1 below. 
+Table 1: Expected and current number of SNSA staff 
+Organizational unit Expected staff 
+number 
+Current staff 
+number 
+Director 1 1 
+Management System 1 1 
+General Affairs Service 4 3 
+International Cooperation Service 3 3 
+Nuclear Safety Division 11 12 
+Radiation, Safety and Materials Division 11 12 
+Radiation and Nuclear Safety Inspection Division 5 5 
+Emergency Preparedness Division 3 3 
+Cyber Security Division 2 2 
+TOTAL: 41 42 
+ 
+Like most other nuclear regulators, SNSA relies on the help of technical support organizations (TSO). Slovenian 
+legislation requires that any major change or more complex administrative/licensing procedure is supported by 
+an independent expert opinion prepared by a TSO. TSOs also assist the administration in supervising nuclear and 
+radiation safety at Krško NPP, especially during refuelling outages. SNSA may also order special studies, 
+independent calculations or analyses to be developed by TSOs when necessary. 
+2.2 SNSA RESPONSIBILITIES, PROCESSES AND TASKS 
+SNSA is responsible for performing expert, administrative, supervisory and development tasks in the areas of 
+nuclear and radiation safety, implementation of radiation monitoring and the activities of using sources of 
+ionizing radiation (except in healthcare or veterinary medicine1), environmental protection against ionizing 
+radiation, physical protection of nuclear substances and facilities, non-proliferation of nuclear weapons and 
+protection of nuclear goods. 
+ 
+1 Slovenian Radiation Protection Administration (SRPA) is responsible for radiation safety in healthcare or veterinary medicine, including 
+radiation protection of patients, medical surveillance of exposed workers, radiological surveillance of workplaces, dosimetry and dose 
+registers and education in radiation protection 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 10 
+ 
+ SNSA PROCESSES 
+Since 2007, SNSA has in place an integrated management system (IMS), which is based on the process focused-
+approach. The processes, which are divided into one management process, eight core processes and one 
+supporting process, encompass: 
+ Management process 
+- Project Management 
+- Quality Management System 
+- Human Resources and Knowledge Management 
+- Financial Resources 
+- Measurement & Improvement 
+ Control of Nuclear and Radiation Safety, separated into two sub-processes: 
+- Control of Nuclear Safety 
+- Control of Radiation Safety 
+ Inspection 
+ Preparation of Legislation 
+ Emergency Preparedness 
+ Monitoring  
+ Annual and National Reports 
+ International Cooperation 
+ Information Security 
+ Infrastructure and Working Environment (support process). 
+As pointed in the SNSA IMS Manual [111], the SNSA processes, depending on their size, complexity or 
+importance are implemented either as: 
+ function-based, or 
+ project-based processes. 
+Function-based processes are led and implemented within a specific organizational unit (e.g., inspections 
+performed by Radiation and Nuclear Safety Inspection Division), while project-based processes are those that 
+are implemented within multiple organizational units (e.g., preparation of different reports within the Annual 
+and National Reports process). In practice, this division is not strictly applied, since, as will be shown below, all 
+processes are carried out within at least two (but mostly several) organizational units. 
+ SNSA TASKS 
+Within each individual process, the SNSA has identified many specific tasks that are performed regularly. 
+Altogether, as identified in the SNSA input document provided to the Contractor (“RNaloge z delovnimi mesti 
+maj 2023.docx” [2]) 283 different tasks are identified. Each year the SNSA makes an assessment (based on 
+provided inputs from its staff) on the number of hours that were devoted to each identified task. 
+Following are examples of the most important SNSA tasks in each process (in terms of resources engaged): 
+ Management: 
+- Preparation of new and review or corrections of existing SNSA internal procedures 
+- Management of organizational unit (division, section, service) 
+- SNSA communications, meetings and presentations 
+ Control of Radiation Safety: 
+- Management of administrative procedures 
+- Maintenance of registers of radiation practices, sources of ionizing radiation and facilities 
+- Activities related to the construction of the Vrbina disposal facility 
+- Administrative control of radioactive waste and spent nuclear fuel 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 11 
+ 
+ Control of Nuclear Safety: 
+- Review and assessment (R&A) of changes in nuclear installations (Krško NPP and TRIGA research 
+reactor) 
+- Management of administrative procedures related to Krško NPP 
+- Preparation of SNSA for the project the construction of Krško NPP new unit (JEK2) 
+- Analysis of operational experience feedback (OEF) 
+ Inspection: 
+- Implementation of inspections 
+- Inspection support 
+- Surveillance of Krško NPP refueling outages 
+ Preparation of Legislation: 
+- Drafting of legislation 
+- Drafting and revision of regulatory guidance documents 
+- Benchmarking of WENRA and IAEA documents and standards 
+ Emergency Preparedness and Response (EPR): 
+- Participation in the execution of emergency preparedness processes 
+- Participation in emergency preparedness exercises in specific EPR roles2  
+- Provision of EPR trainings (planning, development, implementation, analysis, maintenance of 
+infoNUID3 database)  
+ Monitoring: 
+- Maintenance of SNSA monitoring system 
+- Monitoring of radioactivity in the environment, control, development and use of the MZO4 
+application  
+- Exchange of probes in the field 
+ Annual and National Reports: 
+- Preparation of SNSA annual report 
+- Preparation and review of reports 
+- Editing of annual report 
+- Topical Peer Review (TPR) based on European Nuclear Safety Directive [3] 
+ International Relations: 
+- Cooperation with the IAEA (in working groups) 
+- Cooperation with the OECD/NEA 
+- Cooperation in international organizations 
+ Information Security (Cyber security) 
+- Establishing, implementing and updating the Information Security Management System 
+- Implementing, maintaining and continuously improving organisational, logical, technical and 
+physical safeguards 
+- Maintaining the cyber-attack response system 
+ Infrastructure and Working Environment (support process): 
+- Self-study, schooling, education (IAEA and internal courses) 
+- Cooperation in the design and implementation of InfoURSJV5, InfoNUID and other information 
+tools modules  
+ 
+2 There are 11 different roles designated within SNSA's EPR organization and for each role a specific task is defined, e.g. “Participation in 
+emergency preparedness as DID (Director of Emergency Event), etc.” 
+3 infoNUID is SNSA's database which covers everything related to SNSA EPR trainings 
+4 MZO - Mreža Zgodnjega Obveščanja (Early Warning Network) 
+5 InfoURSJV is one of the major SNSA electronic databases comprising of several sub-databases, such as registers of radiation sources, 
+database of changes in nuclear installations, Operating Experience Feedback (OEF) database, PSA models and calculations, SNSA and 
+inspection decisions, etc. 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 12 
+ 
+- Training of colleagues and external experts 
+- Mail processing 
+ ALLOCATION OF TASKS INTO TASK GROUPS 
+In the SNSA input document [2], there are 283 different tasks, each associated with one of the following 
+processes: 
+ Management 
+ Control of radiation safety 
+ Control of nuclear safety 
+ Inspection 
+ Preparation of legislation 
+ EPR 
+ Monitoring 
+ Annual and national reports 
+ International cooperation 
+ IT, infrastructure and work environment 
+This list of processes listed in [2] is incomplete, since, as described in 2.2.1, SNSA processes also include 
+Information security (or Cyber security), as well as subprocesses Project management, Integrated  management 
+system (or IMS), Human resources, Financial resources, and Measurement & Improvement. Thus, many tasks 
+related to these missing processes are in [2] connected to Management process, or Infrastructure and work 
+environment, or even some other processes. 
+In addition, it was noticed that some tasks are connected to certain processes according to who performs them 
+and not to which process they logically belong. One such example is a task called “ERDS maintenance”, which is 
+completely related to the Emergency Preparedness process (ERDS, or Emergency Response Data System is used 
+for monitoring Krško NPP process parameters during emergency events or exercises), but since ERDS is 
+maintained by staff from the Nuclear Safety Division it is allocated to the Control of nuclear safety process. 
+Due to such inconsistencies it would be hard to get a clear picture of how much time is spent on a certain process 
+and who actually works on a certain process. 
+Therefore, a very detailed review of each task (in terms of task description) was performed. Each task was 
+(re)assigned to the process or subprocess it logically belongs to. At the end the 283 tasks were assigned to the 
+following 18 groups of tasks:  
+ management 
+ radiation safety 
+ nuclear safety 
+ inspection 
+ legislation & regulation 
+ EPR 
+ monitoring 
+ national and other reports 
+ international cooperation 
+ cyber security & IT 
+ IMS 
+ human resources 
+ communication & reporting 
+ main office 
+ legal support 
+ public procurement 
+ research & development (R&D) 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 13 
+ 
+ other 
+These groups correspond directly to core SNSA process (as described in Chapter 2.2.1), however, based on the 
+detailed review of tasks, a few additional groups (as compared to SNSA processes used in [2]) had to be 
+identified, such as: 
+ communication & reporting - includes tasks such as Preparation of materials for the Government, 
+Answering journalists' questions, Preparation of press releases, Editing of intranet and internet 
+websites, etc.); 
+ main office - includes tasks such as Personnel absences records, Financial records, Management of 
+financial operations with MFERAC, Mail processing, Archiving of SNSA materials, Conducting business 
+with e-invoices, e-orders and e-travel orders, Receiving and routing phone calls, Housekeeping, etc; 
+ legal support - includes legal position and opinion on all matters related with SNSA, support from legal 
+experts in administrative procedures, legal counselling to staff, personal data protection, management 
+of administrative statistics, control of classified information, plan of integrity, etc.; 
+ R&D - includes development of R&D strategy, research papers writing for different events and 
+conferences, etc.; 
+ other - includes some tasks which are very generally defined and are hard to include in any other group, 
+e.g. task “Various, unpredictable”. 
+Detailed review of the regrouping of SNSA tasks into the above task groups is given in Annex 1 of this report. 
+In the rest of the report, and especially where the workload analysis is given, this redistribution of tasks by task 
+groups and not by the original SNSA processes is used. 
+ DISTRIBUTION OF WORKLOAD ANALYSIS 
+In this chapter the workload analysis if performed to show: 
+ how workload is distributed in individual organizational units in relation to individual processes 
+ distribution of SNSA workload by processes (task groups), showing what SNSA deals with the most (in 
+terms of time spent), 
+ what is the ratio between “professional” and “support” tasks, etc.  
+This information is to be used in later chapters when defining the possibilities for future SNSA development. 
+2.2.4.1 NUCLEAR SAFETY DIVISION 
+Figure 2 shows the distribution of workload of the Nuclear Safety Division by the 18 task groups as defined in 
+Chapter 2.2.3. As expected this division mostly performs tasks related to the “control of nuclear safety process” 
+(60%), which include tasks associated to review and assessment (R&A), authorization, supervision of nuclear 
+installations, etc. Far behind is a task group “human resources” (9%), where the main task is “Self-education, 
+schooling and trainings (IAEA and internal trainings)”, followed by preparation of “National & other reports” 
+(5%), preparation of “legislation & regulation” (5%), “international cooperation” (4%), EPR (4%) and others. 
+Here it is important to note that the tasks performed by Nuclear Safety Division were not separated into two 
+sections (Analysis and Licensing Section, and Operational Safety Section) as most of these tasks are performed 
+by staff in both sections, unlike sections of Radiation, Safety and Materials Division, where different tasks are 
+mostly very well distributed in all three sections (Radiation Safety Section, Monitoring Section, Safeguards & 
+security). 
+ 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 14 
+ 
+ 
+Figure 2: Distribution of workload in the Nuclear Safety Division by task groups 
+Figure 3 shows the further division of tasks in the “nuclear safety” task group. Here we see that the majority of 
+resources are dedicated to tasks related to “review & assessment” (40%), supervision of nuclear installations 
+(32%), and “authorization” (10%). 
+ 
+ 
+Figure 3: Distribution of workload in the “nuclear safety” task group by its task subgroups 
+But another important point needs to be stressed here. In recent years this organizational unit is investing a lot 
+of work in the preparations for the construction of the new Krško NPP unit, i.e., the JEK2 project. As can be seen 
+from Figure 3 roughly 17% of time dedicated to the “nuclear safety” task group is devoted to JEK2 project 
+(around 10% of total Nuclear Safety Division resources), whether for developing of competencies for the 
+licensing of new unit construction or cooperation in the siting process activities, which have started couple years 
+ago. It can be expected that, if the project of JEK2 continues, SNSA workload related to these activities will 
+increase dramatically. 
+
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 15 
+ 
+2.2.4.2 RADIATION SAFETY SECTION 
+The Radiation Safety Section belongs to the Radiation, Safety and Materials Division (together with the 
+Monitoring Section and Safeguards & Security), but, in contrast to the Nuclear Safety Division, where both 
+sections contribute to the implementation of the same tasks, the tasks of the sections in the Radiation, Safety 
+and Materials Division differ much more. Therefore, in this report we deal separately with each of them. 
+Figure 4 below shows the distribution of tasks in the Radiation Safety Section. Similarly as in Nuclear Safety 
+Division, most of this section's time is devoted to tasks related to “radiation safety” task group (56%), which 
+includes authorization, R&A, supervision, registers, etc. This is then followed by “management” task group (9%), 
+“human resources” (7%), while 5% or less resources are dedicated to other task groups, such as preparing 
+“legislation & regulation”, “communication & reporting”, preparing “national & other reports”. 
+ 
+ 
+Figure 4: Distribution of workload in the Radiation Safety Section by task groups 
+In contrast to nuclear safety division, as can be seen from Figure 5, the radiation safety section devotes most of 
+its resources to the authorization related tasks (55%), which is followed by R&A, supervision and others. All these 
+tasks are related to the areas covered by the radiation safety section, such as radiation protection, waste 
+management, transport of radioactive materials and others. 
+ 
+ 
+Figure 5: Distribution of workload in the “radiation safety” task group by its task subgroups 
+
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 16 
+ 
+2.2.4.3 MONITORING SECTION 
+Figure 6 shows the distribution of workload in the Monitoring Section. In contrast to the two previous 
+organizational units, the Nuclear Safety Division and the Radiation Safety Section, which are relatively very 
+focused on their line of work, we can see that in the Monitoring Section the time devoted to the “monitoring” 
+task group is much smaller - only 31% of the section's resources. We can also add to that around 7% of “public 
+procurement”, as this usually includes the purchase of equipment necessary for regular maintenance of the 
+operability of the environmental monitoring system. 
+Likewise, we can see that larger part of this section resources is dedicated to other task groups, such as “cyber 
+security & IT” (10%), “management” (8%), “IMS” (7%), “human resources” (7%), “international cooperation” 
+(6%), “EPR” (6%), preparing “national & other reports” (6%), and others. 
+ 
+ 
+Figure 6: Distribution of workload in the Monitoring Section by task groups 
+The “monitoring” process is the closest to the “function-based” process that would be completely implemented 
+within one organizational unit. Monitoring tasks are mostly done within the Monitoring Section with only around 
+5% contribution from the Cyber Security Division, which comes in the form of (IT) maintenance support.  
+Most of work in the monitoring task group is dedicated to maintenance of the environmental monitoring system 
+(68%), which includes exchange of field probes, maintenance and use of release modeling programs, 
+maintenance of ROKO database, etc. Smaller part of the work is allotted to development (29%), and even smaller 
+for performing field measurements (3%). 
+2.2.4.4 SAFEGUARDS & SECURITY  
+Distribution of workload in the Safeguard & Security is shown on Figure 7. First it has to be noticed that this unit 
+counts only one person. We can see that distribution of workload shows relatively well balanced work 
+distribution, focused mainly on the main tasks of this unit (“safeguards, security & transport”, 56%), followed by 
+preparing contributions for “national & other reports” (14%), and being involved in “international cooperation” 
+with international organizations related to physical protection, non-proliferation, transport and illicit trafficking 
+(10%). Less than 20% of this person’s time is devoted to other task groups, such as “human resources” (6%), 
+maintenance of “IMS” (5%), “management”, “EPR” and others. 
+ 
+
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 17 
+ 
+ 
+Figure 7: Distribution of workload in the Safeguards & Security by task groups 
+2.2.4.5 RADIATION AND NUCLEAR SAFETY INSPECTION DIVISION 
+As can be seen from Figure 8, the Radiation and Nuclear Safety Inspection Division (hereinafter: Inspection 
+Division) focuses around 43% of its resources to the main task group, i.e. the “inspection”. In addition to that, a 
+fairly large portion of resources is dedicated to “international cooperation” (11%). A detailed review of tasks 
+shows the considerable busyness of the Inspection Division staff with cooperation in various international 
+organizations, as well as considerable cooperation with the European Commission and other European 
+institutions. 
+ 
+ 
+Figure 8: Distribution of workload in the Radiation and Nuclear Safety Inspection Division by task groups 
+Furthermore, this unit also cooperates a lot in the “nuclear safety” task group (10% of its resources), mostly in 
+the form of work in the Expert Commission for authorizing of operators, review of PSRs, preparations and 
+supervision of refueling outages at Krško NPP, participation in more demanding administrative procedures 
+related to Krško NPP, etc. 
+
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 18 
+ 
+The rest of the division's resources (~35%) are dedicated to other task groups, such as development of “IMS”, 
+“management”, development of “human resources”, “EPR”, contributing to the preparation of “national & other 
+reports”, etc. 
+2.2.4.6 EMERGENCY PREPAREDNESS DIVISION 
+Figure 9 shows the distribution of workload of the Emergency Preparedness Division (hereinafter: EPR Division).  
+ 
+ 
+Figure 9: Distribution of workload in the Emergency Preparedness Division by task groups 
+As can be seen only about one third of this division resources are spent on the EPR task group (35%). A 
+substantial part is devoted to “human resources” task group (11%), most of this for self-education and training, 
+for “management” (10%), and “international cooperation” (10%). Another third of EPR resources is dedicated 
+to other task groups, such as “communicating & reporting”, “IMS” support, “cyber security & IT” (mostly for 
+development of new “InfoURSJV”, “InfoNUID” and “KID6” databases and tools), and others. 
+2.2.4.7 INTERNATIONAL COOPERATION SERVICE 
+As can be seen from Figure 10, most of the resources of the International Cooperation Service are dedicated to 
+the “international cooperation” task group (52%), which is followed by contributions to preparation of “national 
+& other reports” (18%), and activities related to “communication & reporting” (11%). The latter mostly includes 
+editing of SNSA websites, as well as preparation of materials for the Government. Less than 20% of this unit's 
+resources are devoted to other task groups, such as “management”, “human resources”, “cyber security & IT”, 
+“EPR”, and development of “IMS”. 
+Regarding the contribution to the “national & other reports” task group it is evident from detailed review of 
+tasks that this is mostly due to the task of “editing the SNSA annual report”, which this unit was responsible for 
+in the last years. As the role of “the editor of the annual report” changes the responsible person and with that 
+the organizational unit every second year, even more focused work distribution can be expected. 
+ 
+ 
+6 KID - Komunikacijski sistem med izrednim dogodkom (communication system for emergency events) 
+
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 19 
+ 
+ 
+Figure 10: Distribution of workload in the International Cooperation Service by task groups 
+2.2.4.8 GENERAL AFFAIRS SERVICE 
+Figure 11 shows the distribution of workload in the General Affairs Service. Most of the resources in this unit 
+are dedicated to the “main office” tasks (56%), which include mail processing, filing & archiving, conducting 
+business (with e-invoices, e-orders and e-travel orders), personnel absences records, management of financial 
+operations, etc. This is followed by a relatively large portion of time devoted to the “management” of the unit 
+(15%), and then smaller parts of resources are spent on “legal support” (6%), “communication & reporting” (4%), 
+preparation of “legislation & regulation” (4%), “public procurement” (3%), and others. 
+ 
+ 
+Figure 11: Distribution of workload in the General Affairs Service by task groups 
+With even more detailed review of workload distribution we can see that work in this unit is very well separated 
+into two (unofficial) subunits, the Main Office and the Legal Affairs. From the following two figures (Figure 12 
+and 13) we can see that the Main Office is very much focused on the “main office” tasks (81%), while also 
+dedicating 15% of the resources to the management of the Main Office. 
+ 
+
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 20 
+ 
+ 
+Figure 12: Distribution of workload of the Main Office by task groups 
+On the other hand we have the Legal Affairs (which is currently only one person who is at the same time the 
+manager of the General Affairs Service), of which resources are fairly distributed to support almost all task 
+groups that need legal counseling (e.g., “legal support” to other units, “communication & reporting”, “legislation 
+& regulation”, “public procurement”, etc.). Additional 16% of this person’s time is dedicated to the 
+“management” tasks. 
+ 
+ 
+Figure 13: Distribution of workload of the Legal Affairs by task groups 
+2.2.4.9 CYBER SECURITY DIVISION 
+On Figure 14 the distribution of workload in the Cyber Security Division is given. As it can be seen a relatively 
+small portion of resources is dedicated to the “cyber security & IT” task group itself (36%). Around 40% of time 
+is devoted to the tasks related to “management” (14%), “international cooperation” (13%), and “human 
+resources” (12%), while the rest (24%) is distributed into other task groups, such as development of “IMS”, 
+“EPR”, “public procurement”, “inspection” and others. 
+ 
+
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 21 
+ 
+ 
+Figure 14: Distribution of workload in the Cyber Security Division by task groups 
+If we take a detailed look at the task group of “cyber security & IT” (Figure 15), we can see that around two 
+thirds (65%) of workload is dedicated to “cyber security” tasks, while the rest is devoted to “IT”. 
+ 
+ 
+Figure 15: Distribution of workload in the “cyber security & IT” task group by its task subgroups 
+2.2.4.10 PROFESSIONAL VS SUPPORT TASKS RATIO 
+Most of the tasks performed by a nuclear regulator require special knowledge, skills and experience, i.e. special 
+competencies. To obtain these competencies experts require many years of education, as well as several years 
+of experience of performing tasks in a certain field of radiation and nuclear safety, or physical protection. These 
+competencies include7 good knowledge and experience with: 
+ nuclear technologies 
+ radiation protection 
+ 
+7 Taken from the SNSA list of required competencies [9] 
+
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 22 
+ 
+ radioactive waste preparation and storage 
+ security, non-proliferation and "Safeguards" 
+ event investigation techniques and analysis 
+ safety analysis 
+ probabilistic safety analyses 
+ design bases and design basis accidents 
+ severe accidents 
+ contents of the safety analysis report of nuclear facilities 
+ operation of systems in nuclear installations 
+ reactor physics and fuel 
+ software reliability in nuclear facilities 
+ information security in nuclear and radiation facilities 
+ hydrology and flood safety of nuclear facilities 
+ fire safety in nuclear facilities 
+ seismology and safety of nuclear facilities 
+ radioactive release analysis and release migration 
+ dose calculation 
+ legislation in the fields of nuclear and radiation safety, radioactive waste, placement of nuclear facilities 
+in space, construction and environmental protection, ... 
+ etc. 
+Such competencies cannot be obtained outside of the nuclear and radiation safety work field. For someone to 
+become an expert in his field, in addition to an appropriate education, he needs at least 3 to 5 years of work 
+experience in the field itself, in order to acquire sufficient knowledge and experience to perform independent 
+professional work with adequate quality. That is why experts with such competencies are generally difficult to 
+develop and hard to replace. 
+On the other hand are the supporting tasks, which are also immensely important for the normal operation of 
+the organization, but to perform these tasks, the required competencies are relatively easier to acquire, or can 
+also be acquired by working in other, non-nuclear areas, or with a much shorter period of work at the nuclear 
+regulatory authority. These include competencies such as knowledge, skills and experience with: 
+ finance and accounting 
+ human resource matters 
+ information systems 
+ all main office duties 
+ leadership and management 
+ personal effectiveness 
+ communication skills 
+ public relations 
+ ability to negotiate 
+ cooperation in a team 
+ adequate languages (Slovenian, English) 
+ inspection techniques 
+ legislation from other areas (finances and state budget, government work, obligation law, safety and 
+health at work, protection of personal data, public procurement, etc.) 
+ management system and quality assurance 
+ functioning of the finance and human resource department of the MNRSP 
+ mail tools, tools for filing and archiving, and other office tools 
+ functioning of InfoURSJV and other SNSA databases 
+ regulations and instructions for accounting for travel orders 
+ management of modern network technologies 
+ architecture and operation of the main functions of SNSA computer hardware 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 23 
+ 
+ housework 
+ instrumentation for measuring ionizing radiation 
+ business protocol 
+ editing web pages 
+ general fire safety 
+ etc. 
+To assess the ratio between the needed “professional” vs “support” roles at SNSA, each task group was reviewed 
+in terms of required competencies. Tasks groups which require mainly support competencies were identified as 
+support task groups, while other were recognized as professional ones. Person-days for each task group were 
+calculated, and then separated into “professional role” and “support role” person-days. Where required, 
+detailed review of each task in the task group was performed in the same terms. 
+By identifying and separating support and professional tasks, instead of just counting person-days of 
+“professional and support organizational units”, we distinguish support and professional roles in each unit, since 
+there are many tasks at SNSA which are performed by professional staff, even though the required competencies 
+for the task are of support nature (e.g., task “management of administrative statistics” performed by 
+professional staff of the Radiation Safety Section or Inspection Division). 
+Figure 16 shows the ratio of professional vs support roles for each of the task groups. As can be seen, some task 
+groups are very “professional” in nature, while there are a few, which are purely supportive. In addition, there 
+are also many task groups that contain tasks of both types, professional and supportive. Total ratio of 
+professional vs supportive roles is 86% : 14%. 
+ 
+ 
+Figure 16: Ratio of professional vs support role in task groups 
+In addition, Figure 17 shows how this ratio is reflected in the relative workload distribution by task groups. 
+Considering the ratio of professional vs support tasks, and taking into account the current number of staff (42), 
+the SNSA should employ approximately 36 professional and 6 supportive staff. However, SNSA actually has only 
+two support posts foreseen, the business secretary and her assistant in the SNSA's main office. All other posts 
+are professional ones. The main reason is of course a very low number of total SNSA staff that is required to 
+perform a large number of professional tasks. With a smaller number of support posts, SNSA can employ so 
+many more professional staff, which of course means that the professional staff must also perform supportive 
+tasks. 
+ 
+
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 24 
+ 
+ 
+Figure 17: Task groups workload distribution with professional vs support ratio 
+Table 2 shows the current number of SNSA staff distributed in organizational units. In addition, the ratio between 
+professional and support tasks is given, based upon which approximate numbers of professional and support 
+staff in each organizational units are calculated, i.e., how many staff in each unit are working on professional vs 
+support tasks. These numbers are rather simplified, as in the selected organizational unit usually it is not the 
+case that only one person performs all support tasks, while the other perform only professional tasks. 
+Table 2: No. of staff in organizational units with professional vs support ratio 
+Organizational unit No of 
+staff 
+Professional 
+role 
+Support  
+role 
+Professional 
+staff 
+Support  
+staff 
+Director 1 100% 0% 1 0 
+IMS manager 1 98% 2% 1 0 
+General Affairs Service 3 30% 70% 1 2 
+Nuclear Safety Division 12 99% 1% 12 0 
+Radiation Safety Section 8 95% 5% 8 0 
+Monitoring Section 3 89% 11% 3 0 
+Safeguards & Security 1 98% 2% 1 0 
+Inspection Division 5 98% 2% 5 0 
+International Cooperation 3 53% 47% 2 1 
+Emergency Preparedness Division 3 83% 17% 2 1 
+Cyber Security Division 2 75% 25% 1 1 
+Total 42 86% 14% 36 6 
+ 
+What these numbers can offer is a goal towards which the SNSA should strive to if the number of staff would 
+eventually increase. The current ratio is 95%:5% (professional vs support SNSA staff), because as mentioned 
+above, with such a low number of employees, SNSA needs as many professional staff as possible. With a gradual 
+increase of the employees, this ratio should be brought as close as possible to the ratio of 86%:14%, as this 
+represents the optimal employment structure (having professional staff perform support tasks is not an optimal 
+use of human and financial resources). 
+ 
+
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 25 
+ 
+3 OVERVIEW OF COMPARABLE REGULATORY BODIES IN EU 
+There are 12 EU countries, which have operating NPPs. Some of those countries have larger nuclear power 
+programs (such as Finland, France, Spain), which also results in much bigger regulatory bodies. There are also a 
+few countries with smaller nuclear program, operating 1 to 2 nuclear reactors, such as Bulgaria, Romania and 
+the Netherlands. Some of these are not really the best example of a stable and effective regulatory body, as it 
+is known (from their reporting under the Convention on Nuclear Safety) that they have various difficulties, such 
+as funding and/or high staff turnover. In Table 3, basic data on all EU countries with operating NPPs is given. 
+Table 3: Regulatory authorities (RA) in EU countries operating NPPs 
+EU Country No of 
+reactors 
+Regulatory 
+authority 
+No of 
+staff Comment 
+Belgium 5 FANC 224 FANC (150 staff) is the main RA in Belgium, while Bel V (74 
+staff) is the FANC’s technical subsidiary 
+Bulgaria 2 BNRA 94 Problems with retaining staff 
+Czech Republic 6 SÚJB 218  
+Finland 5 STUK 350 126 staff in department of Nuclear Reactor Regulation and 27 
+staff at department of Nuclear Waste and Material (in 2018) 
+France 56 ASN 483 263 staff in head office, 216 in regional offices + 4 abroad 
+Hungary 4 HAEA 206 Around 150 professional staff; Hungary is in the process of the 
+new NPP construction  
+Romania 2 CNCAN 170 Problems with retaining staff 
+Slovak Republic 5 ÚJD SR 121  
+Slovenia 1 SNSA 42  
+Spain 7 CSN 439  
+Sweden 6 SSM 297  
+The Netherlands 1 ANVS 155  
+ 
+As can be seen from Table 3 above all of the EU regulatory bodies are much larger (in terms of staff number) 
+than SNSA. Among the listed regulators, the Bulgarian regulator, BNRA, has the second lowest number of 
+employees (94), which is still more than twice as much as SNSA. Other comparable regulatory authorities, such 
+as Slovak Republic's ÚJD SR, the Netherlands' ANVS, Romanian CNCAN, or Hungary's HAEA all have between 120 
+and 206 employees, which is three to five times higher than SNSA. 
+Most of these regulators perform the same scope of work as the SNSA with the exception of some RAs that, in 
+addition, perform work in the field of radiation protection of patients, medical surveillance of exposed workers, 
+radiological surveillance of workplaces, dosimetry and dose registers, which are not the responsibilities of SNSA. 
+However, these responsibilities represent only a relatively small portion of additional work. 
+Likewise, it must be emphasized that a larger number of operating reactors does not result in a proportionally 
+equal increase in the workload and/or the number of required experts, because many tasks of the regulatory 
+body stay the same (in terms of volume) even with a larger number of reactors. A detailed review of the SNSA's 
+tasks and identification of tasks whose scope would increase (mainly in the processes of Nuclear safety and 
+Inspection) shows that each additional reactor would mean an approximately 15-20% increase8 in the total SNSA 
+workload. 
+ 
+8  This assessment is of course only valid when the reactor is already in operation (built reactor with an issued operating license). For 
+licensing the construction of a new unit and for overseeing the construction of a nuclear reactor, the amount of additional work 
+would be much larger (this estimate is outside the scope of this study). 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 26 
+ 
+Although a smaller number of staff could (and probably does) mean greater efficiency of an organization, this 
+does have its own limitations. One of the biggest problems with a smaller RA is overburdening of employees, as 
+each expert has to bear a greater workload if compared with larger RAs. Likewise, with a smaller number of 
+people it is absolutely necessary to optimize the work, so some tasks cannot be given enough attention or less 
+attention is given than it should be. This can also lead to a drop in the quality of the work done, and in the worst 
+case to mistakes with more severe consequences. 
+Another problem of small number of staff (even with the highest possible efficiency) is ensuring sufficient 
+expertise, since in order to ensure adequate nuclear and radiation safety, a variety of competencies are needed, 
+which with a smaller number of people is more difficult and sometimes impossible to guarantee (e.g., the 
+authors of the study are aware of a fact that SNSA lacks experts in the field of electrical engineering both in 
+authorization and supervision field of work). 
+In regards to the size of nuclear program it is obvious that the Dutch ANVS would be the most suitable regulatory 
+authority for comparison against the SNSA. The second most suitable would be the Bulgarian BNRA, and/or 
+Romanian CNCAN, although both of these have reported on having problems with retaining experts, so the 
+adequacy of their staff number is questionable. All other regulators (except Belgian) have in recent years 
+expanded dramatically the number of their staff mostly to prepare for licensing of construction of the new 
+nuclear reactors. 
+Out of the three above mentioned RAs, it is apparent that ANVS is the best candidate for the comparison. Besides 
+the fact that it regulates the same number of power reactors, the ANVS is most modern, state-of-the-art RA, as 
+it was newly established in 2015 based on recommendations of the IAEA IRRS mission from 2014. Not only that, 
+ANVS is an example of learning and developing RA, as it has already made several smaller upgrades of its 
+organizations with the aim of improving efficiency and obtaining higher level of work quality. In addition, similar 
+to SNSA it uses a considerable amount of external expert support in its work, which is a very important aspect 
+when comparing the two regulators. In the following chapters ANVS is described, analyzed and compared to the 
+SNSA.  
+3.1 DESCRIPTION OF ANVS9 
+Before 2015 the Ministry of Economic Affairs was the principal responsible authority for conducting the 
+regulatory process under the Nuclear Energy Act and for the main functions of the regulatory body, such as 
+preparation of legislation, issuing licenses on the radiation protection part of the Nuclear Energy Act, performing 
+supervision, etc. Besides the Ministry of Economic Affairs several other entities had responsibilities related to 
+Nuclear Energy Act, including Nuclear Installations and Nuclear Safety Directorate, Radiation Protection & 
+Society (a special team within the Ministry of Economic Affairs), and The Nuclear Inspectorate. 
+In 2015 a new independent organization was established by merging the above-mentioned organizations into 
+the so called Authority for Nuclear Safety and Radiation Protection (ANVS). ANVS was first established as a 
+directorate within the ministry of Infrastructure and the Water Management, operating under mandate of the 
+Minister. In 2017, following approval and entry into effect of the necessary legislation, the ANVS became an 
+independent administrative authority, with its own legal authorities.  
+ANVS is led by two Board Members who are not civil servants, but have been officially appointed as independent 
+Board Members that are in charge of the ANVS. The staff of the ANVS are employed by the Ministry of 
+Infrastructure and the Water Management as civil servants but work for the Board. 
+The ANVS has the following responsibilities: 
+ Granting licences for nuclear facilities in the Netherlands; 
+ Regulating all other radiation practices by licensing or notification and registration; 
+ 
+9 The information about ANVS was gathered from references [10], [11], [12], [13], and [14]. 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 27 
+ 
+ Supervising and enforcing compliance with requirements by or under the Nuclear Energy Act, which 
+includes supervision of the radiological safety of workers at the nuclear installations; 
+ Advising on policy and legislation and regulations on the basis of its specific knowledge and expertise 
+(evaluating and preparing policies, acts and regulations is the responsibility of the Ministry of 
+Infrastructure and Water Management), and participating in the definition of regulations on nuclear 
+safety; 
+ Maintaining the Emergency Preparedness and Response organisation together with various partners; 
+ Informing interested parties and the general public; 
+ Participating in relevant activities of international organisations (as related to the Nuclear Energy Act); 
+ Maintaining relationships with comparable foreign authorities and relevant national and international 
+organisations; 
+ Supporting national organisations with the provision of expertise and knowledge. 
+When established in 2015 the ANVS employed 122 of staff. In 2016 the ANVS performed a special study on the 
+tasks, the required staffing level and costs related to its operation. The conclusion of the study was that 
+additional workforce is needed, thus the number of employees was increased to 141 (including 2 board 
+members). Later, the number of employees increased further due to the expected construction project of a new 
+research reactor, PALLAS in Petten, due to the growing need for new information technologies and to ensure 
+adequate cyber security. Today ANVS employs 155 of staff. 
+In addition, for tasks in areas where ANVS does not have enough competence or when special detailed analyses 
+are required, ANVS uses Technical Support Organizations (TSO). For this purpose, ANVS has a special budget to 
+hire the services and knowledge of external contractors. ANVS also uses external expert contractors for tasks 
+that require additional human resources, such as PSRs of nuclear installations or pre-licensing of new nuclear 
+facilities (e.g., PALLAS research reactor). The main ANVS TSOs are: 
+ National Institute for Public Health and the Environment (RIVM), 
+ RID/R3 organisation at the Technical University in Delft, 
+ Nuclear Research & consultancy Group (NRG) in Petten and Arnhem, 
+ German GRS (Gesellschaft für Anlagen- und Reaktorsicherheit), and  
+ Belgian Bel V (the technical subsidiary of the Belgian nuclear regulator FANC). 
+3.2 ORGANIZATION AND FUNCTIONS OF THE ANVS 
+As depicted on Figure 18, ANVS is led by the board, which consists of two members, the board chairman and his 
+deputy. The board is responsible for the long-term strategy of the organization, for all legal decisions and has 
+final responsibility for the ANVS. 
+There are two main departments, the Competent Authority Department and Assessment & Advice Department, 
+which are supported by the Business Operations and Information Department. Each department has one 
+director. The roles and tasks of the departments are described below. 
+ 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 28 
+ 
+ 
+Figure 18: ANVS organization chart 
+COMPETENT AUTHORITY DEPARTMENT, DBG 
+The purpose of the Competent Authority Department is to fulfil the role of competent authority of the ANVS in 
+the fields of nuclear safety and radiation protection (including the transport of fissile materials, ores and 
+radioactive materials), as well as security and safeguards. 
+Competent Authority Department fulfils the role of competent authority in the following fields: 
+ Radiation applications in all possible sectors (e.g., in the medical or industrial sector); 
+ Nuclear installations; 
+ Transport of fissionable materials, ores and radioactive materials. 
+Following are the main tasks and responsibilities of the Competent Authority Department: 
+a. Granting authorizations (permits, registrations, specific exemption/release and approvals, and 
+instructions from inspection bodies), (re)registrations of radiation experts and doctors, approvals of 
+decommissioning, termination, security and operational contingency plans, certificates and validations 
+of transport containers, and reviewing notices and reports; 
+b. Carrying out supervision and enforcement in specific task field, and the responsibilities related to the 
+planning, executing and coordinating supervision and enforcement within its field of responsibility, 
+including the associated interventions; 
+c. Drafting and coordinating the annual supervision plan (together with Assessment & Advice 
+Department); 
+d. conducting and coordinating assessments of notifications and reports; 
+e. Aligning supervision and enforcement with other inspectorates; 
+f. Giving and processing executive and supervisory signals; 
+g. Substantive contribution to the development of the instruments for the primary tasks under a, b c and 
+d including implementation policy, aimed at fulfilling its role as competent authority; 
+h. Placing implementation issues on the agenda; 
+i. Ensuring uniform implementation within the work fields; 
+
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 29 
+ 
+j. The close assessment of safety documentation for the primary tasks referred to under a, b, c and d 
+cooperation with the specialist advisers and inspectors of Assessment & Advice Department. 
+In the substantive interpretation and practical implementation of the responsibilities referred to under a, b, c 
+and d, an extensive use of the available expertise at Assessment & Advice Department (DBA) is made. Both 
+departments cooperate very closely in all the mentioned areas, therefore, good communication and clear 
+agreements on cooperation are of great importance. 
+Competent Authority Department consists of 4 teams and is managed by a director. It is divided into two 
+“Licensing” and two “Supervision and Enforcement” teams, namely: 
+ The Radiation Applications Licensing Team focuses on the authorization of radiation applications 
+(including permits, registrations, specific exemption/release and approvals) and registrations of 
+radiation-experts and doctors; 
+ Nuclear Installations and Transport Licensing Team focuses on the field of authorizations of nuclear 
+installations and transport (including permits, certificates, validations), preparing for new nuclear 
+initiatives (together with Assessment & Advice Department) in response to developments in the 
+coalition and the market; 
+ Radiation Applications Supervision and Enforcement Team focuses on supervision and enforcement in 
+the field radiation applications; and 
+ Nuclear Installations and Transport Supervision and Enforcement Team focuses on supervision and 
+enforcement in the working field nuclear installations and transport. 
+ASSESSMENT & ADVICE DEPARTMENT, DBA 
+Assessment & Advice Department (DBA) advises, supports and feeds all primary tasks of the ANVS from the 
+various specialist knowledge functions that are housed in this department. It fulfils the advisory role of the ANVS 
+in the field of nuclear safety and radiation protection, related emergency preparedness, as well as security and 
+safeguards. The department fulfils this role for the benefit of internal and external parties. A wide range of 
+expertise is bundled in this department: in addition to nuclear safety and radiation protection, it also performs 
+assessments and specialist inspections on behalf of the competent authority, as well as the development of 
+implementation policy. Legal affairs, external and internal communication, external relations, public 
+information, coordination of knowledge, research programming, international missions and reports, and 
+emergency preparedness, are also assigned to the this department. 
+Main tasks and responsibilities of the Assessment & Advice Department are: 
+a. Carrying out assessments and specialist inspections; 
+b. Providing international reports (e.g., Convention on Nuclear Safety, Joint Convention, Topical Peer 
+Review, etc.); 
+c. Preparing inspection reports; 
+d. Purchasing technical support, such as a TSO's or other professional knowledge; 
+e. Providing internal and external communication and (public) information; 
+f. Coordinating and participating in international activities; 
+g. Collaborating with comparable foreign authorities of neighbouring countries, including through the 
+exchange and sharing of information; 
+h. Maintaining relationships with, among others, foreign authorities and national and international 
+organizations; 
+i. Supporting national organizations with knowledge; 
+j. Coordinating, conducting and commissioning research for the performance of the ANVS tasks; 
+k. Setting up and maintaining ANVS-wide feedback mechanisms in the context of continuous improvement 
+(including OEF); 
+l. Drawing up implementation policy (in collaboration with Competent Authority Department); 
+m. Ensuring emergency preparedness; 
+n. Advising on policy, legislation and regulations based on its specific knowledge and expertise; 
+o. Drawing up ANVS regulations; 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 30 
+ 
+p. Taking care of the legal input and guaranteeing the legal quality of ANVS products (such as decisions, 
+letters and guidelines) and processes (such as objection and appeal procedures). 
+Within the Assessment & Advice Department are also the specific roles of Chief Legal Officer, Chief 
+Communication Officer and General Coordinating Expert on Radiation Protection. 
+In addition, this department actively contributes to the legal tasks for which the final responsibility lies with the 
+Competent Authority Department (referring to the enforcement letters and the decisions). Assessment & Advice 
+Department does this through assessments, specialist inspections and advice.  
+Technical content, organizational, legal and communicative knowledge comes together in the products of this 
+department. The department guarantees the quality of the substantive consideration or assessment and 
+ensures that the products address the needs of the recipient, whether internal or external. 
+Assessment & Advice Department consists of five teams that are managed by a director, namely: 
+ Radiation Protection, Waste and Decommissioning Team, focuses on the knowledge areas of radiation 
+protection, radioactive waste, decommissioning, chemistry, process technology and emergency 
+preparedness and response, both for nuclear and non-nuclear sectors. By carrying out assessments and 
+specialist inspections (or having them carried out), this team supports the Competent Authority 
+Department in its role. The team actively contributes to Competent Authority Department's supervisory 
+programming in its own areas of expertise. 
+The team advises on the creation of legislation and regulations, policy and implementation policy, both 
+within the ANVS and to government partners. In addition, this team is responsible for the management 
+of emergency preparedness organization, and for the research coordination in the field of radiation 
+protection; 
+ Nuclear & Organizational Expertise Team focuses on the various technical knowledge areas that 
+together ensure nuclear safety, human and organizational safety aspects, physical protection, 
+cybersecurity and non-proliferation. By carrying out assessments and specialist inspections this team 
+supports the Competent Authority Department. The team actively contributes to the supervisory 
+Competent Authority Department's programming. In addition, the team is responsible for managing the 
+research coordination in the fields of the team's areas of expertise; 
+ Legal Affairs Team is responsible for the legal assurance of all primary processes of the ANVS, taking 
+care of legal administrative procedures (including disclosure of public information) and complaint 
+handling, handling objections and taking care of the legal input in administrative proceedings, providing 
+legal advice, advising from a legal point of view on legislation and regulations in the entire field of activity 
+of the ANVS, drawing up ANVS rules and regulations and the legal preparation of decisions. The team 
+leader is also Chief Legal Officer and has thus a direct line with the board; 
+ Implementation Policy & Advice Team develops and advises on legislation and regulations and 
+(implementation) policy, on all knowledge areas of nuclear safety, radiation protection and security. In 
+addition, the team takes care of internal cohesion within the ANVS and alignment with the stakeholders 
+involved. Finally, the team coordinates international missions; 
+ Communication & Public Information Team conducts the directing of the ANVS communication. The 
+team interprets the communication from the role of independent authority, the desired positioning as 
+a competent authority and looking at the statutory tasks. The team leader is also Chief Communication 
+Officer and therefore has a direct line with the board. 
+In addition to five teams, DBA contains the Office for Executive Affairs. This office provides coordination and 
+support for administrative affairs and international administrative matters. This is also where the substantive 
+and procedural preparations of the Management Team meetings and of the Advisory Board are done, as well as 
+the preparation of strategic, international consultations and bilateral contacts on the administrative level. It is 
+also responsible for coordinating the ANVS contribution to parliamentary and parliamentary letters 
+consultations and ANVS-wide strategic processes. 
+The team leader of the office also acts as the board secretary and strategic advisor, particularly focused on ANVS 
+strategic organizational processes, such as the vision document and the year planning cycle (in consultation with 
+Business Operations and Information Department). 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 31 
+ 
+BUSINESS OPERATIONS AND INFORMATION DEPARTMENT, DBI 
+Business Operations and Information Department takes care of all of the ANVS support tasks, such as: 
+a. Providing services to the organization in areas of: 
+- Personnel (including recruitment & selection, training & development, career planning, health 
+& safety); 
+- Information (including information flows, processes and archiving); 
+- Organization & Support (organizational advice and support); 
+- Finance & Purchasing (financial management and advice, planning & control and quality of 
+processes); 
+- Automation & Information provision/Information and communications technology (ICT) 
+(including information-driven working, cyber security, ICT, archiving and information security); 
+- Housing & Facilities (ensuring appropriate and clean working facilities in coordination with other 
+government real estate agencies, which take care of Government owned properties); 
+b. The department includes ANVS wide rolls: 
+- Chief Information Officer; 
+- Chief Information Security Officer; 
+- Data Protection Officer; 
+- Security Coordinator; 
+- Chief Financial Officer; 
+- Controller ANVS; 
+c. Management Support, Primary Process Support and ANVS Project Support; 
+d. Management of services shared by service organisations; 
+e. Transfer of Government-wide, Ministry-wide, and other external developments and obligations to the 
+ANVS organization and services provided by the department and representing ANVS in forums regarding 
+these developments. 
+Business Operations and Information Department consists of three teams, which are managed by the director, 
+namely: 
+ Administration Services & Control Team ; 
+ Information Technology, Services & Security Team; 
+ Support Team. 
+Each of the three teams has a team leader who, in addition to his "team leader" role, also performs his own 
+substantive and/or operational tasks. 
+3.3 OPERATION OF THE ANVS AND DIVISION OF RESPONSIBILITIES 
+In both main (substantive) departments (Competent Authority Department and Assessment & Advice 
+Department) the directors and the team leaders have a decision-making mandate for the areas for which they 
+are responsible. 
+Team leaders (in consultation with the director) draw up the frameworks of how work is to be performed within 
+each team. Within those frameworks, it is the employees who carry out the work on the basis of their 
+knowledge, skills and expertise. Team leaders provide leadership based on trust and are responsible for ensuring 
+that employees are adequately equipped to perform their duties properly. The “4- or 6-eyes principle” is used 
+(work and final results of each employee are reviewed by other employees in the same team; 1 or 2 reviewers, 
+depending on the importance of the work performed) to ensure the adequate quality as well as professional 
+autonomy of the team members. 
+The responsibility for the performance of all statutory tasks is always explicitly assigned to one specific 
+department. But this does not mean that all work required for completing that responsibilities are also by 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 32 
+ 
+definition carried out within this department. There are many tasks that transcend the boundaries of 
+teams/departments, as they require involvement of a whole spectrum of knowledge and expertise. 
+In outline, the division of responsibilities is as follows: 
+ Employees (as file holders) are the (operational) foundation of the organization and every employee is 
+responsible for the quality of his/her work, his/her own further development, making his/her own work 
+planning, seeking the necessary cooperation and commitment from colleagues (also from other 
+teams/departments) and monitoring the right work processes. When problems in task implementation 
+are identified, the employee is responsible for a timely escalation to the team leader. They are also 
+responsible for their contribution to the proper functioning of the team. 
+ Team leaders make the (tactical) transfer of the management's strategic course into the specific results 
+asked of the teams. Team leaders are responsible for the realization of the team annual plans and that 
+the realization processes within the teams run smoothly, that employees know what is expected of them 
+and what responsibilities they have and that employees are adequately equipped (knowledge and 
+competencies). For this purpose, the team leaders receive the responsibility for the human resources of 
+all employees in their team. They are the primary contact point for the employees and have insight into 
+the employee's range of tasks. They also have a responsibility for the quality of its team products. They 
+contribute to the strategic development within the team, which they form together with the department 
+director. The team leaders of the two main departments are supposed not to perform case work, but 
+are responsible for the effectiveness of their team and personal development/assessment of the 
+employees in their teams. 
+ Directors translate the long-term ANVS strategy into a strategic course for their own department. They 
+do this though the consultation with the board. In this way they give direction to the developments 
+within the departments and also coordinate them with their external counterparts, if necessary. They 
+are also responsible for the tasks for which the department is responsible (within the context and 
+interests of the entire ANVS) and translate this together with the team leaders into specific results for 
+the teams. 
+ The board is responsible for the long-term strategy of the ANVS as a whole. The board is the figurehead 
+of the ANVS to the outside world and represents the ANVS (inter)departmentally, (inter)nationally and 
+in the field at administrative level. In this way, the board gives direction to the course of the organization 
+at a strategic level. The board has final responsibility for the ANVS and therefore for the realization of 
+the mission and the fulfilment of the legal duties of the ANVS. 
+ The three directors, together with the board, form the Management Team. The Management Team is 
+assisted by a secretary. The formal administrative responsibilities for the functioning of the ANVS as a 
+whole lie with the board, however, the actual control takes place within the Management Team. The 
+Management Team is making decisions and determining strategy as a collective. It determines and gives 
+an integral interpretation to the course of the ANVS, sets out and monitors the main lines and takes care 
+of its concrete implementation within the departments. The Management Team also encourages 
+cooperation and synergy in the organization. The members of this team are accountable to each other 
+and to the organization. 
+3.4 ANALYSIS OF ANVS STAFF DISTRIBUTION 
+For the purpose of implementing this study the Consultant conducted a direct inquiry to the ANVS about its 
+organization, staff number and distribution of staff within organization units, how certain individual tasks are 
+performed and who performs them, what are the resources associated with specific activities, etc. 
+Currently, ANVS employs 155 staff (not counting two board members), which are divided into three separate 
+departments. The two main departments engage the majority of ANVS staff with 45 experts in the Competent 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 33 
+ 
+Authority Department (DBG), and 74 experts in the Assessment & Advice Department (DBA). The rest, 36 staff 
+(23%), is working in the Business Operations and Information Department (DBI), which as described above is the 
+ANVS support department. These 36 staff in the support department are all accounted as support 
+(administrative) staff, while staff in the main two departments are considered professional staff. Detailed 
+distribution of employees within the Dutch regulatory authority is given in Table 4 below. 
+Table 4: Distribution of ANVS staff by organizational units 
+Department/Team Deployed staff 
+Support Professional Total 
+Competent Authority Department, DBG 45 
+Regulatory Inspection & Enforcement - Nuclear Installations & Transport  13  
+Regulatory Inspection & Enforcement - Radiation Applications  10  
+Authorization - Nuclear Installations & Transport  10  
+Authorization - Radiation Applications  12  
+Assessment & Advice Department, DBA 74 
+Office for Executive Affairs  4  
+Communication & Public Information  9  
+Legal Affairs  13  
+Nuclear & Organisational Expertise  18  
+Radiation Protection, Waste & Decommissioning  16  
+Implementation Policy & Advice  14  
+Business Operations and Information Department, DBI 36 
+Administration Services & Control 10   
+Information Technology Services & Security 12   
+Support 14   
+TOTAL 36 119 155 
+ 
+The primary tasks of a regulator (authorisations, oversight, security/safeguards, international cooperation, 
+development of regulations & guides, etc.) is predominately performed by the teams in DBG, and roughly half 
+of DBA (Legal Affairs team, Nuclear & Organisational Expertise team, and half of the Radiation Protection, Waste 
+& Decommissioning team). This is really where the knowledge is and where the majority of work is performed. 
+Everything that is done within the ANVS requires these teams at least for input, but usually to do most or all of 
+the actual work. 
+Similar to SNSA, also at ANVS these two departments carry out their tasks in very close cooperation. This is 
+especially evident in the cooperation of the four DBG teams and two main teams in DBA, the Nuclear & 
+Organizational Expertise, and Radiation Protection, Waste & Decommissioning team. For example, the nuclear 
+authorization process itself (e.g., for a modification in a nuclear installation) is led and is responsible for it by 
+someone in the DBG's Nuclear Installations - Authorization team, who is supported by one or more experts from 
+the DBA Nuclear & Organizational Expertise team (providing support, additional knowledge and expertise). 
+Similarly, DBG's experts are responsible for carrying out inspections, while the DBA can support them in this, 
+and can also suggest carrying out special additional inspections. However, the ultimate responsibility for 
+inspections (and enforcement) rests with the DBG. 
+While the experts from the DBA's Nuclear & Organizational Expertise team are all specialists (inspectors / 
+reviewers), there are only 4 inspectors / reviewers in the Radiation Protection, Waste & Decommissioning team, 
+the rest of that team (12) are mostly engaged with other tasks (including emergency preparedness and response, 
+and knowledge management). Likewise, inspections for radiation applications are generally simpler and are 
+mostly performed only by the Radiation Applications Inspection & Enforcement team of the DBG. Five persons 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 34 
+ 
+from the Radiation Protection, Waste & Decommissioning team are working regularly on emergency 
+preparedness and response (development of procedures, implementation of training, planning exercises, etc). 
+It could be said that the DBG consists of operatives, experts who perform daily tasks in the areas of authorization 
+& inspection (whether nuclear or radiation safety), while the DBA (this applies especially to the Nuclear & 
+Organizational Expertise and Radiation Protection, Waste & Decommissioning teams) consists of experts with 
+great knowledge and experience that can be used both for everyday activities (such as supporting DBG in its 
+statutory tasks) or for other activities that require professional knowledge and experience. Thus, experts from 
+these two DBA teams devote roughly half of their time to the implementation of these other tasks, including 
+international cooperation (e.g., participation in OECD/NEA working groups, WENRA, IAEA, etc.), reporting, 
+drafting legislation, etc. 
+The goal of such an arrangement is primarily greater flexibility of the organization to a possible additional 
+increase in the number of employees in the future due to the construction of new nuclear plants or other 
+reasons. If all the nuclear safety expertise required for licensing of nuclear installations were allocated in one 
+DBG team, such a team would already be too large, and if enlarged additionally for the new NPP construction 
+licensing, it would be unmanageable (with one team leader). In contrast to this, the current ANVS organization 
+enables hiring additional staff without major reorganization. For new NPP licensing the basic DBG licensing team 
+(Authorization - Nuclear Installations & Transport) would be slightly increased, while the number of people in 
+the DBA's Nuclear & Organisational Expertise team can be increased practically without limitation. 
+In addition to the above, other tasks are performed in the DBA. The DBA Legal team supports all nuclear, 
+radiation and transport applications (which includes preparation of legal part of decisions), it takes care of legal 
+administrative procedures (including disclosure of public information), advises from a legal point of view on 
+legislation and regulations, and draws up ANVS rules and regulations.  
+The Office for Executive Affairs supports the upper management in administrative affairs, political questions, 
+preparation of international meetings, consultations and bilateral contacts. It also coordinates ANVS 
+contribution to parliamentary reporting. The team leader of the office also acts as the board secretary and 
+strategic advisor focused on ANVS strategic organizational processes, such as the vision document and the year 
+planning cycle. 
+Communication & Public Information team is comprised of communication professionals, which are responsible 
+for directing the entire communication of the ANVS through different channels (website, intranet, news items, 
+press releases, managing press interviews with selected experts, Twitter, etc.). The main purpose of the team is 
+to present the ANVS as competent and independent authority. The team leader is also Chief Communication 
+Officer and therefore has a direct line with the board. 
+The main role of the Implementation Policy & Advice team is of advisory nature; on areas of nuclear safety, 
+radiation protection and security, as well as in the development of legislation and regulations and 
+(implementation) policy. Besides that it is involved coordination of international missions. 
+The International cooperation activities (reporting for CNS, EC, ESNREG, IAEA, WGs, missions, peer reviews, etc) 
+are mainly done by experts from the two main DBA teams, the Nuclear & Organizational Expertise and Radiation 
+Protection, Waste & Decommissioning, supported by the Legal Affairs team. They are in smaller extent 
+supported by experts from DBG. The bigger activities (IRRS, CNS) are supported by colleagues from the Office 
+for Executive Affairs and Implementation Policy & Advice team, mostly for administrative support (coordination 
+of meetings, planning, etc). 
+Three teams in DBI provide basic support for the operation of the ANVS in all areas, including administrative 
+support for primary processes (mail processing, etc), secretaries, technical maintenance and purchasing, 
+information technologies, cyber security and data security of ANVS, recruitment of personnel, basic training and 
+career planning, health & safety, ANVS housing & facilities, etc. 
+ 
+ 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 35 
+ 
+4 COMPARISON AND ANALYSIS 
+We can says that SNSA's 41 positions (not counting Director) are deployed into 10 different organizational units. 
+Here we consider the Nuclear Safety Division as one unit, because the two separate sections, Analysis and 
+Licensing Section, and Operational Safety Section, basically perform the same work tasks (if considering 
+description on the SNSA web page the purpose of each section is different, but the review of the SNSA input 
+document [2] shows that staff in both sections perform more or less the same tasks). 
+Yet, to facilitate the comparison with ANVS, 2 of those 10 organizational units have been subdivided, in order to 
+consider that: 
+ staff in the inspection division are divided into inspectors performing inspections of nuclear installations, 
+and inspectors for performing radiation protection inspections, 
+ tasks in the General Affairs Service are quite well distinguished into “Main Office” and “Legal Affairs” 
+tasks. 
+To do a basic comparison in order to understand how the ANVS organization accomplishes the same tasks 
+performed by each SNSA unit, we have allocated the ANVS positions as described in previous chapter into the 
+above mentioned SNSA organizational units. The result of that allocation is visible in Table 5 below. Likewise, it 
+is visible from the table from which ANVS departments the positions were allocated. Same as for SNSA Director, 
+the two ANVS board members are not counted. 
+Table 5: Allocation of ANVS staff into “SNSA organizational units” 
+SNSA Organizational unit SNSA ANVS from DBG from DBA from DBI 
+Nuclear Safety Division 12 22 9 13  
+Radiation Safety Section 8 16 12 4  
+Inspection Division - Nuclear Installations 3 16 12 4  
+Inspection Division - Radiation protection 2 10 10 0  
+EPR Division 3 5  5  
+Monitoring Section 3 5  2 3 
+Safeguards & Security Section 1 3 2 1  
+International Cooperation Service 3 9  9  
+Main Office 2 14   14 
+Legal Affairs 1 13  13  
+Cyber Security (& IT) 2 12   12 
+IMS 1 1  1  
+Total 41 126    
+ 
+From the table 5 we can see some similarities, but also differences. Likewise, we can see that 29 ANVS positions 
+were not allocated. Those are mainly positions from the ANVS's Communication & Public Information team (9 
+positions), which is a special team that ANVS has formed with the purpose to shape and direct all ANVS 
+communication, 5 positions from the Radiation Protection, Waste & Decommissioning team that have a role of 
+managing human resources, 8 positions of the Implementation Policy & Advice team, which are senior experts 
+with wide knowledge and experience that have an advisory function in different tasks, and 7 positions from the 
+Administration Services & Control team, which cover finances and managing of ANVS facilities. 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 36 
+ 
+To make the comparison even more meaningful, the following differences must be taken into account: 
+ In addition to one NPP, ANVS supervises two large research reactors10 performing on average 15 
+inspections per reactor per year. This has an impact on the number of inspectors for nuclear 
+installations, as well as higher workload in the safeguards/security area;  
+ Likewise, the ANVS supervises one permanently shut down NPP (Dodewaard, 60 MWe), which is in so-
+called “Safe enclosure” (awaiting decommissioning); 
+ ANVS also supervises uranium enrichment facilities of Urenco Netherlands (uranium enrichment) and 
+Enrichment Technology Netherlands (ET-NL, development and production of centrifuge technology); 
+ Inspection on Radiation Protection mainly deals with users of radiation sources, of which number in the 
+Netherlands is relatively larger than in Slovenia (approximately 1200 vs 300 (see [15] and [16])). Also, 
+the ANVS's Radiation Applications Inspection includes supervision over the use of radioactive sources in 
+medicine, which in Slovenia is done by two inspectors of the SRPA; 
+ The same is with the ANVS's Radiation Applications - Authorization team, which besides tasks that are 
+done by SNSA's Radiation Safety Section also deals with authorization of use of radiation sources in 
+medicine. In Slovenia this is done by SRPA. 
+ In recent years the number of ANVS employees rose from 141 to 155: 
+- 5 additional staff were hired for the expected construction of the PALLAS research reactor 
+(inspectors / experts), which are considered as not required for SNSA;  
+- due to the increased use of IT technologies and the provision of cyber security (which deals only 
+with cyber security of the ANVS and not that of nuclear installations), 9 new IT & cyber security 
+experts were hired. Considering that a certain part of the IT services for SNSA are provided by 
+the Ministry of Public Administration, a slightly smaller number of IT specialists is required; 
+ The Legal Affairs team at ANVS is largely involved in the authorization procedures in a way it partly 
+prepares the authorisation decisions (the legal part). This results in a higher number of lawyers and 
+fewer experts. For SNSA it is considered better to keep the established process of preparing the 
+decisions - these are prepared in 95-99% by the experts, legal part is much smaller (review of draft 
+decisions according to legal bases). This way the pool of experts is larger, which means greater 
+competence of the SNSA and has a positive impact on other processes as well (reporting, international 
+cooperation, drafting legislation, etc.); 
+ ANVS has a larger number of basic support staff (14), which includes secretaries that support all teams 
+and all management; 
+ ANVS has a smaller ratio of professional vs support staff (77:23 against SNSA's 95:5). A larger number of 
+support staff is of course necessary for a larger number of total employees, but ANVS’s support also 
+includes tasks for which SNSA uses shared services or does not perform at all: 
+- SNSA has some shared services with its parent Ministry of Natural Resources and Spatial 
+Planning, such as human resources and finances, thus most of the work related to those areas 
+is performed by the Ministry and not by SNSA; 
+- from 2015 SNSA's IT services were provided by the Ministry of Public Administration, but in 
+recent years, the provision of IT services is gradually being transferred back to SNSA; 
+- cleaning of premises is organized and performed by other organizations. 
+ 
+ 
+ 
+10  Hoger Onderwijs Reactor - HOR (2.3 MW) and High Flux Reactor - HFR (45 MW), plus one subcritical assembly of which supervision 
+is negligible 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 37 
+ 
+5 PROPOSAL OF SNSA REORGANIZATION 
+If we take into account the comparison from the previous chapter and especially the mentioned facts that 
+represent the differences in the distribution of the amount of work between the various organizational units 
+of SNSA and ANVS, we come up with an adjusted number of SNSA positions, which takes into account the 
+proportionality of the workload of SNSA/ANVS staff in individual areas. Here, the main purpose of the 
+corresponding increase in the number of employees is to ensure sufficient adequate competencies and thereby 
+the maintenance of the quality of SNSA's work, which would otherwise become unsustainable. An additional 
+side effect of the increase in number of employees would be relieving the burden on staff by redistribution, 
+which would also have a positive impact on the quality of the work performed, thus increasing the nuclear and 
+radiation safety in Slovenia to a higher level. 
+The adjusted number of SNSA positions taking into account the analysis of workload and comparison with ANVS 
+is shown in Table 6 below. 
+Table 6: Proposal of adjusted number of SNSA positions 
+SNSA Organizational unit Current SNSA Adjusted SNSA 
+Nuclear Safety Division 12 20 
+Radiation Safety Section 8 15 
+Radiation and Nuclear Safety Inspection Division 5 8 
+Nuclear Installations 3 5 
+Radiation protection 2 3 
+EPR Division 3 4 
+Monitoring Section 3 4 
+Safeguards & Security Section 1 2 
+International Cooperation & Communication Service 3 4 
+General Affairs Service 3 5 
+Legal Support 1 2 
+Main Office 2 3 
+Cyber Security Division 2 4 
+IMS 1 2 
+Total 41 68 
+ 
+Here, in addition to the mentioned differences between SNSA and ANVS from Chapter 4, the following 
+suggestions were taken into account, which are based on the SNSA workload analysis: 
+ Surplus of legal experts (from ANVS) is divided into Nuclear Safety Division and Radiation Safety Section, 
+as experts in those units prepare most of the decisions themselves (as compared to ANVS); 
+ The International Cooperation Service is expanded to include tasks related to communication, because 
+as can be seen from the review of SNSA tasks, communication is an important activity that, in terms of 
+workload distribution, is comparable to Monitoring and Cyber security. 
+Likewise, for the above recalculation of positions needed in each organization unit it is believed, that any 
+specialization with only one expert available is unsustainable, e.g. in case of prolonged sick leave, or departure 
+(e.g., for the safeguards & security section).  
+A change of organization would imply a large revision of the management system, which might not be 
+sustainable by one person in the short term, thus the organization would benefit from a backup on this 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 38 
+ 
+function. This could also be achieved by allocation of part time work on IMS to a position in one of the other 
+units. 
+As can be seen from the table above, based on the analysis and comparison with ANVS, the final number of 
+employees at SNSA increases by 66%. Since the main goal of the proposal for this reorganization is greater 
+competence and a higher level of work quality, and with that enhanced radiation and nuclear safety, we see 
+that the highest increase is in the number of radiation and nuclear safety experts (Nuclear Safety Division, 
+Radiation Safety Section, Inspection Division, EPR Division, Monitoring Section, Cyber Security Division). The 
+rest of the increase is for the support tasks such as communication, main office, legal support, and IT. 
+At the first glance, this 66% increase in the number of SNSA employees/positions seems large. On the other 
+hand, it is a much smaller increase compared to other EU regulatory bodies, since in many of them the number 
+has doubled in the last 20 years, while some of them have increased their staff by a factor of 3 or more.  
+Here it is also important to consider the actual increase in the amount of work during last 20 years, which 
+among other includes: 
+ Introduction of periodic safety reviews (PSR) - in Slovenia, the first PSR was implemented in 2001 for the 
+Krško NPP, which was later followed by PSR of TRIGA research reactor, and other facilities. PSRs, which 
+are performed every 10 years, last from 2 to 3 years (plus additional 5 years for improvements' 
+implementation oversight), and include up to 20 experts from the regulatory body and thus represent a 
+huge additional burden; 
+ IRRS and other peer review missions are now performed regularly (as required by the amended EU 
+Nuclear Safety Directive). These missions also require the involvement of almost entire regulatory body 
+and last several years (i.e., preparation for the mission, implementation of the mission, implementation 
+of suggested improvements, implementation of the follow-up mission);  
+ EU topical peer reviews were introduced in 2016. These represent another form of peer review, which 
+similarly last several years and involve several RA's experts in the preparation of reports, participation 
+in peer review of other facilities, several years of reporting on the improvements, plus participation of 
+the experts in the development of each peer review topic and review's specifications;  
+ New regular reporting have been established, such as reporting to EC, IAEA's Country Nuclear Power 
+Profiles (CNPP), regular reporting on events and operating experience in nuclear facilities (e.g., IRS), etc.; 
+ There is ever more participation of RA’s experts in various international organizations including IAEA, 
+WENRA, ENSREG, HERCA, OECD/NEA and their topical working groups; 
+ New nuclear facilities are being built. In the last five years, SNSA has spent a lot of time and effort 
+reviewing the applications for issuance of construction licenses for the repository of low- and 
+intermediate-level radioactive waste, as well as for the spent fuel dry storage facility; 
+ The Radiation Safety Section is responsible for control over the radioactive waste management in 
+Slovenia including licensing of new disposal facility that requires detailed knowledge on operational 
+safety as well as post-closure safety and for which no additional staff was employed; 
+ The use of radioactive sources has increased in last 20 years. If counting radioactive sources’ users in 
+Slovenia, one can see ([16] and [17]) that this number has increased by almost 70% (from 175 in 2003 
+to 296 in 2022); 
+ In addition to increase in radioactive sources´ users in last 20 years, also the licensing procedures have 
+changed, requiring detailed review and assessment (since 2017 review of assessment of radiation 
+protection programme was transferred from SRPA to SNSA, detailed record keeping of health 
+certificates, education and RP training certificates for all exposed workers are maintained,…); 
+ Additional new area of work emerged in last years is the control of consumer products and building 
+materials;  
+ Cyber security likewise represents a new area of tasks (e.g., development of regulations in the area, 
+review and assessment of cyber security programmes in nuclear facilities, performing cyber security 
+inspections, etc.) and thus an additional workload;  
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 39 
+ 
+ Maintenance of the Information Security Management System, based on the new requirements from 
+the Information Security Act; 
+ Since 2019 the SNSA has a new responsibility in the field of critical infrastructure risk assessments and 
+provides regulation support to entities (licensees) in the environment protection sector (CER directive);  
+ The reporting periods to European Commission, stipulated in the Decision on the Union mechanism in 
+the field of civil protection (EU 2021/836 Directive), have been shortened by the end of 2020 and the 
+risk assessment and the assessments of the ability to manage the risk now have to be prepared every 
+three years (every five years previously), thus requiring SNSA to prepare related documentation 
+(hazard assessment) more frequently;  
+ Due to changed international standards additional human resources are needed for efficient and 
+systematic development and implementation of EPR training, together with the implementation of 
+general systematic approach to training of SNSA's employees in general (SAT-URSJV); 
+ SNSA took over the complete maintenance of the early warning network that was formerly done by the 
+meteorological service. In addition to that, a complete overhaul of the whole network (65 stations) had 
+to be performed and new spectroscopic deposition detectors had to be installed; 
+ Independent verification monitoring of operating facilities was introduced at the request of the 
+European Commission; 
+ To optimize its operation, SNSA established its IMS in 2007, which at that time was comprised of only 
+30 procedures. Today SNSA’s IMS includes over 160 procedures, an increase, which for itself speaks 
+about the increase of SNSA working areas and workload. IMS with so many guiding documents helps to 
+streamline the SNSA activities, but on the other hand, its regular updating and maintenance requires 
+additional human resources; 
+ Additional new area added to the SNSA workload is assessment of safety culture at nuclear facilities 
+(and also safety culture self-assessment) required by modern international nuclear safety standards; 
+ In the past, the legislative requirements, once established, were not changed for more than 10-20 years. 
+In contrast, today regulation is constantly being benchmarked, harmonized and upgraded. 
+This increase of workload was followed at other EU regulators by gradually increasing the number of their staff, 
+while SNSA, on the other side, kept the number of employees unchanged. Thus, it is obvious that the proposed 
+increase in the number of staff is logical and justified. 
+Additional justification for the increase of SNSA staff number is the sustainability of knowledge management. 
+Highly competent experts are extremely important for maintaining an adequate level of nuclear and radiation 
+safety. Within this industry specific knowledge and competencies are used, which are not readily available on 
+the labour market (especially in a country with such a small nuclear programme), and which require years of 
+schooling and education to acquire. This is precisely why knowledge management is extremely important, and 
+why every nuclear regulator must have developed knowledge management processes (which SNSA also has 
+within its IMS). Nevertheless, the small number of people in the organization, which must cover all the 
+necessary competencies in the fields of nuclear and radiation safety, can represent a big problem in the 
+knowledge management process. First, such a large set of competencies as required by a nuclear regulator is 
+already difficult (perhaps impossible) to distribute to such a small number of people. In addition, the small 
+number of employees further complicates the proper transfer of knowledge, since competencies for which 
+backup is required cannot be transferred due to the workload and staff shortage. Thus, with each departure of 
+an employee (e.g., retirement, leaving for another job, etc.), knowledge is lost and it is almost impossible to 
+replace it in a relatively short time (three to five years). 
+ 
+One other important thing is visible from the above table and that is the great fragmentation of the SNSA 
+organization. In the table we can see 9 organizational units (not counting IMS), but if we take into account that 
+we have already combined the Nuclear Safety Division and its sections into one unit, and that there is another 
+manager in charge of the Radiation, Safety and Materials Division, which is the umbrella unit for Radiation 
+Safety Section, Monitoring Section and Safeguard & Security Section, we see that SNSA has a total of 12 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 40 
+ 
+organizational units, and thus 12 individual manager positions (29% of current staff, or 18% of adjusted staff 
+number). 
+Even more striking is that several of these managers lead only two people, and even worse, one (Cyber Security 
+Division) or none (Safeguards & Security).  
+In contrast, we see that ANVS has a much smaller manager/worker ratio (i.e., 10%), as 16 managers (3 directors 
+and 13 team leaders) lead the other 139 employees. An individual team leader leads on average 12 people, 
+only two units have less than 10 staff (one with 4 and one with 9), while the largest units have between 14 to 
+18 people. As it is visible from the SNSA workload distribution analysis, some of the SNSA leaders (especially of 
+the smaller units) spend more than 10% and even up to 15% of their time for leading one or two people, which 
+seems very ineffective. If we count the days of those leaders dedicated to management of those units, we get 
+that 1.3 man-years is spent for leading 10 people (compared to less than 1 at ANVS), which, of course, is not 
+optimal utilization of staff. 
+Therefore, besides increasing the number of staff as presented in Table 6, another suggestion is to do a 
+reorganization of SNSA's organizational units.  
+ 
+ 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 41 
+ 
+6 SNSA RECRUITMENT AND TRAINING PLAN 
+ 
+6.1 SNSA RECRUITMENT PLAN 
+The employment of additional SNSA staff should take place gradually, probably over 3-4 years, firstly, because 
+today, due to low unemployment, it is already so difficult to get (highly) educated people for any job, and 
+secondly, because the rapid recruitment of additional staff represents an additional burden on existing experts 
+who will have to train and mentor the new employees. 
+It is suggested that the number of new hires proportionally follows the difference between the new and existing 
+number of employees by individual organizational units, while taking into account the already mentioned 
+burden on existing staff due to the necessary training. Table 9 shows the proposal of additional staff 
+recruitment plan in three years for the “no reorganization” scenario, the same approach should be applied also 
+to the two scenarios involving reorganization. 
+Table 7: Proposal of SNSA recruitment plan 
+SNSA Organizational unit Current 
+SNSA  
+New employments SNSA  
+final No Year 1 Year 2 Year 3 
+Nuclear Safety Division 12 3 2 3 20 
+Radiation Safety Section 8 3 2 2 15 
+Radiation and Nuclear Safety Inspection Division 5 2  1 8 
+Nuclear Installations 3 1  1 5 
+Radiation protection 2 1   3 
+EPR Division 3  1  4 
+Monitoring Section 3  1  4 
+Safeguards & Security Section 1   1 2 
+International Cooperation & Communication Service 3  1  4 
+General Affairs Service 3 2   5 
+Legal Support 1 1   2 
+Main Office 2 1   3 
+Cyber Security Division 2 1  1 4 
+IMS 1 1   2 
+Total 41 12 7 8 68 
+ 
+ GENERAL EDUCATION OF NEW STAFF 
+As far as the new employments in the General Affairs Service and International Cooperation & Communication 
+are concerned, there are no major specialities. In the Main Office it is necessary to employ an administrator, in 
+Legal Affairs a lawyer, while in International Cooperation & Communication the most important competence, 
+in addition to good knowledge of international relations, is excellent command of English. 
+A little more attention should be paid to new hires in the Nuclear Safety Division, Radiation Safety Section, 
+Emergency Preparedness Division and Inspection Division. Here, it is necessary to take into account the 
+education and competencies of the currently employed experts compared to the needs of SNSA, which change 
+regularly due to new challenges, staff leaves, etc. In general, for its professional work, a regulatory authority 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 42 
+ 
+needs all the basic knowledge of the natural sciences (physics, chemistry, geophysics, seismology, geology, 
+hydrogeology and meteorology) and technical sciences (construction, geodesy, mechanical engineering, 
+electrical engineering, metallurgy, computer science and informatics), which must be properly balanced. For 
+Emergency Preparedness Division experts in management and educational sciences are also very needed. 
+This is then supplemented by additional education and training with the specific knowledge and skills required 
+for the work of a regulatory body, such as nuclear technology, reactor physics, radiation protection, physical 
+protection, deterministic and probabilistic safety analyses, knowledge of severe accidents, fire protection, 
+environmental qualification, etc. 
+In 2010, SNSA prepared a study of the necessary personnel for licensing the construction of a new nuclear 
+power plant [18], in which, based on the experience of the US NRC, it made an assessment of the necessary 
+basic knowledge and specific competencies of the nuclear regulatory body. Although this study is done 
+specifically for NPP construction licensing, these results, with appropriate adjustments, can be very nicely used 
+to determine the approximate distribution of basic qualifications and additional specific competencies of 
+SNSAs. 
+Thus, taking into account the result of the SNSA study [18] the (very approximate) ratio is proposed in Figure 19 
+for the distribution of the basic education of experts in the Nuclear Safety Division, Inspection Division, and 
+Radiation Protection Division. 
+ 
+ 
+Figure 19: Distribution of the experts’ basic education  
+It should be emphasized here that it is not absolutely necessary to follow the above arrangement exactly, as 
+this is often not possible (very much depends on the available experts on the labour market). Here, it is mainly 
+advised to plan employment in such a way that the basic education structure is at least approximately in this 
+ratio (±5%), so that the situation does not arise where, for example, the Inspection Division employs 5 
+machinists, 2 physicists and no electrical engineer or other technical profession. 
+6.2 SNSA TRAINING PLAN 
+In addition to basic education, additional education and training is equally, if not more important, with which 
+personnel acquire the specific competencies necessary for work in the RA, such as the above-mentioned 
+nuclear technology, reactor physics, radiation protection, physical protection, deterministic and probabilistic 
+
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 43 
+ 
+safety analyses, knowledge of severe accidents, fire protection, environmental qualification, and in addition to 
+these, knowledge of legislation and regulation in the field, systems of nuclear facilities, event analysis, aging 
+management, surveillance activities, radioactive releases and assessment of effective doses, transport of 
+radioactive material, use of radioactive sources, radioactive waste, emergency preparedness, etc. 
+Some of this knowledge is usually acquired by attending various IAEA workshops and training courses, but it is 
+very important and beneficial if the RA developpes its own training system, as this speeds up the acquisition of 
+relevant competencies required for the independent work of experts. 
+SNSA has developed its “Systematic Approach to Training” (SAT), which is based on IAEA TECDOC 1254 
+“Training the staff of the regulatory body for nuclear facilities: A competency framework”, and adjusted to later 
+issued IAEA Safety Reports Series No. 79, “Managing Regulatory Body Competence”, and TECDOC 1757, 
+“Methodology for the Systematic Assessment of the Regulatory Competence Needs (SARCoN) for Regulatory 
+Bodies of Nuclear Installations”. SNSA's SAT (or SAT-URSJV) is established and described in the SNSA's internal 
+procedure OP 1.60, “Skrb za razvoj sodelavcev URSJV” [19]. 
+SAT-URSJV is used for: 
+ identification, analysis and optimization of tasks that need to be performed by SNSA; 
+ identification of competencies that are required for each task; 
+ distribution of tasks by processes, organizational units and workplaces; 
+ regular annual monitoring of staff competence; 
+ management of trainings for acquisition and maintenance of competencies; 
+ identification of the need for new personnel. 
+The OP 1.60 (Attachment 3) also includes different scope of training plans depending on the workplace (e.g., 
+in the Main Office, Nuclear Safety Division, Inspection Division, etc., and which tasks it includes), and whether 
+it is a new employee or an experienced one (i.e., initial training, basic / advanced training, regular trainings, 
+etc.). The Contractor received the draft of the 6th revision of the OP 1.60 procedure as an input document, 
+which shows that Attachment 3 “Training plan” has only been newly added to this procedure. The Contractor 
+sees this extension of the procedure with a detailed training plan as a good decision, as it is in a way the basis 
+of systematic employee training. 
+Although SNSA's SAT is a very well established and will be further substantially improved with the inclusion of 
+the new Attachment on the Training Plan, the Contractor still suggests two important possible improvements: 
+1. Procedure OP 1.60 places too little emphasis on training of new employees, as there are only two short 
+paragraphs about their involvement and training. In contrast to this, the draft procedure ON 1.60.x 
+“Training Plan for Inspectors” [20] gives much more attention to new employees' training with a whole 
+chapter devoted to it (Chapter 3.4). It is suggested that the procedure OP 1.60 be supplemented in a 
+similar way. Special emphasis should be given to the: 
+- (mandatory) appointment of mentors to new employees; 
+- development of individual training plan, which should include time plan of the training, training 
+modules, names of responsible trainers, etc. (a draft of such training plan could be added to the 
+OP 1.60 as an attachment); 
+- reporting on implementation of the plan to SAT-URSJV manager and the superiors, etc. 
+2. Currently SAT-URSJV is managed by the head of the Inspection Division, who naturally devotes 
+relatively little time to this (as can be seen from [2], the head of Inspection Division devotes 3% of his 
+time (7.5 days a year) to the management of SAT-URSJV). Since the regular training of employees is one 
+of the key pillars of nuclear and radiation safety, it is suggested that special attention be paid to this, 
+namely by appointing a person who will devote at least 30-50% of his/her time to SAT-URSJV. Of course, 
+this cannot be the head of Inspection Division, instead it is suggested to appoint (and train) a person 
+from some other organizational unit (e.g., Nuclear Safety Support unit, Radiation Safety, EPR division, 
+Main office, etc.). This would be sufficient for a stable organization. However, for the reorganization 
+options, a full time position for HR and training would be needed to cope with the high volume of work 
+to implement the reorganization.  
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 44 
+ 
+7 CONCLUSION 
+If one takes a close look at SNSA, one sees a well-established, experienced organization that with a small staff 
+is being responsible and implements tasks for which other EU regulatory bodies may have available 100, 200 
+or even more employees. One of the key factors here is probably the experience of the team, as the turnover 
+rate of the organization is very small, which shows in the average experience of staff with the nuclear regulator 
+to be around 15 years. 
+In addition to that the SNSA already in 2007 developed its integrated management system (IMS), which today 
+after 16 years of use counts around 160 different procedures. The IMS directs the workflow of the SNSA 
+processes in a manner to use the resources (human and financial) as efficiently as possible. Likewise, the 
+established IMS procedures help the newcomers in their learning curve and to adapt to SNSA workflow as 
+quickly and effectively as possible. 
+Nevertheless, it is necessary to ask why other European regulatory authorities need so many more people than 
+SNSA, since all comparable EU regulators are several times larger, and not only regulators in Eastern countries 
+(to which we usually attribute inefficiency), but also in Western ones, such as the France, Finland, Sweden or 
+the Netherlands.  
+The number of tasks performed by EU regulatory authorities has increased significantly over the past 20 years, 
+including: 
+ introduction of periodic safety reviews,  
+ IRRS and other peer review missions are now performed regularly (as required by amended EU Nuclear 
+Safety Directive),  
+ EU topical peer reviews were introduced in 2016,  
+ new regular reporting have been established (such as reporting to EC, CNPP, IRS),  
+ there is more participation in various international organizations and working groups,  
+ new nuclear facilities are being built,  
+ new areas of work have been introduced (e.g., cyber security, control of consumer products and building 
+materials, safety culture, critical infrastructure risk assessments, etc.),  
+ number of radioactive sources and their users have increased dramatically (in Slovenia by 70%),  
+ the licensing procedures have changed, requiring detailed review and assessment as well as record 
+keeping of health certificates, education and RP training certificates for all exposed workers, 
+ the intervals for reporting to EC in the field of civil protection have been shortened (now reporting every 
+3 years instead of 5), 
+ independent verification monitoring of operating facilities was introduced (at the request of the EC),  
+ regulation is constantly being benchmarked, harmonized and upgraded, while previously, once 
+established, the regulation lasted tens of years,  
+ in addition to that, SNSA took over the complete maintenance of the early warning network that was 
+formerly done by the meteorological service. 
+ 
+In this period most of the EU regulators compared in this study have increased their number of staff (e.g., 
+Slovakia, Hungary, and Finland by 48%, 129%, and 337% respectively). Meanwhile, the number of employees 
+at SNSA remained the same or even decreased. 
+The argument of greater efficiency may be valid to some extent, but beyond that the quality of work most 
+probably suffers. 
+ 
+This study provides a detailed overview of the SNSA organization, the tasks performed by the SNSA, and the 
+distribution of the work of individual organizational units and the tasks they participate in performing. 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 45 
+ 
+An overview is given of all EU nuclear regulatory authorities, whose tasks also include the supervision of nuclear 
+power plants. As the most comparable organization the Dutch regulatory body, ANVS was chosen for several 
+reasons: 
+ ANVS supervises the operation of only one nuclear power plant (as does SNSA); 
+ In general, the nuclear program in the Netherlands is comparable to Slovenia (with minor differences, 
+which are properly taken into account in the analysis); 
+ The Netherlands is considered an efficient country with an efficient state apparatus; 
+ ANVS is a newly established, modern administrative body that was created in 2015 taking into account 
+all the guidelines of previous IRRS missions. 
+By comparing the two regulatory authorities and taking due account of the differences, such as the difference 
+in the size of the nuclear programs of the two countries, the different workload in relation to the number of 
+users of radiation sources, SRPA's supervision over radiation safety in healthcare and veterinary medicine, 
+sharing of certain support tasks with different ministries in Slovenia, etc., a number of SNSA employees is 
+determined that would be comparable to the number of employees at ANVS with approximately the same 
+amount of work. This new number of SNSA employees is 68 (not counting director). 
+On the one hand, this number seems large, especially if considering that it means a 66% increase in the number 
+of SNSA staff. On the other hand, it is a much smaller increase compared to other EU regulatory bodies, since 
+in many of them the number has doubled in the last 20 years, while some of them have increased their staff 
+by a factor of three or more. If in addition the actual increase in the amount of work during these years is taken 
+into account, which other regulators followed by gradual increase of staff number, while SNSA kept the number 
+of employees unchanged, it is obvious that the proposed increase in the number of staff is logical and justified. 
+The proposal for additional employment naturally gives greater priority to increasing the competence of the 
+regulatory authority, therefore most new staff should be distributed to expert organizational units dealing with 
+nuclear and radiation safety and inspection of nuclear and radiation facilities. 
+Since it is practically impossible to increase the number of employees to such a number at once, firstly due to 
+the limitations that the labour market presents, and on the other hand, because new hires represent an 
+additional burden on existing employees who have to train the new staff, a proposal is given to gradually 
+increase the number of employees, in three to four years. 
+ 
+The study shows another aspect that should be taken into account in order to ensure the highest possible 
+efficiency and thus the validity of the new number of SNSA employees, and that is the large fragmentation of 
+the SNSA. Currently, SNSA has its 41 employees distributed in 12 individual organizational units with 12 
+individual managers (not counting director), who manage the other 29 people (i.e., 29% of employees are 
+managers). Even more striking is that several of these managers lead only two people, and even worse, one or 
+none. In contrast, as the study shows, at ANVS only about 10% is the management staff, as 16 managers lead 
+the other 139 employees. Therefore, besides increasing the number of staff as presented in this study, another 
+suggestion is to do a reorganization of SNSA's organizational units with the main goal to reduce number of 
+organizational units and thus optimize SNSA management. 
+A special pillar for ensuring the effectiveness and competence of a nuclear regulatory authority is its training 
+program, where SNSA certainly does not lag behind other comparable regulators. The SNSA’s training program, 
+which is established within the framework of IMS, includes initial trainings that are separated by organizational 
+units and job positions, as well as regular, refresher trainings. Generally, the SNSA's training program is very 
+well developed based on the state-of-the-art IAEA standards, which enables a relatively quick establishment of 
+the initial qualification of the staff as well as ensures long-term development of competencies. 
+A thorough review of the SNSA's training plan was done within this study giving two proposals for its 
+enhancement, the implementation of which should further contribute to even more systematic training of new 
+people and thus to faster provision of the appropriate competencies needed for independent work of the new 
+staff. 
+ 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 46 
+ 
+Taking into account the results of this study in the future development of SNSA should result in increased 
+competencies of the SNSA as the nuclear regulatory authority, greater efficiency, and ultimately higher level 
+of nuclear and radiation safety in Slovenia. 
+ 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 47 
+ 
+REFERENCES 
+[1] Poslovnik Uprave Republike Slovenije za Jedrsko Varnost, Izdaja 13, URSJV, March 2022 
+[2] Input document: RNaloge z delovnimi mesti maj 2023.docx, SNSA, May 2023 
+[3] Council Directive 2014/87/Euratom of 8 July 2014 amending Directive 2009/71/Euratom establishing a 
+Community framework for the nuclear safety of nuclear installations 
+[4] Input document: Naloge in ure 2019.docx, SNSA, 2019 
+[5] Input document: Naloge in ure 2020.docx, SNSA, 2020 
+[6] Input document: Naloge in ure 2021.docx, SNSA, 2021 
+[7] Input document: Naloge in ure 2022.docx, SNSA, 2022 
+[8] Input document: Naloge in ure 2022.docx, SNSA, 2023 
+[9] Input document: Seznam delovnih nalog in strokovnih področij URSJV s pripadajočimi kompetencami, 
+SNSA, May 2023 
+[10] Convention on Nuclear Safety (CNS) - National Report of the Kingdom of the Netherlands for the Eighth 
+Review Meeting, ANVS, July 2019 
+[11] Report to the European Commission on the implementation of Council Directive 2009/71/Euratom, 
+amended by the Council Directive 2014/87/Euratom of 8 July 2014, ANVS, June 2020 
+[12] Convention on Nuclear Safety - National Report of the Kingdom of the Netherlands for the combined 8th 
+and 9th Review Meeting, ANVS, July 2022 
+[13] Organisatiebesluit ANVS 2.1 (Eng: Organizational decision ANVS 2.1), ANVS, February 2023, 
+https://www.autoriteitnvs.nl/documenten/besluit/2023/02/01/organisatiebesluit-anvs-2.1 
+[14] Jaarverslag ANVS 2022 (Eng: ANVS Annual Report 2022), ANVS, May 2023, 
+https://www.autoriteitnvs.nl/documenten/jaarverslag/2023/03/15/jaarverslag-anvs-2022 
+[15] Hemelaar, J. T., & Huyskens, C. J. (1990). The use of radioactive substances in the Netherlands. 
+(Technische Universiteit Eindhoven. Stralingsbeschermingsdienst rapport; Vol. 7127). Technische 
+Universiteit Eindhoven 
+[16] Poročilo o varstvu pred ionizirajočimi sevanji in jedrski varnosti v Republiki Sloveniji leta 2022, URSJV/DP-
+230/2023, URSJV, July 2023 
+[17] Annual Report on the Radiation and Nuclear Safety in the Republic of Slovenia, URSJV/RP-061/2004, 
+SNSA, July 2004 
+[18] S. Cimeša, A. Peršič, L. Vrankar, A. Stritar, “Human Resources and Technical Knowledge Analysis needed 
+for the Licensing Process for the New Nuclear Build:  the SNSA Approach”, Proc. Int. Conf. Nuclear Energy 
+for New Europe 2010, Portorož, Slovenia, September 6-9, Nuclear Society of Slovenia, 2010 
+[19] OP 1.60, “Skrb za razvoj sodelavcev URSJV”, SNSA, Draft of Revision 6 
+[20] ON 1.60.x “Training Plan for Inspectors”, SNSA, Draft procedure 
+ 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 48 
+ 
+ANNEX 1 REVIEW AND ASSOCIATION OF SNSA TASKS TO TASK GROUPS 
+SNSA Task Original association to processes Reassignment of tasks 
+Priprava novih in pregled ali popravki obstoječih internih postopkov URSJV Management IMS 
+Vodenje sektorja ali službe Management management 
+Komunikacije, sestanki in predstavitve URSJV Management management 
+Vodenje organizacijske enote Management management 
+Kolegiji direktorja URSJV Management management 
+Priprava javnih razpisov Management public procurement 
+Nadzor nad sistemom vodenja URSJV (presoje ipd.) Management IMS 
+Sodelovanje z drugimi državnimi organi Management management 
+Mentorstvo Management human resources 
+Priprava gradiv za Vlado RS Management communication & reporting 
+Priprava letnega plana, plana usposabljanj, poročil o upravni statistiki, ipd. Management IMS 
+Kadrovska evidenca - odsotnosti Management main office 
+Priprava prispevkov za mesečno poročanje Management communication & reporting 
+Koordinacija finančnega poslovanja Management main office 
+Pregled gradiv iz medresorskega usklajevanja Management management 
+Priprava proračuna ter ostalih finančnih in kadrovskih zadev Management main office 
+Vodenje sistema vodenja URSJV Management IMS 
+Vodenje delovnega procesa URSJV Management management 
+Finančna evidenca (potni nalogi, obračuni potnih nalogov, naročilnice, izdelava poročil) Management main office 
+Pravna in upravna pomoč in svetovanje sodelavcem Management legal support 
+Vodenje letnih razgovorov Management human resources 
+Odgovarjanje na novinarska vprašanja Management communication & reporting 
+Priprava sporočil za javnost Management communication & reporting 
+Priprava in nadzor nad Načrtom integritete Management legal support 
+Priprava strategije za raziskave in razvoj za jedrsko in sevalno področje Management R&D 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 49 
+ 
+SNSA Task Original association to processes Reassignment of tasks 
+Vodenje finančnega poslovanja s pomočjo MFERACa Management main office 
+Nadomeščanje direktorja Management management 
+Poročanje o javnih naročilih Management communication & reporting 
+Spremljanje sistema vodenja pri strankah Management IMS 
+Vodenje evidenc in postopkov po zakonu o varstvu osebnih podatkov Management legal support 
+Nadomeščanje vodje oddelka Management management 
+Sodelovanje z vodstvom matičnega ministrstva Management management 
+Vodenje dežurstva URSJV Management management 
+Izvajanje postopkov glede pridobivanja in razpolaganja s stvarnim premoženjem Uprave Management main office 
+Vodenje medresorske komisije za pripravljenost na izredne razmere Management management 
+Kontakt pri projektu EKT – enotne kontaktne točke za podporo v postopkih  
+pridobivanja dovoljenj za opravljanje reguliranih dejavnosti v RS 
+Management legal support 
+Posodabljanje podatkov kazalnikov uspešnosti za URSJV Management IMS 
+Izvajanje sistema vodenja URSJV Management IMS 
+Vodenje upravnih postopkov Control of Radiation Safety radiation safety 
+Vzdrževanje registrov sevalnih dejavnosti, virov ionizirajočih sevanj in objektov Control of Radiation Safety radiation safety 
+Dejavnosti, povezane z gradnjo odlagališča Vrbina Control of Radiation Safety radiation safety 
+Spremljanje izgradnje suhega skladiščenja izrabljenega goriva Control of Radiation Safety radiation safety 
+Pregled in ocena posegov v prostor okoli NEK Control of Radiation Safety nuclear safety 
+Upravni nadzor radioaktivnih odpadkov in izrabljenega jedrskega goriva Control of Radiation Safety radiation safety 
+Spremljanje jedrskega varovanja Control of Radiation Safety radiation safety 
+Spremljanje in nadzor nad zapiranjem odlagališč na RŽV Control of Radiation Safety radiation safety 
+Nadzor nad javljalniki požarov Control of Radiation Safety radiation safety 
+Dejavnosti, povezane s skladiščenjem radioaktivnih odpadkov Control of Radiation Safety radiation safety 
+Sodelovanje v KNIBDR Control of Radiation Safety radiation safety 
+Spremljanje izvajanja Sporazuma o nadzoru jedrskega materiala in Dodatni protokol, izvajanje in 
+vodenje evidence jedrskih snovi, koordiniranje aktivnosti z EURATOM Luksemburg 
+Control of Radiation Safety radiation safety 
+Analiza uporabe predmetov splošne rabe Control of Radiation Safety radiation safety 
+Sodelovanje v mednarodnih organizacijah povezanih s fizičnim varovanjem Control of Radiation Safety international cooperation 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 50 
+ 
+SNSA Task Original association to processes Reassignment of tasks 
+Priprava analiz dogodkov - sevalna varnost Control of Radiation Safety radiation safety 
+Nadzor nad prevozom radioaktivnih in jedrskih snovi Control of Radiation Safety radiation safety 
+Nacionalni koordinator RASIMS Control of Radiation Safety radiation safety 
+Pregled in ocena sprememb v CSRAO Control of Radiation Safety radiation safety 
+Urejanje Sevalnih novic Control of Radiation Safety communication & reporting 
+Dejavnosti v zvezi z NORM Control of Radiation Safety radiation safety 
+Spremljanje poročanja v centralno evidenco jedrskih snovi Control of Radiation Safety radiation safety 
+Analiza obratovalnih izkušenj v sevalnem objektu in pri sevalnih dejavnostih Control of Radiation Safety radiation safety 
+Pregled in ocena Končnega varnostnega poročila CSRAO Control of Radiation Safety radiation safety 
+Izvajanje meritev na terenu Control of Radiation Safety monitoring 
+Pregled in analiza poročil občasnega varnostnega pregleda CSRAO Control of Radiation Safety radiation safety 
+Pregled in ocena sprememb v sevalnih objektih Control of Radiation Safety radiation safety 
+Spremljanje problematike reguliranih poklicev vključno s portalom portala IMI Control of Radiation Safety radiation safety 
+Obveščanje strank o poteku dovoljenj Control of Radiation Safety communication & reporting 
+Priprava Sevalnih novic Control of Radiation Safety communication & reporting 
+Tehnični pregledi objektov na območjih omejene rabe prostora Control of Radiation Safety radiation safety 
+Sodelovanje v medresorski skupini za omejevalne ukrepe Control of Radiation Safety management 
+Poznavanje in spremljanje nacionalnega programa ravnaja z RAO in IJG Control of Radiation Safety radiation safety 
+Delo v komisiji za pooblaščanje izvedencev varstva pred sevanji Control of Radiation Safety radiation safety 
+Neširjenje jedrskega orožja Control of Radiation Safety radiation safety 
+Spremljanje dela v okviru EU skupine CBRN Control of Radiation Safety radiation safety 
+Vzdrževanje CERAO Control of Radiation Safety radiation safety 
+Prenos AJPES podatkov Control of Radiation Safety communication & reporting 
+Nadzor jedrskih snovi v Sloveniji Control of Radiation Safety radiation safety 
+Sodelovanje v medresorski skupini za WMD (terorizem) Control of Radiation Safety management 
+Obdelava podatkov iz URSVS (prejete doze,viri sevanj) Control of Radiation Safety radiation safety 
+Pregled ocene varstva pred sevanji Control of Radiation Safety radiation safety 
+Spremljanje dela Nuclear Suppliers Group in Zanggerjevega odbora Control of Radiation Safety radiation safety 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 51 
+ 
+SNSA Task Original association to processes Reassignment of tasks 
+Izdaja obratovalnega dovoljenja za CSRAO Control of Radiation Safety radiation safety 
+Dejavnosti povezane z gradnjo pospeševalnika Control of Radiation Safety radiation safety 
+Spremljanje in zagotavljanje računalniške varnosti (Cyber Security) Control of Nuclear Safety cyber security 
+Pregled in ocena sprememb v NEK Control of Nuclear Safety nuclear safety 
+Priprava URSJV za projekt JEK2 Control of Nuclear Safety nuclear safety 
+Vodenje upravnih postopkov, povezanih z NEK Control of Nuclear Safety nuclear safety 
+Analiza obratovalnih izkušenj v jedrskem objektu Control of Nuclear Safety nuclear safety 
+Pregled in analiza poročil Občasnega varnostnega pregleda NEK (PSR) Control of Nuclear Safety nuclear safety 
+Sodelovanje v postopku umeščanja jedrske elektrarne v prostor Control of Nuclear Safety nuclear safety 
+Pregled in ocena analiz Control of Nuclear Safety nuclear safety 
+Priprava analiz dogodkov - jedrska varnost Control of Nuclear Safety nuclear safety 
+Spremljanje razvoja upravnega nadzora za bodoče elektrarne Control of Nuclear Safety nuclear safety 
+Vzdrževanje varnostno obratovalnih kazalnikov NEK Control of Nuclear Safety nuclear safety 
+Spremljanje in uporaba verjetnostnih varnostnih analiz Control of Nuclear Safety nuclear safety 
+Spremljanje, nadzor in analiza obratovanja NEK Control of Nuclear Safety nuclear safety 
+Spremljanje izvajanja akcijskega plana PSR NEK Control of Nuclear Safety nuclear safety 
+Spremljanje nadzora staranja v NEK Control of Nuclear Safety nuclear safety 
+Spremljanje preizkušanj med obratovanjem v NEK Control of Nuclear Safety nuclear safety 
+Pregled in analiza poročil Občasnega varnostnega pregleda TRIGA Control of Nuclear Safety nuclear safety 
+Spremljanje uporabe in spremembe Tehničnih specifikacij NEK Control of Nuclear Safety nuclear safety 
+Spremljanje in ocenjevanje varnostne kulture v jedrskih objektih Control of Nuclear Safety nuclear safety 
+Pregled in ocena Končnega varnostnega poročila NEK Control of Nuclear Safety nuclear safety 
+Delo v Strokovni komisiji za preizkušanje usposobljenosti operaterjev Control of Nuclear Safety nuclear safety 
+Spremljanje nadzora staranja mehanskih struktur Control of Nuclear Safety nuclear safety 
+Spremljanje programov in postopkov strank Control of Nuclear Safety nuclear safety 
+Priprave na remont Control of Nuclear Safety nuclear safety 
+Pregled analiz ogroženosti NEK zaradi zunanjih dogodkov Control of Nuclear Safety nuclear safety 
+Spremljanje področja težkih nesreč ter nadzor in ocena statusa v NEK Control of Nuclear Safety nuclear safety 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 52 
+ 
+SNSA Task Original association to processes Reassignment of tasks 
+Program občasnega varnostnega pregleda (PSR) NEK Control of Nuclear Safety nuclear safety 
+Izdelava analize remonta NEK in spremljanje izvajanja akcijskega načrta Control of Nuclear Safety nuclear safety 
+Skrb za ERDS Control of Nuclear Safety EPR 
+Pregled in ocena sprememb v TRIGA Control of Nuclear Safety nuclear safety 
+Spremljanje programa nadgradnje varnosti NEK Control of Nuclear Safety nuclear safety 
+Spremljanje vzdrževanja med obratovanjem v NEK Control of Nuclear Safety nuclear safety 
+Pregled in ocena analiz s področja seizmike Control of Nuclear Safety nuclear safety 
+Administracija PSR Control of Nuclear Safety nuclear safety 
+Spremljanje nadzora staranja gradbenih struktur Control of Nuclear Safety nuclear safety 
+Potresne obremenitve in zanesljivost konstrukcij Control of Nuclear Safety nuclear safety 
+Spremljanje stanja SSK v NEK Control of Nuclear Safety nuclear safety 
+Spremljanje in ocenjevanje človeškega faktorja v jedrskih objektih Control of Nuclear Safety nuclear safety 
+Pregled in ocena Končnega varnostnega poročila TRIGA Control of Nuclear Safety nuclear safety 
+Potresna varnost Control of Nuclear Safety nuclear safety 
+Koordinacija in priprava CNPP Control of Nuclear Safety communication & reporting 
+Priprava in pregled poročil za IRS Control of Nuclear Safety communication & reporting 
+Spremljanje zunanje ogroženosti NEK / padec letala Control of Nuclear Safety nuclear safety 
+Pregled in ocena analiz s področja geologije Control of Nuclear Safety nuclear safety 
+Koordinacija in spremljanje dela pooblaščenih organizacij Control of Nuclear Safety nuclear safety 
+Spremljanje in priprava prispevkov za bazo INES Control of Nuclear Safety communication & reporting 
+Upravni postopki za pooblaščanje izvedencev jedrske varnosti Control of Nuclear Safety nuclear safety 
+Organizacija in usmerjanje izvedbe vseh faz PSR Control of Nuclear Safety nuclear safety 
+Spremljanje nadzora staranja električnih sistemov Control of Nuclear Safety nuclear safety 
+Priprava poročil za bazo PRIS Control of Nuclear Safety communication & reporting 
+Vodenje Strokovne komisije za preizkušanje usposobljenosti operaterjev Control of Nuclear Safety nuclear safety 
+Pregled programa razgradnje jedrskega objekta Control of Nuclear Safety radiation safety 
+Obravnava notranjih nevarnosti Control of Nuclear Safety nuclear safety 
+Spremljanje in priprava prispevkov za bazo IRSRR Control of Nuclear Safety communication & reporting 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 53 
+ 
+SNSA Task Original association to processes Reassignment of tasks 
+Spremljanje stanja goriva NEK ter programov za nadzor reaktivnosti Control of Nuclear Safety nuclear safety 
+Spremljanje kemije v NEK Control of Nuclear Safety nuclear safety 
+Izvajanje inšpekcijskih nadzorov Inspection inspection and supervision 
+Podpora inšpekciji Inspection inspection and supervision 
+Spremljanje remonta NEK Inspection inspection and supervision 
+Priprava letnega plana inšpekcije in realizacije Inspection IMS 
+Intervencije Inspection inspection and supervision 
+Priprava sistemskih rešitev na področju dela inšpekcije Inspection IMS 
+Nadzori po Zakonu o nalezljivih boleznih Inspection inspection and supervision 
+Nadomeščanje direktorja inšpekcije Inspection management 
+Izdaja ureditvenih in prekrškovnih odločb Inspection inspection and supervision 
+Priprava poročila inšpekcije za inšpekcijski svet in MJU Inspection communication & reporting 
+Sodelovanje v inšpekcijskem svetu Inspection management 
+Priprava zakonodaje Preparation of legislation regulation 
+Priprava in revizija smernic Preparation of legislation regulation 
+Tociranje WENRA in IAEA dokumentov in standardov Preparation of legislation regulation 
+Vse v zvezi z misijo IRRS Preparation of legislation international cooperation 
+Priprava osnutkov za spremembo zakonodaje Preparation of legislation regulation 
+Prevajanje zakonodaje s področja dela Uprave Preparation of legislation regulation 
+Tociranje, korelacijske tabele Preparation of legislation regulation 
+Skrb za NUID (sodelovanje pri izvajanju procesov v okviru NUID) Emergency Preparedness EPR 
+Sodelovanje v NUID kot SSAJN Emergency Preparedness EPR 
+Sodelovanje v NUID kot iKOM Emergency Preparedness EPR 
+Sodelovanje v NUID kot delavec v pripravljenosti URSJV Emergency Preparedness EPR 
+Zagotavljanje usposabljanj NUID (planiranje, razvoj, izvajanje, analiza, vzdrževanje infoNUID) Emergency Preparedness EPR 
+Sodelovanje v NUID kot vKOM Emergency Preparedness EPR 
+Spremljanje ID v tujini Emergency Preparedness EPR 
+Sodelovanje v NUID kot SSOD Emergency Preparedness EPR 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 54 
+ 
+SNSA Task Original association to processes Reassignment of tasks 
+Zagotavljanje operativnosti opreme in zvez NUID Emergency Preparedness EPR 
+Sodelovanje v NUID kot SIV Emergency Preparedness EPR 
+Priprava, vodenje in analiza vaj Emergency Preparedness EPR 
+Sodelovanje v NUID kot vodja SID Emergency Preparedness EPR 
+Sodelovanje v NUID kot DID Emergency Preparedness EPR 
+Vrednotenje izpustov iz jedrskih in sevalnih objektov in ocena doz ter ocena vpliva na prebivalstvo Emergency Preparedness nuclear safety 
+Sodelovanje v NUID kot TP Emergency Preparedness EPR 
+Ocene ogroženosti jedrskih objektov Emergency Preparedness EPR 
+Analiza območij ukrepanja ob jedrski nesreči v NEK Emergency Preparedness EPR 
+Vse v zvezi z misijo EPREV Emergency Preparedness international cooperation 
+Vodenje SSOD Emergency Preparedness EPR 
+Tveganje ob jedrski in radiološki nesreči (ocene in obvladovanje) Emergency Preparedness EPR 
+Sodelovanje v NUID kot predstavnik v ZPC Emergency Preparedness EPR 
+Sodelovanje v NUID kot predstavnik v Štabu CZ Emergency Preparedness EPR 
+Vzdrževanje monitoringa URSJV Monitoring monitoring 
+Spremljanje radioaktivnosti v okolju, kontrola, razvoj in uporaba MZO aplikacije Monitoring monitoring 
+Menjava sond na terenu Monitoring monitoring 
+Vzdrževanje in uporaba programov za modeliranje izpustov Monitoring monitoring 
+Analiza delovanja monitoringa Monitoring monitoring 
+Posredovanje podatkov o monitoringu v tujino Monitoring communication & reporting 
+Neodvisni nadzor jedrskih objektov Monitoring radiation safety 
+Vzdrževanje baze ROKO in vnos podatkov za tekoče leto Monitoring monitoring 
+Vzdrževanje in uporaba instrumentacije Monitoring monitoring 
+Sodelovanje z zunanjimi serviserji (GIHMM, AMES) Monitoring monitoring 
+Reševanje problematike izrednega monitoringa v primeru jedrske ali radiološke nesreče Monitoring monitoring 
+Vzdrževanje elektronskega arhiva monitoringa Monitoring monitoring 
+Vrednotenje programov monitoringa jedrskih in sevalnih objektov Monitoring radiation safety 
+Primerjalne meritve z različnimi merilniki Monitoring monitoring 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 55 
+ 
+SNSA Task Original association to processes Reassignment of tasks 
+Monitoring življenjskega okolja Monitoring monitoring 
+Priprava letnega poročila URSJV Annual and National Reports national & other reports 
+Priprava in pregled poročil Annual and National Reports national & other reports 
+Urejanje letnega poročila Annual and National Reports national & other reports 
+Strokovni pregled po direktivi o jedrski varnosti (TPR) Annual and National Reports national & other reports 
+Priprava poročila po konvenciji o jedrski varnosti Annual and National Reports national & other reports 
+Pisanje člankov in prispevkov za konference Annual and National Reports R&D 
+Priprava poročil po konvenciji o RAO in IJG Annual and National Reports national & other reports 
+Urejanje poročila in priprava na pregledovalni sestanek po konvenciji o RAO in IJG Annual and National Reports national & other reports 
+Priprava poročila po Waste direktivi Annual and National Reports national & other reports 
+Sodelovanje z IAEA (v delovnih skupinah) International Cooperation international cooperation 
+Sodelovanje z OECD/NEA International Cooperation international cooperation 
+Sodelovanje v mednarodnih organizacijah International Cooperation international cooperation 
+Izvajanje in sestanki po bilateralnih in multilateralnih sporazumih International Cooperation international cooperation 
+Sodelovanje z organizacijo WENRA International Cooperation international cooperation 
+Organizacija in izvedba mednarodnih tečajev, misij, sestankov v organizaciji International Cooperation international cooperation 
+Koordinacija sodelovanja z EU International Cooperation international cooperation 
+Sodelovanje z evropsko komisijo in ostalimi evropskimi inštitucijami International Cooperation international cooperation 
+Sodelovanje v projektih tehnične pomoči tretjim državam International Cooperation international cooperation 
+Usklajevanje dejavnosti za izpolnjevanje obveznosti po mednarodnih International Cooperation international cooperation 
+Sodelovanje v skupini HERCA International Cooperation international cooperation 
+Usposabljanje tujih štipendistov (IAEA, programi tehnične pomoči) International Cooperation international cooperation 
+Prijava na dogodke IAEA International Cooperation international cooperation 
+Usklajevanje sodelovanja z IAEA International Cooperation international cooperation 
+Koordinacija projektov tehnične pomoči IAEA International Cooperation international cooperation 
+Priprava projektov tehnične pomoči IAEA International Cooperation international cooperation 
+Sodelovanje v skupini ENSREG International Cooperation international cooperation 
+Priprava News from Nuclear Slovenia International Cooperation communication & reporting 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 56 
+ 
+SNSA Task Original association to processes Reassignment of tasks 
+Koordinacija programov pomoči EC (INSC, IPA) International Cooperation international cooperation 
+Kontaktna točka za imenovanje ekspertov v misije IRRS International Cooperation international cooperation 
+Udeležba v mednarodnih misijah v tujini International Cooperation international cooperation 
+Izpolnjevanje vprašalnikov International Cooperation communication & reporting 
+Sodelovanje v medresorski delovni skupini za koordinacijo sodelovanja z OECD International Cooperation management 
+Koordinacija obiskov štipendistov IAEA International Cooperation international cooperation 
+Spremljanje organizacije CTBTO International Cooperation international cooperation 
+Samoučenje, šolanje, izobraževanje (IAEA in interni tečaji) IT, infrastructure and work environment human resources 
+Sodelovanje pri snovanju in izvedbi modulov InfoURSJV, InfoNUID in ostalih informacijskih orodij IT, infrastructure and work environment IT 
+Usposabljanja sodelavcev in zunanjih IT, infrastructure and work environment human resources 
+Urejanje spletnih strani intranet in internet IT, infrastructure and work environment communication & reporting 
+Obdelava pošte IT, infrastructure and work environment main office 
+Sodelovanje pri zahtevnejših upravnih postopkih IT, infrastructure and work environment legal support 
+Vodenje glavne pisarne IT, infrastructure and work environment management 
+Prevajanje krajših prispevkov IT, infrastructure and work environment national & other reports 
+Načrtovanje lastnih usposabljanj in službenih poti IT, infrastructure and work environment human resources 
+Razno, nepredvidljivo IT, infrastructure and work environment other 
+Priprava zaključenih zadev za arhiviranje IT, infrastructure and work environment main office 
+Arhiviranje gradiv URSJV IT, infrastructure and work environment main office 
+Izvajanje poslovanja z e-računi, e-naročilnicami in e-potnimi nalogi IT, infrastructure and work environment main office 
+Obdelava postopkov URSJV, poročil in drugih dokumentov IT, infrastructure and work environment other 
+Dajanje informacij o upravnih postopkih IT, infrastructure and work environment communication & reporting 
+Objava novic na spletni strani URSJV IT, infrastructure and work environment communication & reporting 
+Izvajanje inventure osnovnih sredstev IT, infrastructure and work environment main office 
+Kritična infrastruktura IT, infrastructure and work environment EPR 
+Pomoč in izobraževanje uporabnikov na področju IT IT, infrastructure and work environment IT 
+Prevzem pošte IT, infrastructure and work environment main office 
+Vodenje in izvedba javnih naročil IT, infrastructure and work environment public procurement 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 57 
+ 
+SNSA Task Original association to processes Reassignment of tasks 
+Vzdrževanje in posodabljanje informacijskega sistema URSJV (strojna in programska oprema) IT, infrastructure and work environment IT 
+Vzdrževanje in posodabljanje komunikacijskega sistema URSJV IT, infrastructure and work environment IT 
+Sprejemanje in usmerjanje telefonskih klicev IT, infrastructure and work environment main office 
+Vnašanje novih naslovnikov in popravkov v InfoURSJV, seznami, tiskanje nalepk IT, infrastructure and work environment main office 
+Rezervacije letalskih vozovnic in hotelov za URSJV sodelavce IT, infrastructure and work environment main office 
+Vzdrževanje sistema za spremljanje kompetenc URSJV (SAT) IT, infrastructure and work environment human resources 
+Zagotavljanje ažurnosti dokumentacije IT, infrastructure and work environment nuclear safety 
+Lektoriranje raznih prispevkov, predstavitev, poročil IT, infrastructure and work environment national & other reports 
+Izvajanje nalog in ukrepov iz varnosti in zdravja pri delu IT, infrastructure and work environment human resources 
+Vodenje upravne statistike IT, infrastructure and work environment legal support 
+Gospodinjstvo - čiščenje kuhinje - posode, pospravljanje za ostalimi sodelavci IT, infrastructure and work environment main office 
+Nudenje pomoči sodelavcem pri pripravi dopisov IT, infrastructure and work environment main office 
+Tehnično vzdrževanje prostorov URSJV IT, infrastructure and work environment main office 
+Vodenje varstva pred sevanji na URSJV IT, infrastructure and work environment human resources 
+Požarna varnost URSJV IT, infrastructure and work environment human resources 
+Sprejem gostov URSJV IT, infrastructure and work environment main office 
+Zagotavljanje zvez, opreme in dokumentacije (planiranje, izvajanje, razvoj, vzdrževanje infoNUID) IT, infrastructure and work environment EPR 
+Vzdrževanje registra tveganj IT, infrastructure and work environment IMS 
+Prevzem in objavljanje novic z InfoKlipa IT, infrastructure and work environment communication & reporting 
+Priprava informacij javnega značaja in poročanje IT, infrastructure and work environment communication & reporting 
+SPIS - koordinacija s SRC IT, infrastructure and work environment main office 
+Svetovanje sodelavcem glede nadlegovanja in trpinčenja na delovnem mestu IT, infrastructure and work environment human resources 
+Zaslonek NEK IT, infrastructure and work environment communication & reporting 
+Portal e-VEM IT, infrastructure and work environment communication & reporting 
+Skrb za nadzor nad tajnimi podatki v URSJV IT, infrastructure and work environment legal support 
+Skrb za vozni park URSJV IT, infrastructure and work environment main office 
+Razpis za parkirna mesta IT, infrastructure and work environment legal support 
+Obdelava računov (papirnih) za predajo v nadaljnjo obdelavo na finančni službi MOP IT, infrastructure and work environment main office 
+
+ 
+Review of the SNSA's Work Areas, Tasks, and Staff Needs and Proposal of a Long-Term Human Resource Plan 
+Final Report Page 58 
+ 
+SNSA Task Original association to processes Reassignment of tasks 
+Nadzor nad rezervacijami sejne sobe IT, infrastructure and work environment main office 
+Distribucija postopkov NUID IT, infrastructure and work environment EPR 
+Posredovanje izrednih izvodov publikacij URSJV v NUK IT, infrastructure and work environment main office 
+Skrb za tiskalnike IT, infrastructure and work environment main office 
+Priprava prispevkov za jedrce IT, infrastructure and work environment communication & reporting 
+Kontaktna točka MJU za IT podporo IT, infrastructure and work environment IT 
+Administracija PCT IT, infrastructure and work environment main office
