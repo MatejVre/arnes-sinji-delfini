@@ -1,18 +1,20 @@
 [
-    {"dokument": "doc1.txt",
-     "allowed_groups": ["finance"]},
-     {"dokument": "doc2.txt",
-     "allowed_groups": ["HR"]},
-     {"dokument": "doc3.txt",
-     "allowed_groups": ["finance"]},
-     {"dokument": "doc4.txt",
-     "allowed_groups": ["CEO"]},
-     {"dokument": "doc5.txt",
-     "allowed_groups": ["finance"]},
-     {"dokument": "doc6.txt",
-     "allowed_groups": ["CEO"]},
-     {"dokument": "doc77.txt",
-     "allowed_groups": ["CEO"]},
-     {"dokument": "stroski_2023.csv",
-     "allowed_groups": ["finance"]}
+    {"dokument": "primerjalna_analiza_sistemov_organizacije.txt", "allowed_groups": ["finance"]},
+    {"dokument": "prihodki_od_udelezbe_na_dobicku_in_dividend.txt", "allowed_groups": ["finance"]},
+    {"dokument": "MKRR_Koncno-porocilo_27nov2025.txt", "allowed_groups": ["finance"]},
+    {"dokument": "financni-viri-slovenskih-obcin_e-izdaja.txt", "allowed_groups": ["finance"]},
+    {"dokument": "upravljanje_kapitalskih_virov_v_slovenskih_obcinah.txt", "allowed_groups": ["finance"]},
+    
+    {"dokument": "SNSA_hr.txt", "allowed_groups": ["hr"]},
+    {"dokument": "Vrednotenje-spodbujanja-RR-programov-in-RR-projektov-Koncno-porocilo.txt", "allowed_groups": ["hr"]},
+    {"dokument": "Raziskovalno-porocilo-_-Javnomnenjska-raziskava-2017.txt", "allowed_groups": ["hr"]},
+    {"dokument": "Raziskovalno-porocilo-2022.txt", "allowed_groups": ["hr"]},
+
+    {"dokument": "gjiizdajasifrantinstruktura21.txt", "allowed_groups": ["law"]},
+    {"dokument": "koncnoporocilo0redanalizaizmermikromre.txt", "allowed_groups": ["law"]},
+    {"dokument": "OBVESTILO_POSAMEZNIKOM.txt", "allowed_groups": ["law"]},
+    {"dokument": "fizikalnoozadjepodnebnihsprememb.txt", "allowed_groups": ["law"]},
+    {"dokument": "analizastanjanapodrojuintelektualenlastninevsloveniji.txt", "allowed_groups": ["law"]},
+    {"dokument": "sterleetal2024analizagnsskoncnoporocilo.txt", "allowed_groups": ["law"]},
+    {"dokument": "elaboratuxportalipodatki.txt", "allowed_groups": ["law"]}
 ]

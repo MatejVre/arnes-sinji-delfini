@@ -1,0 +1,3613 @@
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+1 
+ 
+ 
+ 
+ 
+ 
+ZAKLJUČNO POROČILO RAZISKOVALNEGA PROJEKTA  
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+Vodja projekta: izr. prof. dr. Irena Bačlija Brajnik 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ljubljana, 31. 8. 2022 
+ 
+ 
+ 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+2 
+ 
+Kazalo 
+ 
+1. UVOD ................................................................................................................................................... 3 
+2. PREGLED POSAMEZNIH KATEGORIJ .................................................................................................. 13 
+2.1 Prihodki od udeležbe pri dobičku in dividend ter presežkov prihodkov nad odhodki (združeno)
+ ........................................................................................................................................................... 13 
+2.2 Prihodki od obresti (združeno) .................................................................................................... 16 
+2.3 Prihodki iz naslova najemnin za kmetijska zemljišča in gozdove ................................................ 18 
+2.4 Prihodki od najemnin za poslovne prostore................................................................................ 22 
+2.5 Prihodki od najemnin za stanovanja ........................................................................................... 25 
+2.6 Prihodki od najemnin za opremo ................................................................................................ 27 
+2.7 Prihodki od drugih najemnin ....................................................................................................... 29 
+2.8 Prihodki od zakupnin ................................................................................................................... 31 
+2.9 Prihodki iz naslova podeljenih koncesij ....................................................................................... 33 
+2.10 Prihodki iz naslova koncesijskih dajatev od posebnih iger na srečo ......................................... 36 
+2.11 Prihodki od podeljenih koncesij za rudarsko pravico ................................................................ 38 
+2.12 Prihodki od podeljenih koncesij za vodno pravico .................................................................... 41 
+2.13 Prihodki od nadomestila za dodelitev služnostne pravice in ustanovitev stavbne pravice ...... 44 
+2.14 Prihodki od prodaje blaga in storitev (združeno) ...................................................................... 46 
+2.15 Prihodki od prodaje osnovnih sredstev (skupaj) ....................................................................... 48 
+2.16 Prihodki od prodaje poslovnih objektov in poslovnih prostorov (ločeno) ................................ 51 
+2.17 Prihodki od prodaje stanovanjskih objektov in stanovanj ........................................................ 53 
+2.18 Prihodki od prodaje kmetijskih zemljišč in gozdov.................................................................... 55 
+2.19 Prihodki od prodaje stavbnih zemljišč ....................................................................................... 57 
+3. DELEŽ KAPITALSKIH VIROV OD VSEH PRIHODKOV POSAMEZNE OBČINE ......................................... 60 
+4. INDEKS KAPITALSKE SPOSOBNOSTI ................................................................................................... 68 
+5. ZAKLJUČEK ......................................................................................................................................... 74 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+3 
+ 
+UVOD 
+Občine imajo status pravnih oseb, zato so lahko lastnice premoženja. Premoženje je lahko 
+stvarno ali finančno. Finančno premoženje predstavljajo denarna sredstva, terjatve, dolžniški 
+vrednostni papirji ter delnice in lastniški deleži v gospodarskih družbah in druge naložbe v 
+pravne osebe (javni zavodi, javni skladi in javne agencije).1 
+ 
+Stvarno premoženje obsega stvari 2, te pa so premične ali nepremične. Nepremičnina je 
+prostorsko odmerjen del zemeljske površine skupaj z vsemi sestavinami – vse druge stvari so 
+premičnine (18. člen Stvarnopravnega zakonika – SPZ).3 Glede na to lahko pod pojmom 
+nepremično premoženje razumemo zemljišča, stavbe, posamezne dele stavb in druge 
+(gradbene) objekte. Zemljišča lahko delimo na kmetijska zemljišča, gozdove in stavbna 
+zemljišča, stavbe in druge objekte pa na stanovanja, poslovn e prostore, garaže, športne 
+objekte in drugo.4 
+ 
+Za ravnanje občin s stvarnim premoženjem načel no velja splošna zakonodaja, saj gre za 
+ravnanje ex iure gestionis  – občina je torej načel no izenačena z drugimi poslovnimi subjekti 
+(lastniki), saj gre za neoblastno, poslovno ravnanje. Omejitve oziroma posebna pravila glede 
+ravnanja s premoženjem so lahko določena zaradi javnega interesa. Ta je razviden iz posebnih 
+pravil, ki jih določata siste mska in področna zakonodaja, ki urejata posamezne kategorije 
+premoženja. Vsebina javnega interesa se npr. kaže v posebnih postopkih, časovnih omejitvah, 
+določitvah oblik pogodb, omejitvah pogodbene svobode glede določanja cen itn. 
+ 
+Splošni zakon, ki sistem sko ureja ravnanje s stvarnim premoženjem samoupravnih lokalnih 
+skupnosti, je Zakon o stvarnem premoženju države in samoupravnih lokalnih skupnosti 
+(ZSPDSLS-1), podrobnejša pravila pa vsebujejo podzakonski predpisi. 5 Ta zakon se uporablja 
+za vse stvarno p remoženje v lasti samoupravnih lokalnih skupnosti, če vsebine tega zakona 
+niso s posebnim zakonom za posamezno vrsto stvarnega premoženja urejene drugače 6 ali če 
+uporaba določb tega zakona ni z zakonom izrecno izključena.7 
+ 
+Ravnanje s stvarnim premoženje m obsega pridobivanje, razpolaganje, upravljanje in 
+najemanje tega premoženja; upravljanje stvarnega premoženja pa – med drugim – obsega 
+ 
+1 ZJF, http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO1227; https://www.gov.si/teme/financno-premozenje-
+drzave/.  
+2 Stvar je samostojen telesni predmet, ki ga človek lahko obvladuje. Za stvar se štejejo tudi različne oblike energije 
+in valovanja, ki jih človek lahko obvladuje . Živali niso stvari , a se zanje uporabljajo določila SPZ, ki urejajo 
+premičnine, če zakon ne določa drugače (15. in 15. a-člen SPZ). 
+3 http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO3242.  
+4 Nadzor nad razpolaganjem s stvarnim premoženjem Občine Vodice, 2016. 
+5 Npr. Uredba o stvarnem premoženju države in samoupravnih lokalnih skupnosti, Uradni list RS, št. 31/18. 
+6 Posebna ureditev velja npr. za kmetijska zemljišča. 
+7 ZSPDSLS-1 izključuje naslednje kategorije premoženja in naslednje oblike ravnanja z njim: 1) oddajo službenih 
+stanovanj v najem; 2) oddajo počitniških enot v najem; 3) pravne posle pridobivanja in pravne posle upravljanja 
+na podlagi koncesijskega razmerja ali drugih razmerij po javno -zasebnem partnerstvu ; 4) pravne posle 
+pridobivanja in pravne posle upravljanja, ki vsebujejo elemente koncesijskega razmer ja, elemente javno -
+zasebnega partnerstva ali elemente javnega naročanja; 5) ravnanje s službenimi živalmi.  
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+4 
+ 
+oddajanje v najem, obremenjevanje s stvarnimi pravicami, dajanje v uporabo in podobno (58. 
+člen ZSPDSLS-1). ZSPDSLS-1 med drugim ureja vrednost najema in postopek oddaje v najem 
+ter druge oblike upravljanja nepremičnega premoženja (npr. obre menitev s stvarnimi 
+pravicami). Odločitve občine v okviru razpolaganja s premoženjem so t. i. akti poslovanja, zato 
+zoper njih ni dovoljen upravni spor.8 
+ 
+Kapitalske vire občin smo kategorizirali na podlagi kategorij, ki jih občine uporabljajo za 
+poročanje prihodkov. Osnovne kategorije, kot so : »udeležba pri dobičku in dohodki od 
+premoženja«, »prihodki od premoženja« ter »prihodki od prodaje zemljišč in neopredmetenih 
+dolgoročnih sredstev« so nadalje razčlenjene, da je razvidno , kaj v kategorijo sodi. Tam , kjer 
+podkategorija vsebuje več proračunskih kontov, pa so ti navedeni. Če je naziv podkategorije 
+enak nazivu proračunskega konta, tega prikaza (stolpec tri) ni (glejte tabelo 1). 
+Tabela 1: Seznam kategorij in podkategorij analiziranih kapitalskih virov 
+Kategorija Podkategorija Kaj vključuje 
+Udeležba pri 
+dobičku in 
+dohodki od 
+premoženja 
+Prihodki od udeležbe 
+pri dobičku in dividend 
+ter presežkov 
+prihodkov nad odhodki 
+(združeno) 
+̶ Prihodki iz naslova presežka prihodkov nad odhodki 
+posrednih uporabnikov proračunov 
+̶ Prihodki od udeležbe pri dobičku in dividend nefinančnih 
+družb 
+̶ Prihodki od udeležbe pri dobičku in dividend finančnih družb 
+ 
+8 Gl. npr. sklep Vrhovnega sodišča RS: »Tožena stranka je v okviru javnega zbiranja ponudb za oddajo njej 
+lastnih poslovnih prostorov v najem po ZSPDSLS sprejela sklep o izbiri najboljšega ponudnika, zoper katerega ni 
+upravnega spora, saj predstavlja t. i. akt poslovanja«, 
+https://www.sodisce.si/znanje/sodna_praksa/vrhovno_sodisce_rs/2015081111390804/. Gl. tudi 
+https://oxcon.ouplaw.com/view/10.1093/law-mpeccol/law-mpeccol-e188 (Acta iure gestionis and acta iure 
+imperii). 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+5 
+ 
+ Prihodki od obresti 
+(združeno) 
+̶ Prihodki od obresti od sredstev na vpogled 
+̶ Prihodki od obresti od vezanih depozitov iz nenamenskih 
+sredstev  
+̶ Prihodki od obresti od vezanih depozitov iz stalne rezerve – 
+redna sredstva  
+̶ Prihodki od obresti od vezanih depozitov iz stalne rezerve – 
+druga sredstva  
+̶ Prihodki od obresti od vezanih depozitov iz drugih namenskih 
+sredstev  
+̶ Prihodki od obresti od deviznih depozitov iz nenamenskih 
+sredstev  
+̶ Prihodki od obresti od deviznih depozitov iz drugih 
+namenskih sredstev  
+̶ Prihodki od obresti od danih posojil – javnim podjetjem  
+̶ Prihodki od obresti od danih posojil – finančnim institucijam  
+̶ Prihodki od obresti od danih posojil – privatnim podjetjem in 
+zasebnikom 
+̶ Prihodki od obresti od danih posojil – občanom  
+̶ Prihodki od obresti od danih posojil – drugim javnim skladom 
+in agencijam  
+̶ Drugi prihodki od obresti  
+̶ Prihodki od obresti od danih posojil – državnemu proračunu 
+Prihodki od 
+premoženja 
+Prihodki iz naslova 
+najemnin za kmetijska 
+zemljišča in gozdove 
+ 
+ Prihodki od najemnin 
+za poslovne prostore 
+ 
+ Prihodki od najemnin 
+za stanovanja  
+ 
+ Prihodki od najemnin 
+za opremo 
+ 
+ Prihodki od drugih 
+najemnin 
+ 
+ Prihodki od zakupnin  
+ Prihodki iz naslova 
+podeljenih koncesij 
+ 
+ Prihodki iz naslova 
+koncesijskih dajatev od 
+posebnih iger na srečo 
+ 
+ Prihodki od podeljenih 
+koncesij za rudarsko 
+pravico 
+ 
+ Prihodki od podeljenih 
+koncesij za vodno 
+pravico 
+ 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+6 
+ 
+ Prihodki od 
+nadomestila za 
+dodelitev služnostne 
+pravice in ustanovitev 
+stavbne pravice 
+ 
+ Prihodki od prodaje 
+blaga in storitev 
+(združeno) 
+̶ Prihodki od prodaje blaga in storitev  
+̶ Prihodki od prodaje materiala in odpadkov  
+̶ Prihodki obratov družbene prehrane 
+̶ Prihodki od počitniške dejavnosti  
+̶ Prihodki od prodanih vstopnic za kulturne, športne in za 
+druge prireditve 
+̶ Prihodki od vstopnin  
+̶ Prihodki od kotizacij za seminarje, posvetovanja, simpozije in 
+za druga strokovna srečanja 
+̶ Drugi prihodki od prodaje 
+ Prihodki od prodaje 
+osnovnih sredstev 
+(združeno) 
+̶ Prihodki od prodaje poslovnih objektov in poslovnih 
+prostorov 
+̶ Prihodki od prodaje stanovanjskih objektov in stanovanj  
+̶ Prihodki od prodaje drugih zgradb in prostorov   
+̶ Prihodki od prodaje cestnih motornih vozil  
+̶ Prihodki od prodaje helikopterjev in letal  
+̶ Prihodki od prodaje ladij in čolnov  
+̶ Prihodki od prodaje drugih prevoznih sredstev   
+̶ Prihodki od prodaje pisarniške opreme  
+̶ Prihodki od prodaje računalniške opreme  
+̶ Prihodki od prodaje druge opreme   
+̶ Prihodki od prodaje drugih osnovnih sredstev 
+  Prihodki od prodaje poslovnih objektov in poslovnih prostorov 
+(ločeno) 
+  Prihodki od prodaje stanovanjskih objektov in stanovanj (ločeno) 
+Prihodki od 
+prodaje zemljišč 
+in neopredmet. 
+dolgoroč. 
+sredstev 
+Prihodki od prodaje 
+kmetijskih zemljišč in 
+gozdov 
+ 
+ Prihodki od prodaje 
+stavbnih zemljišč 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+7 
+ 
+V analizo smo zajeli navedene kapitalske vire od leta 2007 do vključno leta 2020 za vse občine 
+v Sloveniji.  V uvodnem delu navajamo ključne ugotovitve za vse občine in vse navedene 
+kapitalske vire, v drugem delu prikazujemo analizo vsakega vira posamezno, v tretjem pa s 
+pomočjo indeksa kapitalske sposobnosti občin prikazujemo korelacije, ki nakazujejo na 
+zakonitosti, katere občine so pri pridobivanju kapitalskih virov najuspešnejše. V poročilu in 
+tabelah v Prilogi vse zneske navajamo na dve decimalni mesti. Kjer decimalnega mesta ni 
+navedenega, pomeni, da so bili zneski brez centov, kjer je navedeno eno decimalno mesto, pa 
+mu sledi 0 (torej 67,6 pomeni 67,60). Vsi zneski prikazujejo prihodke v evrih. 
+Na splošno kapitalski prihodki občin predstavljajo majhen delež občinskih prihodkov, saj so le 
+štirje v povprečju višji od enega odstotka ( prihodki od drugih najemnin , prihodki od prodaje 
+stavbnih zemljišč, prihodki od prodaje osnovnih sredstev (skupaj), prihodki iz naslova 
+koncesijskih dajatev od posebnih iger na srečo ). Najvišji prihodek je iz naslova prihodkov od 
+drugih najemnin, ki v povprečju znaša 3,5 % občinskega proračuna. Daleč najnižje kapitalske 
+prihodke z 0,007 % predstavljajo prihodki iz naslova najemnin za kmetijska zemljišča in 
+gozdove (glejte tabelo 2). V primerjavi z davčnimi prihodki kapitalski prihodki niso primerljivi 
+z najvišjima (dohodnina in NUSZ skupaj – za pravne in fizične osebe), so pa primerljivi z drugimi 
+davčnimi prihodki. NUSZ za fizične osebe na primer v povprečju predstavlja 3,05 %, komunalni 
+prispevek 3,11 % in davek na promet nepremičnin 2,10 % deleža od tekočih prihodkov. To je 
+po višini primerljivo s prihodki od drugih najemnin. Podobno kot pri davčnih virih je v 
+povprečju tudi veliko kapitalskih virov zelo majhni h. V primerjavi z davč nimi viri (davek na 
+dediščine in darila 0,58 %, turistična taksa 0,56 %, globe za prekrške 0,49 %, občinske takse 
+0,23 %, davek od premoženja od stavb – od fizičnih oseb 0,21 %, pristojbina za vzdrževanje 
+gozdnih cest 0,12 %, nadomestilo za degradacijo in uzurpacijo prostora 0,06 %, davek od 
+premoženja od prostorov za počitek in rekreacijo 0,05 % in davek na vodna plovila 0,02 % ) 
+znašajo kapitalski viri: prihodki od najemnin za stanovanja 0,881 %, prihodki od najemnin za 
+poslovne prostore 0,829 %, prihodki od prodaje blaga in storitev (združeno) 0,655 %, prihodki 
+od udeležbe pri dobičku in dividend ter presežkov prihodkov nad odhodki (združeno) 0,597 %, 
+prihodki od podel jenih koncesij za vodno pravico 0,577  %, p rihodki iz naslova podeljenih 
+koncesij 0,442 %, prihodki od najemnin za opremo 0,299 %, prihodki od obresti (združeno) 
+0,216 %, prihodki od zakupnin 0,131  %, prihodki od podeljen ih koncesij za rudarsko pravico 
+0,123 %, p rihodki od nadomestila za dodelitev služnostne pravice  in ustanovitev stavbne 
+pravice 0,100  %, p rihodki od prodaj e kmetijskih zemljišč in gozdov 0,079  % in p rihodki iz 
+naslova najemnin za kmetijska zemljišča in gozdove  0,007 %. Skupaj kapitalski prihodki v 
+povprečju predstavljajo slabih 13 % (12,89  %), kar je primerljivo s prihodki iz na slova NUSZ 
+(fizične in pravne osebe skupaj).  
+ 
+ 
+ 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+8 
+ 
+Tabela 2: Kapitalski viri kot delež vseh prihodkov občin  
+Vir/Leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 
+Vsi prihodki 1.710.495.356 1.875.187.040 2.036.559.459 2.180.402.953 2.061.173.031 2.080.068.830 2.016.221.279 2.204.562.099 2.226.375.985 1.901.732.401 1.976.659.150 2.154.439.030 2.232.282.059 2.329.098.939 
+Udeležba pri 
+dobičku in 
+dividend … – 
+združeno 
+18.065.048 14.846.505 6.685.044 3.834.166 9.307.266 5.441.966 4.871.436 12.332.349 19.704.187 18.123.640 16.643.963 16.278.892 12.104.885 12.067.358 
+1,056 % 0,792 % 0,328 % 0,176 % 0,452 % 0,262 % 0,242 % 0,559 % 0,885 % 0,953 % 0,842 % 0,756 % 0,542 % 0,518 % 
+Obresti 
+(združeno) 
+10.355.476 12.509.199 6.200.091 3.899.628 3.476.710 4.179.593 5.163.398 2.377.876 915.453 1.324.834 1.579.970 831.879 4.984.461 1.798.119 
+0,605 % 0,667 % 0,304 % 0,179 % 0,169 % 0,201 % 0,256 % 0,108 % 0,041 % 0,070 % 0,080 % 0,039 % 0,223 % 0,077 % 
+Najemnine 
+za kmetijska 
+zemljišča in 
+gozdove 
+157.776 103.585 77.960 83.177 86.811 111.006 145.407 118.767 163.696 129.313 232.122 231.096 157.984 192.933 
+0,009 % 0,006 % 0,004 % 0,004 % 0,004 % 0,005 % 0,007 % 0,005 % 0,007 % 0,007 % 0,012 % 0,011 % 0,007 % 0,008 % 
+Najemnine 
+za poslovne 
+prostore 
+19.337.574 20.054.413 18.287.648 18.337.907 19.192.432 17.886.781 17.070.151 16.424.134 15.718.463 15.091.040 15.639.744 15.441.426 15.473.514 13.666.004 
+1,131 % 1,069 % 0,898 % 0,841 % 0,931 % 0,860 % 0,847 % 0,745 % 0,706 % 0,794 % 0,791 % 0,717 % 0,693 % 0,587 % 
+Najemnine 
+za 
+stanovanja 
+19.125.235 18.209.981 17.685.365 17.503.549 18.125.913 18.146.175 18.315.445 18.280.377 17.689.027 18.159.231 17.858.325 18.219.084 18.043.687 18.121.292 
+1,118 % 0,971 % 0,868 % 0,803 % 0,879 % 0,872 % 0,908 % 0,829 % 0,795 % 0,955 % 0,903 % 0,846 % 0,808 % 0,778 % 
+Najemnine 
+za opremo 
+637.044 8.120.915 7.209.931 2.026.675 3.204.708 3.004.713 3.966.472 5.300.046 6.895.244 8.377.114 9.300.650 10.300.607 9.407.776 9.632.059 
+0,037 % 0,433 % 0,354 % 0,093 % 0,155 % 0,144 % 0,197 % 0,240 % 0,310 % 0,440 % 0,471 % 0,478 % 0,421 % 0,414 % 
+Druge 
+najemnine 
+6.737.795 7.544.717 11.451.487 47.435.548 64.639.451 83.815.558 74.957.277 82.584.907 88.941.827 99.882.092 113.852.175 117.827.301 122.111.248 118.072.197 
+0,394 % 0,402 % 0,562 % 2,176 % 3,136 % 4,029 % 3,718 % 3,746 % 3,995 % 5,252 % 5,760 % 5,469 % 5,470 % 5,069 % 
+Zakupnine 7.888.805 1.118.384 8.907.756 2.136.491 1.343.421 1.435.837 1.539.158 1.315.691 1.491.947 1.548.230 1.908.151 1.926.396 1.874.718 1.984.662 
+0,461 % 0,060 % 0,437 % 0,098 % 0,065 % 0,069 % 0,076 % 0,060 % 0,067 % 0,081 % 0,097 % 0,089 % 0,084 % 0,085 % 
+3.980.959 5.035.432 6.854.491 5.920.277 9.886.656 9.888.764 10.795.823 11.964.351 11.780.317 12.857.067 11.618.043 9.443.097 9.982.263 8.395.228 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+9 
+ 
+Podeljene 
+koncesije 
+0,233 % 0,269 % 0,337 % 0,272 % 0,480 % 0,475 % 0,535 % 0,543 % 0,529 % 0,676 % 0,588 % 0,438 % 0,447 % 0,360 % 
+Koncesijske 
+dajatve od 
+posebnih 
+iger na srečo 
+27.679.390 25.870.803 24.544.975 23.271.702 22.322.118 20.421.583 18.810.787 18.431.606 18.297.235 18.827.204 18.876.269 19.017.120 19.543.158 11.673.100 
+1,618 % 1,380 % 1,205 % 1,067 % 1,083 % 0,982 % 0,933 % 0,836 % 0,822 % 0,990 % 0,955 % 0,883 % 0,875 % 0,501 % 
+Koncesije za 
+rudarsko 
+pravico 
+1.671.608 1.426.326 1.962.254 7.494.111 1.218.453 1.153.882 9.214.025 1.363.734 1.357.978 1.732.312 1.342.143 1.664.903 2.097.921 1.852.490 
+0,098 % 0,076 % 0,096 % 0,344 % 0,059 % 0,055 % 0,457 % 0,062 % 0,061 % 0,091 % 0,068 % 0,077 % 0,094 % 0,080 % 
+Koncesije za 
+vodno 
+pravico 
+9.848.214 9.180.154 13.242.036 15.071.752 12.430.148 11.996.720 15.135.557 11.915.450 15.014.294 8.675.544 9.436.496 9.779.469 13.857.040 12.112.659 
+0,576 % 0,490 % 0,650 % 0,691 % 0,603 % 0,577 % 0,751 % 0,540 % 0,674 % 0,456 % 0,477 % 0,454 % 0,621 % 0,520 % 
+Nadomestila 
+za dodelitev 
+služnostne 
+pravice in 
+ustanovitev 
+stavbne 
+pravice 
+      1.981.164 1.794.280 1.696.053 740.386 4.504.072 2.571.604 568.616 1.626.281 1.601.866 1.078.038 5.902.941 
+      0,091 % 0,087 % 0,082 % 0,037 % 0,204 % 0,116 % 0,030 % 0,082 % 0,074 % 0,048 % 0,253 % 
+Prodaja 
+blaga in 
+storitev –
+združeno 
+10.518.284 12.731.666 11.958.377 10.816.198 11.061.529 11.772.573 11.522.373 11.750.647 12.843.537 14.473.696 15.876.262 18.876.882 18.407.369 17.336.356 
+0,615 % 0,679 % 0,587 % 0,496 % 0,537 % 0,566 % 0,571 % 0,533 % 0,577 % 0,761 % 0,803 % 0,876 % 0,825 % 0,744 % 
+Prodaja 
+osnovnih 
+sredstev 
+(skupaj) 
+31.222.031 21.680.229 30.924.832 108.224.895 17.929.611 18.103.560 19.607.972 9.631.784 20.857.694 16.395.832 10.565.139 17.548.148 14.020.182 11.142.036 
+1,825 % 1,156 % 1,518 % 4,964 % 0,870 % 0,870 % 0,973 % 0,437 % 0,937 % 0,862 % 0,534 % 0,815 % 0,628 % 0,478 % 
+Prodaja 
+poslovnih 
+objektov in 
+poslovnih 
+prostorov 
+(ločeno) 
+11.972.162 11.350.370 10.310.716 6.456.389 4.482.927 6.785.644 10.310.453 3.565.860 10.884.426 10.846.573 3.620.035 7.857.160 5.572.709 4.680.834 
+0,700 % 0,605 % 0,506 % 0,296 % 0,217 % 0,326 % 0,511 % 0,162 % 0,489 % 0,570 % 0,183 % 0,365 % 0,250 % 0,201 % 
+Prodaja 
+stanovanjski
+h objektov in 
+stanovanj 
+10.882.514 7.701.450 8.925.427 5.724.920 6.876.028 6.380.443 6.061.588 2.796.261 5.076.768 3.534.526 5.276.762 4.129.743 6.525.227 4.130.561 
+0,636 % 0,411 % 0,438 % 0,263 % 0,334 % 0,307 % 0,301 % 0,127 % 0,228 % 0,186 % 0,267 % 0,192 % 0,292 % 0,177 % 
+Prodaja 
+kmetijskih 
+1.775.958 2.262.512 1.385.276 1.839.887 1.059.789 1.497.815 1.436.065 1.456.301 1.662.503 1.403.355 1.374.806 1.569.199 1.772.664 2.446.264 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+10 
+ 
+zemljišč in 
+gozdov 
+0,104 % 0,121 % 0,068 % 0,084 % 0,051 % 0,072 % 0,071 % 0,066 % 0,075 % 0,074 % 0,070 % 0,073 % 0,079 % 0,105 % 
+Prodaja 
+stavbnih 
+zemljišč 
+82.520.576 81.639.848 64.581.717 58.059.093 38.491.404 34.202.236 15.956.199 19.321.001 24.829.429 31.442.474 38.866.406 49.540.023 38.017.517 53.385.502 
+4,824 % 4,354 % 3,171 % 2,663 % 1,867 % 1,644 % 0,791 % 0,876 % 1,115 % 1,653 % 1,966 % 2,299 % 1,703 % 2,292 % 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+11 
+ 
+ 
+V povprečju so kapitalski viri občin stabilni, prihodki pa se – razen iz naslova »drugih najemnin« 
+in iz naslova prodaje stavbnih zemljišč – bistveno ne spreminjajo (glej te graf 1). Je pa za 
+kapitalske vire značilno, da na ravni posameznih občin niso konstantni. To se izraža v izjemnih 
+odklonih pri tovrstnih prihodkih med opazovanimi leti v občini, kar je vezano na posamezne 
+dogodke (prodaja nepremičnine, zemljišča …). Z nam enom podrobnejše analize tovrstnih 
+odstopanj v nadaljevanju analiziramo vsa k kapitalski vir posebej, pri čemer gre posebna 
+pozornost edinstvenim dogodkom, ki so povzročili izjemen dvig ali padec posameznega 
+prihodka.  
+ 
+ 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+12 
+ 
+Graf 1: Trend vseh kapitalskih občinskih virov (2007–2020) 
+€-
+€50.000.000,00 
+€100.000.000,00 
+€150.000.000,00 
+€200.000.000,00 
+€250.000.000,00 
+€300.000.000,00 
+€350.000.000,00 
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+Prihodki od prodaje stavbnih zemljišč
+Prihodki od prodaje kmetijskih zemljišč in gozdov
+Prihodki od prodaje stanovanjskih objektov in stanovanj
+Prihodki od prodaje poslovnih objektov in poslovnih prostorov (ločeno)
+Prihodki od prodaje osnovnih sredstev (skupaj)
+Prihodki od prodaje blaga in storitev (združeno)
+Prihodki od nadomestila za dodelitev služnostne pravice in ustanovitev stavbne pravice
+Prihodki od podeljenih koncesij za vodno pravico
+Prihodki od podeljenih koncesij za rudarsko pravico
+Prihodki iz naslova koncesijskih dajatev od posebnih iger na srečo
+Prihodki iz naslova podeljenih koncesij
+Prihodki od zakupnin
+Prihodki od drugih najemnin
+Prihodki od najemnin za opremo
+Prihodki od najemnin za stanovanja
+Prihodki od najemnin za poslovne prostore
+Prihodki iz naslova najemnin za kmetijska zemljišča in gozdove
+Prihodki od obresti (združeno)
+Prihodki od udeležbe na dobičku in dividend ter presežkov prihodkov nad odhodki (združeno)
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+13 
+ 
+PREGLED POSAMEZNIH KATEGORIJ 
+ 
+2.1 Prihodki od udeležbe pri dobičku in dividend ter presežkov prihodkov nad odhodki 
+(združeno) 
+ 
+Prihodki od udeležbe pri dobičku in dividende ter presežki prihodkov nad odhodki se 
+računovodsko evidentirajo med nedavčnimi prihodki (54. člen Pravilnika o enotnem kontnem 
+načrtu za proračun, proračunske uporabnike in druge osebe javnega prava). Prihodki od 
+udeležbe pri dobičku in dividendah so prihodki občin, ki imajo med svojimi sredstvi finančne 
+naložbe v kapital nefinančnih  naložb. Zaradi strateško razvojnih namenov tovrstnih investicij 
+v občinah se najpogosteje evidentirajo med dolgoročne finančna naložbe, kamor (sklad no s 
+Slovenskim računovodskim standardom 3, Uradni list RS, št. 95/2015) uvrščamo tiste naložbe, 
+ki jih namerava imeti naložbenik v posesti v obdobju, daljšem od enega leta, in ne za trgovanje. 
+Med tovrstne naložbe uvrščamo naložbe v delnice in deleže podjetij, naložbe v kapital 
+gospodarskih družb, naložbe v namensko premoženje javnih skladov in naložbe v premoženje, 
+ki je v lasti drugih pravnih oseb (8. člen Pravilnika o razčlenjevanju in merjenju prihodkov in 
+odhodkov pravnih oseb javnega prava, Uradni list RS, št. 134/03, 34/04, 13/05, 114/06 – ZUE, 
+138/06, 120/07, 112/09, 58/10, 97/12, 100/15, 75/17 in 82/18).  
+ 
+Naložbe v kapital podjetij oz. gospodarskih družb se pojavljajo kot poslovni delež v družbi z 
+omejeno odgovornostjo ali delnica v delniški družbi (53. člen ZGD-1, Uradni list RS, št. 65/09 – 
+uradno prečiščeno besedilo, 33/11, 91/11, 32/12, 57/12, 44/13 – odl. US, 82/13, 55/15, 15/17, 
+22/19 – ZPosS, 158/20 – ZIntPK-C in 18/21). Delničarji imajo pravico do deleža v bilančnem 
+dobičku, razen ob drugačnih odločitvah skupščine, pri čemer se deleži delničarjev v bilančnem 
+dobičku določijo v sorazmerju z njihovim deležem v osnovnem kapitalu (230. in 231. člen ZGD-
+1). Prav tako imajo pravico do deleža v dobičku družbeniki, saj se dobiček ali izguba ugotovi na 
+koncu vsakega poslovnega leta na temelju letnih računovodskih izkazov (94. člen ZGD-1). Čisti 
+dobiček je razlika med prihodki in odhodki, zmanjšana za obračunani davek iz dobička ter 
+preračunana za odložene terjatve in odložene obveznosti za davek. Če je čist i dobiček dovolj 
+velik oz. če skupščina tako odloči, se izplačajo dividende oz. deleži v dobičku (231. člen ZGD-1, 
+SRS 8.2).  
+ 
+Namensko premoženje javnega sklada je premoženje, ki ga je občina namenila za doseganje 
+namena javnega sklada, ki upravlja namensko premoženje in razpolaga z njim samo skladno z 
+namenom, zaradi katerega je bil ustanovljen (10. člen Zakona o javnih skladih, Uradni list RS , 
+št. 22/2000).  
+ 
+Naložbe v premoženje, preneseno v last drugih pravnih oseb javnega prava, pa so sredstva oz. 
+premoženje, ki je skladno z zakonom last proračunskega uporabnika, ki ga je ustanovila 
+Republika Slovenija ter so bila pridobljena iz javnih virov in drugih virov. Proračunski uporabnik 
+upravlja premoženje, ki ga uporablja za opravljanje svoje dejavnosti ter razpolaga z njim (9. 
+člen Pravilnika o enotnem kontnem načrtu za proračun, proračunske uporabnike in druge 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+14 
+ 
+osebe javnega prava, Uradni list RS, št. 112/09, 58/10, 104/10, 104/11, 97/12, 108/13, 94/14, 
+100/15, 84/16, 75/17, 82/18, 79/19, 10/21 in 203/21).  
+ 
+Donosi od teh naložb so donosi, ki letno pritekajo do družb, v katerih so naložene , in 
+predstavljajo npr. dividende ali izplačila bilančnega dobička. Gre za dobičke podjetij oz. 
+gospodarskih družb, ki za občino predstavljajo  finančne naložbe , ter se razčl enjujejo in 
+izkazujejo sklad no z določbami pravilnika o enotnem kontnem načrtu in pravilnika o 
+sestavljanju letnih poročil (14. člen Pravilnika o razčlenjevanju in merjenju prihodkov in 
+odhodkov pravnih oseb javnega prava), kar pomeni, da se uvrščajo med k apitalske prihodke. 
+Ob prodaji takšnih deležev se donosi od prodaje evidentirajo kot prejemki od prodaje 
+kapitalskih deležev in ne med kapitalske prihodke. 
+ 
+Ugotovljeni presežek prihodkov pravne osebe (posrednih uporabnikov proračunov) se najprej 
+porabi za  pokritje presežka odhodkov iz prejšnjih let, preostanek pa se razporedi za druge 
+namene sklad no s predpisi. Če je ustanovitelj pred spreje tjem letnega poročila zagotovil 
+pokritje presežka odhodkov iz preteklih let iz drugih virov, lahko ugotovljeni presežek 
+prihodkov nad odhodki razporedi za druge namene sklad no s predpisi (17. člen Pravilnika o 
+razčlenjevanju in merjenju prihodkov in odhodkov p ravnih oseb javnega prava). Posredni 
+uporabniki državnega ali občinskega proračuna so pravne osebe: 1. ki so organizirane v 
+pravno-organizacijski obliki kot javni zavod, javna agencija ali javni sklad ; 2. katerih 
+ustanovitelj in lastnik je država oziroma občine; 3. ki izvajajo javno službo, dejavnost v javnem 
+interesu ali druge naloge, s katerimi se izvajajo javne funkcije ; 4. ki sredstva za financiranje 
+pridobivajo iz državnega ali občinskih proračunov, Zavoda za zdravstveno zavarovanje 
+Slovenije ali Zavoda za pokojninsko in invalidsko zavarovanje Slovenije ter drugih virov (3. člen 
+Pravilnika o določitvi neposrednih in posrednih uporabnikov državnega in občinskih 
+proračunov, Uradni list RS, št. 46/2003). 
+ 
+Prihodki od udeležbe pri dobičku in dividend ter pr esežkov prihodkov nad odhodki  
+predstavljajo približno 0,6 % vseh prihodkov, v povprečju več kot 12 milijonov EUR letno (glejte 
+tabelo 2.1), pri čemer je standardni odklon več kot pet milijonov. 
+ 
+Tabela 2.1: Prihodki od udeležbe pri dobičku in dividend ter presežkov prihodkov nad odhodki 
+za vse občine (2007–2020) 
+leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+18,065.048 
+14,846.505 
+6,685.044 
+3,834.166 
+9,307.266 
+5,441.966 
+4,871.436 
+12,332.349 
+19,704.187 
+18,123.640 
+16,643.963 
+16,278.892 
+12,104.885 
+12,067.358 
+12,164.765 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+15 
+ 
+Graf 2.1: Trend prihodkov od udeležbe pri dobičku in dividend ter presežkov prihodkov nad 
+odhodki za vse občine (2007–2020) 
+ 
+ 
+Iz tabele 2.1 in grafa 2.1 je razviden izrazit padec prihodkov od udeležbe pri dobičku in dividend 
+ter presežkov prihodkov nad odhodki v obdobju med let oma 2008 in 2013, za kar je vzroke 
+iskati v posledicah gospodarske krize. Zaradi slabšega poslovanja gospodarstva, ki se je 
+odrazilo v nižjih dobičkih družb ter posledično dividendah, ki so jih te namenjale delničarjem 
+(v našem primeru občinam), so t. i. kapitalski prihodki občin izrazito padli. Med let oma 2013 
+in 2015 je opaziti izrazit trend naraščanja teh prihodkov, ki je posledica okrevanja 
+gospodarstva in poznejšega rahlega padca.  
+Na ravni posamezne občine najdemo izrazita nihanja v prihodkih iz navedene ga vira (glej te 
+tabelo 2.1a). Občina Komenda, na primer, je imela izjemen prihodek (4,300.000 EU R) iz tega 
+naslova le leta 2008, sedem let pa celo ni izkazovala prihodkov iz tega vira (glejte Prilogo).  
+Tabela 2.1a: Prihodki od udeležbe pri dobičku in dividend ter presežkov prihodkov nad 
+odhodki (min. in maks.) 
+Občine z najvišjim zneskom per 
+capita (v EUR) 
+Občine z najnižjim 
+zneskom per capita (v 
+EUR) 
+Občine z najvišjim zneskom absolutno (v 
+EUR) 
+OBČINA KOMENDA* 56,83 MESTNA OBČINA LJUBLJANA 4,661.790 
+OBČINA POSTOJNA 23,27 MESTNA OBČINA MARIBOR 
+1,170.501 
+MESTNA OBČINA 
+LJUBLJANA 
+17,07 MESTNA OBČINA CELJE 
+538.411 
+0
+5000000
+10000000
+15000000
+20000000
+25000000
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+16 
+ 
+OBČINA RENČE - 
+VOGRSKO 
+14,72 22 občin9 ni imelo iz 
+naslova prihodkov od 
+udeležbe pri dobičku in 
+dividend ter presežkov 
+prihodkov nad odhodki 
+med letoma 2007 in 
+2020 nobenega 
+prihodka. 
+OBČINA POSTOJNA 
+373.291 
+OBČINA MENGEŠ 13,77 MESTNA OBČINA KOPER 
+368.794 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Mestna občina Celje je imela v letih 2007 in 2008 prihodke iz tega naslova v višini cca 30.000 
+EUR, od leta 2009 naprej pa v povprečju za 10-krat višje prihodke; trikrat celo več kot 
+1,000.000 EUR. 
+ 
+2.2 Prihodki od obresti (združeno) 
+ 
+Prihodki od obresti se računovodsko evidentirajo med nedavčnimi prihodki (54. člen Pravilnika 
+o enotnem kontnem načrtu za proračun, proračunske uporabnike in druge osebe javnega 
+prava). Zajema jo vse obračunane obresti, razen prejetih obresti na sredstva proračunskih 
+skladov, ki se knj ižijo kot povečanje sklada , ter tiste prejete obresti, ki se izkazujejo med 
+prejetimi donacijami (to so obresti od upravljanja sredstev), in obresti od upravljanja sredstev 
+po Zakonu o lastninskem preoblikovanju podjetij ter druge prejete obresti od kupnin.  
+Obresti so plačilo za prepustitev rabe denarnega zneska ali druge nadomestne stvari, ki se 
+zaračuna v odstotku od vsote glavne terjatve in po času, v katerem uporaba traja. Obligacijski 
+zakonik (374.–383. člen, Uradni list RS, št. 97/07 – uradno prečiščeno besedilo, 64/16 – odl. 
+US in 20/18 – OROZ631) določa, da poleg glavnice dolguje dolžnik tudi obresti, če tako določa 
+zakon ali če se upnik in dolžnik tako dogovorita, medtem ko zamudne obresti ureja Zakon o 
+predpisani obrestni meri zamudnih obresti (Ur adni list 11/2007). Na podlagi t eh zakonov 
+ločujemo pogodbene in zamudne obresti. Zamudne obresti so obresti, ki so določene kot 
+civilna sankcija za kršitev obveznosti plačila določenega denarnega zneska od zapadlosti, kar 
+pomeni, da se obračunavajo od trenutka, ko poteče rok za vrnitev denarja, do plačila denarne 
+obveznosti. Pogodbene obresti pa so tiste, za katere se upnik in dolžnik dogovorita in tečejo v 
+obdobju od nastanka denarne obveznosti do zapadlosti ali pa kako drugače.  
+Obresti kot donosi dolgor očnih in kratkoročnih finančnih naložb (posojila, obveznice) se 
+priznajo kot prihodki ob unovčenju (8. člen Pravilnik o razčlenjevanju in merjenju prihodkov in 
+odhodkov pravnih oseb javnega prava). Sprememba vrednosti dolgoročnih finančnih naložb 
+ 
+9 Bistrica ob Sotli, Dobje, Dobrovnik, Gornji Petrovci, Hodoš, Kozje, Loški Potok, Makole, Mokronog - Trebelno, 
+Osilnica, Podčetrtek, Poljčane, Rogaška Slatina, Rogatec, Sodražica, Solčava, Šentrupert, Šmarje pri Jelšah, 
+Trebnje, Turnišče, Velike Lašče, Vodice. 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+17 
+ 
+zaradi spremembe tečaja tuje valute poveča ali zmanjša vrednost finančne naložbe ter stanje 
+obveznosti do njihovih virov sredstev, medtem ko  se sprememba vrednosti kratkoročnih 
+finančnih naložb zaradi spremembe tečaja tuje valute obravnava kot obrestovanje, prihodk i 
+pa se priznajo ob unovčenju. 
+Prihodki od obresti predstavljajo približno 0,2  % vseh prihodkov, v povprečju več kot štiri 
+milijone EUR letno (glejte tabelo 2.2). Prihodki od obresti so v obdobju 2007–2020 kazali izrazit 
+trend padanja (glejte graf 2.2). Vzroke za zadnje smo iskali v povezavi s prejetimi vračili posojil, 
+ki so jih občine predhodno dale najrazličnejšim subjektom (posameznikom in zasebnikom pa 
+tudi javnim podjetjem in družbam, ki so v lasti države ali občin, itn.) in so v opisanem obdobju 
+njihova vračila padala. Zadnje pomeni, da so imele občine v začetku opisanega obdobja večje 
+terjatve iz naslova danih posojil in posledično tudi večje obračunane obresti. Kumulativna 
+vračila danih posojil občin so bila v začetku obdobja (leta 2007) kar 6-krat večja, kot so bila na 
+koncu obdobja (leto 2020), kar napotuje na sklep, da so se tudi prihodki iz naslova obračunanih 
+obresti do teh posojil bistveno zmanjšali. 
+ 
+Tabela 2.2: Prihodki od obresti za vse občine (2007–2020) 
+Leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+10,355.476 
+12,509.199 
+6,200.091 
+3,899.628 
+3,476.710 
+4,179.593 
+5,163.398 
+2,377.876 
+915.453 
+1,324.834 
+1,579.970 
+831.879 
+4,984.461 
+1,798.119 
+4,256.906 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+18 
+ 
+Graf 2.2: Trend prihodkov od obresti za vse občine (2007–2020) 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+Tabela 2.2a: Prihodki od obresti (min. in maks.) 
+Občine z najvišjim zneskom 
+per capita (v EUR) 
+Občine z najnižjim zneskom 
+per capita (v EUR) 
+Občine z najvišjim zneskom 
+absolutno (v EUR) 
+Občine z najnižjim zneskom 
+absolutno (v EUR) 
+KRŠKO 16,7 TABOR 0,1 KRŠKO 440.154,0 SOLČAVA 143,0 
+CERKLJE NA 
+GORENJSKEM 10,1 
+VOJNIK 
+0,1 
+KOPER 
+415.481,3 
+ŽETALE 
+124,6 
+PODVELKA 10,0 VRANSKO 0,1 MARIBOR 332.014,5 ŠALOVCI 102,3 
+TRZIN 9,6 ŽETALE 0,1 LJUBLJANA 328.304,4 KOSTEL 40,0 
+MARKOVCI 9,0 ANKARAN 0,0 DOMŽALE 151.367,6 ANKARAN 14 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+2.3 Prihodki iz naslova najemnin za kmetijska zemljišča in gozdove 
+ 
+Kmetijska zemljišča in gozdovi so vrsta zemljišč. Zemljišča so nepremičnine, torej vrsta stvari, 
+ki so splošno urejene v Stvarnopravnem zakoniku  (SPZ, Uradni list RS, št. 87/02, 91/13 in 
+23/20). Splošni predpis, ki ureja ravnanje s stvarmi v lasti samoupravnih lokalnih skupnosti, je 
+Zakon o stvarnem premoženju države in samoupravnih lokalnih skupnosti (ZSPDSLS-1, Uradni 
+
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+19 
+ 
+list RS, št. 11/18 in 79/18). Oddajanje v najem je oblika upravljanja z nepremičninami (58. člen 
+ZSPDSLS-1). Najem je obligacijsko razmerje, ki ga na splošno ureja Obligacijski zakonik (OZ, 
+Uradni list RS, št. 97/07 – uradno prečiščeno besedilo, 64/16 – odl. US in 20/18 – OROZ631). 
+OZ izraza zakup in najem uporablja kot sinonima, 10 pri čemer je primarno uporabljen izraz 
+zakup. V praksi nekatere samoupravne lokalne skupnosti izraz zakup uporabljajo za kmetijska 
+zemljišča, najem pa za stavbna zemljišča oziroma preostale nepremičnine.11 
+Varstvo in upravljanje  kmetijskih zemljišč posebej ureja Zakon o kmetijskih zemljiščih (ZKZ, 
+Uradni list RS, št. 71/11 – uradno prečiščeno besedilo, 58/12, 27/16, 27/17 – ZKme-1D in 
+79/17). Kmetijska zemljišča so zemljišča, ki so primerna za kmetijsko pridelavo in so kot 
+kmetijska zemljišča določena skladno z drugim oziroma s tretjim odstavkom 2. člena ZKZ (torej 
+s prostorskimi akti samoupravnih lokalnih skupnosti). Za potrebe zagotavljanja namenske rabe 
+in preprečevanja onesnaževanja se za kmetijska zemljišča štejejo tudi njive, vrtovi, travniki, 
+trajni nasadi in druge kmetijske površine (4. in 7. člen v povezavi z 2. členom ZKZ). 
+ 
+Promet kmetijskih zemljišč pomeni pridobitev lastninske pravice s pravnimi posli med živimi 
+in v drugih primerih, ki jih določa ZKZ (17. člen ZKZ); urejen je v III. poglavju ZKZ. Najem (zakup) 
+kmetijskih zemljišč s pripadajočimi objekti, napravami in dolgoletnimi nasadi pa je urejen v IV. 
+poglavju ZKZ, pri čemer se smiselno uporablja tudi del določb ZKZ, ki urejajo promet s 
+kmetijskimi zemljišči (npr. objava  in sprejetje ponudbe). Natančnejša pravila gled e naje ma 
+(zakupa) kmetijskih zemljišč določijo samoupravne lokalne skupnosti s svojimi akti.12 
+ 
+Za zakupna razmerja po ZKZ se uporabljajo določbe zakona, ki ureja obligacijska razmerja, če 
+ni z ZKZ drugače določeno. ZKZ določa vsebino in obliko 13 zakupne pogodbe (26. člen ZKZ), 
+prednostno pravico (27. člen ZKZ), postopek (objava in sprejetje ponudbe … 27. člen ZKZ). Za 
+zakup kmetijskega zemljišča, ki je v lasti občine, ni potrebno dovoljenje upravne enote (27. 
+člen ZKZ). Zakupno razmerje se vknjiži v zemljiški knjigi in zemljiškem katastru  (28. člen ZKZ). 
+Zakon določa najkrajšo dobo zakupnega razmerja glede na namen rabe kmetijskega zemljišča 
+in izjeme od tega pravila (29. člen ZKZ). Zakupna pogodba se podaljša za prvotno dogovorjeno 
+dobo, če najmanj v šestmesečnem roku pred iztekom pogodbe nobena pogodbena stranka 
+pisno ne odpove pogodbe, razen če se stranki dogovorita drugače (31. člen ZKZ). Zakon ureja 
+tudi prenehanje, odstop, razveljavitev in spremembo zakupne pogodbe (32.–34. člen ZKZ). 
+ 
+Višina zakupnine se določni z zakupno pogodbo (26. člen ZKZ). V praksi je zakupnina določena 
+z občinskim aktom,14 pri čemer je običajno določen minimalni letni znesek. Obstajajo primeri, 
+ 
+10 OZ, X. poglavje: Zakupna (najemna) pogodba.  
+11 Gl. npr. https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina?urlurid=20113611.  
+12 Gl. npr. Pravilnik o zakupu zemljišč v lasti Občine Dobrepolje, Uradni list RS, št. 50/2019. 
+13 Zakupna pogodba mora biti sklenjena v pisni obliki. Zakupna pogodba, ki ni sklenjena v pisni obliki, nima 
+pravnega učinka. 
+14 Gl. npr. sklep občine Tržič z dne 29. 9. 2014. 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+20 
+ 
+ko se občinski akt sklicuje na (vsakoletni) cenik Sklada kmetijskih zemljišč in gozdov Republike 
+Slovenije.15 
+ 
+Področje gozdov urejata ZKZ kot lex generalis in Zakon o gozdovih (ZG, Uradni list RS, št. 30/93, 
+56/99 – ZON, 67/02, 110/02 – ZGO-1, 115/06 – ORZG40, 110/07, 106/10, 63/13, 101/13 – 
+ZDavNepr, 17/14, 22/14 – odl. US, 24/15, 9/16 – ZGGLRS in 77/16) kot lex specialis: ZKZ namreč 
+določa, da se njegove določbe smiselno uporabljajo tudi za gozdove, če ni z zakonom (torej 
+ZG) drugače določeno (1. člen ZKZ). Gozd in druga gozdna zemljišča so opredeljena v 2. členu 
+ZG. Določbe ZG, ki se nanašajo na gozdove, veljajo tudi za druga gozdna zemljišča, če ZG ne 
+določa drugače. ZG ne vsebuje posebnih določb o najemu (zakupu) gozdov. Višino najemnine 
+(zakupnine) gozdov določijo občine s svojimi akti.16 
+ 
+Tabela 2.3: Prihodki iz naslova najemnin za kmetijska zemljišča in gozdove  za vse občine 
+(2007–2020) 
+Leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+157.776 
+103.585 
+77.960 
+83.177 
+86.811 
+111.006 
+145.407 
+118.767 
+163.696 
+129.313 
+232.122 
+231.096 
+157.984 
+192.933 
+142.259 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+15 Gl. npr. 26. člen Odloka o oddajanju stavbnih in kmetijskih zemljišč v lasti Občine Kočevje v najem/zakup z 
+dne 26. oktobra 2018 (https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2018-01-3488/odlok-o-
+oddajanju-stavbnih-in-kmetijskih-zemljisc-v-lasti-obcine-kocevje-v-najemzakup). Primerjajte z aktom občine 
+Kranjska Gora z dne 20. 2. 2020.  
+16 Gl. npr. https://sobotainfo.com/novica/politika-gospodarstvo/obcina-v-najem-ponuja-skoraj-30-
+nepremicnin/548155 (»Višina najnižje najemnine bo določena skladno z veljavnim cenikom najema nezazidanih 
+zemljišč in javnih površin oziroma cenika zakupnin za kmetijska zemljišča«). 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+21 
+ 
+Graf 2.3: Trend prihodkov iz naslova najemnin za kmetijska zemljišča in gozdove za vse 
+občine (2007–2020) 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Tabela 2.3a: Prihodki iz naslova najemnin za kmetijska zemljišča in gozdove (min. in maks.) 
+Občine z najvišjim zneskom per 
+capita (v EUR) 
+Občine z najnižjim 
+zneskom per capita (v 
+EUR) 
+Občine z najvišjim zneskom absolutno (v 
+EUR) 
+VELIKA POLANA* 7,17 111 občin ni imelo iz 
+naslova prihodkov od 
+najemnin za kmetijska 
+zemljišča in gozdove 
+med letoma 2007 in 
+2020 nobenega 
+prihodka. 
+KOČEVJE 249.918 
+KOČEVJE 
+1,58 
+VELIKA POLANA 
+10.075,1 
+MORAVSKE TOPLICE 
+1,19 
+BLED 
+7.756,4 
+OSILNICA 1,05 MORAVSKE TOPLICE 7.196,9 
+BLED 0,98 RADOVLJICA 6.801,1 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+*Velika Polana je imela le v letih 2017 in 2018 visoke prihodke iz naslova najemnin za kmetijska 
+zemljišča in gozdove. 
+ 
+Gibanje prihodkov iz naslova najemnin za kmetijska zemljišča in gozdove (Tabela 2.3, Graf 2.3) 
+je bilo zelo dinamično – trendu izrazitega padanja v obdobju 2007-2009 je sledil trend vedno 
+hitrejšega naraščanja v obdobju 2010-2013 in nato velik skok v obdobju 2017-2018. Slednjega 
+
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+22 
+ 
+je mogoče pripisati visokemu porastu prihodkov v nekaterih občinah (zlasti Velika Polana) in v 
+prilivu tega prihodka v občinah, v katerih prej tega prihodka ni bilo (npr. Radenci). Če 
+pogledamo širši kontekst področja, lahko vidimo, da so cene najem a teh vrst nepremičnin v 
+lasti SKGZ v obdobju 2007-2020 izrazito narasle.17 
+ 
+2.4 Prihodki od najemnin za poslovne prostore 
+ 
+Oddajanje poslovnih stavb in poslovnih prostorov v najem je ena izmed oblik upravljanja s 
+temi vrstami nepremičnin. Področje poslovnih stavb in prostorov je do junija 2021 na splošno 
+urejal Zakon o poslovnih stavbah in poslovnih prostorih (ZPSPP, Uradni list SRS, št. 18/74, 
+34/88, Uradni list RS, št. 32/00, 102/02 – odl. US, 87/11 – ZMVN-A in 90/21 – SZ-1E), po tem 
+času pa ga ureja Sta novanjski zakon (SZ-1, Uradni list RS, št. 69/03, 18/04 – ZVKSES, 47/06 – 
+ZEN, 45/08 – ZVEtL, 57/08, 62/10 – ZUPJS, 56/11 – odl. US, 87/11, 40/12 – ZUJF, 14/17 – odl. 
+US, 27/17, 59/19, 189/20 – ZFRO in 90/21)18 – ZPSPP se uporablja le še za pogodbe, sklenjene 
+na njegovi podlagi pred uveljavitvijo novele SZ-1E junija 2021. 
+ 
+Oddajanje občinskih poslovnih stavb in poslovnih prostorov v najem posebej urejata dva 
+državna predpisa, in sicer Zakon o stvarnem premoženju države in samoupravnih lokalnih 
+skupnosti (ZSPDSLS-1, Uradni list RS, št. 11/18 in 79/18 , 62.–66. člen) ter Uredba o stvarnem 
+premoženju države in samoupravnih lokalnih skupnosti  (Uradni list RS, št. 31/18) , občine pa 
+na tej podlagi izdajo svoje pravne akte.19 
+ 
+Nepremičnine se oddajo v najem na podlagi različnih postopkov, in sicer neposredne sklenitve 
+pogodbe, javneg a zbiranja ponudb in javne dražbe (49. –52. člen v povezavi s 57. členom 
+ZSPDSLS-1).20 V najem se lahko odda le tisto nepremično premoženje v lasti samoupravnih 
+lokalnih skupnosti, ki ga ne potrebuje noben upravljavec ali uporabnik. Zakon dovoljuje oddajo 
+v najem pod ocenjeno vrednostjo, ne dovoljuje pa plačila najemnine za več let v enkratnem 
+znesku – najemnino se torej lahko plačuje le mesečno ali letno (62. člen ZSPDSLS -1). 
+Nepremično premoženje se lahko odda v najem za določen čas, vendar ne za dlje kot pet let, 
+ 
+17 Za vrtove in njive katastrskih kategorij 1-3 za okoli 60% (gl. http://www.s-kzg.si/si/delovna-podrocja/sektor-
+za-kmetijstvo/arhiv-cenikov/ ). 
+18 Gl. 52. člen Zakona o spremembah in dopolnitvah Stanovanjskega zakona (SZ -1E) (https://www.uradni-
+list.si/glasilo-uradni-list-rs/vsebina/2021-01-1868?sop=2021-01-1868). 
+19 Občina Ptuj npr. z Odlokom o oddajanju poslovnih prostorov in garaž v najem (Uradni vestnik Mestne občine 
+Ptuj, št. 7/12, 8/13 in 15/13) ter s Pravilnikom o merilih in kriterijih znižane najemnine poslovnih prostorov 
+(Uradni vestnik Mestne občine Ptuj, št. 9/13 in 1/14) (https://www.ptuj.si/objava/321215). Gl. tudi 
+https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/1996-01-2231/odlok-o-oddajanju-poslovnih-prostorov-
+v-najem (1996) in https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2019-01-1525/pravilnik-o-nacinu-
+oddajanja-poslovnih-prostorov-v-najem-brezplacno-uporabo-in-v-obcasno-uporabo-ter-o-dolocanju-najemnin 
+(2019). 
+20 Gl. npr. https://www.ptuj.si/objava/321215.  
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+23 
+ 
+ali za nedoločen čas z odpovednim rokom, ki ne sme biti daljši od šestih mesecev (63. člen 
+ZSPDSLS-1).21 
+ 
+Nepremično premoženje se lahko oddaja tudi v občasno uporabo, če to ni v nasprotju z 
+namembnostjo nepremičnine in se z uporabo ne krni ugled a lastnika in upravljavca 
+nepremičnega premoženja. Uporabnina za oddajo nepremičnega premoženja občin se določi 
+s cenikom, ki ga sprejme organ, odgovoren za izvrševanje proračuna občine. Za prihodke od 
+oddaje v občasno uporabo se smiselno uporabljajo določbe, ki jih za najemnine določa zakon, 
+ki ureja javne finance (67. člen ZSPDSLS-1).  
+ 
+Občine lahko ustvarijo prihodek z nepremičnino tudi na podlagi njene obremenitve s stvarnimi 
+pravicami (70. člen ZSPDSLS-1). 
+ 
+Tabela 2.4: Prihodki od najemnin za poslovne prostore za vse občine (2007–2020) 
+Leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+19,337.574 
+20,054.413 
+18,287.648 
+18,337.907 
+19,192.432 
+17,886.781 
+17,070.151 
+16,424.134 
+15,718.463 
+15,091.040 
+15,639.744 
+15,441.426 
+15,473.514 
+13,666.004 
+16,972.944 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+21 Odpoved najema poslovnih prostorov ali poslovnih stavb mora biti pisna, ne glede na čas najema, odpovedni 
+rok pa sme biti daljši od šestih mesecev. Po izteku najemnega razmerja za določen čas se lahko nepremičn o 
+premoženje ponovno odda v najem na podlagi novega postopka.  
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+24 
+ 
+Graf 2.4: Trend prihodkov od najemnin za poslovne prostore za vse občine (2007–2020) 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+Tabela 2.4a: Prihodki od najemnin za poslovne prostore (min. in maks.) 
+Občine z najvišjim zneskom per 
+capita (v EUR) 
+Občine z najnižjim zneskom per 
+capita (v EUR) 
+Občine z najvišjim zneskom 
+absolutno (v EUR) 
+IZOLA 35,80 10 občin22 ni imelo iz naslova 
+prihodkov najemnin za poslovne 
+prostore med letoma 2007 in 
+2020 nobenega prihodka. 
+LJUBLJANA 2,998.391 
+SLOVENJ GRADEC 27,32 MARIBOR 1,373.106 
+GORNJI PETROVCI 26,63 KOPER 1,166.736 
+PTUJ 23,17 CELJE 933.510 
+KOPER 
+23,13 
+IZOLA 
+568.809 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Prihodki od najemnin za poslovne prostore (Tabela 2.4, Graf 2.4) kažejo v obdobju 2007-2020 
+trend rahlega upadanja in za razliko od nekaterih drugih vrst pr ihodkov ne izkazujejo 
+povezanosti s siceršnjo gospodarsko situacijo, npr. finančno-gospodarsko krizo. 
+ 
+22 Braslovče, Cankova, Destrnik, Križevci, Log - Dragomer, Odranci, Selnica ob Dravi, Solčava, Sv. Jurij v Slovenskih 
+goricah. 
+0
+5000000
+10000000
+15000000
+20000000
+25000000
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+25 
+ 
+ 
+2.5 Prihodki od najemnin za stanovanja 
+ 
+Stanovanja so posamezni deli dvo- ali večstanovanjske stavbe in jih tvorijo skupine prostorov, 
+namenjenih za trajno prebivanje, ki so funkcionalna celota, navadno z enim vhodom, ne glede 
+na to, ali so prostori v stanovanjski ali drugi stavbi .23 Področje stanovanj urejata Stanovanjski 
+zakon (SZ-1, Uradni list RS, št . 69/03, 18/04 – ZVKSES, 47/06 – ZEN, 45/08 – ZVEtL, 57/08, 
+62/10 – ZUPJS, 56/11 – odl. US, 87/11, 40/12 – ZUJF, 14/17 – odl. US, 27/17, 59/19, 189/20 – 
+ZFRO in 90/21) ter Zakon o stvarnem premoženju države in samoupravnih lokalnih skupnosti 
+(ZSPDSLS-1, Uradni list RS, št. 11/18 in 79/18). Na njuni podlagi nato občine izdajo svoje akte.24 
+Pristojnosti in naloge občine na stanovanjskem področju so urejene v XIV. poglavju SZ -1. 
+Občina lahko z odlokom določi splošna pravila pri uporabi stanovanj in stanovanjskih stavb ter 
+obveznosti in pogoje za prenovo, izboljšave ter zunanji videz stanovanj in stanovanjskih stavb 
+(155. člen SZ-1). 
+ 
+Najemna razmerja so urejena v VI. poglavju SZ-1, oddajanje neprofitnega stanovanja v najem 
+pa v poglavju VI.3 SZ -1. Do dodelitve neprofitnega najemnega stanovanja v lasti občine so 
+upravičeni državljani Republike Slovenije, ki izpolnjujejo pogoje in merila, določena s 
+Pravilnikom o dodeljevanju neprofitnih stanovanj v najem, ki ga izda minister .25 V praksi 
+občine neprofitna stanovanja oddajo v najem na podlagi javnega razpisa.26 
+ 
+Občine urejajo pogoje in postopek oddaje tržnih stanovanj v najem s svojimi predpisi.27 Oddaja 
+tržnih stanovanj v najem se v praksi izvaja na podlagi javnega razpisa z javnim zbiranjem 
+ponudb, stanovanje pa se odda subjektu, ki ponudi najvišjo ceno. 28 Posebej je urejeno 
+oddajanje službenih stanovanj v najem. V praksi je najemnina za taka sta novanja enaka tržni 
+najemnini.29 
+ 
+ 
+23 Ob enostanovanjski stavbi ta predstavlja stanovanje. 
+24 Gl. npr. akte Mestne občine Ljubljana na https://www.ljubljana.si/sl/mestna-obcina/informacije-javnega-
+znacaja/register-predpisov/nepremicnine/stanovanja/. 
+25 http://www.pisrs.si/Pis.web/pregledPredpisa?id=PRAV5102.  
+26 Uradni vestnik Zasavja, št. 13/17. 
+27 Pravilnik o dodeljevanju tržnih stanovanj v lasti Občine Trbovlje v najem, Uradni vestnik Zasavja , št. 25/21 
+(dostopno na https://www.trbovlje.si/objava/565971). 
+28 https://www.trbovlje.si/objava/565971 (2021). 
+29 Npr. Pravilnik o dodeljevanju službenih stanovanj v lasti Občine Mirna v najem, Uradno glasilo slovenskih 
+občin, št. 19/2019 (http://www.lex-localis.info/KatalogPristojnosti/TiskDokumenta.aspx?SectionID=f07b4238 -
+440f-42c4-9a50-1723ae67dc3f). 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+26 
+ 
+Občine posebej urejajo tudi oddajo stanovanj določenim subjektom, npr. mladim. S svojim 
+aktom med drugim uredijo najemnino in druge stroške uporabe namenskega najemnega 
+stanovanja.30 
+ 
+Tabela 2.5: Prihodki od najemnin za stanovanja za vse občine (2007–2020) 
+Leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+19,125.235 
+18,209.981 
+17,685.365 
+17,503.549 
+18,125.913 
+18,146.175 
+18,315.445 
+18,280.377 
+17,689.027 
+18,159.231 
+17,858.325 
+18,219.084 
+18,043.687 
+18,121.292 
+18,105.906 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+Graf 2.5: Trend prihodkov od najemnin za stanovanja za vse občine (2007–2020) 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+ 
+ 
+30 Npr. Pravilnik o dodeljevanju namenskih najemnih stanovanj v najem mladim, Uradni vestnik Zasavja, št. 
+19/19.  
+16500000
+17000000
+17500000
+18000000
+18500000
+19000000
+19500000
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+27 
+ 
+Tabela 2.5a: Prihodki od najemnin za stanovanja (min. in maks.) 
+Občine z najvišjim zneskom per 
+capita (v EUR) 
+Občine z najnižjim zneskom per 
+capita (v EUR) 
+Občine z najvišjim zneskom 
+absolutno (v EUR) 
+ČRNA NA KOROŠKEM 
+45,76 
+10 občin31 ni imelo iz naslova 
+prihodkov od najemnin za 
+stanovanja med letoma 2007 
+in 2020 nobenega prihodka. 
+ 
+VELENJE 
+1,154.366 
+RIBNICA NA POHORJU 44,98  KRANJ 905.388,4 
+TRBOVLJE 42,68  PTUJ 849.672,1 
+MUTA 41,36  TRBOVLJE 697.294,8 
+HRASTNIK 39,36  LJUBLJANA 687.760,7 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+Prihodki od najemnin za stanovanja (Tabela 2.5, Graf 2.5) so v obdobju 2007 -2010 izrazito 
+upadli, nato pa se povišali in ostali na relativno stabilni ravni, a še vedno nižji od tiste leta 2007 
+(za okoli 5%). Izrazit padec v obdobjih 2007 -2010 je mogoče iskati v ukrepih zaradi finančno -
+gospodarske krize. 
+ 
+2.6 Prihodki od najemnin za opremo 
+ 
+Oprema so premičnine, katerih dajanje v najem je urejeno z Zakonom o stvarnem premoženju 
+države in samoupravnih lokalnih skupnosti (ZSPDSLS -1, Uradni list RS, št. 11/18 in 79/18) ter 
+Uredbo o stvarnem premoženju države in samoupravnih lokalnih skupnosti (Uradni list RS, št. 
+31/18)32, na njuni podlagi pa nato občine izdajajo svoje akte.  80. člen zakona določa, da se 
+premično premoženje ob smiselni uporabi določb ZSPDSLS-1 lahko odda v najem na podlagi 
+metode neposredne pogodbe, če je letni prihodek od oddaje v najem premičnin nižji od 2.500 
+evrov, odpovedni rok pri oddaji premičnega premoženja v najem pa ne sme biti daljši od treh 
+mesecev. V praksi se v najem daje npr. naslednja oprema: mize in klopi, odri, stojnice, 
+ozvočenje, IKT. 
+ 
+ 
+ 
+ 
+ 
+31 Ankaran, Destrnik, Hajdina, Hoče - Slivnica, Log - Dragomer, Miklavž na Dravskem polju, Mirna Peč, Murska 
+Sobota, Starše, Trnovska vas. 
+32 Uredba v 4. členu za potrebe načrtovanja ra vnanja določa vrste premičnin, in sicer motorna vozila, 
+informacijsko-komunikacijsko strojno opremo in drugo premično premoženje.  
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+28 
+ 
+ 
+Tabela 2.6: Prihodki od najemnin za opremo za vse občine (2007–2020) 
+Leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+637.044 
+812.091,5 
+720.993,1 
+2,026.675 
+3,204.708 
+3,004.713 
+3,966.472 
+5,300.046 
+6,895.244 
+8,377.114 
+9,300.650 
+10,300.607 
+9,407.776 
+9,632.059 
+5,256.157 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+Graf 2.6: Trend prihodkov od najemnin za opremo za vse občine (2007-2020) 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+ 
+ 
+ 
+ 
+0
+2000000
+4000000
+6000000
+8000000
+10000000
+12000000
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+29 
+ 
+Tabela 2.6a: Prihodki od najemnin za opremo (min. in maks.) 
+Občine z najvišjim zneskom per 
+capita (v EUR) 
+Občine z najnižjim zneskom per 
+capita (v EUR) 
+Občine z najvišjim zneskom 
+absolutno (v EUR) 
+JEZERSKO 
+58,65 
+130 občin ni imelo iz naslova 
+prihodkov od najemnin za 
+opremo med letoma 2007 in 
+2020 nobenega prihodka. 
+ 
+KOPER 
+874.344,4 
+METLIKA 53,03  METLIKA 441.348,8 
+SREDIŠČE OB DRAVI 46,21  TRBOVLJE 423.557,1 
+PIVKA 42,26  DRAVOGRAD 276.852,9 
+RADENCI 41,09  PIVKA 263.631 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Prihodki od najemnin za opremo (Tabela 2.6, Graf 2.6) v obdobju 2007-2009 niso predstavljali 
+omembe vrednega prihodka, od leta 2010 dalje pa je izkazan izrazit porast do leta 2018 in nato 
+ustalitev. Leta 2010 so se prihodki iz tega naslova zelo povečali na račun občin, ki do tega leta 
+niso imele prihodkov (npr. Metlika, Trbovlje) in so to vrsto prihodkov nato še povečevale. Na 
+drugi strani nekatere občine še vedno nimajo omembe vrednih prihodkov iz tega naslova (npr. 
+Kranj).  
+ 
+2.7 Prihodki od drugih najemnin 
+ 
+Na podlagi Zakona o stvarnem premoženju države in samoupravnih lokalnih skupnosti 
+(ZSPDSLS-1, Uradni list RS, št. 11/18 in 79/18), Uredbe o stvarnem premoženju države in 
+samoupravnih lokalnih skupnosti (Uradni list RS, št. 31/18) 33 ter na njuni podlagi izdanih 
+občinskih aktov se v najem dajejo tudi druge nepremičnine, npr.: dvorane, sejne sobe, zunanje 
+javne površine za potrebe pridobitnih ali nepridobitnih dogodkov.34 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+33 Uredba v 4. členu za potrebe načrtovanja ravnanja določa vrste premičnin, in sicer : motorna vozila, 
+informacijsko-komunikacijsko strojno opremo in drugo premično premoženje.  
+ 
+34 Gl. npr. https://www.jezersko.si/objava/401597.  
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+30 
+ 
+Tabela 2.7: Prihodki od drugih najemnin za vse občine (2007–2020) 
+Leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+6,737.795 
+7,544.717 
+11,451.487 
+47,435.548 
+64,639.451 
+83,815.558 
+74,957.277 
+82,584.907 
+88,941.827 
+99,882.092 
+113,852.175 
+117,827.301 
+122,111.248 
+118,072.197 
+74,275.256 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+Graf 2.7: Trend prihodkov od drugih najemnin za vse občine (2007–2020) 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+ 
+ 
+ 
+ 
+ 
+0
+20000000
+40000000
+60000000
+80000000
+100000000
+120000000
+140000000
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+31 
+ 
+Tabela 2.7a: Prihodki od drugih najemnin (min. in maks.) 
+Občine z najvišjim 
+zneskom per capita (v 
+EUR) 
+Občine z najnižjim 
+zneskom per capita (v 
+EUR) 
+Občine z najvišjim zneskom 
+absolutno (v EUR) 
+Občine z najnižjim zneskom v 
+absolutno (v EUR) 
+VELENJE 
+121,05 
+RIBNICA NA 
+POHORJU 0,15 
+LJUBLJANA 
+10,156.598 
+GORJE 
+411,68 
+ŠOŠTANJ 
+101,07 
+KANAL 
+0,13 
+MARIBOR 
+5,846.263 
+RIBNICA NA 
+POHORJU 175,89 
+CELJE 98,60 RADENCI 0,12 CELJE 4,796.444 OSILNICA 136 
+TRZIN 76,25 PODČETRTEK 0,00 VELENJE 3,983.122 PODČETRTEK 0 
+LOGATEC 75,27 VELIKE LAŠČE 0,00 KRANJ 2,620.129 VELIKE LAŠČE 0 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Prihodki od drugih najemnin  (Tabela 2.7, Graf 2.7) do leta 2010 niso predstavljali omembe 
+vrednih prihodkov, nato pa so (podobno kot pri prihodkih iz najemn ine za opremo) izrazito 
+porasli v obdobju 2010-2012, nekoliko počasnejši trend rasti pa se je nadaljeval vse do 2019, 
+ko je dosegel vrh.  
+ 
+2.8 Prihodki od zakupnin 
+ 
+Kot je bilo pojasnjeno v poglavju o najemu kmetijskih zemljišč in gozdov, se po splošnem 
+obligacijskem pravu izraz najem uporablja kot sinonim za zakup, v praksi pa se izraz zakup 
+navadno uporablja za kmetijska zemljišča (v ožjem in širšem smislu)35 in gozdove, najem pa za 
+stavbna zemljišča oziroma preostale nepremičnine.36  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+35 Gl. 3. odst. 2. člena ZKZ. 
+36 Izjemo je npr. predstavljal pravilnik Mestne občine Novo mesto, ki je tudi za stavbna zemljišča dosledno 
+uporabljal besedno zvezo »zakup (najem)«, kot določa OZ (https://www.uradni-list.si/glasilo-uradni-list-
+rs/vsebina/1999-01-2757/pravilnik-o-prodaji-oddaji-v-zakup-najem-oddaji-za-gradnjo-in-menjavi-stavbnih-
+zemljisc-v-lasti-mestne-obcine-novo-mesto). 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+32 
+ 
+Tabela 2.8: Prihodki od zakupnin za vse občine (2007–2020) 
+Leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+788.880,5 
+1,118.384 
+890.775,6 
+2,136.491 
+1,343.421 
+1,435.837 
+1,539.158 
+1,315.691 
+1,491.947 
+1,548.230 
+1,908.151 
+1,926.396 
+1,874.718 
+1,984.662 
+1,521.624 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+Graf 2.8: Trend prihodkov od zakupnin za vse občine (2007–2020) 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+ 
+ 
+ 
+ 
+ 
+0
+500000
+1000000
+1500000
+2000000
+2500000
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+33 
+ 
+Tabela 2.8a: Prihodki od zakupnin (min. in maks.) 
+Občine z najvišjim zneskom per 
+capita (v EUR) 
+Občine z najnižjim zneskom per 
+capita (v EUR) 
+Občine z najvišjim zneskom 
+absolutno (v EUR) 
+VIPAVA 
+50,21 
+115 občin ni imelo iz naslova 
+prihodkov od zakupnin med 
+letoma 2007 in 2020 
+nobenega prihodka. 
+ 
+VIPAVA 
+282.242,8 
+ŽIROVNICA 45,45  PIRAN 211.644,2 
+TRZIN 20,74  ŽIROVNICA 206.360,6 
+ŠENTILJ 12,94  IZOLA 151.601,5 
+PIRAN 12,26  LJUBLJANA 113.767,9 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Prihodki od zakupnin  (Tabela 2.8, Graf 2.8) kažejo trend stalnega počasnega naraščanja, z 
+izrazitim skokom leta 2010.37  
+ 
+2.9 Prihodki iz naslova podeljenih koncesij 
+ 
+Prihodki iz naslova koncesij se pobirajo iz naslova različnih zakonov. Najpogostejša podlaga za 
+dodeljevanje koncesij na lokalni ravni je Zakon o gospodarskih javnih službah (Uradni list RS, 
+št. 32/93, 30/98 – ZZLPPO, 127/06 – ZJZP, 38/10 – ZUKN in  57/11 – ORZGJS40), ki določa 
+dodeljevanje koncesij za opravljanje javnih služb. Z zakonom je določeno , kdaj se koncesija 
+podeli oziroma ne podeli , med drugim  pa tudi to, kaj vsebuje koncesijski akt. V zakonu je 
+koncesionirana gospodarska javna služba regulirana v četrtem poglavju in zajema člene 29 –
+53. V zakonu so opredeljeni: koncesionar, koncedent, nameni in vrste aktov, ki so podlaga za 
+dodeljevanje koncesij, postopek podeljevanja koncesij, vsebina koncesijske pogodbe it n. Kot 
+obvezni del koncesijske pogodbe je določena tudi metodologija oziroma izračun koncesijske 
+dajatve. Vsaka posamezna občina torej sprejme ustrezni akt, ki je potem podlaga za dodelitev 
+koncesije in določanje koncesijske dajatve iz tega naslova. V to skupino prihodkov spadajo tudi 
+prihodki, ki izhajajo iz podeljenih koncesij še iz naslova druge zakonske podlage. Tako skladno 
+z Evropsko direktivo 2014/23/EU nekatera koncesijska razmerja določa tudi Zakon o nekaterih 
+koncesijskih pogodbah (Uradni list RS, št . 9/19). Koncesije, ki jih podeljuje lokalna skupnost , 
+ureja tudi Zakon o javno-zasebnem partnerstvu (Uradni list RS, št. 127/06).  
+ 
+Za podeljene koncesije torej občina v večini primerov izda odlok, ki določa, pod katerimi pogoji 
+se podeli jo določena koncesija, naloge in obveznosti, podrobneje pa se medsebojne 
+obveznosti določijo s pogodbo. Občine najpogosteje podeljujejo koncesije za komunalno 
+dejavnost, oglaševanje na javnih površinah (lahko tudi prek koncesij za upravljanje s 
+ 
+37 Tega leta sta prihodke izrazito povečali npr. občini Koper in Trzin. 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+34 
+ 
+signalizacijo na javnih prostorih i tn.), upravljanje distribucijskih omrežij, upravljanje s 
+pristaniško infrastrukturo itn., pred sprejetjem Zakona o vodah pa tudi o upravljanju z vodami. 
+Koncesijske dajatve v tej skupini je do leta 2016 določal tudi Zakon o gospodarjenju z gozdovi 
+v lasti Republike Slovenije, ki je predpisal koncesijo za gozdove v lasti občin ; možnost 
+koncesijskih pogodb zdaj določa Zakon o Skladu kmetijskih zemljišč in gozdov Republike 
+Slovenije (Uradni list RS, št.  19/10 – uradno prečiščeno besedilo, 56/10 – ORZSKZ16, 14/15 – 
+ZUUJFO, 9/16 – ZGGLRS in 36/21 – ZZIRDKG). Znotraj te skupine prihodkov so tudi koncesije, 
+ki občini pripadajo po Zakonu o divjadi in lovstvu (Urad ni list RS, št.  16/04, 120/06 – odl. 
+US, 17/08, 46/14 – ZON-C, 31/18, 65/20 in 97/20 – popr.). Ta zakon v 29. členu določa: 
+̶ letno plačevanje dajatve;  
+̶ izračun osnove : »Osnova za izračun koncesijske dajatve je petletno povprečje letnih 
+prihodkov od dejavnosti gospodarjenja z loviščem ( prihodek od prodane divjačine in 
+prihodek iz lovnega turizma) v zadnjih petih letih.«; 
+̶ dajatev: »Koncesijska dajatev za posamezno lovišče znaša najmanj 10 odstotkov od 
+povprečnega prihodka, ki ga za posamezno lovišče za koncesijsko obdobje … izračuna 
+Zavod.«;  
+̶ določa, da je 50 % dajatve prihodek občinskih proračunov ; posamezna občina prejme 
+sorazmerni del pripadajoče koncesijske dajatve glede na lovno površino lovišča, ki leži 
+v njej;  
+̶ da se tako »nakazana sredstva v proračunu občine izkazujejo kot namenski prejemki in 
+porabljajo kot namenski izdatki za izvajanje ukrepov varstva in vlaganj v naravne vire. 
+Podrobnejše pogoje, namen in način porabe teh sredstev občina uredi z odlokom«. 
+ 
+Tabela 2.9: Prihodki od koncesij za vse občine (2007–2020) 
+Leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+3,980.959 
+5,035.432 
+6,854.491 
+5,920.277 
+9,886.656 
+9,888.764 
+10,795.823 
+11,964.351 
+11,780.317 
+12,857.067 
+11,618.043 
+9,443.097 
+9,982.263 
+8,395.228 
+9,171,626 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+ 
+ 
+ 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+35 
+ 
+Graf 2.9: Trend prihodkov od koncesij za vse občine (2007–2020) 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+Tabela 2.9a: Prihodki od koncesij (min. in maks.) 
+Občine z najvišjim zneskom 
+per capita (v EUR) 
+Občine z najnižjim zneskom 
+per capita (v EUR) 
+Občine z najvišjim 
+zneskom absolutno (v 
+EUR) 
+Občine z najnižjim zneskom 
+absolutno (v EUR) 
+ANKARAN 
+178,12 
+LOG - 
+DRAGOMER 
+0,04 
+KOPER 
+1,855.646 
+SV. TROJICA V 
+SLOVENSKIH 
+GORICAH 336,38 
+PIVKA 
+84,23 
+MEDVODE 
+0,04 
+POSTOJNA 
+1,332.430 
+TRNOVSKA 
+VAS 289,52 
+POSTOJNA 
+83,07 
+LJUBLJANA 
+0,03 
+ANKARAN 
+1,302.108 
+LOG - 
+DRAGOMER 161,58 
+JEZERSKO 
+46,13 
+PIRAN 
+0,03 
+MARIBOR 
+762.289,7 
+ŠEMPETER - 
+VRTOJBA 159,32 
+KOPER 
+36,78 
+ŠEMPETER - 
+VRTOJBA 0,03 
+PIVKA 
+525.498,6 
+DOBJE 
+130,54 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Gibanje prihodkov od koncesij ima trend naraščanja vse do leta 2016, kar deloma sledi 
+spremembam v zakonodaji, ko se spremeni predvsem zakonodaja, povezana z upravljanjem z 
+državnimi gozdovi. Deloma je gibanje vezano tudi na gibanje v gospodarstvu, saj je opazen 
+padec v začetku finančne krize, pozneje pa se krivulja obrne navzgor, kar je verjetno posledica 
+spremembe višine koncesij. Manjši vpliv na pr ilive iz naslova koncesij sta povzročili uvedba 
+Evropske direktive (2014) in sprememba urejanja koncesij, povezanih z vodami. Občine, ki 
+0
+2000000
+4000000
+6000000
+8000000
+10000000
+12000000
+14000000
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+36 
+ 
+pobirajo najvišje zneske prihodkov od podeljenih koncesij, pa so vezane na koncesije za 
+upravljanje s pristaniško infra strukturo in z rabo naravnih vrednost, povezanih s Postojnsko 
+jamo. 
+ 
+2.10 Prihodki iz naslova koncesijskih dajatev od posebnih iger na srečo  
+Prihodke v tej skupini določa Zakon o igrah na srečo (Uradni list RS, št.  14/11 – uradno 
+prečiščeno besedilo, 108/12, 11/14 – popr. in 40/14 – ZIN-B). Odločitev o podelitvi koncesije 
+skladno z zakonom sprejm eta Vlada Republike Slovenije in min ister, pristojen za finance. 
+Zakon omejuje število izdanih koncesij za prirejanje klasičnih iger na srečo, posebnih iger na 
+srečo v igralnicah in število koncesij za prirejanje posebnih iger na srečo v igralnih salonih. V 
+3. členu je določeno: »Na območju Republike Slovenije lahko trajno prirejata klasične igre na 
+srečo največ dva prireditelja, vlada pa lahko dodeli največ 15 koncesij za prirejanje posebnih 
+iger na srečo v igralnicah in 45 koncesij za prirejanje posebnih iger na srečo v igralnih salonih. 
+Ministrstvo, pristojno za finance, spremlja, zbira, preverja in analizira podatke, potrebne za 
+dodelitev in podaljšanje koncesij ter sklenitev koncesijskih pogodb oziroma izdajo dovoljenj, in 
+vodi registre koncesionarjev, prirediteljev klasičnih iger  na srečo ter igralnic in igralnih 
+salonov.« 
+Občina mora pred dodelitvijo koncesije podati soglasje o opravljanju igralniške dejavnosti na 
+njenem območju, prav tako  pa morajo mnenje podati tudi sosednje občine  (68. člen). Zakon 
+določa način izračuna osnove za obračun koncesijske dajatve, ki je določena glede na prejeta 
+vplačila za udeležbo v posamezni vrsti iger, zmanjšana za izplačane dobitke za posamezno 
+vrsto iger. 75. člen določa še osnove za posebne igre na srečo: »Osnova za obračun koncesijske 
+dajatve za vrsto posebnih iger na srečo , ki jih igralci igrajo drug proti drugemu , je prihodek 
+koncesionarja od te vrste iger . Osnova za obračun koncesijske dajatve za vsako drugo vrsto 
+iger iz drugega odstavka 53. člena … pa so prejeta vplačila za udeležbo v posamezni vrsti iger, 
+zmanjšana za izplačane dobitke za posamezno vrsto iger .« Nadalje za igre na igralnih 
+avtomatih 75. člen določa lestvico za koncesijsko dajatev: 
+ 
+Osnova se ugotavlja na mesečni ravni. Pobrana koncesijska dajatev za posebne igre na srečo 
+se dodeli tudi lokalnim skupnostim  od deleža, ki ostane po dodelitvi koncesijske dajatve 
+Fundaciji za financiranje invalidskih in humanitarnih organizacij ter Fundaciji za financiranje 
+športnih organizacij v Republiki Sloveniji  (74. člen). 74. člen določa delež in namen dodelitve 
+
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+37 
+ 
+teh prihodkov lokalnim skupnostim: »2,2 % koncesijske dajatve je prihodek fundacije iz 
+47. člena (Fundacije za financiranje invalidskih in humanitarnih organizacij v Republiki 
+Sloveniji), 2,2  % koncesijske dajatve pa je prihodek fundacije iz 48. člena tega zakona 
+(Fundacije za financiranje šport nih organizacij v Republiki Sloveniji).  Od preostalega dela je     
+50 % prihodek proračuna Republike Slovenije in se nameni za razvoj in promocijo turizma,          
+50 % pa se nameni lokalnim skupnostim v zaokroženem turističnem območju in se uporablja 
+za ureditev do prebivalcev prijaznejšega okolja ter za turistično infrastrukturo.«  Zaokroženo 
+turistično območje je lahko določeno širše, kot je lokacija igralnega salona, torej lahko zajema 
+več občin. 
+ 
+Tabela 2.10: Prihodki iz naslova koncesijskih dajatev od posebnih iger na srečo  za vse občine 
+(2007–2020) 
+Leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+27,679.390 
+25,870.803 
+24,544.975 
+23,271.702 
+22,322.118 
+20,421.583 
+18,810.787 
+18,431.606 
+18,297.235 
+18,827.204 
+18,876.269 
+19,017.120 
+19,543.158 
+11,673.100 
+20,541.932 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni izračuni 
+ 
+Graf 2.10: Trend prihodkov iz naslova koncesijskih dajatev od posebnih iger na srečo  za vse 
+občine (2007–2020) 
+ 
+0
+5000000
+10000000
+15000000
+20000000
+25000000
+30000000
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+38 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+Tabela 2.10a: Prihodki iz naslova koncesijskih dajatev od posebnih iger na srečo (min. in 
+maks.) 
+Občine z najvišjim zneskom per 
+capita (v EUR) 
+Občine z najnižjim zneskom per 
+capita (v EUR) 
+Občine z najvišjim zneskom 
+absolutno (v EUR) 
+KRANJSKA GORA 
+270,65 
+159 občin ni imelo iz naslova 
+prihodkov od koncesijskih dajatev 
+od posebnih iger na srečo med 
+letoma 2007 in 2020 nobenega 
+prihodka. 
+ 
+NOVA GORICA 
+5,252.371 
+NOVA GORICA 
+167,62 
+KRANJSKA 
+GORA 1,408.985 
+ŠEMPETER - VRTOJBA 155,68 SEŽANA 1,366.518 
+ŠENTILJ 119,42 LJUBLJANA 1,206.370 
+DIVAČA 112,06 ŠENTILJ 1,000.149 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Iz tabele in grafa izhaja, da prihodki od pobranih koncesij od prirejanja posebnih iger na srečo 
+celotno opazovano obdobje padajo. Ta trend lahko pripišemo dejstvu, da glede na podatke, ki 
+jih zbira FURS, izhaja, da se v celotnem opazovanem obdobju zmanjšuje število igralnih miz in 
+avtomatov, število igralnic pa je celotno opazovalno obdobje dejansko enako (število je od 
+leta 2015 večje za eno igral nico). Iz podatkov prav tako izhaja, da se celotno opazovalno 
+obdobje zmanjšuje tudi število obiskovalcev, v povprečju za 10 let no. Bistveni upad pa je 
+zaznan leta 2020, kar je posledica ukrepov, povezanih s covidom-19. 
+ 
+2.11 Prihodki od podeljenih koncesij za rudarsko pravico 
+Prihodke od podeljenih koncesij za rudarsko pravico občine prejemajo na osnovi izdanih 
+odločb Ministrstva za okolje, izdanih izkoriščevalcem rudninskih snovi. Dodeljevanje pravic je 
+določeno z Zakonom o rudarstvu (Uradni list RS, št.  14/14 – uradno prečiščeno besedilo 
+in 61/17 – GZ). Občine morajo sklad no z zakonom predhodno speljati določene postopke 
+urejanja prostorskega načrta, da se koncesija sploh lahko podeli. 8. člen (3.  odst.) zakona 
+določa, da morajo občine sprejeti prostorske akte, in sicer: »Upravljanje z mineralnimi 
+surovinami v pristojnosti samoupravnih lokalnih skupnosti se zagotavlja s pripravo in 
+sprejemanjem prostorskih aktov, s katerimi se določajo območja, namenjena izkoriščanju 
+mineralnih surovin , in prostorski izvedbeni pogoj i za njihovo izkoriščanje (v nadaljnjem 
+besedilu: prostorski akti, namenjeni rudarstvu).«  V 62. členu zakona je tako zapisano, da je 
+potrebno naslednje: »Razglasitev določenega pridobivalnega prostora za rudarski prostor v 
+javno korist se izvede z uredbo v lade. Vlada izda uredbo o razglasitvi določenega območja za 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+39 
+ 
+rudarski prostor v javno korist na predlog ministra, pristojnega za rudarstvo … iz potrdila, ki ga 
+je izdala samoupravna lokalna skupnost , pa izhaja, da raba zemljišča ni sklad na z njenimi 
+prostorskimi akti.« V 87. členu je navedeno, da mora zahtevo za izdajo potrdila o skladnosti 
+dodatne rudarske infrastrukture pridobiti nosilec rudarske pravice od lokalne skupnosti. Ta pa 
+izda »… potrdilo o skladnosti dodatne rudarske infrastrukture s prostorskim i akti ali zavrne 
+njegovo izdajo s sklepom, ki ga nosilcu rudarske pravice za izkoriščanje vroči osebno.« Potrdilo 
+skladno z istim členom velja dve leti po pravnomočnosti in ga ni mogoče podaljšati.  
+Zakon v 53. členu določa pravila določanja rudarske konc esnine, ki je določena z velikostjo 
+pridobivalnega prostora in povprečne cene enote določene vrste mineralne surovine v 
+Republiki Sloveniji. Enota je vezana na kubični meter mineralne surovine v raščenem stanju, 
+za nafto in druge tekoče ogljikovodike pa tona. Povprečno ceno na enoto določi vlada, prav 
+tako razdelitev na občine, če pridobivalni prostor leži na območju več občin. Če je pridobivalni 
+prostor na obmo čju ene občine , sredstva, dobljena z vplačili rudarskih koncesnin, prejme 
+lokalna skupnost v višini 50 %, drugih 50 % pa je prihodek Republike Slovenije. 
+53. člen torej določa izračunavanje in način plačevanja rudarske koncesnine na naslednji način: 
+»1) Osnova za izračun rudarske koncesnine sta velikost pridobivalnega prostora in 
+povprečna cena enote določene vrste mineralne surovine v Republiki Sloveniji. 
+2) Enota za izračun povprečne cene mineralne surovine iz prejšnjega odstavka v 
+trdem stanju je k ubični meter mineralne surovine v raščenem stanju. Enota za izračun 
+povprečne cene mineralne surovine, pridobljene v plinastem ali tekočem stanju , je kubični 
+meter, za nafto in druge tekoče ogljikovodike pa tona pridobljene mineralne surovine. 
+3) Povprečno  ceno na enoto pridobljene mineralne surovine, način odmere, 
+obračunavanja, plačevanja in nadzora nad plačevanjem rudarske koncesnine, merila in pogoje 
+za zmanjšanje in oprostitev plačila rudarske koncesnine, način razdelitve lihega zneska 
+rudarske koncesn ine med lokalno skupnostjo in Republiko Slovenijo ter način razdelitve 
+koncesnine med lokalnimi skupnostmi, kadar je pridobivalni prostor na območju dveh ali več 
+lokalnih skupnosti, predpiše vlada. 
+4) Rudarska koncesnina se plačuje v letnih zneskih, ki zna šajo največ 500 e vrov na 
+hektar pridobivalnega prostora in največ 30 odstotkov povprečne cene za proizvedeno enoto 
+mineralne surovine v obravnavanem letu, razen če v postopku dražbe niso dosežene višje cene. 
+5) Sredstva, dobljena z vplačili rudarskih koncesnin, so v višini 50  % prihodek tiste 
+samoupravne lokalne skupnosti, na katere območju leži pridobivalni prostor, v višini 50  % pa 
+prihodek Republike Slovenije. V primeru, da se pridobivalni prostor nahaja na  območju več 
+samoupravnih lokalnih skupnosti, se plačilo razdeli glede na površino pridobivalnega prostora 
+oziroma glede na površino zemljišča, pod katerim se shranjujejo zemeljski plini, ki leži na 
+območju posamezne samoupravne lokalne skupnosti.« 
+ 
+ 
+ 
+ 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+40 
+ 
+ 
+Tabela 2.11: Prihodki od podeljenih koncesij za rudarsko pravico za vse občine (2007–2020) 
+leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+167.160,8 
+142.632,6 
+196.225,4 
+74.941,11 
+1,218.453 
+1,153.882 
+921.402,5 
+1,363.734 
+1,357.978 
+1,732.312 
+1,342.143 
+1,664.903 
+2,097.921 
+1,852.490 
+1,091.870 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+Graf 2.11: Trend prihodkov iz naslova koncesij za rudarsko pravico za vse občine (2007–2020) 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0
+500000
+1000000
+1500000
+2000000
+2500000
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+41 
+ 
+Tabela 2.11a: Prihodki iz naslova koncesij za rudarsko pravico (min. in maks.) 
+Občine z najvišjim zneskom per 
+capita (v EUR) 
+Občine z najnižjim zneskom per 
+capita (v EUR) 
+Občine z najvišjim zneskom 
+absolutno (v EUR) 
+DIVAČA 
+14,48 
+108 občin ni imelo iz naslova 
+prihodkov od podeljenih 
+koncesij za rudarsko pravico med 
+letoma 2007 in 2020 nobenega 
+prihodka. 
+ŠMARTNO PRI 
+LITIJI 69.301,46 
+ŠMARTNO PRI LITIJI 
+12,52 
+ŽALEC 
+63.706,26 
+DOBROVNIK 7,83 DIVAČA 58.855,63 
+POLJČANE 6,89 RADOVLJICA 52.267,33 
+MORAVČE 6,37 VELENJE 44.855,36 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Gibanje prihodkov iz naslova koncesij za rudarsko pravico sicer trendno  narašča, vendar so 
+opazna nihanja rasti in padca prihodkov. Ker prihodki vključujejo prihodke od podeljenih 
+koncesij različnih rudnin , je težko oceniti , kako na to gibanje vpliva dinamika podeljevanja 
+koncesij za različne rudnine. Večinoma je podeljevanje  teh koncesij vezano na površino 
+pridobivalnega prostora, kar povzroča omejitev za dolgoročno izkoriščanje prostora. To 
+seveda pomeni, da širitve niso pogoste in posledično koncesije prenehajo. V letu 2011 se je 
+spremenila tudi uredba, ki določa izračun ko ncesijske dajatve, kar se kaže tudi v gibanju 
+prihodkov. Deloma gibanje prihodkov lahko obrazložimo tudi z gibanjem rasti v gradbeništvu, 
+saj je gibanje med prihodki iz tega naslova in gibanjem dodane vrednosti v gradbeništvu , kot 
+izhaja iz podatkov SURS, podobno. Ker je višina prihodkov vezana na količino, ki je bila 
+porabljena, je ta povezava ustrezna.  
+ 
+2.12 Prihodki od podeljenih koncesij za vodno pravico 
+ 
+Prihodke od podeljenih koncesij za vodno pravico določa Zakon o vodah (Uradni list RS, 
+št. 67/02, 2/04 – ZZdrI-A, 41/04 – ZVO-1, 57/08, 57/12, 100/13, 40/14, 56/15 in 65/20). V 21. 
+členu (2. odstavek) je navedeno naslednje: »Posebna raba vodnega dobra je mogoča samo na 
+podlagi vodnega dovoljenja ali koncesije  ob izpolnitvi pogojev iz prejšnjega odstavka in če 
+bistveno ne omejuje splošne rabe.« Koncesija je omenjena kot možnost tudi pri vodnih 
+objektih in napravah, pri čemer  50. člen zakona navaja : »Z vodnim dovoljenjem ali s 
+koncesijsko pogodbo se lahko določita tudi obveznost in način izvajanja monitoringa naravnih 
+pojavov, povezanih s posebno rabo vodnega ali morskega dobra in monitoringa vpliva objekta 
+in naprave na vodni režim ter način sporočanja podatkov ministrstvu … Imetnik vodne pravice 
+je dolž en redno  odstranjevati plavje in odvzemati naplavine na tistem delu vodotoka, na 
+katerega vpliva izvajanje njegove vodne pravice, skladno s predpisi in na način ter v obsegu, 
+določenem v vodnem dovoljenju ali koncesiji.« 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+42 
+ 
+Zakon v poglavju 5.2 omenja tudi koncesije za posebno rabo vode ; podrobneje je postopek 
+pridobivanja vodne pravice, ki jo je mogoče pridobiti tudi s koncesijo, opredeljen v 6. poglavju 
+zakona (119.–124. člen). Določilo, da je koncesijo za vodno pravico mogoče dodeliti samo proti 
+plačilu, pa določa 123. člen. Gre torej za navedbo, ki je podlaga za pridobivanje prihodkov od 
+podeljenih koncesij za vodno pravico. Zakon koncesijo ureja v poglavju 6.2 (136. –149. člen). 
+Koncesijo je po zakonu  (136. člen) treba pridob iti za  proizvodnjo pijač, potrebe kopališč, 
+ogrevanje in podobno, če se rabi mineralna, termalna ali termomineralna voda,  proizvodnjo 
+električne energije v hidroelektrarni z instalirano močjo, enako ali večjo od 10 MW, in odvzem 
+naplavin, razen če gre za i zvajanje javne službe. Vse pravice in obveznosti, povezane s 
+koncesijo, morajo biti sklenjene s koncesijsko pogodbo. Zakon določa še postopke in ustrezne 
+dokumente, ki so potrebni za dodelitev koncesije. Za odmero dajatve morajo koristniki 
+oddajati napoved oziroma podatke za izračun plačila koncesije, če je osnova izražena v m3, za 
+preostale primere pa izračun naredi Direkcija za vode. Postopki izračuna oz. potrebni podatki 
+so navedeni v prehodnih določbah, ki dodaja podčlene 199. členu. 
+Zakon v 125. členu določa tudi neposredno rabo vode, za katero je treba pridobiti vodno 
+dovoljenje, ki ravno tako kot za podeljeno koncesijo določa, da se podeli ob plačilu. Vodno 
+dovoljenje je treba skladno z navedbo v tem členu pridobiti za: 
+»1. lastno oskrbo s pitno vodo ali oskrbo s pitno vodo, ki se izvaja kot gospodarska javna služba; 
+2.   tehnološke namene; 
+3.   dejavnost kopališč; 
+4.   pridobivanje toplote; 
+5.   namakanje kmetijskega zemljišča ali drugih površin; 
+6.   izvajanje športnega ribolova v komercialnih ribnikih; 
+7.   pogon vodnega mlina, žage ali podobne naprave; 
+8.   gojenje sladkovodnih in morskih organizmov; 
+9.   pristanišče in vstopno-izstopno mesto po predpisih o plovbi po celinskih vodah; 
+10. zasneževanje smučišča; 
+11. proizvodnjo električne energije v hidroelektrarni z nameščeno močjo, manjšo od 10 MW;  
+12. drugo rabo, ki presega splošno rabo po tem zakonu, pa zanjo ni treba pridobiti koncesije po 
+tem zakonu in ne gre za posebno rabo, za katero v skladu s petim odstavkom 108. člena 
+tega zakona pridobitev vodne pravice ni potrebna.« 
+ 
+Koncesije na javnem dobrem določa še Zakon o varstvu okolja  (Uradni list RS, št.  39/06 – 
+uradno prečiščeno besedilo,  49/06 – ZMetD, 66/06 – odl. US, 33/07 – ZPNačrt, 57/08 – ZFO-
+1A, 70/08, 108/09, 108/09 – ZPNačrt-A, 48/12, 57/12, 92/13, 56/15, 102/15, 30/16, 61/17 – 
+GZ, 21/18 – ZNOrg, 84/18 – ZIURKOE in 158/20). Skladno z Zakonom o varstvu okolja plačilo 
+za podeljeno koncesijo na naravni dobrini  (med katerimi je tudi oskrba s pitno vodo) , ki je v 
+lasti Republike Slovenije, pripada Republiki Sloveniji in občini v razmerju na podlagi meril 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+43 
+ 
+razvitosti infrastrukture in obremenjenosti okolja; ta merila predpiše vlada. Prav tako za rabo 
+vode za oskrbo s pitno vodo pridobi vodno pravico tudi občina, kar podrobno ureja Uredba o 
+oskrbi s pitno vodo (Uradni list RS, št. 88/12), ki velja od leta 2013. Pravna podlaga dodeljenih 
+koncesij so sprejete Uredbe Vlade Republike Slovenije za posamezne vodne vire, ki potem 
+določajo delež koncesijske dajatve, ki jo pridobi obči na, na območju katere se nahaja vodni 
+vir. 
+ 
+Tabela 2.12: Prihodki od podeljenih koncesij za vodno pravico za vse občine (2007–2020) 
+Leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+9,848.214 
+9,180.154 
+13,242.036 
+15,071.752 
+12,430.148 
+11,996.720 
+15,135.557 
+11,915.450 
+15,014.294 
+8,675.544 
+9,436.496 
+9,779.469 
+13,857.040 
+12,112.659 
+11,978.252 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+Graf 2.12: Trend prihodkov od podeljenih koncesij za vodno pravico za vse občine (2007–2020) 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+ 
+0
+2000000
+4000000
+6000000
+8000000
+10000000
+12000000
+14000000
+16000000
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+44 
+ 
+Tabela 2.12a: Prihodki iz naslova koncesij za vodno pravico (min. in maks.) 
+Občine z najvišjim zneskom per 
+capita (v EUR) 
+Občine z najnižjim zneskom per 
+capita (v EUR) 
+Občine z najvišjim zneskom 
+absolutno (v EUR) 
+MARKOVCI 288,48 86 občin ni imelo iz naslova 
+prihodkov od podeljenih 
+koncesij za vodno pravico 
+med letoma 2007 in 2020 
+nobenega prihodka. 
+ MARKOVCI 1,177.854 
+PODVELKA 255,25  MARIBOR 1,017.022 
+LOVRENC NA 
+POHORJU 132,16  
+PTUJ 
+781.543,4 
+KANAL 118,93  DRAVOGRAD 727.334,2 
+VUZENICA 100,50  KANAL 651.622,3 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Gibanje prihodkov iz naslova koncesij za vodno pravico ne kaže enosmernega gibanja, ampak 
+gre za nihanja, ki se izmenjujejo na dve leti. Večji padec prihodk ov je zaznan leta 2016, ko se 
+je pristojnost podeljevanja in upravljanje s koncesijami deloma centraliziral o na Direkciji za 
+vode. Glede na register podeljenih koncesij, vsaj za občine, ki prejemajo najvišje absolutne 
+zneske, je razvidno, da je največ koncesij podeljenih za zalivanje in lastno oskrbo s pitno vodo. 
+Iz navedenega lahko sklepamo, da je višina pobrane koncesije vezana na vremensko situacijo 
+v posameznem letu. Gibanje pobranih prihodkov se večinoma v opazovanem obdobju ujema 
+z odklonom padavin v Sloveniji, kot jih poroča ARSO za 30-letno povprečje. 
+ 
+2.13 Prihodki od nadomestila za dodelitev služnostne pravice in ustanovitev stavbne 
+pravice 
+ 
+ 
+Temeljni zakonski okvir za dodeljevanje služnostne pravice je Stvarnopravni zakonik (Uradni 
+list RS, št. 87/02, 91/13 in 23/20), ki določa pravila dodeljevanja služnostne pravice in 
+ustanovitev stavbne pravice. Nastanek služnosti je mo goč s pogodbo, z zakonom ali odločbo 
+državnega organa. V 210. členu je opredeljena služnost v naslednji obliki: »Služnost je pravica 
+uporabljati tujo stvar ali izkoriščati pravico oziroma zahtevati od lastnika stvari, da opušča 
+določena dejanja, ki bi jih sicer imel pravico izvrševati na svoji stvari (služeča stvar). « V 256. 
+členu pa je določena stavbna pravica. Ta člen jo opredeli kot: 
+»1) Stavbna pravica je pravica imeti v lasti zgrajeno zgradbo nad ali pod tujo 
+nepremičnino. 
+2) Stavbna pravica je lahko ustanovljena za določen ali nedoločen čas. 
+3) Stavbna pravica je prenosljiva. Za prenos stavbne pravice se smiselno uporabljajo 
+določila, ki veljajo za prenos lastninske pravice na nepremičninah.« 
+Nastanek stavbne pravice pa je mogoč s pogodbo o ustanovitvi stavbne pravice (257. člen). 
+Z zakonom je tudi opredeljeno, da se za oba namena zaračuna nadomestilo  (215. člen za 
+služnostno pravico in 257. člen za stavbno pravico), razen v izjemnih primerih (npr. za pravice, 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+45 
+ 
+dodeljene Republiki Sloveniji). Zakonik določa pravila cenitve nepremičnine in nadomestila ter 
+vpisa dovolila v zemljiško knjigo ter druge potrebne postopke, ki jih mora izvesti občina. Na 
+podlagi 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07, 76/08, 79/09, 51/10, 
+40/12 – ZUJF, 14/15 – ZUUJFO, 11/18 – ZSPDSLS-1 in 30/18), Zakona o stvarnem premoženju 
+države in samoupravnih lokal nih skupnosti (Uradni list RS, št. 11/18 in 79/18) in Uredbe o 
+stvarnem premoženju države in samoupravnih lokalnih skupnosti (Uradni list RS, št. 31/18) 
+lahko občine sprejmejo pravilnik ali podobni akt, ki določa višino nadomestil za nepremično 
+premoženje občine ter periodiko njihovega plačevanja, torej tudi nadomestilo za dodelitev 
+služnostne pravice in ustanovitev stavbne pravice. Tako npr. nadomestila za ustanovitev 
+služnosti ter nadomestilo za ustanovitev stavbne pravice za Občino Tržič določa Pravilnik o 
+obremenjevanju nepremičnega premoženja Občine Tržič. 
+ 
+Tabela 2.13: Prihodki od nadomestila za dodelitev služnostne pravice in ustanovitev stavbne 
+pravice za vse občine (2010–2020) 
+Leto 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+1,981.164 
+1,794.280 
+1,696.053 
+740.386 
+4,504.072 
+2,571.604 
+568.616 
+1,626.281 
+1,601.866 
+1,078.038 
+5,902.941 
+2,187.755 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Graf 2.13: Trend prihodkov od nadomestila za dodelitev služnostne pravice in ustanovitev 
+stavbne pravice za vse občine (2010–2020) 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+0
+1000000
+2000000
+3000000
+4000000
+5000000
+6000000
+7000000
+2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+46 
+ 
+Tabela 2.13a: Prihodki od nadomestila za dodelitev služnostne pravice in ustanovitev 
+stavbne pravice (min. in maks.) 
+Občine z najvišjim zneskom per 
+capita (v EUR) 
+Občine z najnižjim zneskom per 
+capita (v EUR) 
+Občine z najvišjim zneskom 
+absolutno (v EUR) 
+ŠENTRUPERT 16,57 134 občin ni imelo iz naslova 
+prihodkov od nadomestila za 
+dodelitev služnostne pravice in 
+ustanovitev stavbne pravice med 
+letoma 2010 in 2020 nobenega 
+prihodka. 
+LJUBLJANA 1,227.932 
+ANKARAN 8,27 KOPER 155.843,1 
+LOGATEC 4,75 LOGATEC 84.386,08 
+ŠENTJERNEJ 4,58 GROSUPLJE 79.685,09 
+LJUBLJANA 3,53 ANKARAN 60.473,3 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Prihodki iz naslova stavbne in služnostne pravice so večinoma vezani na enkratne dogodke , 
+zato tudi ne gre za stalne ali pogoste prilive. Iz tabele je tudi razvidno, da večina občin v 
+opazovanem obdobju ni prejemala tega prihodka. Občine, ki so v tem obdobju podelile katero 
+izmed obeh pravic na svojem premoženju , lahko samostojno odločajo o di namiki plačila 
+nadomestila, ki je lahko tudi enkraten znesek. Iz analize celotnih podatkov je razvidno, da je 
+pri nekaterih občinah prihodek pobran vsako leto, pri drugih pa le v posameznih letih. Na dve 
+izraziti povečanji pobranih prihodkov iz tega naslov a v letih 2014 in 2020 pa odločilno vpliva 
+gibanje teh prihodkov v občini Ljubljana, ki je v teh dveh letih pobrala bistveno več prihodkov 
+iz tega naslova kot v preostalih opazovanih letih.  
+ 
+2.14 Prihodki od prodaje blaga in storitev (združeno) 
+ 
+Prihodki od prodaje blaga in storitev se računovodsko evidentirajo med nedavčnimi prihodki 
+(54. člen Pravilnika o enotnem kontnem načrtu za proračun, proračunske uporabnike in druge 
+osebe javnega prava). 
+Blago ali storitve po pogodbi s kupcem vključuje zla sti: a)  proizvode organizacije; b) trgovsko 
+blago; c)   ponovno prodajo pravic do blaga ali storitev, ki jih je organizacija kupila (na primer 
+ponovna prodaja vstopnice od organizacije, ki deluje kot principal) ; č) izvajanje pogodbeno 
+dogovorjene naloge ( ali nalog) za kupca ; d) zagotavljanje storitve pripravljenosti za 
+zagotavljanje blaga ali storitev (na primer nedoločene posodobitve programske opreme) ali 
+zagotavljanje razpoložljivosti blaga ali storitev kupcu za uporabo, kot in ko se kupec odloči ; 
+e)   zagotavljanje storitve prenosa blaga ali storitev kupcu za drugo stranko (na primer tako, da 
+deluje kot agent druge stranke) ; f) podeljevanje pravic do blaga ali storitev, ki se bodo 
+zagotovile v prihodnosti in jih kupec lahko ponovno proda ali zagotovi  svojim kupcem (na 
+primer organizacija, ki prodaja izdelek trgovcu na drobno, obljubi prenos dodatnega blaga ali 
+storitve posamezniku, ki kupi izdelek od trgovca na drobno); g)   gradnjo, proizvodnjo ali razvoj 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+47 
+ 
+sredstva v imenu kupca; h) podeljevanje licenc; i) podeljevanje možnosti za nakup dodatnega 
+blaga ali storitev (kadar te možnosti kupcu zagotavljajo stvarno pravico).  
+Tabela 2.14: Prihodki od prodaje blaga in storitev (združeno) za vse občine (2007–2020) 
+Leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+10,518.284 
+12,731.666 
+11,958.377 
+10,816.198 
+11,061.529 
+11,772.573 
+11,522.373 
+11,750.647 
+12,843.537 
+14,473.696 
+15,876.262 
+18,876.882 
+18,407.369 
+17,336.356 
+13,567.553 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+Graf 2.14: Trend prihodkov od prodaje blaga in storitev (združeno) za vse občine (2007–2020) 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+ 
+ 
+ 
+ 
+0
+2000000
+4000000
+6000000
+8000000
+10000000
+12000000
+14000000
+16000000
+18000000
+20000000
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+48 
+ 
+ 
+Tabela 2.14a: Prihodki od prodaje blaga in storitev (združeno) (min. in maks.) 
+Občine z najvišjim zneskom per 
+capita (v EUR) 
+Občine z najnižjim zneskom per 
+capita (v EUR) 
+Občine z najvišjim zneskom 
+absolutno (v EUR) 
+BOHINJ 220,97 24 občin ni imelo iz naslova 
+prihodkov od prodaje blaga in 
+storitev med letoma 2007 in 
+2020 nobenega prihodka. 
+BOHINJ 1,148.141 
+SOLČAVA 125,68 LAŠKO 1,026.653 
+ŽIRI 101,26 RAČE - FRAM 610.684,5 
+BLOKE 95,75 KOMENDA 573.620,7 
+ČRNA NA 
+KOROŠKEM 92,66 
+ZREČE 
+570.347,9 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+Prihodki od prodaje blaga in storitev predstavljajo t.  i. nedavčne prihodke (med temi so tudi 
+prihodki od obresti) in so torej tisti vir, ki si ga občine zagotovijo z lastnimi aktivnostmi. Iz 
+tabele 2.14 in grafa 2.14 je razvidno, da so ti prihodki od leta 2017 do konca obdobja izkazovali 
+trend naraščanja, kar je mogoče pripisati intenzivnejši prodaji blaga in storitev, zlasti iz naslova 
+turističnih in drugih storitev, ki jih ponujajo občine oz. njihovi posredni proračunski uporabniki. 
+Tako iz tabele 2.14a izhaja, da sta imeli najvišje prihodke iz naslova proda je blaga in storitev 
+prav dve, izrazito turistično usmerjeni občini, to sta Bohinj in Solčava.  
+ 
+2.15 Prihodki od prodaje osnovnih sredstev (skupaj) 
+ 
+Prihodki od prodaje osnovnih sredstev se računovodsko evidentirajo med kapitalskimi 
+prihodki (55. člen Pravilnika o enotnem kontnem načrtu za proračun, proračunske uporabnike 
+in druge osebe javnega prava). 
+Opredmeteno osnovno sredstvo je sredstvo, ki ga ima organizacija v lasti ali finančnem najemu 
+ali ga na drug način obvladuje ter ga uporablja pri ustvarjanj u proizvodov ali opravljanju 
+storitev oziroma dajanju v najem ali za pisarniške namene in ga bo po pričakovanjih 
+uporabljala v te namene v več kot enem obračunskem obdobju. Gre za zemljišča, zgradbe, 
+proizvajalno opremo, drugo opremo in biološka sredstva. 
+Skladno s Pravilnikom o enotnem kontnem načrtu za proračun, proračunske uporabnike in 
+druge osebe javnega prava (Uradni list RS, št. 112/09, 58/10, 104/10, 104/11, 97/12, 108/13, 
+94/14, 100/15, 84/16, 75/17, 82/18, 79/19, 10/21 in 203/21) se na skupini 02 evidentirajo 
+nepremičnine, ki zajemajo vrednost stavbnih, gozdnih in drugih zemljišč ter zgradb, medtem 
+ko se na skupini 04 beleži vrednost opreme, drobnega inventarja z dobo koristnosti, daljšo od 
+leta dni, bioloških sredstev, vlaganj v opredmetena osnovn a sredstva v tuji lasti, drugih 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+49 
+ 
+opredmetenih osnovnih sredstev, terjatev za dane predujme za opremo in druga 
+opredmetena osnovna sredstva, opredmetenih osnovnih sredstev, v gradnji oziroma v izdelavi 
+ter opreme in drugih opredmetenih osnovnih sredstev trajno zunaj uporabe. 
+Zemljišča delimo na nezazidana stavbna zemljišča, ki predstavljajo zemljiške parcele na 
+območju, ki je s prostorskim načrtom namenjeno za graditev objektov, ter na zazidana stavbna 
+zemljišča, ki predstavljajo zemljiške parcele na območju,  ki je s prostorskim načrtom 
+namenjeno za graditev objektov, na katerih je zgrajen objekt. Občina gospodari s stavbnimi 
+zemljišči v javno korist, za kar se sredstva zagotavlja v občinskem proračunu (5. in 6. člen 
+Zakona o stavbnih zemljiščih (Uradni list RS, št. 44/97, 67/02 – ZV-1, 110/02 – ZUreP-1, 110/02 
+– ZGO-1 in 199/21 – ZUreP-3).  
+Biološka sredstva so osnovna čreda (vsa živina, razen tiste, ki se pita); sestavljata jo plemenska 
+in delovna živina ter večletni nasadi (biološko dobo trajanja imajo daljš o od enega leta ter 
+zajemajo sadovnjake, hmeljnike in druge večletne rastline) (SRS 1, Mednarodni računovodski 
+standard 41 – Kmetijstvo). 
+Med opremo sodijo najrazličnejše vrste sredstev, za katera velja, da se v občini uporabljajo za 
+opravljanje dejavnosti  dlje kot eno leto in katerih nabavna vrednost presega 500 EUR. V 
+Pravilniku o enotnem kontnem načrtu za proračun, proračunske uporabnike in druge osebe 
+javnega prava so med opremo opredeljena prevozna sredstva, cestna motorna vozila, 
+helikopterji in letal a, ladje in čolni, druga prevozna sredstva, oprema, pisarniška oprema, 
+računalniška in druga oprema.  
+ 
+Tabela 2.15: Prihodki od prodaje osnovnih sredstev (skupaj) za vse občine (2007–2020) 
+Leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+31.222.031 
+21,680.229 
+30,924.832 
+108,224.895 
+17,929.611 
+18,103.560 
+19,607.972 
+9,631.784 
+20,857.694 
+16,395.832 
+10,565.139 
+17,548.148 
+14,020.182 
+11,142.036 
+24,846.710 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+ 
+ 
+ 
+ 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+50 
+ 
+Graf 2.15: Trend prihodkov od prodaje osnovnih sredstev (skupaj) za vse občine (2007–2020) 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+Tabela 2.15a: Prihodki od prodaje osnovnih sredstev (skupaj) (min. in maks.) 
+Občine z najvišjim zneskom per 
+capita (v EUR) 
+Občine z najnižjim zneskom 
+per capita (v EUR) 
+Občine z najvišjim zneskom 
+absolutno (v EUR) 
+SLOVENJ GRADEC 112,84 Devet38 občin ni imelo iz 
+naslova prihodkov od prodaje 
+osnovnih sredstev med letoma 
+2007 in 2020 nobenega 
+prihodka. 
+LJUBLJANA 10,280.476 
+LJUBLJANA 37,64 SLOVENJ GRADEC 1,913.269 
+BOVEC 30,75 KOPER 1,267.949 
+PIVKA 30,09 MARIBOR 1,168.036 
+KOBILJE 25,42 VELENJE 760.246,8 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Tabela 2.15 in graf 2.15 prikazujeta izrazit porast prihodkov od prodaje osnovnih sredstev v 
+letu 2010. Razloge smo s pomočjo analize podatkov o posameznih prihodkih po letih in 
+posameznih občinah našli pri Mestni občini Ljubljana, ki je leta 2010 evidentirala  pogodbo o 
+Javno-zasebnem partnerstvu za gradnjo športnega parka Stožice med prihodke od prodaje 
+osnovnih sredstev v višin i 82 ,496.016 e vrov, kar je imelo vpliv na izrazito kumulativno 
+povečanje te vrste prihodkov za vse občine. V preostalem obdobju (2010 –2020) pa so bili 
+ 
+38 Ankaran, Bloke, Cerkvenjak, Log - Dragomer, Mokronog - Trebelno, Osilnica, Središče ob Dravi, Šentrupert, 
+Žetale. 
+0
+20000000
+40000000
+60000000
+80000000
+100000000
+120000000
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+51 
+ 
+prihodki od prodaje osnovnih sredstev sorazmerno konstantni oz. so se minimalno spreminjali 
+tekom let.  
+ 
+2.16 Prihodki od prodaje poslovnih objektov in poslovnih prostorov (ločeno)  
+ 
+Prihodki od prodaje poslovnih objektov in poslovnih prostorov se računovodsko evidentirajo 
+med kapitalskimi prihodki (55. člen Pravilnika o enotnem kontnem načrtu za proračun, 
+proračunske uporabnike in druge osebe javnega prava).  
+Zgradbe oz. stavbe pa so objekti, v katere lahko človek vstopi in ki so namenjene stalnemu ali 
+začasnemu prebivanju, opravljanju poslovne ali druge dejavnosti ali zaščiti ter jih ni mogoče 
+prestaviti brez škode za njihovo substanco. Stavba ima en del ali več delov, pri čemer je 
+posamezni del stavbe prostor oziroma skupina prostorov v stavbi, ki se lahko samostojno 
+pravno ureja (Zakon o evidentiranju nepremičnin, Uradni list RS, št. 47/2006, 65/2007 – odl. 
+US, 106/2010 – ZDoh-2H, 47/2012 – ZUKD-1A, 79/2012 – odl. US, 61/2017 – ZAID, 7/2018, 
+33/2019, 54/2021 – ZKN). Prav tako opredeljuje pojem objekt Gradbeni zakon (Uradni list RS, 
+št. 61/2017, 72/2017 – popr., 61/2020, 65/2020, 15/2021 – ZDUOP, 199/2021 – GZ-1), ki 
+objekte deli na stavbe, gradbene inženirske objekte ali na druge gradbene posege, narejene z 
+gradbenimi, zaključnimi gradbenimi ali inštalacijskimi deli, sestavljen iz gradbenih proizvodov, 
+proizvodov ali naravnih materialov, skupaj s trajno vgrajenimi napeljavami in napravami v 
+objektu, ki so namenjene delovanju objekta. O bjekt v javni rabi pa je objekt ali del objekta, 
+katerega raba je pod enakimi pogoji namenjena vsem; gre za gostinske stavbe, poslovne in 
+upravne stavbe, trgovske stavbe in stavbe za storitvene dejavnosti, stavbe za promet in stavbe 
+za izvajanje komunikaci j, stavb e splošnega družbenega pomena, obredn e stavbe in drug e 
+nestanovanjske stavbe, če so namenjene javni rabi, in javne površine, kot so: javna cesta, ulica, 
+trg, tržnica, igrišče, parkirišče, pokopališče, park, zelenica, rekreacijska površina. 
+Natančneje definicijo podaja Zakon o poslovnih stavbah in poslovnih prostorih (ZPSPP, Uradni 
+list SRS, št. 18/74, 34/88, Uradni list RS, št. 32/00, 102/02 – odločba US, 87/11 – ZMVN-A in 
+90/21 – SZ-1E), ki od 21. 6. 2021 velja le še za pogodbe, sklenjene pred tem datumom, medtem 
+ko se je s tem datumom začel uporabljati Zakon o spremembah in dopolnitvah stanovanjskega 
+zakona (SZ -1e, Uradni list RS, št. 90 -1868/2021, z dne 4.  6. 2021). ZPSPP določa, da se za 
+poslovno stavbo šteje stavba, ki je namenjena za poslovne dejavnosti in  ki se v ta namen 
+pretežno tudi uporablja, medtem ko se za poslovni prostor šteje eden ali več prostorov, 
+namenjenih za poslovno dejavnost, ki so navadno gradbena celota in imajo poseben glavni 
+vhod, ne štejejo pa se za poslovni prost or garaža v lasti občanov, ki je namenjena največ za 
+dva osebna avtomobila , ter stavbe oziroma prostori v lasti občanov, ki so namenjeni za 
+opravljanje kmetijskih dejavnosti (hlev, kozolci, kleti in podobno). 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+52 
+ 
+Tabela 2.16: Prihodki od prodaje poslovnih obje ktov in poslovnih prostorov (ločeno) za vse 
+občine (2007–2020) 
+Leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+11,972.162 
+11,350.370 
+10,310.716 
+6,456.389 
+4,482.927 
+6,785.644 
+10,310.453 
+3,565.860 
+10,884.426 
+10,846.573 
+3,620.035 
+7,857.160 
+5,572.709 
+4,680.834 
+7,764.018 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Graf 2.16: Trend prihodkov od prodaje poslovnih objektov in poslovnih prostorov (ločeno) za 
+vse občine (2007–2020) 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+Tabela 2.16a: Prihodki od prodaje poslovnih objektov in poslovnih prostorov (ločeno) (min. 
+in maks.) 
+Občine z najvišjim zneskom per 
+capita (v EUR) 
+Občine z najnižjim zneskom per 
+capita (v EUR) 
+Občine z najvišjim zneskom 
+absolutno (v EUR) 
+BOVEC 28,28 89 občin ni imelo iz naslova 
+prihodkov od prodaje poslovnih 
+objektov in poslovnih prostorov 
+LJUBLJANA 3,109.563 
+PIRAN 16,41 MARIBOR 657.636,4 
+KOSTEL 14,24 KOPER 630.563,1 
+KOPER 12,50 CELJE 449.172,6 
+0
+2000000
+4000000
+6000000
+8000000
+10000000
+12000000
+14000000
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+53 
+ 
+LJUBLJANA 
+11,39 
+(ločeno) med letoma 2007 in 
+2020 nobenega prihodka. 
+PIRAN 
+283.309,6 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Tabela 2.16 in graf 2.16 izkazujeta nekoliko spreminjajočo se dinamiko prihodkov od prodaje 
+poslovnih objektov in poslovnih prostorov, saj so se v opazovane m obdobju ti gibali med 3,6 
+mio. EUR in 11,9 mio . EUR. Občine namreč upravljajo s svojimi nepremičninami po načelu 
+dobrega gospodarja, kar pomeni, da jih primarno oddajajo v najem, ko je to zaradi 
+gospodarskega cikla ali stanja nepremičnine (obnova bi zaht evala preveč sredstev) 
+neprimerno, pa se odločijo za prodajo. 
+ 
+2.17 Prihodki od prodaje stanovanjskih objektov in stanovanj 
+ 
+Prihodki od prodaje stanovanjskih objektov in stanovanj se računovodsko evidentirajo med 
+kapitalskimi prihodki, saj 55. člen Pravil nika o enotnem kontnem načrtu za proračun, 
+proračunske uporabnike in druge osebe javnega prava med njimi našteva stavbe. Stanovanjski 
+zakon (Uradni list RS, št. 69/2003, 18/2004 – ZVKSES, 47/2006 – ZEN, 45/2008 – ZVEtL, 
+57/2008, 90/2009 – odl. US, 56/2011 – odl. US, 87/2011, 62/2010 – ZUPJS, 40/2011 – ZUPJS-
+A, 40/2012 – ZUJF, 14/2017 – odl. US, 27/2017, 59/2019, 203/2020 – ZIUPOPDVE, 189/2020 
+– ZFRO, 90/2021, 153/2021) pa definira, da se stanovanjsk e stavbe glede na število 
+stanovanjskih enot, ki so v njih, in glede na način rabe razvrščajo na enostanovanjske stavbe, 
+dvostanovanjske stavbe in večstanovanjske stavbe ter stanovanjske stavbe za posebne 
+namene. Enostanovanjske stavbe so samostojno stoječe enodružinske hiše, vile, atrijske hiše, 
+vrstne hiše, poči tniške hiše in podobno, dvostanovanjske in večstanovanjske stavbe pa so 
+samostojno stoječe stavbe z dvema ali več stanovanji, stanovanjski bloki, stolpiči, stolpnice in 
+podobno. Stanovanjske stavbe za posebne namene so stavbe, namenjene začasnemu 
+reševanju stanovanjskih potreb socialno ogroženih oseb, stavbe za prebivanje starejših, 
+študentov, otrok, kot so : dijaški in študentski domovi, delavski domovi, domovi za starejše, 
+domovi za terapevtske skupine, zavetišča za brezdomce, vzgojni domovi, domovi za skupnosti 
+ter druge stavbe, namenjene za izvajanje socialnih programov, ki vključujejo prebivanje. 
+Stanovanjske enote v dvostanovanjski ali večstanovanjski stavbi so stanovanja, medtem ko jih 
+v stanovanjskih enotah v stanovanjski stavbi za posebne namene imen ujemo bivalne enote. 
+Stanovanje predstavlja skupino prostorov, namenjenih za trajno prebivanje, ki so funkcionalna 
+celota, navadno z enim vhodom. Stanovanja se razvrščajo na garsonjere, enosobna, 
+enoinpolsobna, dvosobna, dvoinpolsobna, trisobna, triinpolso bna, štirisobna in večsobna 
+stanovanja. Individualni prostori, ki pripadajo določenim posameznim delom, so lahko : atriji, 
+kleti, drvarnice pa tudi garaže, balkoni, terase, lože, če niso sestavni del posameznega dela. 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+54 
+ 
+Stanovanjske stavbe (razen enostanovanjske stavbe) so sestavljene iz posameznih in skupnih 
+delov. Posamezni deli so stanovanjske enote, poslovni prostori ali drugi samostojni prostori. 
+Skupni deli so skupni prostori in zemljišče, skupni gradbeni elementi i n skupne napeljave, 
+naprave in oprema, ki predstavljajo solastnino vseh etažnih lastnikov posameznih delov 
+(skupni deli) ali solastnino nekaterih etažnih lastnikov posameznih delov (posebni skupni deli). 
+Če so v stanovanjski stavbi tudi poslovni prostori i n je več kot polovica površine namenjena 
+stanovanjem, je takšna stavba opredeljena kot stanovanjsko -poslovna stavba (Stanovanjski 
+zakon). 
+ 
+Tabela 2.17: Prihodki od prodaje stanovanjskih objektov in stanovanj za vse občine (2007 –
+2020) 
+Leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+10,882.514 
+7,701.450 
+8,925.427 
+5,724.920 
+6,876.028 
+6,380.443 
+6,061.588 
+2,796.261 
+5,076.768 
+3,534.526 
+5,276.762 
+4,129.743 
+6,525.227 
+4,130.561 
+6,001.587 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni izračuni 
+Graf 2.17: Trend prihodkov od  prodaje stanovanjskih objektov in stanovanj za vse občine 
+(2007–2020) 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+0
+2000000
+4000000
+6000000
+8000000
+10000000
+12000000
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+55 
+ 
+Tabela 2.17a: Prihodki od prodaje stanovanjskih objektov in stanovanj (min. in maks.) 
+Občine z najvišjim zneskom per 
+capita (v EUR) 
+Občine z najnižjim zneskom per 
+capita (v EUR) 
+Občine z najvišjim zneskom 
+absolutno (v EUR) 
+PIVKA 24,42 32 občin ni imelo iz naslova 
+prihodkov od prodaje stanovanjskih 
+objektov in stanovanj med letoma 
+2007 in 2020 nobenega prihodka. 
+VELENJE 645.043,5 
+VELENJE 19,60 LJUBLJANA 334.542,2 
+KOBILJE 
+19,03 
+SLOVENJ 
+GRADEC 317.676,8 
+SLOVENJ GRADEC 18,74 JESENICE 304.428,2 
+ČRNA NA KOROŠKEM 17,81 IZOLA 248.052,8 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Tabela 2.17 in graf 2.17 prikazujeta, da so prihodki od prodaje stanovanjskih objektov in 
+stanovanj izrazito med let oma 2007 in 2014 izkazovali padajoč trend, ki ga je mo goče 
+obrazložiti s tržnimi razmerami. Zaradi gospodarske in finančne krize so namreč občine 
+prodajale manj nepremičnin za stanovanjsko rabo, saj so bile cene na trgu za prodajalce 
+neugodne.  
+ 
+2.18 Prihodki od prodaje kmetijskih zemljišč in gozdov 
+ 
+Kmetijska zemljišča in gozdovi sodijo med zemljišča, ta pa Stvarnopravni zakonik (SPZ, Uradni 
+list RS, št. 87/02, 91/13 in 23/20) uvršča med nepremičnine, medtem ko Zakon o stvarnem 
+premoženju države in samoupravnih lokalnih skupnosti (ZSPDSLS-1, Uradni list RS, št. 11/18 in 
+79/18) ureja ravnanje s stvarmi v lasti samoupravnih lokalnih skupnosti, med katere sodijo 
+tudi nepremičnine. Skladno z omenjenim zakonom se prodaja nepremičnega premoženja 
+izvede po metodi jav ne dražbe ali javnega zbiranja ponudb ; uspešna je, če je pri javni dražbi 
+dosežena najmanj izklicna vrednost, pri javnem zbiranju ponudb pa najmanj izhodiščna 
+vrednost nepremičnine. Če ta vrednost ni dosežena in je postopek neuspešen, se lahko v 
+obdobju do  izteka veljavnosti cenitve izvede ponovni postopek javne dražbe ali javnega 
+zbiranja ponudb, v katerem se izklicna vrednost ali izhodiščna vrednost zniža za največ 30 
+odstotkov od izklicne vrednosti. V postopku prodaje nepremičnega premoženja po metodi 
+javnega zbiranja ponudb se pred postopkom sklenitve pravnega posla lahko z zainteresiranimi 
+osebami opravijo pogajanja o ceni. Če tudi po znižani izklicni ali izhodiščni vrednosti prodaja 
+ni uspešna, se postopek prodaje kot neuspešen konča.  
+Nepremično premoženje je (skladno s ZSPDSLS-1) mogoče prodati tudi po metodi neposredne 
+pogodbe, če : a) se prodajajo solastniški deleži na nepremičninah, ki so manjši ali enaki 50 
+odstotkov; b) se prodajajo solastniški deleži na zasedenih stanovanjih, ki jih zaseda solast nik; 
+c) je posamezna ocenjena ali orientacijska vrednost nepremičnine nižja od 20.000 evrov ali č) 
+je pridobitelj pravna oseba javnega prava. Po metodi neposredne pogodbe se lahko opravi 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+56 
+ 
+tudi menjava nepremičnin pod pogojem, da se vrednost premoženja občin e z zamenjavo ne 
+zmanjša in da razlika v vrednosti med zamenjanimi nepremičninami ni večja od 20 odstotkov, 
+vendar največ 80.000 e vrov. Kot osnova za določitev vrednosti se upošteva vrednost dražje 
+nepremičnine. Izjemoma pa lahko razlika v vrednosti med za menjanimi nepremičninami 
+preseže 20 odstotkov oziroma 80.000 evrov pod pogojem, da je ta razlika v korist občine in da 
+se brezplačno prenese v last države ali samoupravne lokalne skupnosti (55. člen ZSPDSLS-1). 
+Pod določenimi pogoji iz 56. člena ZSPDSLS -1 je mogoča tudi brezplačna odsvojitev 
+nepremičnega premoženja, vendar  se takrat v tem primeru prihodki ne evidentirajo oz. 
+znašajo 0. 
+Tabela 2.18: Prihodki od prodaje kmetijskih zemljišč in gozdov za vse občine (2007–2020) 
+Leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+1,775.958 
+2,262.512 
+1,385.276 
+1,839.887 
+1,059.789 
+1,497.815 
+1,436.065 
+1,456.301 
+1,662.503 
+1,403.355 
+1,374.806 
+1,569.199 
+1,772.664 
+2,446.264 
+1,638.742 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Graf 2.18: Trend prihodkov od  prodaje kmetijskih zemljišč in gozdov  za vse občine (2007 –
+2020) 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+0
+500000
+1000000
+1500000
+2000000
+2500000
+3000000
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+57 
+ 
+ 
+Tabela 2.18a: Prihodki od prodaje kmetijskih zemljišč in gozdov (min. in maks.) 
+Občine z najvišjim zneskom per 
+capita (v EUR) 
+Občine z najnižjim zneskom per 
+capita (v EUR) 
+Občine z najvišjim zneskom 
+absolutno (v EUR) 
+KOSTEL 26,07 29 občin ni imelo iz naslova 
+prihodkov od prodaje kmetijskih 
+zemljišč in gozdov med letoma 
+2007 in 2020 nobenega prihodka. 
+SEVNICA 90.894,64 
+ŠALOVCI 
+15,22 
+GORNJA 
+RADGONA 81.388,14 
+HODOŠ 12,96 TRŽIČ 77.938,73 
+MOKRONOG - 
+TREBELNO 10,32 
+RADOVLJICA 
+62.872,97 
+GORNJA RADGONA 
+9,61 
+BREŽICE 
+57.397,96 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Tabela 2.18 in graf 2.18 prikazujeta izmenjajoče se padanje in naraščanje prihodkov od prodaje 
+kmetijskih zemljišč in gozdov, ki pa so se v letu 2019 nekoliko izraziteje povečali. Občini z 
+največ prihodki iz naslova prodaje kmetijskih zemljišč in gozdov na prebivalca sta občini Kostel 
+in Šalovci, ki sta  sicer po razvrstiti glede na absolutni znesek na 29 . (Kostel) in 21 . (Šalovci) 
+mestu, vendar pa ju majhno število prebivalcev dvigne za vodilni mesti po prihodkih na 
+prebivalca. Za oris naj navedemo, da je med prvimi 29 občinami po višini prihodkov iz naslova 
+prodaje kmetijskih zemljišč in gozdov v absolutnem znesku naslednja (za občin ama Kostel in 
+Šalovci) najmanjša občina Turnišče s 3.145 prebivalci, medtem ko ima po podatkih 
+Statističnega urada RS za leto 2020 Kostel 635, Šalovci pa 1.380 prebivalcev.  
+  
+2.19 Prihodki od prodaje stavbnih zemljišč 
+ 
+V računovodstvu se stavbna zemljišča evidentira kot nepremičnine, kamor poleg stavbnih 
+uvrščamo tudi gozdna in druga zemljišča ter zgradbe (Pravilnik o enotnem kontnem načrtu za 
+proračun, proračunske uporabnike in druge osebe javnega prava, Uradni list RS, št. 112/09, 
+58/10, 104/10, 104/11, 97/12, 108/13, 94/14, 100/15, 84/16, 75/17, 82/18, 79/19, 10/21 i n 
+203/21). Zemljišča delimo na nezazidana stavbna zemljišča in zazidana stavbna zemljišča. 
+Stavbno zemljišče je gradbena parcela, ki je s prostorskimi izvedbenimi akti namenjen a 
+graditvi objektov (Zakon o urejanju prostora, ZUreP -3, Uradni list RS, št. 199 /2021, z dne 22. 
+12. 2021). Nezazidano stavbno zemljišče je zemljiška parcela na območju, ki je s prostorskim 
+načrtom namenjeno za graditev objektov, zazidano stavbno zemljišče pa je zemljiška parcela, 
+na kateri je zgrajen objekt (Zakon o stavbnih zemljišč ih, Uradni list RS, št. 44/97, 67/02 -ZV-1, 
+110/02-ZGO-1, 110/02 -ZUreP-1, 119/21 -ZUrep-3). V evidenci stavbnih zemljišč, ki so jo 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+58 
+ 
+skladno z Zakonom o urejanju prostora dolžne voditi občine,  se bodo vodili podatki o 
+pozidanih in nepozidanih stavbnih zemljiščih.  
+Med pozidana zemljišča prištevamo gradbene parcele stavb, pripadajoča zemljišča stavb, 
+pripadajoča zemljišča javne cestne in javne železniške infrastrukture ter pripadajoča zemljišča 
+drugih gradbenih inženirskih objektov. Del pozidanih zemljišč predstavljajo poseljena 
+zemljišča, med katere prištevamo vsa pozidana zemljišča , razen pripadajočih zemljišč javnih 
+cest in železniške infrastrukture. Gradbena parcela stavbe je poseljeno zemljiš če, ki je trajno 
+namenjeno redni rabi te stavbe in se za nove stavbe oblikuje v fazi projektiranja objekta, določi 
+pa v postopku izdaje gradbenega dovoljenja. Gradbena parcela se v zemljiškem katastru 
+navadno evidentira kot enotna zemljiška parcela. Ker gr adbenih parcel stavb ni mogoče 
+zagotoviti za vse stavbe v Sloveniji, bodo na poseljenih zemljiščih določena pripadajoča 
+zemljišča obstoječih objektov, kar določa Zakon o evidentiranju dejanske rabe zemljišč javne 
+cestne in javne železniške infrastrukture (ZEDRZ, Uradni list 13/2018). 
+Nepozidana stavbna zemljišča in njim pripadajoče razvojne stopnje določi občina, pri čemer 
+obstajajo štiri razvojne stopnje, ki nepozidana stavbna zemljišča razvrščajo v skupine glede na 
+njihov razvojni potencial (Zakon o urejanju prostora). Razvojna stopnja je odvisna od regulacije 
+zemljišča s prostorskimi akti, sorodnimi predpisi in z drugimi splošnimi akti, njegove 
+opremljenosti z gospodarsko javno infrastrukturo in od obstoja ter statusa pravnih režimov na 
+njem. 
+Tabela 2.19: Prihodki od prodaje stavbnih zemljišč za vse občine (2007–2020) 
+leto 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 x̄ 
+SKUPAJ 
+VSE 
+OBČINE 
+82,520.576 
+81,639.848 
+64,581.717 
+58,059.093 
+38,491.404 
+34,202.236 
+15,956.199 
+19,321.001 
+24,829.429 
+31,442.474 
+38,866.406 
+49,540.023 
+38,017.517 
+53,385.502 
+45,060.959 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+59 
+ 
+Graf 2.19: Trend prihodkov od prodaje stavbnih zemljišč za vse občine (2007–2020) 
+ 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Tabela 2.19a: Prihodki od prodaje stavbnih zemljišč vse občine (min. in maks.) 
+Občine z najvišjim zneskom 
+per capita (v EUR) 
+Občine z najnižjim zneskom 
+per capita (v EUR) 
+Občine z najvišjim zneskom 
+absolutno (v EUR) 
+Občine z najnižjim zneskom 
+absolutno (v EUR) 
+ANKARAN 280,08 HAJDINA 0,35 LJUBLJANA 9,864.803 DOBJE 688,72 
+PIRAN 90,63 ŽETALE 0,27 KOPER 4,103.367 ŽETALE 352,24 
+KOMENDA 88,82 JURŠINCI 0,15 MARIBOR 3,335.368 JURŠINCI 348,87 
+IZOLA 82,47 RAZKRIŽJE 0,08 CELJE 2,125.055 RAZKRIŽJE 104,56 
+KOPER 81,34 TURNIŠČE 0,00 ANKARAN 2,047.454 TURNIŠČE 0 
+Vir podatkov: Poročila o razporejenih javnofinančnih prihodkih in kritja občin ter lastni 
+izračuni  
+Tabela 2.19 in graf 2.19 prikazujeta izrazi t trend padanja prihodkov od prodaje stavbnih 
+zemljišč v obdobju 2008 –2013, saj so občine prodajale bistveno manj  stavbnih zemljišč. 
+Razloge je iskati v gospodarski krizi, ko je večina podjetij imela težave s poslovanjem in po vrhu 
+vsega še negotovo podjetniško okolje. Z obratom gospodarskega cikla so se tudi prihodki iz 
+naslova prodaje stavbnih zemljišč obrnili v na raščajoč trend. Turistično zanimivi občini 
+Ankaran in Piran ter Izola na četrtem mestu po najvišjem znesku omenjenih prihodkov na 
+prebivalca vsekakor niso presenečenje.  
+ 
+0
+10000000
+20000000
+30000000
+40000000
+50000000
+60000000
+70000000
+80000000
+90000000
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+60 
+ 
+DELEŽ KAPITALSKIH VIROV OD VSEH PRIHODKOV POSAMEZNE OBČINE 
+Skladno z načrtovanimi cilji projekta smo v naslednjih korakih analize pregledali, kakšen delež 
+izmed vseh prihodkov posamezne občine predstavljajo kapitalski viri. Pri tem smo upoštevali 
+vsoto vseh prej naštetih in prikazanih kapitalskih virov od leta 2007  do leta 2020. Za vse vire 
+smo upoštevali vsoto vseh virov, to je tekočih prihodkov (davčni prihodki, nedavčni prihodki), 
+kapitalskih prihodkov, prejetih donacij, transfernih prihodkov in prejetih sredstev iz Evropske 
+unije. Tudi pri vseh virih smo zajeli vsoto za obdobje 2007 –2020. Vsoto vseh opazovanih let 
+smo uporabili za to, da se izničijo nihanja med leti pri posameznih občinah in posameznih virih. 
+V povprečju kapitalski viri predstavljajo 9,9 % vseh prihodkov občine, s standardnim odklonom 
+5,8 %. Najnižja vrednost deleža je 1,72 %, najvišja pa kar 45,01 % (glejte tabelo 3). 
+ 
+Tabela 3 : Delež kapitalskih virov glede na vse prihodke posamezne občine kot vsota vseh 
+opazovanih let 2007–2022 
+OBČINA 
+Vsota vseh virov 
+2007–2020 (v EUR) 
+Vsota vseh opazovanih 
+kapitalskih virov 2007–
+2020 (v EUR) 
+Delež kapitalskih 
+virov od vseh 
+prihodkov med 
+letoma 2007 in 
+2020 (v %) 
+OBČINA AJDOVŠČINA 243805727 33369285,51 13,69 
+OBČINA ANKARAN 52156424,62 23476639,65 45,01 
+OBČINA APAČE 51421059,19 3257135,91 6,33 
+OBČINA BELTINCI 102306197,1 6482871,83 6,34 
+OBČINA BENEDIKT 32453164,07 2615784,3 8,06 
+OBČINA BISTRICA OB SOTLI 26205801,73 994087,7 3,79 
+OBČINA BLED 152717246,5 18842116,57 12,34 
+OBČINA BLOKE 31182124,72 3744583,24 12,01 
+OBČINA BOHINJ 114059210,2 22965841,32 20,14 
+OBČINA BOROVNICA 48628940,91 5032313,04 10,35 
+OBČINA BOVEC 93249588,98 14276030,32 15,31 
+OBČINA BRASLOVČE 61102589,77 3701055,59 6,06 
+OBČINA BRDA 83593256,6 10995987,34 13,15 
+OBČINA BREZOVICA 152392150,2 10033955,57 6,58 
+OBČINA BREŽICE 342201156,3 29446535,29 8,61 
+OBČINA CANKOVA 24169504,13 1600694,74 6,62 
+MESTNA OBČINA CELJE 730990206,7 136880928,7 18,73 
+OBČINA CERKLJE NA 
+GORENJSKEM 100635090,5 8381572,32 8,33 
+OBČINA CERKNICA 162829320,4 16390117,21 10,07 
+OBČINA CERKNO 78155194,4 7259624,25 9,29 
+OBČINA CERKVENJAK 26965928,92 1558160,08 5,78 
+OBČINA CIRKULANE 37864322,29 1267059,25 3,35 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+61 
+ 
+OBČINA ČRENŠOVCI 54780383,85 1826882,8 3,33 
+OBČINA ČRNA NA KOROŠKEM 69124177,78 8607708,3 12,45 
+OBČINA ČRNOMELJ 175943954,9 11184306,42 6,36 
+OBČINA DESTRNIK 33483599,66 1101753,74 3,29 
+OBČINA DIVAČA 66758499,6 12303433,6 18,43 
+OBČINA DOBJE 13045386,55 770015,52 5,90 
+OBČINA DOBREPOLJE 51252570,5 3532415,55 6,89 
+OBČINA DOBRNA 38480908,96 4389428,24 11,41 
+OBČINA DOBROVA – POLHOV 
+GRADEC 92567949,12 5991869,3 6,47 
+OBČINA DOBROVNIK 28129973,94 1316719,2 4,68 
+OBČINA DOL PRI LJUBLJANI 69570654,45 4273981,98 6,14 
+OBČINA DOLENJSKE TOPLICE 56195665,85 5231610,66 9,31 
+OBČINA DOMŽALE 383357415,5 50440941,15 13,16 
+OBČINA DORNAVA 31568057,06 1351071,58 4,28 
+OBČINA DRAVOGRAD 138514132,1 21087791,15 15,22 
+OBČINA DUPLEK 77695886,69 4632092,84 5,96 
+OBČINA GORENJA VAS – 
+POLJANE 137721922,5 8408074,58 6,11 
+OBČINA GORIŠNICA 57970716,33 6856023,01 11,83 
+OBČINA GORJE 37881531,03 658955,21 1,74 
+OBČINA GORNJA RADGONA 128643672 10979888,33 8,54 
+OBČINA GORNJI GRAD 36380209,83 1492365,8 4,10 
+OBČINA GORNJI PETROVCI 31796967,51 1486219,53 4,67 
+OBČINA GRAD 76686581,07 2189968,77 2,86 
+OBČINA GROSUPLJE 240683408,4 28160186,56 11,70 
+OBČINA HAJDINA 50599185,96 5014086,55 9,91 
+OBČINA HOČE – SLIVNICA 135849365,6 10660863,33 7,85 
+OBČINA HODOŠ 9304159,67 221330,28 2,38 
+OBČINA HORJUL 33835475,93 2308909,9 6,82 
+OBČINA HRASTNIK 129802792,9 14027533,2 10,81 
+OBČINA HRPELJE – KOZINA 75754028,52 11909381,76 15,72 
+OBČINA IDRIJA 176664543,4 22608654,44 12,80 
+OBČINA IG 89055898,81 5674580,99 6,37 
+OBČINA ILIRSKA BISTRICA 181818206 13542806,73 7,45 
+OBČINA IVANČNA GORICA 180005261,6 15012896 8,34 
+OBČINA IZOLA 242310333,4 57459057,63 23,71 
+OBČINA JESENICE 260190705,6 41575929,56 15,98 
+OBČINA JEZERSKO 15864874,78 1360960,81 8,58 
+OBČINA JURŠINCI 28589855,11 590437,11 2,07 
+OBČINA KAMNIK 321254631,9 28730439,08 8,94 
+OBČINA KANAL 97615674,15 17039077,46 17,46 
+OBČINA KIDRIČEVO 89973399,32 7563849,82 8,41 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+62 
+ 
+OBČINA KOBARID 66947609,33 9037961,9 13,50 
+OBČINA KOBILJE 9757486,71 648490,36 6,65 
+OBČINA KOČEVJE 251682706,8 40713177,57 16,18 
+OBČINA KOMEN 60752876,75 10322804,92 16,99 
+OBČINA KOMENDA 88627479,13 23035348,04 25,99 
+MESTNA OBČINA KOPER 833127220,7 158736301,8 19,05 
+OBČINA KOSTANJEVICA NA 
+KRKI 36239310,62 2283569,06 6,30 
+OBČINA KOSTEL 23078117,02 1851292,14 8,02 
+OBČINA KOZJE 61209282,72 3827269,17 6,25 
+MESTNA OBČINA KRANJ 694806264,1 72252198,67 10,40 
+OBČINA KRANJSKA GORA 130006729,3 31668393,41 24,36 
+OBČINA KRIŽEVCI 43992111,14 3883454,33 8,83 
+OBČINA KRŠKO 506895640 41515413,27 8,19 
+OBČINA KUNGOTA 57840873,25 2599018,88 4,49 
+OBČINA KUZMA 23237564,88 795563,38 3,42 
+OBČINA LAŠKO 192802403,6 27779893,29 14,41 
+OBČINA LENART 106140056 11250136,15 10,60 
+OBČINA LENDAVA 145485786,5 13794648,79 9,48 
+OBČINA LITIJA 196700361,2 8749736,72 4,45 
+MESTNA OBČINA LJUBLJANA 4023717492 594532259,1 14,78 
+OBČINA LJUBNO 41520973,3 2519071,43 6,07 
+OBČINA LJUTOMER 163725419,7 15359623,67 9,38 
+OBČINA LOGATEC 188627809,4 28479721,47 15,10 
+OBČINA LOG – DRAGOMER 36070226,91 1739956,02 4,82 
+OBČINA LOŠKA DOLINA 55151044,23 5362689,58 9,72 
+OBČINA LOŠKI POTOK 37981776,76 2243369,24 5,91 
+OBČINA LOVRENC NA 
+POHORJU 48437846,81 9067539,42 18,72 
+OBČINA LUČE 31488685,59 799341,82 2,54 
+OBČINA LUKOVICA 70610124,48 6570749,42 9,31 
+OBČINA MAJŠPERK 57640918,54 3317570,4 5,76 
+OBČINA MAKOLE 31118209,23 1088734,88 3,50 
+MESTNA OBČINA MARIBOR 1340820397 216730091,7 16,16 
+OBČINA MARKOVCI 65913914,02 20757422,28 31,49 
+OBČINA MEDVODE 179222389,9 11594909,96 6,47 
+OBČINA MENGEŠ 86445827,21 10014178,1 11,58 
+OBČINA METLIKA 120635098,3 9341959,17 7,74 
+OBČINA MEŽICA 43334140,69 3811264,95 8,80 
+OBČINA MIKLAVŽ NA 
+DRAVSKEM POLJU 69896489,96 5072234,06 7,26 
+OBČINA MIREN – 
+KOSTANJEVICA 69795704,09 9911628,02 14,20 
+OBČINA MIRNA 24732796,63 2756511,64 11,15 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+63 
+ 
+OBČINA MIRNA PEČ 45498161,84 2583001,49 5,68 
+OBČINA MISLINJA 64409665,5 4858393,15 7,54 
+OBČINA MOKRONOG – 
+TREBELNO 64200767,97 1942987,93 3,03 
+OBČINA MORAVČE 62356610,21 5695015,21 9,13 
+OBČINA MORAVSKE TOPLICE 102791568,2 6640219,63 6,46 
+OBČINA MOZIRJE 54299541,54 4287858,05 7,90 
+MESTNA OBČINA MURSKA 
+SOBOTA 237231112,7 31355082,58 13,22 
+OBČINA MUTA 56592331,77 8425976,02 14,89 
+OBČINA NAKLO 68629474,09 7039982,94 10,26 
+OBČINA NAZARJE 39406912,38 5247771,22 13,32 
+MESTNA OBČINA NOVA 
+GORICA 478732507,3 114731960 23,97 
+MESTNA OBČINA NOVO 
+MESTO 508141159 50436251,95 9,93 
+OBČINA ODRANCI 23108157,45 1385829,07 6,00 
+OBČINA OPLOTNICA 44047214,04 1633740,47 3,71 
+OBČINA ORMOŽ 193044662,2 19541334,83 10,12 
+OBČINA OSILNICA 9246232,03 552544,78 5,98 
+OBČINA PESNICA 95117778,53 5976945,44 6,28 
+OBČINA PIRAN 329962217,5 68537222,87 20,77 
+OBČINA PIVKA 127170166,4 20020736,44 15,74 
+OBČINA PODČETRTEK 66795374,27 3314025,52 4,96 
+OBČINA PODLEHNIK 33292987,94 1482064,32 4,45 
+OBČINA PODVELKA 54406768,87 10982218,45 20,19 
+OBČINA POLJČANE 52155415,65 3879954,34 7,44 
+OBČINA POLZELA 68093762,02 6774637,14 9,95 
+OBČINA POSTOJNA 260685956,8 49206906,73 18,88 
+OBČINA PREBOLD 68238740,6 5865537,35 8,60 
+OBČINA PREDDVOR 54188642,24 3177976,77 5,86 
+OBČINA PREVALJE 87892839,16 7044478,37 8,01 
+MESTNA OBČINA PTUJ 383065701,9 67412786,15 17,60 
+OBČINA PUCONCI 123681121 6572185,49 5,31 
+OBČINA RAČE – FRAM 90623984,4 12722589,44 14,04 
+OBČINA RADEČE 53504276,75 6093914,27 11,39 
+OBČINA RADENCI 71607929,75 8542562,73 11,93 
+OBČINA RADLJE OB DRAVI 105656768,7 14033788,85 13,28 
+OBČINA RADOVLJICA 235485365,8 31253482,5 13,27 
+OBČINA RAVNE NA KOROŠKEM 161745073,6 20198925,04 12,49 
+OBČINA RAZKRIŽJE 19010802,92 1261751,9 6,64 
+OBČINA REČICA OB SAVINJI 27707467,43 1795130,02 6,48 
+OBČINA RENČE – VOGRSKO 52272336,19 8252833,1 15,79 
+OBČINA RIBNICA 118336894,3 8348476,51 7,05 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+64 
+ 
+OBČINA RIBNICA NA POHORJU 20244136,35 1894354,58 9,36 
+OBČINA ROGAŠKA SLATINA 148521028,1 14149024,08 9,53 
+OBČINA ROGAŠOVCI 41341118,76 1547725,15 3,74 
+OBČINA ROGATEC 48220921,75 4688042,34 9,72 
+OBČINA RUŠE 96173319,76 13963587,21 14,52 
+OBČINA SELNICA OB DRAVI 59435968,31 7259772,02 12,21 
+OBČINA SEMIČ 62194694,49 4745702,56 7,63 
+OBČINA SEVNICA 254458996 23278351,4 9,15 
+OBČINA SEŽANA 192884647,8 41408839,41 21,47 
+MESTNA OBČINA SLOVENJ 
+GRADEC 261850114 58635637,32 22,39 
+OBČINA SLOVENSKA BISTRICA 333014307,6 26109356,3 7,84 
+OBČINA SLOVENSKE KONJICE 175487693,9 16093079,21 9,17 
+OBČINA SODRAŽICA 33765674,11 1551208,01 4,59 
+OBČINA SOLČAVA 21544200,95 1455934,56 6,76 
+OBČINA SREDIŠČE OB DRAVI 35195653,27 2270794,46 6,45 
+OBČINA STARŠE 58728483,38 6960294,28 11,85 
+OBČINA STRAŽA 48817968,5 4348552,46 8,91 
+OBČINA SVETA ANA 36931195,04 3185936,52 8,63 
+OBČINA SVETA TROJICA V 
+SLOVENSKIH GORICAH 29782728,45 1659347,58 5,57 
+OBČINA SVETI ANDRAŽ V 
+SLOVENSKIH GORICAH 16104527,34 449079,17 2,79 
+OBČINA SVETI JURIJ OB 
+ŠČAVNICI 41839584,07 1682537,67 4,02 
+OBČINA SVETI JURIJ V 
+SLOVENSKIH GORICAH 29746548,46 1569350,61 5,28 
+OBČINA SVETI TOMAŽ 30786731,74 1364314,8 4,43 
+OBČINA ŠALOVCI 26074938,15 1691620,58 6,49 
+OBČINA ŠEMPETER – VRTOJBA 102397807,7 24131507,15 23,57 
+OBČINA ŠENČUR 97597090,88 11197578,89 11,47 
+OBČINA ŠENTILJ 114740792,2 19960492,37 17,40 
+OBČINA ŠENTJERNEJ 92684991,27 6231490,94 6,72 
+OBČINA ŠENTJUR 242118795,6 21501016,09 8,88 
+OBČINA ŠENTRUPERT 41771129,66 1770567,48 4,24 
+OBČINA ŠKOCJAN 48730390,41 4484206,31 9,20 
+OBČINA ŠKOFJA LOKA 311030818,8 31506598,51 10,13 
+OBČINA ŠKOFLJICA 105778363,1 7461848,36 7,05 
+OBČINA ŠMARJE PRI JELŠAH 134288067,1 9985077,19 7,44 
+OBČINA ŠMARJEŠKE TOPLICE 46811856,45 3476747,73 7,43 
+OBČINA ŠMARTNO OB PAKI 41887062,2 3761041,52 8,98 
+OBČINA ŠMARTNO PRI LITIJI 69138297,07 6839065,73 9,89 
+OBČINA ŠOŠTANJ 180114217,9 20125611,16 11,17 
+OBČINA ŠTORE 43658535,1 2770492,18 6,35 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+65 
+ 
+OBČINA TABOR 22868477,73 1453439,26 6,36 
+OBČINA TIŠINA 50519346,24 6150431,69 12,17 
+OBČINA TOLMIN 177185546,9 23432147,62 13,22 
+OBČINA TRBOVLJE 207853216 35695450,78 17,17 
+OBČINA TREBNJE 165387130 11873163,94 7,18 
+OBČINA TRNOVSKA VAS 18165108,06 550298,65 3,03 
+OBČINA TRZIN 55267282,85 9933592,49 17,97 
+OBČINA TRŽIČ 199913652,8 24700055,69 12,36 
+OBČINA TURNIŠČE 34857192,51 2163620,2 6,21 
+MESTNA OBČINA VELENJE 515072233,7 101561178,6 19,72 
+OBČINA VELIKA POLANA 27590750,7 2318756,79 8,40 
+OBČINA VELIKE LAŠČE 56515566,17 2758325,46 4,88 
+OBČINA VERŽEJ 19987648,81 1375984,03 6,88 
+OBČINA VIDEM 74899493,68 4192360,21 5,60 
+OBČINA VIPAVA 82666881,13 11432649,07 13,83 
+OBČINA VITANJE 32916206,34 1104545,2 3,36 
+OBČINA VODICE 57384991 5485345,81 9,56 
+OBČINA VOJNIK 102529927,3 8088392,21 7,89 
+OBČINA VRANSKO 38384172,56 1881339,11 4,90 
+OBČINA VRHNIKA 204295512,7 26483993,46 12,96 
+OBČINA VUZENICA 43288755,62 6395261,76 14,77 
+OBČINA ZAGORJE OB SAVI 202607952 15342672,75 7,57 
+OBČINA ZAVRČ 23297364,3 993370,49 4,26 
+OBČINA ZREČE 101264432,9 15773010,27 15,58 
+OBČINA ŽALEC 258048919,7 27280992,34 10,57 
+OBČINA ŽELEZNIKI 109695304,8 4976248,33 4,54 
+OBČINA ŽETALE 22150389,45 381486,86 1,72 
+OBČINA ŽIRI 65319714,11 9771225,09 14,96 
+OBČINA ŽIROVNICA 54418137,93 6576788,44 12,09 
+OBČINA ŽUŽEMBERK 80554469,84 4010443,65 4,98 
+SKUPAJ VSE OBČINE 28985257612 3672373810 12,67 
+Vir: Lastna izdelava 
+Skladno s projektnimi cilji smo preverili tudi, ali obstaja povezava med številom prebivalcev in 
+kapitalskimi viri ter velikostjo občine (v km 2) in kapitalskimi viri občine. V obeh primerih smo 
+kapitalske vire opazovali kot delež vsote (2007–2020) kapitalskih virov od vsote vseh virov. Po 
+izračunu Pearsonovega koeficienta lahko ugotovimo, da obstaja šibka pozitivna povezava med 
+deležem kapitalskih prihodkov od vseh prihodkov občine ter številom preb ivalcev v občini 
+(glejte tabelo 4 ), prav tako  pa obstaja šibka pozitivna povezava med deležem kapitalskih 
+prihodkov od vseh prihodkov občine ter velikostjo občine v km2 (glejte tabelo 5).  
+ 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+66 
+ 
+Tabela 4: Korelacija med deležem kapitalskih prihodkov od vseh prihodkov občine ter številom 
+prebivalcev v občini 
+ 
+Delež kapitalskih 
+prihodkov od vseh 
+prihodkov občine Število prebivalcev 
+Delež kapitalskih prihodkov od 
+vseh prihodkov občine 
+Pearson Correlation 1 ,196** 
+Sig. (2-tailed)  ,004 
+N 212 212 
+Ptevilo prebivalcev Pearson Correlation ,196** 1 
+Sig. (2-tailed) ,004  
+N 212 212 
+**. Correlation is significant at the 0.01 level (2-tailed). 
+ 
+Tabela 5: Korelacija med deležem kapitalskih prihodkov od vseh prihodkov občine ter 
+velikostjo občine v km2 
+ 
+Delež kapitalskih 
+prihodkov od vseh 
+prihodkov občine km2 
+Delež kapitalskih prihodkov od 
+vseh prihodkov občine 
+Pearson Correlation 1 ,199** 
+Sig. (2-tailed)  ,004 
+N 212 212 
+km2 Pearson Correlation ,199** 1 
+Sig. (2-tailed) ,004  
+N 212 212 
+**. Correlation is significant at the 0.01 level (2-tailed). 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+67 
+ 
+Predpostavili smo, da imajo večje občine več možnosti, da so v njih zgoščena mestna naselja 
+(urbane aglomeracije), ki vplivajo na prihodke iz virov , vezanih na najemnine ter prodajo 
+stanovanjskih in poslovnih prostorov. Ti kapitalski viri so tudi najobsežnejši in bi lahko značilno 
+vplivali na vsoto vseh kapitalskih virov , vendar so pozitivne korelacije vseeno nekoliko šibke, 
+zato bi iz njih težko sklepali o pomembni vzročnosti. Če si ogledamo tabelo z deleži vseh občin, 
+lahko sicer vidimo, da so mestne občine 39 (obarvane sivo) nekoliko uspešne jše pri zbiranju 
+kapitalskih vir ov, saj je njihov delež v povprečju 16,9 -odstoten, kar je nekoliko več od 
+nacionalnega povprečja, ki je 12,7 %.  
+Po drugi strani pa smo pri ugotavljanju povezave med deležem kapitalskih prihodkov od vseh 
+prihodkov občine in deležem davčnih virov, ki jih ob čine same (so)določajo , našli veliko 
+močnejšo pozitivno povezavo (glejte tabelo 6). Občine imajo namreč možnost določiti ali pa 
+določiti v vnaprej določenem intervalu višino nekaterih davčnih virov. Bačlija – Brajnik, Prebilič 
+in Kronegger (2022) 40 med te vire štejejo : nadomestilo za uporabo stavbnega zemljišča, 
+komunalni prispevek, turistično takso, občinske takse in globe za prekrške. Če občine pobirajo 
+sorazmerno velik delež teh davščin in drugih virov, lahko sklepamo, da imajo večjo kapaciteto 
+za izrabo fiskalne politike. Z ugotovitvijo, da je močna povezava med občinami, ki imajo visok 
+delež lastnih davčnih prihodkov ter visok delež kapitalskih prihodkov, lahko sklenemo, da gre 
+za skupino občin, ki je sposobnejša upravljati s pridobivanjem davčnih in kapitalskih virov.  
+ 
+Tabela 6: Korelacija med deležem kapitalskih prihodkov od vseh prihodkov občine in deležem 
+davčnih virov, ki jih občine same (so)določajo 
+ 
+Delež kapitalskih 
+prihodkov od vseh 
+prihodkov občine 
+Vsi lastni davčni 
+prihodki 
+Delež kapitalskih prihodkov od 
+vseh prihodkov občine 
+Pearson Correlation 1 ,567** 
+Sig. (2-tailed)  ,000 
+N 212 212 
+Vsi lastni davčni prihodki Pearson Correlation ,567** 1 
+Sig. (2-tailed) ,000  
+N 212 212 
+ 
+39 Kot mestne občine obravnavamo občine, ki so imele status mestne občine v letu 2020 . 
+40 Irena Bačlija Brajnik, Vladimir Prebilič in Luka Kronegger. 2022. Explaining Strategies in Setting Own Local Taxes 
+in  Slovenia. LEX LOCALIS – JOURNAL OF LOCAL SELF-GOVERNMENT, vol. 20, No. 1, pp. 239–257. 
+ 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+68 
+ 
+**. Correlation is significant at the 0.01 level (2-tailed). 
+ 
+INDEKS KAPITALSKE SPOSOBNOSTI 
+Z namenom poenostavitve kategoriziranja občin glede na pridobivanje kapitalskih virov smo 
+izdelali t. i. indeks kapitalske sposobnosti. Vanj so vključeni vsi v projektu našteti in analizirani 
+viri. Sklenili smo, da je zmožnost posamezne občine, da pridobi kapitalske vire , sorazmerno 
+nevezana na geografske značilnosti (obstajajo izjeme, kot so na primer prihodki od podeljenih 
+koncesij za rudarsko pravico, vendar so ti tako zanemarljivo majhni, da ne bi vplivali na končne 
+rezultate), saj je korelacija z velikostjo in  s številom prebivalstva sorazmerno šibka. Ker ne 
+obstaja teoretična referenca za določanje, kakšna je višina kapitalskih virov, na podlagi katere 
+bi lahko sklepali, da je občina uspešna pri upravljanju s kapitalskimi viri (glej te na primer 
+Blöchliger, 2008; Crasneac, Hetes Gavra in Oana, 2011; Hemmings, Turner in Parvianen, 2003;  
+van Rompuy, 2015; Vetter, 2007) 41, smo indeks kapitalskih virov določili arbitrarno za 
+Slovenijo, in sicer na podlagi dolgoletnega povprečja. Deleže kapitalskih prihodkov smo 
+razdelili v kvartile, pri čemer so vrednosti deleža od 0 do 6,1 označene kot vrednost indeksa 1, 
+to je nizka vrednost indeksa. Vrednosti deleža od 6,2 do 8,6 je srednje nizka vrednost indeksa 
+ter je označena z 2; vrednost deleža od 8,7 do 12,8 je srednje visoka vrednost, označena s 3, 
+ter vrednost od 12,9 naprej je visok a vrednost indeksa , označena s 4. V spodnji tabe li so 
+navedene vrednosti indeksa za vse občine v Sloveniji. 
+ 
+Tabela 7: Vrednosti indeksa kapitalskih prihodkov za vse občine v Sloveniji 
+OBČINA Delež kapitalskih 
+prihodkov (v %) 
+Indeks kapitalskih 
+prihodkov (1–4) 
+OBČINA AJDOVŠČINA 13,69 4 
+OBČINA ANKARAN 45,01 4 
+OBČINA APAČE 6,33 2 
+OBČINA BELTINCI 6,34 2 
+OBČINA BENEDIKT 8,06 2 
+OBČINA BISTRICA OB SOTLI 3,79 1 
+ 
+41 Blöchliger, H. (2008) Tax assignment and tax autonomy i n OECD countries, V: Bosch, N. & Durán, J. M. (ur .), 
+Fiscal federalism and political decentr alization: Lessons from Spain, Germany, and Canada.(Celtenham: Edward 
+Elgar Publishing Limited), pp. 56–73. 
+Crasneac, A., Hetes Gavra, R., Oana, M. (2011) Fiscal decentralization and fiscal autonomy in the EU member 
+states, Annals of Faculty of Economics, University of Oradea, 1(1), pp. 370–375. 
+Hemmings, P., Turner, D. , Parvianen, S. (2003) Enhancing the effectiveness of public spending in Finland, OECD 
+Economics Department Working Papers, 349 (Paris: OECD). 
+Van Rompuy, P. (2015). Sub-national tax autonomy and deficits: Empirical results for 27 OECD Countries, Regional 
+Studies, 50(7), pp. 1248–1259, https://doi.org/10.1080/00343404.2015.1007937.  
+Vetter, A. (2007) Local politics: A resource for democracy in western Europe? Local autonomy, local integrative 
+capacity, and citizens’ attitudes towards politics (Lanham: Lexington Books).  
+ 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+69 
+ 
+OBČINA BLED 12,34 3 
+OBČINA BLOKE 12,01 3 
+OBČINA BOHINJ 20,14 4 
+OBČINA BOROVNICA 10,35 3 
+OBČINA BOVEC 15,31 4 
+OBČINA BRASLOVČE 6,06 1 
+OBČINA BRDA 13,15 4 
+OBČINA BREZOVICA 6,58 2 
+OBČINA BREŽICE 8,61 2 
+OBČINA CANKOVA 6,62 2 
+MESTNA OBČINA CELJE 18,73 4 
+OBČINA CERKLJE NA GORENJSKEM 8,33 2 
+OBČINA CERKNICA 10,07 3 
+OBČINA CERKNO 9,29 3 
+OBČINA CERKVENJAK 5,78 1 
+OBČINA CIRKULANE 3,35 1 
+OBČINA ČRENŠOVCI 3,33 1 
+OBČINA ČRNA NA KOROŠKEM 12,45 3 
+OBČINA ČRNOMELJ 6,36 2 
+OBČINA DESTRNIK 3,29 1 
+OBČINA DIVAČA 18,43 4 
+OBČINA DOBJE 5,90 1 
+OBČINA DOBREPOLJE 6,89 2 
+OBČINA DOBRNA 11,41 3 
+OBČINA DOBROVA – POLHOV GRADEC 6,47 2 
+OBČINA DOBROVNIK 4,68 1 
+OBČINA DOL PRI LJUBLJANI 6,14 1 
+OBČINA DOLENJSKE TOPLICE 9,31 3 
+OBČINA DOMŽALE 13,16 4 
+OBČINA DORNAVA 4,28 1 
+OBČINA DRAVOGRAD 15,22 4 
+OBČINA DUPLEK 5,96 1 
+OBČINA GORENJA VAS – POLJANE 6,11 1 
+OBČINA GORIŠNICA 11,83 3 
+OBČINA GORJE 1,74 1 
+OBČINA GORNJA RADGONA 8,54 2 
+OBČINA GORNJI GRAD 4,10 1 
+OBČINA GORNJI PETROVCI 4,67 1 
+OBČINA GRAD 2,86 1 
+OBČINA GROSUPLJE 11,70 3 
+OBČINA HAJDINA 9,91 3 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+70 
+ 
+OBČINA HOČE – SLIVNICA 7,85 2 
+OBČINA HODOŠ 2,38 1 
+OBČINA HORJUL 6,82 2 
+OBČINA HRASTNIK 10,81 3 
+OBČINA HRPELJE – KOZINA 15,72 4 
+OBČINA IDRIJA 12,80 3 
+OBČINA IG 6,37 2 
+OBČINA ILIRSKA BISTRICA 7,45 2 
+OBČINA IVANČNA GORICA 8,34 2 
+OBČINA IZOLA 23,71 4 
+OBČINA JESENICE 15,98 4 
+OBČINA JEZERSKO 8,58 2 
+OBČINA JURŠINCI 2,07 1 
+OBČINA KAMNIK 8,94 3 
+OBČINA KANAL 17,46 4 
+OBČINA KIDRIČEVO 8,41 2 
+OBČINA KOBARID 13,50 4 
+OBČINA KOBILJE 6,65 2 
+OBČINA KOČEVJE 16,18 4 
+OBČINA KOMEN 16,99 4 
+OBČINA KOMENDA 25,99 4 
+MESTNA OBČINA KOPER 19,05 4 
+OBČINA KOSTANJEVICA NA KRKI 6,30 2 
+OBČINA KOSTEL 8,02 2 
+OBČINA KOZJE 6,25 2 
+MESTNA OBČINA KRANJ 10,40 3 
+OBČINA KRANJSKA GORA 24,36 4 
+OBČINA KRIŽEVCI 8,83 3 
+OBČINA KRŠKO 8,19 2 
+OBČINA KUNGOTA 4,49 1 
+OBČINA KUZMA 3,42 1 
+OBČINA LAŠKO 14,41 4 
+OBČINA LENART 10,60 3 
+OBČINA LENDAVA 9,48 3 
+OBČINA LITIJA 4,45 1 
+MESTNA OBČINA LJUBLJANA 14,78 4 
+OBČINA LJUBNO 6,07 1 
+OBČINA LJUTOMER 9,38 3 
+OBČINA LOGATEC 15,10 4 
+OBČINA LOG – DRAGOMER 4,82 1 
+OBČINA LOŠKA DOLINA 9,72 3 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+71 
+ 
+OBČINA LOŠKI POTOK 5,91 1 
+OBČINA LOVRENC NA POHORJU 18,72 4 
+OBČINA LUČE 2,54 1 
+OBČINA LUKOVICA 9,31 3 
+OBČINA MAJŠPERK 5,76 1 
+OBČINA MAKOLE 3,50 1 
+MESTNA OBČINA MARIBOR 16,16 4 
+OBČINA MARKOVCI 31,49 4 
+OBČINA MEDVODE 6,47 2 
+OBČINA MENGEŠ 11,58 3 
+OBČINA METLIKA 7,74 2 
+OBČINA MEŽICA 8,80 3 
+OBČINA MIKLAVŽ NA DRAVSKEM POLJU 7,26 2 
+OBČINA MIREN – KOSTANJEVICA 14,20 4 
+OBIČINA MIRNA 11,15 3 
+OBČINA MIRNA PEČ 5,68 1 
+OBČINA MISLINJA 7,54 2 
+OBČINA MOKRONOG – TREBELNO 3,03 1 
+OBČINA MORAVČE 9,13 3 
+OBČINA MORAVSKE TOPLICE 6,46 2 
+OBČINA MOZIRJE 7,90 2 
+MESTNA OBČINA MURSKA SOBOTA 13,22 4 
+OBČINA MUTA 14,89 4 
+OBČINA NAKLO 10,26 3 
+OBČINA NAZARJE 13,32 4 
+MESTNA OBČINA NOVA GORICA 23,97 4 
+MESTNA OBČINA NOVO MESTO 9,93 3 
+OBČINA ODRANCI 6,00 1 
+OBČINA OPLOTNICA 3,71 1 
+OBČINA ORMOŽ 10,12 3 
+OBČINA OSILNICA 5,98 1 
+OBČINA PESNICA 6,28 2 
+OBČINA PIRAN 20,77 4 
+OBČINA PIVKA 15,74 4 
+OBČINA PODČETRTEK 4,96 1 
+OBČINA PODLEHNIK 4,45 1 
+OBČINA PODVELKA 20,19 4 
+OBČINA POLJČANE 7,44 2 
+OBČINA POLZELA 9,95 3 
+OBČINA POSTOJNA 18,88 4 
+OBČINA PREBOLD 8,60 2 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+72 
+ 
+OBČINA PREDDVOR 5,86 1 
+OBČINA PREVALJE 8,01 2 
+MESTNA OBČINA PTUJ 17,60 4 
+OBČINA PUCONCI 5,31 1 
+OBČINA RAČE – FRAM 14,04 4 
+OBČINA RADEČE 11,39 3 
+OBČINA RADENCI 11,93 3 
+OBČINA RADLJE OB DRAVI 13,28 4 
+OBČINA RADOVLJICA 13,27 4 
+OBČINA RAVNE NA KOROŠKEM 12,49 3 
+OBČINA RAZKRIŽJE 6,64 2 
+OBČINA REČICA OB SAVINJI 6,48 2 
+OBČINA RENČE-VOGRSKO 15,79 4 
+OBČINA RIBNICA 7,05 2 
+OBČINA RIBNICA NA POHORJU 9,36 3 
+OBČINA ROGAŠKA SLATINA 9,53 3 
+OBČINA ROGAŠOVCI 3,74 1 
+OBČINA ROGATEC 9,72 3 
+OBČINA RUŠE 14,52 4 
+OBČINA SELNICA OB DRAVI 12,21 3 
+OBČINA SEMIČ 7,63 2 
+OBČINA SEVNICA 9,15 3 
+OBČINA SEŽANA 21,47 4 
+MESTNA OBČINA SLOVENJ GRADEC 22,39 4 
+OBČINA SLOVENSKA BISTRICA 7,84 2 
+OBČINA SLOVENSKE KONJICE 9,17 3 
+OBČINA SODRAŽICA 4,59 1 
+OBČINA SOLČAVA 6,76 2 
+OBČINA SREDIŠČE OB DRAVI 6,45 2 
+OBČINA STARŠE 11,85 3 
+OBČINA STRAŽA 8,91 3 
+OBČINA SVETA ANA 8,63 2 
+OBČINA SVETA TROJICA V SLOVENSKIH GORICAH 5,57 1 
+OBČINA SVETI ANDRAŽ V SLOVENSKIH GORICAH 2,79 1 
+OBČINA SVETI JURIJ 4,02 1 
+OBČINA SVETI JURIJ V SLOVENSKIH GORICAH 5,28 1 
+OBČINA SVETI TOMAŽ 4,43 1 
+OBČINA ŠALOVCI 6,49 2 
+OBČINA ŠEMPETER – VRTOJBA 23,57 4 
+OBČINA ŠENČUR 11,47 3 
+OBČINA ŠENTILJ 17,40 4 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+73 
+ 
+OBČINA ŠENTJERNEJ 6,72 2 
+OBČINA ŠENTJUR 8,88 3 
+OBČINA ŠENTRUPERT 4,24 1 
+OBČINA ŠKOCJAN 9,20 3 
+OBČINA ŠKOFJA LOKA 10,13 3 
+OBČINA ŠKOFLJICA 7,05 2 
+OBČINA ŠMARJE PRI JELŠAH 7,44 2 
+OBČINA ŠMARJEŠKE TOPLICE 7,43 2 
+OBČINA ŠMARTNO OB PAKI 8,98 3 
+OBČINA ŠMARTNO PRI LITIJI 9,89 3 
+OBČINA ŠOŠTANJ 11,17 3 
+OBČINA ŠTORE 6,35 2 
+OBČINA TABOR 6,36 2 
+OBČINA TIŠINA 12,17 3 
+OBČINA TOLMIN 13,22 4 
+OBČINA TRBOVLJE 17,17 4 
+OBČINA TREBNJE 7,18 2 
+OBČINA TRNOVSKA VAS 3,03 1 
+OBČINA TRZIN 17,97 4 
+OBČINA TRŽIČ 12,36 3 
+OBČINA TURNIŠČE 6,21 2 
+MESTNA OBČINA VELENJE 19,72 4 
+OBČINA VELIKA POLANA 8,40 2 
+OBČINA VELIKE LAŠČE 4,88 1 
+OBČINA VERŽEJ 6,88 2 
+OBČINA VIDEM 5,60 1 
+OBČINA VIPAVA 13,83 4 
+OBČINA VITANJE 3,36 1 
+OBČINA VODICE 9,56 3 
+OBČINA VOJNIK 7,89 2 
+OBČINA VRANSKO 4,90 1 
+OBČINA VRHNIKA 12,96 4 
+OBČINA VUZENICA 14,77 4 
+OBČINA ZAGORJE OB SAVI 7,57 2 
+OBČINA ZAVRČ 4,26 1 
+OBČINA ZREČE 15,58 4 
+OBČINA ŽALEC 10,57 3 
+OBČINA ŽELEZNIKI 4,54 1 
+OBČINA ŽETALE 1,72 1 
+OBČINA ŽIRI 14,96 4 
+OBČINA ŽIROVNICA 12,09 3 
+
+Zaključno poročilo projekta                                                                                                                 
+»Upravljanje kapitalskih virov v slovenskih občinah« 
+ 
+74 
+ 
+OBČINA ŽUŽEMBERK 4,98 1 
+ 
+ 
+ZAKLJUČEK 
+Kapitalski prihodki občin predstavljajo delež prihodkov, ki ga občine ustvarijo same, torej na 
+njihovo višino precej vpliva ekonomično naravnana lokalna politična oblast. Da kapitalski 
+prihodki niso odvisni zgolj od velikosti občine, ki bi teoretično lahko  znatno vplivala na npr. 
+delež prihodkov pridobljenih iz najemnin, smo prikazali s korelacijami. Narelevantnejša 
+povezava je bila ravno med deležem davčnih virov, ki jih občine same določajo in med deležem 
+kapitalskih virov. To dokazuje, da so občine, ki s o naravnane k pridobivanju lastnih virov 
+aktivne na vseh področjih pridobivanja lastnih virov.  
+Kapitalski viri občin niso neznatni, saj v povprečju predstavljajo približno enak delež, kot lastni 
+davčni viri občine. Pri tem najbolj izstopajo prihodki od najemnin, pa tudi prihodki od prodaje 
+stavbnih zemljišč in prihodki od prodaje osnovnih sredstev. Krepitev sposobnosti pridobivanja 
+kapitalskih virov je nedvomno zaželena smer delovanja občin v Sloveniji. Morda bi jih veljalo 
+tudi spodbuditi s sprotnimi objavami indeksa kapitalske usposobljenosti.

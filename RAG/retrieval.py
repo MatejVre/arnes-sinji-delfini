@@ -1,5 +1,8 @@
+from __future__ import annotations
+
 import os
 import threading
+from threading import Lock
 
 from pinecone import Pinecone
 from sentence_transformers import SentenceTransformer
@@ -24,7 +27,7 @@ def find_suitable_documents(
     index: object,
     model: SentenceTransformer,
     query: str,
-    encode_lock: threading.Lock | None = None,
+    encode_lock: Lock | None = None,
 ):
     """encode_lock serializes embedding when the same model is shared across worker threads."""
     if encode_lock is not None:

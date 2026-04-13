@@ -1,0 +1,134 @@
+Obrazec OBV/14 – 5. 10. 2018 
+OBVESTILO POSAMEZNIKOM PO 14. ČLENU SPLOŠNE UREDBE O VARSTVU 
+PODATKOV (ang. GDPR) GLEDE OBDELAVE OSEBNIH PODATKOV  
+Opombe in pojasnila:  
+• Ta obrazec je informativne narave in ni predpisan.
+• Informacije posredujete posameznikom, kadar osebni podatki niso bili pridobljeni od posameznika1, kot to zahteva 14.
+člen Splošne uredbe, npr.:
+• od drugih upravljavcev (npr. od drugih podjetij ali institucij),
+• iz javno dostopnih virov (npr. iz javnih registrov, na spletnih straneh ipd.),
+• od drugih posameznikov (npr. posameznik zaupa telefonsko številko svojega prijatelja podjetju, to pa ga
+mora obvestiti o pridobitvi podatka).
+V kakšnem roku je treba zagotoviti informacije iz tega obrazca? 
+a) V razumnem roku po prejemu osebnih podatkov, vendar najpozneje v enem mesecu, pri čemer se upoštevajo
+posebne okoliščine, v katerih se obdelujejo osebni podatki, 
+b) če se bodo osebni podatki uporabili za komuniciranje s posameznikom najpozneje ob prvem komuniciranju s 
+tem posameznikom, ali 
+c) če je predvideno razkritje drugemu uporabniku, najpozneje ob prvem razkritju osebnih podatkov, 
+d) kadar namerava upravljavec nadalje obdelovati osebne podatke za drug namen, t.j. ki ni namen, za katerega
+so bili osebni podatki pridobljeni2.
+Kdaj ni treba zagotoviti informacij iz tega obrazca? Kadar in kolikor: 
+a) posameznik, na katerega se nanašajo osebni podatki, že ima te informacije (dokazno breme je na
+upravljavcu);
+b) se izkaže, da je zagotavljanje takih informacij nemogoče ali bi vključevalo nesorazmeren napor3;
+c) je pridobitev ali razkritje izrecno določeno v zakonodaji z ustreznimi ukrepi za zaščito zakonitih interesov, ali 
+d) morajo osebni podatki ostati zaupni ob upoštevanju obveznosti varovanja poklicne skrivnosti v skladu z
+veljavno zakonodajo. 
+• Za lažje razumevanje obveznosti glede informiranja posameznika priporočamo tudi po javni razpravi revidirane
+Smernice o transparentnosti v skladu z Uredbo 2016/679 (WP 260 rev.01, 11.4.2018)
+1 Če ste podatke pridobili neposredno od posameznika uporabite obrazec po 13. členu Splošne uredbe. 
+2 In vse nadaljnje relevantne informacije iz odstavka (14)2 Splošne uredbe. 
+3 Podrobneje glej točko (b) člena 14(5) Splošne uredbe. 
+
+Obrazec OBV/14 – 5. 10. 2018 
+OBVESTILO POSAMEZNIKOM PO 14. ČLENU SPLOŠNE UREDBE O VARSTVU 
+PODATKOV (ang. GDPR) GLEDE OBDELAVE OSEBNIH PODATKOV
+• Upravljavec zbirke osebnih podatkov:
+____________________________________________________________________________
+____________________________________________________________________________
+____________________________________________________________________________
+Naziv, naslov, telefon, elektronska pošta
+• Kontakti pooblaščene osebe za varstvo osebnih podatkov (ang. DPO), če je imenovana:
+____________________________________________________________________________
+____________________________________________________________________________
+____________________________________________________________________________
+Telefon, e-pošta.
+• Namen obdelave osebnih podatkov:
+___________________________________________________________________________
+____________________________________________________________________________
+____________________________________________________________________________
+Opišite namene obdelave, kot jih določa zakonodaja ali kot ste jih sami opredelili. Da bo namen obdelave
+posameznikom jasno razumljiv je v povezavi z nameni treba navesti oz. opisati tudi vrste osebnih podatkov, ki se
+zbirajo oziroma obdelujejo za posamezen namen. 
+• Pravna podlaga za obdelavo osebnih podatkov:
+____________________________________________________________________________
+____________________________________________________________________________
+____________________________________________________________________________
+Navedite pravno podlago za obdelavo osebnih podatkov (npr. privolitev posameznika po določbi točke (a) člena
+6(1) Splošne uredbe o varstvu osebnih podatkov, zakoniti interesi, za uveljavljanje katerih si prizadeva upravljavec
+ali tretja oseba po določbi točke (f) člena 6(1) Splošne uredbe, 48. člen Zakona o delovnih razmerjih ipd.). 
+• Vrste zadevnih osebnih podatkov
+____________________________________________________________________________
+____________________________________________________________________________
+____________________________________________________________________________
+Navedite vrste osebnih podatkov (npr. ime in priimek, naslov, telefonska številka, podatki o opravljanih nakupih…).
+• Uporabniki ali kategorije uporabnikov4 osebnih podatkov, če obstajajo:
+____________________________________________________________________________
+____________________________________________________________________________
+____________________________________________________________________________ 
+Navedite, katerim tretjim osebam se posredujejo osebni podatki (npr. konkretnemu organu, zavodu, podjetju,
+pogodbenemu obdelovalcu ali dovolj jasno in ozko opredelitev kategorije uporabnikov ipd.). Zaposleni pri
+upravljavcu se ne štejejo za uporabnike.
+4 Točka (9) člena 4 Splošne uredbe. 
+
+Obrazec OBV/14 – 5. 10. 2018 
+• Informacije o prenosih osebnih podatkov v tretjo državo ali mednarodno organizacijo:
+____________________________________________________________________________
+____________________________________________________________________________
+____________________________________________________________________________
+Če se podatki prenašajo v tretje države ali mednarodne organizacije, navedite ali za to tretjo državo obstaja sklep
+o ustreznosti oz. sklic na ustrezne ali primerne zaščitne ukrepe po členih 46, 47 oz. 49(1) Splošne uredbe in sredstva
+za pridobitev njihove kopije ali kje so na voljo in po potrebi podajte ustrezne druge informacije. 
+• Obdobje hrambe osebnih podatkov ali, kadar to ni mogoče, merila, ki se uporabijo za
+določitev tega obdobja:
+_____________________________________________________________________________________________
+____________________________________________________________________________
+____________________________________________________________________________ 
+Obdobje hrambe lahko določa zakonodaja, sicer pa je treba izhajati iz vaših namenov obdelave. Če obdobja
+hrambe ni mogoče natančno določiti, razmislite o možnih okoliščinah ali kriterijih, ki lahko vplivajo na obdobje
+hrambe in obdobje določite na način, da posameznik lahko predvideva, kdaj naj bi rok potekel (npr. hramba do
+preklica privolitve, hramba za določeno obdobje merjeno od nastanka nekega dogodka ipd.). 
+• Obrazložitev zakonitih interesov5:
+____________________________________________________________________________
+____________________________________________________________________________
+____________________________________________________________________________
+____________________________________________________________________________
+____________________________________________________________________________
+Če so zakoniti interesi, za uveljavljanje katerih si prizadeva upravljavec ali tretja oseba, pravna podlaga za
+obdelavo osebnih podatkov, potem jih morate navesti (npr. varovanje omrežja). Če je pravna podlaga druga (npr.
+privolitev, zakon, pogodba ipd.), potem pustite prazno.
+• Informacije o obstoju pravic posameznika, da lahko zahteva dostop do osebnih podatkov in
+popravek ali izbris osebnih podatkov ali omejitev, ali obstoj pravice do ugovora obdelavi in
+pravice do prenosljivosti podatkov:
+____________________________________________________________________________
+____________________________________________________________________________
+____________________________________________________________________________
+____________________________________________________________________________
+Preverite, katere pravice ima posameznik v konkretnem primeru, in jih navedite. Prav tako navedite, kako lahko
+posameznik te pravice uveljavlja in morebitne omejitve pravic glede na določbe 23. člena Splošne uredbe.
+• Informacija o pravici do preklica privolitve, kadar obdelava temelji na privolitvi: Privolitev
+lahko kadar koli prekličete, ne da bi to vplivalo na zakonitost obdelave podatkov, ki se je na
+podlagi privolitve izvajala do njenega preklica.
+• Informacija o pravici do vložitve pritožbe pri nadzornem organu: Pritožbo lahko podate
+Informacijskemu pooblaščencu (naslov: Dunajska 22, 1000 Ljubljana, e-naslov: gp.ip@ip-rs.si
+telefon: 012309730, spletna stran: www.ip-rs.si).
+5 Točka (f) člena 6(1) Splošne uredbe. 
+
+Obrazec OBV/14 – 5. 10. 2018 
+• Informacije o viru osebnih podatkov in ali izvirajo iz javno dostopnih virov: 
+____________________________________________________________________________ 
+____________________________________________________________________________
+____________________________________________________________________________
+•  Navedite, kje oz. od koga ste pridobili osebne podatke.
+• Informacije o obstoju avtomatiziranega sprejemanja odločitev, vključno z oblikovanjem 
+profilov ter vsaj v takih primerih smiselne informacije o razlogih zanj, kot tudi pomen in 
+predvidene posledice take obdelave za posameznika, na katerega se nanašajo osebni 
+podatki: 
+____________________________________________________________________________ 
+____________________________________________________________________________ 
+____________________________________________________________________________ 
+Če posameznike profilirate ali z izvajate avtomatizirano odločanje na podlagi njihovih osebnih podatkov, potem jim 
+kratko in razumljivo to pojasnite. Če npr. želite spremljati podatke o njihovih nakupih za namene prilagajanja 
+oglaševanja in ponudbe, pojasnite vaše razloge za to, kaj to pomeni za posameznika (npr. da boste zbirali podatke
+o ceni kupljenih artiklov, času in lokaciji nakupov ipd.) ter predvidene posledice za posameznika (npr. da bo 
+prejemal oglase in ponudbo, ki bo temeljila na njegovih preteklih nakupih in preferencah).

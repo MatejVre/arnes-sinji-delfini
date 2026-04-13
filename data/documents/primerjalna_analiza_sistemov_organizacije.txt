@@ -1,0 +1,3238 @@
+PRIMERJALNA ANALIZA SISTEMOV ORGANIZACIJE IN 
+FINANCIRANJA MUZEJEV V PETIH EVROPSKIH 
+DRŽAVAH 
+ 
+(Študija po naročilu Ministrstva za kulturo Republike Slovenije)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Pripravila: Katarina Šrimpf 
+Znanstvenoraziskovalni center Slovenske akademije znanosti in umetnosti, 
+Inštitut za slovensko narodopisje 
+ 
+ 
+Ljubljana, november 2015 
+  
+
+
+ 
+ 
+2 
+ 
+  
+
+ 
+ 
+3 
+ 
+Povzetek 
+ 
+Študija je primerjalna analiza sistemov organizacije in financiranja muzejev v petih evropskih 
+državah. Primerjali smo sisteme organizacije, financ iranja in zaposlovanja v muzejskem 
+sektorju v Avstriji, Franciji ter na Portugalskem, Češkem in Finskem. Študija daje delni 
+vpogled v muzejsko dejavnost  teh držav , kot ga je bilo mogoče ustvariti na podlagi 
+dosegljivih virov. V raziskavo je za vsako od izbranih držav zajet kratek pregled zakonodaje s 
+področja muzejske dejavnosti, s posebnim poudarkom na tematiki izvajanja javne muzejske 
+službe, zaposlovanja in prostovoljstva. Nadalje je predstavljen splošen oris strukture lastništva 
+in upravljanja muzejev, sistem financiranja, načini pridobivanja sredstev iz različnih virov  ter 
+zaposlitvena struktura v muzejih. Za vsako državo so predstavljeni tudi trije muzeji z vidika 
+sistemov organizacije, financiranja in zaposlovanja. Tako kot se med sabo razlikujejo izbrane 
+države, tako se med seboj razlikuje tudi njihova muzejska dejavnost in jo je zato težko 
+primerjati med seboj, zato se študija osredotoča na primerljive statistične podatk e s 
+predstavljenih področij.  
+ 
+Ključne besede: muzeji, organizacija, financiranje, zaposlovanje, statistični podatki 
+ 
+ 
+  
+
+ 
+ 
+4 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+5 
+ 
+Kazalo 
+ 
+Uvod ........................................................................................................................................... 9 
+1. AVSTRIJA ....................................................................................................................... 11 
+1.1. Muzejska zakonodaja ................................................................................................ 11 
+1.1.1. Javna služba in naloge muzejev ......................................................................... 12 
+1.1.2. Zaposleni v muzejski dejavnosti ........................................................................ 13 
+1.1.3. Prostovoljci ......................................................................................................... 13 
+1.2. Lastništvo in upravljanje muzejev: ............................................................................ 13 
+1.3. Financiranje muzejev: ................................................................................................ 15 
+1.4. Zaposlovanje .............................................................................................................. 16 
+1.5. Kunsthistorisches Museum Wien .............................................................................. 17 
+1.5.1. Osnovi podatki ................................................................................................... 17 
+1.5.2. Financiranje ........................................................................................................ 19 
+1.5.3. Zaposlovanje ...................................................................................................... 19 
+1.6. Universalmuseums Joanneum, Graz, ......................................................................... 21 
+1.6.1. Osnovi podatki ................................................................................................... 21 
+1.6.2. Financiranje ........................................................................................................ 23 
+1.6.3. Zaposlovanje ...................................................................................................... 24 
+1.7. Museum Moderner Kunst Kärnten ............................................................................ 27 
+ 
+2. ČEŠKA ............................................................................................................................. 29 
+2.1. Muzejska zakonodaja ................................................................................................ 29 
+2.1.1. Javna služba in naloge muzejev ......................................................................... 29 
+2.1.2. Zaposleni v muzejski dejavnosti ........................................................................ 30 
+2.1.3. Prostovoljci ......................................................................................................... 30 
+2.2. Lastništvo in upravljanje muzejev ............................................................................. 30 
+2.3. Financiranje muzejev: ................................................................................................ 31 
+2.4. Zaposlovanje .............................................................................................................. 32 
+2.5. Národní muzeum ....................................................................................................... 33 
+2.5.1. Osnovi podatki ................................................................................................... 33 
+
+ 
+ 
+6 
+ 
+2.5.2. Financiranje ........................................................................................................ 35 
+2.5.3. Zaposlovanje ...................................................................................................... 36 
+2.6. Muzeum Hlavního Města Prahy / Muzej mesta Praga .............................................. 36 
+2.6.1. Osnovi podatki ................................................................................................... 36 
+2.6.2. Financiranje ........................................................................................................ 39 
+2.6.3. Zaposlovanje ...................................................................................................... 39 
+2.7. Regionálního muzea v Českém Krumlově / Regionalni muzej v Českém Krumlově
+ ....................................................................................................................................40 
+2.7.1. Osnovi podatki ................................................................................................... 40 
+2.7.2. Financiranje ........................................................................................................ 41 
+2.7.3. Zaposlovanje ...................................................................................................... 41 
+ 
+3. FINSKA ........................................................................................................................... 43 
+3.1. Muzejska zakonodaja ................................................................................................ 43 
+3.1.1. Javna služba muzejev ......................................................................................... 43 
+3.1.2. Zaposleni v muzejski dejavnosti ........................................................................ 46 
+3.1.3. Prostovoljci ......................................................................................................... 46 
+3.2. Lastništvo in upravljanje muzejev: ............................................................................ 46 
+3.3. Financiranje muzejev: ................................................................................................ 48 
+3.4. Zaposlovanje .............................................................................................................. 50 
+3.5. Kansallisgalleria / Finska nacionalna galerija ........................................................... 51 
+3.5.1. Osnovi podatki ................................................................................................... 51 
+3.5.2. Financiranje ........................................................................................................ 53 
+3.5.3. Zaposlovanje ...................................................................................................... 54 
+3.6. Suomen käsityön museo/ Muzej obrti ....................................................................... 54 
+3.6.1. Osnovi podatki ................................................................................................... 54 
+3.6.2. Financiranje ........................................................................................................ 55 
+3.6.3. Zaposlovanje ...................................................................................................... 56 
+3.7. Suomen Metsästysmuseo / Lovski muzej .................................................................. 57 
+3.7.1. Osnovi podatki ................................................................................................... 57 
+3.7.2. Financiranje ........................................................................................................ 59 
+3.7.3. Zaposlovanje ...................................................................................................... 60 
+ 
+
+ 
+ 
+7 
+ 
+4. FRANCIJA ...................................................................................................................... 61 
+4.1. Muzejska zakonodaja ................................................................................................ 61 
+4.1.1. Javna služba muzejev ......................................................................................... 61 
+4.1.2. Zaposleni v muzejski dejavnosti ........................................................................ 62 
+4.1.3. Prostovoljci ......................................................................................................... 62 
+4.2. Lastništvo in upravljanje muzejev: ............................................................................ 62 
+4.3. Financiranje muzejev: ................................................................................................ 63 
+4.4. Zaposlovanje .............................................................................................................. 63 
+4.5. Musée de l'Armée / Vojaški muzej ............................................................................ 63 
+4.5.1. Osnovi podatki ................................................................................................... 64 
+4.5.2. Financiranje ........................................................................................................ 66 
+4.5.3. Zaposlovanje ...................................................................................................... 67 
+4.6. Muséum de Toulouse ................................................................................................. 68 
+4.6.1. Osnovi podatki ................................................................................................... 68 
+4.6.2. Financiranje ........................................................................................................ 68 
+4.6.3. Zaposlovanje ...................................................................................................... 69 
+4.7. Musée des Civilisations de l'Europe et de la Méditerranée / Muzej evropske in 
+mediteranske civilizacije ...................................................................................................... 70 
+4.7.1. Osnovi podatki ................................................................................................... 71 
+4.7.2. Financiranje ........................................................................................................ 73 
+4.7.3. Zaposlovanje ...................................................................................................... 73 
+ 
+5. PORTUGALSKA ............................................................................................................ 74 
+5.1. Muzejska zakonodaja ................................................................................................ 74 
+5.1.1. Javna služba muzejev ......................................................................................... 74 
+5.1.2. Zaposleni v muzejski dejavnosti ........................................................................ 75 
+5.1.3. Prostovoljci ......................................................................................................... 75 
+5.2. Lastništvo in upravljanje muzejev: ............................................................................ 76 
+5.3. Financiranje muzejev: ................................................................................................ 77 
+5.4. Zaposlovanje .............................................................................................................. 79 
+5.5. Museu de Serralves .................................................................................................... 80 
+5.5.1. Osnovni podatki ................................................................................................. 81 
+
+ 
+ 
+8 
+ 
+5.5.2. Financiranje ........................................................................................................ 82 
+5.5.3. Zaposlovanje ...................................................................................................... 83 
+5.6. Museu Nacional de Etnologia/ Etnografski muzej .................................................... 84 
+5.6.1. Osnovni podatki ................................................................................................. 85 
+5.6.2. Financiranje ........................................................................................................ 85 
+5.6.3. Zaposlovanje: ..................................................................................................... 86 
+5.7. Museu Nacional Ferroviário/ Nacionalni železničarski muzej .................................. 87 
+5.7.1. Osnovni podatki ................................................................................................. 88 
+5.7.2. Financiranje ........................................................................................................ 90 
+5.7.3. Zaposlovanje ...................................................................................................... 90 
+ 
+Sklep ........................................................................................................................................ 92 
+Literatura in viri po posameznih državah: .......................................................................... 97 
+Avstrija ................................................................................................................................. 97 
+Češka .................................................................................................................................... 98 
+Finska .................................................................................................................................... 99 
+Francija ............................................................................................................................... 100 
+Porugalska .......................................................................................................................... 101 
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+9 
+ 
+Uvod 
+ 
+Primerjalno-pravna analiza sistemov organizacije in financiranja muzejev v petih evropskih 
+državah je študija, ki zajema primerjavo organizacije , financiranja in zaposlovanja v 
+muzejskem sektorju v Avstriji, Franciji ter na Portugalskem, Češkem in Finskem . Študija daje 
+delni vpogled v muzejsko dejavnost, ki ga je bilo mogoče ustvariti na podlagi dosegljivih 
+virov.  
+ 
+V raziskavo je za vsako od izbranih držav zajet kratek pregled zakonodaje s področja 
+muzejske dejavnosti,  s posebnim poudarkom na tematiko izv ajanja javne muzejske službe, 
+zaposlovanja in prostovoljstva. Nadalje je predstavljen splošen oris strukture lastništva in 
+upravljanja muzejev, sistem financiranja in načini pridobivanja sredstev iz različnih virov, pri 
+čemer so – v kolikor je bilo to mogoče – posebej opredeljeni konstantni in variabilni viri ter 
+ravnanje s prihodki iz tržne dejavnosti. V študiji je predstavljena tudi zaposlitvena struktura v 
+muzejih in predstavitev vključevanja prostovoljcev. Ti podatki dajejo splošen vtis o delovanju 
+muzejev na ravni celotne države. 
+ 
+Sledi predstavitev treh muzejev  za vsako državo. Muzeji so bili izbrani glede na dosegljivost 
+podatkov, vendar z mislijo na možnost primerjanja po velikosti in kapacitetah okolja . Na 
+podlagi zbranih podatkov so za vsak muzej pripravljeni organigrami ter grafi z obrazložitvami 
+in s spremljevalnimi podatki  o sistemu organizacije, financiranja in zaposlovanja. Za vsak 
+posamezni muzej so predstavljeni načini zaposlovanja in zagotavljanja kadrov za izvedbo 
+projektov, vključevanje prostovoljcev in zaposlitvena struktura . V kolikor je bilo mogoče  
+ugotoviti, kakšen je nadzor nad porabo sredstev ter ali obstajajo delovni normativi  in 
+normativi za dejavnost, je vključeno tudi to.  
+
+ 
+ 
+10 
+ 
+ 
+V študijo so vključeni vsi rele vantni podatki, ki jih je bilo mogoče pridobiti oz. so bili 
+dostopni v času izdelave študije. Zaradi zelo različne dostopnosti podatkov , povezanih z 
+muzejsko dejavnostjo po posameznih državah, variira njihova aktualnost kakor tudi obsežnost 
+in vsebina . Zaradi nepripravljenosti , neodzivnosti muzejev  in  nedostopnosti podatkov so v 
+študijo vključeni zgolj podatki, ki so bili posredovani s strani redkih muzejev ali so bili 
+dostopni na spletu. 
+ 
+ 
+  
+
+ 
+ 
+11 
+ 
+1. AVSTRIJA 
+ 
+Avstrija ima približno 8.5 milijonov prebivalcev in je razdeljena v devet zveznih dežel. 
+Odgovornost za muzejsko dejavnost nacionalnih muzejev je v državnih rokah, natančneje pod 
+okriljem Ministrstva za izobraževanje, znanost in kulturo ; ostale muzeje upravljajo dežele, v 
+katerih se nahajajo.  
+ 
+1.1. Muzejska zakonodaja  
+Vsaka deželna oblast ima svoje postopke in strukture za podporo, zato obstajajo različni 
+zakoni, oblike podpore, dejavnosti v povezavi z muzeji in regionalno dediščino nasploh. V 
+skladu z avstri jsko ustavo večina muzejev, z izjemo zveznih državnih muzejev, spada v 
+pristojnost pokrajine, v kateri se nahajajo. Avstrija je tako na državni kot na regionalni ravni 
+izvedla pravno prestrukturiranje muzejev, kar pomeni, da so nekateri večji muzeji postal i 
+samostojne gospodarske združbe, ki samostojno upravljajo s financami, istočasno pa so zbirke 
+ostale v lasti države ali regionalnih oblasti, muzeju pa so podane v upravljanje. Takšen primer 
+muzeja je tudi Universalmuseum Joanneum GmbH.  
+ 
+Za osem nacionalnih muzejev (Albertina, Kunsthistorisches Museum mit Weltmuseum Wien 
+und Theatermuseum Wien, Österreichische Galerie Belvedere, MAK – Österreichisches 
+Museum für angewandte Kunst, Museum moderner Kunst Stiftung Ludwig Wien (MUMOK), 
+Naturhistorisches Museum Wien, Technisches Museum Wien mit Österreichischer 
+Mediathek, Österreichische Nationalbibliothek) je sprejet  poseben zvezni zakon 
+(Bundesmuseen-Gesetz1), ki opredeljuje njihovo delovanje. 
+ 
+                                                 
+1 Bundesmuseen-Gesetz 2002/StF: BGBl. I Nr. 14/2002 (NR: GP XXI IA 528/A AB 850 S. 84. BR: AB 6507 S. 
+682.) 
+
+ 
+ 
+12 
+ 
+1.1.1. Javna služba in naloge muzejev 
+Ti muzeji so opredeljeni k ot javne znanstvene inštitucije , katerih naloga je zbiranje pričevanj 
+zgodovine in sodobnosti na področju umetnosti,  tehnike in narave ter so zavezani k 
+znanstvenem raziskovanju, zbiranju, ohranjanju, dokumentiranju ter omogočanju dostopnosti 
+za širšo javnost2 (glej člen § 2; primerljivo z ZVKD-1 člen 91).  
+ 
+Osem državnih muzejev je pod pristojnostjo zveznega kanclerja, muzeji pa so mu dolžni 
+oddajati letno poročilo (glej člen § 3). Predloženi morajo biti računovodski izkazi in poslovno 
+poročilo. Poročilo mora biti potrjeno s strani revizorja, poročilo pa je predmet pregleda tudi  s 
+strani računskega sodišča (glej člen § 2.3., 2.4; primerljivo z ZVKD-1 člen 82). 
+ 
+Zakonsko imajo ti muzeji opredeljeno tudi višino sredstev. Za  stroške, nastale pri 
+izpolnjevanju svojih kulturnih in političnih nalog , dobivajo letno nadomestilo v višini 
+108.153.000 EUR (85.094 milijonov evrov za  zvezne muzeje in 23.059 milijonov evrov za 
+Avstrijsko nacionalno knjižnico). Višina sredstev, ki jih dobi posamezni muzej, je v rokah 
+kanclerja, ki na podlagi kadrovskih , opredmetenih potreb znanstvenih aktivnosti in razstav, 
+novih pridobitev in zahtev  za vzdrževanje, ta sredstva razdeli (glej člen § 5.4; primerljivo z 
+ZVKD-1 člen 97).  
+ 
+V 6. Členu je opisano, k atere organe mora imeti državni muzej. Muzej mora imeti enega ali 
+dve poslovodji ali direktorja in poslovodjo, ki sta nastavljena za dob o petih let. Muzej mora 
+imeti tudi od države nastavljen kuratorij ter seznam mobilne opreme, dokumentacijo, katalog 
+nalog itn. (glej člen § 6) . Organizacijska struktura posameznega muzeja je opredeljena v 
+podzakonskih aktih, ki se nanašajo na vsak državen muzej posebej. 
+                                                 
+2 Za podrobnejše informacije glej prilogo.  
+
+ 
+ 
+13 
+ 
+1.1.2. Zaposleni v muzejski dejavnosti 
+Ta zakon ne navaja, kdo sme izvajati dejavnost varovanja dediščine v muzejih.  
+ 
+1.1.3. Prostovoljci 
+Ta zakon ne navaja, kdo so prostovoljci in kakšna je njihova naloga.  
+ 
+1.2. Lastništvo in upravljanje muzejev: 
+Osem muzejev oz. muzejskih združenj je s posodobljenim muzejskim zakonom iz leta 2002 
+dobilo status nacionalnega muzeja. Država je še vedno lastnik zbirk in je kot takšna 
+odgovorna za muzeje , v katerih se zbirke nahajajo. Okoli 60 pokrajinskih muzejev je 
+posredno ali neposredno podrejenih regionalnim vladam. Te so v večini lastnice zbirk, zato 
+skrbijo tudi za financiranje muzejev. Več kot 1800 muzejev v vse h devetih zveznih deželah je 
+v zasebni lasti, v lasti združenj (okoli 45 %) ali lokalnih upravljavskih organov (okoli 50 %).  
+ 
+Pomembno je omeniti, da lahko muzeji in lastniki eksponatov samostojno razpolagajo z 
+zbirkami, čeprav so pod nadzorom avstrijskeg a Urada za spomeniško varstvo 
+(Österreichisches Bundesdenkmalamt).  
+ 
+V Avstriji obstajajo različne oblike lastništva muzejev , in sicer državni, zveznodeželni 
+muzeji, občinski, cerkveni in zasebni muzeji.  
+ 
+Državni muzeji: Razlikovati je treba med muzeji, ki niso v celoti v državni lasti , in muzeji, 
+katerih velik del se je odcepil. Slednji se upravlja kot zasebna " znanstvena ustanova javnega 
+prava" (“wissenschaftliche Anstalten öffentlichen Rechts”) z lastnim statutom, njihova pravna 
+oblika je družba za upravljanje. Eksponati so še vedno v lasti države, muzeju pa so na voljo za 
+
+ 
+ 
+14 
+ 
+upravljanje, nadzor in uporabo. Osebje ima status bodisi uradnikov, javnih uslužbencev ali 
+zaposlenih v zasebnih podjetjih, ki upravljajo z muzeji.  
+ 
+Muzeji zveznih dežel:  Vsaka do de vetih zveznih dežel ima regionalne muzeje 
+(Landesmuseum), nekateri so postali samostojni, podobno kot državni muzeji.  
+ 
+Občinski muzeji, cerkveni muzeji in muzeji združenj: Nekateri muzeji so v lasti javnih organov 
+in se financirajo kot takšni, medtem ko s o drugi upravljani kot zasebna združenja z ali brez 
+zasebnega financiranja. Muzeji cerkva in samostanov so posebne izjeme, čeprav so v lasti 
+cerkve so nekateri deležni tudi javnega financiranja. 
+ 
+Zasebni muzeji: Večina avstrijskih muzejev je v zasebni lasti, glavnina teh je majhnih 
+muzejev. To so muzeji na prostem ter muzeji, ki se nahajajo predvsem v gradovih, na 
+zgodovinskih ali arheoloških krajih, od katerih mnogi delujejo za dobiček. V interesu 
+gospodarstva kot celote in turizma pa je , da je  tem muz ejem omogočeno  pridobiti javna 
+sredstva preko sistema razpisov in subvencij.  
+ 
+Po podatkih EGMUS (The European Group on Museum Statistics) iz leta 2012 je država ali 
+zvezna dežela upravljavec v samo treh muzejih, 157 muzejev ima lokalne oz. regionalne 
+upravljavce, 49 muzejev ima drugačno vrsto javnega upravljanja, 240 muzejev pa ima 
+zasebne upravljavce.  
+ 
+
+ 
+ 
+15 
+ 
+ 
+ 
+Tako visok delež zasebnih upravljavcev je odraz tega, da so lastniki muzejev, še posebno 
+država in deželna oblast , namenoma ustanavljali podjetja, ki lahko kot pravni subjekt 
+samostojno upravljajo z muzeji. S tem so muzeju pridobili večjo avtonomijo, torej višjo 
+stopnjo osebne odgovornosti in samostojnosti pri zaposlovanju , kakor tudi pri upravljanju s 
+financami. Kljub temu, da so zato upravljavci muzeje v podjetja, pa jih država oz. deželna 
+oblast – kot lastniki – še vedno izdatno podpira s finančnimi sredstvi.  
+ 
+1.3. Financiranje muzejev: 
+Iz EGMUS statističnega popisa iz leta 2010 je bilo mogoče razbrati, da je bil prihodek 449 
+muzejev vključenih v popis 316.001.100 €, od tega je bilo z naslova vstopnic 46.991.600 € in 
+z naslova javnih subvencij 208.613.600 €, iz drugih virov pa 60.395.900 €. 
+ 
+Avstrijski muzeji , katerih lastnik zbirk je država, regionalna ali lokalna oblast , so v veliki 
+meri financirani s strani lastnikov zbirk. 
+1% 
+35% 
+11% 
+53% 
+Upravljavci avstrijskih muzejev  
+Upravljalec je država ali zvezna dežela Upravljalec je lokalna ali regionalna oblast
+Drugačna oblika javnega upravljanja Zasebni upravljalec
+
+ 
+ 
+16 
+ 
+ 
+ 
+1.4. Zaposlovanje 
+V 330 muzejih , vključenih v EGMUS raziskavo , je leta 2010 delalo 6.281 ljudi , od tega je 
+bilo 1.765 strokovnega kadra, 3.441 ljudi pa je delalo prostovoljno.  
+ 
+ 
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+Financiranje avstrijskih muzejev
+Vstopnine
+Drugi viri
+Javne subvencije
+Zaposleni - podporni 
+kader 
+47 % 
+Zaposleni - 
+strokovni kader 
+18 % 
+Prostovoljci 
+35 % 
+Zaposleni in prostovoljci v avstrijskih muzejih 
+
+ 
+ 
+17 
+ 
+1.5. Kunsthistorisches Museum Wien  
+ 
+1.5.1. Osnovi podatki 
+Muzejsko združenje Kunsthistorisches Museum Wien (KHM) je največja avstrijska muzejska 
+skupina. Združenje je sestavljeno iz sedmih enot: Kunsthistorisches Museum, Neue Burg, 
+Kaiserliche Schatzkammer Wien, Kaiserliche Wagenburg Wien, Schloss Ambras Innsbruc k, 
+Weltmuseum Wien in Theatermuseum. Celotno združenje je bilo s posebnim odlokom 
+razglašeno za nacionalni muzej in je zato pod nadzorom kanclerja Republike Avstrije ter 
+Ministrstva za kulturo. Leta 2000 je muze j posta l pravno samostojen, kar pomeni, da ima 
+večjo avtonomijo pri upravljanju. Zakonske dolžnosti KHM so širitev in ohranjanje obstoječih 
+zbirk, raziskovanje, dokumentiranje, informiranje in predstavljanje zbirk.  
+ 
+Muzej je bil ustvarjen na podlagi zbirk  Habsburžanov, še posebno zbirke Ferdinanda 
+Tirolskega, cesarja Rudolfa II.  in slikarske zbirke nadvojvoda Leopold a Wilhelma. Že leta 
+1833 je bil imenovan prvi kustos kabineta kovancev in starin, ki je v eni stavbi združevala vse 
+cesarske zbirke. Kot muzej pa so bile zbirke za javnost odprete leta 1891. 
+ 
+V letu 2014 je muzej ime 1.457.192 obiskovalcev. 
+ 
+ 
+
+ 
+ 
+18 
+ 
+Organigram 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Splošno znanstveno 
+vodstvo 
+ 
+Komercialno vodstvo 
+ 
+Umetniško 
+izobraževanje 
+Komunikacija 
+in marketing 
+Kreativna 
+smer, vizualni 
+mediji in 
+Corporate 
+design 
+ 
+Vodenje 
+razstav 
+Tajništvo in 
+publikacije 
+ 
+Pravo 
+Varnost in 
+infrastrukturni 
+servis 
+Turizem 
+& prodaja 
+Osebje & 
+organizacija 
+Računovodstvo 
+in sistemi 
+Weltmuseum Wien 
+Zbirke in oddelki 
+Theatermuseum 
+Zbirke in oddelki 
+Kunsthistorisches 
+Museum Wien 
+& 
+grad Ambras 
+Innsbruck 
+Zbirke antika 
+in numizmatika 
+Zbirka 
+umetnostna 
+zgodovina 
+Zbirka 
+zgodovina 
+
+ 
+ 
+19 
+ 
+1.5.2. Financiranje 
+Muzej je imel v letu 2014 40.246 € prihodkov. Od tega je bilo največ sredstev za obratovalne 
+stroške 23.842 €. Ostala sredstva so v večini sredstva, ki jih muzej dobi s tržni dejavnostjo , in 
+sicer z vstopnin ami (9.602 €), trgovino (2.803 €), oddajanje m objektov (140 €), razstavno 
+prodajo in kooperacijo (1.156 €), oddajanj m in dogodki (688  €), sponzorsk imi in 
+donatorskimi sredstvi (1.030 €) ter drugimi dejavnostmi (542 €). Kljub temu, da je muzej 
+vključen v dva  evropska projekta (Ganymed goes Europe in SWICH – Sharing a World of 
+Inclusion, Creativity anf Heritage), je na ta račun v letu 2014 dobil samo 443 €. 
+ 
+Ni znano, kakšna je njihova politika upravljanja s finančnimi sredstvi.. 
+ 
+ 
+ 
+1.5.3. Zaposlovanje 
+V letu 2014 je bilo v KHM zaposlenih 441,5 oseb. V sektorju , kjer se ukvarjajo z obiskovalci, 
+vodijo delavnice ipd., je zaposlenih 50 % oseb, v znanstvenem sektorju (kustosi, restavratorji, 
+raziskovalci) dela 30  %, servisne in nadzorne funkcije (varovanje, upravljanje zgradb, 
+Muzej 
+Lastna sredstva 
+(profitna 
+dejavnost 
+muzeja) 
+Obratovalna 
+sredstva 
+(država) 
+Projektna 
+sredstva 
+(država, EU) 
+
+ 
+ 
+20 
+ 
+marketing, management) zagotavlja 13  %, 7 % zaposlenih pa dela v prodaji (trgovina, 
+blagajna, turizem).  
+ 
+ 
+ 
+  
+50% 
+30% 
+13% 
+7% 
+Število ljudi po oddelkih 
+Storive za obiskovalce Znanstven sektor servisne in nadzorne funkcije Prodaja
+
+ 
+ 
+21 
+ 
+1.6. Universalmuseums Joanneum, Graz: 
+ 
+1.6.1.  Osnovi podatki 
+Universalmuseum Joanneum GmbH je pokrajinski muzej na avstrijskem Štajerskem, ki ima 
+svoj sedež v Gradcu. Muzej združuje 12 lokacij , na katerih se skupno nahaja 4.5 milijonov 
+eksponatov. Muzej so leta 1811 kot »Notranjeavstrijski nacionalni muzej« ustanovili vojvoda 
+Johann von Österreich (1782–1859) in štajerski deželni stanovi.  
+ 
+Muzej je od leta 2003 registriran kot neprofitna družba z omejeno odgovornostjo (GmbH; 
+Gesellschaft mit beschränkter Haftung). Z ustanovitvijo GmbH je muzej, kot pravijo sami, 
+dosegel višjo stopnjo osebne odgovornosti in samostojnosti pri zaposlovanju in  tudi s 
+proračunskega vidika. Lastnika in ustanovitelja Un iversalmuseum Joanneum GmbH sta 
+zvezdna dežela Štajerska (85 %) in mesto Gra dec (15 %). Vse zbirke so v lasti dežele 
+Štajerske vse od ustanovitve muzeja (in ne samo od ustanovitve podjetja ), zato muzej tesno 
+sodeluje s pokrajinsko upravo. 
+ 
+Muzej je razdeljen v 10 oddelkov, ki skrbijo za strokovno vodenje zbirk in lokacij, ki so del 
+muzeja. Za potrebe ostalih storitve imajo še širi oddelke, ki nudijo podporo vsem strokovnim 
+oddelkom oz. kostudiatom. To so službe, ki skrbijo za finančne in kadrovske za deve (notranje 
+storitve), službe, ki skrbijo za zunanje zadeve (odnosi z javnostmi itn.), službe, ki nudijo 
+storitve za obiskovalce in muzejske storitve (restavriranje itn.). 
+ 
+Joanneum je imel v letu 2014 na vseh lokacijah skupaj 567.883 obiskovalcev.  
+ 
+
+ 
+ 
+22 
+ 
+Organigram Universalmuseum Joanneum GmbH 
+ 
+ 
+Muzejske storitve 
+Storitve za obiskovalce  
+Zunanji odnosi 
+Notranje storitve 
+Vodstvo 
+(Direktor in direktor finančne 
+službe) 
+Muzejski oddelki 
+Geologija 
+ 
+Geološka 
+in 
+mineraloš
+ka zbirka 
+Naravoslovje 
+ 
+Botanična in 
+zoološka 
+zbirka 
+Arheologija 
+in 
+numizmatik
+a 
+ 
+Arheološka 
+in 
+numizmatič
+na zbirka 
+Grad 
+Eggenberg 
+in Stara 
+galerija 
+ 
+Grad in 
+park 
+Eggenberg,  
+ 
+ 
+Moderna in 
+sodobna 
+umetnost 
+ 
+Nova 
+galerija in 
+Kunsthouse 
+Umetnost 
+na prostem 
+ 
+Umetniška 
+dela na 
+prostem in 
+park 
+skulptur 
+Kulturna 
+zgodovina 
+ 
+Muzej v 
+Palaisu, 
+Landeszeu-
+ghaus, 
+Museums-
+akademie 
+ 
+Zgodovina 
+vsakdanjeg
+a življenja 
+ 
+Etnološka 
+in 
+multimedi-
+jska zbirka 
+Grad Stainz 
+ 
+Lovska in 
+agrikulturna 
+zbirka 
+Rogger 
+Grad  
+Trautenfels 
+ 
+Naravoslovni  
+muzej 
+Storitveni oddelki 
+
+ 
+ 
+23 
+ 
+1.6.2.  Financiranje 
+Universalmuseum Joanneum GmbH se financira iz različnih virov. V letu 2014 je muzej imel 
+25.120.425 € prihodkov. Največji delež predstavljajo različne subvencije, ki so v let u 2014 
+predstavljale 21.868.574 €, kar znese 87 % vseh prihodkov.  
+ 
+ 
+ 
+Zelo pomemben vir prihodkov so t. i. lastna sredstva, ki so v letu 2014 predstavljala 11,98  % 
+prihodkov (3.251.851 €). V to kategorijo spadajo vsa sredstva, ki jih muzej pridobi s svoji m 
+delovanjem; to so prihodki od vstopnin, muzejskih trgovin, prodaje publikacij, prihodki od 
+prireditev, sponzorska sredstva in donacije, oddaja muzejskih prostorov in drugi viri 
+prihodkov. Zelo velik delež teh sredstev predstavlja denar od vstopnin (34  % lastnih sredstev 
+oz. 4 % vseh prihodkov), še posebno od gradu Eggenberg, ter iz organizacije dražbe (drugi 
+viri). Eden od virov t.  i. lastnih sredstev so tudi sponzorstva in donacije. V letu 2014 so z 
+naslova sponzorskih sredstev in donacij pridobili 11  % lastnih sredstev. Iz letnega poročila je 
+mogoče razbrati, da so ta sredstva pridobljena izključno v namene postavitve različnih 
+razstav, tematskih sob in dogodkov.  
+Muzej 
+Finančna 
+sredstva zvezne 
+dežele Štajerske 
+Finančna 
+sredstva mesta 
+Gradec 
+Lastna sredstva 
+(profitna 
+dejavnost 
+muzeja) Obratovalna 
+sredstva 
+(Zvezna dežela 
+Štajerska) 
+Projektna 
+sredstva 
+(država, EU) 
+
+ 
+ 
+24 
+ 
+ 
+ 
+ 
+Ni bilo mogoče izvedeti, k ateri viri financiranja so stalni in kateri variabilni. Predv idevamo 
+lahko, da so stalni viri tista sredstva, ki jih muzej pridobi od zvezne dežele in mesta, ter 
+sredstva, namenjena financiranju obratovalnih stroškov in stroškov najema, ki jih krije zvezna 
+dežela. Lastna sredstva bi lahko definirali kot variabilna, saj so odvisna od uspešnosti 
+pridobivanja in se zato spreminjajo.3  
+ 
+1.6.3.  Zaposlovanje 
+Konec leta 2014 je muzej zaposloval 399 ljudi od tega je bilo 172 uslužbencev (Angestellte) 
+in 15 delavcev (Arbeiter/innen), 2 vajenca/študenta (Lehrlinge), 45 uradnikov 
+(Beamtinnen/Beamte), 68 pogodbenih uslužbencev (Vertragsbedienstete) in 97 zaposlenih za 
+potrebe vodenj in varovanja (Mitarbeiter/innen im Aufsichts – und Fuhrungsdienst)4. 
+                                                 
+3 Iz pridobljene dokumentacije ni bilo mogoče ugotoviti, kako muzej izvaja nadzor nad porabo sredstev ter kako 
+ravna s prihodki iz tržne dejavnosti. Prav tako n i bilo mogoče  ugotoviti, ali obstajajo standardi in normativi za 
+dejavnost ter drugi mehanizmi, s katerimi se ugotavlja upravičenost stroškov.  
+4 Iz pridobljene dokumentacije ni bilo mogoče ugotoviti , ali obstajajo delovni normativi ter kakšna je politika 
+zaposlovanja.  
+ 
+33% 
+2% 8% 
+10% 
+1% 
+10% 
+36% 
+Lastna sredstva 2014 
+Vstopnina
+Trgovina in založništvo
+Prireditve
+Soponzorstva
+Donacije
+Oddaja prostorov
+Drugi viri (organizacija avkcije)
+
+ 
+ 
+25 
+ 
+ 
+Kot je bilo mogoče razbrati s spletne strani , je za potrebe notranjih storitev zaposlenih 38 
+ljudi, ki delujejo na področjih: računovodstvo (9), kadrovska služba (7), razvoj kadrov (2), 
+pravno svetovanje (1), upravljanje objektov (8), logistika (10), IT (1). Za t. i. zunanje odnose 
+skrbi 21 ljudi, ki  pokrivajo področja, kot so: grafično oblikovanje (4), prodaja (1), marketing 
+(10), organizacija dogodkov in oddaja prostorov (5). Za obiskovalce skrbi več kot 200 ljudi : 
+vključeni so tako kustos in znanstveni sodelavci, kot tudi vodiči in ostale podporne službe. 
+Muzejske storitve pa zagotavlja 30 ljudi (popis in registracija predmetov 7, restavriranje 8, 
+centralna delavnica 15). Vodstvo oz. upravo Universalmuseum Joanneum GmbH sestavlja 6 
+ljudi.  
+ 
+ 
+ 
+V primerjavi z 31. decembrom 2013 se je število zaposlen ih v muzeju povečalo za 9 
+sodelavcev, kar ustreza 2,3  %. Delež zaposlenih se je povečal zaradi povečanju potreb pri 
+storitvah v povezavi z obiskovalci (prodaja vstopnic, informacije za obiskovalce) ter notranjih 
+storitvah (organizacija, logistika, projektn o delo) in strokovnih storitvah (restavriranje in 
+13% 
+7% 
+68% 
+10% 
+2% 
+Število ljudi po oddelkih 
+Notranje storitve Zunanji odnosi Storive za obiskovalce Muzejske storitve Vodstvo
+
+ 
+ 
+26 
+ 
+obnova). Delež zaposlenih za polni delovni čas se je iz leta 2013 v letu 2014 povečal za 1,8  
+%, vendar se je povečal tudi delež zaposlenih s krajšim delovnim časom , in sicer za 2,1 %. Za 
+delo s krajšim delo vnim časom so zaposlovali predvsem sodelavce z nižjo stopnjo izobrazbe 
+za potrebe vodenj in varovanj razstavnih prostorov.  
+ 
+ 
+ 
+Muzej podpira in izvaja dve obliki neplačanega dela , in sicer pripravništvo in prostovoljstvo. 
+Pripravništvo je prostovol jno in  brez plačila ter je namenjeno samo študentom. Namen 
+pripravništva, kot ga izvajajo v Jo anneumu, je razširjanje teoretičnih in praktičnih znanj in 
+usposabljanje. Študentom, ki imajo obvezno pripravništvo , nudijo dodatne tečaje na različnih 
+področjih.  
+ 
+V muzejsko delo Joanneum vključuje tudi prostovoljce na različnih področjih. Vključevanje 
+je odvisno od njihovih kvalifikacij in kompetenc, vendar to sega skoraj na vsa polja 
+0
+50
+100
+150
+200
+250
+300
+350
+400
+450
+Struktura zaposlitev
+Vodenje in
+varovanje
+GmbH
+Deželni
+uslužbenci
+399 
+97 
+189 
+113 101 
+155 
+47 
+0
+50
+100
+150
+200
+250
+300
+350
+Zaposleni za
+polni delovni čas
+Vodenje in
+varovanje
+GmbH
+Deželni
+uradniki
+303 
+
+ 
+ 
+27 
+ 
+muzejskega delovanja, kot na primer raziskovalno delo za razstave, delo v knjižnici,  vpis 
+predmetov v inventarno bazo, delo v depoju, pomoč pri vzdrževanju (vrtnarstvo, vzdrževalna 
+dela), pomoč pri odnosih z javnostmi, izvajanje izobraževanih programov itn.  
+ 
+1.7. Museum Moderner Kunst Kärnten 
+Muzej moderne umetnosti je institucija dežele Kor oške in je nastala na podlagi koroške 
+galerije (Kärntner Landesgalerie). Muzej se je v današnji obliki odprl leta 2003 po obnovi 
+objekta. Muzej moderne umetnosti je namenjen zbiranju, hranjenju, raziskovanju, 
+dokumentiranju in mediaciji ter splošni promociji sodobne vizualne umetnosti.  
+ 
+Muzej ima oko li 1.000 m² razstavnega prostora , kjer gosti mlade in uveljavljene nacionalne 
+avstrijske, kakor tudi mednarodne umetnike. Umetnosti posvečen prostor je tudi grajska 
+kapela, ki služi  kot prostor za ekspe rimentalne umetniške projekte in instalacij e. Muzej ima 
+tudi stalno razstavo predmetov in skulptur, ki jo je mogoče videti v arkadah gradu.  
+ 
+Muzej moderne umetnosti upravlja z dvema umetnostnima zbirkama, umetnostno zbirko 
+dežele Koroške / MMKK in zbirko Aroteka / Kärntner Landesgalerie. Slednja je v lasti Urada 
+koroške deželne vlade in v upravljanju muzeja. Zbirki vsebujeta dela koroških umetnikov ali 
+dela, ki se navezujejo na koroško in se umeščajo v 19., 20. in 21. stoletje.  
+ 
+Del muzeja je tudi knjižni ca, ki se uporablja predvsem za znanstvene raziskave v muzeju, 
+vključuje pa publikacije o u metnikih, katerih dela so del  umetniške zbirke. Poleg tega 
+knjižnica vsebuje še r azstavne kataloge muzejskih institucij v nemško govorečem prostoru 
+kakor tudi alpsko-jadranskih regijah.  
+ 
+
+ 
+ 
+28 
+ 
+Muzej z razstavami in spremljevalni m programom, ki poleg klasičnih vodenih ogledov in 
+kreativnih in interaktivnih dejavnosti ter prireditev na področju literature, glasb e, 
+uprizoritvenih umetnosti, in tako vzdržuje in omogoča dostop do umetnosti.  
+ 
+Drugih podatkov o muzeju ni bilo mogoče pridobiti.  
+ 
+
+ 
+ 
+29 
+ 
+2. ČEŠKA  
+ 
+Češka ima približno 10,5 milijona prebivalcev in je razdeljena na 13 okrajev (češko  »kraj«), 
+poseben status ima glavno mesto Praga. Nacionalni muzeji so pod skrbništvom Ministrstva za 
+kulturo.  
+ 
+2.1. Muzejska zakonodaja 
+Češka ima več različnih zakonov in metodoloških navodil, ki so povezani z muzejsko 
+dejavnostjo. Najpomembnejši je Zakon o varovanju muzejskih zbirk (122/2000 Sb.), ki je bil 
+sprejet leta 2000.  
+ 
+2.1.1. Javna služba in naloge muzejev 
+Češka nima razvida muzejev, ima pa seznam zbirk, ki so v lasti Republike Češke, lokalnih 
+oblasti in drugih. V seznam se lahko vpišejo vse zbirke, na podlagi odloka Ministrstva za 
+kulturo (glej člene § 2–6; primerljivo z ZVKD-1 členi 65–72).  
+ 
+Seznam podatkov, ki jih mora lastnik zbirke voditi , in dolžnosti lastnika so opisane v členu § 
+9 (primerljivo z ZVKD-1 člen 87). 
+ 
+Nadzorstvo je opredeljeno v členu § 13 . Nadzor izvaja Ministrstvo za kulturo in carinski 
+organi. Nimajo posebnega inšpekcijskega nadzora, temveč nadzor izvaja Ministrstvo samo, ki 
+lahko na podlagi tega zakona izda tudi kazni (glej člen § 14)5.  
+ 
+Vsi lastniki zbirk so upravičeni do tehnične in finančne pomoči (glej člen § 10). 
+                                                 
+5 Ta člena nista tako razdelana, kot je to ZVKD-1 v členih 109–129. 
+
+ 
+ 
+30 
+ 
+ 
+Ta zakon vsebuje tudi standarde  (glej člen § 10a) , ki bi jih lahko razumeli kot standarde za 
+muzejsko dejavnost, in določajo: 
+- Določen čas odprtja oz. dostopnosti zbirke: 
+a) dostopnost do zbirk ali izbranih eksponatov ob muzejskih razstavah; 
+b) organizacija letnih muzejskih programov , vključno s programi za specifične skupine ljudi, 
+kot so otroci, mladina, invalidi, starejši, etnične skupine;  
+c) priprava letnega poročila o dejavnostih; 
+d) zagotavljanje stalnih informacij o zbirki preko razstav, muzejskih programov, založniške 
+dejavnostji itd.  
+ 
+2.1.2. Zaposleni v muzejski dejavnosti 
+V tem zakonu ni opredeljeno, kdo sme izvajat dejavnost varovanja dediščine v muzejih.  
+ 
+2.1.3. Prostovoljci 
+V tem zakonu ni opredeljeno, kdo so prostovoljci in kakšna je njihova naloga.  
+ 
+2.2. Lastništvo in upravljanje muzejev 
+Po podatkih EGMUS (The European Group on Museum Statistics) iz leta 2014 je na Češkem 
+486 muzejev. Država ali okraj je upravljavec v 29 muzejih, 351 muzejev ima lokalne oz. 
+regionalne upravljavce, 45 muzejev ima drugačno vrsto javnega upravljanja, 61 muzejev ima 
+zasebne upravljavce. Upravljavci muzejev so vedno tudi lastniki. 
+ 
+ 
+
+ 
+ 
+31 
+ 
+ 
+Ministrstvo za kulturo je neposredno odgovorno za 18 muzejev, galerij in spomenikov ter  za 
+nacionalni filmski arhiv. Področje muzejev in galerij je zajeto v Konceptu učinkovite oskrbe 
+premične kulturne dediščine v Češki r epubliki 2009–2014 (Koncept muzeologije), ki je drugi 
+strateški načrt na tem področju. Koncept opredeljuje deset strateških ciljev in vrsto posebnih 
+nalog, od katerih je ena za izboljšanje dostopa do informacij o kulturni dediščini z 
+digitalizacijo. Koncep t tudi predvideva podporo raziskavam in razvoju, za katere želi 
+uporabiti muzejske in galerijske zbirke ter pripraviti strategijo za razvoj muzejev v naravi.  
+ 
+2.3. Financiranje muzejev 
+Iz EGMUS statističnega popisa je bilo mogoče razbrati, da je bil prihodek vseh muzejev , 
+vključenih v popis leta 2014 152.139.546  €. V letu 2013 je višina prihodka znašala 
+145.332.413 €, od tega je Ministrstvo za kulturo prispevalo 78.518 €. Drugih podatkov o virih 
+in višini financiranja ni bilo mogoče najti.  
+6% 
+72% 
+9% 
+13% 
+Upravljavci/lastniki čeških muzejev  
+Upravljavec je država ali zvezna dežela Upravljavec je lokalna ali regionalna oblast
+Drugačna oblika javnega upravljanja Zasebni upravljalec
+
+ 
+ 
+32 
+ 
+2.4. Zaposlovanje 
+V 486 muzejih, vključenih v EGMUS raziskavo, je leta 2014 delalo 5.654 ljudi, od tega je 
+bilo 2.879 strokovnega kadra, 3.441 ljudi pa je delalo prostovoljno.  
+ 
+ 
+Zaposleni - 
+podporni kader 
+30 % 
+Zaposleni - 
+strokovni kader 
+32 % 
+Prostovoljci 
+38 % 
+Zaposleni in prostovoljci v čeških muzejih 
+
+ 
+ 
+33 
+ 
+2.5. Národní muzeum 
+ 
+2.5.1.  Osnovi podatki 
+Narodni muzej je največji muzej na Češkem. Muzej združuje 16 lokacij in ima svoj sedež v 
+Pragi. Nastal je na podlagi zbirke grofa Kasparja Maria Sternberga (1761 –1838), ki je bila 
+leta 1949 predana v last države.  
+ 
+Pod svojim okriljem združuje muzej pet inštitucij: Prirodoslovni muzej, Zgodovinski muzej, 
+Náprstek muzej Azije, Afrike in Ameriške kulture, Češki muzej glasbe, knjižnico ter dva 
+administrativna oddelka (Oddelek za finance in management, Oddelek za razstavljanje in 
+zbiranje). 
+ 
+Nacionalni muzej je imel v letu 2014 na vseh lokacijah 242 309 obiskovalcev.  
+ 
+ 
+
+ 
+ 
+34 
+ 
+Poenostavljen organigram Nacionalnega muzeja:  
+ 
+Generalni direktor 
+Oddelek za 
+gospodarske in 
+operativne zadeve 
+Oddelek 
+gospodarstva 
+Poslovni oddelek 
+Opreacijski oddelek 
+Oddelek za zbiranje 
+in razstavljanje  
+Oddelek za 
+investicijski  razvoj Prirodoslovni muzej Zgodovinski muzej Náprstek muzej Češki muzej glasbe Knjižnica 
+Sekretariat Oddelek za zunanje 
+odnose 
+Oddelek za 
+notranjo revizijo 
+Oddelek za 
+predstvaitev 
+dediščine  
+Oddelek za varnost Oddelek za 
+marketing 
+
+ 
+ 
+35 
+ 
+2.5.2.  Financiranje 
+Po podatkih posredovanih s strani muzeja so stalni vir financiranja državna sredstva ter 
+sredstva, ki jih muzej pridobi s tržno dejavnostjo, še posebno z vstopninami. Kot občasne vire 
+financiranja so navedli evropske projekte, sredstva regionalne oblasti, sponzorska in 
+donatorska sredstva del tržne dejavnosti (prodaja produktov in storitev, oddaja prostorov).  
+ 
+ 
+ 
+Prihodek muzeja v letu 2014 je znašal 13.100.688 €, od teg a so s prodajo vstopnic dobili 
+488.888 €, drugo tržno dejavnostjo 555.556  €, s strani države 11.982.170  € ter 74.074  € 
+sponzorskih in donatorskih sredstev.  
+Muzej 
+Državna finančna 
+sredstva, sredstva 
+regionalne oblasti 
+Obratovalna  
+sredstva 
+(Ministrstvo za 
+kulturo) 
+Lastna sredstva 
+(profitna 
+dejavnost muzeja) 
+Evropski projekti 
+Sponzorska in 
+donatroska 
+sredstva 
+
+ 
+ 
+36 
+ 
+ 
+ 
+2.5.3.  Zaposlovanje 
+Muzej zaposluje 489 oseb za nedoločen čas, od tega je 248 kustosov, konservatorjev in 
+raziskovalcev in 241 podpornega osebja. Ni znano, kakšna je razporeditev osebja po 
+posameznih sektorjih.  
+ 
+Muzej ima tudi program za prostovoljce. Zainteresirane stranke lahko sodelujejo v raznolikih 
+dejavnosti – pomoč pri strokovnem delu, kot so ravnanje z zbirkami, pomagajo pri pripravi 
+programov za javnost in pomagajo pri upravnih postopkih in drugih dejavnosti. Prostovoljec 
+se najprej pogovori s kontaktno osebo s področja, na katerem bo delal. Ta predstavi dejavnost 
+in zagotovi usposabljanje. Ni znano, koliko prostovoljcev je v preteklih letih sodelovalo z 
+muzejem.  
+ 
+2.6. Muzeum Hlavního Města Prahy / Muzej mesta Praga 
+ 
+2.6.1. Osnovi podatki 
+11.982.170 
+555.556 488.888 74.074 
+0
+2.000.000
+4.000.000
+6.000.000
+8.000.000
+10.000.000
+12.000.000
+14.000.000
+Dohodek muzeja v letu 2014 
+Državna sredstva
+Druga tržna dejavnost
+Vstopnine
+Sponzorska in donatorska
+sredstva
+
+ 
+ 
+37 
+ 
+Muzej mesta Praga je najbolj obiskan muzej na Češkem. Njegova glavna naloga je ohranjanje 
+in predstavljanje  zgodovine mesta. Muzej ima že bogato zgodovino, saj so se prva 
+prizadevanja za vzpostavitev muzeja začela že leta 1877, leta 1883 je bil muzej že odprt za 
+javnost. 
+ 
+Muzej upravlja s 16 objekti, ob glavni muzejski stavbi še, s sedmimi mestnimi stolpi, dvema 
+vilama, dvornim kompleksom in renesančno hišo. Muzejska zbirka, ki jo hrani muzej, obsega 
+več kot 53.000 objektov. 
+ 
+V letu 2014 je imel praški mestni muzej 1.208.183 obiskovalcev, kar je za 179.000 
+obiskovalcev več kot leto prej in je s tem postal najbolj obiskan češki muzej.  
+ 
+ 
+
+ 
+ 
+38 
+ 
+Organigram Praškega mestnega muzeja:  
+ 
+ 
+Direktor muzeja 
+Oddsek glavnega 
+kuratorja zbirke  
+Oddelek za 
+arheološko zbirko 
+Oddelek za varstvo 
+zbirke 
+Oddelek za 
+zgodovinsko zbirko 
+Območje gradu 
+Ctěnice 
+Vili Müller in 
+Rothmayer 
+Oddelek predstvaitev 
+zbirk 
+Segment 
+gospodarstva in 
+organizacije 
+Ekonomski oddelek 
+Oddelek za vodenje in 
+upravljanje zgradb 
+Praški stolpi,  glavna 
+stavba 
+muzeja,Podskalská 
+carinska hiša na Výtoň 
+
+ 
+ 
+39 
+ 
+2.6.2. Financiranje 
+Iz letnega poročila ni povsem jasno razvidno , kakšen je bil prihodek muzeja in iz kakšnih 
+virov je bil pridobljen. Lahko pa razberemo, da je muzej dobil sredstva v višini 2.997.452,93  
+€ (81.201.000 czk) od mesta Praga, od katerih je bila ena tretjina pridobljena kot investicijska 
+sredstva. Od Ministrstva za kulturo je muzej kot projektna sredstva pridobil 17.755,63 € (481 
+000,00 czk). 
+ 
+Višina lastnih sredstev je v letu 2014 znašala 21.354,74  € (578500czk), od tega je bilo 95 % 
+sredstev pridobljenih iz vstopnin, ostalih 5  % pa iz prodaje Praške kartice, prodaje publikacij 
+in ostalih produktov ter e-trgovine.  
+ 
+ 
+ 
+2.6.3. Zaposlovanje 
+Glede na popis zaposlenih v letn em poročilu je mogoče sklepati, da je bilo v letu 2014 v 
+muzeju zaposlenih 129 oseb, od tega so bile 3 zaposlene za krajše časovno obdobje. Struktura 
+po oddelkih pa je sledeča: vodstvo 4 osebe, dokumentacija in knjižnica 7, z godovinski 
+oddelek 16 , a rheološki oddelek 15 , k onservatorski oddelek 14 , druge muzejske lokacije 5, 
+Muzej 
+Projektna 
+sredstva 
+Ministrstva za 
+kulturo 
+Sredstva mesta 
+Praga 
+Lastna sredstva 
+(profitna 
+dejavnost 
+muzeja) 
+
+ 
+ 
+40 
+ 
+oddelek za predstavitve zbirk 15 (od tega 3 za krajše časovno obdobje), ekonomski oddelek 8, 
+oddelek za vodenje in upravljanje stavb 4, blagajna in varovanje 39 oseb.  
+ 
+Več o zaposlovanju v praškem mestnem muzeju ni znano.  
+ 
+ 
+ 
+2.7. Regionálního muzea v Českém Krumlově / Regionalni muzej v Českém Krumlově 
+ 
+2.7.1. Osnovi podatki 
+Regionalni muzej v Českém Krumlově  je predstavlja regionalno dediščino s področja 
+arheologije, zgodovine, umetnosti in obrti ter etnologije. Prvi zametki muzeja so bili narejeni 
+leta 1952, ko je bila za javnost odprta prva razstava. Muzej je današnjo podobo dobil v 70 -tih 
+letih, leta 2003 pa so na novo podpisali listino o ustanovitvi.  
+ 
+6% 
+2% 
+27% 
+12% 
+4% 13% 3% 
+33% 
+Število ljudi po oddelkih 
+Dokumentacija in knjižnica Administracija in vzdrževanje
+Kustosi Konservatorski oddelek
+Druge muzejske lokacije Oddelek za predstavitev zbirk
+Oddelek za vodenje in upravljanje stavb Blagajna in varovanje
+
+ 
+ 
+41 
+ 
+V letu 2014 je muzej obiskalo 28.382 oseb. 
+ 
+2.7.2. Financiranje 
+Prihodek muzeja je v letu 2014 znašal 417.460  € (11.309.000 czk), od tega je bilo 364.000  € 
+(9.861.000 czk) sredstev za obratovanje ,6 ter 923  € (25.000 czk) sredstev  od mesta Češki 
+Krumlov. Muzej je imel  40.383,91 € (1.094.000 czk)  lastnih sredstev , od tega od vstopnin 
+20.930,23 € (567.000 czk), mestne kartice vstopnin  t.i. Český Krumlov Card  2.583,98 € 
+(70.000 czk), arheologije 7.862,68  € (213.000  czk), najemnin 1.10 7,42 € (30.000  czk), 
+prodaje izdelkov 7.308,97  € (198.000czk), razstav 406,05  € (11.000 czk), drugih prihodkov 
+129,20 € (3 .500 czk), dohodkov od obresti 812,11  € (22.000 czk), prihodkov od tečajnih 
+razlik 2.362,50 € (64.000 czk).  
+ 
+ 
+ 
+2.7.3. Zaposlovanje 
+V letu 2014 je bilo v muzeju zaposlenih za polni delovni čas 16 oseb, za skrajšan delovni čas 
+je bilo zaposlenih osem oseb. Za polni delovni čas sta v vodstvu in administraciji delali dve 
+osebi, 11 oseb je delalo kot kustosi, raziskovalci in dokumentalisti , tri osebe so nudile 
+                                                 
+6 Iz letnega poročila ni razvidno, od kod je muzej dobil ta sredstva.  
+Muzej 
+Obratovalna 
+sredstva 
+Sredstva mesta 
+Češki Krumlov 
+Lastna sredstva 
+(profitna 
+dejavnost 
+muzeja) 
+
+ 
+ 
+42 
+ 
+tehnično in pomoč. Osebe, ki so bile zaposlene za krajši delovni čas ali kot sezonski delavci , 
+so v muzeju delale kot nadzorniki razstavnih prostorov. Muzej je sodeloval z enim zunanjim 
+strokovnjakom.  
+ 
+ 
+ 
+8% 
+48% 
+9% 
+35% 
+Število ljudi po oddelkih  
+Vodstvo in administracija Kustosi, raziskovalci in dokumentalisti
+Tehnična pomoč Varovanje razstavnih prostorov
+
+ 
+ 
+43 
+ 
+3. FINSKA 
+ 
+Republika Finska leži na severu Evrope in ima približno 5,5 milijonov prebivalcev. Upravno 
+je razdeljena na dvanajst provinc, ki so razdeljene v upravna okrožja.  
+ 
+3.1. Muzejska zakonodaja  
+V finski zakonodaji so zakoni, ki urejajo muzeje in njihove dejavnosti  ter zakoni, ki se 
+muzejske dejavnosti samo  dotikajo. Najpomembnejši sta Muzejski zakon ( 3.8.1992 / 729 ) in 
+Muzejska odredba (2005/1192), ki sta bila sprejeta leta 2005.  
+ 
+3.1.1. Javna služba muzejev 
+V prvem členu (§ 1 (11. 11. 2005 / 877) muzejskega zakona je za pisano, da morajo muzeji 
+širiti informacije o dediščini, jo promovirati, varovati in ohranjati gradivo za prihodnje 
+generacije, izvajati raziskave, izobraževanja, kot tudi razstavne in založniško dejavnosti  
+(primerljivo z ZVKD-1 člen 91). 
+ 
+Muzeji dobivajo podporo za p okrivanje obratovalnih stroškov , kar se določi na podlagi 
+sistema zaposlenih in njihovih let. Višino državne podpore določi Ministrstvo za šolstvo (glej 
+§1a, 3, 4; primerljivo z ZVKD-1 člen 86).  
+ 
+S členom § 2  (11.11.2005 / 877 ; primerljivo z Z VKD-1 člen 94, 95 ) je določeno , k ateri 
+muzeji se lahko kvalificirajo kot nacionalni: 
+1) muzej je v lasti občine ali lokalne vlade ali zasebne fundacije ali ustanove , katere naloge 
+vključujejo tudi vodenje muzeja; 
+2) delovanje muzeja je gospodarski pogoj, vendar muzej ne sme imeti ekonomskega dobička; 
+
+ 
+ 
+44 
+ 
+3) muzej se ravna po pravilih, ki veljajo za sektor;7 
+4) vzdrževanje muzejskih zbirk;  
+5) muzej mora imeti direktorja, zaposlenega za polni delovni čas, ter zadostno število osebja z 
+muzejsko izobrazbo in usposobljenostjo; 
+6) razstavni, delovnih in javni objekti muzeja, kot tudi objekti za obdelavo in shranjevanje 
+zbirk morajo biti primerni; 
+7) dejavnosti v muzeju se vršijo skozi vse leto in njegove zbirke so javno dostopne; 
+8) muzej deluje pri finančnih in drugih operacijah po načrtih, določenih z vladno uredbo.  
+ 
+Nacionalni specializirani muzeji si določeni s členom 3a §  (20.2.2015 / 138) ; takšen lahko 
+postane muzej, ki: 
+1) predstavlja nacionalno pomembno področje; 
+2) je pomemben za stroko; 
+3) ima svojo lastno področje delovanja, ima nacionalno pomembno zbirko; 
+4) ima potencial, da izvede posebne muzejske naloge iz tega zakona na nacionalni ravni. 
+ 
+Ministrstvo za šolstvo lahko odvzame muzeju status , če ne izpolnjuje pogojev , določenih z 
+muzejskim zakonom, ali ne deluje v skladu s tem zakonom ter ne izvaja predvidenih nalog 
+(primerljivo z ZVKD-1 člen 96). 
+ 
+Muzejska odredba določa, kakšni so pogoji za dodelitev javnih sredstev (glej člen § 1): 
+1) raziskave in dokumentiranje se izvaja na tematskem in geografs kem področju, ki ga muzej 
+pokriva;  
+                                                 
+7 Kakna naj bi bila ta pravila v času trajanja ni bilo mogoče ugotoviti.  
+
+ 
+ 
+45 
+ 
+2) Muzej ima direktorja in še vsaj enega zaposlenega s polnim delovnim časom, od katerih 
+ima vsaj eden magisterij ali kvalifikacijo , enakovredno prejšnji univerzitetni. Poleg tega se 
+zahtevajo poznavanje muzeja in muzeol ogije, primerno izobrazbo ali vsaj eno leto delovnih 
+izkušenj na področju strokovnih nalog v muzeju; 
+3) Muzej ima dolgoročni operativni in finančni načrt, ki vključuje finančne načrte , cilje in 
+prednostne naloge v muzeju ter načrt raziskovanja , ohranjanja, predstavljanja zbirk, 
+skladiščenja in zbiranja.  
+ 
+S tem aktom so določene tudi naloge muzejev glede na njihov status. Nacionalni muzeji in 
+umetniški muzeji (glej § 3; primerljivo z ZVKD-1 člen 91) imajo nalogo:  
+1) spodbujati muzejsko dejavnost, ohranjati kulturno in vizualno kulturo, ki deluje na 
+njegovem ozemlju; 
+2) zagotavljati sodelovanje med muzejskimi dejavnostmi in razpoložljivost informacij , 
+povezanih s kulturno dediščino in umetnostjo; 
+3) strokovno svetovanje o zadevah, ki se nanašajo na zastopano področje; 
+4) skrbeti za državne naloge, ki so dogovorjene z »Nacionalnim svetom za starine«; 
+5) opravljati druge naloge, določene s strani Ministrstva za šolstvo. 
+ 
+Naloga nacionalnega specializiranega muzeja je, da (glej člen§ 4): 
+1) spodbuja muzejsko dejavnost, v kateri deluje; 
+2) zagotavlja sodelovanje med isto specializiranimi muzeji, predstavlja informacije v zvezi z 
+muzejsko zbirko; 
+3) strokovno svetuje o zadevah, ki se nanašajo na njegovo področje; 
+4) opravlja druge naloge, določene s strani Ministrstva za šolstvo. 
+ 
+
+ 
+ 
+46 
+ 
+3.1.2. Zaposleni v muzejski dejavnosti 
+V muzejskem zakonu (§ 2 11.11.2005 / 877) je izobrazba zaposlenih določen,  in sicer 
+muzejski delavci naj bi bili šolani na muzejskem področju in naj bi imeli primerno 
+kvalifikacijo (primerljivo z ZVKD-1 člen 103). 
+ 
+3.1.3. Prostovoljci 
+V tem zakonu ni opredeljeno, kdo so prostovoljci in kakšna je njihova naloga.  
+ 
+3.2. Lastništvo in upravljanje muzejev 
+Finska ima več kot 1000 muzejskih enot in lokacij, od tega jih je odprtih vse leto in strokovno 
+vodenih samo 327 (oz. 152 muzejev). Preostali muzeji so odprti samo poleti; vodijo jih 
+skupnosti, v kateri se nahajajo.  
+ 
+Značilno za finske muzeje je, da muzej kot enotna upravna celota upravlja z več muzejskimi 
+enotami oz. lokacijami, ki po večini nimajo lastnega osebja in ločenega proračuna.  
+ 
+Lastnik muzeja je tudi upravljavec. Finski muzeji se glede na področje, ki ga pokrivajo , delijo 
+na nacionalne muzeje, regionalne muzeje, regionalne umetnostne muzeje in specializirane 
+nacionalne muzeje. Ti muzeji so odgovorni za regionalni ali sektorski razvoj muzejske 
+dejavnosti na Finskem. Na Finskem so trije nacionalni muzeji: Nacionalni mu zej Finske, 
+Finska nacionalna galerija in Finski naravoslovni muzej , nato je še 16 nacionalnih 
+specializiranih muzejev, ki delujejo na regionalni ravni, 22 provincialnih muzejev in 16 
+regionalnih umetnostnih muzejev.  
+ 
+
+ 
+ 
+47 
+ 
+Skoraj 55 % muzejev je upravljanih s strani občin, 38,8 % je zasebnih muzejev oz. muzejev , 
+upravljanih s strani fundacij in združenj. Samo 5,9  % muzejev je upravljanih s strani države 
+ali univerz. En muzej (0 ,7 %) je v lasti podjetja (Verla Mill Museum v lasti podjetja UPM 
+Kymmene Corporation). Statistika glede na muzejske enote oz. lokacije je nekoliko drugačna, 
+saj imajo večji občinski muzeji in regionalni muzeji v lasti oz. upravljajo z več lokacijami. 
+Tako je 65,7 % enot občinskih, 26,6 % zasebnih, 7,3 % državnih, 0,3 % v lasti in upravlja nju 
+podjetij.  
+ 
+ 
+ 
+Na državni ravni je za muzeje pristojno ministrstvo za šolstvo in kulturo. Strokovne storitve in 
+raziskave v zvezi z varstvom kulturnih spomenikov zagotavlja »Nacionalni odbor za starine « 
+(National Board of Antiquities), ki je tudi odgov oren za celotno upravljanje in razvoj 
+muzejskega sistema v okviru Ministrstva za šolstvo in kulturo. Nacionalni odbor pripravlja 
+letne statistike in razvija muzejsko področje skupaj z celotnim muzejskim sistemom. 
+55% 
+38% 
+6% 
+1% 
+Upravljavci in lastniki finskih muzejev  
+Upravljavec/lastnik je občina
+Upravljavec/ lastnik je zasebnik, fundacija ali združenje lokalna ali regionalna oblast
+Upravljavec/lastnik je država
+Upravljalec/lastnik je podjetje
+
+ 
+ 
+48 
+ 
+ 
+3.3. Financiranje muzejev: 
+Povprečni stroški n a muzej (povprečje za 152 muzejev) so v letu 2014 znašali 1,631,885 
+evrov. Največji strošek so bili kadri (43,9  %) in stroški , povezani s prostori (34,3  %). Drugi 
+obratovalni stroški so predstavljali 20,4  % celotnih odhodkov, samo 1,4  % predstavljajo 
+stroški nakupa novih eksponatov. Stroški muzejske dejavnosti so večinoma izpolnjeni z 
+javnim financiranjem. Delež države v skupnem financiranju muzejev je sestavljen iz neto 
+odhodkov državnih muzejev ter državnih subvencij in donacij za druge muzeje in je v let u 
+2014 znašal 44,5 % vseh odhodkov.  
+ 
+Skupno je prejelo predpisano državno financiranje 125 muzejev, od teh je bilo 73 občinskih 
+muzejev, 52 muzejev upravljanih s strani fundacij in združenj ter en muzej, ki je v lasti 
+podjetja. Podlaga za sorazmerno držav no financiranje je število osebja in letno določena cena 
+enot na osebo. Skupni znesek sorazmerne državne pomoči je v letu 2014 znašal a 36,8 
+milijona EUR, torej okoli 294.170 € na muzej. Sredstva, ki jih dobijo pokrajinski muzeji, 
+regionalni umetnostni muze ji in nacionalni specializirani muzeji je deset odstotnih točk višja 
+(47% od cene na enoto), kot za druge muzeje, zaradi njihovih regionalnih in nacionalnih 
+nalog. Ti muzeji so tako dobili 73,9  % celotnega zneska državne pomoči. Tudi za muzeje, ki 
+prejemajo državna sredstva , so občine najpomembnejši vir financiranja (45,9  %), pri čemer 
+državna pomoč krije 29,1 % vseh muzejskih odhodkov.  
+ 
+Državna sredstva zagotavljajo predvsem Ministrstvo za šolstvo in kultur in Državni odbor za 
+dediščino. Ministrstvo za transport in komunikacije ter Finske obrambne sile financirajo 
+muzeje na svojem področju. Vse vladne inštitucije smejo podeljevati finančn o podporo 
+muzejem, tudi tistim, ki so upravljani s strani fundacij.  
+
+ 
+ 
+49 
+ 
+ 
+Občinski delež celotnega financiranja je bil v letu 2014 31,9  % (78.7 milijona evrov). Ta 
+številka vključuje nepovratna sredstva za poslovanje muzejev , kakor tudi financiranje 
+posebnih projektov, ki jih občine podeljujejo za zasebne muzeje. 
+ 
+Lastni dohodek 152 muzejev je v povprečju znašal 14,3  % celotnega prihodka. Vstopnine so 
+predstavljale 39,4 % lastnega dohodka. Od celotnega muzejskega financiranja predstavlja jo 
+9,3 % neposredna sred stva od fundacij in združenj, ki tudi upravljajo z muzeji , in pa 
+nepovratna, ki niso občinska niti državna.  
+ 
+Iz EGMUS statističnega popisa je bilo mogoče razbrati, da je bil prihodek 322 muzejev 
+vključenih v popis leta 2013 219.080.982 €, od tega je bilo z naslova vstopnic 13.238.507 € in 
+z naslova javnih subvencij 168.024.834 €, iz drugih virov8 pa 37.817.641 €.  
+ 
+ 
+                                                 
+8 Ni bilo možno ugotoviti, kateri točno naj bi bili drugi viri. 
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+Financiranje avstrijskih muzejev
+Vstopnine
+Drugi viri
+Javne subvencije
+
+ 
+ 
+50 
+ 
+Finsko muzejsko združenje ugotavlja, da se višina državnih in občinskih podpor iz leta v let o 
+znižuje. Ugotavljajo tudi, da se zvišujejo stroški dela in stroški nepremičnin. Vendar pa na 
+drugi strani beležijo 8  % porast prihodkov iz muzejskih storitev (muzejska trgovina, 
+vstopnine, video in informacijske storitve, javne storitve) ter porast prihodkov z naslova 
+sponzorstev in drugih poslovnih sodelovanj.  
+ 
+3.4. Zaposlovanje 
+Vseh 152 muzejev je imelo v letu 2014 skupno za nedoločen čas s polnim delovnim časom 
+zaposlenih 1919 oseb. Več kot polovica (57.5 %) je bilo oseb s strokovnim usposabljanjem 
+(kustosi, raziskovalci, konservatorji,  fotografi itd). V povprečju muzeji zaposlujejo 12,6 
+stalnih zaposlenih, od tega 7,3 strokovno usposobljenega kadra. Specializirani nacionalni 
+muzeji, pokrajinski muzeji in regionalni umetnostni muzeji so imeli v povprečju 17,8 
+zaposlenih za nedoločen čas, od tega 9,9 strokovno usposobljenih oseb. 
+ 
+Za določen čas je bilo v letu 2014 v finskih muzejih zaposlenih 478 oseb, 242 oseb pa je 
+delalo s skrajšanim delovnim časom.  
+ 
+V letu 2014 je 55 muzej ev (od 152) javilo, da so v svoje delovanje vključevali tudi 
+prostovoljce. V teh muzejih je skupno delalo 1240 prostovoljcev, ki so opravili 34 .807 ur 
+prostovoljnega dela. Število prostovoljcev pa se med muzeji bistveno razlikuje od enega 
+prostovoljca do 200.  
+ 
+
+ 
+ 
+51 
+ 
+ 
+ 
+V muzejih imajo  priročnik za zaposlene z naslovom Mus eoammattilaisen käsikirjan, ki je 
+izšel leta 2007 in ga je napisala Jaana af Hällströmin .9 Priročnik vsebuje pregled muzejskih 
+poklicev, razvoj muzejske sektorja in poklicev, v njem so zbrani tudi temeljni delovni 
+standardi in normativi za muzejsko dejavnost.  
+ 
+3.5. Kansallisgalleria / Finska narodna galerija  
+ 
+3.5.1. Osnovi podatki 
+Finska narodna galerija je javna ustanova/fundacija, ki je bila ustanovljena 1. januarja 2014 in 
+je v pristojnosti Ministrstva za šolstvo in kulturo. Financira se predvsem s strani države. 
+ 
+Ena od osnovnih nalog Finske narodne galerije je ohranjanje in bogatenje državne umetniške 
+zbirke, ki obsega več kot 36.000 umetnin, kot tudi arhivsko gradivo in druge predmete. 
+Sodeluje pri razvoju muzejskega sektorja kot osrednja muzejska institucija, ki pokriva 
+                                                 
+9 Priročnik v času izvajanja raziskave ni bil dosegljiv v Sloveniji.  
+Zaposleni - 
+podporni kader 
+26 % 
+Zaposleni - 
+strokovni kader 
+35 % 
+Prostovoljci 
+39 % 
+Zaposleni in prostovoljci v finskih muzejih 
+
+ 
+ 
+52 
+ 
+področje umetnosti ter izpolnjuje svoje pravne obveznosti in izvaja naloge, ki so ji dodeljene s 
+strani Ministrstva za izobraževanje in kulturo.  
+ 
+Finska narodna galerija vsebuje tri muzejske enote: Muzej umetnosti Ateneum, Muzej 
+sodobne umetnosti Kiasma in Muzej umetnosti Sinebrychoff. 
+ 
+Finska narodna galerija je bila ustanovljena kot temelj za nadaljevanje uspešne zapuščine 
+nacionalnih umetnostnih muzejev, ki sta jih upravljala Finsko umetniško društvo in Fundacija 
+finske umetniške akademije, t er kot nadaljevanje prvotne Finske narodne  galerije, ki je 
+delovala kot državna institucija v okviru Ministrstva za šolstvo in kulturo. Finska narodna 
+galerija je bila preoblikovana v samostojno javno ustanovo.  
+ 
+V letu 2014 je bilo skupno število obiskovalcev 586 007 (Ateneum 410.173, Kiasma 147.768, 
+Sinebrychoff 28.006). Število obiskovalcev se je od leta 2013, ko muzeji še niso delovali 
+skupaj, povečalo za 8  %, vendar pa to zaenkrat še ni znak uspeha, saj je Muzej umetnosti 
+Ateneum imel v letu 2014 zelo uspešno razstavo, ki je pritegnila veliko ljudi.  
+  
+
+ 
+ 
+53 
+ 
+Organigram Finske narodne galerije:  
+ 
+ 
+3.5.2.  Financiranje 
+Iz poslovnega poročila za leto 2014 je bilo mogoče razbrati, da dobiva galerija sredstva z 
+naslovov: obratovalna sredstva (ministrstvo), druga državna sredstva, EU projekti, donacije, 
+tržna dejavnost (muzejska trgovina, storitvene dejavnosti, prodaja produktov, oddaja 
+prostorov). Drugi prihodki iz rednega delovanja so vodeni ogledi, prodaja umetniških 
+predmetov, dohodek od potujočih razstav. Drugi poslovni prihodki se nanašajo na pogodbe o 
+poslovnem sodelovanju, kot tudi na sredstva, ki jih muzej dobi od mesta Helsinki in drugih 
+fundacij.  
+ 
+Skupne muzejske trgovine so povečale prodajo za 1.5 milijona evro v in postajajo pomemben 
+vir prihodkov.  
+Finančni in 
+administrativni 
+oddelek 
+Oddelek za                                                                                                                                                                                
+upravljanje z zbirko 
+Svet Finske 
+nacionalne 
+galerije 
+Odbor finske 
+nacionalne 
+galerije 
+Generalni 
+direktor 
+Muzej 
+umetnosti 
+Ateneum 
+Muzej 
+sodobne 
+umetnosti 
+Kiasma 
+Muzej 
+umetnosti 
+Sinebrychoff 
+Finska nacionalna 
+komisija za umetnost 
+
+ 
+ 
+54 
+ 
+ 
+ 
+ 
+3.5.3. Zaposlovanje 
+Konec leta 2014 je Finska narodna galerija zaposlovala 224 oseb, od tega jih je bilo 185 
+zaposlenih za nedoločen čas in 39 za določen čas (9 oseb je delalo s skrajšanim delovnim 
+časom). 55 % osebja j e imelo univerzitetno izobrazbo. Ni znano, k akšna je razporeditev po 
+oddelkih ni znano. 
+ 
+Ni znano, koliko prostovoljcev je bilo vključenih v delo muzeja; poročilo navaja le, da so 
+zanje porabili 478.996,23 €. 
+ 
+3.6. Suomen käsityön museo / Finski muzej obrti 
+ 
+3.6.1. Osnovi podatki 
+Finski m uzej obrti je specializiran muzej, ki tematsko pokriva celotno Finsko. Muzej 
+predstavlja vse tehnike obrti, od izdelovanja hiš, kovanja, klekljanja do oblikovanja okraskov. 
+Muzej 
+Druga državna 
+sredstva 
+Donacije, 
+sponzorstva, 
+sredstva mesta 
+Helsinki  
+Profitna 
+dejavnost muzeja 
+Obratovalna 
+sredstva 
+(Ministrstvo za 
+šolstvo in 
+kulturo) 
+Projektna 
+sredstva (država, 
+EU) 
+
+ 
+ 
+55 
+ 
+Del muzeja je tudi središče za narodne noše in konservatorsk i center, ki je dobro podkovan v 
+ohranjanju tekstila.  
+ 
+Muzej ima dolgoletno zgodovino, ki sega v leto 1888, ko je bilo podeljeno dovoljenje za 
+delovanje Finskega muzeja obrti, takrat v sklopu Društva za industrijsko umetnost v prostorih 
+muzeja za umetnost in oblikovanje. Leta 1983 je muzej postal samostojen, 1992 pa je dobil 
+status specializiranega nacionalnega muzeja. Istega leta se je muzeju priključil nacionalni 
+center za narodne noše, leta 1995 pa še restavratorski center. Leta 2000 se je muzej preselil na 
+novo lokacijo v mesto Jyväskylä.  
+ 
+V letu 2014 je muzej obiskalo 33.005 oseb.  
+ 
+3.6.2. Financiranje 
+Muzej se financira izključno iz javnih sredstev . Obratovalne stroške krije Ministrstvo za 
+šolstvo, ki je v ta namen v letu 2014 muzeju namenil sredstva  v višini 425.400 €, iz naslova 
+drugih javnih subvencij  so v muzeju pridobili 341.500 €, mesto Jyväskylä  je prispevalo 
+622.100 €. V letu 2014 so pridobili še diskrecijska nepovratna sredstva v višini 170.000 €.  
+ 
+Muzej je v letu 2014 sodeloval še v štirih različnih nacionalnih projektih.  
+ 
+Višina sredstev iz profitne dejavnosti muzeja v letnem poročilu ni navedena.  
+ 
+
+ 
+ 
+56 
+ 
+ 
+ 
+3.6.3. Zaposlovanje 
+Muzej ima 16 oseb zaposlenih za nedoločen čas in 13 oseb za določen čas. Pet oseb je 
+dodatno delalo kot vodiči, muzej pa je zaposloval tudi 12 zunanjih ekspertov. 
+ 
+V letu 2014 so imeli v muzeju sedem vajencev/študentov. Ni znano, ali so v muzeju delali 
+tudi prostovoljci.  
+ 
+Struktura stalno zaposlenih je naslednja: kustosi 10 oseb, administracija in vzdrževanje 2 
+osebi, vodstvo 1 oseba, izvajanje izobraževanj 1 oseba. Zadolžitve  zaposlenih za določen čas 
+niso znane. 
+ 
+Muzej 
+Druga državna 
+sredstva 
+Sredstva mesta 
+Jyväskylä 
+Obratovalna 
+sredstva 
+(Ministrstvo za 
+šolstvo in 
+kulturo) 
+Projektna 
+sredstva (država) 
+
+ 
+ 
+57 
+ 
+ 
+ 
+3.7. Suomen Metsästysmuseo / Finski lovski muzej 
+ 
+3.7.1. Osnovi podatki 
+Finski lovski muzej je vodilna inštitucija in informacijski center na svojem področju na 
+Finskem. Poslanstvo muzeja je zbiranje, raziskovanje, ohranjanje in prikaz finske lovske 
+kulture v preteklosti in sedanjosti. Muzej vključuje tudi knjižnico in arhiv, ki sta namenjena 
+tako raziskovalcem kakor tudi javnosti.  
+ 
+Muzej je leta 1930  ustanovilo Finsko lovsko združenje, vendar je bil muzej odprt šele leta 
+1972 v mestu Porvoo. Leta 1990 se je muzej preselil v novo stavbo v mestu Riihimäki. 
+Muzejska zbirka vključuje več kot 18. 000 z lovom povezanih objektov ter več kot 120. 000 
+fotografij. Muzejska knjižnica ima eno največjih zbirk z lovom povezanih knjig in revij.  
+ 
+Muzej je v letu 2014 obiskalo 17.414 oseb, kar je za 26.5 % več kot leto prej.  
+72 % 
+14 % 
+7 % 
+7 % 
+Število ljudi po oddelkih (stalno zaposleni) 
+Kustosi Administracija in vzdrževanje Vodstvo Izvajanje izobraževanj
+
+ 
+ 
+58 
+ 
+Organigram Suomen Metsästysmuseo: 
+ 
+ 
+Muzejski direktor 
+Finančna in 
+upravljavska enota Muzejska enota 
+Zbirka 
+Objekti zbirke 
+-zbiranje orožja 
+-kustos in kurator 
+Knjižna zbirka 
+- knjižničar 
+Arhiv in dokumentacija 
+- kustos 
+Fotografski arhiv 
+- kustos 
+Razstavljanje 
+Stalna razstava 
+- kustosi in kurator 
+Občasne razstave 
+-  kustosi in kurator 
+Potujoče razstev 
+- kustos 
+Razstave 
+- kustos 
+Raziskovanje 
+Stalni projekti 
+- kustos 
+Publiciranje 
+- muzejski direktor in 
+kurator 
+Strokovne storitve 
+Servis 
+Marketing in 
+publiciranje 
+- zunanja in notranja 
+komunikacija 
+Servis 
+- muzejska trgovina 
+-prodaja vstopnica 
+-prodaja storitev in 
+dogodkov 
+Pomoč 
+- vodeni ogledi in 
+muzejska pedagogika 
+Dogodki 
+
+ 
+ 
+59 
+ 
+3.7.2. Financiranje 
+Dejavnosti muzeja se financirajo predvsem iz pristojbin, pobranih od licenc za lov in sredstev 
+z Ministrstva za  kmetijstvo in gozdarstvo . Muzej ima tudi svoj odbor za pridobivanje 
+sredstev.  
+ 
+Iz javnih sredstev je muzej v letu 2014 pridobil skupaj 592.719 €, za obratovalne stroške je od 
+Ministrstva za šolstvo dobil 193.719  €, 385.000  € je dobil od Ministrstva za kmetijstvo in 
+gozdarstvo, za projekt digitalizacije pa so od ministrstva za šolstvo dobili 14.000 €.  
+ 
+Lastna sredstva, ki so v letu 2014 znašala samo 8  % (53.376 €), so sestavljena iz vsto pnin 
+(18.432 €), servisnih storitev in drugih dohodkov (26.628 €) ter bruto dobička (8.316 €).  
+ 
+Muzej je leto 2014 zaključil v minusu, vendar ga bodo pokrili z dobički iz prejšnjih let.  
+ 
+ 
+ 
+Muzej 
+Sredstva 
+Ministrstva za 
+kmetijstvo in 
+gozdarstvo 
+Lastna sredstva 
+(vsopnine, 
+servisne 
+dejavnosti, itn.) 
+Obratovalna 
+sredstva 
+(Ministrstvo za 
+šolstvo in kulturo) 
+Projektna sredstva 
+(država) 
+
+ 
+ 
+60 
+ 
+3.7.3. Zaposlovanje 
+Muzej zaposluje  sedem oseb za nedoločen čas , od tega so trije  kustosi, en knjižničar, dve 
+osebi opravljata administrativne zadeve, ena oseba je zaposlena kot direktor muzeja. Za 
+določen čas sta bili zaposleni dve  osebi, ki sta pomagali pri muzejskih de javnostih in v 
+dokumentaciji. Ena oseba je zapo slena kot projektni manager. Z a krajše časovno obd obje je 
+bilo zaposlenih šest  oseb, za katere pa ni znano , kakšna dela so opravljale . V muzeju se je v 
+letu 2014 izpopolnjevalo pet študentov.  
+ 
+Muzej ima najetih več zunanjih izvajalcev, ki za njih opravlja jo različne naloge : od 
+računovodskih, računalniških storitev, čiščenja  itn. Tako na primer n a muzejski recepciji/ 
+vstopni točki dela pet oseb, ki so  zaposleni na podjetju z a varovanje (Securitas Oy), ki skrbi 
+tudi za siceršnje varovanje muzeja.  
+ 
+ 
+ 
+  
+43% 
+29% 
+14% 
+14% 
+Število ljudi po oddelkih (stalno zaposleni) 
+Kustosi Administracija Vodstvo Knjižničar
+
+ 
+ 
+61 
+ 
+4. FRANCIJA 
+ 
+Francija ima približno 64,95 milijonov prebivalcev in je razdeljena na 27 upravnih regij, te pa 
+se nato delijo še v 101 departmajev. Odgovornost za muzejsko dejavnost nacionalnih muzejev 
+je v rokah Ministrstva za kulturo. 
+ 
+4.1. Muzejska zakonodaja 
+Oblika organizacije in upravljanja  določenih muzejev je bila dolgo časa določena s 
+pomanjkljivimi pravnimi akti. Umetnostni muzeji in galerije so bili edini, ki so bili definirani 
+z odlokom iz leta 1945 in so bili opredeljeni na podlagi svojih zbirk. Od takrat s o se francoski 
+muzeji razširili in razvejali na vsa področja znanja, zaradi česar je bil treba oblikovati nov 
+pravni okvir. Ta okvir je bil sprejet z novim zakonom leta 2002  (LOI n° 2002-5 du 4 janvier 
+2002 relative aux musées de France).  
+ 
+4.1.1. Javna služba muzejev 
+Zakon opredeljuje muzej kot  stalno zbirko, ki je sestavljena iz predmetov, katerih ohranjanje 
+in predstavitve so v javnem interesu in prispevajo k znanju in izobraževanju. 
+ 
+Zakon v prvem členu uvaja  tudi naziv »Musée de France«, ki ga podeli Ministrs tvo za 
+kulturo, če muzej izpolnjuje niz pogojev. Ta naziv se lahko dodeli muzejem v državni lasti, 
+drugim pravnim osebam javnega prava ali neprofitnim pravnim osebam zasebnega prava (glej 
+člen § 1). 
+ 
+Stalna naloga francoskih muzejev je (glej člen § 2; primerljivo z ZVKD-1 člen 91).: 
+a) ohranjanje, obnavljanje, študij in bogatitev lastnih zbirk; 
+
+ 
+ 
+62 
+ 
+b) zagotavljanje dostopa do svojih zbirk najširšemu občinstvu; 
+c) razvoj in izvajanje izobraževalnih dejavnosti in diseminacija z namenom, da se zagotovi 
+enak dostop do kulture; 
+d) prispevati k napredku znanja in raziskav ter njihovo razširjanje. 
+ 
+4.1.2. Zaposleni v muzejski dejavnosti 
+Znanstvene dejavnosti muzeja morajo biti izvajane v okviru pristojnosti strokovnjakov s 
+kvalifikacijami (glej člen § 6; primerljivo z ZVKD-1 člen 103). 
+ 
+4.1.3. Prostovoljci 
+Noben člen tega zakona ne vsebuje predpisov o prostovoljcih.  
+ 
+4.2. Lastništvo in upravljanje muzejev: 
+Po podatkih francoske muzejske statistike iz leta 2013 je v Franciji 1220 muzejev. Ti se delijo 
+glede na obliko lastništva: osebe javnega prava (uradne upravne ustanove, lokalni organi  itd.) 
+ali zasebne pravne osebe (združenja ali fundacije). Nato se delijo še na državne muzeje : 
+nacionalni muzeji, ki so pod skrbništvom Ministrs tva za kulturo in Direktorata za muzeje, 
+drugi muzeji pod nadzorom Ministrstva za kulturo ali ostalih ministrstev ; muzeji s posebnim 
+statusom (mestni muzeji v Parizu, muzej Institut de France itn.) ; muzeji, ki jih vodijo lokalne 
+oblasti; ter muzeji, ki spadajo v okvir neprofitnih zasebnih organov (fundacije, združenja, itd). 
+Upravljavci muzejev so vedno tudi lastniki. 
+ 
+Država je lastnik in upravljavec v 61 muzejih, 998 muzejev ima lokalne oz. regionalne 
+upravljavce, 159 muzejev upravljajo fundacije oz. združenja.  
+ 
+
+ 
+ 
+63 
+ 
+ 
+ 
+4.3. Financiranje muzejev 
+Iz EGMUS statističnega popisa je bilo mogoče razbrati, da je bil prihodek 330 muzejev 
+vključenih v popis leta 2010 199.645.883  € od tega je bilo z naslova vstopnic 157.484.240  € 
+in iz  naslova javnih subvencij 10.158.536  €. Drugih podatkov o sistemu financiranja 
+francoskih muzejev ni bilo mogoče najti. 
+ 
+4.4. Zaposlovanje 
+Podatkov o številu zaposlenih v muzejskem sektorju in zaposlovanju na splošno ni bilo 
+mogoče pridobiti.  
+ 
+4.5. Musée de l'Armée / Vojaški muzej 
+Musée de l'Armée je državni muzej in je peti najbolj obiskani muzej v Franciji. Nahaja se v 
+znanem Pariškem kompleksu Hôtel National des Invalides. Muzej vsebuje nekaj 
+najprestižnejših svetovnih zbirk, vključno s starimi orožji in oklepi, majhnimi artilerijskimi 
+modeli in edinstvenim naborom predmetov iz 19. stoletja, iz časov Napoleona.  
+5% 
+82% 
+13% 
+Upravljavci/lastniki francoskih muzejev  
+Upravljavec je država Upravljavec je lokalna ali regionalna oblast
+Upravljavec je fundacija ali združenje
+
+ 
+ 
+64 
+ 
+ 
+4.5.1. Osnovi podatki 
+Vojaški muzej je bil v tej obliki ustanovljen leta 1905, ko se je Muzej artilerije združil z 
+Muzejem vojaške zgodovine. Vojaški muzej je eden največjih muzejev vojaške umetnos ti in 
+zgodovine na svetu. Njegovo mesto v vojaškem spomeniku Hotel National des Invalides pa 
+mu daje izjemen značaj.  
+ 
+Muzej je sestavljen iz niza sedmih glavnih prostorov, ki so razdeljeni v zgradbi in si sledijo po 
+tematiki in kronološkem zaporedju: glav no dvorišče in artilerijska zbirka, starejši oddelek z 
+starimi oklepi in orožjem iz 13. –17. stoletja, novejši oddelek, ki pokriva obdobje od Ludvika 
+XIV do Napoleona III (1643 –1870), kupola des Invalides in grob Napoleona I, sodobni 
+oddelek, ki pokriva obe  svetovni vojni (1871 –1945), spomenik Charles de Gaulle ter 
+katedrala Saint -Louis des Invalides. Muzej se razprostira na 28.909 m2 in vsebuje več kot 
+500.000 eksponatov.  
+ 
+V letu 2014 je muzej obiskalo 1.525.030 obiskovalcev kar je 11 % več kot v letu 2013. 
+ 
+ 
+
+ 
+ 
+65 
+ 
+Organigram Musée de l'Armée: 
+ 
+ 
+Direktor 
+Namestnik direktorja 
+Oddelek antika 
+Oddelek moderna 
+Oddelek sodobnost 
+Oddelek artilerija 
+Oddeleke zgodovina 
+Charles de Gaulle 
+Oddelek ikonografija 
+(fotografski studio, 
+knjižnica) 
+Oddelek ekspertiza in popis 
+Oddlelek za razstavljanje, 
+urejanje zbirke 
+Oddelek za kulturne 
+dejavnosti in glasbo 
+Oddelek za raziskovanje, 
+pedagoške dejavnosti in 
+mediacijo 
+Tajništvo 
+Oddelek za finance in 
+proračun 
+Oddelek za promocijo 
+Kadrovska služba 
+Oddelek za varovanje in 
+logistiko 
+Storitev organiziranja in 
+informacijskega sistema 
+ Polje infrastrukture 
+Polje spleta in multimedije 
+Urad za preventivo in 
+delovne pogoje Računovodska agencija 
+Služba za komuniciranje 
+
+4.5.2. Financiranje 
+Muzej ima zelo dobre pogoje za izvajanje tržne dejavnosti, saj imajo polno opremljen 
+avditorij, ki ga oddajajo za različne dogodke (konference, koncerte, bankete itn.). Posebnost 
+objekta, v katerem se nahajajo , jim omogoča tudi oddajanje prostorov za različna televizijska 
+snemanja. Zunanji prostori pa jim omogočajo prirejanje velikih dogodkov , kot so modne 
+revije, kulturni dogodki, zabave in gala večerje, avtomobilske razstave itd. V let u 2014 so 
+tako organizirali 445 različnih dogodkov in ustvarili 2.822.544,78 € neto profita.  
+ 
+Delež lastnih sredstev se je v letu 2014 dvignil s 55 % na 62 % (10.950.908 €), največji delež 
+pa predstavljajo vstopnine (80  %; 8.894.978  €). Ostala sredstva (4 17.000 €) iz tržne 
+dejavnosti muzej pridobi s prodajo različnih produktov, avtorskimi pravicami, koncesijami od 
+cateringa in trgovine, reklamiranja blaga.  
+ 
+Delež, ki ga ne pokrijejo z lastnimi sredstvi predstavljajo subvencije, ki so v letu 2014 skupaj 
+znašale 6.835.329 € in so predstavljale 38 % dohodkov. 
+ 
+Sponzorskih in donatorskih sredstev je muzej v letu 2014 pridobil 475.050  €. Kot podporo 
+ustanovi so dobili 230.000 €, za dve razstavi 200.000 €, od muzikala 30.000 € 
+ 
+
+ 
+ 
+67 
+ 
+ 
+ 
+4.5.3. Zaposlovanje 
+V letu 2014 je bilo v muzeju zaposlenih 165 oseb, 151 civilistov in 14 vojakov.10 
+ 
+Po obliki zaposlitev se osebje deli na zaposlene za nedoločen čas in za določen čas. Zaposleni 
+za določen čas pa se delijo še na tiste, ki imajo pogodbo za največ 10 mesecev , in tiste, ki 
+imajo pogodbo za največ dve leti. V letu 2014 je bilo za največ 10 mesecev zaposlenih 49 
+oseb, na pogodbi za največ dve leti pa dve osebi. Osebe s pogodbami za krajše časovno 
+obdobje so pomagale pri pripravi razstav, konservatorskih dejavnostih, nadomeščale  na 
+recepciji in pri varovanju.  
+ 
+Muzej redno gosti študente v okviru tedenskih praks. V letu 2014 je tako v muzeju v različnih 
+oddelkih opravljalo prakso 23 oseb, 3 vajenci so delali v službi za vzdrževanje, 34 
+magistrskih študentov pa je delalo v različnih oddelkih.  
+ 
+                                                 
+10 Iz dokumentacije ni bilo možno ugotoviti, kakšna je struktura osebja po posameznih oddelkih. 
+Muzej 
+Javna sredstva 
+Lastna sredstva 
+(vstopnine,  trgovina, 
+restavracija, oddaja prostorov, 
+prirejanje dogodkov) 
+Sponzorska 
+sredstva 
+
+ 
+ 
+68 
+ 
+Muzej ima za nekatere storitve najete zunanje izvajalce , in sicer za varovanje (32 oseb), 
+prodajo v trgovini (7 oseb), delo v kavarni (10 oseb), vodenje in predavanja (14 oseb), 
+čiščenje (12 oseb).  
+ 
+Ni bilo mogoče ugotoviti, ali v muzeju delajo tudi prostovoljci in kako jih vključujejo v delo.  
+ 
+4.6. Muséum de Toulouse 
+Muséum de Toulouse je naravoslovni muzej, ki se nahaja v mestu Toulouse na jugu Francije. 
+ 
+4.6.1.  Osnovi podatki 
+Muzej je ustanovil leta 1796 naravoslovec Philippe -Isidore Picot de Lapeyrouse. Muséum de 
+Toulouse hrani več kot 2,5 milijona eksponatov s področja prazgodovine, botanike, 
+entomologije, mineralogije, ornitologije in paleontologije.  
+ 
+V letu 2014 je muzej imel 296 657 obiskovalcev, kar je za 21,04 % več leto poprej.  
+ 
+4.6.2.  Financiranje 
+Skupni proračun muzeja je v letu 2014 znašal 2.578.049 € in je bil muzeju dodeljen s strani 
+mesta. Muzej je imel tudi lastna sredstva v višini 1.554.953 €, ki so sestavljena iz sredstev od: 
+vstopnin (868.460 €), potujočih razstav (76.414  €), trgovine (351.799 €), restavracije (41.551 
+€), oddajanja prostorov (36.600 €), državnih/javnih sredstev (178.029 €), partnerjev (2.100 €). 
+Iz letnega poročila ni razvidno , kako porabijo lastna sredstva, medtem pa so sredstva, ki jih 
+muzej pridobi od mesta, specificirana po oddelkih.  
+ 
+
+ 
+ 
+69 
+ 
+ 
+ 
+Sredstva, ki jih muzej dobi od mesta, so se od leta 2011 zmanjšala za 56 %, zato ima muzej še 
+posebno strogo politiko finančnega upravljanja,11 združuje nekatera delovna mesta in storitve 
+ter kategorizira dejavnosti po prednostnem seznamu. To ravnanje je omogočilo skoraj 
+popolno porabo odobrenih sredstev (99,99  %). To pomembno in potrebno prizadevanje bodo 
+nadaljevali, vendar pa bodo optimizirali sredstva za vzdrževanje muzeja.  
+ 
+4.6.3. Zaposlovanje 
+V muzeju je bilo konec leta 2014 zaposlenih 143 oseb, od tega je bilo zaposlenih s polnim 
+delovnim časom 132 oseb, 11 oseb je bilo zaposlenih s krajšim delovnim časom. Za 
+nedoločen čas je bilo zaposlenih 89 o seb, 54 oseb je bilo zaposlenih za določen čas. Število 
+prekarnih delavcev so uspeli manjšati s 37,59 % na 24,48 %. Število stabilnih služb so zvišali 
+z 88 na 108.  
+ 
+Na razvijanju strategij in p rogramov dela devet oseb, in sicer na področjih, kot so razvoj (2), 
+programi (4), komunikacija (2), splet (1). Na področju konservatorstva je zaposlenih 11 oseb, 
+                                                 
+11 Kakšna politika naj bi to bila, ni bilo mogoče ugotoviti.  
+Muzej 
+Sredstva lokalne 
+oblasti  
+Lastna sredstva 
+(vstopnine, potujoče 
+razstave, trgovina, 
+restavracija, oddaja 
+prostorov) 
+Državna/javna 
+sredstva in sredstva 
+partnerjev 
+
+ 
+ 
+70 
+ 
+10 oseb dela v knjižnici in v dokumentaciji. Na zunanjih odnosih in storitvah dela 62 oseb; 
+asistenti (4), proizvodnja storitev (10), storitev mediacije (24 ), storitve za Maourine (13). V 
+administraciji pa je zaposlenih 49 oseb , od teh sta 2 asistenta, v kadrovski službi 11, v 
+logistiki 11, 13 v notranjih storitvah. Vodstvo muzeja sestavljata 2 osebi.  
+ 
+ 
+ 
+4.7. Musée des Civilisations de l'Europe et de la Méditerranée / Muzej evropske in 
+mediteranske civilizacije 
+Muzej evropske in mediteranske civilizacije je nacionalni muzej s sedežem v mestu Marseille. 
+Odprt je od leta 2013. MuCEM se osredotoča predvsem na kulturo Sredozemlja s primerjalne 
+in multidisciplinarne perspektive.  
+ 
+ 
+ 
+6% 
+15% 
+43% 
+34% 
+2% 
+Število ljudi po oddelkih 
+Razvijanje strategij in programov Konservatorstvo, knjižnica, dokumentacija
+Zunanje storitve in odnosi Administracija
+Vodstvo
+
+ 
+ 
+71 
+ 
+4.7.1. Osnovi podatki 
+Muzej je nastal na osnovi etnološkega muzeja, posvečenega družbi Musée des Arts et 
+Traditions Populaires , ustanovljenega leta 1937. Danes muzeja  zajema vse znanstvene 
+discipline antropologijo, politologij o, sociologij o, zgodovino , arheologij o in umetnostn o 
+zgodovino. 
+ 
+Muzej zajema tri lokacije , in sicer kompleks J4 , v katerem se nahajajo razstavni prostori, 
+mediateka, avditorij, knjigarna, restavracija ter prostori za osebje muzeja, trdnjavo Saint -Jean 
+in Center za konservatorstvo in vire.  
+ 
+V letu 2014 je muzejski del obiskalo 649.615 oseb, medtem ko je samo lokacijo obiskalo 
+1.996.154 obiskovalcev.  
+  
+
+ 
+ 
+72 
+ 
+ 
+Organigram Musée des Civilisations de l'Europe et de la Méditerranée 
+ 
+ 
+Predsednik 
+Oddelek za kulturni 
+razvoj in 
+mednarodne odnose 
+Znanstveni direktor 
+in direktor zbirke 
+Konservatorstvo 
+Oddelek za 
+raziskovanje in 
+izobraževanje 
+Oddelek za zbirko in 
+dokumetacijo 
+Splošna 
+administracija 
+Proračun in nadzor 
+upravljanja 
+Finačne storitve 
+Kadrovska služba in 
+splošna sredstva 
+Oddelek za zgradbe 
+in delovanje 
+Oddelek za 
+proizvodnjo 
+Oddelek za javnost 
+Oddelek za 
+komunikacijo in 
+sponzorstvo 
+
+ 
+ 
+73 
+ 
+4.7.2. Financiranje 
+Višina prihodkov letu 2014 je znašala 25.063.470 €. Od tega so največji delež predstavljala 
+sredstva za obratovalne stroške, ki jih zagotavlja Ministrstvo za kulturo , in sicer v višini 
+17.727.388 €. 
+ 
+Lastni prihodki so v letu 2014 predstavljali 29  % proračuna in so znašali 7.336.082 €.  
+Sredstva od prodaje vstopnic znašajo največji delež , in sicer 2.825.733 €. Sponzorskih 
+sredstev je muzej v letu 2014 pridobil 625.255 €, iz najema prostorov so pridobili 555.983  € 
+in iz koncesij za izdelke 690.299 €. 
+ 
+ 
+ 
+4.7.3. Zaposlovanje 
+Muzej je v letu 2014 zaposloval 160 oseb, 146 jih je bilo zaposlenih za polni delovni čas, 14 
+oseb je bilo zaposlenih za krajši delovni čas. Za nedoločen čas je bilo zaposlenih 125 oseb od 
+tega jih je ustanova sama zaposlovala 63, 62 oseb pa je zaposlovalo Ministrstvo za kultu ro. V 
+letu 2014 je v muzeju delalo tudi 78 vajencev/študentov . Ali je v muzeju delal tudi kakšen 
+prostovoljec, ni znano.  
+Muzej 
+Obratovalna sredstav 
+(Ministrstvo za kulturo) 
+Lastna sredstva 
+(vstopnine,  trgovina, 
+restavracija, oddaja prostorov,  
+sponzorska sredstva) 
+
+ 
+ 
+74 
+ 
+PORTUGALSKA 
+ 
+Portugalska ima približno 10 milijonov prebivalcev. Upravno je razdeljena na 308 občin 
+(município ali concelho), te pa dalje na skupno 4260 civilnih župnij (freguesia). Na višji ravni 
+so občine združene v 18 okrožij.  
+ 
+4.8. Muzejska zakonodaja 
+Zakon o portugalskih muzejih (47/2004) je bil sestavljen na podlagi realnega stanja na 
+muzejskem področju ter na podlagi izkušenj . Pri se stavi so sodelovali Portugalski inštitut 
+muzejev, portugalska muzejska mreža, portugalsko muzejsko združenje APOM, predstavniki 
+ICOM-a, muzejski  direktorji in univerzitetni  profesorji. Portugalska ima tako najbolj 
+dodelano in obširno zakonodajo, ki se nanaša izključno na delovanje muzejev. 
+ 
+Zakon obsega 11 poglavij, ki se jih lahko razdeli v pet glavnih tem. V prvem uvodnem 
+poglavju se zakon nanaša na načela, koncepte in obseg zakona. Sledijo poglavja, ki  
+vključujejo glavne značilnosti in zahtev e institucije, ter členi  o premični dediščini, ki je del 
+muzeja, ustanovitvi muzejev ter muzejski organizaciji.  
+ 
+4.8.1. Javna služba muzejev 
+Muzej je v tem zakonu definiran kot stalna neprofitna institucija z ali brez pravne osebe z 
+organizacijsko strukturo, ki omogoča:  
+a) raziskovanje, inventar, dokumentacijo, ohranjanje, razstave in razkritje na znanstven in 
+izobraževalen način; 
+b) reden dostop do javnosti in spodbuja demokratizacijo kulture in razvoj družbe (glej člen § 
+3).  
+
+ 
+ 
+75 
+ 
+ 
+Muzeji po tem zakonu izpolnjujejo naslednje naloge: študije in raziskave, združevanje, popis 
+in dokumentiranje, konservatorstvo, varovanje, interpretiranje in razstavljanje, izobraževanje 
+(glej člen § 7; primerljivo z ZVKD-1 člen 91). 
+ 
+4.8.2. Zaposleni v muzejski dejavnosti 
+Tretje poglavje zakona o portugalskih muzejih je posvečeno tematiki človeških virov , 
+financiranju in prostorom. Tako 44 . člen predpisuje, da mora vsak muzej imeti direktorja, ki 
+odloča o storitvah, zagotavlja n jihovo skladnost s funkcijami muzeja ter predlaga in usklajuje 
+načrt letna aktivnost. 
+ 
+Muzeji morajo imeti kader , kvalificiran za njihovo področje delovanja, manjši muzeji pa 
+morajo vzpostaviti sporazume z drugimi muzeji ali institucijami za okrepitev podp ore za 
+uresničevanje muzejskih funkcij, glede na njihove specifične potrebe (glej člen § 45).  
+ 
+Muzej mora glede na poslanstvo, vrsto in velikosti zagotavljati specializirano usposabljanje za 
+osebje (glej člen § 46).  
+ 
+4.8.3. Prostovoljci 
+Prostovoljne organizacije in prostovoljstvo v muzejskem sektorju določa člen 47. V  njem je 
+zapisano, da muzej stimulira nastajanje združenj prijateljev muzejev, specializiranih 
+interesnih skupin, prostovoljstvo ali druge oblike sodelovanja ter da muzej, v  kolikor je to 
+mogoče, določa prostor in način, kako te oblike vključuje.  
+ 
+ 
+
+ 
+ 
+76 
+ 
+4.9. Lastništvo in upravljanje muzejev 
+Na Portugalskem je danes pestra paleta različnih stavb, gradov in drugih artefaktov, ki bodisi 
+vsebujejo ali so del muzejev. V državi je okoli 6 00 muzejev,12 od tega je okoli 380 muzejev 
+obravnavanih kot javna organizacija, ki jih upravlja država (tj . centralna vlada, regionalne in 
+lokalne oblasti). Preostali muzeji so zasebne institucije, ki so pod upravo katoliške cerkve in 
+drugih nedržavnih ali zasebnih organizacij ter podjetij.  
+ 
+ 
+ 
+Razvoj, izvajanje in pregled vseh nacionalnih politik , povezanih z muzeji , je v pristojnosti 
+Inštituta za muzeje in konservatorstvo (Instituto dos Museus e da Conservaçăo, IP), ki je del 
+Ministrstva za kulturo (Ministério da Cultura). Vendar pa  jih je od 386 javnih muzejev na 
+Portugalskem samo 23, vključno s petimi palačami, pod neposrednim nadzorom tega inštituta. 
+Drugi javni muzeji so nadzorovani s strani različnih ministrstev, kot so Ministrstvo za 
+                                                 
+12 V to statistiko so vključeni samo muzeji, ki izpolnjujejo vsaj enega od naslednjih kriterijev: sezonska ali stalna 
+odprtost muzeja, vsaj en razstavni prostor, vsaj ena zaposlena oseba, obstoj proračuna, obstoj inventarja.  
+17% 
+46% 2% 
+3% 
+4% 
+8% 
+1% 4% 
+15% 
+Pravne oblike v okviru katerih delujejo 
+portugalski muzeji 
+Državna ali regionalna uprava
+Lokalna uprava
+Javno podjetje
+Občinsko ali medobčinsko
+podjetje
+Zasebno podjetje
+Pravni temelj -zasebno
+Pravni temelj -javno
+
+ 
+ 
+77 
+ 
+gospodarstvo in inovacije; Ministrstvo za kmetijstvo, razvoj podeželja in ribištvo (Ministério 
+da Agricultura, das e Desenvolvimen to Rural Pescas), portugalske vojske (Exército 
+Portuguęs), zračnih sil (Força AEREA Portuguesa), mornarice (Marinha Portuguesa); in 
+izobraževalno javnih institucij, kot so univerze. Znaten delež javnih muzejev upravljajo 
+občine. Vsi javni muzeji pa delujej o z upravno avtonomijo v operativnih zadevah , ne pa v 
+finančnih.  
+ 
+4.10.  Financiranje muzejev: 
+Leta 2013 so po podatkih, zbranih z Anketo o javnem financiranju kulturnih, kreativnih in 
+športnih aktivnosti, lokalne oblasti razdelile 378,4 milijona evrov za kultu rne in ustvarjalne 
+dejavnosti, kar je bilo 5,8  % manj kot v primerjavi s predhodnim letom. Za interdisciplinarne 
+dejavnosti so namenile 24,3  %, za kulturno dediščino, kamor spadajo tudi muzeji 24  %, za 
+uprizoritvene umetnosti 23,4  % ter za knjižnice in arh ive 19,5 %. Za kulturno dediščino in 
+posledično tudi muzeje je bilo v letu 2013 torej namenjeno 90 milijonov evrov. 
+ 
+Portugalski muzeji niso samostojni in avtonomni , kar se tiče naložb in financiranja na 
+splošno. V primeru muzejev pod nadzorom občin, se ob seg avtonomije v zvezi z 
+upravljavskimi in poslovnimi odločitvami med občinami precej razlikuje. Vsi ti muzeji so v 
+prvi vrsti financirani s pomočjo javnih sredstev, vključno s sredstvi iz virov, kot so Evropska 
+unija. Zasebni muzeji v lasti Cerkve, različ nih združenj, fundacij ter zasebnih in javnih 
+podjetij so odvisni od zasebnih sredstev, v nekaterih primerih prejemajo tudi javne 
+subvencije.  
+ 
+Večina muzejev nima lastnega proračuna, ampak je ta upravljan s strani organov , katerim 
+muzej odgovarja, sredstv a pa so odvisna od predhodnega poročila. Javni muzeji z visokim 
+
+ 
+ 
+78 
+ 
+proračunom (več kot 498.800  € letnih izdatkov) so najpogosteje upravljani s strani državnih 
+organov, muzeju z nižjim proračunom (manj kot 49.880  € letnih izdatkov) pa so upravljani s 
+strani lo kalnih oblasti. Večina Portugalskih muzejev (65 ,8 %) izkazuje manj kot 249.399  € 
+letnih izdatkov. Samo 1,8 % muzejev ima več kot 498.800 € izdatkov.  
+ 
+Nekatere raziskave poročajo, da 63,1 % vseh muzejev ne oblikuje lastnega proračuna. Višino 
+sredstev, ki jih dobi posamezen muzej namreč določa oblast (lokalna, regionalna ali državna) , 
+kateri je muzej podrejen. Višina denarja, ki ga dobi posamezen muzej , se določi na podlagi 
+izdatkov iz predhodnih let. Povečanje odhodkov bo verjetno povečalo višino prihodnji h 
+sredstev. Ta praksa zato sproža vprašanja učinkovitosti , saj muzeji najverjetneje ne sodelujejo 
+pri učinkovitejšem zmanjševanju stroškov . Ugotovili so, da to zmanjšuje njihova sredstva v 
+prihodnjih letih.  
+ 
+Različna poročila in članki iz obdobja zadnjih 10 let opozarjajo na velike težave, s katerimi se 
+srečujejo portugalski muzeji. Večina težav se nanaša na upravljanje muzejev, še posebno v 
+povezavi z ohranjanjem, varovanjem in dostopnostjo muzejskih zbirk. Te težave so odraz 
+proračunskih omejitev , s kate rimi se srečujejo muzeji in so posledica dezinvestiranja v 
+kulturne dejavnosti v zadnjih desetletjih.  
+ 
+Nenehno pomanjkanje financiranja onemogoča muzejem uresničevanje izobraževalnih in 
+drugih socialnih programov, zmanjšuje pa tudi zmožnost teh institucij, da varuje in ohranjanja 
+zbirke, na katerih temeljijo ti programi. Leta 2008 so poročali, da se je zaradi finančnih 
+omejitev zmanjšala dostopnost do nekaterih zbirk, saj so bili muzeji prisiljeni skrajšati 
+odpiralni čas ali onemogočiti dostop do nekaterih  razstavnih prostorov, ker niso bili zmožni 
+
+ 
+ 
+79 
+ 
+zagotoviti dovolj osebja. Pojavljala pa so se tudi opozorila, da so nekateri javni muzeji skoraj 
+prenehali z delovanjem, kar bi jih lahko naredilo kot tarče plenjenj in ropanj.  
+ 
+Javni muzeji na Portugalskem niso zavezani k oddaji in objavi letnih poročil, ki vsebujejo tudi 
+finančni del, zato za to študijo ni bilo mogoče priti do teh podatkov. K oddaji podatkov so 
+zavezani samo muzeji, ki so pod neposrednim nadzorom Ministrstva za kulturo oz. Inštituta 
+za muzeje i n konservatorstvo, vendar pa ta teh podatkov ne posreduje javnosti. Na 
+Portugalskem zato ni javno dostopnih informacij, kjer bi bilo razvidno iz kakšnih virov in v 
+kolikšni meri se financirajo muzeji.  
+ 
+Po nekaterih študijah naj bi pomanjkanje interakcije med muzeji in širšo javnostjo slabo 
+vplivala na delovanje le-teh. Zunaj muzejskega menedžmenta naj bi bilo malo znanega o vrsti, 
+obsegu in stanju zbirk, dejavnosti muzejev itd. , kar naj bi se odražalo tudi v slabem obisku 
+državljanov. Ta neodprtost muzejev  za javnost ima posledice za njihovo sposobnost, da bi 
+pritegnili dodatna sredstva in drugo podporo. Prihajalo naj bi tudi do popolne nekomunikacije 
+med muzeji in skupnostjo , v kateri delujejo, kar naj bi odvračalo morebitne možnosti 
+financiranja iz nevladnih virov, ki bi pomagala pri premagovanju omejitev financiranja.  
+ 
+4.11.  Zaposlovanje 
+V 353 muzejih, ki jih je zajela statistična raziskava leta 2013, je delalo 4019 oseb, kar je za 
+1,8 % manj kot v letu prej. Od tega je bilo 30,2 % zaposlenih v poklicni kategoriji konservator 
+/ višji tehniki, 29,9 % drugo tehnično osebje, pomožno osebje in delavci (28,7 %).  
+ 
+
+ 
+ 
+80 
+ 
+ 
+ 
+Povprečno število zaposlenih je 11 ljudi na muzej. Nekoliko več oseb je zaposlenih v 
+regionalnih muzejih (21 oseb) ter znanstvenih in tehničnih muzejih (17 ljudi). Najnižje število 
+zaposlenih (6 oz. 7 zaposlenih) je bilo leta 2013 evidentirano v Etnografskem muzeju in 
+Naravoslovnem muzeju. 
+ 
+Prostovoljno je v muzejih delalo 316 ljudi, 36,4  % je bilo plačanih prostovoljcev v 
+umetnostnih muzejih in 18 % v specializiranih muzejih.  
+ 
+Različni viri poročajo o pomanjkanju muzejskih delavcev, ki bi zagotavljali delovanje 
+muzejev, kakor tudi poskrbeli za varnostne ukrepe v povezavi z zbirkami in  obiskovalci.  
+ 
+4.12.  Museu de Serralves 
+Serralves Museum je portugalski narodni muzej sodobne umetnosti, lociran v Portu. Muzej je 
+del Fundacije Serralves, k i ne upravlja le z muzeji, ampak s celotnim posestvom Serralves , v 
+30% 
+30% 
+12% 
+28% 
+Plačano osebje v portugalskih muzejih 
+ 
+Kustosi, konservatorji, višji
+tehniki
+Drugo tehnično osebje
+Administrativno osebje
+Asistenti in drugi delavci
+
+ 
+ 
+81 
+ 
+sklop katerega spadajo še Vila Serralves, park, knjižnica in avditorij. Celotno posestvo skupaj 
+z muzejem je bilo proglašeno za spomenik državnega pomena leta 2012.  
+ 
+4.12.1. Osnovni podatki 
+Okvir za Muzej sodobne umetnosti je bil razvit z ustanovitvijo Serralves fundacije v letu 
+1989. Leta 1991 je bil o večkrat nagrajen emu arhitektu Álvaru Siza Vieir i dodeljeno 
+oblikovanje novega muzeja v okviru posestva Serralves. Muzej je bil odprt 6. junija 1999.  
+ 
+Leta 2014 so v muzeju zabeležili največji obisk , in sicer je muzej  obiskalo 484.396 oseb, kar 
+predstavlja 3 % povečanje v primerjavi z letom 2013 in postavlja to instit ucijo med najbolj 
+obiskane portugalske muzeje.  
+ 
+Serralves Fundacija, katere del je tudi muzej, je ena od vodilnih kulturnih ustanov na 
+Portugalskem. Njeno primarno poslanstvo je promocija sodobne umetnosti tako na nacionalni 
+kot tudi na mednarodni ravni. Fundacija vsako leto organizira raznovrsten program, katerega 
+cilj je spodbujanje razprav in razmišljanja o umetnosti, naravi in krajinah ter zagotavljanje 
+inovativnih oblik umetniškega izobraževanja.  
+ 
+Portugalska država je eden od ustanoviteljev Fundacije Serralves ob drugih javnih in zasebnih 
+ustanoviteljih. Ključni del Serralves Fundacije pa je »inovativ ni model upravljanja«, ki je 
+pomemben element fundacije  in podpira njene aktivnosti. Upravljanje zato temelji na 
+usklajevanju zasebnih interesov in neod visnosti od politične oblasti, prek delovne 
+metodologije, ki temelji na vzpostavljanju partnerstev z ustanovitelji in na aktivnem 
+sodelovanju z državo, kar vključuje veliko učinkovitost in strogost pri upravljanju sredstev. 
+ 
+
+ 
+ 
+82 
+ 
+4.12.2. Financiranje 
+Celotni prihodek Fundacije je leta 2014 znašal 8.2. milijona evrov. Od leta 2012 se je njihov 
+prihodek zmanjšal za 1.045 milijona evrov predvsem zaradi zmanjšanja sredstev s strani 
+države, ki je svoj prispevek zmanjšala za 1,24 milijona evrov.  
+ 
+Subvencija države, ki je zak onsko dodeljena, predstavlja sredstva, ki so namenjena kritju 
+tekočih stroškov in potrebam za izvajanje zakonskih ciljev ter predstavlja 35,3  % vseh 
+prihodkov Fundacije.  
+ 
+Ob državnih sredstvih , namenjenih za obratovalne stroške , so viri financiranja funda cije in s 
+tem tudi muzeja še: druga državna sredstva (predvsem s strani Ministrstva za kulturo), 
+evropska sredstva, sredstva lokalnih skupnosti, zasebna sredstva (sponzorstva in donacije), 
+tržna dejavnost (oddajanje prostorov, organizacija dogodkov, kultur ni turizem, trgovina, 
+storitve).  
+ 
+ 
+Muzej 
+Druga državna/lokalna 
+finančna sredstva 
+EU Projekti 
+Zasebna sredstva 
+(sponzorstva in 
+donacije) 
+Obratovalna sredstva 
+(Ministrstvo za kulturo) 
+Komerialna dejavnost 
+(oddajane, vstopnine. 
+trgovina...) 
+
+ 
+ 
+83 
+ 
+ 
+Fundacija pripravlja svoje račune glede na Sys-računovodske standarde in ima ustrezen sistem 
+notranjega nadzora v integriranem sys upravljanju, ki sestoji iz niza postopkov in procesov, ki 
+zagotavljajo postopno operativno odličnost. 
+ 
+4.12.3. Zaposlovanje 
+Konec leta 2014 je bilo Fundaciji Serralves zaposlenih 88 oseb. Od leta 2010 se je število 
+zaposlenih zmanjšalo za 9 %. 
+ 
+Kar 61 % zaposlenih ima visoko stopnjo izobrazbe, čeprav kar 46 % zaposlenih predstavlja 
+tehnično osebje. Kustosi in osebje, ki izvaja program, predstavlja 10 % osebja, operativno 
+osebje 20 % in upravljavski kader 24 % zaposlenih.  
+ 
+ 
+ 
+Fundacija ima, glede na podatke, zelo dober sistem izobraževanja in vključevanja 
+prostovoljcev, saj so v svoje delo leta 2014 vključevali 684 prostovoljev (največ so jih 
+vključili v pripravo dogodkov Serralves em Festa in Jesenski Festival). S svojim 
+46 % 
+10 % 
+24 % 
+20 % 
+Število ljudi po oddelkih 
+Tehnično osebje Kustosi in izvajalci programov Upravljavski kader Operativno osebje
+
+ 
+ 
+84 
+ 
+prostovoljskih programom, ki je bil osredotočen na starejše ljudi, so v letu 2014 integrirali 70 
+oseb.  
+ 
+Skozi zadnja leta Serralves spodbujala prostovoljski program z namenom vključevanja 
+prostovoljcev v vse dejavnosti inštitucije: od vstopnih točk, sprejema š olskih skupin, 
+vrtnarjenju, pomoči v knjižnici, pri pripravi dogodkov itn. Delo, ki ga opravlja prostovoljec , 
+je usklajen z njegovimi sposobnostmi, interesnimi področji in potrebami inštitucije.  
+ 
+Po zakonodaji je prostovoljec: 
+Posameznik, ki se zaveže, da bo požrtvovalno in odgovorno ter v skladu s svojimi spretnostmi 
+in v svojem prostem času opravlja l prostovoljna dela (zakon o 71/98 z dne 3. novembra). 
+"Prostovoljstvo je dejavnost, ki je neločljivo povezana z izvajanjem državljanstva, ki se 
+prevaja v spo dbudnem odnosu do drugega, ki sodeluje v prostem  času in organiziran em 
+načinu pri reševanju problemov, ki vplivajo na družbo na splošno.« (Zakonski odlok št 389 / 
+99 30. september). "Prostovolj ec je tisti, ki predlaga, da b o izpolnil določene naloge ali 
+funkcije, ne da bo v to prisiljeni brez kakršne koli materialne koristi v zameno. To je oseba, ki 
+po svoj em državljanskem duhu namenja veliko svojega časa brez kakršne koli odškodnine, 
+različnim dejavnostim varstva ali drug im polem". (The Volunteer Programme  in Portugal is 
+governed by: Law no. 71/98 of 3 November, Decree Law no. 389/99 of September 30 and 
+Decree Law no. 176/2005 of 25 October.) 
+ 
+4.13.  Museu Nacional de Etnologia/ Etnografski muzej13 
+Museu Nacional de Etnologia je nacionalni etnografski muzej s svojim sedežem v Lizboni. 
+ 
+                                                 
+13 Museu Nacional de Etnologia je edini Portugalski muzej, ki se je odzval na prošnjo za sodelovanje v anketi.  
+
+ 
+ 
+85 
+ 
+4.13.1. Osnovni podatki 
+Muzej je na dveh lokacijah , v upravljanju pa ima okoli 40.000 predmetov, zbranih na 
+celinskem in otoškem delu Portugalske, starih kolonijah in v različnih delih sveta. Muzej je 
+bil ustanovljen leta 1965, leta 1990 je postal del Inštituta za muzeje in dobil današnji naziv . 
+Leta 2014 je muzej obiskalo 12.802 oseb.  
+ 
+Muzej je razdeljen v osem oddelkov: management, kadrovska služba, komunikacija, 
+knjižnica, foto in video arhiv, depo (inventory), konserviranje in restavriranje, izobraževalne 
+storitve. 
+ 
+Organigram Museu Nacional de Etnologia 
+ 
+ 
+4.13.2. Financiranje 
+Muzej ne upravlja z lastnim proračunom , vendar  zanj odgovarja direktorat za kulturno 
+dediščino (Direção-Geral do Património Cultural).  
+direktorat za 
+kulturno 
+dediščino 
+direktor muzeja 
+kadrovska služba 
+management 
+komunikacija 
+knjižnica 
+foto in video arhiv 
+depo 
+konserviranje in 
+restavriranje 
+izobraževane 
+storitve 
+
+ 
+ 
+86 
+ 
+ 
+Glavni in ed ini stabilni vir financir anja muzeja so državna sredstva . Muzej občasno pridobi 
+tudi sredstva iz evropskih razpisov in drugih javnih sredstev. Upravičenost stroškov določi 
+država oz. direktorat, ki mu je muzej podrejen. Višina pridobljenih sredstev, ni bila navedena.  
+ 
+ 
+ 
+Komercialna dejavnost muzeja je oddajanje prostora. Vsa sredstva, ki jih muzej pridobi sam 
+(komercialna dejavnost, vstopnina in drugo) , so upravljana s strani državne oblasti in so 
+prerazporejena med vse nacionalne muzeje.  
+ 
+4.13.3. Zaposlovanje 
+V letu 2014 je bilo v muzeju zaposlenih 18 ljudi, od tega je bilo za nedoločen čas zaposlenih 
+16 oseb, 2 sta bili zaposleni za določen čas.  
+ 
+Muzej 
+Državna 
+finančna 
+sredstva 
+Projekti Drugi viri 
+Vstopnina, 
+komerialna 
+dejavnost 
+
+
+ 
+ 
+87 
+ 
+Državna vlada zadnjih nekaj let ne zaposluje javnih uslužbencev. Možno je zaposlovanje za 
+čas trajanja projekta. V ta namen zaposlujejo večinoma osebe , usposobljene oz. z izkušnjami 
+na področju antropologije in konservatorstva. 
+ 
+V Etnografskem muzeju lahko vsakdo postane prostovoljec. Navadno gre za kompromis med 
+interesi prostovoljcev ter potrebami muzeja. Pro stovoljce, ki pridejo v muzej se najprej 
+predstavi osebju ter se jih seznani z zgodovino inštitucije, nato pa se jih pod mentorstvom 
+uvede v njihove naloge. Na koncu se napiše poročilo, ki dokazuje uporabljeno metodologijo 
+in cilje, dosežene v času sodelovanja prostovoljca z muzejem. 
+ 
+ 
+ 
+4.14.  Museu Nacional Ferroviário/ Nacionalni železničarski muzej 
+Nacionalni železničarski muzej je osrednji portugalski muzej , katerega naloga je študij, 
+ohranjanje, predstavitev in promocija zgodovinske in kulturne dediščine po rtugalske 
+železniške tehnologije.  
+ 
+2 
+3 
+3 
+2 
+0 
+3 
+2 
+Število ljudi po oddelkih  
+Management, administracija
+Management zbirk,
+konservacija, raziskovanje
+Tehnično osebje
+Knjižnica in dokumentacija
+Odnosi z javnostmi, marketing,
+izobraževanje
+Vstopna točka, nadzor
+Vzdrževanje, varvanje
+
+ 
+ 
+88 
+ 
+4.14.1. Osnovni podatki 
+Portugalski Nacionalni železničarski muzej je bil ustanovljen leta 2005 kot pravna oseba 
+zasebnega prava, ki bi delovala na področju železniške muzeologije in upravljala z 
+železničarskim premoženjem.  
+ 
+Glavni strateški cilji tega muzeja je izvajanje in spodbujanje nacionalnega železničarskega 
+muzeja, popis, obdelava, razstavljanje in zagotavljanje dostopa javnosti do muzejske zbirke 
+ter arhiviranje, kakor tudi upravljanje manjših muzejev raztresenih po vsej državi. V letu 2013 
+je muzej obiskalo 26.333 obiskovalcev.  
+ 
+Muzej upravlja z 36.000 majhnimi in velikimi objekti, ki sestavljajo muzejsko zbirko.  
+ 
+Muzej ima pet dokumentov, ki vsebujejo standarde in regulative.14 Prvi dokument se nanaša 
+na poslovanje, delovanje muzeja, poslanstva in cilje. Ta dokument določa sedež muzeja, 
+notranjo organizacijo, uradne ure, dostop do zbirk, vprašanja varnosti, opredeljujejo tržno 
+dejavnost, delovanje trgovine in kavarne itn. Drugi dokument je varnostni načrt za muzej . 
+Nato imajo dokument, ki določa , kako ravnati s predmeti, ki pridejo v muzej ali so že del 
+muzejske zbirke. Četrti dokument so standardi za inventar in sestoji iz niza pravil, ki 
+omogočajo znanstveno obravnavo in popis premoženja muzeja glede na njihovo vrsto in 
+specifičnosti. Zadnji dokument vsebuje pravila, merila in postopke za preventivno ohranjanje 
+železničarske dediščine v muzeju. Ta dokument vsebuje identifikacijo zbirke železničarskega 
+muzeja in njenega širjenja po vsej državi, vsebuje ocene tveganj za ohranjevanje predmetov in 
+druga pravila v povezavi z železničarskim sektorjem.  
+ 
+                                                 
+14 Ti dokumenti niso javno dostopni, na spletni strani muzeja je objavljen samo njihov povzetek. 
+
+ 
+ 
+89 
+ 
+Organigram Museu Nacional Ferroviário:  
+ 
+ 
+Upravni odbor 
+Splošni direktor 
+Nacionalni 
+železničarski 
+muzej  
+Komunikacija Servis za goste 
+Muzeologija Inventar 
+Center za 
+dokumentacijoa 
+železničarstva 
+Infrastruktura in 
+varovanje 
+Razvoj in 
+upravljanje 
+projektov 
+Vodstvo 
+kadrovse in 
+finančne službe 
+Tajništvo  
+
+ 
+ 
+90 
+ 
+4.14.2. Financiranje 
+Ni bilo mogoče natančno ugotoviti, k do financira dejavnost muzeja ; glede na ve liko število 
+ustanoviteljev lahko sklepamo, da ti vsaj delno pokrivajo stroške delovanja muzeja.  
+ 
+Iz letnega poročila je bilo mogoče razbrati, da je ustanova v letu 2013 pridobila 263.013,84 € 
+subvencij, te pa naj bi predstavljale 66,2 % vseh prihodkov. Drugih prihodkov (vir ni znan) je 
+bilo v letu 2013 132.263,97 €.  
+ 
+V letu 2013 je muzej sodeloval v dveh evropskih projektih (START  – Seamless Travel across 
+the Atlantic area Regions using sustainable Transport, LoCloud), v šestih projektih 
+financiranih iz nacionalnih strateških programov, ter dveh drugih.  
+ 
+4.14.3. Zaposlovanje 
+V letu 2013 je bilo v muzeju 33 zaposlenih; 2 osebi v vodstvu, 10 oseb je bilo tehnikov, 8 
+oseb je delalo v administraciji, 10 osebje bilo delavcev, 2 osebi sta bili zaposleni kot pomožno 
+osebje. V enem letu se je število zaposlenih zmanjšalo za šest oseb, kar predstavlja 15  % 
+znižanje števila zaposlenih. 
+ 
+Po oddelkih je bilo to osebje razporejeno: 1 oseba  za razvoj in upravljanje projektov, 5 oseb v 
+center za dokumentacijo, 2 osebi za administracijo, 2 osebi kot servisna podpora, 23  oseb za 
+muzej. 
+  
+
+ 
+ 
+91 
+ 
+ 
+ 
+V letu 2013 so v muzeju delali štirje prostovoljci, od tega sta dva delala celo leto.  
+  
+1 
+5 
+5 
+2 23 
+Število ljudi po oddelkih  
+Razvoj in upravljanje projektov
+Center za dokumentacijo
+Administracija
+Servisna podpora
+Muzej
+
+ 
+ 
+92 
+ 
+Sklep 
+ 
+Tako kot se med sabo razlikujejo izbrane države, tako se med seboj razlikuje  tudi njihova 
+muzejska dejavnost in jo je zato težko primerjati med seboj, lahko pa primerjamo statistične 
+podatke glede na število muzejev na prebivalca, število obiskovalcev, povprečni prihodek 
+muzejev, razmerja med muzejskim kadrom itn. 
+ 
+Največje število muzejev na p rebivalca ima Francija (6,10 na 100.000 prebivalcev), 
+najmanjše Češka (4,60 na 100.000 prebivalcev). Največje število registriranih muzejev ima 
+Avstrija (1800 muzejev), najnižje število pa Češka s 486 muzeji. Glede na velikost države ter 
+prepoznavnost njenih muzejev tudi ni presenetljivo, da ima Francija najbolj obiskane muzeje, 
+ti imajo skupaj 63,5 milijona obiskovalcev na leto. Medtem ima Finska v vseh muzejih 5,4 
+milijona obiskovalcev letno.  
+ 
+Češka, Finska, Francija in Portugalska se ne razlikujejo pri sistemu upravljanja in lastništva. 
+V teh državah je lastnik zbirke tudi upravljavec, za razliko od Avstrije, kjer lastnik ni nujno 
+tudi upravljavec. Zaradi sistema muzejske organizacije, ko so lastniki muzejev, še posebno 
+država in deželna oblast, namerno ustanavljali podjetja, ki nato kot pravni subjekt samostojno 
+upravljajo z muzeji , prihaja do razlike med lastniško in upravljavsko strukturo muzejev. 
+Avstrija ima zato tudi najvišji delež (53 %) zasebnih upravljavcev in najnižji delež muzejev (1 
+%), ki so še vedno v upravljanju države ali zvezne pokrajine. Najvišji delež državno 
+upravljanih muzejev ima Portugalska (17  %). Največ lokalno ali regionalno upravljanih 
+muzejev je v Franciji (82  %), vendar je teh veliko tudi na Češkem (72  %) in na Finskem (55  
+%).  
+ 
+
+ 
+ 
+93 
+ 
+ 
+ 
+Vsi muzeji v izbranih državah so vsaj delno financirani iz javnih sredstev, ta pa predstavljajo 
+več kot 60  % celotnega prihodka muzejev. Najvišji delež javnih sredstev prejemajo 
+portugalski muzeji, saj večina muzejev ne oblikuje svojega lastnega prora čuna, državni m 
+muzejem pa prihodki od tržne dejavnosti  niti ne  ostanejo, ampak gredo nazaj k državnim 
+nadzornim organom, ki ta denar nato razdelijo med vse muzeje. Najnižji delež javnih sredstev 
+(66 %) dobivajo avstrijski muzeji, kar je odraz muzejskega upravljavskega sistema, saj muzeji 
+delujejo kot podjetja in so zato na eni strani bolj samostojn i in avtonomn i, kar se tiče 
+finančnega upravljanja, vendar so zato tudi bolj prisiljeni v tržno dejavnost in iskanje drugih 
+virov financiranja. Javna sredstva pre dstavljajo v finskih in francoskih muzejih v povprečju 
+od 76 do 79  % celotnih prihodkov, za češke muzeje pa ni bilo mogoče najti podatkov. V 
+povprečju imajo najvišje prihodke avstrijski muzeji (703.788  €), najnižje muzeji na 
+0
+20
+40
+60
+80
+100
+120
+Avstrija Češka Finska Francija Portugalska
+Zasebni upravljavec
+Drugačna oblika javnega
+upravljanja
+Upravljavec je lokalna ali
+regionalna oblast
+Upravljavec je država ali zvezna
+dežela
+
+ 
+ 
+94 
+ 
+Portugalskem (249.399 €).15 Vstopnine predstavljajo v vseh muzejih majhen delež prihodkov, 
+nekoliko večji delež predstavljajo sredstva , pridobljena z drugimi tržnimi dejavnostmi, kot so 
+oddajanje prostorov, prodaja v muzejskih trgovinah ter sponzorska in donatorska sredstva. 
+ 
+ 
+ 
+Glede na vse osebje, ki dela v muzejih (zaposleni in prostovoljci) ,16 imajo najvišji delež  
+znanstvenega in strokovnega kadra  finski muzeji (35 %), najnižjega ima jo avstrijski (18 %). 
+Najvišji delež muzejskega podpornega kadra ima Portugalska (65  %), najnižjega  pa Finska 
+(26 %). Odstotkovno največ prostovoljcev v muzejsko delovanje vključujejo na Finskem, kar 
+je odraz tudi tega, da je več kot 67 % vseh muzejskih enot odprtih samo čez poletje, te pa so v 
+večini upravljanje s strani prostovoljcev. Najmanj prostovo ljcev dela v čeških muzejih, ti 
+predstavljajo komaj 8 % vsega muzejskega kadra.  
+ 
+                                                 
+15 Povprečje prihodkov je bilo izračunano na podlagi podatkov na spletni strani EGMUS in ni nujno da odražajo 
+realno stanje, saj v to statistiko niso vključeni vsi muzeji po posameznih državah. Povprečni prihodek muzejev v 
+ostalih državah: Finska 680.375 €, Francija 604.987 €, Češka 299.037 €. 
+16 Delež kadrov po posameznih kategorijah je bil izračunan na podlagi podatkov na spletni strani EGMUS in ni 
+nujno, da odraža realno stanje, saj v to statistiko niso vključeni vsi muzeji po po sameznih državah. V to statistiko 
+ni vključena Francija, saj ni bilo mogoče pridobiti potrebnih podatkov. 
+0
+20
+40
+60
+80
+100
+120
+Avstrija Finska Francija
+Druga sredstva
+Vstopnine
+Javna sredstva
+
+ 
+ 
+95 
+ 
+ 
+ 
+Najbolj tržno usmerjeno upravljavsko in finančno politiko v povezavi z muzejsko dejavnostjo 
+ima Avstrija, ki je šla v namerno ustanavljanje podjetij, ki nato kot pravni su bjekt upravljajo s 
+finančnimi sredstvi kot tudi določajo delovanje muzeja na vsebinski ravni. Takšna 
+upravljavska strategija je po mojem mnenju možna predvsem pri velikih muzejskih 
+združenjih, ki lahko s svojo raznoliko ponudbo suvereno nastopajo na tržišču in tako pridobijo 
+velik delež finančnih sredstev za svoje delovanje. Združenja muzejev v večje muzejske 
+korporacije na drugi strani s skupnim in enotnim upravljavskim telesom zmanjšujejo 
+administrativne in upravljavske stroške, ki bi jih sicer nosil vsak posamezni muzej.  
+ 
+Tako kot za avstrijske muzeje je tudi za finske muzeje značilno, da muzej kot enotna upravna 
+celota upravlja z več muzejskimi enotami oz. lokacijami, ki po večini nimajo lastnega osebja 
+in ločenega proračuna. Muzeji, ki so upravičeni za  državno financiranje, dobivajo sredstva, ki 
+se izračunajo na podlagi števila zaposlenih. Stroški muzejske dejavnosti so tako večinoma 
+pokriti z javnim financiranjem.  
+ 
+Portugalski muzeji so najmanj samostojni muzeji. Večina muzejev nima lastnega proračuna , 
+ampak je ta upravljan s strani organov, katerim muzej odgovarja. Višina sredstev, ki jih muzej 
+0
+20
+40
+60
+80
+100
+120
+Avstrija Češka Finska Portugalska
+Prostovoljci
+Podporni kader
+Znanstven in strokovni kader
+
+ 
+ 
+96 
+ 
+dobi, so odvisna od predhodnega letnega poročila in so določena na podlagi stroškov, ki jih je 
+imel muzej predhodno leto. Strokovnjaki v muzejski dejavnosti gl asno opozarjajo, da je ta 
+način financiranja nesprejemljiv, saj povečano trošenje denarja omogoča muzejem, da 
+ohranjajo ali povečujejo svoj proračun. Muzejem tudi ne ostajajo sredstva, ki jih ti pridobijo s 
+profitno dejavnostjo. V primeru državnih muzejev se ti prihodki zbirajo centralizirano, nato 
+pa se po nekakšnem ključu razdelijo med vse muzeje. Vsi muzeji, katerih upravljavec je 
+državna, regionalna ali lokalna oblast , so v prvi vrsti financirani s pomočjo javnih sredstev, 
+vendar ta sredstva ne omogočaj o njihovega dostojnega delovanja. Različna poročila o 
+delovanju muzejev na Portugalskem poročajo o velikih težavah teh muzejev, saj ti zaradi 
+proračunskih omejitev in dezinvestiranja v kulturne dejavnosti v zadnjih desetletjih ne 
+zmorejo več izpolnjevati o snovnih nalog in dejavnosti. Portugalski muzeji tako jasno kažejo , 
+kaj se zgodi, če se nenehno zmanjšuje sredstva, namenjena za kulturo.  
+ 
+Za muzejsko dejavnost v Franciji in na Češkem ni bilo možno najti dovolj podatkov , ki bi 
+odražali splošen sistem upravljanja, financiranja in delovanja, zato ni mogoče podati splošnih 
+ocen. Iz pridobljenih podatkov je razvidno, da so muzeji tudi v teh dveh državah v veliki 
+večini financirani iz javnih sredstev, ki v celoti pokrivajo njihove obratovalne stroške.  
+ 
+Glavna naloga vseh muzejev je varovanje, zbiranje, ohranjanje in predstavljanje dediščine, 
+tega poslanstva ne morejo v celoti izpolnjevati, v kolikor nimajo zadostnih finančnih sredstev, 
+kakor je to mogoče videti pri portugalskih muzejih. Če pa imajo zagotovljena  osnovna 
+sredstva za delovanje in jim  lastne kapacitete in prepozna vnost omogočajo, da pridobijo  
+dodaten denar  iz tržnih dejavnosti , pa se to odraža tudi na njihovi bolj pestri programski 
+ponudbi. 
+  
+
+ 
+ 
+97 
+ 
+Literatura in viri po posameznih državah: 
+EGMUS 
+2015  European Group on Museum Statistics. Dostopno na: 
+http://www.egmus.eu/en/statistics/choose_by_country// 
+ 
+Avstrija 
+ 
+Bentz, Emma, Marlies Raffler 
+2011 National Museums in Austria. V: Peter Aronßon, Gabriella Elgenius (eds). Building 
+National Museums in Europe 1750–2010. Conference proceedings from EuNaMus; European 
+National Museums: Identity Politics; the Uses of the Past and the European Citizen; Bologna 
+28-30 April 2011. Linköping University Electronic Press; Linköpings universitet : Linköping. 
+Dostopno na: http://www.ep.liu.se/ecp_article/index.en.aspx?issue=064;article=003 
+ 
+Bundesmuseen-Gesetz 
+2002 Gesamte Rechtsvorschrift für Bundesmuseen -Gesetz 2002 . Dostopno na: 
+https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=
+20001728 
+ 
+Da Milano, Cristina, Kirsten Gibbs and Margherita Sani (ur.) 
+2009 Volunteers in Museums and Cultural Heritage - A European Handbook . Ljubljana : 
+Slovenian Museum Association. 
+ 
+Hagedorn-Saupe, Monika in Axel Ermert (ur.) 
+2004 Austria. V: Hagedorn-Saupe, Monika in Axel Ermert (ur.), A Guide to Europena 
+Museum Statistics. Berlin: Institut für Museumskunde, Staatliche Museen zu Berlin - 
+Preußischer Kulturbesitz, 13-16. Dostopno na: 
+http://www.egmus.eu/fileadmin/statistics/Dokumente/A_guide_to-
+European_Museum_Statistics.pdf 
+ 
+Kulturstatistik 
+2015 Kulturstatistik 2013. Wien: Statistik Austria Bundesanstalt Statistik Österreich. 
+Dostopno na: 
+http://statistik.at/web_de/services/publikationen/5/index.html?includePage=detailedView&sec
+tionName=Bildung%2C+Kultur&pubId=478 
+ 
+Kunsthistorisches Museum Wien 
+2015 Kunsthistorisches Museum Wien (spletna stran). Dostopno na: http://www.khm.at/ 
+2015a Geschäftsbericht 2014. Wien : KHM-Museumsverband. Dostopno na: 
+http://www.khm.at/entdecken/organisation/geschaeftsfuehrung/ 
+ 
+Museum Moderner Kunst Kärnten 
+2015 Museum Moderner Kunst Kärnten (spletna stran) . Dostopno na: 
+http://www.mmkk.at/30759_DE-MMK-MMKK. 
+ 
+
+ 
+ 
+98 
+ 
+Universalmuseum Joanneum 
+2014  Geschaftsbericht 2014 . Graz: Universalmuseum Joanneum. Dostopno na: 
+https://www.museum-joanneum.at/das-joanneum/unser-betrieb/ueber-das-joanneum/berichte-
+des-universalmuseums-joanneum/geschaeftsbericht-2014 
+2015 Universalmuseum Joanneum  (spletna stran) . Dostopno na: https://www.museum -
+joanneum.at/ 
+ 
+Češka 
+Apor, Péter 
+2011 National Museums in the Czech Republic. V: Peter Aronßon, Gabriella Elgenius (eds). 
+Building National Museums in Europe 1750–2010. Conference proceedings from EuNaMus; 
+European National Museums: Identity Politics; the Uses of the Past and the European Citizen; 
+Bologna 28-30 April 2011. Linköping University Electronic Press; Linköpings universitet : 
+Linköping. Dostopno na: 
+http://www.ep.liu.se/ecp_article/index.en.aspx?issue=064;article=010 
+ 
+Kultura České republiky v číslech 
+2015 Kultura České republiky v číslech: Vybrané údaje ze statistických šetření. NIPOS : 
+Praga. Dostopno na: http://www.nipos-mk.cz/wp-content/uploads/2013/05/1_Kultura-v-
+%C4%8D%C3%ADslech_2015_web.pdf 
+ 
+Muzeum Hlavního Města Prahy 
+2015 Muzeum Hlavního Města Prahy (spletna stran). Dostopno na: 
+http://www.muzeumprahy.cz/ 
+ 
+Národní muzeum 
+2015 Národní muzeum (spletna stran). Dostopno na: http://www.nm.cz/ 
+2015 Raziskovalni vprašalnik. Vrnjen 19. 10. 2015. 
+ 
+Radová, Jana in Jaroslav Novák 
+2011 Statistics of museums, art galleries and memorials 2011. National Information and 
+Consulting centre for Culture, Czech statistical Office Dostopno na: 
+http://www.egmus.eu/uploads/tx_usermusstatistic/Czech_Republic_report_2011.pdf 
+ 
+Regionální muzeum v Českém Krumlově 
+2015 Regionální muzeum v Českém Krumlově (spletna stran). Dostopno na: 
+http://www.muzeumck.cz/ 
+2014 Ročenka Regionálního muzea v Českém Krumlově . Regionální muzeum v Českém 
+Krumlově : Český Krumlov. Dostopno na: http://www.muzeumck.cz/wp-
+content/uploads/2014/07/Rocenka_2014_RMCK_www4.pdf 
+ 
+Strnadová, Zuzana (ur.) 
+2014 Výroční zpráva 2014 . Muzeum hlavního města Prahy : Praga. Dostopno na: 
+http://www.muzeumprahy.cz/vyrocni-zpravy/. 
+ 
+
+ 
+ 
+99 
+ 
+Zákon o ochraně sbírek muzejní povahy  
+2000 Zákon č. 122/2000 Sb., o ochraně sbírek muzejní povahy a o změně některých dalších 
+zákonů, ve znění pozdějších předpisů. Dostopno na: 
+http://www.mkcr.cz/scripts/detail.php?id=806 
+ 
+Finska 
+Finnish Museums Association  
+2015  Finnish Museums Association (spletna stran). Dostopno na: 
+http://www.museot.fi/en.php 
+ 
+Hagedorn-Saupe, Monika in Axel Ermert (ur.) 
+2004 Finland. V: Hagedorn -Saupe, Monika in Axel Ermert (ur.), A Guide to Europena 
+Museum Statistic s. Berlin: Institut für Museumskunde, Staat liche Museen zu Berlin - 
+Preußischer Kulturbesitz, 42 -46. Dostopno na: 
+http://www.egmus.eu/fileadmin/statistics/Dokumente/A_guide_to-
+European_Museum_Statistics.pdf 
+ 
+Kansallisgalleria 
+2015 Kansallisgalleria (spletna stran). Dostopno na: http://www.kansallisgalleria.fi/en/ 
+2014 Annual Report 2014 (spletna stran). Dostopno na: 
+http://vuosikertomus.kansallisgalleria.fi/en/ 
+ 
+Kivilaakso, Aura, Annimari Laakkonen,Eija Liukkonen, Tapani Sainio (ur.) 
+2014 Museotilasto : Finnish Museum Statistics 2014 . Museovirasto : Helsinki. Dostopno na: 
+https://www.museotilasto.fi/tiedostot/museovirasto/files/Museotilasto2014_versio07102015(1
+).pdf 
+ 
+Museolaki 
+2015 Museolaki. Dostopno na: https://www.finlex.fi/fi/laki/ajantasa/1992/19920729 
+ 
+Petterßon, Susanna 
+2011 National Museums in Finland. V: Peter Aronßon, Gabriella Elgenius (eds). Building 
+National Museums in Europe 1750–2010. Conference proceedings from EuNaMus; European 
+National Museums: Identity Politics; the Uses of the Past and the European Citizen; Bologna 
+28-30 April 2011. Linköping University Electronic Press; Linköpings universitet : Linköping. 
+Dostopno na: http://www.ep.liu.se/ecp_article/index.en.aspx?issue=064;article=013 
+ 
+Suomen käsityön museo 
+2015 Suomen käsityön museo (spletna stran). Dostopno na: 
+http://www.craftmuseum.fi/tiedotteet/Vuosikertomus2014.pdf 
+2014 Suomen käsityön museo : Toimintakertomus 2014. Suomen käsityön museo : 
+Jyväskylä. Dostopno na: http://www.craftmuseum.fi/tiedotteet/Vuosikertomus2014.pdf 
+ 
+Suomen Metsästysmuseo 
+2015 Suomen Metsästysmuseo (spletna stran). Dostopno na: http://www.metsastysmuseo.fi/ 
+
+ 
+ 
+100 
+ 
+2015 Toimintakertomus 2014. Dostopno na: 
+http://www.metsastysmuseo.fi/museo/toimintakertomukset/toimintakertomus2014.pdf 
+ 
+Francija 
+Baptiste, Christian (ur.) 
+2014 Rapport d’activité 2014 . Musée de l'Armée : Paris. Dostopno na: http://www.musee-
+armee.fr/lhotel-des-invalides/letablissement-public-du-musee-de-larmee/rapport-
+dactivite.html 
+ 
+Bodenstein, Felicity 
+2011 National Museums in France V: Peter Aronßon, Gabriella Elgenius (eds). Building 
+National Museums in Europe 1750–2010. Conference proceedings from EuNaMus; European 
+National Museums: Identity Politics; the Uses of the Past and the European Citizen; Bologna 
+28-30 April 2011. Linköping University Electronic Press; Linköpings universitet : Linköping. 
+Dostopno na: http://www.ep.liu.se/ecp_article/index.en.aspx?issue=064;article=014 
+ 
+ 
+Chiffres clés 2013 
+2013 Chiffres clés 2013 : Statistiques de la culture . Ministère de la Culture et de la 
+Communication. Dostopno na: http://www.culturecommunication.gouv.fr/Politiques-
+ministerielles/Etudes-et-statistiques/Publications/Collections-d-ouvrages/Chiffres-cles-
+statistiques-de-la-culture/Chiffres-cles-2013 
+ 
+Duranthon, Francis (ur.) 
+2014 Rapport d’activité. Muséum de Toulouse : Toulouse. Dostopno na: 
+http://www.museum.toulouse.fr/documents/10180/101124293/RA-Museum2014.pdf 
+ 
+Hagedorn-Saupe, Monika in Axel Ermert (ur.) 
+2004 France. V: Hagedorn -Saupe, Monika in Axel Er mert (ur.), A Guide to Europena 
+Museum Statistic s. Berlin: Institut für Museumskunde, Staatliche Museen zu Berlin - 
+Preußischer Kulturbesitz, 47 -51. Dostopno na: 
+http://www.egmus.eu/fileadmin/statistics/Dokumente/A_guide_to-
+European_Museum_Statistics.pdf 
+ 
+Musée des Civilisations de l'Europe et de la Méditerranée 
+2015 MUCEM (spletna stran). Dostopno na: http://www.mucem.org/fr 
+2014 Rapport d'activites 2014. MUCEM : Marseil. Dostopno na: 
+http://www.mucem.org/sites/default/files/asset/document/mucem_ra_2014_bd.pdf 
+ 
+Musée de l'Armée 
+2015 Musée de l'Armée (spletna stran). Dostopno na: http://www.musee-
+armee.fr/accueil.html 
+ 
+Muséum de Toulouse 
+
+ 
+ 
+101 
+ 
+2015 Muséum de Toulouse (spletna stran). Dostopno na: 
+http://www.museum.toulouse.fr/accueil 
+ 
+Patrimostat 
+2011 Patrimostat : Frequentation Des musees de France, Des monuments nationaux & des 
+archives de France. Direction générale des patrimoines : Paris. Dostopno na: 
+http://www.culturecommunication.gouv.fr/Politiques-ministerielles/Connaissance-des-
+patrimoines-et-de-l-architecture/Connaissance-des-publics/Publics-et-
+patrimoines/PatrimoStat/Patrimostat-2011 
+ 
+Relative aux musées de France 
+2002 Relative aux musées de France. Dostopno na: 
+http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000769536&categori
+eLien=id 
+ 
+Porugalska 
+Bodenstein, Felicity 
+2011 National Museums in Portugal V: Peter Aronßon, Gabriella Elgenius (eds). Building 
+National Museums in Europe 1750–2010. Conference proceedings from EuNaMus; European 
+National Museums: Identity Politics; the Uses of the Past and the European Citizen; Bologna 
+28-30 April 2011. Linköping University Electronic Press; Linköpings universitet : Linköping. 
+Dostopno na: http://www.ep.liu.se/ecp_article/index.en.aspx?issue=064;article=029 
+ 
+Coelho, João, Carlos Santos 
+2008 The Budgeting of Portuguese Public Museums: a dynamic panel data analysis . 
+Documentos de Trabalho em Economia (Working Papers in Economics) 03, Faculdade de 
+Economia e Gestão, Universidade Católica Portuguesa (Porto). Dostopno na: 
+http://ideas.repec.org/p/cap/wpaper/032008.html  
+ 
+Hagedorn-Saupe, Monika in Axel Ermert (ur.) 
+2004 Austria. V: Hagedorn-Saupe, Monika in Axel Ermert (ur.),  
+A Guide to Europena Museum Statistics. Berlin: Institut für Museumskunde, Staatliche 
+Museen zu Berlin - Preußischer Kulturbesitz, 13-16.  
+ 
+Lei-Quadro dos Museus Portugueses 
+2004 Lei-Quadro dos Museus Portugueses. Dostopno na: 
+http://www.patrimoniocultural.pt/pt/museus-e-monumentos/rede-portuguesa/lei-quadro-dos-
+museus-portugueses/ 
+ 
+Museu de Serralves 
+2015 Museu de Serralves (spletna stran). Dostopno na: http://www.serralves.pt/pt/ 
+2014 Relatório e contas 2014.  Museu de Serralves : Porto. Dostopno na: 
+http://www.serralves.pt/documentos/REC2014/REC2014.pdf 
+ 
+Museu Nacional de Etnologia 
+
+ 
+ 
+102 
+ 
+2015 Museu Nacional de Etnologia (spletna stran).  Dostopno na: 
+https://mnetnologia.wordpress.com/ 
+2015 Raziskovalni vprašalnik. Vrnjen 19.10.2015. 
+ 
+Museu Nacional Ferroviário 
+2015 Museu Nacional Ferroviário (spletna stran). Dostopno na: http://www.fmnf.pt/ 
+2013 Relatório de Actividades e Contas 2013. Fundação Museu Nacional Ferroviário : 
+Entroncamento. Dostopno na: http://www.fmnf.pt/relatorios_de_atividades%20_e_contas 
+ 
+Patrimonio Cultural 
+2015 Patrimonio Cultural : Direção -Geral do Património Cultural . Dostopno na: 
+http://www.patrimoniocultural.pt/en/ 
+ 
+Sousa, Maria Teresa 
+2012  Statistics Portugal : A Guide to European Museum Statistics. Dostopno na: 
+http://www.egmus.eu/uploads/tx_usermusstatistic/1_ReportDraft_EGMUS_PT2011.pdf

@@ -1,0 +1,393 @@
+Strokovna pomoč pri analizi 
+podatkov in metapodatkov ter 
+pripravi metapodatkov, 
+podatkov in storitev 
+ 
+ 
+KONČNO POROČILO 
+ 
+ 
+ 
+Ljubljana, 22. 12. 2017 
+ 
+  
+
+GEODETSKI INŠTITUT SLOVENIJE 
+2 
+ 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+3 
+ 
+PODATKI O PROJEKTU 
+ 
+Naročnik: 
+ 
+Geodetska uprava Republike Slovenije 
+Zemljemerska ulica 12 
+1000 Ljubljana 
+Matična številka: 2482886 
+ID za DDV: SI57410763 
+Račun: SI56 01100-6300109972 
+Odgovorna oseba: Anton Kupic, generalni direktor 
+ 
+Izvajalec: 
+ 
+Geodetski inštitut Slovenije 
+Jamova cesta 2 
+1000 Ljubljana 
+Matična številka: 5051649 
+ID za DDV: SI81498756 
+Račun: 01100-6030348025 
+Odgovorna oseba: Milan Brajnik, direktor 
+ 
+Pogodba: 
+ 
+Naslov pogodbe:  
+Strokovna pomoč pri analizi podatkov in metapodatkov ter pripravi metapodatkov, 
+podatkov in storitev 
+Naročnik: Številka pogodbe: 2552-17-000083 Datum: 11. 10. 2017 
+Izvajalec: Številka pogodbe: P035086/P1  Datum: 13. 10. 2017 
+ 
+Zastopnik 
+ 
+Naročnik: mag. Uroš Mladenović 
+Izvajalec: dr. Dalibor Radovan 
+ 
+Avtorji: 
+Naloga 1: Primož Kete, Vesna Dežman Kete, mag. Igor Karničnik, Jani Demšar 
+Naloga 2: dr. Mihaela Triglav Čekada, Miran Janežič 
+Naloga 3: Katja Tič, Maja Baloh, dr. Dalibor Radovan 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+4 
+ 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+5 
+ 
+KAZALO 
+ 
+ 
+ 
+NALOGA 1: TEHNIČNA PODPORA PRI INVENTARIZACIJI PODATKOV MEJE ..................................... 7 
+1.1 GRAFIČNA OBDELAVA IN GENERALIZACIJA PODATKOV, IZDELAVA ANALIZ IN PREUČEVANJE PODATKOV ....... 7 
+1.2 IZVEDBA POSODOBLJENIH GRAFIČNIH PRIKAZOV V DIGITALNIH ZAPISIH TOPOGRAFSKIH BAZ IN KART, TER 
+PRILAGODITVE IN DOPOLNITVE BAZ PODATKOV ........................................................................................................ 7 
+1.3 IZDELAVA TEHNIČNIH IZRISOV POSAMEZNIH VERZIJI TER ADMINISTRATIVNA PODPORA PRI IZVEDBI 
+INVENTARIZACIJE PODATKOV ................................................................................................................................... 7 
+NALOGA 2: TEHNIČNO-STROKOVNA POMOČ PRI OPREDELITVI PREHODA NA NOV 
+KOORDINATNI SISTEM ....................................................................................................................................... 10 
+NALOGA 3: ANALIZA UPORABNIŠKE IZKUŠNJE PODATKOVNIH PORTALOV.................................. 11 
+PRILOGE .................................................................................................................................................................. 13 
+ 
+ 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  6 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  7 
+NALOGA 1: TEHNIČNA PODPORA PRI INVENTARIZACIJI 
+PODATKOV MEJE 
+1.1 Grafična obdelava in generalizacija podatkov, izdelava analiz in 
+preučevanje podatkov 
+ 
+GI je sodeloval pri pripravi dokumenta »Metodologija za pripravo kartografskih podlag v skladu s 
+končno razsodbo arbitražnega sodišča«. Naročnik je GI posredoval v pregled in dopolnitev dokument, 
+GI pa je za dokument pripravil izbrana slikovna gradiva, dopolnitve besedil in pregled besedila s 
+komentarji. Predstavniki GI so se udeležili treh sestankov M edresorske delovne skupine za pripravo 
+kartografskih podlag v skladu s končno razsodbo arbitražnega sodišča : dne 10.8.2017, 16.8.2017 in 
+11.9.2017. Za sestanke so naročniku pripravili slikovna in podatkovna gradiva, izvajali grafično 
+predstavitev izbranih vsebin in nudili strokovno podporo pri razpravi delovne skupine. 
+ 
+1.2 Izvedba posodobljenih grafičnih prikazov v digi talnih zapisih 
+topografskih baz in kart, ter prilagoditve in dopolnitve baz 
+podatkov 
+ 
+GI je na osnovi podatkov naročnika (parcele ZK na meji z Republiko Hrvaško) dopolnil prvi podatkovni 
+sloj državne meje z Republiko Hrvaško, ki je nastal v sodelovanju GI -MZZ v času od razglasitve 
+razsodbe arbitražnega sodišča. Tako urejen podatkovni sloj državne meje je bil posredovan naročniku 
+pred 1. sestankom Medresorske delovne skupine za pripravo kartografskih podlag v skladu s končno 
+razsodbo arbitražnega sodišča. 
+ 
+V skladu z »Metodologijo za pripravo kartografskih podlag v skladu s končno razsodbo arbitražnega 
+sodišča« je GI izvedel popravke podatkovnega sloja državne meje z Republiko Hrvaško. Na osn ovi 
+podatkovnih virov naročnika (transformirani podatki ZK in odseki meje, kjer mejo predstavljajo 
+topografski objekti (cesta, vodotok)) in ob sodelovanju strokovnih predstavnikov naročnika je izvedel 
+tehnično ureditev podatkovnega sloja državne meje. Poda tkovni sloj državne meje je bil na koncu 
+topološko in geometrijsko urejen, da je primeren za vpis v Evidenco državne meje (zagotovitev 
+enotne usmerjenosti vektorjev državne meje, ureditev zaporednosti odsekov mejne črte od meje na 
+morju, do meje z Madžarsko). 
+ 
+• Priloga 1: Podatkovni sloj državne meje – 3 datoteke Priloga_1_00_meja_20170919_konec 
+(*.shp, *.shx, *.dbf) (oddano le digitalno) 
+ 
+1.3 Izdelava tehničnih izrisov posameznih verziji ter administrativna 
+podpora pri izvedbi inventarizacije podatkov 
+ 
+GI je za  naročnika pripravil več različic kartogr afskih prikazov posameznih odsekov državne meje in 
+celotne državne meje. 
+ 
+a) Kartografski prikazi za potrebe delokroga MOP za potrebe izvedbe arbitražne odločitve. 
+Karte so bile izdelane za 14 izbranih območij. Merilo kartiranja je bilo 1 : 3000. Kot podlaga je bil 
+izbran DOF, na katerem je bila prikazana interpretacija razsodbe arbitražnega sodišča in podatki 
+ZK. 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  8 
+ 
+• Priloga 2: Kartografski prikazi za potrebe delokroga MOP za potrebe izvedbe arbitražne 
+odločitve – datoteka Priloga_2_Award_interpretacija_2017.pdf (oddano le digitalno) 
+ 
+b) Kartografski prikazi za potrebe delovne skupine za implementacijo arbitražne razsodbe. 
+Karte so bile izdelane za 11 izbranih območij. Vsako območje je bilo kartirano v merilu, ki je 
+ustrezalo prikazu območja na listu velikosti A3. Vsako območje je bilo prikazano na dveh 
+podlagah (DOF in DTK50). Pripravljena je bila tudi pregledna karta, na kateri so bila označena 
+izbrana območja. Karte so bili izdelani v dveh iteracijah, v digitalni in tiskani obliki.  
+ 
+• Priloga 3: Kartografski prikazi za potrebe delovne skupine za implementacijo arbitražne 
+razsodbe – datoteka Priloga_3_Izrisi_delovna_skupina_2017.pdf (oddano le digitalno) 
+ 
+ 
+1. iteracija 
+ 
+ 
+ 
+2. iteracija 
+ 
+ 
+ 
+ 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  9 
+c) Kartografski prikazi za potrebe Vl ade – javna objava poteka državne meje med Republiko 
+Slovenijo in Republiko Hrvaško po sodbi arbitražnega sodišča. 
+Karte so bile izdelane za celotno območje državne meje z Republiko Hrvaško. Merilo kartiranja je 
+bilo 1 : 25 000. Območje teritorialnega morj a je bilo prikazano v merilu 1 : 76 000. Vseh kart v 
+velikosti lista A3 je bilo 47. Kot podlaga je bila izbrana karta DTK50. Pripravljena je bila tudi 
+pregledna karta, na kateri so bili označeni posamezni listi kart. 
+ 
+• Priloga 4: Kartografski prikazi za potrebe Vlade – javna objava poteka državne meje med 
+Republiko Slovenijo in Republiko Hrvaško po sodbi arbitražnega sodišča - datoteka 
+Priloga_4_Izrisi_vlada_javnost_2017.pdf (oddano le digitalno) 
+ 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  10 
+NALOGA 2: TEHNIČNO-STROKOVNA POMOČ PRI 
+OPREDELITVI PREHODA NA NOV KOORDINATNI SISTEM 
+ 
+V nalogi 2 smo pregledali osnutek akcijskega načrta za prehod vseh zbirk GURS na nov koordinatni 
+sistem, ki so ga pripravili na GURS. Osnutek smo ažurirali z dejanskim stanjem. Pripravili smo osnutek 
+razpisne dokumentacije za poda tkovne zbirke, ki še niso bile transformirane v nov koordinatni 
+sistem. Obe deli smo koordinirali in usklajevali na sestankih z g. Tomažem Petkom (GURS). Vsebino 
+razpisne dokumentacije smo usklajevali na sestankih dne 25. 5. 2017, 5. 6. 2017 in 15. 6. 2017. 
+ 
+Usklajen akcijski načrt in razpisna dokumentacija sta v prilogah tega poročila. 
+ 
+• Priloga 5: Osnutek splošnega dela razpisne dokumentacije za podatkovne zbirke, ki še niso 
+bile transformirane v nov koordinatni sistem - datoteka Priloga_5_Splosni_del_razpisa.docx 
+• Priloga 6: Osnutek tehničnega dela razpisne dokumentacije za podatkovne zbirke, ki še niso 
+bile transformirane v nov koordinatni sistem - datoteka Priloga_6_Tehnicni_del_razpisa.docx 
+• Priloga 7: Osnutek akcijskega načrta za prehod vseh zbirk GURS na nov državni koordinatni 
+sistem – datoteka Priloga_7_Akcijski_nacrt.xlsx 
+ 
+ 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  11 
+NALOGA 3: ANALIZA UPORABNIŠKE IZKUŠNJE 
+PODATKOVNIH PORTALOV 
+ 
+Portali javne uprave vsebujejo podatke, ki so uporabni tako za organe javne uprave, kot tudi za 
+zasebni sektor, znanos t in javnost. Večina teh podatkov bo skladno z evropsko in nacionalno 
+zakonodajo do leta 2018 postala odprtih (open data). Cilj odpiranja je spodbuditev ponovne uporabe 
+podatkov (re-use), izdelava novih e -storitev (e-services), odpiranje novih delovnih mes t in povečanje 
+transparentnosti delovanja javne uprave ( transparency). To so hkrati tudi posredni cilji teh portalov, 
+ki morajo uporabnikom omogočati predvsem enostaven in prijazen dostop do podatkov. Navedeni 
+parametri so merljivi in jih je potrebno spremljati, saj le tako ugotovimo, če portal podatkov 
+učinkovito opravlja svoje funkcije.  
+ 
+V nalogi je bilo zato izvedeno testiranje uporabniške izkušnje ( user experience, Ux) dveh portalov, ki 
+jih upravlja Geodetska uprava RS, (1) portala Prostor in (2) metapodatkovnega dela Slovenskega 
+geoportala: 
+ 
+• http://www.e-prostor.gov.si/ in 
+• http://prostor4.gov.si/imps/srv/slv/catalog.search#/home.  
+ 
+Izvedena so bila naslednja dela: 
+• pregled obstoječih statistik uporabe podatkov na portalih, 
+• pregled splošnih informacij, ki so na voljo uporabnikom, 
+• pregled pregledovalnikov podatkov (javni in osebni vpogled, PREG), 
+• pregled sistema za odprte podatke (aplikacije za prevzem predhodno pripravljenih podatkov 
+in prosto dostopnih spletnih storitev), 
+• podrobni pregled uporabe in funkcionalnosti storitev, ki je obsegal analizo spletne navigacije 
+na portalih, namena, ciljev, terminologije, vsebine in oblikovanja obeh portalov, 
+• opis objektivnih pomanjkljivosti portalov, 
+• zasnova metodologije in scenarija testiranja uporabniške izkušnje, 
+• testiranje uporabniške izkušnje obeh portalov s testnimi osebami, ki jih je izvajalec izbral v 
+sodelovanju z naročnikom, 
+• analiza rezultatov testiranja ter ugotovitev uporabniških težav in zadovoljstva s portaloma, 
+• poročilo testiranja z napotki za upravljavca portalov. 
+ 
+Rezultati podrobnega pregleda funkcionalnosti ter vsebine obeh portalov (Prostor in  
+metapodatkovni del Slovenskega geoportala) so predstavljeni z opisi ugotovljenih pomanjkljivosti in 
+smernicami za izboljšanje in so dodani  v prilogi 8 tega poročila. 
+ 
+V nadaljevanju so bili v testiranje uporabniške izkušnje vključeni uporabniki portalov in storitev GURS, 
+ki so odgovarjali na spletni vprašalnik. Uporabniško izkušnjo smo testirali in analizirali ločeno za: 
+ 
+• splošno javnost (iskalci informacij oz. podatkov na portalih GURS) in 
+• strokovno javnost (geodeti). 
+ 
+Vprašalnik, ki je bil posredovan splošni javnosti, je v prilogi 9. Primer vprašalnika, ki so ga reševali 
+geodeti, je v prilogi 10. Vsi odgovori test irancev so zbrani in komentirani v prilogi 11 za splošno 
+javnost in v prilogi 12 za strokovno javnost.  
+ 
+ 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  12 
+ 
+TESTIRANJE SPLOŠNA JAVNOST STROKOVNA JAVNOST 
+(Geodeti) 
+Število testirancev 10 8 
+Termin testiranja December 2017 December 2017 
+Čas za testiranje na osebo 1h 1h 
+ 
+ 
+V sklopu naloge smo imeli informativni sestanek z zavarovalnico Generali (g. Aleš Kavčič), ki uporablja 
+podatke in storitve GURS pri svojih poslovnih procesih. Kontakt nam je posredoval naročnik ob 
+pričetku projekta. Zapisnik sestanka je v prilogi 13. 
+ 
+Seznam prilog tega poglavja: 
+ 
+• Priloga 8: Analiza uporabniške izkušnje podatkovnih portalov GURS - datoteka 
+Priloga_8_Analiza_uporabniske_izkusnje_podatkovnih_portalov.docx 
+• Priloga 9: Vprašalnik za testiranje uporabniške izkušnje za splošno javnost - datoteka 
+Priloga_9_Vprasalnik_Splosna_javnost.docx 
+• Priloga 10: Vprašalnik za testiranje uporabniške izkušnje za geodete - datoteka 
+Priloga_10_Vprasalnik_Geodeti.docx  
+• Priloga 11: Odgovori na vprašalnik za testiranje uporabniške izkušnje za splošno javnost - 
+datoteka Priloga_11_Odgovori_Splosna_javnost.docx 
+• Priloga 12: Odgovori na vprašalnik za testiranje uporabniške izkušnje za geodete - datoteka 
+Priloga_12_Odgovori_Geodeti.docx 
+• Priloga 13: Zapisnik sestanka in anketiranja na Zavarovalnici Generali - datoteka 
+Priloga_13_Zapisnik_sestanka_Zavarovalnica_Generali.docx 
+ 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  13 
+PRILOGE 
+ 
+Seznam prilog: 
+ 
+• Priloga 1: Podatkovni sloj državne meje – 3 datoteke Priloga_1_00_meja_20170919_konec 
+(*.shp, *.shx, *.dbf) (oddano le digitalno) 
+• Priloga 2: Kartografski prikazi za potrebe delokroga MOP za potrebe izvedbe arbitražne 
+odločitve – datoteka Priloga_2_Award_interpretacija_2017.pdf (oddano le digitalno) 
+• Priloga 3: Kartografski prikazi za potrebe delovne skupine za implementacijo arbitražne 
+razsodbe – datoteka Priloga_3_Izrisi_delovna_skupina_2017.pdf (oddano le digitalno) 
+• Priloga 4: Kartografski prikazi za potrebe Vlade – javna objava poteka državne meje med 
+Republiko Slovenijo in Republiko Hrvaško po sodbi arbitražnega sodišča - datoteka 
+Priloga_4_Izrisi_vlada_javnost_2017.pdf (oddano le digitalno) 
+• Priloga 5: Osnutek splošnega dela razpisne dokumentacije za podatkovne zbirke, ki še niso 
+bile transformirane v nov koordinatni sistem - datoteka Priloga_5_Splosni_del_razpisa.docx 
+• Priloga 6: Osnutek tehničnega dela razpisne dokumentacije za podatkovne zbirke, ki še niso 
+bile transformirane v nov koordinatni sistem - datoteka Priloga_6_Tehnicni_del_razpisa.docx 
+• Priloga 7: Osnutek akcijskega načrta za prehod vseh zbirk GURS na nov državni koordinatni 
+sistem – datoteka Priloga_7_Akcijski_nacrt.xlsx 
+• Priloga 8: Analiza uporabniške izkušnje podatkovnih portalov GURS - datoteka 
+Priloga_8_Analiza_uporabniske_izkusnje_podatkovnih_portalov.docx 
+• Priloga 9: Vprašalnik za testiranje uporabniške izkušnje za splošno javnost - datoteka 
+Priloga_9_Vprasalnik_Splosna_javnost.docx 
+• Priloga 10: Vprašalnik za testiranje uporabniške izkušnje za geodete - datoteka 
+Priloga_10_Vprasalnik_Geodeti.docx  
+• Priloga 11: Odgovori na vprašalnik za testiranje uporabniške izkušnje za splošno javnost - 
+datoteka Priloga_11_Odgovori_Splosna_javnost.docx 
+• Priloga 12: Odgovori na vprašalnik za testiranje uporabniške izkušnje za geodete - datoteka 
+Priloga_12_Odgovori_Geodeti.docx 
+• Priloga 13: Zapisnik sestanka in anketiranja na Zavarovalnici Generali - datoteka 
+Priloga_13_Zapisnik_sestanka_Zavarovalnica_Generali.docx 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  14 
+Oddano le digitalno: 
+ 
+ 
+Priloga 1: Podatkovni sloj državne meje  
+– 3 datoteke Priloga_1_00_meja_20170919_konec (*.shp, *.shx, *.dbf)  
+ 
+ 
+Priloga 2: Kartografski prikazi za potrebe delokroga MOP za 
+potrebe izvedbe arbitražne odločitve  
+– datoteka Priloga_2_Award_interpretacija_2017.pdf  
+ 
+ 
+Priloga 3: Kartografski prikazi za potrebe delovne skupine za 
+implementacijo arbitražne razsodbe  
+– datoteka Priloga_3_Izrisi_delovna_skupina_2017.pdf  
+ 
+ 
+Priloga 4: Kartografski prikazi za potrebe Vlade – javna objava 
+poteka državne meje med Republiko Slovenijo in Republiko 
+Hrvaško po sodbi arbitražnega sodišča  
+- datoteka Priloga_4_Izrisi_vlada_javnost_2017.pdf  
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  15 
+Priloga 5: Osnutek splošnega dela razpisne dokumentacije za 
+podatkovne zbirke, ki še niso bile transformirane v nov 
+koordinatni sistem  
+- datoteka Priloga_5_Splosni_del_razpisa.docx 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  16 
+Priloga 6: Osnutek tehničnega dela razpisne dokumentacije za 
+podatkovne zbirke, ki še niso bile transformirane v nov 
+koordinatni sistem  
+- datoteka Priloga_6_Tehnicni_del_razpisa.docx 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  17 
+Priloga 7: Osnutek akcijskega načrta za prehod vseh zbirk GURS 
+na nov državni koordinatni sistem  
+– datoteka Priloga_7_Akcijski_nacrt.xlsx 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  18 
+Priloga 8: Analiza uporabniške izkušnje podatkovnih portalov 
+GURS  
+- datoteka Priloga_8_Analiza_uporabniske_izkusnje_podatkovnih_portalov.docx 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  19 
+Priloga 9: Vprašalnik za testiranje uporabniške izkušnje za 
+splošno javnost  
+- datoteka Priloga_9_Vprasalnik_Splosna_javnost.docx 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  20 
+Priloga 10: Vprašalnik za testiranje uporabniške izkušnje za 
+geodete  
+- datoteka Priloga_10_Vprasalnik_Geodeti.docx  
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  21 
+Priloga 11: Odgovori na vprašalnik za testiranje uporabniške 
+izkušnje za splošno javnost  
+- datoteka Priloga_11_Odgovori_Splosna_javnost.docx 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  22 
+Priloga 12: Odgovori na vprašalnik za testiranje uporabniške 
+izkušnje za geodete  
+- datoteka Priloga_12_Odgovori_Geodeti.docx 
+
+GEODETSKI INŠTITUT SLOVENIJE 
+  23 
+Priloga 13: Zapisnik sestanka in anketiranja na Zavarovalnici 
+Generali  
+- datoteka Priloga_13_Zapisnik_sestanka_Zavarovalnica_Generali.docx

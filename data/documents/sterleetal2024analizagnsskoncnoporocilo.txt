@@ -1,0 +1,1093 @@
+ANALIZA DELOVANJA GNSS OMREŽIJ 
+Končno poročilo 
+ 
+ 
+ 
+Programska rešitev in izračun: 
+doc. dr. Oskar Sterle 
+doc. dr. Polona Pavlovčič Prešeren 
+asist. Klemen Ritlop 
+ 
+Poročilo: 
+doc. dr. Oskar Sterle 
+doc. dr. Polona Pavlovčič Prešeren 
+prof. dr. Bojan Stopar 
+asist. Klemen Ritlop 
+ 
+ 
+Ljubljana, 28. 11. 2024 
+ 
+ 
+Univerza v Ljubljani Fakulteta za gradbeništvo in geodezijo (UL FGG) 
+Jamova c. 2, p.p. 3422, 1001 Ljubljana, tel.: +386 1 47 68 500, e-pošta: tajnistvo@fgg.uni-lj.si, www.fgg.uni-lj.si 
+
+
+PODATKI O PROJEKTU: 
+ 
+Naročnik: 
+ 
+Geodetska uprava Republike Slovenije 
+Zemljemerska ulica 12 
+1000 Ljubljana 
+Odgovorna oseba:    Tomaž Petek, generalni direktor 
+ 
+Izvajalec: 
+ 
+Univerza v Ljubljani, Fakulteta za gradbeništvo in geodezijo 
+Jamova cesta 2 
+1000 Ljubljana 
+Davčna številka:    98643339 
+Račun:       01100-6030708865 
+Odgovorna oseba:    prof. dr. Violeta Bokan-Bosiljkov, dekanja 
+Vodja projekta:     doc. dr. Oskar Sterle 
+ 
+Pogodba: 
+ 
+Naslov pogodbe:  
+Pogodba št. 2562-23-000078 Analiza delovanja GNSS omrežij. 
+Datum: 13. 10. 2023  
+ 
+Zastopniki pogodbe: 
+ 
+Vodja projekta:      doc. dr. Oskar Sterle 
+ 
+Sodelujoči v projektu: 
+ 
+doc. dr. Oskar Sterle 
+doc. dr. Polona Pavlovčič Prešeren 
+prof. dr. Bojan Stopar 
+asist. Klemen Ritlop 
+ 
+ 
+ 
+
+i 
+ 
+KAZALO VSEBINE 
+UVOD 1 
+1 NALOGA 1: IZRAČUNAVANJE DNEVNIH KOORDINAT POSTAJ MREŽE 
+NIČTEGA REDA IN OMREŽJA SIGNAL 3 
+1.1 POSTOPEK OBDELAVE OPAZOVANJ GNSS ZA IZRAČUN DNEVNIH REŠITEV KOORDINAT 5 
+1.2 DNEVNE REŠITVE KOORDINAT 6 
+1.2.1 Dnevne rešitve koordinat – Bernese GNSS Software, Version 5.4 6 
+1.2.2 Dnevne rešitve koordinat – metoda PPP 7 
+2 NALOGA 2: VZPOSTAVITEV ČASOVNE VRSTE KOORDINAT POSTAJ, 
+VEKTORJEV HITROSTI IN ANALIZA NJIHOVE KAKOVOSTI 8 
+2.1 ČASOVNE VRSTE KOORDINAT – METODA PPP 9 
+2.1.1 Časovne vrste koordinat postaj GNSS omrežja EPN 9 
+2.1.2 Časovne vrste koordinat postaj GNSS mreže ničtega reda 14 
+2.1.3 Časovne vrste koordinat postaj GNSS omrežja SIGNAL 17 
+2.2 ČASOVNE VRSTE KOORDINAT – PROGRAM BERNESE GNSS SOFTWARE, VERSION 5.4 20 
+2.2.1 Časovne vrste koordinat postaj GNSS omrežja EPN 20 
+2.2.2 Časovne vrste koordinat postaj GNSS mreže ničtega reda 21 
+2.2.3 Časovne vrste koordinat postaj GNSS omrežja SIGNAL 23 
+2.3 IZRAČUN VEKTORJEV HITROSTI IN ANALIZA KAKOVOSTI 25 
+2.3.1 Analiza kakovosti rezultatov referenčnih postaj GNSS omrežja EPN 27 
+2.3.2 Analiza kakovosti državnega koordinatnega sistema D96-17 30 
+2.3.3 Geokinematski model Slovenije 33 
+3 NALOGA 3: PRIPRAVA TEHNIČNE REŠITVE ZA IZVEDBO PONOVNEGA 
+IZRAČUNA DNEVNIH KOORDINAT 37 
+4 ZAKLJUČEK 39 
+LITERATURA 41 
+ 
+
+ii 
+ 
+KAZALO SLIK 
+Slika 1: Postaje GNSS mreže ničtega reda in omrežja SIGNAL ...................................................................4 
+Slika 2: Referenčne postaje GNSS omrežja EPN ..........................................................................................5 
+Slika 3: Časovne vrste koordinat PPP postaje BAIA, zgoraj pred modeliranjem letnega periodičnega 
+signala, spodaj po modeliranju periodičnega signala ...........................................................................10 
+Slika 4: Časovne vrste koordinat PPP postaje GRAZ, zgoraj pred modeliranjem letnega periodičnega 
+signala, spodaj po modeliranju periodičnega signala ...........................................................................11 
+Slika 5: Časovne vrste koordinat PPP postaje JOZE, zgoraj pred modeliranjem letnega periodičnega 
+signala, spodaj po modeliranju periodičnega signala ...........................................................................12 
+Slika 6: Časovne vrste koordinat PPP postaje WSRT, zgoraj pred modeliranjem letnega periodičnega 
+signala, spodaj po modeliranju periodičnega signala ...........................................................................13 
+Slika 7: Kakovost časovnih vrst postaj GNSS omrežja EPN – metoda PPP ...............................................13 
+Slika 8: Časovne vrste koordinat PPP postaj ARA1 (zgoraj) in ARA2 (spodaj) pred modeliranjem 
+letnega periodičnega signala ................................................................................................................14 
+Slika 9: Časovne vrste koordinat PPP postaj ARA1 (zgoraj) in ARA2 (spodaj) po modeliranju letnega 
+periodičnega signala .............................................................................................................................15 
+Slika 10: Časovne vrste koordinat PPP postaj STA1 (zgoraj) in STA2 (spodaj) po modeliranju letnega 
+periodičnega signala .............................................................................................................................16 
+Slika 11: Kakovost časovnih vrst postaj GNSS mreže ničtega reda – metoda PPP ....................................17 
+Slika 12: Časovne vrste koordinat PPP postaje IDRI po modeliranju letnega periodičnega signala ..........17 
+Slika 13: Časovne vrste koordinat PPP postaj ILIB, ZABO, DELN in LEND po modeliranju letnega 
+periodičnega signala .............................................................................................................................19 
+Slika 14: Kakovost časovnih vrst postaj GNSS omrežja SIGNAL – metoda PPP ......................................19 
+Slika 15: Časovne vrste koordinat Bernese postaje BAIA po modeliranju periodičnega signala ................20 
+Slika 16: Časovne vrste koordinat Bernese postaje WTZR po modeliranju periodičnega signala ..............21 
+Slika 17: Kakovost časovnih vrst postaj GNSS omrežja EPN - Bernese .....................................................21 
+Slika 18: Časovne vrste koordinat Bernese postaj KDA1 (zgoraj), KDA2 (sredina) in KGA1 (spodaj) 
+po modeliranju periodičnega signala ...................................................................................................22 
+Slika 19: Kakovost časovnih vrst postaj GNSS mreže ničtega reda - Bernese ............................................23 
+Slika 20: Časovne vrste koordinat Bernese postaje IDRI po modeliranju periodičnega signala .................23 
+Slika 21: Časovne vrste koordinat Bernese postaj ILIB (zgoraj), LEND (sredina) in ZABO (spodaj) po 
+modeliranju periodičnega signala ........................................................................................................24 
+Slika 22: Kakovost časovnih vrst postaj GNSS omrežja SIGNAL - Bernese ..............................................25 
+Slika 23: Horizontalne komponente vektorjev hitrosti postaj GNSS omrežja EPN v ITRF2020 ...............26 
+
+iii 
+ 
+Slika 24: Horizontalne komponente vektorjev hitrosti postaj GNSS omrežja SIGNAL in mreže ničtega 
+reda v ITRF2020 ..................................................................................................................................27 
+Slika 25: Primerjava horizontalnih komponent položajev in hitrosti postaj omrežja EPN, referenčne 
+vrednosti in rezultati programa Bernese GNSS Software, Version 5.4 ..............................................28 
+Slika 26: Primerjava višinske komponente položajev in hitrosti postaj omrežja EPN, referenčne 
+vrednosti in rezultati programa Bernese GNSS Software, Version 5.4 ..............................................28 
+Slika 27: Primerjava horizontalnih komponent položajev in hitrosti postaj omrežja EPN, referenčne 
+vrednosti in rezultati metode PPP .......................................................................................................29 
+Slika 28: Primerjava višinske komponente položajev in hitrosti postaj omrežja EPN, referenčne 
+vrednosti in rezultati metode PPP .......................................................................................................29 
+Slika 29: Razlika izračunanih in uradnih koordinat postaj omrežja SIGNAL in mreže ničtega reda ........31 
+Slika 30: Prikaz razlik izračunanih in uradnih koordinat postaj omrežja SIGNAL ter mreže ničtega 
+reda – horizontalna ravnina ................................................................................................................32 
+Slika 31: Prikaz razlik izračunanih in uradnih koordinat postaj omrežja SIGNAL ter mreže ničtega 
+reda – višina .........................................................................................................................................32 
+Slika 32: Vektorji hitrosti v horizontalni ravnini postaj omrežja SIGNAL in mreže ničtega reda v 
+ETRF2020 ............................................................................................................................................33 
+Slika 33: Vektorji hitrosti višinske komponente postaj omrežja SIGNAL in mreže ničtega reda v 
+ETRF2020 ............................................................................................................................................34 
+Slika 34: Vektorji hitrosti ničelnega horizontalnega geokinematskega modela območja Slovenije ..............35 
+Slika 35: Vektorji hitrosti ničelnega višinskega geokinematskega modela območja Slovenije .....................35 
+ 
+  
+
+iv 
+ 
+KAZALO PREGLEDNIC 
+Preglednica 1: Primerjava med koordinatami EPN in našimi rešitvami koordinat postaj 
+omrežja SIGNAL .......................................................................................................................... 30 
+Preglednica 2: Primerjava med komponentami vektorjev hitrosti EPN in našimi rešitvami 
+koordinat postaj omrežja SIGNAL ............................................................................................... 30 
+ 
+ 
+
+1 
+ 
+Uvod 
+Leta 2016 so se začela dela za vzpo stavitev Analitičnega centra GNSS v Sloveniji, sprva v okviru 
+projekta »Analitični center mreže 0. reda in njen vpliv na geodetski referenčni sistem«, nato nadaljevala v 
+sklopu Službe za GNSS, in sicer kot »Sklop 3: Analitični del delovanja GNSS-omrežij 2018«, leta 2019 pa 
+kot samostojen projekt »Analitični del delovanja GNSS omrežij«. V tem času je bilo izdelanih devet (9) 
+poročil, in sicer: 
+ 1. vmesno poročilo, oddano marca 2017, za obdobje obdelanih opazovanj od 21.  8. 2016 do 
+4. 3. 2017 (GPS-tedni: 1911–1931) (Sterle & Stopar, 2017A) – projekt: »Analitični center mreže 0. 
+reda in njen vpliv na geodetski referenčni sistem«, 
+ 1. končno poročilo, oddano novembra 2017, za obdobje obdelanih opazovanj od 21. 8. 2016 do 
+19. 8. 2017 (GPS-tedni: 1911–1962) (Sterle & Stopar, 2017B)– projekt: »Analitični center mreže 0. 
+reda in njen vpliv na geodetski referenčni sistem«, 
+ 2. vmesno poročilo, oddano julija 2018, za obdobje obdelanih opazovanj od 20.  8. 2017 do 
+25. 11. 2017 za rezultate programa Bernese GPS Software, Version 5.2 in do 12.  5. 2018 za 
+rezultate programa gPPP (Sterle & Stopar, 2018A)  – projekt: »Sklop 3: Analitični del delovanja 
+GNSS-omrežij 2018«, 
+ 2. končno poročilo, oddano novembra 2018, za obdobje obdelanih opazovanj od 21. 8. 2016 do 
+18. 8. 2018 (GPS-tedni: 1911–2014) (Sterle & Stopar, 2018B)  – projekt: »Sklop 3: Analitični del 
+delovanja GNSS-omrežij 2018«, 
+ 3. vmesno poročilo, oddano julija 2019, za obdobje obdelanih opazovanj od 19.  8. 2018 do 
+13. 10. 2018 za programski paket Bernese in do 10.  5. 2019 za p rogramska paketa gPPP in 
+gDPos (Sterle & Stopar, 2019A) – projekt: »Analitični del delovanja GNSS omrežij« (2019), 
+ 3. končno poročilo, oddano novembra 2019, za obdobje obdelanih opazovanj od 21. 8. 2016 do 
+17. 8. 2019 (GPS-tedni: 1911–2066) (Sterle & Stopar, 2019B)  – projekt: »Analitični del delovanja 
+GNSS omrežij« (2019), 
+ 4. končno poročilo, oddano v novembru 2021, za obdobje obdelanih podatkov od 21. 8. 2016 do 
+20. 3. 2021 (GPS-tedni: 1911–2149) za programski paket Bernese GNSS Software, Version 5.2 
+in od 27. 12. 2009 do 10. 7. 2021 (GPS-tedni: 1546–2165) za programske pakete gPPP, gDDPos, 
+gDSet in gNet (razviti na Univerzi v Ljubljani Fakulteti za gradbeništvo in geodezijo (UL 
+FGG)) (Sterle, Stopar, & Pavlovčič Prešeren, 2021)  – projekt: »Analitični del delovanja GNSS 
+omrežij« (2021). 
+ 4. vmesno poročilo, oddano novembra 2022, za obdobje obdelanih podatkov od 21. 8. 2016 do 
+20. 3. 2021 (GPS -tedni: 1911–2149) za programski paket Bernese GNSS Software, Version 5.2 
+in od 27. 12. 2009 do 10. 7. 2021 (GPS-tedni: 1546–2165) za programske pakete gPPP, gDDPos, 
+gDSet in gNet (razviti na Univerzi v Ljubljani Fakulteti za gradbeništvo in geodezijo (UL 
+FGG)) (Sterle, Ritlop, Stopar, & Pavlovčič Prešeren, 2022). 
+
+2 
+ 
+ 5. končno poročilo, oddano v marcu 2022, ki vsebuje koncept ualno in praktično posodobitev 
+obdelave opazovanj GNSS v okviru izračunavanja dnevnih rešitev, tako s programskim 
+paketom Bernese GNSS Software, Version 5.4, kot tudi za programske rešitve gPPP, gDDPos, 
+gDSet in gNet (razviti na Univerzi v Ljubljani Fakult eti za gradbeništvo in geodezijo (UL 
+FGG)) (Sterle, Pavlovčič Prešeren, Stopar, & Ritlop, 2023). 
+Vsa dela do zadnjih dveh poročil (vmesnega in končnega poročila) so obsegala rezultate 
+avtomatizirane obdelave opazovanj GNSS izra čuna dnevnih koordinat vseh postaj GNSS v 
+globalnem referenčnem sistemu, pridobitev časovnih vrst koordinat in izračun referenčnih 
+koordinat v referenčni epohi s pripadajočim vektorjem hitrosti. 
+Zadnji dve poročili pa opisujeta nadgradnjo postopkov avtomat izirane obdelave, s čimer smo 
+odpravili oziroma upoštevali številne dejavnike, ki so povzročali spremembe v časovnih vrstah 
+koordinat. Ti dejavniki so od sprememb imen postaj GNSS, do dejanskih premikov postaj zaradi 
+premika točke ali zaradi vpliva posegov  v okolici postaje, do navideznih premikov postaj zaradi 
+zamenjave opreme GNSS, vsem pa je skupno to, da povzročajo nenadne skoke ali spremembe 
+naklonov časovnih vrst postaj. Spremembe koordinat so bile tudi nelinearne, kot pri mareografski 
+postaji Koper. 
+Pričujoče poročilo vsebuje dela, ki so bila dogovorjena v okviru projekta » Analiza delovanja GNSS 
+omrežij« in je sestavljeno iz treh nalog, ki so opredeljene v tehničnem delu pogodbe: 
+1. naloga: Izračunavanje dnevnih koordinat postaj mreže ničtega reda in omrežja SIGNAL. 
+2. naloga: Vzpostavitev časovne vrste koordinat postaj v mreži ničtega reda in omrežju 
+SIGNAL, izračun vektorjev hitrosti in analiza njihove kakovosti. 
+3. naloga: Priprava tehnične rešitve za izvedbo ponovnega izračuna dnevnih koordinat postaj 
+mreže ničtega reda in omrežja SIGNAL za arhivske podatke (Repro-3). 
+ V okviru poročila opisujemo postopke in rezultate vseh obdelav. Naročniku na dan oddaje poročila 
+oddamo tudi ključek USB, na katerem bodo vsi rezultati obdelave. Opis rezultatov na ključu USB 
+po predstavljen v posameznih poglavjih v nadaljevanju poročila. 
+ 
+  
+
+3 
+ 
+1 Naloga 1: Izračunavanje dnevnih koordinat postaj 
+mreže ničtega reda in omrežja SIGNAL 
+Časovno obdobje izračunanih dnevnih rešitev koordinat je od 21. 3. 2021 (80. dan leta 2021, GPS 
+teden 2150) do vključno 23. 3. 2024 (83. dan v letu 2024, GPS teden 2306). Skupno to pomeni 1099 
+zaporednih dni. V obdelavo smo vključili vse postaje mreže ničtega reda in omrežja SIGNAL, torej: 
+ Postaje GNSS mreže ničtega reda : Areh vzhod in zahod (ARA1 in ARA2),  Koper (KOPE), 
+Korada vzhod in zahod (KDA1 in KDA2), Prilozje vzhod in zahod (PZA1 in PZA2) in Šentvid 
+pri Stični vzhod in zahod (STA1 in STA2). 
+ Postaje omrežja SIGNAL: 
+o Na območju Slovenije: Bodonci (BODO), Bovec (BOVC), Brežice (BRZC), Celje (CELJ), 
+Črnomelj (CRNM), Idrija (IDRI), Ilirska Bistrica (ILIB), Koper (KOPR), Ljubljana 
+(GSR1), Lendava (LEND), Maribor (MRBR), Nova Gorica (NOVG), Ptuj (PTUJ), 
+Radovljica (RDVL), Slovenj Gradec (SLOG) in Trebnje (TRBN). 
+o Na območju Avstrije : Bleiburg/Pliberk (BLEI), D eutchlandsberg/Lonč (DLBG), 
+Feldbach/Vrbna (FLDB), Klagenfurt/Celovec (KLAG), Landskron/Vajškra (LANK), 
+Villach/Beljak (VLCH) in Völkermarkt/Velikovec (VLKM). 
+o Na območju Italije: Cervignano del Friuli/Červinjan (RCER), Moggio Udinese/Možnica 
+(RMOG) in Udine/Videm (RUDI). 
+o Na območju Hrvaške: Čakovec (CAKO), Delnice (DELN), Karlovac/Karlovec (KARL), 
+Poreč (PORE), Rijeka/Reka (RIJE) in Zabok (ZABO). 
+o Na območju Madžarske: Zalaegerszeg/Jageršek (ZALA in ZZON).  
+Slika 1 prikazuje lokacijo vseh postaj GNSS mreže ničtega reda in omrežja SIGNAL. 
+
+4 
+ 
+ 
+Slika 1: Postaje GNSS mreže ničtega reda in omrežja SIGNAL 
+Lokacije vseh uporabljenih postaj GNSS omrežja EPN, ki nam zagotavljajo geodetski datum , so 
+prikazane na slik i 2. Z  modro so označene postaje, ki so zagotavljale geodetski datum že pred 
+prenovitvijo koncepta obdelave (Sterle, Pavlovčič Prešeren, Stopar, & Ritlop, 2023), z rdečo pa nove 
+postaje, ki dodatno zagotavljajo geodetski datum s prenovitvijo, torej od začetka leta 2021 naprej (za 
+obdobje dnevnih izračunov pričujočega poročila).  Skupno geodetski datum zagotavlja  18 postaj 
+GNSS na 15-ih lokacijah, ki so locirane v širši okolici Slovenije.  
+ 
+
+
+5 
+ 
+ 
+Slika 2: Referenčne postaje GNSS omrežja EPN 
+1.1 Postopek obdelave opazovanj GNSS za izračun dnevnih 
+rešitev koordinat 
+Tako kot smo se pri izbiri referenčnih postaj GNSS naslonili na omrežje EPN in njegove produkte, 
+smo tudi postopek obdelave opazovanj GNSS povzeli po priporočilih obdelave opazovanj GNSS 
+analiznih centrov GNSS (EPN-Guidelines, 2023) . Večino priporočil smo upoštevali že pri 
+predhodnih obdelavah, so se pa v zadnjih letih pojavile številne nadgradnje i n spremembe pri 
+GNSS, predvsem v povezavi s službo IGS (https://igs.org/). Ključni koraki obdelave opazovanj 
+GNSS na dnevni osnovi so: 
+ Podatki: uporabi se format RINEX 3.xx ali 4.xx, uporablja se tudi dolga imena vseh produktov 
+službe IGS in/ali EPN (npr. precizne efemeride , parametri rotacije Zemlje, model ionosfere 
+itd.). 
+ Opazovanja: Uporabi se dvo-frekvenčna opazovanja GNSS treh satelitskih sistemov, in sicer 
+GPS, GLONASS in Galileo. 
+ Modeliranje: Uporablja se samo še tips ke (ne več individualnih) kalibracij anten 
+sprejemnikov. Uporabi se samo tista opazovanja GNSS, za katera so podani kalibracijskih 
+parametri, to pomeni, da se ne sme več uporabiti kalibracijsk ih parametrov GPS za 
+opazovanja GLONASS ali Galileo. Model tropo sfere je  GPT3 s projekcijsko komponento  
+VMF3. Za modeliranje vpliva plimovanja oceanov na položaje točk se uporabi model 
+FES2014b. 
+ Referenčni sestav: Uporabi se ITRF2020. 
+
+
+6 
+ 
+Spremljajoči podatki, ki smo jih uporabili pri obdelavi so podani v mapah ključka USB . Le-ti so 
+podani v mapi 1_DatotekeObdelave, in vsebujejo: 
+ Splošno (mapa 1_DatotekeObdelave): 
+o Koordinate referenčnih postaj omrežja EPN v koordinatnem sistemu IGb14: 
+EPN_IGb14.SSC 
+o Podatki nezveznosti postaj omrežja EPN: EPN_discontinuities.snx 
+o Model plimovanja oceanov za vse postaje GNSS: SIPROC.blq 
+o Datoteka preimenovanja postaj GNSS: GPT_RENAMINGS.txt 
+o Podatki nezveznosti vseh postaj GNSS, z vključenimi nezveznostmi postaj omrežja 
+EPN: GPT_INTERVALS.txt 
+ Programski paket Bernese GNSS Software, Version 5.4  (mapa 
+1_DatotekeObdelave/1_BSW54): 
+o Koordinate in hitrosti referenčnih postaj GNSS v IGb14: IGS14_R.CRD in 
+IGS14_R.VEL 
+o Koordinate in hitrosti vseh ostalih postaj GNSS v IGb14: IGS14.CRD in IGS14.VEL 
+o Datoteka s seznamom referenčnih postaj GNSS: IGS14.FIX 
+o Datoteka z modelom post-seizmične deformacije: IGS14.PSD 
+o Datoteka kalibracijskih parametrov anten sprejemnikov in satelitov v ITRF2020: 
+PCV_FGG_I20.PCV 
+o Datoteka okrajšav imen postaj GNSS: SIPROC.ABB 
+o Datoteka atmosferskega plimovanja: SIPROC.ATL 
+o Datoteka gruč (clusters) postaj GNSS: SIPROC.CLU 
+o Datoteka o informacijah postaj GNSS: SIPROC.STA 
+ Programska rešitev gPPP: 
+o Datoteka približnih in danih koordinat postaj GNSS v IGb14 , vezmi med vektorji 
+hitrosti za zagotavljanje stabilnosti vektorjev in seznam postaj, ki za gotavljajo 
+geodetski datum: IGb14.txt 
+o Datoteka ANTEX kalibracijskih parametrov anten sprejemnikov in satelitov v 
+ITRF2020: igs20_FIN.atx 
+Vsi podatki obdelave opazovanj GNSS se načeloma nanašajo na novo realizacijo referenčnega 
+sestava ITRF2020. Vendar pa o mrežje EPN še vedno ni izvedlo preračuna koordinat postaj v 
+ITRF2020, zato smo položaje referenčnih postaj pustili v IGb14. Končne koordinate v ITRF2020 smo 
+pridobili s transformacijo iz ITRF2014 v ITRF2020 preko spletnega orodja  transformacije spletne 
+strani EPN https://www.epncb.oma.be/_productsservices/coord_trans/ (Bruyninx, 2023). 
+1.2 Dnevne rešitve koordinat 
+Izračun dnevnih rešitev koordinat poteka z upora bo dveh programskih paketov, Bernese GNSS 
+Software, Version 5.4 in z uporabo programskih rešitev, razvitih na UL FGG (gPPP, gDDPos, gDSet 
+in gNet). Koraki izračuna posamezne rešitve so podani v nadaljevanju. 
+1.2.1 Dnevne rešitve koordinat – Bernese GNSS Software, Version 5.4 
+Pri programskem paketu Bernese GNSS Software, Version 5.4 so koraki izračuna dnevnih rešitev v 
+okviru projekta sledeči: 
+
+7 
+ 
+1. Obdelava vseh opazovanj GNSS za izbran dan. Obdelavo izvršimo za vse razpoložljive 
+postaje GNSS tega dne. Rezultat so izra čunane koordinate vseh postaj (datoteka oblike 
+FIN_YYYYDDD0.CRD), datoteke rešitve obdelave – sistem normalnih enačb celotnega 
+sistema (datoteka oblike FIN_YYYYDDD0.NQ0.gz) in reduciranega sistema 
+(FIN_YYYYDDD0.NQ0.gz), datoteka SINEX rešitve (FIN_YYYYDDD0.SNX.gz), izračunani 
+parametri troposfere (datoteki oblike FIN_YYYYDDD0.TRO in FIN_YYYYDDD0.TRP) ter 
+datoteka postopka obdelave (R2S_ YYYYDDD0.PRC). 
+2. Pretvorba datoteke SINEX v interno datoteko dnevnih koordinat. 
+3. Preimenovanje točk, kjer upoštevamo sprememb e imen postaj GNSS (npr. preimenovanje 
+slovenskih postaj leta 2020) in poimenovanje postaj glede intervalov zveznosti (glej 
+dokument (Sterle, Pavlovčič Prešeren, Stopar, & Ritlop, 2023)). 
+4. Zagotovitev geodetskega datuma urejenim dnevnim izračunom in ustrezno preimenovanim 
+postajam GNSS. Uporabimo 3 -parametrično transformacijo (trije premiki) in seznam 
+referenčnih postaj GNSS. 
+5. Transformacija iz IGb14 v ITRF2020. Dobimo končno datoteko  dnevnih koordinat oblike 
+FIN_YYYYDOY_I20.crd. 
+Vse ključne datoteke so podane na ključu USB v mapi 2_DnevniIzracuniKoordinat/2_BSW54, 
+kjer so rezultati shranjeni v podmapi po letih. V vsaki mapi so za vsak dan podane: 
+ FIN_YYYYDDD0.CRD – datoteka koordinat programa Bernese GNSS Software, Version 5.4, 
+ FIN_YYYYDDD0.SNX.gz – datoteka rešitve dnevnega izračuna v obliki SINEX programa 
+Bernese GNSS Software, Version 5.4, 
+ FIN_YYYYDOY_I20.crd – končna datoteka koordinat v koordinatnem sistemu ITRF2020 z 
+zagotovljenim geodetskim datumom (podana v internem formatu zapisa koordinat). 
+Rezultati programa Bernese GNSS Software, Version 5.4 so podani za vseh 1099 dni, medtem ko za 
+tri dni manjkajo datoteke koordinat v ITRF2020. Vzrok je v tem, da so bile za te tri dni dnevne rešitve 
+koordinat tako slabe kakovosti, da so bili popravki koordinat na nivoju metrov, zato se je rezultate 
+teh treh dni izločilo iz nadaljnje obdelave (pridobitve časovnih vrst). 
+1.2.2 Dnevne rešitve koordinat – metoda PPP 
+V primeru uporabe lastnih programskih rešitev, postopamo po sledečih korakih: 
+1. Obdelava vseh opazovanj GNSS za izbran dan. Obdelavo izvršimo za vse razpoložljive 
+postaje GNSS tega dne. Rezultat so izračunane koordinate vseh postaj , oblike 
+CRD_PPP_YYYY_DOY.txt. 
+2. Obdelava kratkih baznih vektorjev, dolžine do 1 km, rezultat so izračunane kom ponente 
+baznih vektorjev v datotekah oblike dCRD_YYYY_DOY.txt. 
+3. Preimenovanje točk, kjer upoštevamo spremembe imen postaj GNSS (npr. preimenovanje 
+slovenskih postaj leta 2020) in poimenovanje postaj glede intervalov zveznosti (glej 
+dokument (Sterle, Pavlovčič Prešeren, Stopar, & Ritlop, 2023)). 
+4. Zagotovitev geodetskega datuma urejenim dnevnim izračunom koordinat in ustrezno 
+preimenovanim postajam GNSS. Uporabimo 3 -parametrično transformacijo (trije premiki) 
+in seznam referenčnih postaj GNSS. 
+5. Transformacija iz IGb14 v ITRF2020. 
+
+8 
+ 
+6. Združitev koordinat postaj GNSS v ITRF2020 in komponent baznih vektorjev v obliko rešitve 
+sistema normalnih enačb, dobimo končno datoteko dnevnih rešitev koordinat oblike 
+G_YYYY_DOY.neq. 
+Tudi v tem primeru so  vse ključne datoteke podane na ključu USB v mapi 
+2_DnevniIzracuniKoordinat/1_PPP, v podmapah organizirano po letih. V vsaki mapi so za 
+vsak dan podane: 
+ CRD_PPP_YYYY_DOY.txt – koordinate PPP dnevnih izračunov 
+ G_YYYY_DOY.neq – končne dnevne rešitve koordinat v ITRF2020, z ustrezno zagotovitvijo 
+geodetskega datuma, z ustreznimi preimenovanji in z vključenimi kratkimi baznimi vektorji. 
+Tudi v primeru metode PPP smo dnevne rešitve izračunali za vse dni, a za tri dni manjkajo končne 
+datoteke neq, saj so bili tudi v tem primeru za te tri dni rezultati preslabe kakovosti. 
+2 Naloga 2: Vzpostavitev časovne vrste koordinat postaj, 
+vektorjev hitrosti in analiza njihove kakovosti 
+Za izračun časovnih vrst koordinat moramo modelirati dnevne rešitve koordinat tako, kot je bi lo 
+pokazano v dokumentu (Sterle, Pavlovčič Prešeren, Stopar, & Ritlop, 2023), in sicer: 
+ Položaj in vektor hitrosti točke se obravnava ta po intervalih zveznosti, s tem lahko za 
+posamezno točko dobimo več končnih položajev in več  vektorjev hitrosti. Vsak položaj in 
+vektor hitrosti se nanaša na določeno časovno obdobje.  Če so vektorji točk različnih 
+intervalov enaki, to zagotovimo z dodatnimi veznimi enačbami v okviru izračuna  (podano 
+v datoteki IGb14.txt). 
+ Za vse postaje se za vsa ko koordinatno komponento predpostavi periodičen signal 
+(sistematičen pogrešek) s period o enega leta. Pri nekaterih postajah (Celje in Bodonci, spet 
+glej (Sterle, Pavlovčič Prešeren, Stopar, & Ritlop, 2023) , se doda dva niza pe riodičnih 
+signalov. 
+V izračun časovnih vrst smo vzeli vse do sedaj razpoložljive dnevne rešitve, in sicer: 
+ Rešitve Bernese GNSS Software, Version 5.4: od 234. dne leta 2016 do 275. leta 2024, kar znaša 
+dobrih 8 let dnevnih rešitev koordinat postaj GNSS. 
+ Rešitve PPP: od 361. dne leta 2009 do 275. dne leta 2024, kar znaša skoraj 15 let podatkov. 
+Obdelava opazovanj GNSS v okviru posamezne dnevne rešitve se časovno bistveno razlikuje v 
+odvisnosti od metodologije, to je z uporabo metode PPP ali programskega paketa Bernese GNSS 
+Software, Version 5.4. Če v primeru metode PPP potrebujemo okoli 15 minut za obdelavo vseh 
+opazovanj GNSS posameznega dne, je čas trajanja pri programskem paketu Bernese GNSS Software, 
+Version 5.4 več kot eno uro. To je tudi vzrok, zakaj smo z metodo PPP obdelali vse podatke od leta 
+2010, še več, pred letom dni smo izvedli ponoven izračun vseh podatkov, kar pomeni, da so s tega 
+stališča rezultati dokaj skladni. Razlike se pojavijo predvsem zaradi uporabe kalibracijske datoteke 
+igs20.atx, ki je bila na voljo šele pred časom. 
+
+9 
+ 
+V primeru programskega paketa Bernese GNSS Software, Version 5.4 pa imamo dva niza dnevnih 
+rešitev. Prvi niz je do 79. dne leta 2021, ki je bil izračunan s programom verzije 5.2, od 80. dne 2021 
+naprej pa s programom verzije 5.4. Med njima so kar precejšnje razlike, kar se pozna tudi na (spodaj 
+podanih) časovnih vrstah koordinat. 
+2.1 Časovne vrste koordinat – metoda PPP 
+V nadaljevanju prikazujemo časovne vrste koordinat postaj GNSS za tri omrežja, in sicer za 
+referenčne postaje GNSS omrežja EPN, za postaje mreže ničtega reda in postaje omrežja SIGNAL. V 
+poročilu prikazujemo samo vzorčne primere časovnih vrst, vse časovne vrste so podane na ključu 
+USB v mapi 3_CasovneVrsteKoordinat/1_PPP. Za vsa tri omrežja postaj GNSS so časovne  
+vrste predstavljene v podmapah, in sicer: 
+ Mapa 0RD: mreža ničtega reda, 
+ Mapa EPNd: omrežje EPN – referenčne postaje GNSS, 
+ Mapa SIG: omrežje SIGNAL. 
+V vsaki izmed podmap so za vsako postajo 4 datoteke, in sicer: 
+ XXXX_NEU.txt – datoteka z odstopanji dnevnih  koordinat postaje XXXX od linearnega 
+trenda v smereh 𝑛, 𝑒 in ℎ, 
+ XXXX_NEU_R.jpeg – graf časovnih vrst postaje XXXX iz datoteke XXXX_NEU.txt, 
+ XXXX_NEU_F.txt - datoteka z odstopanji dnevnih koordinat postaje XXXX z upoštevanjem 
+periodičnega signala v smereh 𝑛, 𝑒 in ℎ, 
+ XXXX_NEU_F.jpeg – graf časovnih vrst postaje XXXX, iz datoteke XXXX_NEU_F.txt. 
+Oznaka XXXX predstavlja 4-znakovno ime postaje GNSS. Poleg časovnih vrst koordinat so podane 
+tudi cenilke kakovosti časovnih vrst za vsa tri omrežja; slikovne dat oteke (jpeg) prikazujejo 
+grafično vsebino datotek MMM_NEU.txt (standardni odkloni in RMS vrednosti časovnih vrst pred 
+modeliranjem periodičnega signala) in MMM_NEU_F.txt (standardni odkloni časovnih vrst po 
+modeliranju periodičnega signala), kjer MMM označuje omrežje. Nekateri rezultati so predstavljeni v 
+spodnjih treh poglavjih. 
+2.1.1 Časovne vrste koordinat postaj GNSS omrežja EPN 
+Pri časovnih vrstah postaj omrežja EPN smo seveda izhajali iz dejstva, da nam te postaje 
+predstavljajo referenčne vrednosti položaje v. Zato smo privzeli njihove koordinate in intervale 
+zveznosti (oz. nezveznosti, angl. discontinuities), ki jih podaja služba EPN  (EPN CRD, 2022; EPN 
+SSC, 2022; EPN DISC, 2022) .. Problem, ki se je pojavil je  ta, da so tako koordinate kot ne zveznosti 
+določene do konca leta 2022 (točneje, do vključno 21. 11. 2022)  in nimamo nobene informacije o 
+kakršnih koli spremembah koordinat ali vektorjev hitrosti teh postaj po tem datumu. 
+Postaja BAIA je referenčna postaja  od prenove obdelave, torej od 80. dne leta 2021. Časovne vrste 
+koordinat so podane na sliki 3, brez modeliranja (zgornja slika) in po modeliranj periodičnega vpliva 
+(spodnja slika). 
+
+10 
+ 
+ 
+ 
+Slika 3: Časovne vrste koordinat PPP postaje BAIA, zgoraj pred modeliranjem letnega periodičnega 
+signala, spodaj po modeliranju periodičnega signala 
+Časovne vrste s slike 3 predstavljajo kakovostne rezultate, saj na pogled odstopanja od sr ednje 
+vrednosti predstavljajo le slučajne pogreške. Podobno gre tudi za postajo GRAZ, za katero imamo 
+časovne vrste že od leta 2010, kar prikazuje slika 4. 
+ 
+
+11 
+ 
+ 
+ 
+Slika 4: Časovne vrste koordinat PPP postaje GRAZ, zgoraj pred modeliranjem letnega 
+periodičnega signala, spodaj po modeliranju periodičnega signala 
+Tudi časovne vrste postaje GRAZ s slike 4 prikazujejo kakovostne časovne vrste, saj so zvezne in na 
+pogled konstantn e skozi čas. Zaradi daljšega časovnega obdobja pa lahko zapazimo nek 
+sistematične pogrešek, ki bi lahko bil tudi periodičen signal z daljšo valovno dolžino. Le -to bo v 
+prihodnosti potrebno bolj podrobno analizirati. 
+Primer problematičnih časovnih vrst pa p odaja prvo postaja JOZE (podobno tudi JOZ2), kar je 
+prikazano na sliki 5. 
+ 
+
+12 
+ 
+ 
+Slika 5: Časovne vrste koordinat PPP postaje JOZE, zgoraj pred modeliranjem letnega periodičnega 
+signala, spodaj po modeliranju periodičnega signala 
+Problem časovnih vrst s slike 5 je v tem, da smo pravilno upoštevali vse nezveznosti, ki jih podaja 
+služba EPN, a skoki in nakloni še vedno ostajajo. Zaradi tega smo postajo izločili iz seznama 
+referenčnih postaj. Enako velja tudi za postajo WSRT, za katero so časovne vrste prikazane na sliki 
+6. 
+ 
+ 
+
+
+13 
+ 
+ 
+Slika 6: Časovne vrste koordinat PPP postaje WSRT, zgoraj pred modeliranjem letnega 
+periodičnega signala, spodaj po modeliranju periodičnega signala 
+V časovnih vrstah postaje WSRT s slike 6 lahko vidimo nenaden skok v začetku leta 2024. Ker imamo 
+nezveznosti le do konca 2022, prav tako so na spletni strani EPN za postajo izračunane časovne vrste 
+do konca 2022, ne moremo ugotoviti razloga za skok, kot tudi ne poznamo novih koordinat. Zato je 
+bila postaja izločena kot referenčna postaja. 
+Na sliki 7 prikazujemo kakovost časovnih vrst vseh postaj  omrežja EPN. Za vsako postajo so 
+prikazane tri cenilke kakovosti, prvo standardni odklon odstopanj dnevnih rešitev ( 𝜎) od srednje 
+vrednosti pred odstranitvijo periodičnega signala (rdeči stolpci), nato RMS vrednost pred 
+odstranitvijo periodičnega signala  (modri stolpci) in na koncu še standardni odklon ( 𝜎𝐹) po 
+odstranitvi periodičnega signala (zeleni stolpci). 
+ 
+Slika 7: Kakovost časovnih vrst postaj GNSS omrežja EPN – metoda PPP 
+Vidimo lahko visoko kakovost časovnih vrst. Pri  horizontalnih koordinatah so statistike na nivoju 
+milimetra, medtem ko pri višini dobimo kakovost na nivoju nekaj milimetrov, v večini primerov 
+pod petimi milimetri. Izjeme so postaje JOZE, JOZ2 in WSRT zaradi zgoraj omenjenih problemov. 
+
+14 
+ 
+2.1.2 Časovne vrste koordinat postaj GNSS mreže ničtega reda 
+Pri postajah mreže ničtega reda lahko kot prvo prikažemo časovne vrste kakovostno določene 
+postaje, to sta postaji na Arehu. Slika 8 prikazuje časovne vrste koordinat obeh postaj (ARA1 in 
+ARA2) pred modeliranjem periodičnega signala, medtem ko slika 9 prikazuje časovne vrste postaj 
+po modeliranju periodičnega signala. 
+ 
+ 
+Slika 8: Časovne vrste koordinat PPP postaj ARA1 (zgoraj) in ARA2 (spodaj) pred modeliranjem 
+letnega periodičnega signala 
+
+15 
+ 
+ 
+ 
+Slika 9: Časovne vrste koordinat PPP postaj ARA1 (zgoraj) in ARA2 (spodaj) po modeliranju 
+letnega periodičnega signala 
+S slik 8 in 9 lahko vidimo stabilnost časovnih vrst, ki zagotovi kakovostno oceno položaja kot tudi 
+vektorja hitrosti. 
+Primer problematične postaje pa sta postaji na točki Šentvid pri Stični . Za obe postaji so na sliki  10 
+prikazane časovne vrste koordinat po modeliranju periodičnega signala.  
+
+16 
+ 
+ 
+Slika 10: Časovne vrste koordinat PPP postaj STA1 (zgoraj) in STA2 (spodaj) po modeliranju 
+letnega periodičnega signala 
+S slike 10 lahko vidimo prisotnost nekega pogreška oz. vpliva na dnevne koordinate postaj, ki so 
+vidne predvsem v komponenti 𝑛, pri ostalih dveh komponentah tega vpliva ne moremo tak o 
+zanesljivo opaziti. Glede na to, da se vpliv pojavlja že od začetka delovanja postaje, verjetno ni 
+posledica gradbenih del, ki se odvijajo v okolici postaj v zadnjem času. 
+Na sliki 11 prikazujemo cenilke kakovosti časovnih vrst koordinat postaj mreže ničtega reda. 
+
+17 
+ 
+ 
+Slika 11: Kakovost časovnih vrst postaj GNSS mreže ničtega reda – metoda PPP 
+S slike 11 lahko vidimo zelo visoko stopnjo ponovljivosti koordinat. Prikaz je i dentičen prikazu s 
+slike 7 in prikazuje standardni odklon (rdeči stolpci) pred modeliranjem periodičnega signala, RMS 
+vrednost (modri stolpci) pred modeliranjem periodičnega signala in standardni odklon (zeleni 
+stolpci) po modeliranju periodičnega signala. Vidimo milimetrski nivo kakovosti pri horizontalnih 
+koordinatah in nekaj milimetrski nivo pri višini. 
+2.1.3 Časovne vrste koordinat postaj GNSS omrežja SIGNAL 
+Pri postajah omrežja SIGNAL lahko prikažemo primer kakovostnih časovnih  vrst, kot je to pri 
+postaji IDRI, kar prikazuje slika 12. 
+ 
+Slika 12: Časovne vrste koordinat PPP postaje IDRI po modeliranju letnega periodičnega signala 
+Primeri bolj problematičnih časovnih vrst koordinat postaj GNSS so podani na sliki 13 spodaj. 
+
+18 
+ 
+ 
+ 
+ 
+
+
+19 
+ 
+ 
+Slika 13: Časovne vrste koordinat PPP postaj ILIB, ZABO, DELN in LEND po modeliranju 
+letnega periodičnega signala 
+S slike 13 je razvidno, da na postajah še vedno obstajajo skoki in spremembe naklonov, kljub temu, 
+da smo upoštevali intervale zveznosti, zamenjave imen, opreme in sprememb položajev postaj 
+GNSS. Razloge bomo v prihodnosti morali iskati preko bolj prefinjene metodologije analiz časovnih 
+vrst, kot je to vizualna analiza. 
+Slika 14 prikazuje cenilke kakovosti časovnih vrste postaj GNSS omrežja SIGNAL. 
+ 
+Slika 14: Kakovost časovnih vrst postaj GNSS omrežja SIGNAL – metoda PPP 
+Tudi s slike 14 lahko vidimo visoko kakovost časovnih vrst, kljub določenim problemom, ki so v 
+časovnih vrstah še vedno prisotni. Kakovost horizontalnih koordinat je na nivoju do dveh 
+milimetrov, medtem ko je višinska komponenta slabša, a se vedno na nivoju pod petimi milimetri. 
+
+20 
+ 
+2.2 Časovne vrste koordinat – program Bernese GNSS Software, 
+Version 5.4 
+Časovne vrste koordinat postaj GNSS, ki so bile pridobljene na osnovi programskega paketa Bernese 
+GNSS Software, Version 5.4, so podane na enak način kot časovne vrste v primeru metode PPP (glej 
+poglavje 2.1 na strani 9). Vse časovne vrste so na ključku USB v mapi 
+3_CasovneVrsteKoordinat/2_BSW54. Vsebina in struktura v mapi je enaka kot pri metodi PPP. 
+V nadaljevanju prav tako prikazujemo primere časovnih vrst pri posameznem omrežju postaj GNSS. 
+2.2.1 Časovne vrste koordinat postaj GNSS omrežja EPN 
+Tudi tu prvo prikazujemo časovne vrste koordinat postaje BAIA, ki predstavlja eno izmed bolj 
+kakovostnih postaj GNSS. 
+ 
+Slika 15: Časovne vrste koordinat Bernese postaje BAIA po modeliranju periodičnega signala 
+Na sliki 15 so prikazane časovne vrste koordinat postaje GNSS BAIA po modeliranju periodičnega 
+signala. Lahko vidimo stabilne in kakovostne časovne vrste. Na sliki  16 pa prikazujemo časovne 
+vrste koordinat postaje WTZR.  
+ 
+
+21 
+ 
+Slika 16: Časovne vrste koordinat Bernese postaje WTZR po modeliranju periodičnega signala 
+Postaja WTZR je tradicionalno kakovostna postaja, s slike 16 pa lahko vidimo spremembe v časovni 
+vrsti koordinate 𝑒 v začetku 2021. Točnega vzroka ne poznamo, a ker sm o z začetkom leta 2021 
+obdelavo izvršili z različico programa Bernese GNSS Software, Version 5.4, sklepamo, da gre lahko 
+za sistematično razliko obdelav pred in po posodobitvijo koncepta obdelave opazovanj GNSS. 
+Ponovna obdelava vseh opazovanj GNSS bo mogoče podala odgovor na to vprašanje. 
+Kakovost časovnih vrst postaj omrežja EPN prikazujemo na sliki 17.  
+ 
+Slika 17: Kakovost časovnih vrst postaj GNSS omrežja EPN - Bernese  
+S slike 17 lahko vidimo visoko kakovost ponovljivosti koordinat, na milimetrskem nivoju pri 
+horizontalnih koordinatah in pod petimi milimetri ponovljivosti višine. 
+2.2.2 Časovne vrste koordinat postaj GNSS mreže ničtega reda 
+Tudi pri programskem paketu Bernese GNSS Software, Version 5.4 se mreža ničtega reda izkaže kot 
+kakovostna mreža, zato bomo prikazali nekatere problematične časovne vrste. Prve sto KDA1, 
+KDA2 in KGA1, ki so prikazane na sliki 18. 
+ 
+
+22 
+ 
+ 
+ 
+Slika 18: Časovne vrste koordinat Bernese postaj KDA1 (zgoraj), KDA2 (sredina) in KGA1 
+(spodaj) po modeliranju periodičnega signala 
+S slike 18 lahko vidimo, da se tudi pri postajah KDA2 in KGA1 pokažejo nekatere nezveznosti in 
+spremembe v naklonih, predvsem pa skok v začetku leta 2021 (spet nakazuje na razliko v 
+obdelavah). Zanimivo pa je, da tega skoka pri postaji KDA1 ni, kljub temu da je fizično neločljiva od 
+postaje KDA2 in oddaljena manj kot en meter.  
+Sama kakovost časovnih vrst postaj GNSS mreže ničtega reda je prikazana na sliki 19. 
+
+23 
+ 
+ 
+Slika 19: Kakovost časovnih vrst postaj GNSS mreže ničtega reda - Bernese  
+S slike 19 lahko vidimo po dobno visoko kakovost ponovljivosti koordinat kot pri omrežju EPN, 
+milimetrski nivo horizontalnih koordinat in pod petimi milimetri ponovljivosti za višino. 
+2.2.3 Časovne vrste koordinat postaj GNSS omrežja SIGNAL 
+Tudi pri omrežju SIGNAL prvo prikažimo postajo k akovostnih časovnih vrst, tak primer je npr. 
+IDRI, kar prikazuje slika 20. 
+ 
+Slika 20: Časovne vrste koordinat Bernese postaje IDRI po modeliranju periodičnega signala 
+Po drugi strani pa primer postaj, kjer časovne vrste niso tako stabilne, kot bi želeli , kot so to npr. 
+ILIB, LEND in ZABO, kar prikazuje slika 21. 
+
+24 
+ 
+ 
+ 
+ 
+Slika 21: Časovne vrste koordinat Bernese postaj ILIB (zgoraj), LEND (sredina) in ZABO (spodaj) 
+po modeliranju periodičnega signala 
+Časovne vrste koordinat na sliki 21 prikazujejo še vedno prisotne sistematične pogreške, ki jih bo 
+potrebno v prihodnosti identificirati in poskušati iz časovnih vrst tudi od straniti. Vendar je prvi 
+pogoj enolična obdelava dnevnih rešitev koordinat in zagotovitve geodetskega datuma. 
+
+25 
+ 
+Kakovost časovnih vrst postaj GNSS omrežja SIGNAL je prikazana na sliki 22. 
+ 
+Slika 22: Kakovost časovnih vrst postaj GNSS omrežja SIGNAL - Bernese  
+Tudi na sliki 22 lahko vidimo visoko kakovost ponovljivosti koordinat omrežj a SIGNAL, v večini 
+primerov milimetrski nivo horizontalnih koordinat in pod petimi milimetri ponovljivosti za višino. 
+2.3 Izračun vektorjev hitrosti in analiza kakovosti 
+Da lahko pridobimo in analiziramo časovne vrste koordinat, kot smo to naredili v prejšnjem 
+poglavju (poglavje 2, podpoglavje 2.1 za časovne vrste koordinat metode PPP, podpoglavje 2.2 za 
+časovne vrste koordinat programa Bernese GNSS Software, Version 5.4), moramo seveda ustrezno 
+odstraniti trend iz spreminjanja koordinat postaj GNSS skozi čas . To spreminjanje opredelimo kot 
+linearen trend (konstanten vektor hitrosti) z dodanim periodičnim signalom.  
+Obdelava časovnih vrst in izračun vektorjev hitrosti se izvede s postopkom metode najmanjših 
+kvadratov, za vsako postajo in za vsak interval zveznosti postaje pa pridobimo en referenčni položaj 
+v izbranem referenčnem trenutku s pripadajočim konstantnim vektorjem hitrosti, predstavljen v 
+referenčnem koordinatnem sestavu. V našem primeru smo položaje in vektorje hitrosti predstavili 
+v sestavu ITRF2020, za r eferenčni trenutek pa smo izbrali 2020,0.  Rezultati so podani na ključku 
+USB, v mapi 4_KoordinateVektorji/1_ITRF20, v dveh besedilnih datotekah: 
+ KooVel_ITRF2020_BSW54.txt: rezultati programskega paketa Bernese GNSS Software , 
+Version 5.4 
+ KooVel_ITRF2020_PPP.txt:  rezultati metode PPP 
+Grafičen prikaz vektorjev hitrosti za postaje omrežja EPN so podane na sliki 23. 
+
+26 
+ 
+ 
+Slika 23: Horizontalne komponente vektorjev hitrosti postaj GNSS omrežja EPN v ITRF2020 
+Vektorji postaj GNSS omrežja SIGNAL in mreže ničtega reda pa so prikazane na sliki 24. 
+ 
+
+27 
+ 
+ 
+Slika 24: Horizontalne komponente vektorjev hitrosti postaj GNSS omrežja SIGNAL in mreže 
+ničtega reda v ITRF2020 
+V nadaljevanju prikazujemo analizo kakovosti izračunanih rezultatov, to so ocenjene koordinate in 
+vektorji hitrosti. 
+2.3.1 Analiza kakovosti rezultatov referenčnih postaj GNSS omrežja EPN 
+Za postaje GNSS omrežja EPN so koordinate in vektorji hitrosti dani , saj jih zagotavlja EPN (EPN 
+CRD, 2022; EPN SSC, 2022) . Poleg vseh referenčnih postaj  GNSS se v okviru obdelave opazovanj 
+GNSS pri EPN izračunava tudi položaje tudi postaj GSR1, CAKO in PORE. Trenutno so referenčne 
+koordinate s pripadajočimi vektorji hitrosti na voljo samo za ITRF2014, zato je možna primerjava z 
+našimi rezultati preko transformacije, kjer kot neznanke ocenimo 4 parametre koordinat (premiki in 
+merilo) in tri parametre vektorjev hitrosti (premiki). Isti parametri so podani tudi pri transformaciji 
+iz ITRF2020 v ITRF2014 (in obratno) (ITRF, 2024). Rezultati primerjave (transformacije) so podani na 
+ključku USB v mapi 4_KoordinateVektorji\2_AnalizaEPN v dveh datotekah: 
+ PrimerjavaEPN_BSW54.out: primerjava rezultatov Bernese GNSS Software, Version 5.4 
+z referenčnimi vrednostmi in  
+ PrimerjavaEPN_PPP.out: primerjava rezultatov PPP z referenčnimi vrednostmi. 
+Primerjava referenčnih vrednosti z rezultati programa Bernese GNSS Software, Version 5.4 so 
+prikazani na slikah 25 in 26, kjer slika 25 prikazuje primerjavo horizontalnih komponent položajev 
+in vektorjev hitrosti postaj GNSS omrežja EPN, medtem ko slika 26 prikazuje primerjavo višinske 
+komponente in hitrosti. 
+
+28 
+ 
+ 
+Slika 25: Primerjava horizontalnih komponent položajev in hitrosti postaj omrežja EPN, referenčne 
+vrednosti in rezultati programa Bernese GNSS Software, Version 5.4 
+ 
+Slika 26: Primerjava višinske komponente položajev in hitrosti postaj omrežja EPN, referenčne 
+vrednosti in rezultati programa Bernese GNSS Software, Version 5.4 
+Primerjava na postajah, kjer smo kot vezne postaje izločili JOZE, JOZ2 in PENC, nam poda vrednosti 
+RMS  za koordinate razlik e 1,5 mm, 1,4 mm in 4, 3 mm za komponente 𝑛, 𝑒 in ℎ, medtem ko za 
+komponente vektorjev hitrosti velja 0,2 mm/leto, 0,2 mm/leto in 0,1 mm/leto za komponente 𝑣𝑛, 𝑣𝑒 
+in 𝑣ℎ. Vidimo, da je skladnost zelo visoka, milimetrski nivo za položaje in nekaj desetink milimetra 
+na leto za hitrosti. 
+Za metodo PPP so rezultati primerjave podani na sliki 27 in 28. 
+
+29 
+ 
+ 
+Slika 27: Primerjava horizontalnih komponent položajev in hitrosti postaj omrežja EPN, referenčne 
+vrednosti in rezultati metode PPP 
+ 
+Slika 28: Primerjava višinske komponente položajev in hitrosti postaj omrežja EPN, referenčne 
+vrednosti in rezultati metode PPP 
+Tudi pri tej primerjavi smo za vezne postaje izločili postaje JOZE, JOZ2 in PENC, pri koordinatah 
+smo vrednosti RMS razlik dobili kot 1,3 mm, 1,4 mm in 4,4 mm za komponente 𝑛, 𝑒 in ℎ ter 0,2 
+mm/leto, 0,2 mm/leto in 0,3 mm/leto za komponente 𝑣𝑛, 𝑣𝑒 in 𝑣ℎ. Visoka stopnja skladnosti in 
+primerljiva z rezultati programa Bernese GNSS Software, Version 5.4. 
+V preglednicah 1 in 2  prikazujemo skladnost tudi za tri postaje omrežja SIGNAL, to so GSR1, CAKO 
+in PORE. 
+ 
+ 
+ 
+ 
+
+30 
+ 
+Preglednica 1: Primerjava med koordinatami EPN in našimi rešitvami koordinat postaj omrežja 
+SIGNAL 
+Postaja 
+GNSS 
+Bernese GNSS Software, 
+Version 5.4 
+Metoda PPP 
+∆𝑛 
+[mm] 
+∆𝑒 
+[mm] 
+∆ℎ 
+[mm] 
+∆𝑛 
+[mm] 
+∆𝑒 
+[mm] 
+∆ℎ 
+[mm] 
+GSR1__4 -1,5 -1,0 -6,7 0,2 -1,4 -5,6 
+GSR1__5 1,2 2,2 1,3 1,6 3,7 2,2 
+GSR1__6 1,4 -1,7 1,0 -0,5 -0,7 4,6 
+CAKO__1 4,9 3,1 7,7 3,3 5,6 6,8 
+CAKO__2 0,1 -2,1 3,7 -1,1 0,8 4,2 
+PORE__1 0,9 4,3 3,1 1,8 8,9 -7,3 
+PORE__2 0,6 1,4 5,8 0,7 6,6 2,3 
+ 
+Preglednica 2: Primerjava med komponentami vektorjev hitrosti EPN in našimi rešitvami koordinat 
+postaj omrežja SIGNAL 
+Postaja  
+GNSS 
+Bernese GNSS Software, 
+Version 5,4 
+Metoda PPP 
+∆𝑣𝑛 
+[mm/leto] 
+∆𝑣𝑒 
+[mm/leto] 
+∆𝑣ℎ 
+[mm/leto] 
+∆𝑣𝑛 
+[mm/leto] 
+∆𝑣𝑒 
+[mm/leto] 
+∆𝑣ℎ 
+[mm/leto] 
+GSR1__4 -0,2 -0,1 -0,0 0,1 -0,1 0,2 
+GSR1__5 -0,2 -0,1 -0,0 0,1 -0,1 0,2 
+GSR1__6 -0,2 -0,1 -0,0 0,1 -0,1 0,2 
+CAKO__1 0,6 -0,2 0,6 0,2 -0,3 0,3 
+CAKO__2 0,6 -0,2 0,6 0,2 -0,3 0,3 
+PORE__1 0,2 0,4 0,9 0,1 0,0 -0,2 
+PORE__2 0,2 0,4 0,9 0,1 0,0 -0,2 
+ 
+Z obeh preglednic, 1 in 2, lahko ugotovimo, da so rezultati skladni na milimetrskem n ivoju za 
+koordinate in na nivoju desetink milimetra na leto pri vektorjih hitrosti za postajo GSR1, kar kaže 
+na kakovostno obdelavo a hkrati tudi na ugodno postavitev postaje za izmero GNSS. Pri ostalih 
+dveh postajah je skladnost slabša, slabši rezultati so vidni tudi pri časovnih vrstah obeh postaj. 
+2.3.2 Analiza kakovosti državnega koordinatnega sistema D96-17 
+Omrežje SIGNAL na območju Slovenije omogoča najbolj eleganten dostop do državnega 
+koordinatnega sistema D96-17. Posodobljene koordinate postaj omrežja so bile objavljene konec leta 
+2019 na osnovi obdelave opazovanj GNSS ponovljene izmere EUREF v letu 2016 (Berk, Sterle, 
+Medved, & Stopar, 2020; GIS-GNSS, 2019). Naknadno so bile preračunane koordinate postaje CELJ, 
+saj s o se koordinate spremenile z zamenjavo opreme, v omrežje SIGNAL pa sta bili pred časom 
+vključeni še postaji KOPR in ZZON. Koordinate vseh postaj se lahko dobi tudi preko log datotek, ki 
+so objavljene na spletni strani Geodetskega inštituta Slovenije (SIGNAL, 2022).  
+
+31 
+ 
+Slika 29 prikazuje razlike v skladnosti koordinat izračunanih koordinat (oba programska paketa) 
+glede na uradne koordinate postaj omrežja SIGNAL in mreže ničtega reda v državnem 
+koordinatnem sistemu D96 -17. Razlike so pridobljene po opravljeni 6 -parametrični transformaciji 
+(trije premiki in trije zasuki) iz ITRF2020 v D96-17 za trenutek 2024,0.  
+ 
+Slika 29: Razlika izračunanih in uradnih koordinat postaj omrežja SIGNAL in mreže ničtega reda 
+Rezultati primerjave (transformacije) so podani na ključku USB v mapi 
+4_KoordinateVektorji\3_AnalizaSLO v dveh datotekah: 
+ PrimerjavaD9617_BSW54_2024.out: primerjava rezultatov Bernese GNSS Software, 
+Version 5.4 z danimi koordinatami postaj GNSS v D96-17 in  
+ PrimerjavaD9617_PPP_2024.out: primerjava rezultatov PPP z danimi koordinatami 
+postaj GNSS v D96-17. 
+RMS razlik koordinat s slike 29 so 4,1 mm, 5,3 mm in 6,1 mm za komponente 𝑛, 𝑒 in ℎ programskega 
+paketa Bernese GNSS Software, Version 5.4 in 4,1 mm, 5,5 mm in 6,0 mm za komponente 𝑛, 𝑒 in ℎ 
+metode PPP. Tudi s slike so vidne zelo skladne razlike med obema rešitvama. 
+Razlike v državnih koordinatah z grafikonov na sliki 29 so položajno prikazane na slikah 30 in 31, 
+kjer prva prikazuje razlike v horizontalni ravnini, medtem ko druga prikazuje razlike po višinski 
+komponenti. 
+
+32 
+ 
+ 
+Slika 30: Prikaz razlik izračunanih in uradnih koordinat postaj omrežja SIGNAL ter mreže ničtega 
+reda – horizontalna ravnina 
+ 
+Slika 31: Prikaz razlik izračunanih in uradnih koordinat postaj omrežja SIGNAL ter mreže ničtega 
+reda – višina  
+S slik 30 in 31 je izvzeta postaja ZZON, saj je odstopanje zelo veliko po višini in znaša 143,3 mm pri 
+rešitvah metode PPP in 117,3 mm pri programu Bernese GNSS Software, Version 5.4. Kaj je vzrok v 
+
+33 
+ 
+tako veliki razliki, lahko za enkrat ugibamo.  Pri ostalih postajah pa lahko vidimo, da so največje 
+razlike tudi nad centimetrom, pri višini skoraj dva centimetra. 
+2.3.3 Geokinematski model Slovenije 
+Rezultati, ki smo jih prikazali zgoraj kažejo visoko skladnost rešitev obeh metodologij, se pa pojavijo 
+razlike med obema nizoma ocenjenimi vektorji, kar prikazujeta sliki 32 in 33. Na slikah so prikazani 
+vektorji hitrosti v koordinatnem sestavu ETRF2020. 
+ 
+Slika 32: Vektorji hitrosti v horizontalni ravnini postaj omrežja SIGNAL in mreže ničtega reda v 
+ETRF2020  
+Datoteki z vektorji hitrosti v sestavu ETRF za oba postopka obdelave sta podana v mapi 
+4_KoordinateVektorji\4_GeokinematskiModelSLO v dveh datotekah: 
+ BSW54_ETRF2020.cv: rezultati Bernese GNSS Software, Version 5.4 v ETRF2020 in  
+ PPP_ETRF2020.cv: rezultati PPP v ETRF2020. 
+Velikost vektorjev hitrosti s slike  32 je dobrih 3 mm/leto na jugu in oko li 2 mm/leto na severu in 
+vzhodu. 
+
+34 
+ 
+ 
+Slika 33: Vektorji hitrosti višinske komponente postaj omrežja SIGNAL in mreže ničtega reda v 
+ETRF2020  
+S slike 33 se vidijo precejšnje razlike med obema rešitvama. Vzrok je predvsem v razliki metodologije 
+obdelave dnevnih rešitev s programom Bernese GNSS Software v obdobju od 2016 do 2021 in 
+kasneje. Zato bomo v nadaljevanju prikazali t.i. ničelni geokinematski model Slovenije samo na 
+osnovi vektorjev hitrosti metode PPP. Ničelni geokinematski model predstavlja vektorsko polje, ki 
+se v povprečju ne premakne in ne zasuka, vsebuje torej samo informacijo deformacije površja.  
+Ničelni geokinematski model v horizontalni ravnini je prikazan na sliki 34, medtem ko je ničelni 
+geokinematski model višinske komponente prikazan na sliki 35. 
+
+35 
+ 
+ 
+Slika 34: Vektorji hitrosti ničelnega horizontalnega geokinematskega modela območja Slovenije 
+ 
+Slika 35: Vektorji hitrosti ničelnega višinskega geokinematskega modela območja Slovenije 
+ 
+Komponente hitrosti ničelnega vektorskega polja dobimo s postopkom 14 -parametrične 
+transformacije položajev in vektorjev hitrosti na ničelno polje hitr osti, kjer pa ocenimo le 6 
+parametrov transformacije  vektorjev hitrosti, to so trije premiki in zasuki. Vezne točke so vse postaje 
+
+36 
+ 
+omrežja SIGNAL in mreže ničtega reda na območju Slovenije, kjer pa smo izvzeli postaji KOPR in 
+ZZON zaradi kratkih časovnih vrst koordinat.  Rezultat transformacije je dan v mapi 
+4_KoordinateVektorji\4_GeokinematskiModelSLO v datoteki 
+PPP_NicelnoVektorskoPolje.out. 
+  
+
+37 
+ 
+3 Naloga 3 : Priprava tehnične rešitve za izvedbo 
+ponovnega izračuna dnevnih koordinat 
+Rezultati časovnih vrst pri programski rešitvi Bernese GNSS Software, Version 5.4 (glej poglavje 2.2 
+na strani 20) kažejo na problem različne obdelave opazovanj GNSS v okviru dnevnih rešitev pred in 
+po 80. dnevu leta 2021. Pri metodi PPP ta razlika ni tako očitna oziroma je vizualno s časovnih vrst 
+ne opazimo, hkrati pa vidimo pri nekaterih postajah GNSS malenkosten skok od trenutka, ko smo 
+v obdelavo vključili datoteko kalibracijskih parametrov anten sprejemnikov in anten sest ava 
+ITRF2020 (pred tem smo uporabljali ITRF2014). Vse to nakazuje na nujnost ponovne obdelave vseh 
+opazovanj GNSS na enak način. Glede na posodobljen koncept obdelave opazovanj GNSS, ki je bil 
+prikazan v poročilu (Sterle, Pavlovč ič Prešeren, Stopar, & Ritlop, 2023) , lahko celoten postopek 
+razdelimo v tri dele: 
+1. Obdelava opazovanj GNSS posameznega dne. 
+2. Zagotovitev ustreznega geodetskega datuma, intervala zveznosti koordinat in hitrosti in 
+pravega referenčnega sestava dnevne rešitve. 
+3. Obdelava vseh dnevnih rešitev (rezultat koraka 2.) in izračun koordinat v referenčni epohi, 
+pripadajočih vektorjev hitrosti in odstranitev periodičnih vplivov. 
+Časovno najbolj potraten je korak 1, saj za vsak posamezen dan potrebujemo od okoli 15 do 20 minut 
+(metoda PPP) do več kot ene ure (Bernese GNSS Software, Version 5.4). Ostala koraka (2. in 3.) sta 
+časovno nepomembna, saj celoten korak 2. za vse dnevne rešitve v tem poročilu traja manj kot eno 
+uro. Korak 3. časovno traja manj kot 15 minut. To pomeni, da korak 2. in korak 3. lahko izvajamo v 
+več iteracijah, kar je na koncu tudi nujno potrebno, saj je potrebno pri čiščenju časovnih vrst pravilno 
+podajati intervale zveznosti postaj GNSS in vezi med vektorji hitrosti. 
+Pri ponovnem izračunu vseh dnevnih koordinat (oba programska pristopa)  imamo dva vidika, ki 
+jih je potrebno upoštevati: 
+1. Avtomatizacija postopka obdelave opazovanj GNSS za izbran dan. Ta avtomatizacija se 
+nanaša tako na sam postopek obdelave, kot tudi na avtomatizacijo priprave in pridobitv e 
+vseh datotek RINEX, produktov IGS ter shranjevanja rezultatov obdelave. 
+2. Zagotovitev strojne in programske rešitve za neoviran izračun dnevnih rešitev v okviru 
+ponovne obdelave kot tudi za neoviran izračun dnevnih rešitev tekoče obdelave. 
+V sklopu prenove koncepta obdelave, nadgradnje programa Bernese GNSS Software, Version 5.4, 
+posodobitev modelov obdelave (npr. prehod iz ITRF2014 v ITRF202) in ostalih korakov (Sterle, 
+Pavlovčič Prešeren, Stopar, & Ritlop, 2023) smo prvo alinejo že izpolnili. V trenutnem stanju lahko 
+vse korake izračuna dnevne rešitve izvedemo avtomatizirano. 
+Drugo alinejo pa imamo praktično rešeno, je pa trenutno možna le z nekaterimi še ročnimi posegi v 
+postopek obdelave. Za popolno avtomatizacijo smo v posto pku nakupa strežnika z zelo veliko 
+spominsko in procesorsko kapaciteto: 
+ 24-jedrni procesor, 
+ 128 GB spomina RAM, 
+ SSD podatkovni diski, 
+
+38 
+ 
+ Številni podprti operacijski sistemi. 
+Omenjeni strežnik bo omogočal tudi več virtualnih okolij, v katerih bomo lahko ločen o izvajali 
+obdelave opazovanj GNSS v okviru redne obdelave, kot tudi ločeno ponovljene obdelave opazovanj 
+za nazaj. 
+Pri izračunih dnevnih rešitev za nazaj bo potrebno analizirati vpliv posodobitve predvsem 
+programskega paketa Bernese GNSS Software iz razli čice 5.2 na različico 5.4. Posodobitev je kar 
+obsežna in se dotika skoraj vseh parametrov obdelave opazovanj GNSS, predvsem pa na uporabo 
+novejših formatov datotek podatkov GNSS. Na Astronomskem inštitutu v Bernu, kjer razvijajo 
+program, so v zadnjem letu izvedli številne ponovne izračune vseh spremljajočih podatkov, ki jih 
+potrebujemo za uporabo programa različice 5.4. To pomeni, da za vse dneve od začetka leta 2019, 
+različica 5.4 ni problem. Za uporabo različice 5.4 pred tem 2019 pa bo verjetno potrebno a nalizirati 
+nastavitve obdelave. 
+Uporaba programske rešitve UL FGG (metoda PPP) je pripravljena tudi za podatke pred letom 2019. 
+Pričakujemo več dela bo s pripravo datotek RINEX pred letom 2010, ki so bile uporabljene v okviru 
+naloge  (Sterle O. , 2015). V okviru te naloge smo že opravili obdelavo vseh dnevnih datotek RINEX 
+vseh postaj omrežja SIGNAL do leta 2010, vendar bo zelo verjetno potrebno obdelavo ponoviti. 
+Vzrok je predvsem v posodobitvah metodologije in modelov obdelave opazovanj GNSS. 
+ 
+ 
+ 
+  
+
+39 
+ 
+4 Zaključek 
+V pričujočem poročilu prikazujemo rezultate obdelave opazovanj GNSS stalno delujočih postaj 
+GNSS na območju Slovenije (omrežje SIGNAL in mreža ničtega reda) z vključenimi 18-imi postajami 
+omrežja EPN, ki so locirane na širši  okolici Slovenije. Časovno obdobje izračuna dnevnih datotek 
+RINEX obsega tri leta, od 21. 3. 2021 (80. dan leta 2021, GPS teden 2150) do vključno 23. 3. 2024 (83. 
+dan v letu 2024, GPS teden 2306). Za izračun referenčnih koordinat s pripadajočimi vektorji hitrosti 
+v referenčni epohi (izbrana je 2020,0) pa smo uporabili dnevne rešitve koordinat postaj GNSS 
+daljšega obdobja, in sicer pri metodi PPP obdobje skoraj 15-ih let (od 361. dne 2009 do 275. dne 2024), 
+pri programskem orodju Bernese GNSS Software pa obdobje dobrih 8 let (od 234. dan 2016 do 275. 
+dne 2024). 
+Izračun koordinat z vektorji in pridobitev časovnih vrst se je izved el na osnovi dveh načinov 
+obdelave dnevnih datotek RINEX. V primeri programskega orodja Bernese GNSS Software smo do 
+80. dne 2021 up orabljali različico 5.2, po tem pa različico 5.4. Pri metodologiji PPP smo uporabili 
+enako različico programa. Vendar pa to niso bile edine spremembe pri obdelavi opazovanj GNSS, 
+le-teh je bilo kar nekaj. Kot prvo je pri službi IGS prišlo do uveljavitve novih formatov datotek vseh 
+podatkov z novimi načini preimenovanja (npr. datoteke RINEX, SP3, BIA…), pri podajanju 
+opazovanj GNSS (v datotekah RINEX različice 3.xx in 4.xx) se je nabor opazovanj bistveno razširil 
+(uporaba različnih kanalov istih opazovanj, n pr. C1C, C1W in C1X, uvedba vseh frekvenc vseh 
+nosilnih valovanj vseh satelitskih sistemov), uvedel se je nov referenčni model troposfere (GPT3, 
+VMF3) in nova obravnava kalibracijskih parametrov anten sprejemnikov (nič več individualnih 
+kalibracij). Prišlo je do uveljavitve nove različice sestava ITRF, to je ITRF2020. Vse to pomeni, da so 
+dnevne rešitve preteklih obdobij pridobljene na drugačen način. 
+Rezultati, ki smo jih pridobili v okviru projekta in so prikazani v tem poročilu so trenutno najboljši 
+rezultati, ki smo jih pridobili za postaje GNSS na območju Slovenije. Glavna vzroka sta dva, prvi je 
+seveda količina podatkov, saj so časovne vrste časovno  relativno dolge, od 8 do 15 let, drugi, bolj 
+pomemben razlog, pa je v ustrezni metodologiji obravnave ne zveznosti časovnih vrst koordinat 
+vseh postaj GNSS. Skladnost pridobljenih rezultatov z uradnimi rezultati službe EPN je na nivoju 
+milimetrov pri koordinatah in desetink milimetrov na leto pri vektorjih hitrosti (glej poglavje 2.3.1). 
+Slabša skladnost je pri primerjavi z uradnimi koordinatami postaj omrežja SIGNAL, standardni 
+odklon razlik je okoli 5 mm za vse tri koordinate, a  so razlike tudi centimeter pri horizontalnih 
+koordinatah in tudi do dveh centimetrov pri višini (glej poglavje 2.3.2).  
+Rezultati, ki smo jih pridobili predstavljajo najboljši geokinematski model na osnovi stalno delujočih 
+postaj GNSS na območju Slovenije. Definitivno to drži za horizontalno komponento modela, lahko 
+to rečemo tudi za višinsko komponento geokinematskega modela Slovenije, a je potrebno rezultate 
+višinske komponente podrobneje analizirati in jih primerjati z rezultati ponovljenih nivelmanskih 
+izmer. 
+Vendar pa delo tu ni končano. Časovne vrste koordinat kažejo na ra zlike v obnašanju dnevnih 
+koordinat pred in po letu 2021, kar pomeni, da je potrebno z isto metodologijo obdelati vse dnevne 
+datoteke RINEX. Obdelavo bo potrebno izvesti za celotno obdobje delovanja stalno delujočih postaj 
+GNSS na območju Slovenije. Po dru gi strani pa bo potrebno uvesti bolj sofisticiran način analize 
+časovnih vrst koordinat postaj GNSS, saj se že vizualno pri nekaterih časovnih vrstah vidi, da le -te 
+niso linearne s konstantnim vektorjem hitrosti. 
+
+40 
+ 
+ 
+  
+
+41 
+ 
+LITERATURA 
+Berk, S., Sterle, O., Medved, K., & Stopar, B. (2020). ETRS89/D96-17 – Rezultat GNSS-izmere EUREF 
+Slovenija 2016. Geodetsk vestnik, 64 (1), 43-67. doi:10.15292/geodetski-vestnik.2020.01.43-67 
+Bernese URL. (10. 11 2022). Spletna stran. Pridobljeno iz http://www.bernese.unibe.ch/ 
+Bruyninx, C. (2023). ETRF/ITRF Coordinate Transformation Tool . doi: https://doi.org/10.24414/ROB -
+EUREF-ECTT 
+BSW-Development Team. (2022). Upcoming features of Bernese GNSS Software, Version 5.4. Report 
+on the Symposium of the IAG Referen ce Frame Subcommission for Europe (EUREF).  Hrvaška, 
+Zagreb, 1. –3. junij. Pridobljeno iz 
+http://www.bernese.unibe.ch/features/docs/RD_EUREF2022_beamer.pdf 
+Dach, R., Lutz, S., Walser, P., & Fridez, P. (2015). Bernese GNSS Software Version 5.2.  Bern, Švica: 
+Astronomski inštitut Univerze v Bernu. Pridobljeno 10. 11 2022 iz 
+http://www.bernese.unibe.ch/docs/DOCU52.pdf 
+EPN. (2022). Spletna stran. Pridobljeno 10. 11 2022 iz http://www.epncb.oma.be/ 
+EPN CRD. (1. 12 2022). Spletna stran . Pridobljeno iz 
+https://epncb.oma.be/_productsservices/coordinates/index.php#product 
+EPN DISC. (1. 12 2022). Spletna stran . Pridobljeno iz 
+https://epncb.oma.be/ftp/product/referenceframe/latest/EPN_discontinuities.snx 
+EPN GL. (10. 11 2022). Spletna stran . Pridobljeno iz 
+https://epncb.oma.be/_documentation/guidelines/ 
+EPN REFP. (10. 11 2022). Spletna stran . Pridobljeno iz 
+https://www.epncb.oma.be/_productsservices/ReferenceFrame/ 
+EPN SSC. (1. 12 2022). Spletna stran . Pridobljeno iz 
+https://epncb.oma.be/ftp/product/referenceframe/latest/EPN_IGb14.SSC 
+EPN-Guidelines. (31. 07 2023). Guidelines for the EPN Analysis Centres. Pridobljeno iz Guidelines for 
+the EPN Analysis Centres: 
+https://www.epncb.oma.be/_documentation/guidelines/guidelines_analysis_centres.pdf 
+GIS-GNSS. (2019). Nove koordinat e stalnih postaj omrežja SIGNAL na osnovi GNSS -izmere »EUREF 
+Slovenija 2016« (koordinate ETRS89/D96-17). Ljubljana: Geodetski Inštitut Slovenije, Služba za 
+GNSS. Pridobljeno iz https://gu -signal.si/wp-
+content/uploads/2020/06/Obvestilo_12_12_2019-EUREF_SVN_2016.pdf 
+IGS MGEX. (10. 11 2022). Spletna stran. Pridobljeno iz https://igs.org/mgex/ 
+ITRF. (29. 11 2024). Spletna stran ITRF . Pridobljeno iz Spletna stran ITRF: 
+https://itrf.ign.fr/en/homepage 
+SIGNAL. (2022). Omrežje SIGNAL, Slovenija -Geodezija-Navigacija-Lokacija. Pridobljeno 1. 12 2022 iz 
+http://www.gu-signal.si/ 
+
+42 
+ 
+Sterle, O. (2015). Časovno odvisne geodetske mreže in koordinatni sistemi. Doktorska disertacija, Univerza 
+v Ljubljani, Fakulteta za gradbeništvo in geodezijo, Slovenija, Ljubljana. Pridobljeno iz 
+https://repozitorij.uni-lj.si/Dokument.php?id=86314&lang=slv 
+Sterle, O., & Pavlovčič Prešeren, P. (2021). Analitični del delovanja GNSS omrežij. Končno tehnično 
+poročilo, november 2021. Ljubljana, Slovenija: UL FGG. 
+Sterle, O., & Stopar, B. (2017A). Analiza mreže 0. reda in njen vpliv na geodetski referenčni sistem, Vmesno 
+poročilo, marec 2017. Ljubljana, Slovenija: UL FGG. 
+Sterle, O., & Stopar, B. (2017B). Analitični center mreže 0. reda in njen vpliv na geodetski referenčni sistem, 
+Tehnično poročilo za leto 2017. Ljubljana, Slovenija: UL FGG. 
+Sterle, O., & Stopar, B. (2018A). VMESNO TEHNIČNO POROČILO – NALOGA 1: Analitični del 
+delovanja mreže 0. reda in omrežja SIGNAL. Vmesno tehnično poročilo, julij 2018.  Ljubljana, 
+Slovenija: UL FGG. 
+Sterle, O., & Stopar, B. (2018B). KONČNO POROČILO: Kontrolna funkcija osnovnega geodetskega sistema 
+na kopnem in morju. Tehnično poročilo, november 2018. Ljubljana, Slovenija: UL FGG. 
+Sterle, O., & Stopar, B. (2019A). Analitični del delovanja GNSS omrežij. Vmesno tehnično poročilo, julij 
+2019. Ljubljana, Slovenija: UL FGG. 
+Sterle, O., & Stopar, B. (2019B). Analitični del delovanja GNSS omrežij. Končno tehnično poročilo, 
+november 2019. Ljubljana, Slovenija: UL FGG. 
+Sterle, O., Pavlovčič Prešeren, P., Stopar, B., & Ritlop, K. (2023). Analitični del delovanja GNSS omrežij. 
+Ljubljana: UL FGG. 
+Sterle, O., Ritlop, K., Stopar, B., & Pavlovčič Prešeren, P. (2022). Analitični del delovanja GNSS omrežij, 
+Vmesno poročilo november 2022. Ljubljana, Slovenija: UL FGG. 
+Sterle, O., Stopar, B., & Pavlovčič Prešeren, P. (2021). Analitični del delovanja GNSS omrežij. Končno 
+tehnično poročilo, november 2021. Ljubljana, Slovenija: UL FGG.

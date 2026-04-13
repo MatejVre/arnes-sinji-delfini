@@ -1,0 +1,2800 @@
+Sklop 2 - Vrednotenje 
+spodbujanje izvajanja 
+RR programov in RR 
+projektov  
+ 
+Končno poročilo 
+ 
+ 
+13.11.2024 
+
+
+ 
+  2 
+Naročnik: Ministrstvo za kohezijo in regionalni razvoj, Kotnikova 5, 1000 Ljubljana  
+ 
+Izvajalec: Cedars, svetovanje, d.o.o., Linhartova cesta 5, 1000 Ljubljana  
+ 
+Projekt: Sklop 2 - Vrednotenje spodbujanje izvajanja RR programov in RR projektov  
+ 
+Št. pogodbe: C1630-24M800002  
+ 
+Člani projektne ekipe (avtorji): Polona Čufer Klep, Tarik Terzić, Aja Ropret Homar, 
+Medeja Pistotnik, Edin Lugić, Ivona Žiža, Vladimir Kušan  
+ 
+  
+
+ 
+  3 
+KAZALO 
+ 
+SEZNAM UPORABLJENIH KRATIC ..................................................................................... 4 
+POVZETEK ........................................................................................................................ 5 
+EXECUTIVE SUMMARY ...................................................................................................... 7 
+1 UVOD .......................................................................................................................... 9 
+1.1 PREDMET, NAMEN IN CILJI VREDNOTENJA...................................................................................................... 9 
+2 PREGLED INTERVENCIJSKE LOGIKE ......................................................................... 11 
+2.1 PREGLED CILJEV INTERVENCIJSKE LOGIKE  ................................................................................................... 11 
+2.2 PREGLED MATRICE SPODBUD...................................................................................................................... 13 
+2.3 PREGLED OBSEGA INTERVENCIJ .................................................................................................................. 15 
+2.4 PREGLED UPRAVIČENCEV ........................................................................................................................... 18 
+3 METODOLOGIJA IN PRISTOP K VREDNOTENJU ......................................................... 21 
+3.1 PREDSTAVITEV METODOLOŠKIH ORODIJ ...................................................................................................... 21 
+4 UGOTOVITVE VREDNOTENJA .................................................................................... 24 
+4.1 ALI SO BILI URESNIČENI CILJI IN DOSEŽENI REZULTATI PREDVIDENI V IZBRANIH VLOGAH ? KAKŠNI SO 
+NEPOSREDNI IN POSREDNI UČINKI IZVAJANJA OPERACIJ? ....................................................................................... 24 
+4.2 ALI JE RAZISKOVALNO-RAZVOJNI LANDSCAPE SEDAJ PO IN ZARADI UKREPA TRL3-6 (PROGRAMI IN PROJEKTI) 
+DRUGAČEN, KOT JE BIL V LETU 2015 PRED ZAČETKOM IZVAJANJA UKREPA? ALI SO SE RAZVILA STRATEŠKA 
+DOLGOROČNA PARTNERSTVA IN ODNOSI, KI DAJEJO DRUGAČNO DISPOZICIJO ZA NADALJNJE UKREPE, KI BODO 
+ŠTARTALI 2023? ................................................................................................................................................. 30 
+4.3 ALI JE UKREP PRISPEVAL K MEDNARODNI ODLIČNOSTI IN PREBOJNOSTI TAKO ZNANSTVENEGA KOT TUDI 
+GOSPODARSKEGA KONZORCIJA: IZBOLJŠANJE RAZISKOVALNE ODLIČNOSTI TER TRŽNI POTENCIAL ? ........................... 37 
+4.4 ALI JE UKREP, KI JE SPODBUJAL SODELOVANJE TEMELJEČE NA ENAKOVREDNOSTI V PARTNERSTVU Z VIDIKA 
+DRŽAVNIH POMOČI PRINESEL VEČJE UČINKE KOT PRIMERLJIV INSTRUMENT CO (CENTRI ODLIČNOSTI V PERSPEKTIVI 
+2007-2013)? ALI JE UKREP SPODBUDIL VEČJE DOLGOROČNEJŠE SODELOVANJE IN S TEM VEČJO UČINKOVITOST 
+DRŽAVNIH POMOČI, KOT PRIMERLJIV UKREP RRP TRL 6-9 RAZPISAN S STRANI MGTŠ?......................................... 40 
+4.5 ALI PRIHAJA DO PREVODA NA TRG V FAZI TRL 7-9? (MORDA TUDI PREVOD / NAVEZAVA NA UKREP MGTŠ 
+TRL7-9). KAKŠEN JE GOSPODARSKI UČINEK IZVAJANJA OPERACIJ? ....................................................................... 43 
+4.6 ALI SE JE IZKAZALA KAKŠNA RAZLIKA PRI DOSEŽENIH CILJIH IN REZULTATIH MED OBEMA UKREPOMA (PROGRAMI 
+IN PROJEKTI)? ..................................................................................................................................................... 47 
+5 PREGLED OPRAVLJENIH NALOG ............................................................................... 52 
+ 
+  
+
+ 
+  4 
+Seznam uporabljenih kratic  
+AVK Analiza več kazalnikov 
+CO Instrument "Centri Odličnosti v perspektivi 2007-2013" 
+EKP Evropska kohezijska politika 
+ESRR Evropski sklad za regionalni razvoj  
+ESS Evropski socialni sklad  
+JR Javni razpis 
+JRO Javne raziskovalne organizacije 
+KI Kompozitni indikator 
+KS Kohezijski sklad   
+MGTŠ Ministrstvo za gospodarstvo, turizem in šport 
+MVZI Ministrstvo za visoko šolstvo, znanost in inovacije 
+OECD Organizacija za gospodarsko sodelovanje in razvoj 
+OP Operativni program za izvajanje evropske kohezijske politike v obdobju 2014-2020 
+PN Prednostna naložba 
+PO Posredniški organ 
+PS Partnerski sporazum med Slovenijo in Evropsko komisijo za obdobje 2014-2020 
+RO Raziskovalne organizacije 
+RRD Raziskovalna in razvojna dejavnost 
+RRI Raziskovalna in razvojna dejavnost ter inovacije 
+RRP Raziskovalno-razvojni projekt 
+RRL Raziskovalno-razvojni landscape 
+SC Specifični cilj 
+SPS Slovenska strategija pametne specializacije 
+MKRR Ministrstvo za kohezijo in regionalni razvoj 
+  
+
+ 
+  5 
+Povzetek 
+Vrednotenje spodbujanja izvajanja raziskovalno-razvojnih (RR) programov in projektov je obsegalo 
+dva javna razpisa,  ki sta del specifičnega cilja " Učinkovita uporaba raziskovalne 
+infrastrukture ter razvoj znanja/kompetenc za boljše nacionalno in mednarodno 
+sodelovanje v trikotniku znanja ", pri prednostni naložbi (v nadaljevanju PN) (1a) Izboljšanje 
+infrastrukture za raziskave in inovacije ter zmogljivosti za razvoj odličnosti pri raziskavah in 
+inovacijah ter promocija kompetenčnih centrov, zlasti tistih v evropskem interesu kot opredeljeno v 
+Operativnem programu za izvajanje kohezijske politike v programskem obdobju 2014-2020.  
+Javna razpisa “Spodbujanje izvajanja RR programov (TRL 3 -6)” in “Spodbujanje izvajanja RR 
+projektov (TRL 3-6)” je izvedlo Ministrstvo za visoko šolstvo znanost in inovacije ( prej Ministrstvo 
+za izobraževanje znanost in šport). Implementiranih je bilo 9 RR programov (159 upravičencev) in 
+24 RR projektov (116 upravičencev). 
+Cilj vrednotenja je bil o oceniti učinkovitost in uspešnost izvedenih ukrepov ter njihov prispevek k 
+izboljšanju raziskovalne infrastrukture, mednarodnega sodelovanja in konkurenčnosti slovenskih 
+podjetij.  
+Za potrebe priprave poročila, razumevanja širšega okolja spodbud, intervencijske logike, kot tudi 
+priprave odgovorov na vprašanja za vrednotenje, smo uporabili širok nabor metodoloških orodij.   
+Pregled dokumentacije je vključeval sistematičen pregled razpoložljive dokumentacije, vključno 
+z razpisi, končnimi projektnimi poročili, poročili vrednotenja, poročili raziskav, strokovno literaturo 
+in drugimi opredeljenimi viri. Fokusne skupine in strukturirani intervjuji  so nam služili za 
+pridobivanje kvalitativnih podatkov. Udeleženci so bili vodje javnih razpisov, skrbniki posameznih 
+razpisov/projektov, vodilni konzorcijski partnerji (koordinatorji) in predstavniki raziskovalnih 
+organizacij. Izvedli smo 7 fokusnih skupin in 3 strukturirane intervjuje. Anketa kot kvantitativna 
+metoda vrednotenja je služila pridobivanju tako kvantitativnih kot kvalitativnih informacij. Prejeli 
+smo 148 odgovorov, kar je izjemen rezultat.  Analiza več kazalnikov kot metoda ugotavljanja 
+dejanskega stanja nam je omogočilo primerjavo več kazalnikov, ki skupno opisujejo določeno stanje 
+ali izziv, oceno sprememb in primerjavo med različnimi subjekti  in ukrepi ter pregled spremembe 
+vrednosti kazalnikov v času izvajanja. Analiza nasprotnih dejstev je služila za oceno dejanskega 
+vpliva sprememb povzročenih z EU intervencijami  - javnimi razpisi. Drugače povedano, z analizo 
+nasprotnih dejstev smo ugotavljali, ali je razlog za nastalo spremembo intervencija oziroma ali bi se 
+sprememba zgodila tudi brez intervencije. Za potrebe tega vrednotenja smo izbrali t.i. metodo 
+"razlike v razlikah" oz. dvojne razlike. V sklopu analize nasprotnih dejstev smo oblikovali dve osnovni 
+skupini subjektov analize - upravičence in kontrolno skupino (tako imenovane dvojčke). Upravičenci 
+so org anizacije, ki so iz javnih razpisov, ki sta predmet tega vrednotenja, prejele EU sredstva. 
+Dvojčki pa predstavljajo upravičencu najbolj podobno podjetje, ki je imelo v letu 2016 primerljivo 
+izhodišče (glede na SKD dejavnost, velikost in prihodke) in ki EU podpore ni prejelo. Za raziskovalne 
+organizacije (javne in zasebne, ki so klasificirane v bazi AJPES kot zavod) kontrolne skupine nismo 
+mogli oblikovati, saj je bila večina raziskovalnih organizacij vključenih v EU projekte. S primerjavo 
+med obema skupinama smo ugotavljali dejanski vpliv EU sredstev. Na ta način smo izločili vpliv 
+drugih dejavnikov (kot so COVID-19, splošna ekonomska rast, dogajanja na trgu in podobno) ter se 
+osredotočili samo na vpliv EU spodbud. Skupno je bilo v vrednotenje vključenih 155 upravičencev, 
+od tega 59,4% podjetij in 40,6% raziskovalnih organizacij. Podjetja so bila večinoma registrirana 
+kot proizvodna podjetja, raziskovalne organizacije pa kot visokošolske izobraževalne ustanove in 
+javne raziskova lne organizacije. Konzorciji so bili sestavljeni iz minimalno štirih podjetij in treh 
+raziskovalnih organizacij za RR programe ter iz minimalno enega podjetja in ene raziskovalne 
+organizacije ali dveh podjetij za RR projekte. 
+Ključne ugotovitve 
+Doseganje ciljev: Vsi projekti so dosegli zastavljene cilje , 22% pa jih je celo preseglo. Upravičenci 
+so poročali o dodatnih patentih, objavah, novih rešitvah in tehnologijah.  
+Neposredni učinki: Razvoj novega znanja usmerjenega proti novim produktom in storitvam; boljša 
+povezava podjetij z raziskovalnimi organizacijami in obratno ; boljši nastop na trgu (reference, 
+procesne inovacije implementirane v poslovne procese itd.);pridobivanje novih znanj, razvoj in 
+širitev timov in razvoj raziskovalne dejavnosti znotraj podjetij.   
+Posredni učinki : Dvig inovacijske aktivnosti, ki se je nadaljevala tudi po zaključku projektov in 
+programov; pridobivanje novih poslovnih partnerjev , pri čemer so podjetja pridobila ključne 
+kontakte in povezave za skupni nastop na trgu, raziskovalne organizacije pa nove stranke za svoje 
+storitve. Pomemben učinek je krepitev dolgoročnih partnerstev, pri čemer so večja podjetja poglobila 
+obstoječa strateška partnerstva, manjša podjetja pa vzpostavila nova dolgoročna sodelovanja.   
+
+ 
+  6 
+Sprememba raziskovalno-razvojnega okolja: Raziskovalno-razvojno okolje se je v zadnjih desetih 
+letih zelo spremenilo, pri čemer so ključni dejavniki sprememb pospešitev raziskav in razvoja, večja 
+aplikativnost raziskovanja, boljša raziskovalna oprema, hitrejši tehnološki napredek, več 
+sodelovanja med podjetji in raziskovalnimi organizacijami ter večja pomembnost raziskav in razvoja 
+za ohranitev konkurenčnosti. Kljub napredku pa so še vedno prisotni izzivi, kot so pomanjkanje 
+kontinuitete financiranja, razdrobljenost financiranja in povečanje birokracije. 
+Gospodarski učinek: Razpisi so imeli pozitiven gospodarski učinek na vse upravičence (podjetja in 
+raziskovalne organizacije). Podjetja so pri vseh kazalnikih, razen dodane vrednosti na zaposlenega, 
+rasla več kot primerljiva podjetja, ki EU spodbud niso prejela. Raziskovalne institucije so prav tako 
+imele večjo rast kot podjetja. Podjetja so na mediani rasla več kot slovensko gospodarstvo pri 
+kazalnikih prodaje in EBITDA.  Podjetja (upravičenci), ki imajo sedež na Vzhodu, so imela zaradi 
+spodbud večji gospodarski učinek kot podjetja (upravičenci), ki imajo sedež na Zahodu. Oba razpisa 
+sta prispevala k zmanjševanju razlike med obema kohezijskima regijama. 
+Kazalniki OP: Javna razpisa, ki  sta predmet vrednotenja, sta prispevala k dvema kazalnikoma, in 
+sicer CO24 - Raziskave in inovacije: število raziskovalcev pri podprtih subjektih (ciljna vrednost v 
+ekvivalentu polnega delovnega časa novih raziskovalcev  – Vzhod: 150 in Zahod:  200) in CO26 - 
+Raziskave in inovacije: število podjetij, ki sodelujejo z raziskovalnimi ustanovami (ciljna vrednost 
+135 podjetij). Oba kazalnika sta bila ne le dosežena, pač pa tudi presežena.  
+Ključna priporočila 
+Kontinuiteta in osredotočenost financiranja: Ugotavljamo, da v Sloveniji manjka kontinuiteta in 
+usklajenost financiranja raziskovalno razvojne dejavnosti po vseh fazah razvoja, zato predlagamo 
+bolj strateško načrtovanje razpisov, da bi zagotovili ne le manjši razkorak (zamik) med posameznimi 
+razpisi za iste razvojne faze, pač pa tudi omogočili, da projekti, ki končajo s TRL 6, nadaljujejo razvoj 
+naslednjih faz brez izgubljenega razvojnega naboja. Verjamemo, da bi kontinu iteta, cikličnost kot 
+tudi usklajenost razpisov pripomogle ne le k večjemu obsegu samih raziskav in razvoja, pač pa tudi 
+k njihovi uspešnosti.  Predlagamo, da se z namenom kontinuitete razvoja, prouči možnost 
+prilagoditve razpisnih pogojev TRL 6 -9 na način, da nagrajujejo prijavitelje, če so le -ti dobili 
+financiranje razvojnih faz TRL 3-6 za isti projekt. Predlagamo večjo usklajenost časovnice razpisov 
+razvojnih faz, da bi se zagotovila boljša komplementarnost in kontinuiteta financiranja.  Prav tako 
+predlagamo večjo osredotočenost razpisov na posamezne panoge/dejavnosti/priložnosti. Trenutni 
+sistem financiranja razprši sredstva po vseh področjih (konkretno S4), s čimer se zmanjša razvojni 
+prebojni potencial, ki bi bil sicer mogoč, če bi bilo za posamezno področje na voljo več sredstev.  
+Izboljšanje administrativnih postopkov:  Predlagamo, da se spremljanje izvajanja raziskovalno 
+razvojnih projektov  v prihodnosti ne osredotoča toliko na administrativnem preverjanju 
+upravičenosti izdatkov, pač pa da se da še večji poudarek na vsebinskem preverjanju in spremljanju 
+programov in projektov. 
+ 
+  
+
+ 
+  7 
+Executive summary 
+ 
+The evaluation of the “support for implementation of research and development (R&D) programmes 
+and projects” covered two calls for proposals, which are part of the specific objective "Efficient 
+use of research infrastructures and development of knowledge/competences for better 
+national and international cooperation in the knowledge triangle", for Priority Investment 
+(1a) Improving research and innovation infrastructure and capacity to develop excellence in research 
+and innovation and promoting centres of excellence, in particular those of European interest as 
+defined in the Operational Programme for the implementation of the Cohesion Policy for the 2014 -
+2020 programming period.  
+The calls for proposals "Supporting of the implementation of R&D programmes (TRL 3 -6)" and 
+"Supporting of the implementation of R&D projects (TRL 3-6)" were implemented by the Ministry of 
+Higher Education Science and Innovation (formerly Ministry of Education Science and Sport) . The 
+calls for proposal supported  9 R&D programmes (159 beneficiaries) and 24 R&D projects (116 
+beneficiaries). 
+The objective of the evaluation was to assess the effectiveness and efficiency of the measures 
+implemented and their contribution to improving research infrastructure, international cooperation 
+and the competitiveness of Slovenian enterprises. 
+A wide range of methodological tools were used to prepare the report, to understand the broader 
+incentive environment, the intervention logic, as well as to answer the evaluation questions.   
+The desk research involved a systematic review of available documentation, including calls for 
+proposals, final project reports, evaluation reports, research reports, literature and other identified 
+sources. Focus groups and structured interviews  were used to obtain qualitative data. 
+Participants included call managers,  call/project administrators, lead consortium partners 
+(coordinators) and representatives of research organisations. Within the scope of the evaluation 7 
+focus groups and 3 structured interviews were conducted. The survey as a quantitative evaluation 
+method served to obtain both quantitative and qualitative information. We received 148 responses, 
+which is an outstanding result.  Multi-criteria analysis as a fact -finding method allowed us to 
+compare several indicators that collectively describe a given situat ion or challenge, to assess 
+changes and make comparisons between different entities and actions, and to review the change in 
+the value of the indicators over the course of the implementation period.  Counterfactual 
+analysis was used to assess the actual impact of changes brought about by EU interventions - calls 
+for proposals. In other words, the counterfactual analysis was used to determine whether the change 
+is due to the intervention or whether the change would have happened without the intervention. For 
+the purposes of this evaluation, we have chosen the so-called 'difference-in-differences' or 'double-
+difference' method. As part of the counterfactual analysis, we have created two main groups of 
+analysis subjects - beneficiaries and a control group (the s o-called twins). Beneficiaries are 
+organisations that have received EU funding from the calls for proposals that are the subject of this 
+evaluation. The twins represent the most similar company to the beneficiary, which had a 
+comparable starting point in 2016 (in terms of NACE classification, size and revenue), and which did 
+not receive EU support. For research organisations (public and private, classified as an institution in 
+the AJPES database), we could not create a control group as most of the research organisations 
+were involved in projects funded from the evaluated calls. The comparison between the two groups 
+was used to determine the actual impact of EU funding. In this way, we excluded the impact of other 
+factors (such as COVID-19, general economic growth, market developments, etc.) and focused only 
+on the impact of EU incentives. In total, 155 beneficiaries were included in the evaluation, 59.4% of 
+them companies and 40.6% research organisations. The companies were mostly registered as 
+manufacturing enterprises, while the research organisations were registered as higher education 
+institutions and public research organisations. Consortia were composed of a minimum of four 
+enterprises and three research organisations for R&D programmes and a minimum of one enterprise 
+and one research organisation or two enterprises for R&D projects. 
+ 
+Key findings 
+Achievement of objectives : All projects achieved their objectives and 22% even exceeded them. 
+Beneficiaries reported additional patents, publications, new solutions and technologies.  
+Direct impacts: New knowledge towards developing new products and services; better links between 
+companies, and research organisations as well as vice versa; improved market performance 
+(references, process innovations implemented in business processes, etc.); acquisition of new skills, 
+development and expansion of teams and development of research activities within companies.  
+
+ 
+  8 
+Indirect effects : Mostly related to an increase in innovation activity, which continued after the 
+projects and programmes were completed; Acquisition of new business partners, with companies 
+gaining key contacts and links for joint market entry and research organisations gaining new 
+customers fo r their services. An important impact has been the strengthening of long -term 
+partnerships, with larger companies deepening existing strategic partnerships and smaller 
+companies establishing new long-term collaborations.  
+Change in the R&D environment: The R&D environment has changed considerably over the last ten 
+years, with key drivers of change being the acceleration of R&D, the greater applicability of research, 
+better research equipment, faster technological progress, more collaboration between companies 
+and research organisations, and the increased importance of R&D for remaining competitive. Despite 
+the progress challenges still remain, mainly lack of continuity of funding, fragmentation of funding 
+and increased bureaucracy. 
+Economic impact:  The calls had a positive economic impact on all beneficiaries (companies and 
+research organisations). Companies grew more than comparable companies that did not receive EU 
+incentives on all indicators except value added per employee. Research institutions also experienced 
+higher growth than enterprises. At the median, companies grew more than the Slovenian economy 
+for sales and EBITDA indicators. Firms (beneficiaries) based in the East ern Slovenia had a higher 
+economic impact than firms (beneficiaries) based in the Western Slovenia as a result of the provided 
+incentives. Both calls contributed to reducing the gap between the two cohesion regions. 
+Indicators of the OP : The two calls for proposals evaluated contributed to two indicators, namely 
+CO24 - Research and innovation: number of researchers in supported entities (target in full -time 
+equivalent of new researchers - East: 150 and West: 200) and CO26 - Research and innovation: 
+number of enterpri ses cooperating with research institutions (target of 135 enterprises). Both 
+indicators were not only achieved but also exceeded.  
+Key recommendations 
+Continuity and focus of funding:  We note that there is a lack of continuity and coherence in the 
+funding of R&D activities across all phases of development in Slovenia, and we therefore suggest a 
+more strategic planning of calls to ensure not only that there is less of a gap (lag) between calls for 
+the same phases of development, but also that projects that finish with TRL 6 can continue to develop 
+the next phases without losing development momentum. We believe that continuity, cyclicality as 
+well as cohere nce of calls would help not only to increase the volume of R&D itself, but also its 
+success. To ensure continuity of development, we suggest that consideration be given to adapting 
+the terms and conditions of TRLs 6 -9 to reward applicants if they have received funding for the 
+development phases of TRLs 3- 6 for the same project. We further suggest that the timing of the 
+calls for development phases should be more coherent to ensure better complementarity and 
+continuity of funding. We also suggest a greater f ocus of calls on specific 
+sectors/activities/opportunities. The current funding system disperses funding across all areas 
+(specifically S4), thus reducing the breakthrough development potential that would otherwise be 
+possible if more funding were available for each area. 
+Improving administrative procedures : We propose that in future the monitoring of R&D projects 
+should not focus so much on administrative verification of the eligibility of expenditure, but should 
+place even more emphasis on substantive verification and monitoring of programmes and projects. 
+ 
+  
+
+ 
+  9 
+1 Uvod 
+1.1 Predmet, namen in cilji vrednotenja 
+Predmet vrednotenja so razpisi in projekti, ki so se izvajali v sklopu specifičnega cilja (v nadaljevanju 
+SC) "Učinkovita uporaba raziskovalne infrastrukture ter razvoj znanja/kompetenc za 
+boljše nacionalno in mednarodno sodelovanje v trikotniku znanja", pri prednostni naložbi (v 
+nadaljevanju PN) (1a) Izboljšanje infrastrukture za raziskave in inovacije ter zmogljivosti za razvoj 
+odličnosti pri raziskavah in inovacijah ter promocija kompetenčnih centrov, zlasti tistih v evropskem 
+interesu kot opredeljeno v Operativnem programu za izvajanje kohezijske politike v programskem 
+obdobju 2014-2020 (v nadaljevanju OP).  
+V sklopu vrednotenja sta skladno s tehničn imi specifikacijami javnega naročila zajeta naslednja 
+dva javna razpisa (v nadaljevanju JR)/ukrepa: 
+ Spodbujanje izvajanja RR programov (TRL 3-6) (v nadaljevanju JR programi) in  
+ Spodbujanje izvajanja RR projektov (TRL 3-6) (v nadaljevanju JR projekti). 
+V sklopu vrednotenja smo  presojali učinkovitost in uspešnost izvajanja  načrtovanega 
+specifičnega cilja kot tudi razpisov izvedenih znotraj tega cilja , naredili pa smo tudi medsebojno 
+primerjavo obeh ukrepov.  
+Pri izvedbi vrednotenja smo se osredotočili na identifikacijo EU vpliva na: 
+ spodbujanje sodelovanja med znanstveno sfero in gospodarstvom, 
+ prispevek k mednarodni odličnosti in prebojnosti tako znanstvenega kot tudi gospodarskega 
+konzorcija, 
+ prevod rezultatov v nove produkte in storitve z visoko dodano vrednostjo z izkazanim tržnim 
+potencialom na mednarodni ravni in s tem večji konkurenčnosti udeleženih partnerjev. 
+Cilj SC je izboljšati infrastrukturo za raziskave in inovacije ter zmogljivosti za razvoj 
+odličnosti pri raziskavah in inovacijah.  Prav tako je cilj SC izboljšati promocijo kompetenčnih 
+centrov, predvsem tistih, ki so v evropskem interesu. 
+Pričakovani rezultati OP v okviru specifičnega cilja 1.1.1. so: 
+ izboljšan prenos znanja med raziskovalnimi organizacijami (v nadaljevanju RO) in podjetji,  
+ bolj učinkovito izkoriščanje raziskovalne infrastrukture in povezava v nacionalne in 
+regionalne infrastrukturne centre,  
+ bolj mednarodno konkurenčen RRI prostor. 
+OP je pripravljen na podlagi Partnerskega sporazuma (v nadaljevanju PS) in je osrednji dokument, 
+v katerem so opredeljeni viri financiranja ukrepov. Vir financiranja JR, ki sta predmet vrednotenja, 
+je Evropski sklad za regionalni razvoj (v nadaljevanju ESRR). 
+Kazalniki rezultata SC so opredeljeni v OP, in sicer so to: 
+ 
+1 SURS je za ta kazalnik v letu 2017 spremenil metodologijo zbiranja podatkov, zato neposredna primerjava med leti ni več mogoč a, saj 
+ne moremo oceniti vpliva, ki ga je sprememba vprašalnika imela na ta kazalnik.   
+ID. Kazalnik 
+Izhodiščna 
+vrednost 
+(obdobje 2010 
+do 2012) 
+Izhodiščno 
+leto 
+Ciljna 
+vrednost (za 
+leto 2023) 
+Doseženo 
+(leto vira 
+podatkov) 
+1.1 Delež sredstev iz tujine za 
+financiranje vseh bruto 
+domačih izdatkov za RRD 8,6% 2012 8,6% 
+29,3%1 
+(2022) 
+1.8 Delež sredstev v izdatkih 
+javnega sektorja za RRD, ki 
+je financiran iz poslovnega 
+sektorja 
+9,7% 2012 12% 
+3,6% 
+(2022) 
+1.2 Uvrstitev Slovenije nad 
+povprečje EU v Innovation 
+Union Scoreboard 
+12. mesto 2014 11. mesto 
+14. mesto  
+(2023) 
+
+ 
+  10 
+ 
+Cilj vrednotenja je bila ugotovitev uspešnosti in učinkovitosti operacij, in sicer: 
+a) Vrednotenje učinkovitosti in uspešnosti izvedbe ukrepov TRL 3-6 (JR programi in JR projekti) 
+z vidika doseženih/preseženih zastavljenih ciljev, kazalnikov in predvidenih rezultatov 
+posameznih operacij (JR programi in JR projekti).  
+b) Ugotovitev uspešnosti izvedbe ukrepov TRL 3- 6 (JR programi in JR projekti) z vidika ciljev 
+JR (izvedba teoretsko naravnanega vrednotenja vpliva): 
+- spodbujanje sodelovanja med znanstveno sfero in gospodarstvom: ugotovitev, ali je 
+ukrep prispeval k vzpostavitvi partnerstev in sinergij, ali se je vzpostavilo okolje, ki 
+omogoča učinkovit prenos znanja iz javno-raziskovalnih organizacij v podjetja; 
+- prispevek k mednarodni odličnosti in prebojnosti tako znanstvenega kot tudi 
+gospodarskega konzorcija: izboljšanje raziskovalne odličnosti ter tržni potencial; 
+- prevod rezultatov v nove produkte in storitve z visoko dodano vrednostjo in z 
+izkazanim tržnim potencialom na mednarodni ravni in s tem večji konkurenčnosti 
+udeleženih partnerjev. 
+c) Primerjava obeh ukrepov TRL3-6 (JR programov in JR projektov) med seboj glede na skupne 
+cilje obeh javnih razpisov. 
+ 
+  
+
+ 
+  11 
+2 Pregled intervencijske logike  
+ 
+Intervencijska logika, kot jo razume Evropska Komisija, predstavlja povezavo med cilji posameznega 
+programa (tisto kar želimo doseči s posameznim programom) in ustvarjenimi rezultati programa 
+(tisto kar je v praksi doseženo). Uporaba intervencijske logike pomeni način programiranja 
+posameznih programov, s podlago v teoriji, in omogoča razumevanje, zakaj imajo posamezne 
+intervencije rezultate in druge ne. 
+Uporaba intervencijske logike je zato pogoj za izdelavo posameznega OP, vključno z OP 2014-2020, 
+ki vsebuje specifični cilj, ki je tudi predmet tega vrednotenja. Za potrebe razumevanja ciljev in 
+obsega intervencij, je podjetje CEDARS v tem poglavju opravil o pregled intervencijske logike, ki jo 
+je Republika Slovenija (RS) uporabila za izdelavo OP 2014-2020. 
+ 
+ 
+Slika 1 Intervencijska logika 
+Slika 1 zgoraj predstavlja pregled procesa definiranja intervencijske logike. Proces se začne z 
+definiranjem potreb RS, ki so rezultat analize trenutnega stanja v državi in primerjave z želenim 
+stanjem v prihodnosti. Področja, ki so predmet analize, so odv isna od obsega posameznega ESI 
+sklada, iz katerega se financirajo intervencije. Tako se primeroma potrebe po zaposlovanju 
+analizirajo v luči ESS, potrebe po podpiranju inovacijskega okolja pa v luči ESRR. 
+Identificirane potrebe se uporabljajo za pripravo partnerskega sporazuma (PS), ki definira tematske 
+cilje (TC) podpore. TC predstavljajo krovne cilje, ki jih RS želi doseči z EU skladi. Slovenija se je 
+dodatno zavezala, s sprejemom EU zakonodaje, da bo pri spevala svoj delež k doseganju ciljev 
+strategije EU za pametno, trajnostno in vključujočo rast. Potrebe, vključno s slovenskim prispevkom 
+k doseganju ciljev EU, so povezane na posamezen TC. TC tudi vsebuje analizo začetnega stanja 
+kazalnikov, ki bodo predstavljali sistem spremljanja napredka, ter določitev želenega stanja le -teh 
+ob koncu programa. PS se usklajuje z EK, ker predstavlja krovni dokument za programiranje 
+posameznih intervencij. 
+Po potrditvi PS se pristopi k izdelavi operativnega programa (OP), ki predstavlja operacionalizacijo 
+posameznih TC na prednostne osi (PO) in specifične cilje (SC) intervencij. Operacionalizacija 
+natančneje definira izhodiščne in končne vrednosti kazalnikov , opiše način podpore, določi seznam 
+intervencij, ki bodo predmet posamezne PO/SC in postavi finančni okvir intervencij. OP definira tudi 
+načela, tako horizontalna kot specifična, za izbor projektov/programov, ki bodo sofinancirani iz EU 
+sredstev. V OP se definira tudi način upravljana z ESI skladi v RS in določi vloge posameznih organov. 
+Razpisi in projekti, skupno imenovano intervencije, izhajajo iz OP in so osnovni način, kako se 
+dosežejo cilji identificirani v OP in PS, kot tudi način, kako se uresničujejo potrebe RS. 
+Glede na predmet vrednotenja ta dokument ne opisuje podrobneje posamezne potrebe identificirane 
+v PS in OP, pač pa se osredotoča izključno na potrebe, TC in intervencije, ki se nanašajo na podporo 
+inovacijskemu ekosistemu v Sloveniji. Cilji, obseg in spodbude so podrobneje opisani v nadaljevanju 
+tega poglavja. 
+ 
+2.1 Pregled ciljev intervencijske logike  
+Program ESI skladov obsega 11 TC, pri čemer je za predmet vrednotenja relevanten TC1 – "Krepitev 
+raziskav, tehnološkega razvoja in inovacij". V sklopu tega cilja je RS prevzela cilj EU 2020, da bo v 
+raziskave in razvoj namenila 3% BDP skupnih javnih in zasebnih naložb. Namen vlaganj v raziskave 
+in razvoj je doseči boljšo konkurenčno sposobnost in vzpostavitev inovativnega okolja v državi, kot 
+tudi doseganje večje učinkovitosti, kakovosti in boljše dostopnosti javnih storitev. 
+PS definira ključne prednosti in slabosti raziskovalnega sistema, in sicer predvsem dobro znanstveno 
+kakovost raziskovalnih zmogljivosti in infrastrukture. Po drugi strani pa je med ključnimi slabosti in 
+izzivi izpostavljena prevelika razdrobljenost in premajhno sodelovanje med vsemi akterji raziskav in 
+razvoja. Prav tako PS definira primanjkljaj pri prenosu in uporabi znanja in neosredotočenost 
+vlaganja v raziskovalno-razvojne dejavnosti.  
+Analiza stanja izkazuje naslednje ključne potrebe na področju raziskav in razvoja: 
+
+ 
+  12 
+ Vzpostavitev podpornega raziskovalno- inovacijskega okolja, ki bi omogočilo boljšo izrabo 
+raziskovalne zmogljivosti resursov; 
+ Povečanje števila raziskovalcev in razvojnikov v gospodarstvu;  
+ Povečanje ravni medinstitucionalne in meddržavne prehodnosti raziskovalcev;  
+ Izboljšanje sistema za upravljanje RRI in povečanje ravni učinkovitosti vlaganja javnih 
+sredstev na tem področju. 
+Na podlagi potreb, analize stanja slovenskega inovacijskega sistema in nacionalnih reformnih 
+programov se je v procesu priprave OP natančneje definiral nabor področij, ki bodo predmet vlaganj 
+sredstev ESI skladov. To so področja, ki naslavljajo ključne ide ntificirane potrebe in prispevajo k 
+doseganju zastavljenih ciljev. OP sicer definira različne ukrepe znotraj 11 PO, ki so skladna s TC iz 
+PS, vendar pa se naše vrednotenje osredotoča na PO 1 "Mednarodna konkurenčnost raziskav, 
+inovacij in tehnološkega razv oja v skladu s pametno specializacijo za večjo konkurenčnost in 
+ozelenitev gospodarstva" oz. na SC "Učinkovita uporaba raziskovalne infrastrukture ter razvoj 
+znanja/kompetenc za boljše nacionalno in mednarodno sodelovanje v trikotniku znanja", ki je 
+sestavni del PO 1. Opis intervencijske logike v nadaljevanju se tako nanaša zgolj na to PO in ta SC, 
+ne pa tudi na ostala področja. 
+OP navaja, da so pretekla vlaganja Slovenije v RRI ustvarila razmeroma dobro okolje za raziskave 
+in razvoj in da bo v novem programskem obdobju več pozornosti namenjeno učinkoviti izrabi 
+obstoječe infrastrukture. Prav tako je kot eden od največjih izzivov definirana učinkovitost naložb v 
+raziskave in razvoj, kot tudi dejstvo, da je za reševanje tega izziva potrebno vzpostaviti podporni 
+sistem, ki bo zagotavljal prenos akumuliranega znanja v tržno usmerjene dejavnosti.  
+Vsa vlaganja so morala biti skladna s slovensko strategijo pametne specializacija (S4), ki je določila 
+področja, na katerih ima Slovenija strateške prednosti in na katere se želi osredotočiti ter graditi le-
+te tudi v prihodnosti.  
+S4 predstavlja izvedbeni dokument strateških dokumentov RS. Njen cilj je zagotoviti, da bo Slovenija 
+na prednostnih nišnih področjih prešla od sledilca do soustvarjalca globalnih trendov. Podobno kot 
+OP, S4 definira dvig dodane vrednosti na zaposlenega kot  ključno ciljno spremenljivko. Poleg tega 
+S4 definira naslednje ključne kazalnike kot merila za uspešnost njene izvedbe, in sicer: 
+1. povečanje deleža visokotehnološko intenzivnih proizvodov v izvozu – dvig iz 22,3% na 
+povprečno raven EU-15 - 26,5%, 
+2. povečanje deleža izvoza storitev z visokim deležem znanja v celotnem izvozu – iz 21,4% na 
+33%, 
+3. dvig celotne podjetniške kreativnosti s sedanjih 11% na vsaj 12,8%.  
+Za doseganje navedenih ciljev S4 naslavlja širši nabor razvojnih politik, predvsem povezanih z 
+inovativnostjo in politiko spodbujanja raziskav in inovacij. S4 opredeljuje prednostna področja, ki se 
+nato navezujejo na specifične ukrepe definirane znotraj OP . V procesu definiranja omenjenih 
+prednostnih področji je Slovenija definirala prioritetne panoge glede na raven tehnološke 
+specializacije in razkritih primerjalnih prednosti: 
+ materiali,  
+ farmacija,  
+ stroji, orodja in oprema,  
+ kemična industrija,  
+ guma in plastika,  
+ elektro industrija, 
+ avtomobilska industrija. 
+ 
+Po definiranju prioritetnih panog je uporabljen proces podjetniškega odkrivanja – proces, ki vključuje 
+strokovno vodene razprave/delavnice z deležniki iz gospodarstva, raziskovalnih in razvojnih institucij 
+ter civilne družbe. Razprava je bila organizirana po vsebinskih sklopih in se je vsebinsko osredotočala 
+na tri ravni: (a) na artikulacijo primerjalnih prednosti z vidika znanj in kompetenc, (b) na opredelitev 
+priložnosti, potreb in izzivov na trgih in (c) na opredelitev potreb po spremembah ekosistema RRI in 
+vloge države.  
+Na podlagi procesa podjetniškega odkrivanja so definirana naslednja prednostna področja investicij: 
+Zdravo bivalno in delovno okolje 
+ Pametna mesta in skupnosti  
+ Pametne zgradbe in dom z lesno verigo 
+Naravni in tradicionalni viri za prihodnost 
+ Mreže za prehod v krožno gospodarstvo 
+ Trajnostna pridelava hrane 
+
+ 
+  13 
+ Trajnostni turizem 
+(S)Industrija 4.0 
+ Tovarne prihodnosti 
+ Zdravje medicina 
+ Mobilnost 
+ Razvoj materialov kot končnih produktov 
+ 
+OP predvideva naslednje ukrepe: 
+ Izboljšanje mednarodne konkurenčnosti in odličnosti raziskav z namenom 
+spodbujanja povezav akademske in gospodarske sfere . Pri tem se osredotoča na 
+boljše izkoriščanje potencialov, priložnosti in zmogljivosti področij, ki so bila razvita že v 
+predhodnih obdobjih. Prav tako podpira projekte, ki bodo izkazovali mednarodni raziskovalni 
+prebojni potencial.  
+ Boljša izraba in razvoj raziskovalne infrastrukture. Ta ukrep je neposredno povezan s 
+prvim ukrepom, pri čemer je podpora namenjena odpiranju uporabe raziskovalne 
+infrastrukture, kot tudi vzpostavitvi širokega dostopa rezultatov raziskovalnega dela.  
+ Učinkovito vključevanje v mednarodne raziskovalne programe. Poseben poudarek je 
+dan podpori vključevanja slovenskih partnerjev v mednarodne raziskovalne mreže, vključno 
+z velikimi infrastrukturnimi projekti, kot je CERN, ter na privabljanju tujih strokovnjakov. 
+Poudarjena je vzpostavitev evropskega raziskovalnega p rostora in doseganje sinergij med 
+različnimi viri financiranja, zlasti v okviru programov Obzorje 2020 in ERA-net. 
+ Izraba raziskovalnega potenciala raziskovalcev in njihova mobilnost.  Spodbude so 
+usmerjene v projekte, ki krepijo povezovanje med akademskim okoljem in gospodarstvom. 
+Posebna pozornost je namenjena raziskovalcem, ki se vračajo iz tujine, saj bodo s 
+pridobljenim znanjem pomembno prispevali k raziskovalnim in razvojnim dejav nostim 
+podjetij. Podpora vključuje tudi projekte z visokim potencialom, ki zaradi omejenih sredstev 
+na ravni posameznega EU razpisa niso bili izbrani za financiranje, kar bo povečalo njihovo 
+vključitev v evropski raziskovalni prostor. 
+ Povezovanje znanosti, kulturnih in ustvarjalnih industrij ter gospodarstva . Za 
+povečanje inovativnosti in ustvarjalnosti bo podprta uporaba novega znanja ter umetniških 
+dosežkov. Oblikovane bodo platforme, ki bodo vzpostavile nove povezave med 
+mednarodnimi projekti, s ciljem prepoznavanja področij za razvoj konkretnih aplikacij,  kar 
+bo spodbudilo integracijo znanstvenih, kulturnih in gospodarskih dejavnosti za skupni razvoj 
+in inovacije. 
+Ciljne skupine podpor so podjetja, raziskovalne organizacije, univerze in samostojni visokošolski 
+zavodi ali raziskovalci ter konzorciji organizacij v skladu z določenimi prednostnimi raziskovalno-
+tehnološkimi področji, institucije, subjekti s področja kulture.  
+ 
+2.2 Pregled matrice spodbud 
+Oba razpisa, ki sta predmet našega vrednotenja, se vsebinsko ne razlikujeta veliko v samem cilju in 
+namenu spodbud, zato sta v tem podpoglavju oba razpisa predstavljena skupaj z izpostavljenimi 
+ključnimi razlikami.  
+ 
+Namen in cilj javnih razpisov 
+Oba javna razpisa imata cilj spodbuditi izvajanje raziskovalno -razvojnih projektov (ali programov), 
+z velikim poudarkom na povezovanju akademske sfere in gospodarstva ter razvoju novih produktov, 
+procesov in storitev na prednostnih področjih S4.  
+Namen razpisov je priprava in izvajanje skupnih konzorcijskih raziskovalno -razvojnih projektov 
+institucij znanja in gospodarskih subjektov, ki izkazujejo: 
+ koncentracijo znanja in kompetenc,  
+ znanstveno in tehnološko odličnost,  
+ tržni potencial v globalnih mrežah in verigah vrednosti,  
+ zavezo in sposobnost vlaganja lastnih sredstev in  
+ trajnost projektov. 
+
+ 
+  14 
+Splošni cilj je podpreti konzorcije, ki bodo ustvarjali nove produkte in storitve z visoko dodano 
+vrednostjo in z izkazanim tržnim potencialom na mednarodni ravni.  
+Ključna razlika med obema razpisoma je v velikosti konzorcija in obsegu sredstev ter vsebinski 
+kompleksnosti samega razvoja in raziskav. RR programi financirajo večje konzorcije združene v t.i. 
+RR programe, katerih namen je implementacija več in po obsegu večjega razvoja in raziskav po 
+različnih vsebinah, strukturirane okoli več tematsko različnih industrijskih raziskav in 
+eksperimentalnih razvojev. V praksi to pomeni, da posamezen RR program ni samostojna enota, kot 
+to sicer velja za RR projekt. Za RR proj ekte velja, da so po velikosti in obsegu v primerjavi z RR 
+programi manjši ter podpirajo implementacijo posamezne zaokrožene enote raziskav in razvoja v 
+manjšem konzorciju.  
+ 
+Predmet javnih razpisov 
+Pri obeh javnih razpisov je predmet financiranja izvajanje industrijskih raziskav (TRL 3 -4) in 
+eksperimentalnega razvoja (TRL 5-6).  
+Pri določanju ravni tehnološke pripravljenosti (ang. Tehcnology Readiness Level – TRL) in skladno z 
+Okvirom za državne pomoči za raziskave, razvoj ter inovacije se različne raziskovalno -razvojne 
+dejavnosti razvrščajo po raziskovalnih kategorijah. Evropska komisija se pri določanju ravni (TRL) 
+sklicuje na lastno prakso ter na posebne primere in pojasnila iz OECD priročnika Frascati. Različne 
+kategorije RR ustrezajo različnim ravnem TRL, in sicer: 1 (temeljne raziskave), 2 –4 (industrijske 
+raziskave) in 5–8 (eksperimentalni razvoj). 
+Predmet sofinanciranja so skladno z javnima razpisoma in pogoji državnih pomoči industrijske 
+raziskave v delu TRL 3 -4 ter eksperimentalni razvoj v delu TRL 5- 6, za katera veljajo naslednja 
+pojasnila: 
+Raziskovalna kategorija TRL stopnja Pojasnilo TRL stopnje 
+Industrijska raziskava TRL 3 Eksperimentalni dokaz veljavnosti koncepta 
+TRL 4 Laboratorijska validacija tehnologije 
+Eksperimentalni razvoj TRL 5 Validacija tehnologije v ustreznem okolju 
+TRL 6 Predstavitev v ustreznem okolju 
+ 
+Oba javna razpisa uporabljata shemo državnih pomoči "Program za spodbujanje raziskav in razvoja 
+MIZŠ na področju znanosti za obdobje 2016-2020". 
+ 
+Obseg sredstev in časovnica razpisov 
+Glede na razlike v obsegu vsebine razpisov se le-te tudi odražajo tudi v obsegu finančnih sredstev, 
+in sicer: 
+ RR programi – 55 milijonov EUR  
+o Vzhodna kohezijska regija: 19,25 milijonov EUR  
+o Zahodna kohezijska regija: 35,75 milijonov EUR 
+ 
+ RR projekti – 45 milijonov EUR  
+o Vzhodna kohezijska regija: 31,18 milijonov EUR  
+o Zahodna kohezijska regija: 13,82 milijonov EUR 
+RR programi so bili objavljeni januarja 2016, z rokom prijave programa 15.04.2016.  
+Obdobje upravičenosti stroškov se je pričelo z izdajo sklepa o dodelitvi in je trajalo do 30.06.2020, 
+za stroške, ki so nastali do datuma izstavitve zahtevka za sofinanciranje, kar je bilo najkasneje do 
+30.09.2020.  
+RR projekti so bili objavljeni januarja 2018, z rokom prijave projekta 02.03.2018.  
+Obdobje upravičenosti stroškov se je pričelo z izdajo sklepa o dodelitvi in je trajalo do 31.12.2022, 
+za stroške, ki so nastali do datuma izstavitve zahtevka za sofinanciranje, kar je bilo najkasneje do 
+31.03.2022.  
+ 
+
+ 
+  15 
+Pogoji javnih razpisov 
+Pogoji za prijavo so bili za oba javna razpisa podobni, kar velja za zahteve, kot so pravočasnost 
+prispele vloge, popolnost vloge, ustreznost partnerjev, zaprta finančna konstrukcija in skladnost 
+finančnega načrta s pravili državnih pomoči.  
+Razlike med javnima razpisoma izhajajo iz namena in obsega konzorcija. Pri RR programih so bili 
+konzorciji sestavljeni iz minimalno štirih podjetij in treh raziskovalnih organizacij. Pri RR projektih 
+so bili konzorciji sestavljeni iz minimalno ali enega podjetja in ene raziskovalne organizacije ali dveh 
+podjetij, pri čemer mora biti eno MSP, 30% celotnih upravičenih stroškov pa mora biti namenjenih 
+RO, ki nastopa v vlogi podizvajalca.  
+Razlika je tudi v samem obsegu financiranja posameznega programa/projekta. Pri programih RR je 
+bila maksimalna višina financiranja 6 mio EUR, med tem ko je bila ta pri RR projektih minimalna 1 
+mio EUR, maksimalna pa 2 mio EUR.  
+ 
+Merila in način izbora  
+Pri obeh razpisih se merila, način izbora in vsebina vloge bistveno ne razlikujejo. Merila se 
+osredotočajo na izbor programov/projektov, ki izkazujejo največji prispevek k posameznemu merilu 
+in s tem pokažejo tako raziskovalno odličnost kot tudi tržni potencial.  
+Izbor programov/projektov poteka v dveh ločenih segmentih/fazah. Najprej strokovna komisija 
+izvede fazo izbora z vidika izločitvenih kriterijev in sposobnosti prijaviteljev. V drugem delu komisija 
+za ocenjevanje vlog vsebinsko oceni RR program/projekt. Kom isija za ocenjevanje vlog je 
+sestavljena iz domačih in tujih strokovnjakov, zato je bilo vlogo potrebno oddati tako v slovenskem 
+kot angleškem jeziku.  
+Analize dokumentacije pokaže, da so bila, glede na dosežene rezultate obeh razpisov, merila in način 
+izbora upravičencev pravilno zastavljena, da so zagotovila izbor najbolj primernih upravičencev, ki 
+so sočasno prispevali tako k znanstveni odličnosti kot tudi izboljšanju tržnega potenciala podjetij. 
+Naj še navedemo, da so sodelujoči na f okusnih skupinah kriterij »povprečna dodana vrednost na 
+zaposlenega v panogi« označili kot izključujočega glede na posebnosti posameznih panog, kot tudi 
+da je bila ena izjema na partnerja v konzorciju premalo, da bi se sestavili in izbrali vsakokrat najboljši 
+konzorciji. Raziskovalne organizacije nadalje na fokusnih skupinah pojasnjujejo, da je v te projekte 
+težko vključiti nova podjetja, ki nimajo izkušenj ali znanja s področja prijave, izvajanja in predvsem 
+administriranja podobnih projektov. 
+ 
+2.3 Pregled obsega intervencij  
+V sklopu PO 1. SC "Učinkovita uporaba raziskovalne infrastrukture ter razvoj znanja/kompetenc za 
+boljše nacionalno in mednarodno sodelovanje v trikotniku znanja" je bilo implementiranih 18 javnih 
+razpisov/operacij (skupno poimenovano tudi intervencija). Dodeljenih je bilo skupaj 263 milijonov 
+EUR, in sicer po naših ocenah 130 upravičencem. Ker niso vse intervencije predmet tega vrednotenja 
+(predmet vrednotenja sta samo JR "Spodbujanje raziskovalno razvojnih programov (TRL 3 -6)" in 
+"Spodbujanje raziskovalno razvojnih projektov (TRL 3 -6)"), nimamo točnega podatka o skupnem 
+številu upravičencev. Prav velja pojasniti, da so v spodnji tabeli vsi člani konzorcija šteti kot 1 
+upravičenec. Zgornja številka predstavlja t.i. bruto upravičence, kjer so konzorciji upoštevani kot 
+en sam upravičenec. Tabela spodaj prikazuje obseg vseh intervencij, pri čemer smo odebeljeno 
+označili oba razpisa, ki sta predmet tega vrednotenja.  
+ Intervencija Upravičeni 
+stroški 
+Št. 
+upravičencev 
+1. SPODBUJANJE IZVAJANJA RAZISKOVALNO – RAZVOJNIH 
+PROGRAMOV (TRL 3-6) 59.720.960,62 9 
+2. Javni razpis "Spodbujanje izvajanja raziskovalno-razvojnih 
+projektov (TRL 3-6)" 44.468.055,18 24 
+3. Biotehnološko stičišče Nacionalnega inštituta za biologijo (BTS-NIB) 32.236.151,55 1 
+4. InnoRenew CoE Center odličnosti za raziskave in inovacije na področju 
+obnovljivih materialov in zdravega bivanjskega okolja 29.992.050,00 1 
+5. Nadgradnja nacionalnih raziskovalnih infrastruktur– RIUM 28.982.964,08 1 
+6. Nadgradnja nacionalnih raziskovalnih infrastruktur– HPC RIVR 20.000.000,00 1 
+
+ 
+  16 
+7. MREŽA CENTROV RAZISKOVALNIH UMETNOSTI IN KULTURE 8.966.225,95 2 
+8. Javni razpis za spodbujanje raziskovalcev na začetku kariere 2.1 7.320.415,00 43 
+9. Nakup raziskovalne opreme NIB 6.335.280,00 1 
+10.  Javni razpis za spodbujanje raziskovalcev na začetku kariere 2.0 5.291.000,00 39 
+11. Razvoj raziskovalne infrastrukture za mednarodno konkurenčnost 
+slovenskega RRI prostora – RI-SI-Elixir 5.260.000,00 1 
+12. Razvoj slovenščine v digitalnem okolju - jezikovni viri in tehnologije 4.000.000,00 1 
+13. Razvoj raziskovalne infrastrukture za mednarodno konkurenčnost 
+slovenskega RRI prostora – RI-SI-LifeWatch 3.299.976,75 1 
+14. »Razvoj raziskovalne infrastrukture za mednarodno konkurenčnost 
+slovenskega RRI prostora – RI-SI-CERIC« 3.100.000,00 1 
+15. Razvoj raziskovalne infrastrukture za mednarodno konkurenčnost 
+slovenskega RRI prostora – RI-SI-Eatris 2.050.364,59 1 
+16. »Razvoj raziskovalne infrastrukture za mednarodno konkurenčnost 
+slovenskega RRI prostora – RI-SI-EPOS« 1.826.964,08 1 
+17. »Razvoj raziskovalne infrastrukture za mednarodno konkurenčnost 
+slovenskega RRI prostora – RI-SI-CLARIN« 466.000,00 1 
+18. »Razvoj raziskovalne infrastrukture za mednarodno konkurenčnost 
+slovenskega RRI prostora – RI-SI-DARIAH« 98.000,00 1 
+ Skupno 263.414.407,80 130 
+ 
+Razpisa, ki sta predmet vrednotenja, sta bili v primerjavi z ostalimi intervencijami najbolj obsežna 
+in v okviru tega SC predstavljata kar 40% vseh dodeljenih sredstev (23% sredstev je bilo dodeljeno 
+RR programom, 17% pa RR projektom).  
+Ko upoštevamo dejansko št. upravičencev oz. ko 
+seštejemo vse koordinatorje in partnerje skupaj, dobimo 
+skupno število 155 neto upravičencev (skupaj oba javna 
+razpisa). Pomembno je poudariti, da so bili določeni 
+partnerji člani več kot enega konzorcija, ena ko velja tudi 
+za koordinatorje (Gorenje, Inštitut za kovinske materiale 
+in SiEVA), da so bili nekateri prijavitelji na obeh razpisih. 
+Pravila obeh razpisov določajo, da je lahko podjetje ali RO 
+koordinator samo na enem projektu znotraj enega razpisa, 
+med tem ko so podjetja ali RO lahko projektni partnerji na 
+več kot enem projektu znotraj enega razpisa. Slika 2 
+prikazuje delež upravičencev, ki so bili v vlogi projektnega 
+partnerja po številu projektov. Glede na podatke lahko 
+ugotovimo, da je bilo 11% upravi čencev samo v vlogi 
+projektnega koordinatorja. 3% upravičencev je sodelovalo 
+v več kot 6 projektih, pri čemer je en upravičenec 
+(Fakulteta za elektrotehniko, računalništvo in informatiko 
+Univerze v Mariboru) kot projektni partner sodelovala kar 
+na 12 projektih (36% vseh operacij). 
+Slika 2 - Delež upravičencev glede na št. 
+udeležb v vlogi projektnega partnerja 
+
+ 
+  17 
+Slika 3 predstavlja pregled usklajenosti 
+izvedenih intervencij z načrtovanimi ukrepi 
+znotraj OP. Glede na to, da sta oba razpisa 
+zelo podobna, smo ju združili v en stolpec. Po 
+pregledu razpisov, ki ju vrednotimo, lahko 
+ugotovimo, da dva načrtovana ukrepa nista 
+bila zajeta s cilji in predmetom financiranja 
+javnih razpisov. Vendar pa, ko upoštevamo 
+celoten obseg oziroma seznam intervencij na 
+t e m  S C ,  k i  j e  p r i k a z a n  v  t a b e l i  n a  z a č e t k u  
+tega poglavja, lahko ugotovimo, da so 
+načrtovani ukrepi, ki niso zajeti z 
+obravnavanimi razpisi zajeti z  drugimi 
+razpisi/operacijami.  
+ 
+ 
+ 
+ 
+ID. Kazalnik Merska enota 
+Ciljna 
+vrednost 
+(2023) 
+Doseženo 
+CO24 Raziskave in inovacije: število 
+raziskovalcev pri podprtih subjektih 
+Ekvivalent 
+polnega 
+delovnega časa 
+novih 
+raziskovalcev 
+ 
+Doseženo 
+CO25 
+Raziskave in inovacije: število 
+raziskovalcev, ki delajo v objektih z 
+izboljšanimi raziskovalnimi 
+zmogljivostmi 
+Ekvivalent 
+polnega 
+delovnega časa 
+150 Ni predmet 
+vrednotenja 
+CO26 
+Raziskave in inovacije: število podjetij, 
+ki sodelujejo z raziskovalnimi 
+ustanovami 
+Podjetja 135 Doseženo 
+ 
+V zgornji tabeli so predstavljeni kazalniki učinka OP. Iz zbranih podatkov lahko ugotovimo, da 
+rezultati razpisov, ki so predmet vrednotenja, prispevajo k doseganju kazalnika CO24 in CO26. Za 
+kazalnik CO24 ugotavljamo, da je presežen, saj je ekvivalent polnega delovnega časa novih 
+raziskovalcev znašal 703,79, kar je dvakrat več kot je njegova ciljna vrednost. Prav tako je bil 
+presežen tudi kazalnik CO26, saj je glede na podatke iz končnih poročil podjetij, število podjetij, ki 
+sodelujejo z raziskovalnimi ustanovami, znašalo 175, kar predstavlja presežek za 40 podjetij več kot 
+je ciljna vrednost.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+V: 150 
+Z: 200 
+Izboljšanje mednarodne 
+konkurenčnosti in odličnosti RR
+Spodbude za RR 
+programe in projekte 
+X
+Boljša izraba in razvoj raziskovalne 
+infrastrukture
+Učinkovito vključevanje v 
+mednarodne raziskovalne programe
+Izraba raziskovanega potenciala 
+raziskovalcev
+Povezovanje znanosti, kulturnih in 
+ustvarjalnih industrij in gospodarstva
+X
+X
+Slika 3 - Pregled ujemanja izvedenih intervencij z 
+načrtovanimi ukrepi 
+
+ 
+  18 
+2.4 Pregled upravičencev 
+V nadaljevanju so predstavljeni demografski podatki o upravičencih, in sicer glede na njihovo pravno 
+obliko, klasifikacijo po SKD dejavnosti, sedežu in velikosti, kot tudi po obsegu prihodkov. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Na sliki zgoraj so predstavljeni podatki o upravičencih glede na njihovo pravno obliko in registrirano 
+dejavnost poslovanja. Podjetij je 59,4% (od tega 52,9% d.o.o. in 6,5% d.d.), 40,6% vseh 
+upravičencev pa so raziskovalne organizacije (od tega 31,9% JRO in 8,7% RO). Po klasifikaciji SKD 
+dejavnosti je največ  podjetij (23%) registriranih kot proizvodn o podjetje. Sledijo jim podjetja 
+registrirana kot "drugo tehnično projektiranje in svetovanje", "raziskovalno razvojne dejavnosti" in 
+"računalniško programiranje". Vsa podjetja, ki so registrirana v dejavnosti in je v njej registriranih 
+manj kot 2% podjetij , smo združili v skupino »ostalo«. Teh podjetij je 46%. Pri raziskovalnih 
+organizacijah je največ organizacij registriranih kot visokošolsko izobraževanje , s ledijo jim RO 
+registrirane za raziskovalno in razvojno dejavnost na drugih področjih naravoslovja in tehnologije.  
+Slika levo pokaže, da ima 54% podjetij 
+sedež v vzhodni kohezijski regiji , pri 
+čemer jih ima 5% podružnice v obeh 
+regijah. Obratno velja za raziskovalne 
+organizacije. 55% raziskovalnih 
+organizacij ima sedež v zahodni 
+kohezijski regiji, 7% pa jih ima 
+podružnice v obeh regijah.  
+Podatki o številu zaposlenih nam 
+pokažejo, da ima 33% podjet ij in 46% 
+RO več kot 250 zaposlenih. Sorazmerno 
+malo podjetij ( 34%) in RO (20%) 
+zaposlujejo manj kot 50 oseb. Podjetij, ki 
+zaposlujejo manj kot 10 oseb, je 15%. 
+Med RO je takšnih zgolj 2%.  
+Pravna oblika in klasifikacija
+7%
+9%
+53%
+32%
+d.o.o
+d.d. RO
+JRO
+23%
+10% 8% 5% 3% 3% 2%
+Svetovanje o 
+računalniških 
+napravah in 
+programih
+Stavbno 
+mizarstvo 
+in tesarstvo
+Drugo 
+tehnično 
+projektiranje 
+in svetovanje
+46%
+Proizvodnja 
+(skupno 
+različni 
+obsegi)
+Drugje 
+nerazvrščene 
+strokovne in 
+tehnične 
+dejavnosti
+Računalniško 
+programiranje
+Raziskovalna 
+in razvojna 
+dejavnost na 
+drugih 
+področjih 
+naravoslovja 
+in tehnologije
+Ostale
+10%
+41%
+49%
+Raziskovalna in 
+razvojna dejavnost na 
+področju biotehnologije
+Raziskovalna in razvojna 
+dejavnost na drugih 
+področjih naravoslovja 
+in tehnologije
+Raziskovalna in razvojna 
+dejavnost na področju 
+družboslovja in humanistike
+Visokošolsko izobraževanje
+0%
+Pravna oblika organizacije Klasifikacija po SKD - podjetja
+Klasifikacija - RO
+Slika 4 - Pregled upravičencev po pravni obliki in dejavnosti 
+Pregled upravičencev po kohezijski regiji in št. zaposlenih
+54%
+41%
+5%
+38%
+55%
+7%
+15% 19%
+33%
+33%
+2%
+18%
+34%
+46%
+01-09
+10-49
+250+
+40-249
+Št. 
+zaposlenih 
+- podjetja
+Št. 
+zaposlenih
+- RO
+Kohezijska 
+regija -
+Podjetja
+Kohezijska 
+regija - RO
+Organizacija ima 
+podružnice v obeh
+Zahod
+Vzhod
+Slika 5 - Pregled upravičencev po kohezijski regiji in št. 
+zaposlenih 
+
+ 
+  19 
+Na sliki lepo so prikazani 
+odgovore na anketno vprašanja o 
+tehnološki zahtevnosti in obsegu 
+RR aktivnosti v organizaciji. Po 
+podatkih tako podjetij kot RO  je  
+večina produktov tehnološko 
+zahtevnih (94% pri podjetjih in 
+97% pri RO). RO imajo nekoliko 
+več visoko tehnološko zahtevnih 
+produktov, in sicer 57% pri RO in 
+48% pri podjetjih.  
+Podatki o št. raziskovalcev nam 
+pokažejo, d a imajo RO 
+zaposlenih več raziskovalcev v 
+vsaki kategoriji baze podatkov 
+(od mini muma do maksi muma) 
+kot tudi večje povprečje.  
+Enako velja za  delež ur, ki jih 
+zaposleni namenijo za RR 
+aktivnosti v organizaciji. Zaradi 
+tržne naravnanosti podjetij, so 
+razlike med podjetji  in RO 
+pričakovane. Ne glede na 
+navedeno pa je zelo pozitiven 
+podatek, da je v podjetjih kar 25% ur na mediani in 32% v povprečju namenjenih za RR aktivnost.  
+V nadaljevanju je informativno predstavljen pregled doseženih rezultatov in primerjava po področjih 
+pametne specializacije. V spodnjih tabelah smo naredili pregled po konzorciju, pri čemer smo skupne 
+rezultate po posameznem področju pametne specializacije delili s številom konzorcijev znotraj 
+področja; kot tudi pregled deleža rezultatov posameznega področja pametne specializacije v skupnih 
+rezultatih. Pomembno je poudariti, da je bil na področju "Trajnostni turizem" podprt samo en 
+konzorcij, saj je bilo pod ročje naknadno dodano. Predstavljeni rezultati v tem delu niso relevantni 
+(čeprav so predstavljeni, niso upoštevani pri nadaljnji analizi).   
+ 
+Slika 7 - Pregled rezultatov po področjih pametne specializacije (po konzorciju) 
+Slika zgoraj nam pokaže pregled rezultatov po področjih pametne specializacije po konzorciju znotraj 
+posameznega področja. Iz analize izhaja, da je k skupnim rezultatom največ prispevalo področje 
+"Pametne stavbe in dom z lesno verigo", saj je pri vsaki kategoriji rezultatov med 3 najboljšimi 
+področji. To pomeni, da je vsak konzorcij znotraj tega področja k posameznem rezultatu prispeval 
+največ oziroma je prispeval največ znotraj 3 najboljših. V kategoriji št. raziskovalnih ur najbolj 
+izstopa področje "Trajnostna hrana", ki je imelo najboljši rezultat po konzorciju. Pri rezultatih razvite 
+nove rešitve in nove mednarodne publikacije pa je imelo najboljši rezultat področje "Mreže za prehod 
+v krožno gospodarstvo".  
+Pregled upravičencev po tehnološki zahtevnosti in obsegu raziskovalne aktivnosti
+5 16 27
+400
+296 38 100
+257 175
+Minimum
+1.000
+PovprečjeMaksimum
+0
+1. kvartil 3. kvartilMediana
+-85
+(-85%)
+-146
+(-83%)
+Podjetja RO
+15% 25% 40%
+100%
+32%20% 34% 48% 61% 75%
+48%
+PovprečjeMaksimum1. kvartil Mediana
+0%
+Minimum 3. kvartil
+-23
+(-47%)
+-15
+(-32%)
+0%
+0%
+6%
+46%
+48%
+0%
+0%
+3%
+40%
+57%
+Srednje tehnološko zahtevno
+Bolj tehnološko zahtevno
+Manj tehnološko zahtevno
+Visoko tehnološko zahtevno
+Tehnološko nezahtevno
+Tehnološka 
+zahtevnost 
+-
+RO
+Tehnološka 
+zahtevnost 
+-
+Podjetja
+Št. raziskovalcev v organizaciji
+Delež ur, ki jih zaposleni namenijo za RR aktivnost
+Slika 6 - pregled upravičencev po tehnološki zahtevnosti, št. 
+raziskovalcev in deležu RR ur 
+
+ 
+  20 
+ 
+Slika 8 - Pregled rezultatov po področjih pametne specializacije (delež) 
+Podobne rezultate dobimo tudi, če naredimo analizo deleža rezultatov posameznega področja 
+pametne specializacije v skupnih rezultatih. Tudi v tem primeru je k posameznimi kategorijami 
+rezultatov največ prispevalo področje "Pametne stavne in dom z lesno verigo", sledijo mu področje 
+"Mobilnost" in "Mreže za prehod v krožno gospodarstvo". Prav tako vidimo, da so si deleži 
+posameznih konzorcijev med posameznimi področji strategije pametne specializacije zelo podobni 
+(z izjemo trajnostnega turizma).  
+  
+
+
+ 
+  21 
+3 Metodologija in pristop k vrednotenju 
+ 
+Metodologija vrednotenja temelji na metodologiji, ki je definirana v tehničnih specifikacijah 
+objavljenih v sklopu javnega naročila in je skladna z zahtevami za sklop 2 - Vrednotenje spodbujanja 
+izvajanja RR programov in RR projektov. Tehnična specifikacija je definira la tudi primere vprašanj 
+za vrednotenje. Metodologija upošteva načelo triangulacije podatkov, kar pomeni, da se, kjer je to 
+le mogoče, ne zanašamo zgolj na en vir podatkov, pač pa poskušamo na isto vprašanje odgovoriti s 
+podatki pridobljenimi iz več virov. Seveda z namenom, da rezultate ene metode preverimo in 
+potrdimo z rezultati druge metode ter tako povečamo skupno veljavnost rezultatov.  
+V poglavju 3.1 so opisana vsa uporabljena metodološka orodja za kvalitativno in kvantitativno 
+analizo, ki smo jih izbrali glede na predmet vrednotenja , postavljena vprašanja za vrednotenje  in 
+upoštevajoč dostopnost podatkov. Skladno z navedenim v nadaljevanju predstavljamo kombinirano 
+metodologijo sestavljeno iz kvalitativnih in kvantitativnih metod , kar nam je omogočilo  zbrati 
+podatke iz več različnih virov in odgovoriti na vprašanja za vrednotenje , ki so predstavljena v 
+poglavju 4 – Ugotovitve vrednotenja.  
+ 
+3.1 Predstavitev metodoloških orodij 
+Pregled dokumentacije (ang. desktop research) je vključeval sistematičen pregled razpoložljive 
+dokumentacije, vključno z razpisi, končnimi projektnimi poročili, poročili vrednotenja, poročili 
+raziskav, strokovno literaturo in drugimi opredeljenimi viri. Gre za objektiven pristop.  Cilj pregleda 
+dokumentacije in drugih virov je celovito in izčrpno iskanje odgovorov na zastavljena vprašanja 
+posamezne faze. Uporabljamo uveljavljeno in preizkušeno metodologijo, ki obsega skupen nabor 
+korakov prikazanih na sliki spodaj. Rezultat uporabe metodologije je celovit pregled literature, 
+razvrščen glede na temo in vir podatkov. Ugotovitve pregleda dokumentacije so bile uporabljene za 
+pripravo odgovorov na vprašanja vrednotenja.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fokusne skupine in strukturirani intervjuji so nam služili za pridobivanje kvalitativnih podatkov. 
+Udeleženci so bili vodje javnih razpisov, skrbniki posameznih razpisov/projektov, vodilni konzorcijski 
+partnerji (koordinatorji) in predstavniki raziskovalnih organizacij. V prvi fazi smo izvedli 5 fokusnih 
+skupin in 3 strukturirane intervjuje. Prisotnih je bilo 24 udeležencev iz 18 upravičencev (večinoma 
+koordinatorjev, v dveh primerih pa so namesto koordinatorja sodelovali v imenu koordinatorja 
+partnerji), s kupaj s predstavniki MVZI. Stopnja odzivnosti upravičencev na fokusne 
+skupine/strukturirane intervjuje je bila 51,5% upravičencev, kar je dober odziv . V drugi fazi smo 
+organizirali še 2 dodatni fokusni skupini s predstavniki RO. Na teh fokusnih skupinah je sodelovalo 
+6 udeležencev, kar predstavlja 18,5% odzivnost, kar je posledica terminske izvedbe fokusnih skupin 
+v mesecu juliju , ko beležimo veliko odsotnosti zaradi letnih dopustov . Na vseh fokusnih sku pinah 
+kot tudi na strukturiranih intervjujih smo se osredotočili na izkušnje in mnenja o zahtevnosti priprave 
+razpisov, izzivih pri izvedbi projektov, partnerstvu, sodelovanju  v raziskavah in razvoju , prenosu 
+znanja, raziskovalnem ekosistemu, tveganjih, časovnici projektov ter na pridobivanje ostalih 
+podatkov, ki jih sicer ni možno kvantitativno obravnavati. Fokusne skupine smo oblikovali na način, 
+Slika 9 - pregled metodologije postopka "pregleda dokumentacije" 
+1. Izbira
+zajema zbiranje literature 
+iz različnih virov kot so 
+študije, poročila in ostale 
+publikacije 
+2. Ocena
+kakovosti na podlagi 
+navedenih meril za 
+selekcijo najbolj primernih 
+virov
+3. Sinteza
+pregled in določitev 
+ugotovitev virov na 
+nepristranski način
+4. Interpretacija
+ugotovitev sinteze v kontekstu 
+predmeta vrednotenja, 
+razpisov, podpornega okolja , 
+in podobno
+
+ 
+  22 
+da so jih sestavljali posamezniki, ki se med seboj poznajo in sodelujejo, oziroma so imeli enako 
+vlogo, s čimer smo podprli proces soustvarjanja priporočil.   
+Za izvedbo fokusnih skupin in strukturiranih intervjujev smo pripravili vprašalnik, ki smo ga uporabili 
+za vodenje in strukturiranje razprave. Namen vprašalnika ni bil, da na vsako vprašanje dobimo 
+odgovor, pač pa je bil to nabor tem okoli katerih se je moderirala razprava na fokusnih skupinah. 
+Ključne ugotovitve iz fokusnih skupin so povzete v poglavju 4 – Ugotovitve vrednotenja.  
+Anketa kot kvantitativna metoda vrednotenja je služila pridobivanju tako kvantitativnih kot 
+kvalitativnih informacij s strani posameznih upravičencev. Cedars je  v sodelovanju s strokovno 
+skupino naročnika pripravil spletni anketni vprašalnik , ki je bil objavljen na portalu www.1ka.si . 
+Anketni vprašalnik je bil posredovan vsem koordinatorjem ter projektnim partnerjem na skupaj 155 
+naslovov. Prejeli smo 148 odgovorov, pri čemer so posamezniki odgovorili na anketni vprašalnik tudi 
+večkrat, ko so nastopali v več vlogah in več programih/projektih. Stopnja odzivnosti je tako ocenjena 
+na več kot 75% kar je izjemen rezultat.   
+Analiza več kazalnikov (AVK – ang. multicriteria analysis) predstavlja metodo ugotavljanja 
+dejanskega stanja s primerjavo več kazalnikov, ki skupno opisujejo določeno stanje ali izziv. 
+Prednost uporabe izbranega pristopa je v tem, da kazalniki uporabljeni v analizi niso nujno finančni, 
+pač pa lahko temeljijo tudi na vsebinski oceni. Slednje pomeni, da je uporaba AVK zelo primerna za 
+oceno sprememb in/ ali primerjavo med različnimi subjekti /ukrepi. Kazalniki, ki se uporabljajo za 
+AVK, se določijo glede na predmet raziskave, v našem primeru glede na predmet vrednotenja. 
+Analiza le-teh poenostavljeno pomeni rangiranje med različnimi subjekti, pregled razmerja oziroma 
+odnosa med posameznimi kazalniki (na primer, kako vrednost enega kazalnika vpliva na vrednost 
+drugega, če sploh) ter pregled spremembe vrednosti kazalnikov v času izvajanja. AVK se navadno 
+uporablja za izbiro med različnimi možnostmi, lahko pa tudi za samo rangiranje teh možnosti, kar v 
+našem primeru pomeni, da lahko s to analizo primerjamo različne ukrepe/razpise glede na vrednosti 
+izbranih kazalnikov rezultatov.  
+Analiza nasprotnih dejstev se je uporabila za oceno dejanskega vpliva sprememb povzročenih z 
+EU intervencijami. Drugače povedano, analiza nasprotnih dejstev ugotavlja ali je razlog za 
+spremembo intervencija oziroma ali bi se sprememba zgodila tudi brez intervencije. Analiza 
+nasprotnih dejstev se lahko izvede na več načinov, upoštevajoč predmet vrednotenja in dostopnost 
+podatkov. Za potrebe tega vrednotenja smo izbrali metodo "razlike v razlikah" (ang. difference in 
+differences – DiD) oz. dvojne razlike. Metoda DiD se lahko izvaja v primeru, da so spremembe možne 
+tako pri upravičencih , konkretno podjetjih , ki so EU podporo prejela, kot tudi pri podjetjih, ki EU 
+podpore niso prejela. Prav tako se ta metoda zanaša na podatke in kazalnike, ki jih uporabljamo pri 
+drugih metodah. V osnovi ta metoda temelji na analizi izbranih kazalnikov in podatkov, in sicer na  
+način, da primerjamo stanje pred intervencijo, stanje takoj po intervenciji in stanje na presečni 
+datum 31.12.2022. Stanje se primerja tako pri posameznem u pravičencu, znotraj posamezne 
+skupine, kot tudi med skupinam (ciljna in kontrolna skupina). Na ta način ugotovili, ali so spremembe 
+oz. razlike pri ciljni skupini dejansko rezultat intervencij EU sredstev, ali je to morda rezultat 
+splošnega trenda v gospodarstvu. S to metodo lahko tudi kvantificiramo vpliv EU intervencij na 
+način, da pogledamo ne samo , ali se je sprememba zgodila, vendar tudi za koliko so se kazalniki 
+spremenili glede na spremembe pri ostalih skupinah.  
+Ključna komponenta analize nasprotnih dejstev, ki je bila opravljena v sklopu tega vrednotenja, je 
+oblikovanje kontrolne skupine, ki je bila osnova za primerjavo z upravičenci predvsem z vidika 
+poslovne uspešnosti. Kontrolno skupino smo oblikovali na način, da smo za vsakega upravičenca, ki 
+je podjetje poiskali njemu kar se da podobno podjetje, tako imenovanega dvojčka, s čimer smo 
+zagotovili enostavno primerjavo in izločili preostale vplive okolja, ki niso pod neposrednim vplivom 
+razpisov (npr. COVID-19, splošna ekonomska rast/upad, ipd.).  Dvojčkov za ROje nismo iskali, saj 
+so skoraj vsi ROji zajeti z razpisi, kar pomeni, da baza podatkov dvojčkov RO ne bi bila 
+reprezentativna.  
+ 
+Dvojčki so bili izbrani na naslednji način:  
+- Poiskali smo jih v izhodiščnem letu 2016 znotraj iste SKD dejavnosti (prvi dve številki SKD 
+dejavnosti), s čimer smo zagotovili, da so bili vse dejavnosti zajete enakomerno.  
+- Dvojčke smo poiskali na podlagi primerljivih prihodkov upravičencev v letu 2016, s čimer 
+smo zagotovili, da so imela podjetja enako izhodišče preden so naši upravičenci prejeli 
+spodbude, dvojčki pa le-teh niso prejeli.  
+- V bazi podatkov smo izbrali 2 boljši in 2 slabši primerljivi podjetji po prihodkih in po naključju 
+izbrali še 3 podjetje. V primeru, ko je upravičenec vodilno podjetje v svoji panogi in boljšega 
+podjetja ni bilo mogoče najti, smo izbrali 3 slabša.  
+- Prvi korak priprave kontrolne skupine je bil torej seznam treh dvojčkov za vsakega 
+upravičenca, pri čemer je bil prvi dvojček najbolj primerljiv z upravičencem.  
+
+ 
+  23 
+- Upoštevajoč dejstvo, da so se dvojčki po prvem koraku ponavljali, saj je bilo lahko 
+posamezno podjetje dvojček več upravičencem, smo seznam nato uredili na način, da so 
+imeli upravičenci najboljšega možnega dvojčka. Obenem so posamezni dvojčki istočasno 
+tudi upravičenci, kar smo prav tako upoštevali pri urejanju seznama in te dvojčke izločili iz 
+analize. Urejanje seznama dvojčkov je torej potekalo na način, da smo prvo izbrali prvo 
+rangiranega dvojčka, če to ni bilo mogoče zaradi prej omenjenih omejitev, smo izbrali drugo 
+rangiranega dvojčka oz. tretje rangiranega dvojčka. 
+ 
+Rezultat procesa je prečiščena baza podatkov pripravljena za nadaljnje analize. V tej bazi podatkov 
+imajo vsi upravičenci svojega dvojčka, ki obenem ni upravičenec in ni dvojček drugem podjetju.  
+ 
+  
+
+ 
+  24 
+4 Ugotovitve vrednotenja 
+ 
+a) Vrednotenje učinkovitosti in uspešnosti izvedbe ukrepov TRL 3-6 (programi in projekti) 
+z vidika dose ganja/preseganja zastavljenih ciljev, kazalnikov in predvidenih rezultatov 
+posameznih operacij (programi in projekti). 
+ 
+4.1 Ali so bili uresničeni cilji in doseženi rezultati predvideni v izbranih vlogah? 
+Kakšni so neposredni in posredni učinki izvajanja operacij? 
+ 
+Pristop in metodološka orodja 
+Na navedeno vprašanje smo odgovorili z uporabo kombinacije metodoloških orodij, in sicer: pregled 
+dokumentacije, analiza več kazalnikov, fokusne skupine in strukturirani intervjuji ter anket a. 
+Odgovor je zato pripravljen na podlagi različnih analiz in sestavljen iz več komponent. Najprej smo 
+pregledali vsa končna poročila in v njih zapisane dosežene rezultate. Nefinančne učinke 
+implementiranih operacij smo ugot avljali na fokusnih skupinah  in strukturiranih intervjujih s 
+koordinatorji in raziskovalnimi inštitucijami kot tudi s pomočjo ankete, ki so j o izpolnili vsi 
+upravičenci (tako koordinatorji kot partnerji). Nadalje smo s poslovno analizo ugotavljali finančne 
+učinke projektov na upravičence, in sicer na podlagi finančnih kazalnikov, ki smo jih pridobili iz 
+podatkovne baze AJPES.  
+Finančne učinke razumemo kot izboljšanje finančnega položaja podjetja/organizacije, kar merimo s 
+spremembo ključnih kazalnikov poslovanja: 
+ prihodki od poslovanja 
+ število zaposlenih  
+ dodana vrednost na zaposlenega 
+ EBITDA (ang. Earnings Before Interest, Tax, Depreciation, and Amortisation)   
+Glede na število organizacij (upravičencev), ki so vključene v našo analizo, je bilo potrebno podatke 
+agregirati. Ker naša analiza zajema zelo heterogeno skupino organizacij, od mikro podjetij z nizkimi 
+vrednostmi kazalnikov do velikih podjetij z visokimi številkami,  smo izračunali povprečno 
+spremembo kazalnikov poslovanja s pomočjo CAGR (ang. Compound annual growth rate  oziroma 
+slo. letna stopnja rasti). Za vsak kazalnik smo obenem predstav ili naslednje kategorije: minimum, 
+1. kvartil, mediana (oz. srednja vrednost), 3. kvartil, maksim um, ločeno pa je prikazano tudi 
+povprečje. Izbrane kategorije nam dajejo dober vpogled in podlago za primerjavo, saj celovito 
+zaobjamejo vse podatke.  
+Za poslovno analizo smo uporabili finančne podatke za obdobje 2016 – 2022, ki zajema obdobje od 
+začetka finančne perspektive do zadnjih  popolnih podatkov, ki so objavljeni v bazi AJPES. To nam 
+omogoča primerjavo učinkov tako v času izvajanja projektov  kot tudi v času po zaključenem 
+projektu.  
+Da bi lahko izločili vpliv EU sredstev, ki so  bila dodeljena v sklopu obeh javnih razpisov, smo 
+analizirali našim upravičencem primerljiva podjetja, tako imenovane dvojčke. Dvojčke smo lahko 
+izbrali samo za podjetja, ne pa tudi za raziskovalne organizacije,  saj je bila večina RO v Sloveniji 
+vključena v izvajanje financiranih operacij. Tudi za dvojčke smo zbrali iste kazalnike poslovanja in 
+jih primerjali z rezultati podjeti j, ki so spodbudo prejela. Na ta način smo izločili vpliv splošnih 
+sprememb na trgu in ugotavljali dejanski učinek EU sredstev.  
+Za odgovor na vprašanje vrednotenja je pomembna analiza finančnega kazalnika "Prodaja na tujem 
+trgu", ki pa ga zaradi omejitev baze podatkov AJPES nismo uspeli pridobiti za vse upravičence. Vsi 
+podatki so na voljo zgolj omejenemu številu raziskovalcev v Sloveniji. Javno dostopni pa so samo 
+podatki za velika podjetja in za tista MSP, ki so dala privolitev za razkritje teh podatkov. V tem delu 
+je zato naša analiza omej ena zgolj na podatke, ki so nam bili na voljo iz javno dostopnih baz 
+podatkov.  
+ 
+Ključne ugotovitve in odgovor na vprašanje vrednotenja  
+Navedeno vprašanje je sestavljeno iz dveh delov. Na vprašanje, ali so bili uresničeni cilji in doseženi 
+rezultati predvideni v izbranih vlogah, lahko i z pregleda dokumentacije ( vlog in končnih poročil) 
+ugotovimo, da so vsi projekti oziroma operacije dosegle ali presegle načrtovane rezultate.  
+
+ 
+  25 
+Enakega mnenja so tudi upravičenci. Koordinatorji programov in projektov so na fokusnih skupinah  
+potrdili, da so bili rezultati doseženi in v posamičnih primerih tudi preseženi. Upravičenci so nam 
+podobno odgovorili tudi v anketnem vprašalniku (glej sliko 5).  
+Vsi obravnavani projekti so dosegli zastavljene 
+cilje, 22% pa jih je celo preseglo. Anketiranci 
+so v odgovoru, katere cilje so presegli, navedli 
+naslednje:  
+ dodatni patenti 
+ dodatne objave 
+ razvoj dodatnih rešitev in tehnologij 
+ dodatno povezovanja 
+ dodatne zaposlitve  
+ dodatne ure raziskovalcev 
+Vsi zgoraj navedeni presežki so bili navedeni 
+tudi v končnih poročilih.  
+ 
+ 
+ 
+ 
+Drugi del vprašanja za vrednotenje se nanaša na neposredne in posredne učinke izvajanja operacij. 
+Učinke lahko delimo na finančn e in nefinančne . Finančn e učinke smo analizirali na podlagi 
+spremembe finančnega položaja upravičencev, medtem ko smo nefinančne učinke pridobili s 
+pomočjo ankete in fokusnih skupin. V nadaljevanju bomo najprej predstavili finančne, nato pa še ne 
+finančne učinke izvedenih operacij.   
+RR Programi in RR Projekti spadajo med ukrepe, ki spodbujajo ustvarjanje raziskovalne odličnosti, 
+mednarodno prebojnost kot tudi prenos znanja iz raziskovalnih organizacij v podjetja z namenom 
+razvijanja in uvajanja novih produktov in rešitev na trg. Te projekte je m ogoče razumeti kot del 
+tržne vrzeli, saj trg pogosto ni pripravljen prevzeti večjih tveganj povezanih z razvojem novih rešitev. 
+Podjetja in organizacije, ki prejmejo sredstva za implementacijo tovrstnih projektov, naj bi bila vsaj 
+na ali nekoliko nad povprečjem trga, kar jim daje dovolj kapacitet za prevzemanje tveganj, ki 
+ostajajo kljub EU spodbudi.   
+Iz zgornjega odstavka zato izhaja, da osnovni učinki operacij ne bodo nujno finančni, saj je predmet 
+spodbud spodbujanje ustvarjanja novih rešitev in produktov, ki nato potrebujejo še kar nekaj 
+sredstev in časa, da dosežejo  trg. Prav tako so  predmet sofinanciranja produkti in storitve nižj ih 
+ravni tehnološke pripravljenosti TRL 3-6, zato ugotavljamo, da so finančni učinki na upravičence bolj 
+posredne narave, vendar jih kljub temu obravnavamo, da celovito prikažemo vpliv EU sredstev. 
+Finančni učinki operacij na poslovanje upravičencev so prikazani v nadaljevanju. Primerjani so tudi 
+s kontrolno skupino.  
+Slika levo prikazuje povprečni 
+CAGR povečanja/zmanjšanja 
+prihodkov iz naslova prodaje v 
+letih 2016 – 2022. Verjamemo, 
+da ta kazalnik najbolje prikazuje 
+uspešnost poslovanja podjet ij, saj 
+se vsi pozitivni učinki spodbud, ki 
+ne vplivajo direktno na same 
+stroške, prvotno odra zijo v 
+povečanju prodaje, kar se obenem 
+lahko r azume tudi kot izboljšanje 
+tržnega položaja. Podatki nam 
+pokažejo, da je nekaj podjetij 
+prenehalo poslovati (prikazano kot 
+-100% zmanjšanje prihodkov). 
+Pomembno je po udariti, da so od 
+skupaj 155 neto upravičencev 
+prenehala poslovati samo 4 podjetja, kar predstavlja 2,6% vseh podjetij upravičencev. Pri večini je 
+bilo prenehanje poslovanja povezano s spremembo organizacijske oblike (s.p. v d.o.o.) ali prodajo 
+podjetja (in posledično zaprtje podjetja), kar spremeni matično /davčno številko podjetja in nam 
+Slika 10 - Odgovori na anketno vprašanje "Ali so 
+cilji, ki ste jih zastavili v okvirju 
+projekta/programa bili doseženi ali preseženi?" 
+Slika 11 - Povprečni CAGR povečanja/zmanjšanja prihodkov od 
+prodaje 
+
+ 
+  26 
+onemogoči nadaljnjo analizo. Iz prikazanih podatkov je razviden pozitiven vpliv EU sredstev, saj 
+upravičenci EU sredstev dosegajo boljše rezultate v vseh kategorijah. Zvišanje prihodkov je razbrati 
+od prvega kvartila naprej skozi celotno obravnavano skupino, kar pomeni da vsa opazovana podjetja 
+ustvarjajo rast prihodkov, pri čemer je ta rast prihodkov razvidna tudi pri kontrolni skupini, vendar 
+je nižja v vsaki kategoriji baze, kar nam pokaže pozitiven vpliv EU sredstev. Prav tako je pozitiven 
+vpliv mogoče opaziti tudi pri raziskovalnih organizacijah, ki imajo v opazovanem obdobju višjo  
+povprečno rast prihodkov tako od podjetij upravičencev kot tudi od kontrolne skupine.  
+Slika levo prikazuje povprečni 
+CAGR povečanja/zmanjšanja 
+št. zaposlenih v letih 2016 – 
+2022. Tudi tukaj vidimo pozitiven 
+vpliv EU sredstev, saj so imela tako 
+podjetja upravičenci kot tudi RO 
+boljši rezultat v primerjavi s 
+kontrolno skupino. Pri podjetjih 
+upravičencih lahko v primerjavi s 
+kontrolno skupino opazimo boljše 
+rezultate v vseh kategorijah 
+podatkov ( od prvega kvartila 
+navzgor), boljše pa je tudi  
+povprečje. RO pa ima celo boljše 
+rezultate v vseh kategorija  baze, 
+kar pomeni, da so tovrstna 
+sredstva za njih zelo pomembna, 
+saj jim omogočajo tako dodatne 
+prihodke kot tudi dodatne 
+zaposlitve. Prav tako pri RO vidimo, da so prvi kvartil in mediana enaki, kar pomeni, da se večina 
+podatkov nahaja v zgornj ih kategorijah (od mediane navzgor), ka r še dodatno podkrepi pozitiven 
+učinek analiziranih spodbud.  
+Slika levo prikazuje povprečni 
+CAGR povečanja/zmanjšanja 
+dodane vrednosti na 
+zaposlenega 2016 – 2022. Pri 
+tem kazalniku nam podatki 
+pokažejo nekoliko drugačno sliko, in 
+sicer da vpliv EU sredstev ni tako 
+očiten, saj so podatki dokaj 
+usklajeni, razen pri minimumu in 
+maksimumu. Pomembno je dodati, 
+da smo podjetja, ki so prenehala 
+poslovati, izključili iz te analize. Ob 
+tem vidimo, da so imela podjetja 
+upravičenci manjši minimum in večji 
+maksimum, medtem ko so pri 
+ostalih kategorijah baze usklajeni s 
+kontrolno skupino. Tudi povprečje 
+med obema skupinama je podobno. 
+Ta kazalnik moramo brati skupaj z drugimi, saj je že sam po sebi odvisen od drugih (glede na način 
+njegovega izračuna). Če podjetje zmanjša število zaposlenih  in obenem ostane na približno enaki 
+dodani vrednosti, bo to podjetje imelo višjo dodano vrednost na zaposlenega. To se je dejansko tudi 
+zgodilo, saj analiza kazalnika "dodana vrednost" podjet ij, pokaže, da so imeli upravičenci boljše 
+rezultate v vsaki kategoriji baze podatkov. Če k temu dodamo tudi vrednosti kazalnika 
+"povečanje/zmanjšanje št. zaposlenih" prikazanega na sliki zgoraj , vidimo, da je imela kontrolna 
+skupina slabše rezultate pri ohranj anju delovnih mest in zaposlitvi novega kadra, kar posledično 
+rezultira v približno enakih rezultati v obravnavanem kazalniku. Če pogledamo rezultate RO, vidimo 
+splošno povečanje kazalnika dodana vrednost na zaposlenega, kar prikazuje  zelo pozitivne učinke 
+EU sredstev na RO.  
+Slika 12 - Povprečni CAGR povečanja/zmanjšanja št. 
+zaposlenih  
+-1%
+3% 6%
+41%
+3%
+-1%
+3% 6%
+20%
+2%
+Maksimum Povprečje
+-27%
+3. kvartil
+-48%
+Mediana1. kvartilMinimum
+0
+(0%)
++1
+(+50%)
+Upravičenci Kontrolna skupina
+1%
+4% 5% 5%
+7%
+5%
+1. kvartil MedianaMinimum Maksimum Povprečje3. kvartil
+Upravičenci - JRO
+Slika 13 - Povprečni CAGR povečanja/zmanjšanja dodane 
+vrednosti na zaposlenega 
+
+ 
+  27 
+Slika levo prikazuje povprečni 
+CAGR povečanja/zmanjšanja 
+EBITDA 2016 – 2022. Tudi pri tem 
+kazalniku vidimo pozitiven vpliv EU 
+sredstev pri podjetjih upravičencih v 
+primerjavi s kontrolno skupino, kot 
+tudi pri RO. EBITDA je pomembe n 
+kazalnik, saj prikazuje pozitiven 
+vpliv ne samo na prihodke in nove 
+zaposlitve, pač pa t udi na 
+ustvarjanje multiplikativnega 
+učinka EU sredstev na celotno 
+poslovanje. Ustvarjanje pozitivnega 
+učinka na EIBTDA pomeni, da kljub 
+stroškom poslovanja in zaposlit ev, 
+da se ustvarjajo dodatna sredstva, 
+ki omogočajo nadaljnja vlaganja. To 
+je zlasti pomembno, ko razpisi 
+podpirajo razvoj TRL 3-6, ne pa nato tudi nadaljnjega razvoja in polne komercializacije produktov. 
+Podjetja, ki imajo boljše poslovanje, kar je razvidno iz večje EBITDA, lažje dodatn o investirajo v 
+nadaljnji razvoj, da se produkt iz TRL 6 nato spravi na trg.  
+Slika levo prikazuje povprečni 
+CAGR povečanja/zmanjšanja 
+prodaje na tujih trgih 2016 – 
+2022. Kazalnika žal zaradi 
+nedostopnosti podatkov (kot že 
+pojasnjeno v metodološkem 
+pristopu zgoraj) n i bilo mogoče 
+izračunati za vse upravičence. Po 
+pregledu kazalnika ugotavljamo, da 
+je imela celotna analizirana baza 
+podatkov upad prodaje na tujih 
+trgih, pri čemer  so podjetja, ki so 
+prejela EU spodbude, imela manjši 
+upad kot kontrolna skupina. P ri vsem tem naj dodamo, da prodaja na tujih trgih ni predmet 
+obravnavanih spodbud ter da je tudi obdobje analize prekratko, da bi lahko tako zgodaj po 
+zaključenih razvojnih projektih TRL 3-6 že prikazali morebitne pozitivne učinke na prodajo na tujih 
+trgih.  
+Slika levo prikazuje primerjavo 
+upravičencev po zgoraj 
+predstavljenih ključnih kazalnik ih, 
+razdeljenih na Vzhod in Zahod 
+(upoštevajoč registriran matični 
+sedež podjetja v bazi AJPES ). V 
+primerjavo so v ključeni samo 
+upravičenci, ki so podjetja in ne RO.  
+Analiza podatkov nam pokaže, da so 
+imele EU spodbude večji učinek na 
+upravičence, ki prihajajo iz Vzhoda. 
+To je najbolj očitno pri kazalniku 
+spremembe prihodkov (prvi graf), 
+pri čemer vidimo, da je imel Vzhod v 
+primerjavi z Zahodom na mediani 
+večjo rast prihodkov za eno odstotno 
+točko (ali 21% relativno). Prav tako 
+so v  povprečju podjetja iz Vzhoda 
+rasla za tri odstotne točke več (ali 
+150% relativno) kot podjetja iz 
+Zahoda. Primerljiv trend vidimo tudi 
+pri spremembi št. zaposlenih, pri 
+čemer so podjetja na mediani imela 
+enako rast, v povprečju pa so imela 
+-5%
+6% 13%
+-2%-4%
+4% 9%
+-11%
+Minimum
+-218%
+-235%
+68%
+107%
+1. kvartil PovprečjeMaksimum3. kvartilMediana
++3
+(+70%) +9
+(82%)
+Upravičenci Kontrolna skupina
+-11%
+12% 17% 18%
+47%
+18%
+1. kvartil MedianaMinimum Maksimum Povprečje3. kvartil
+Upravičenci - JRO
+Slika 14 - Povprečni CAGR povečanja/zmanjšanja EBITDA 
+-10% -7%
+-3%
+7%
+-6%
+-12%
+-8%
+-3%
+7%
+-9%
+Povprečje
+-24%
+-56%
+1. kvartilMinimum Maksimum3. kvartilMediana
++1
+(-11%)
++3
+(-33%)
+Upravičenci Kontrolna skupina
+Slika 15 - Povprečni CAGR povečanja/zmanjšanja prodaje na 
+tujih trgih 
+2% 7% 12%
+24%
+5%1% 6% 10%
+2%
+Povprečje1. kvartil Maksimum3. kvartil
+-100%
+Mediana
+172%
+Minimum
+-100%
++1
+(+21%) +3
+(+150%)
+Vzhod Zahod
+-1%
+3% 7% 4%
+-3%
+3% 7%
+-2%
+Povprečje1. kvartil Maksimum3. kvartil
+102%
+Mediana
+87%
+Minimum
+-100% -100%
+0
+(-15%)
++6
+(-300%)
+-3%
+2% 6%
+1%
+-1%
+3% 6% 3%
+Minimum
+-48%
+-12%
+23% 25%
+1. kvartil PovprečjeMaksimum3. kvartilMediana
+-1
+(-26%)
+-2
+(-67%)
+Prihodki
+Št. Zaposlenih
+Dodana vrednost / zp
+Slika 16 - Primerjava ključnih kazalnikov poslovanja na Vzhod 
+in Zahod 
+
+ 
+  28 
+podjetja iz Vzhoda 4% rast, podjetja iz Zahoda pa so v opazovanem obdobju celo zmanjšala število 
+zaposlenih za -2%. Ugotovimo lahko, da so bila podjetja, ki so prejela EU spodbude in prihajajo iz 
+Vzhoda, bolj uspešna pri ohranjanju in zaposlovanju. Po drugi strani pa so bila podjetja iz Zahoda 
+boljša po kazalniku povečanj e dodane vrednosti na zaposlenega, kar se lahko pripiše zmanjšanju 
+obsega zaposlenih. Oba obravnavana razpisa sta tako prispevala k zmanjševanju razlike med obema 
+kohezijskima regijama.  
+Nefinančne učinke smo ugotavljali s pomočjo fokusnih skupin s projektnimi koordinatorji in odgovori 
+na anketni vprašalnik za vse upravičence. Vsi anketiranci so navedli tako neposredne kot posredne 
+učinke izvajanja projektov.  
+Identificirani neposredni učinki so:  
+ Razvoj novih produktov in storitev – pri tem so tako projektni koordinatorji kot tudi partnerji 
+izpostavili, da je osnovni neposredni učinek projektov r azvoj produktov in storitev . 
+Izpostavljeno je bilo, da ti razpisi podpirajo in pomembno pomagajo v začetni fazi zagona novih 
+produktov in storitev, vendar da v Sloveniji nato primanjkuje jo spodbude za  nadaljevanje 
+razvoja (od TRL 6 navzgor), kar posledično rezultira v slabšem prehodu na trg in splošni izgubi 
+raziskovalnega naboja, saj se prekine razvojni cikel in zagon.  
+  
+ Boljša povezava z raziskovalnimi organizacij ami (v primeru RO pa povezava s 
+podjetji) – v tem delu opažamo veliko razliko med velikimi podjetji in MSP. Velika podjetja 
+imajo namreč z RO že vzpostavljeno dolgoročno sodelovanje  in z njimi sodelujejo pri razvoju 
+projektov. Pri tem izpostavljajo, da so za njih ti projekti pomembni, ker jim omogočajo to 
+sodelovanje ne le poglobiti pač pa tudi razširiti na več področij. MSP po drugi brez teh projektov 
+sploh ne bi sodelovala z RO in z njimi ustvarila redno in dolgoročno sodelovanje. Oboje so nam 
+potrdile tudi RO.  
+ 
+ Boljši nastop na trgu – realizirani projekti so podjetjem prinesla nove pomembne reference, 
+nove produkte, ki so jih lahko kasneje tržili naprej, razvili pa so tudi ključne procesne inovacije, 
+ki so nemudoma izboljšale njihove poslovne procese. RO so prav tako dobile nove reference in 
+kontakte, ki so jih nadgradili v drugih projektih.   
+ 
+ Pridobivanje novih znanj  – na fokusnih skupinah in v odgovorih na anketo je bilo 
+izpostavljeno, da so t ovrstni projekti ključni za pridobivanje novih znanj v podjetjih , ki se 
+prenašajo iz RO, kar pomeni, da razpisi neposredno uresničujejo svoj namen.  
+ 
+ Razvoj in širitev tima – tako podjetja kot RO so dejali, da je ena ključnih prednosti tovrstnih 
+razpisov možnost razvoja in širitve tima skozi zaposlovanje novih raziskovalcev in izboljšanje 
+znanja obstoječih.  
+ 
+ Razvoj raziskovalne dejavnosti – veliko podjetij je omenilo, da so zaradi prejetih spodbud 
+vzpostavili raziskovalno dejavnost  znotraj njihov ih podjet ij. V primeru RO pa so posamezni 
+raziskovalci spremenili oziroma prilagodili svoja raziskovalna področja na podlagi prejetih 
+spodbud in se več osredotočili na področja, ki so bila predmet projektov/programov.  
+Identificirani posredni učinki so: 
+ Dvig inovacijske aktivnosti v podjetjih – podjetja so nadaljevala z razvojem produktov, ki 
+so bili predmet spodbude, tudi v višji razvojni fazi po koncu projekta/programa, kar je rezultiralo 
+v povečani inovacijski aktivnosti podjetij. Prav tako so podjetja v večini primerov razvila sorodne 
+inovacije, oz. inovacije, ki niso rezultat spodbud , pač pa so bile posredni rezultat dela na 
+projektu/programu.  
+ 
+ Pridobivanjem novih poslovnih partnerjev – večina podjetji je pridobila ključne kontakte in 
+p o v e z a v e  z a  s k u p n i  n a s t o p  n a  t r g u ,  k i  s e  n a d a l j u j e j o  t u d i  d a n e s .  E n a k o  v e l j a  z a  R O ,  k i s o  
+pridobile nove stranke za svoje storitve.  
+Iz vsega navedenega lahko zaključimo, da so bili vsi rezultati, ki so bili predmet spodbud, doseženi 
+ali celo preseženi . Uresničeni so bili tudi vsi projektni cilji. Zgornje analize nam jasno pokažejo 
+pozitiven vpliv EU spodbud, in sicer tako z vidika nefinančnega učinka, to je omogočanje podjetjem 
+in RO, da na dobrih temeljih gradijo nadaljnja sodelovanja, poslovno uspešnost ter raziskovalno 
+odličnost, kot tudi z vidika finančnega učinka, saj lahko pri podjetjih upravičencih in sodelujočih RO 
+opazimo izboljšanje poslovanja, ki presega splošno gospodarstvo in kontrolno skupino.  
+ 
+
+ 
+  29 
+ 
+Priporočila 
+Predlagamo, da se prouči, ali je mogoče zgoraj navedene kazalnike, tako za finančno kot nefinančno 
+poročanje o učinkih, vključiti v sistem poročanja tako podjetij kot RO in da se upravičence zaveže k 
+poročanju ne le v obdobju trajanja spodbud pač pa tudi po zaključenem programu/projektu, npr. v 
+obdobju do 5 let, s čimer bi se lahko sledilo učinkom kadar izvajani ukrepi niso vključeni v načrt  
+izvajanja rednih vrednotenj. Prav tako predlagamo, da se  prouči, ali bi bilo v primeru RO , možno 
+vključiti tudi poročanje o letnih prihodkih iz naslova javnih sredstev in iz naslova sodelovanja z 
+gospodarstvom (»delovanje na trgu«). Navedeno bi olajšalo izvajanje bodočih podobnih vrednotenj, 
+kot tudi dalo vpogled v obseg sodelovanja RO s trgom/podjetji. 
+Predlagamo tudi, da reso rno ministrstvo v sodelovanju s AJPES , bodočim evalvatorjem omogoči 
+dostop do vseh finančnih podatkov potrebnih za vrednotenje, saj se le-to izvaja v imenu in za potrebe 
+državnih institucij. 
+ 
+Izzivi in omejitve  
+Pri pripravi odgovora smo se soočili z omejitvijo dostopa do podatkovne baze AJPES, ki onemogoča 
+dostop do polnih podatkov, ki se sicer poročajo v finančnih izkazih, in sicer nismo imeli dostopa do 
+podatkov o prodaji na tujih trgih, ki je eden ključnih podatkov primerjave mednarodne prebojnosti. 
+Ti podatki so trenutno na voljo zgolj omejenemu številu raziskovalcev v Sloveniji.  
+  
+
+ 
+  30 
+ 
+b) Ugotovitev uspešnosti izvedbe ukrepov TRL 3-6 (programi in projekti) z vidika ciljev JR 
+(Izvedba teoretsko naravnanega vrednotenja vpliva) 
+ 
+4.2 Ali je raziskovalno -razvojni landscape sedaj po in zaradi ukrepa TRL3- 6 
+(programi in projekti) drugačen, kot je bil v letu 2015 pred začetkom 
+izvajanja ukrepa? Ali so se razvila strateška dolgoročna partnerstva in 
+odnosi, ki dajejo drugačno dispozicijo za nada ljnje ukrepe, ki bodo štartali 
+2023? 
+ 
+Pristop in metodološka orodja 
+Na navedeno vprašanje smo odgovorili z uporabo kombinacije metodoloških orodij . Najprej smo 
+pregledali programske dokumente in razisk ave, da smo definirali izhodiščno stanje. Na podlagi 
+pregleda dokumentacije smo pripravili vprašanja za fokusne skupine, ki so nam podale informacije 
+za oceno trenutnega stanja. Za pripravo odgovora smo uporabili še anketni vprašalnik.  
+ 
+Ključne ugotovitve in odgovor na vprašanje vrednotenja  
+Vprašanje je sestavljeno iz dv eh delov. V prvem delu obravnavamo spremembe v  raziskovalno-
+razvojnem landscape-u, vendar ne zgolj z vidika vzročnosti/povezanosti z obravnavanima javnima 
+razpisoma TRL3-6 pač pa celovito . V tem delu namreč  ni mogoče oceniti neposrednega vpliva in 
+prispevka ukrepa TRL3-6 k spremembi raziskovalno-razvojnega landscape-a, zato v nadaljevanju 
+predstavljamo celovit pregled ključnih dejavnikov sprememb in identificiranih izzivov. Posebej pa 
+nato obravnavamo še vzpostavitev in dolgoročnost v razpisih nastalih partnerstev.  
+Širši vpogled v razumevanje raziskovalno -razvojnega landscape -a (RRL) v letu 2015 nam daje 
+publikacija Evropske Komisije "RIO Country Report 2015 – Slovenia" (v nadaljevanju RIO), ki je bil 
+podlaga za pripravo PS in OP in predstavlja naše izhodiščno stanje.   
+Poročilo RIO izpostavlja finančno krizo 2008 in z njo povezano krčenje razpoložljivih sredstev 
+namenjenih za raziskovalno in razvojno dejavnost ( v nadaljevanju RRD), kot posledica ekonomske 
+politike varčevanja in fiskalnih pravil. Takrat je bil identificiran tudi trend, da so vlaganj a v RRD 
+zasebnega sektorja posta la večinsko gonilo vseh vlaganj v RRD, saj so se  občutno zmanjšala 
+vlaganja javnega sektorja. Poročilo izpostavlja relativno kompleks en sistemu upravljanja RRD in 
+inovacij (skupaj RRI) v Sloveniji, k ar se odraža v razdrobljenosti sistema odločanja v različni h 
+ministrstvih in agencijah.   
+Znotraj poročila so definirani trije ključni izzivi za RRD okolje v Sloveniji, ki so: 
+ Izziv 1 – boljše usklajevanje in racionalizacija politike RRI – ta izziv se predvsem nanaša 
+na potrebo po bolj usklajeni h in kon sistentnih spodbudah, kot tudi na bolj osredotočen e 
+strateške prioritete. Kot neposreden odgovor na ta izziv je bila sprejeta Strategija pametne 
+specializacije, ki je temeljni dokument nacionalnih strateških razvojnih prioritet in podlaga za 
+oba javna razpisa, ki sta predmet tega vrednotenja.   
+ Izziv 2 – ohraniti vzdržnost ravni financiranja za RRI – ta izziv se predvsem nanaša na 
+pomanjkanje kontinuitete financiranja, predvsem za JRO in univerze. Ta izziv prav tako 
+izpostavlja počasen premik RO iz odvisnosti od javnega financiranja v bolj tržno naravnane 
+raziskovalne inštitucije.  
+ Izziv 3 – izboljšanje povezav med naložbami v RRI in uspešnostjo – ta izziv se nanaša 
+na dejstvo, da se investicije v RRI na ravni Slovenije ne prenašajo tudi v izboljšanje kazalnikov, 
+zlasti Innovation Union Scoreboard. Prav tako se v tem delu priporoča, da se v prihodnosti na 
+ravni države bolje povežejo kriterija za naložbe s samimi kazalniki uspešnosti.  
+
+ 
+  31 
+Kot pozitivne segmente slovenskega RRL poročilo RIO izpostavlja visoko intenzivnost raziskav, zlasti 
+v primerjavi z drugimi državami centralne in vzhodne Evrope; visok delež investicij v RRI s strani 
+zasebnega sektorja; visoko raven raziskovalne opreme; zelo prebojno mednarodno citiranost in 
+prepoznavnost raziskovalne odličnosti. 
+Kazalniki RRL v Sloveniji nam pokažejo pozitivno spremembo v času izvajanja razpisov. Primerjali 
+smo kazalnike iz leta 2015 in 2022 (z izjemo kazalnika Vlaganja v RRI, kjer so podatki na voljo od 
+leta 2017 dalje). V tem obdobju lahko opazimo izrazito povečanje skupnega števila raziskovalcev v 
+Sloveniji, ki se je v letu 2022 povečalo za 45% v primerjavi z letom 2015, kar p redstavlja CAGR v 
+višini 5,4% letne rasti. Največjo rast beležimo v zasebnem sektorju. Tudi pri vlaganjih v RRI lahko 
+opazimo veliko rast iz leta 2017 v leto 2022, skupaj v višini 35%, kar predstavlja CAGR v višini 6,2% 
+letne rasti. Gonilo rasti so predvsem vlaganja državnega sektorja, ki so se povečala za multiplikator 
+1,7-krat od leta 2017 do 2022. Po drugi strani pa lahko opazimo zelo veliko  zmanjšanje vlaganj v 
+RRI v zasebnem nepridobitnem sektorju. Kazalnik števila patentnih prijav na EU ravni sicer  v 
+opazovanem obdobju beleži rast, ki pa je v primerjavi s preostalima dvema kazalnikoma veliko bolj 
+skromna. Zaradi omejitve dostopa do podatkov (razloženo spodaj), v  analizo kazalnikov žal nismo 
+mogli vključili podatkov o citiranosti in raziskovalni odličnosti.  
+Analiza podatkov in kazalniki nam pokažejo, da se je RRL v obdobju od leta 2015 do 2022 spremenil, 
+predvsem iz naslova večje intenzivnosti raziskovanja in večjega števila raziskovalcev. Upoštevajoč 
+vir financiranja, lahko še zaključimo, d a so javna sredstva (tudi sredstva iz obeh obravnavanih 
+razpisov) ključno gonilo sprememb in zato izrednega pomembna za RRL.  
+Zapisano potrjujejo tudi udeleženci fokusnih skupin, pri čemer so tako koordinatorji programov in 
+projektov kot tudi RO potrdili, da se je RRL v zadnjih desetih letih zelo spremenil. 
+Ključni dejavniki sprememb so: 
+- pospešitev raziskav in razvoja, krajše obdobje in krajši roki,  
+- večja aplikativnost raziskovanja – raziskovalci morajo biti usklajeni s potrebami trga,  
+- boljša raziskovalna oprema, 
+- hiter tehnološki napredek, 
+- več sodelovanja podjetij in RO/JRO, 
+- večja pomembnost raziskav in razvoja, kar je nujno za ohranitev konkurenčnosti. 
+Slika 17 - Pregled kazalnikov raziskovalno razvojnega landscape-a v Sloveniji 
+Pregled kazalnikov raziskovalno razvojnega landscape-a v Sloveniji
+4.186 4.823
+1.927
+2.405
+5.184
+8.898
+256
+2015 2022
+11.309
+16.382
+12
++45%
+Zasebni sektor
+Državni sektor Zasebni nepridobitveni sektor
+Visokošolski sektor
+433.766
+3.6393.568
+183.339
+2017 2022
+624.312
+311.785
+788
+527.309
+844.353
+4.471
++35%
+Število raziskovalcev Vlaganja v RRI, 1000 EUR
+118 123
+20222017
++4%
+Število patentih prijav iz Slovenije
+
+ 
+  32 
+Spremembo RRL so potrdili tudi anketiranci. 
+Njihovi odgovori so predstavljeni na sliki levo. 
+Velika večina (64%) anketirancev trdi, da se je 
+okolje od leta 2015 do danes izboljšalo in kar 7% 
+anketirancev pravi, da se je okolje bistveno 
+izboljšalo. Približno enako število odgovorov smo 
+v teh dveh kategorijah prejeli tako s strani 
+podjetij kot RO, kar pomeni, da je mnenje o 
+pozitivni spremembi RRL podobno med obema 
+skupinama upravičencev. Po drugi strani pa 18% 
+anketirancev meni, da se je okolje poslabšalo, pri 
+čemer so ta odgovor večino izbrala  podjetja, kar 
+lahko pomeni, da so spodbude pretežno 
+prilagojene RO in da niso dovolj prilagojene vsaj določenemu delu podjetij, ki jih uporablja.  
+Vsebinski odgovori na obrazložitev ocene obsegajo: 
+- več financiranja,  
+- večja aktivnost udeležencev, 
+- večje zavedanje možnosti financiranje,  
+- bolj osredotočeni razpisi, 
+- hitrejše izvajanje RRD, 
+- podpore za zaposlovanje in opremo, 
+- podpiranje trajnostnih procesov, 
+- večje povezovanje s RO, 
+ 
+- pomanjkanje kontinuitete in jasne strategije, 
+- manj razpisov, 
+- povečanje birokracije in breme poročanja, 
+- razdrobljenost financiranja,  
+- nizka stopnja sofinanciranja,  
+- nizke urne postavke, ki ne pokrijejo stroškov raziskovalca.  
+Podjetja so izpostavila, da v Sloveniji manjka koordinacij a med vsemi udeleženci RR okolja, saj se 
+pogosto zgodi, da podjetja ne vedo , kaj se v Sloveniji že razvija, kar na nek način onemogoča 
+vzpostavitev sinergij med podobnimi podjetji. Seveda se v naslednjem koraku takoj postavi 
+vprašanje konkurence med podjetji, ampak so bili udeleženci kljub temu še vedno zainteresirani za 
+večje povezovanje in več koordinacije. Enako so izpostavile tudi RO, pri čemer pa je bil dejavnik 
+konkurence pri njih celo še bolj izpostavljen. Vse do sedaj zapisano nas vodi do zaključka, da kljub 
+občutnemu napredku RRL, k ar je razvidno iz kazalnikov, še vedno obstajajo potreba po boljše m 
+usklajevanju in racionalizaciji politike RRI (izziv 1 iz RIO poročila).  
+Udeleženci fokusnih skupin so izpostavili pomanjkanje kontinuitete financiranja in da projekti, ki so 
+financirani iz EU spodbud za TRL 3-6, nato zelo težko pridobijo financiranje za naslednje faze razvoja 
+in komercializacijo. Dodali so še, da se pravila in način financiranja TRL 3-6 spreminja iz enega 
+obdobja v drugo , v obliki pogojev , obsega, stopenj sofinanciranja, upravičenih prijaviteljev in 
+podobno, kar predstavlja velik izziv za podjetja zaradi primanjkljaja kontinuitete. Večina podjetij je 
+povedala, da niso prepričani, ali se bodo lahko prijavili na nove razpise  zaradi različnih pogojev in 
+omejitev (npr. povprečna dodana vrednost na zaposlenega, ARIS pogoji glede višine raziskovalnih 
+ur in podobno). Enako so izpostavile tudi RO. Vse do sedaj zapisano nas vodi do zaključka, da je še 
+vedno prisoten tudi izziv, kako ohraniti vzdržnost ravni financiranja za RRI (izziv 2 iz RIO poročila).  
+Glede napredka pri izzivu 3, to je izboljšanje povezav med naložbami v RRI in uspešnostjo, lahko na 
+podlagi razprav na fokusnih skupin ugotovimo, da imamo v Sloveniji še vedno prisoten tudi ta izziv. 
+Tako podjetja kot RO so izpostavili, da je pri spremljanju in ocenjevanju napredka projektov še 
+vedno največji poudarek na administrativnem poročanji in ne toliko na kazalnik ih kakovosti RRD. 
+Večina podjetij in RO pravi, da je večina njihovega časa, ki ga namenijo poročanju, administrativne 
+in finančne narave (npr. časovnice, izdatki, potrdila o plačilih, zbiranje treh ponudb in podobno), ne 
+pa toliko vsebinskega poročanja o napredku. Nenazadnje je Slovenija nazadovala tudi pri ključnih 
+Evropskih inovacijskih kazalnikih (Innovation Union Scoreboard), kar še dodatno podkrepi naše 
+ugotovitve.   
+Slika 18 - Odgovor na vprašanje "Kako 
+ocenjujete spremembo okolja, ki spodbuja 
+raziskave in razvoj v Sloveniji, od leta 2015 do 
+danes?" 
+
+ 
+  33 
+Na drugi del vprašanja, ki se nanaša na strateška dolgoročna partnerstva in odnose, smo le -te 
+obravnavali ločeno tako z vidika podjetij kot RO.   
+Analiza odgovorov na anketo  nam pokaže, d a državne spodbude zelo pomembno pripomorejo k 
+vzpostavitvi sodelovanja in posledično partnerstev z RO . Kar 93% vseh anketirancev ( podjetja) so 
+na to vprašanje odgovorila pozitivno. Enako so povedali tudi udeleženci fokusnih skupin. Pri tem 
+velika podjetja uporabljajo državne spodbude priložnostno  (za širitev ali poglobitev področja 
+raziskovanja) in imajo tudi brez spodbud vzpostavljena dolgoročna partnerstva z RO, saj so njihove 
+potrebe po RRD z elo velike. Po drugi strani pa MSP sodelujejo z RO predvsem zaradi državnih 
+spodbud, saj si ne morejo privoščiti rednega sodelovanja z  RO. Lahko zaključimo, da so tovrstni 
+razpisi za vzpostavitev partnerstev med gospodarstvom in RO zelo pomembni.  
+Iz odgovorov na anketni vprašalnik izhaja, da so vzpostavljena sodelovanja v veliki meri strateška, 
+saj je zgolj ene tretjina anketirancev odgovorila, da z RO sodelujejo zgolj priložnostno. Podjetja so 
+nadalje še omenila, da je strateška narava sodelovanja v veliki meri odvisna tudi od RO. Določeni 
+RO so zainteresirani za strateško sodelovanje, medtem ko posamezni RO zaradi skupne višine 
+dodeljenih sredstev iz javnih virov iščejo v gospodarstva bolj priložnostno sodelovanje. Do enakih 
+zaključkov smo prišli tudi na fokusnih skupina, kjer je večina podjetij povedala, da si želi strateškega 
+sodelovanja, vendar da to ni mogoče v vseh primerih ali zaradi stroškovnega vidika (ko gre za MSP) 
+ali zaradi drugih prioritet RO. Dejstva, da JRO svojo dejavnost večinoma financirajo iz javnih sredstev 
+in ne iz sodelovanja s podjetji (delovanja na trgu) je tudi sicer prav tako izpostavljeno na fokusnih 
+skupinah, vendar le-tega nismo uspeli potrditi z drugimi viri in podatki. 
+Strateška partnerstva, ki so nastala, niso bila zgolj posledica razpisov RR Programi in RR Projekti , 
+pač pa so rezultat tudi preteklega dolgoročnega sodelovanja ali na prejšnjih razpisih ali v okviru 
+SRIP-ov. Prav tako lahko opazimo, da so bila znotraj partnerstev (pri oblikovanju konzorcijev) 
+dodana nova podjetja in ne izključno podjetja, s katerimi so sodelovali že v preteklosti. Podjetja so 
+na fokusnih skupinah SRIP -e izpostavili kot ključn i začetni  element povezovanja . Razpisi so po 
+njihovem mnenju pomembni, ker partnerstva dolgoročno ohranjajo, niso pa gonilo vzpostavitve 
+novih partnerstev, saj se konzorciji vzpostavljajo med partnerji, ki se že poznajo. Razlog je zaupanje 
+za izvedbo projektnih aktivnosti, kar je zelo pomembno glede na pravila financiranja in odgovornost. 
+Na tem mestu velja izpostaviti program F4F, ki ga je vodilo Žito, saj je prehrambena industrija (SPS4 
+- Trajnostna pridelava hrane) prvič dobila priložnost za sofinanciranje RRD. V konkretnem primeru 
+je bil razpis RR programi pomembno gonilo  vzpostavitve strateškega partnerstva, ki se je ohranilo 
+še danes in se nadaljuje v številnih skupnih projektih. 
+Ugotavljamo, da razpisi TRL3 -6 pomembno prispevajo k poglabljanju že vzpostavljenih strateških 
+partnerstev. S sestavo konzorcijev pa se gradijo nova partnerstva in širi obseg sodelovanje. 
+Oblikovanje konzorcijev in s tem povezana RRD je velikokrat rezultat potreb trga in zahtev poslovnih 
+partnerjev. Partnerstva pomembno prispevajo k ohranjanju konkurenčnosti podjetij v obstoječih 
+verigah vrednosti.   
+Slika 19 - Predstavitev kazalnikov partnerstev iz odgovorov na anketo - podjetja 
+Kazalniki partnerstev v podjetjih, anketa 
+7%
+93%
+Ne
+Da
+30%
+57%
+13%
+DrugoStrateško sodelovanjePriložnostno sodelovanje
++94%
+Ali državne 
+spodbude 
+pripomorejo k 
+povečanju 
+sodelovanja z 
+RO
+Kako ocenjujete dolgoročnost sodelovanja z raziskovalnimi inštitucijami in /ali 
+univerzami?
+
+ 
+  34 
+Slika zgoraj predstavlja odgovore na podobna vprašanja vendar z vidika RO, pri čemer nemudoma 
+ugotovimo, da državne spodbude pomembno pripomorejo k vzpostavitvi sodelovanja z  
+gospodarstvom, vendar nekoliko manj kot to velja za podjetja. Podobno je razdelitev tudi med 
+priložnostnim in strateškim sodelovanjem, kar pomeni, da tudi RO  dajejo prednost strateškemu 
+sodelovanju z gospodarstvom. To so potrdile tudi fokusne skupine, ki so bolj poglobljena partnerstva 
+kot tudi po obsegu več sodelovanja z gospodarstvom izpostavila kot eno od ključnih sprememb RRL 
+v zadnjih desetih letih.  
+RO, enako kot podjetja, pojasnjujejo, da so vzpostavljeni konzorciji v RR Programih in RR Projektih  
+rezultat dolgoročnih partnerstev in izkušenj preteklega sodelovanja , pri čemer že vzpostavljena 
+strateška partnerstva, pri sestavi konzorcijev k sodelovanju povabijo nova podjetja, vendar v 
+manjšem obsegu . Na tem mestu je bilo izpostavljeno, da so razpis ni pogoji pogosto omejujoči, 
+predvsem z vidika dodane vrednosti na zaposlenega , kar omejuje obseg podjetij, ki lahko na teh 
+projektih sodelujejo. Enako so povedala tudi podjetja, da ta konkretni pogoj predstavlja oviro za 
+veliko podjetji, ki bi bila sicer primerna za sodelovanje v konzorcijih . RO so še dodale, da so za 
+podjetja omejujoči še pogoji o raziskovalnih skupinah/oddelkih, raziskovalna odličnost, ne nazadnje 
+pa tudi zahtevno administrativno poročanje, kar je prav tako ovira za vstop novih partnerjev v 
+konzorcije. Izpostavljeno je bilo, da je skoraj nemogoče, da bi v konzorcij vključili podjetje, ki nima 
+organizirane raziskovalne skupine in ki nima izkušenj s sistemom poročanja EU sredstev. Nekatera 
+podjetja po drugi strani dodatno še izpostavila, da brez predhodno že vzpostavljenih partnerstev in 
+predpriprave na razpise že pred njihovo objavo, da je skoraj nemogoče pridobiti kvalitetne partnerje 
+za sodelovanje ali RO, ki ima še proste kapacitete za sodelovanje.  
+V anket i za upravičence smo postavili vprašanje " Kako ocenjujete dodano vrednost ustvarjenih 
+partnerstev med raziskovalnimi inštitucijami in podjetji ( označite od 1 -5, 1 najmanjša dodana 
+vrednost in 5 največja dodana vrednost )", ki nam pokaže najpogostejše razloga za vzpostavitev 
+partnerstev. Rezultate predstavljamo na spodnjih dveh slikah. Prikazani so ločeno za podjetja in RO.   
+Slika 20 - Predstavitev kazalnikov parnterstev iz odgovorov na anketo - podjetja 
+Slika 21 - odgovori podjetij na vprašanje "Kako ocenjujete dodano vrednost ustvarjenih partnerstev med 
+raziskovalnimi inštitucijami in podjetji" 
+Kazalniki partnerstev v RO, anketa 
+13%
+87%
+Ne
+Da
+39%
+61%
+Strateško sodelovanje Drugo
+0%
+Priložnostno sodelovanje
++58%
+Ali državne 
+spodbude 
+pripomorejo k 
+povečanju 
+sodelovanja z 
+gospodarstvom
+Kako ocenjujete dolgoročnost sodelovanja z gospodarstvom?
+
+ 
+  35 
+ 
+Slika 22 - odgovori RO na vprašanje "Kako ocenjujete dodano vrednost ustvarjenih partnerstev med 
+raziskovalnimi inštitucijami in podjetji 
+Glede na prejete odgovore ugotavljamo, da so podobno rangirani odgovori in posledično razlogi za 
+sodelovanje, tako pri podjetjih kot pri RO , dostop do naprednega znanja in strokovnosti in dostop 
+do napredne tehnologije in opreme. Pri RO so izpostavljeni še ustvarjanje intelektualne lastnine in 
+vpogled v trg in industrijo. Po drugi strani so odgovori z najmanjšo ocenjeno dodano vrednost (1 ali 
+2) povečan dostop do financiranja in subven cij, ter pridobivanje in razvoj talentov. Podjetja so 
+izpostavila zmanjšanje/deljenje tveganj, vpogled v trg in industrijo kot odgovore z nizko dodano 
+vrednostjo.   
+Vse navedeno potrjuje, da se je RRL od leta 2015 do danes  spremenil in da sta k tej spremembi 
+pomembno prispevala tudi razpisa, ki sta predmet vrednotenja. Ne glede na navedeno pa nadalje 
+ugotavljamo, da je ostaja potreba po izboljšavah RRL, zlasti če upoštevamo izzive, ki se bili 
+identificirani leta 2015 že v RIO poročilu  ter ugotovitve fokusnih skupin in anket e. Razpisa RR 
+Programi in RR Projekti  sta pomembo doprinesla k vzdržnosti obstoječih partnerstev med 
+gospodarstvom in RO  kot tudi prispevala h kreiranju dveh novih večjih partnerstev (Hrana in 
+Turizem). Predpostavimo lahko, da se bo zaradi kompleksnosti izvajanja RR programov in projektov, 
+tako z vidika projektnih prijav kot nato poročanja, ta praksa nadaljevala tudi v naslednjem obdobju. 
+V obstoječem sistemu podpor predvidevamo, da bo v sistem vstopilo malo novih podjetij kot tudi 
+malo na novo kreiranih partnerstev.  
+ 
+Priporočila 
+Upoštevajoč ugotovitev, da v Sloveniji manjka kontinuiteta in usklajenost financiranja RRD po vseh 
+fazah razvoja, predlagamo bolj strateško planiranje razpisov, da bi zagotovili ne le manjši razkorak 
+(zamik) med posameznimi razpisi za iste razvojne faze, pač pa s tem tudi omogočili, da projekti, ki 
+končajo s TRL 6, nadaljujejo razvoj naslednjih faz brez izgubljenega razvojnega naboja. Verjamemo, 
+da bi kontinuiranost, cikličnost kot tudi usklajenost razpisov pripomogle ne le k obsegu sam ih 
+raziskav in razvoja, pač pa tudi k njihovi uspešnosti.     
+Prav tako predlagamo več strateškega načrtovanja raziskav in razvoja v Sloveniji ter vzpostavitev 
+večje osredotočenosti razpisov na posamezne panoge /dejavnosti/priložnosti. Strategija pametne 
+specializacije S4 je sicer strateški dokument, v katerem so opredeljene nacionalne strateške 
+razvojne prioritete, vendar ugotavljamo, da je ta preobsežna in da Sloveniji primanjkuje bolj 
+osredotočeno financiranje. Trenutni sistem financiranja razprši sredstva po vseh področjih, s čimer 
+se zmanjša razvojni prebojni potencial, ki bi bil sicer mogoč, če bi bilo za posamezno področje na 
+voljo več sredstev. 
+Predlagamo tudi spremembo pogojev sodelovanja, ki se nanašajo na v preteklosti izkazana vlaganja 
+v raziskave in razvoj (kar se dokazuje s potrdilom FURS ali s pogodbami za RR). Menimo, da ti pogoji 
+omogočajo sodelovanje zgolj tistih organizacij, ki že imajo vzpostavljene raziskovalno razvojn e 
+oddelke in so v preteklosti že sodelovali z RO. To pomeni, da sodelovanje ni odprto za prebojna 
+visoko tehnološka podjetja, ki zaradi administrativno zahtevnega poročanja na FURS, ne uveljavljajo 
+davčne olajšave za RR D (ne poročajo na prilogi 7a v finančnih izkazih) oz. nimajo preteklega 
+sodelovanja. Verjamemo, da bi tudi ta podjetja lahko pomembno prispevala k RRP, kot tudi da bi 
+razpisi tem podjetjem omogočili vzpostavitev sodelovanja z RO.  
+Predlagamo, da se preverjanje izvajanja RRP v prihodnosti ne osredotoča izključno na 
+administrativnem preverjanju upravičenosti izdatkov, pač pa da se da večji poudarek na vsebinskem 
+
+ 
+  36 
+preverjanju in spremljanju programov in projektov, kot so doseganje mejnikov iz projektnih prijav. 
+Predlagamo premik iz administrativnega dokazovanja projektov (uporaba pavšalov) v vsebinsko 
+dokazovanje, ki je sicer standardna praksa na ravni central iziranih EU spodbud, kar bo zmanjšalo 
+administrativno breme ne le skrbnikom pogodb/projektov pač pa tudi samim upravičencem. 
+Predlagamo tudi, da se ohrani »peer-to-peer« pregled vlog kot tudi vmesni pregled, saj predstavljajo 
+veliko dodano vrednost z vidika kvalitativne presoje raziskovalne odličnosti.   
+ 
+Izzivi in omejitve  
+Identificirana omejitev pri pripravi odgovora na vprašanje vrednotenja je omejen dostop do 
+podatkov iz baze SICRIS  (podrobneje pojasnjeno pri naslednjem vprašanju za vrednotenje) . 
+Omejitev se nanaša na možnost primerjave kazalnikov št. raziskovalnih skupin, št. objav, in investicij 
+v raziskovalno opremo med letoma 2015 in 2022 za vse organizacije v SICRIS bazi.   
+
+ 
+  37 
+4.3 Ali je ukrep prispeval k mednarodni odličnosti in prebojnosti tako 
+znanstvenega kot tudi gospodarskega konzorcija: izboljšanje raziskovalne 
+odličnosti ter tržni potencial? 
+ 
+Pristop in metodološka orodja 
+Za pripravo odgovora na navedeno vprašanje smo uporabili kombinacijo metodoloških orodij, in sicer 
+analizo več kazalnikov, poslovno analizo, razlike v razlikah, fokusne skupine in anketo. V analizi več 
+kazalnikov smo kombinirali analizo tako finančnih podatkov kot podatke o citiranosti člankov iz baze 
+podatkov SICRIS. Pri analizi citiranosti smo upoštevali citiranost na dveh mednarodnih seznamih, to 
+sta World of Sicence (Wos) in SCOPUS, kot ju poroča SICRIS baza podatkov. Podatki so predstavljeni 
+ločeno po seznamih. Pri analizi podatkov smo upoštevali tudi metodo razlike v razlikah, pri čemer 
+smo oblikovali dve skupini, upravičence in kontrolno skupino,  po enaki metodologiji kot pri prvem 
+vprašanju za vrednotenje . Zaradi omejene možnosti izvoza podatkov iz baze  SICRIS, kot tudi 
+dejstva, da le-ta ne vsebuje enoznačne identifikacijske številke podjetja  (kot je opisano na koncu 
+tega poglavja) nismo uspeli ustvariti prilagojen ega seznama dvojčkov za kontrolno skupino. 
+Kontrolno skupino smo oblikovali na podlagi prihodkov in zajema skromno število podjetij , in sicer 
+zgolj 14 podjetji, ki so istočasno dvojčki in imajo prijavljeno raziskovalno skupino in imajo zabeležen 
+vnos v SICRIS bazo  podatkov. Analizi več kazalnikov smo dodali še analizo ugotovitev fokusnih 
+skupin in analizo odgovorov na anketo. 
+ 
+Ključne ugotovitve in odgovor na vprašanje vrednotenja  
+Na vprašanje smo odgovarjali v dveh sklopih, z vidika mednarodne odličnosti in tržnega potenciala. 
+Pri vsakem sklopu smo analizirali posebej podjetja in RO, ter jih še medsebojno primerjali.   
+Mednarodno in raziskovalno odličnost ter prebojnost lahko ocenjujemo s pregledom podatkov 
+o mednarodni citiranosti objav, ki so jih raziskovalci iz obravnavanih organizacij objavljali, kot tudi 
+s sodelovanjem v mednarodnih konzorcijih.  
+Slika levo prikazuje spremembo 
+citiranosti celotne baze podatkov, ki 
+je pridobljena iz  baze SICRIS. Baza 
+je razdeljena na podjetja  - 
+upravičence, kontrolno skupino 
+podjetij, ki niso upravičenci,  in na 
+RO. Na tem mestu velja še enkrat 
+izpostaviti, d a je zaradi omejitve 
+dostopa do SICRIS baze, kontrolna 
+skupina nereprezentativna, vendar 
+smo se vseeno odločili predstaviti 
+tudi podatke. Iz analize podatkov 
+lahko ugotovimo, da so imeli 
+upravičenci, tako podjetja kot tudi RO, večji rast citiranosti v primerjavi s kontrolno skupino. To 
+nakazuje na velik neposreden vpliv EU sredstev na povečanje mednarodne prebojnosti slovenskih 
+raziskovalcev. Le-to je bilo potrjeno tudi na fokusnih skupinah tako s strani podjetij kot tudi RO, ki 
+so pojasnili, da jim  tovrstni razpisi pomagajo k mednarodni prebojnosti  zaradi dosežkov in 
+rezultatov, ki so zanimivi tudi v tujini.  
+Navedene trditve iz fokusnih skupin 
+smo preverili tudi s pomočjo ankete, 
+in sicer z vprašanjem "Ali sodelujete 
+v mednarodnih konzorcijih?" in "Če 
+da, v kolikšnih?", ki sta predstavljena 
+na sliki levo in sliki spodaj . Na sliki 
+levo vidimo odgovore na prvo 
+vprašanje. Prikazan je skupni 
+odgovor, nato pa ločeno na podjetja 
+upravičence in RO. Kar 73% vseh 
+anketirancev sodeluje s tujino , pri 
+čemer odstopajo RO, saj jih več kot 
+90% sodeluje v mednarodni h 
+konzorcijih. Upoštevajoč, da je eden ključnih ciljev obravnavanih EU spodbud mednarodna 
+Slika 23 - Analiza spremembe citiranosti  skupne baze v 
+letih 2015-2020 
+Ali sodelujete v mednarodnih konzorcijih?
+27%
+73%
+Ne
+Da
+37%
+63%
+9%
+91%
+Ne Da
+Podjejta RO
+Skupno
+Odgovori po tipu upravičenca
+Slika 24 - Odgovor na anketno vprašanje "Ali sodelujete v 
+mednarodnih konzorcijih?" 
+
+ 
+  38 
+prebojnost slovenskih raziskovalcev, lahko ugotovimo, da sta imela oba razpisa zelo pomembno 
+vlogo pri spodbujanju le-te.  
+Na sliki levo smo predstavili 
+odgovore na drug i del vprašanja, in 
+sicer v kolikih konzorcijih so 
+anketiranci sodelovali v preteklih 
+treh letih. Podobn e rezultate kot pri 
+zgornjem vprašanju lahko opazimo 
+tudi tu. RO  so sodelovale v več 
+mednarodnih konzorcijih v vsaki 
+kategoriji obravnavane baze 
+podatkov. Na mediani so RO 
+sodelovali v 2,5-krat več konzorcijev, 
+v povprečju pa 4-krat več.  
+Analizo raziskovalne odličnosti smo zaradi omejitve dostopa do podatkov baze SICRIS žal omejili 
+samo na citiranost, ne da bi upoštevali razširjen nabor kazalnikov ( kot so npr. št. objav, št. 
+raziskovalcev, podatki o raziskovalni opremi). Kazalnik citiranost pokaže, da so podjetja upravičenci 
+precej boljši od kontrolne skupine, predvsem zato, ker večina podjetij iz kontrolne skupine (dvojčki) 
+nima vzpostavljene raziskovalne skupine in nima objav. Po drugi strani je pomembno izpostaviti, da 
+samo sodelovanje na tovrstnih razpisih zvišuje možnost, da bo podjetje ustanovilo raziskovalno 
+skupino. Omejitev dostopa do baze SICRIS nam žal onemogočajo primerjavo s podjetji, ki so sicer 
+podobna našim upravičencev, pa imajo ustvarjeno raziskovalno skupino.  
+RO so na fokusnih skupinah omenili, da je merjenje raziskovalne odličnosti izziv ter da merjenje št. 
+objav in citatov ni vedno najbolj primerno . Izpostavili so, da v posameznih raziskovalnih skupinah 
+zaradi senioritete posameznikov te osebe navedena na člankih, čeprav niso imele nikakršne aktivne 
+vloge pri pripravi le-tega. Prav tako je citiranost zelo odvisna od raziskovalne dejavnosti. V medicini 
+je št. citatov zelo visoko, medtem ko je povsem drugače v kemiji. Nekateri RO so še izpostavili, da 
+se številne njihove raziskave osredotočajo na aplikativne reši tve pri podjetjih in na trgu, ki ne 
+rezultirajo v objavi člankov, kar tudi navidezno znižuje njihovo raziskovalno odličnost.  
+Na odgovor na vprašanje  vrednotenja v delu, ki se nanaša na izboljšanje tržnega potenciala, 
+lahko na podlagi kazalnikov, predstavljenih v odgovoru na prvo vprašanje vrednotenja ( Slike 6 do 
+10), odgovorimo, da so imela EU sredstva pozitiven vpliv pri izboljšanju tržnega potenciala 
+upravičencev. Pozitiven vpliv se odraža v pozitivni spremembi pri kazalnikih poslovni prihodki, št. 
+zaposlenih in EBITA v primerjavi s kontrolno skupino. Izboljšanje tržnega potenciala so nam potrdili 
+tudi udeleženci fokusnih skupin, ki so povedali, da jim ti razpisi omogočajo, da po eni strani izboljšajo 
+lastne poslovne procesov z novimi rešitvami, ki neposredno vpliva na stroškovno učinkovitost 
+poslovanja, večjo optimizacijo in učinkovitost, s tem  pa na izboljša nj tržnega potenciala. Po drugi 
+strani so podjetja še izpostavila, da so razviti izdelki/produkti dobra referenca in demo produkt, 
+včasih tudi marketinško orodje , ki neposredno izboljšajo njihov tržni potencial in pomagajo pri 
+pridobivanju novih strank.    
+Naj na koncu naj še izpostavimo, da bo dolgoročen vpliv obeh vrednotenih razpisov na tržni potencial 
+podjetij viden šele čez 5 do 7 let, saj oba razpisa podpirata TRL 3-6, kar pomeni, da bo potrebno še 
+kar nekaj časa in sredstev, da izdelki dosežejo trg.  
+ 
+Priporočila 
+Priporočila v tem delu se nanašajo predvsem na sam proces spremljanja raziskovalne odličnosti in 
+na časovnico spremljanja in vrednotenja. Predlagamo, da se ponovno proučijo kazalniki raziskovalne 
+odličnosti, da se definira kar najprimernejši nabor kazalnikov, ki bi bolj osredotočeno meril 
+raziskovalno odličnost. In sicer predlagamo, da se, poleg citiranosti med merila  raziskovalne 
+odličnosti vključi tudi aplikativne rešitve in sodelovanje s podjetji, predvsem na podlagi referenc ali 
+potrditev projektov, v katere so bili v preteklosti vključeni RO.   
+Nadalje predlagamo, da se kazalniki finančnega vpliva (vezani na tržni potencial) spremljajo vsaj 5 
+do 7 let po koncu implementiranega programa/projekta, da bi se ugotovilo, kakšen je dejanski vpliv 
+teh razpisov.   
+Predlagamo še, da se za bodoča vrednotenja zagotovi boljši dostop do baze podatkov SICRIS , in 
+sicer da ARIS (IZUM) omogoči enostaven izvoz baze podatkov za evalvatorje oziroma pripravi izvoz 
+podatkov po specifikacijah evalvatorjev . Trenutni sistem filtrov in ročni izvoz posameznega tipa 
+podatkov po posameznem subjektu za vrednotenja ni primeren.  
+Slika 25 - Odgovor na vprašanje "V kolikih konzorcijih ste 
+sodelovali v preteklih 3 let?" 
+
+ 
+  39 
+ 
+Izzivi in omejitve  
+Pri pripravi odgovora na vprašanje vrednotenja smo se soočili z omejenim dostopom do podatkov v 
+bazi SICRIS. Trenutna postavitev spletne strani SICRIS ne omogoča izvoz podatkov za večje število 
+subjektov, zato smo bili primorani iskati in izvažati posamične podatke (po podjetju/RO). Prav tako 
+ni mogoč izvoz več tipov podatkov (npr . citiranost, št . objav, št raziskovalcev, ipd.) po enem 
+podjetju. Izvažati je treba vsak tip podatka posebej za vsako podjetje posebej. Nadalje, baza SICRIS 
+ni povezana z registrom poslovnih subjektov AJPES in ne uporablja ne matične ne davčne številke, 
+ki je sicer enovit identifikator vsakega subjekta, kar bistveno otežuje pridobivanje podatkov, saj so 
+nazivi podjetij nemalokrat drugačni v SICRIS bazi kot v bazi AJPES. Vse skupaj pomeni, da je vsak 
+podatek potrebno iskati in izvažati ročno ter kopirati v lastne preglednice. V času vrednotenja smo 
+se sicer obrnili na podjetje Izum, ki upravlja z bazo podatkov SICRIS in so nam odgovorili, da obstaja 
+spletna storitev (API), ki bi nam lahko omogoči izvoz podatkov, če bi seveda imeli interne šifre 
+organizacij. Vse navedeno pomeni, da žal nismo pridobiti vseh podatkov, ki bi jih lahko sicer vključili 
+v analizo in vrednotenje.   
+  
+
+ 
+  40 
+4.4 Ali je ukrep, ki je spodbujal sodelova nje temelječe na enakovrednosti v 
+partnerstvu z vidika državnih pomoči prinesel večje učinke kot primerljiv 
+instrument CO (Centri odličnosti v perspektivi 2007 -2013)? Ali je ukrep 
+spodbudil večje dolgoročnejše sodelovanje in s tem večjo učinkovitost 
+državnih pomoči, kot primerljiv ukrep RRP TRL 6-9 razpisan s strani MGTŠ? 
+ 
+Pristop in metodološka orodja 
+Za pripravo odgovora na vprašanje vrednotenja smo analizirali kazalnike iz vrednotenja instrumenta 
+CO s kazalniki instrumentov RR programi in RR projekti in jih primerjali med seboj na ravni celotnega 
+instrumenta in po posameznem upravičencu. Prav tako smo analizirali rezultate ukrepa RRP TRL 6-
+9, da bi ugotovili dolgoročnost sodelovanja. Omejitve vrednotenja, ki so bile identificirane, so 
+zapisane na koncu tega vprašanja. 
+ 
+Ključne ugotovitve in odgovor na vprašanje vrednotenja  
+ 
+ 
+Zgornja slika predstavlja analizo doseganja kazalnikov po posameznem instrumentu agregirano (CO, 
+RR Programi in RR P rojekti), ki smo jih pridobili iz vrednotenja instrumenta CO ( Bučar, Stare in 
+Udovčič, 2014) ter iz končnih poročil upravičencev za RR Programi in RR Projekti. Končna poročila 
+RR Programov in RR Projektov vsebujejo sicer večji obseg podatkov, ki pa niso na voljo tu di v 
+vrednotenju instrumenta CO. Za vsak kazalnik je predstavljena vsota in izračunan multiplikator. 
+Multiplikator smo izračunali, da smo lahko naredili primerjavo med različnimi instrumenti, saj sicer 
+rezultatov zaradi različnega obsega sredstev ne moremo neposredno primerjati. Z multiplikatorjem 
+smo izničili razliko v obsegu dodeljenih sredstev, na podlagi predpostavke, da instrument z večjim 
+obsegom sredstev dosega večje rezultate. Multiplikator se računa na način, da se vsota CO deli z 
+vsoto posameznega razpisa (RR P rogrami in posebej RR Projekti). Na koncu je predstavljen še 
+izračun povprečja multiplikatorjev kazalnikov in primerjava z multiplikatorjem sredstev.  
+Zgornja analiza nam pokaže, da so RR Programi in RR Projekti boljši z vidika doseganja števila 
+raziskovalnih ur, saj so imeli po obsegu veliko večje število raziskovalnih ur. CO so imeli nominalno 
+boljše rezultate pri vseh ostalih kazalnikih , kar je pričakovan rezultat, saj je bil instrument CO po 
+Slika 26 - Primerjava skupnih kazalikov rezultata instrumentov CO in RR programov ter 
+RR projektov 
+Primerjava kazalnikov rezultata instrumentov Centri Odličnosti in RR programov ter RR projektov
+Centri Odličnosti RR programi RR projekti
+Vsota Vsota Multiplikator
+CO Vsota Multiplikator
+CO
+Št. raziskovalnih ur v FTE 577 1.485 0,39 1.838 0,31
+Št. podjetji, ki sodelujejo z 
+RO 213 93 2,29 82 2,60
+Št. Inovacij 311 269 1,16 148 2,10
+Št. patentov (ali prijav 
+patentov) 101 71 1,42 52 1,94
+Povprečni multiplikator CO
+Razlika multiplikatorja CO do multiplikatorja sredstev
+1,31
+- 0,11
+1,94
+0,07
+Skupni znesek sredstev 84,1 mio 55 mio 1,53 45 mio 1,87
+
+ 
+  41 
+sredstvih 1,53-krat večji od RR Programov in 1,87-krat večji od RR Projektov. Slednje pomeni, da 
+je dejstvo, da so imeli RR Programi in RR Projekti večje število raziskovalnih ur zelo dober dosežek.  
+Ko pogledamo povprečni multiplikator vidimo, da so v vsoti vseh rezultatov, RR programi dosegli 
+nekoliko boljši rezultat kot CO . R azlika multiplikatorja rezultatov in multiplikatorja sredstev je 
+namreč -0,11, kar pomeni  da so imeli CO manjši kratnik rezultatov v primerjavi s kratnikom 
+sredstev. Po drugi strani so imeli RR projekti nekoliko slabši rezultat kot CO (multiplikator 0,07). V 
+obeh primerih je pomembno poudariti,  da so razlike zelo majhne in da sta oba vrednotena razpisa 
+dosegla primerljive rezultate z instrumentom CO upoštevajoč razliko v obsegu sredstev.  
+Na sliki zgoraj so predstavljeni podobni rezultati kot na prejšnji sliki, vendar pa smo sedaj rezultate 
+izračunali in primerjali glede na skupno število upravičencev v posameznem instrumentu. CO so 
+imeli 115 upravičencev v 8 konzorcijih, kar pomeni 14,37 upravičencev na konzorcij; RR Programi 
+so imeli 159 upravičencev v 9 konzorcijih, kar pomeni 17,66 upravičencev na konzorcij, RR Projekti 
+so imeli 116 upravičencev v 24 konzorcijih, kar pomeni 4,83 upravičencev na konzorcij.   
+Rezultati nam pokažejo, da so upravičenci pri CO prejeli približno 731.642 EUR po upravičencu. RR 
+Programi 345.911 EUR po upravičencu, ali 2,12- krat manj kot pri CO. RR Projekti pa 387.931 EUR 
+po upravičencu ali 1,89-krat manj kot pri CO. Tako pri RR Programih kot RR Projektih vidimo, da so 
+imeli upravičenci več realiziranih raziskovalnih ur. Pri RR Projektih je najboljši rezultat pri številu 
+podjetji, ki sodelujejo z RO. Tudi tu ugotavljamo, da so imeli CO nominalno boljše rezultate in razlaga 
+je podobna kot zgoraj.  
+Pri analizi multiplikatorja po upravičencu pa lahko opazimo bistveno razliko v primerjavi z agregirano 
+primerjavo. Z vidika upravičencev, so tako RR P rogrami kot RR P rojekti ustvarili več rezultatov v 
+primerjavi s CO, potem ko izničimo večji obseg sredstev CO po upravičencu. Pri obeh razpisih, ki sta 
+predmet vrednotenja, je multiplikator negativen, nadalje je pri RR Projektih multiplikator manjši za 
+2/3 kot multiplikator sredstev. To pomeni, da so, če gledamo rezultate po posameznem upravičencu, 
+RR Projekti bistveno boljši instrument kot CO in da so dosegli bistveno boljše rezultate kot instrument 
+CO.  
+Pri primerjavi RR Programov in RR Projektov z instrumentom CO je potrebno upoštevati dejstvo, 
+da je bil koncept instrumenta CO, ki je imel 100% stopnja financiranja, nižji TRL (brez državne 
+Slika 27 - Primerjava kazalnikov rezultata instrumentov CO in RR programov ter RR projektov  po 
+upravičencu 
+
+ 
+  42 
+pomoči), širši nabor upravičenih stroškov, vključno z investicijami v opremo, povsem drugačen od 
+obravnavanih ukrepov TRL3-6, zato primerjava rezultatov ni povsem mogoča.   
+Kljub navedenemu pa nam zgornja analiza in primerjava vseeno pokaže pozitiven razvoj razpisov 
+RRD kot tudi implementacije RRP, ki na nivoju posameznega upravičenca dosegajo boljše rezultate.   
+Primerjava RR Programov in RR Projektov z ukrepom RRP TRL 6-9 ni povsem mogoča. Pomembno 
+je poudariti, da osnovni namen oziroma cilj RRP TRL 6-9 ni spodbujanje dolgoročnega sodelovanja, 
+kar sicer velja za RR Programe in RR Projekte. V RRP TRL 6-9 RO niso smeli biti upravičenci ukrepa, 
+kar pomeni da je njihovo sodelovanje in obseg sredstev omejen na maksimalno 20% sredstev, ki so 
+bila namenjena zunanjim izvajalc em. V primeru ukrep ov RR Programi in RR Projekti so bili RO 
+upravičenci, kar pomeni, da lahko sklepamo, da je bilo sodelovanje bolj obsežno kot pri ukrepu RRP 
+TRL 6-9.  
+Čeprav cilj ukrepa RRP TRL 6-9 ni bilo spodbujanje dolgor očnejših partnerstev, pa smo vseeno 
+naredili analizo konzorcijev, da bi lahko ugotovili delež konzorcijskih partnerjev, ki so skupaj 
+sodelovali tudi na drugih razpisih MGTŠ. Analiza pokaže, da je ukrep podprl 40 projektov (konzorcijev 
+in posameznih podjetij), od tega je bilo 21 (53%) podjetij, ki so nastopala samostojno , 19 je bilo 
+konzorcijev. Od teh konzorcijev so 4 nadaljevala sodelovanje (21% konzorcijev ali 10% vseh) in 15 
+(79% konzorcijev in 37% vseh) ni nadaljevalo sodelovanje na drugih MGTŠ razpisih.  
+ 
+Priporočila 
+V tem delu nimamo priporočil.  
+ 
+Izzivi in omejitve  
+Omejitev vrednotenja pri pripravi odgovora na to vprašanje je obseg podatkov, ki smo jih imeli na 
+voljo za CO. Da bi bila primerjava med ukrepi kvalitetnejša, bi morali v  procesu vrednotenja 
+zahtevati bolj točne oziroma bolj podrobne finančne podatke, da bi lahko upoštevali in izločili povsem 
+drugačen koncept financiranja instrumenta CO. 
+  
+
+ 
+  43 
+c) Primerjava obeh ukrepov TRL3-6 (programov in projektov) med seboj glede na skupne 
+cilje obeh javnih razpisov. 
+ 
+4.5 Ali prihaja do prevoda na trg v fazi TRL 7-9? (morda tudi prevod / navezava 
+na ukrep MGTŠ TRL7-9). Kakšen je gospodarski učinek izvajanja operacij? 
+ 
+Pristop in metodološka orodja 
+Za pripravo odgovora na vprašanje vrednotenja smo uporabili kombinacijo različnih metod oloških 
+orodij, in sicer analizo več kazalnikov, ki smo jo uporabili za analizo finančnih podatkov in določitev 
+gospodarskega učinka, analizo odgovorov fokusnih skupin in analiza odgovorov na anketo.  
+ 
+Ključne ugotovitve in odgovor na vprašanje vrednotenja  
+Vprašanje je sestavljeno iz dveh delov, to sta prevod na trg v fazi TRL 7-9 in gospodarski učinek 
+izvajanja operacij, zato smo tudi naš odgovor smiselno razdelili in odgovarjali v dveh delih.   
+Slika levo pr ikazuje odgovore na 
+anketno vprašanje »Koliko projektov 
+na področju RRI ste realizirali od 
+2016 do danes s pomočjo državnih 
+spodbud«. Odgovori nam pokažejo, 
+da je bilo res veliko število projektov 
+(skupaj 3.088 projektov) na področju 
+RRI realiziranih s pomočjo državnih 
+spodbud. Nadalje nam razporeditev 
+odgovorov pokaže, da veliko več 
+projektov s pomočjo državnih 
+spodbud v primerjavi s podjetji 
+realizirajo RO. To velja v vseh kategorijah baze podatkov (od mini muma do maksimuma). Tudi v 
+povprečju RO realizirajo kar 9,4-krat več projektov s pomočjo državnih spodbud.  
+ 
+Slika 23 prikazuje odgovore na 
+vprašanje, ki se nanaša na 
+nadaljevanje razvoja. Iz prejetih 
+odgovorov lahko ugotovimo, da se 
+velika večina znanja , ki je bilo 
+ustvarjeno v okvirju konzorcija, 
+kasneje uporabi za nadaljnji razvoj . 
+81% anketirancev je namreč 
+odgovorilo z "Da". Podrobnejša analiza 
+po tipu upravičenca nadalje pokaže, 
+da so pri nadaljevanju razvoja 
+podjetja od RO uspešnejša za 6 
+odstotnih točk. To lahko pripišemo 
+dejstvu, da podjetja investirajo v RRD 
+s tržnim in aplikativnim namenom, kar omoči b olj neposredno uporabo znanja in večjo motivacijo 
+za nadaljevanje razvoja. Po drugi strani pa prav tako lahko vidimo, da tudi velika večina RO nadaljuje 
+z nadaljnjim razvojem. Vse navedeno so potrdile tudi fokusne skupine, kjer so tako podjetja kot RO 
+povedali, da so z večino rešitev nadaljevali tudi po zaključku programa/projekta. Izjeme, da  se 
+razvoj ni nadaljeval, so tiste, pri katerih se je izkazalo, da je rešitev tržno nezanimiva, pa še v teh 
+primerih so se rešitve pogosto prilagodile in razvoj je šel naprej.   
+Slika 28 – Odgovor na vprašanje " Koliko projektov na 
+področju RRI ste realizirali v obdobju od 2016 do danes s 
+pomočjo državnih spodbud?" 
+Slika 29 - Odgovor na vprašanje " Ali ste po fazi TRL 6 
+(znanje ustvarjeno v okvirju konzorcija) nadaljevali z 
+razvojem?" 
+
+ 
+  44 
+Naslednji dve sliki p rikazujeta 
+odgovore na vprašanja o deležu 
+znanja in produktov, ki so bili plasirani 
+na trg po koncu projekta/programa. 
+To je pomemben podatek, ki skoraj 
+neposredno odgovori na naše 
+vprašanje za vrednotenje. Zgornja 
+slika pokaže, da je velik procent 
+znanja, ki je bilo ustvarjeno v sklopu 
+programov/projektov, dejansko  tudi  
+plasiranega na trg, saj že prvi kvartil 
+vsebuje skoraj 1/3 vsega znanja. Tu  
+vidimo manjšo razliko med podjetji in 
+RO, pri čemer  slednji na trg plasirajo 
+nekoliko več znanja na mediani in v 
+povprečju.  
+Spodnja slika prikazuje delež  
+produktov / storitev / procesnih 
+izboljšav, ki je dan na trg in je bil v eni 
+od razvojnih faz sofinanciran iz 
+naslova državnih spodbud. Tukaj 
+vidimo, da je v absolutnih številkah 
+manjši delež produktov/storitev/procesnih izboljšav, ki so bili plasirani na trg, sofinanciran s strani 
+državnih spodbud, saj predstavlja prvi kvartil 10% produktov. To pomeni, da čeprav se ustvarjeno 
+znanje plasira na trg, le-to ni nujno, da se zgodi v obliki produkta/storitve/procesne izboljšave. Prav 
+tako lahko tudi tukaj vidimo, da RO  v primerjavi s podjetji  na trg plasirajo večji  delež 
+produktov/storitev/procesnih izboljšav, ki so sofinancirani iz naslova državnih spodbud.  
+Iz vsega navedenega lahko zaključimo, da se tako znanje kot tudi produkti/storitve/procesne 
+izboljšave, ki so podprte s strani državnih spodbud, dejansko prenesejo na trg. To je ugotovitev tudi 
+fokusnih skupin, kjer so tako podjetja kot RO potrdili, da se večina znanja dejansko prenese na trg. 
+Obenem velja, da ne bodo vsi produkti plasirani na trg v obliki, k ot so bili zasnovani v  TRL 3-6. 
+Pomembna ugotovitev fokusnih 
+skupin je, da je prenos na trg 
+počasen in razvoj nemalokrat 
+dolgotrajen. To potrjuje slika  levo, 
+kjer so prikazani odgovor i na 
+vprašanje o času potrebnem od ideje 
+do trga. Tukaj vidimo, da je v vseh 
+kategorijah baze (razen minimum pri 
+podjetjih) potrebno več kot eno leto 
+za prenos ideje na trg, pri tem  pa 
+podjetja v primerjavi z RO 
+potrebujejo manj časa na vseh točkah (razen na maksimumu). V anketi smo zastavili še vprašanja, 
+ali spodbude pripomorejo h krajšanju časa od ideje do trga, vendar smo na to vprašanje prejeli zgolj 
+10 odgovorov in vsi so bili "Ne". Zaradi majhnega števila prejetih odgovorov, to ni reprezentativen 
+podatek. Dejstvo pa ostaja, da so podjetja na fokusnih skupinami povedala, da razpisi, ki so predmet 
+tega vrednotenja, ne vplivajo neposredno  na skrajšanje časa od ideje do trga, saj je predmet 
+razpisov raziskava novih produktov/storitev/procesnih izboljšav in ne njihova komercializacija.  
+Komercializacija je bila predmet sofinanciranja razpisov RRP TRL 6-9, ki jih je vodilo Ministrstvo za 
+gospodarski razvoj in tehnologijo (MGRT, sedaj Ministrstvo za gospodarstvo, turizem in šport – 
+MGTŠ). Slika spodaj predstavlja analizo upravičencev, ki so dobili spodbude iz naslova obeh razpisov.  
+Slika 30 - Odgovor na vprašanje " Kakšen je delež znanj 
+ustvarjenega v okvirju konzorcija , bil plasiran na trg po 
+koncu projekta/programa?" 
+Slika 31 - Odgovor na vprašanje "Kakšen delež novih 
+produktov/storitev/procesnih izboljšav danih na trg v 
+obdobju od leta 2016 je bil v eni od razvojnih faz 
+sofinanciran iz naslova državnih spodbud?" 
+Slika 32 - Odgovor na vprašanje "Kolikšen je povprečen čas 
+v mesecih od ideje do trga? 
+
+ 
+  45 
+ 
+Slika 33 - Analiza upravičencev, ki so pridobili spodbude iz naslova razpisov TRL 6-9 
+Analiza nam pokaže , da je 59 upravičencev od skupno 155 neto upravičencev  ali 38% vseh 
+upravičencev, ki so prejeli spodbude iz naslova razpisov v obsegu tega vrednotenja, dobilo tudi 
+spodbude iz razpisov TRL 6-9 (MGTŠ). Podporo je dobilo 50 podjetij (85%) in 9 JRO (15%). Največ 
+organizacij (41%) je dobilo eno spodbudo, 25% je dobilo dve spodbudi, 22% jih je dobilo tri 
+spodbude. Največ spodbud (7) je dobilo podjetje Gorenje d.d.  (kar predstavlja 2% baze). Največ 
+podjetij (38) je dobilo spodbudo iz JR "Spodbude za RR projekte 2", ki je bil izveden leta 2018, pri 
+čemer je ta razpis sofinanciral kar 56 projektov upravičencev. Iz JR "Demo piloti II", ki je bil izveden 
+leta 2018, je bilo podprtih 25 podjetij oz. sofinanciranih 26 projektov. Ostali razpisi TRL 6-9 so bili 
+objavljeni v obdobju, ko so bili RR Programi še v izvajanju, zato rezultatov oziroma nadaljnjih faz 
+razvoja ni bilo mogoče financirati iz preostalih TRL 6-9 razpisov.  
+Iz navedenih podatkov lahko sklepamo, da obstaja velika možnost, da je je razvoj in rezultati 
+ustvarjeni v sklopu RR Programi nadaljevali v sklopu javnih razpisov TRL 6 -9 "Demo Piloti II" in 
+"Spodbude za RR projekte 2" . Slednjega žal ne moremo povsem potrditi, saj nimamo dostopa do 
+projektnih prijav . Imena projektov niso dovolj, da bi lahko potrdili povezavo. Kljub temu lahko 
+zaključimo, da prenos iz nižjih TRL v višje obstaja, zlasti upoštevajoč dejstvo, da je več kot tretjina 
+naših upravičencev prejela spodbudo tudi iz razpisov TRL 6-9.  
+Slednje so nam potrdili udeleženci fokusnih skupin, podjetja so namreč pojasnila, da razvojne 
+projekte prijavljajo kasneje tudi na razpise MGTŠ za višje TRL ter da s tem poskušajo zagotavljati 
+kontinuiteto podpore. Podjetja so izpostavila, da je bila kontinuiteta podpor nekoč večja. Neposredna 
+kontinuiteta bi bila morda lahko zagotovljena tudi z dodatnimi točkami za projekte, ki se nadaljujejo 
+iz TRL 3 -6 v TRL 6 -9. Nekatera podjetja so bila na razpisih za višje TRL zavrnjena oz. jim je bilo 
+pojasnjeno, da prijava projekta, ki je nadaljevanje razvoja rezultatov ustvarjenih iz razpisov, ki so 
+predmet tega vrednotenja, ni upravičena, ker bi to lahko štelo kot dvojno financiranje. Slednje ne 
+drži in predvidevamo, da je posledica napačnega razumevanja vprašanja in/ali pravil. Večkrat je bilo 
+izpostavljeno, tako s strani podjetij kot RO, da manjka nadaljevanje podpore na ravni TRL 7-9, da 
+se izgubi ustvarjeni razvojni naboj, da veliko projektov zato zaradi pomanjkanja sredstev ostane na 
+TRL 6. Izpostavljen je tudi sam čas oziroma razmak med razpisi. Pogosto rezultati TRL 3-6 "čakajo" 
+na novi razpis, v tem vmesnem obdobju pa včasih prenehajo biti relevantni za podjetje/organizacijo.  
+Gospodarski učinek operacij je z vidika finančnega učinka na podjetja že predstavljen v odgovoru 
+na prvo vprašanje  vrednotenje, in sicer na slikah 6 do 10. Predstavljeni rezultati pokažejo, da so 
+imeli razpisi zelo pozitiven gospodarski učinek na podjetja in RO. Podjetja so pri vseh kazalnikih , 
+razen dodane vrednosti na zaposlenega , rasla več kot primerljiva podjetja, ki EU spodbud niso 
+prejela. Prav tako so podjetja na mediani rasla več kot slovensk o gospodarstvo (6,8% CAGR rasti 
+BDP iz Q1 2015 v Q4 2022) pri kazalnikih prodaje in EBITDA (7% CAGR rasti). Enako velja tudi za 
+RO, ki so pri kazalniku prodaje rasli za 7% na mediani in 17% pri kazalniku EBITDA.  
+Pri kazalniku dodana vrednost na zaposlenega upravičenci niso imeli boljšega rezultata kot kontrolna 
+skupina, saj na sam kazalnik vpliva število zaposlenih, ki je pri upravičencih v obdobju 2016-2022 
+ostalo enako ali večje, med tem ko se je število zaposlenih pri kontrolni skupini zmanjšalo. Kontrolna 
+skupina je imela višjo dodano vrednost na zaposlenega. Če obe skupini (upravičence in kontrolno 
+skupino) primerjamo s slovenskim gospodarstvom, vidimo, da sta obe skupini na mediani in v 
+povprečju rasli manj kot je raslo slovensko povprečje (3% CAGR rasti pri upravičencih in 4,7% CAGR 
+rasti gospodarstva). Naj še dodamo, da so bili upravičenci na mediani večji kot slovensko povprečje 
+na začetku obdobja in na povprečju ob koncu obdobja ( v letu 2016: 42.094 EUR gospodarstvo, 
+47.557 EUR upravičenci; v letu 2022: 55.688 EUR gospodarstvo, 55.671 EUR upravičenci). Po drugi 
+strani pa so  imeli RO na mediani večjo rast dodane vrednosti (CAGR 5%) kot slovensko 
+
+ 
+  46 
+gospodarstvo, pri tem pa v nominalnih številkah v vseh letih ostajajo pod slovenskim povprečjem 
+(v letu 2016: 34.890 EUR; v letu 2022: 46.496 EUR).  
+Iz vsega navedenega lahko ugotovimo, da so razpisi, ki so predmet tega vrednotenja, pozitivno 
+vplivali na gospodarski uspeh vseh upravičencev, zlasti v primerjavi s kontrolno skupino, pa tudi v 
+primerjavi z gospodarstvom. Prav tako lahko zaključimo, da prihaja do prevoda na trg v TRL 7 -9, 
+vendar bi ga bilo mogoče še okrepiti.  
+ 
+Priporočila 
+Predlagamo, da se prouči, ali je mogoče v sodelovanju z MGTŠ prilagoditi razpisne pogoje TRL 6-9 
+na način, da nagrajujejo prijavitelje, če so le-ti dobili financiranje razvojnih faz TRL 3 -6 za isti 
+projekt. Nagrada bi se imela obliko dodatnih točk pri ocenjevanju, podobno kot to velja za nekatere 
+centralizirane EK razpise. S tem bi še dodatno podkrepili kontinuiteto razvoja in prehod v višje faze.  
+Predlagamo tudi večjo usklajenost časovnice razpisov razvojnih faz, da bi se zagotovila boljša 
+komplementarnost in kontinuiteta financiranja na način, da razpisi za TRL 6-9 v nekem časovnem 
+razkoraku sledijo zaključenim aktivnostim financiranim iz naslova TRL 3-6.  
+Predlagamo, da se prouči, ali bi bilo smiselno in koristno v poročanje o projektih TRL 6-9 vključiti 
+tudi navezavo  n a  T R L  3-6 (ko gre za državne spodbude) , da bi se omogočilo sledenje , koliko 
+projektov/raziskav je bilo nato prenesenih iz ene faze v drugo. 
+Nenazadnje pa predlagamo, upoštevajoč analizo kazalnika dodana vrednost na zaposlenega in 
+primerjavo upravičencev s slovenskim povprečjem, omilitev pogoja prijave na razpis. Nemalokrat so 
+podjetja izpostavila, da je bila zahteva po doseganju povprečne dodane vrednosti na zaposlenega v 
+panogi, omejujoč in v posameznih panogah izključujoč pogoj. Glede na dejanski vpliv razpisov na 
+dodano vrednost na zaposlenega, predlagamo, da se pogoj spremeni na način da zajame vse, ki so 
+znotraj 2/3 povprečja panoge. S tem bi ohranili sistem financiranja uspešnejših podjetij in obenem 
+razširili krog potencialnih prijaviteljev.   
+ 
+Izzivi in omejitve  
+Pri odgovoru na vprašanje ni bilo izziv ov. Izpostaviti pa velja dve omejitvi. Prva je izjemno malo 
+odgovorov na anketno vprašanje o skrajšanja časa od ideje do trga, na katerega anketiranci niso 
+želeli odgovarjati. Druga pa se nanaša na dejstvo, da nismo mogli potrditi,  ali so bili projekti iz 
+obravnavanih razpisov nato sofinancirani tudi iz razpisov TRL 6-9. 
+  
+
+ 
+  47 
+4.6 Ali se je izkazala kakšna razlika pri doseženih ciljih in rezultatih med obema 
+ukrepoma (programi in projekti)? 
+ 
+Pristop in metodološka orodja 
+Za pripravo odgovora na vprašanje smo uporabili kombinacijo metodoloških orodij, in sicer pregled 
+dokumentacije, predvsem končnih poročil, in analizo odgovorov fokusnih skupin.  
+ 
+Ključne ugotovitve in odgovor na vprašanje vrednotenja  
+Spodaj so predstavljeni rezultati obeh javnih razpisov. Vir podatkov so končna poročila RR 
+programov in projektov. Rezultate smo prikazali skupaj za oba razpisa, razdeljeno na RR programe 
+in RR projekte, skupaj in s povprečjem.  
+Prva skupina rezultatov se nanaša na 
+deležnike in porabljene resurse po 
+posameznih programih in projektih. 
+Posebej predstavljamo št. projektov, 
+raziskovalnih ur in podjetij, ki sodelujejo z 
+RO. Iz doseženih rezultatov je razvidno, 
+da so programi dosegli sv oj cilj, da 
+grozdijo več projektov skupaj, pri čemer 
+je v povprečju program vseboval 10,44 
+projektov. Programi in projekti so porabili 
+približno enako število raziskovalnih ur, 
+pri čemer so bili projekti večji v obsegu, 
+kar je skladno s pričakovanji. Zelo  
+pozitiven rezultat razpisov je št. podjetij, 
+ki sodelujejo z RO, pri čemer je skupno 175 podjetij sodelovalo z RO (šteto je sodelovanje tudi 
+podjetij, ki niso bili upravičenci na programih/projektih) (v poprečju 5,47 podjetij na konzorcij), kar 
+pomembno doprinese h krovnemu cilju spodbud, ki je pospeševanje prenosa znanja iz RO v podjetja. 
+Podatkov o samem št. raziskovalnih projektov, pridobljenih iz končnih poročil obeh javnih razpisov, 
+ne moremo med seboj neposredno primerjati zaradi razlik v pojmovanju in ciljih/pravilih razpisa ter 
+posledično drugačnemu razumevanju raziskovalno razvojnega projekta (v nadaljevanju »RRP«). RR 
+Programi so namreč skupek »RRP«, posamezen »RRP« pa pomeni del programa, ki je ali industrijska 
+raziskava ali eksperimentalni razvoj in pomeni vsebinsko zaključeno celoto (tudi z vidika udeleženih 
+relevantnih konzorcijskih partnerjev za posamezen raziskovalno razvojni projekt), ne pomeni pa 
+nujno obenem to tudi celotnega RR projekta v smislu cele raziskovalne poti TRL3 -6, kar sicer velja 
+za »RRP« znotraj JR RR projekti. Ta delitev na posamezne segmente znotraj JR programi je bila 
+ključna za upoštevanje pravil državnih pomoči, sama delitev pa je bila prepuščena prijaviteljem, saj 
+so upoštevali tudi raznolikost vsebine.  
+Podatki končnih poročil so zato v tem delu medsebojno neprimerljivi, saj je bila interpretacija »RRP« 
+povsem prepuščena prijaviteljem. 
+Kljub navedenemu v nadaljevanju 
+podrobneje predstavljamo rezultate 
+skupno in v povprečju ter v tekstu tudi na 
+nivoju posameznega »RRP«.  Druga 
+skupina rezultatov se nanaša na št. 
+inovacij in patentov ali prijav patentov. Pri 
+tem opazimo, da so programi in projekti 
+približno enaki po številu patentov ali 
+patentnih prijav, medtem ko je bila večina 
+inovacij ustvarjena znotraj RR programov. 
+V povprečju so imeli programi 30 inovacij na program, projekti pa 6. To izhaja tudi iz namena 
+posameznega razpisa. Podatki pokažejo, da ker so bili programi skup več »RRP« in da zato so 
+soustvarili tudi več inovacij. Slednje je skladno tudi s podatki o št »RRP« (Slika 4), saj so programi, 
+če posplošimo, sofinancirali 4 -krat več raziskovalnih projektov oziroma zaokroženih vsebinsko 
+samostojnih enot.   
+Št. RR
+projektov
+Skupaj Programi Projekti
+Vsota: 117
+Povprečje: 3,66
+94
+10,44
+23
+1
+Št.
+raziskovalnih 
+ur v FTE
+Skupaj Programi Projekti
+Vsota: 3.323
+Povprečje: 133
+1.485
+212
+1.838
+102
+Št. podjetji, 
+ki sodelujejo 
+z RO
+Skupaj Programi Projekti
+Vsota: 175
+Povprečje: 5,47
+93
+10,33
+82
+3,57
+Slika 34 - Rezultati razpisov 1 
+Št. Inovacij
+Skupaj Programi Projekti
+Vsota: 417
+Povprečje: 13
+269
+30
+148
+6
+Št. patentov 
+(ali prijav 
+patentov)
+Skupaj Programi Projekti
+Vsota: 123
+Povprečje: 4,56
+71
+8,88
+52
+2,74
+Slika 35 - Rezultati razpisov 2 
+
+ 
+  48 
+Podobno ugotavljamo tudi pri tretji skupini 
+rezultatov (Slika 6), kjer so prikazane 
+nove rešitve in novi produkti ter storitve, 
+kot tudi nove mednarodne publikacije. 
+Tudi tukaj velja, da so bili programi pri 
+doseganju rezultatov bolj obsežni, kar je 
+skladno s pričakovanji. Prav tako vidimo, 
+da so programi prispevali več k znanstveni 
+sferi, saj so imeli več kot 2 -krat več 
+mednarodnih publikacij, ki so nastali iz 
+naslova teh projektov. Programi imajo kar 
+67% delež v vseh skupnih mednarodnih 
+objavah. S tem ugotavljamo, da so bili 
+projekti bolj tržno naravnani  
+(osredotočeni na ustvarjanje rešitev že znanega  problema na trgu)  in da so bile raziskave bolj 
+osredotočene na potrebe podjetij. Podjetja imajo manjšo potrebo po mednarodnih objavah. 
+Pomembno je dodati, da se ta kazalnik nanaša na mednarodne objave v znanstvenih publikacijah. 
+Če pa pogledamo podatek o skupnem številu predstavitev, ki so jih izvedli konzorciji, vidimo, da so 
+bili tudi konzorciji RR projektov podobno aktivni na področju deljenja znanja, vendar ne v obliki 
+znanstvenih člankov.  
+Potrditev, da neposredna primerjava rezultatov obeh razpisov ni povsem mogoča na nivoju 
+posameznega »RRP« izhaja iz poenostavljene analize povprečij rezultatov po posameznem »RRP«. 
+Iz podatkov končnih poročil izhaja, da je posamezen »RRP« v povprečju pripeval več po JR projekti 
+kot JR programi. To velja pri vseh kazalnikih, kar sicer potencialno potrjuje večjo osredotočenost RR 
+projektov, ki imajo bolj jasno merljive rezultate. Če analiziramo razlike v rezultatih na podlagi 
+podatkov iz končnih poročil po posameznem »RRP«, vidimo, da se gibajo med 0,6- krat (oz. da so 
+RR projekti imeli 40% nižje rezultate – pri rezultatu prototipov), do 5,06-krat (oz. da so RR projekti 
+imeli 506% večji rezultat – pri rezultatu "skupno število raziskovalnih ur"). Povprečje razlik je 2,68-
+krat, kar pomeni, da bi pričakovali, da št. »RRP« znotraj RR programov ustvarijo 2,68 -krat svojih 
+rezultatov, da bi sledili učinkovitosti št. »RRP« iz RR projektov. Pri interpretaciji teh rezultatov 
+moramo biti zaradi različnega vsebinskega koncepta »RRP« pri obeh razpisih nekoliko zadržani, 
+ravno zaradi razumevanja posameznega »RRP«, kar dodatno potrjuje ugotovitev, da je potrebno 
+definicijo »RRP« uskladiti v vseh javnih razpisih, v kolikor želimo imeti kvalitetno primerjavo 
+rezultatov.  
+Razvite nove
+rešitve
+Skupaj Programi Projekti
+Vsota: 481
+Povprečje: 15,52
+334
+37,11
+147
+6,68
+Novi produkti 
+in storitve
+Skupaj Programi Projekti
+Vsota: 369
+Povprečje: 11,9
+216
+24
+153
+6,95
+Nove 
+mednarodne 
+publikacije
+Skupaj Programi Projekti
+Vsota: 460
+Povprečje: 21,9
+307
+61,4
+153
+9,56
+Slika 36 - Rezultati razpisov 3 
+
+ 
+  49 
+ 
+Slika 37 - Primerjava kazalnikov rezultatov RR programov in RR projektov po konzorciju 
+Slika zgoraj predstavlja pregled kazalnikov rezu ltatov iz konč nih poročil RR programov in RR 
+projektov. Za vsak kazalnik je izračunana vsota po konzorciju in za RR programe izračunan 
+multiplikator do sredstev in rezultatov RR projektov. RR programi so podprli 9 konzorcijev, kar 
+pomeni v povprečju 6,8 mio EUR sredstev po konzorciju, ali drugače povedano, multiplikator je 3,51 
+(tolikokrat večji znesek sredstev kot pri RR projekti ). RR projekti so podprli 23 konzorcijev, kar 
+pomeni v povprečju 1,95 mio EUR sredstev po konzorciju. Analiza nam pokaže, da so RR programi 
+po konzorciju dosegli več rezultatov kot RR projekti, saj je multiplikator pri vsakem kazalniku več 
+kot 1 in je povp rečni multiplikator 6,07. Če izničimo vpliv sredstev oziroma bi imeli enak obseg 
+sredstev na obeh razpisih, lahko ugotovimo, da so RR programi dosegli 2,55-krat več rezultatov kot 
+RR projekti.  
+RR programi so podprli veliko večje konzorcije kot RR projekti ( RR programi: 9 konzorcijev in v 
+povprečju 19,9 partnerjev v konzorciju; RR projekti: 23 konzorcijev in v povprečju 5,04 partnerja v 
+konzorciju), skupni rezultati lahko pokažejo izkrivljeno sliko, ker zaradi heterogenosti na ravni 
+konzorcija težko primerjamo rezultate. V naslednjem koraku smo naredili primerjavo še na ravni  
+upravičencev.  
+Primerjava kazalnikov rezultata RR programov in RR projektov po konzorciju
+RR programi RR projekti
+Št. raziskovalnih ur v FTE 186 80
+Št. podjetji, ki sodelujejo z RO 12 4
+Št. Inovacij 34 6
+Št. patentov (ali prijav patentov) 9 2
+Povprečni multiplikator Projekti
+Razlika do multiplikatorja sredstev
+Skupni znesek sredstev 6,8 mio 1,95 mio
+Razvite nove rešitve
+Novi produkti in storitve
+Nove mednarodne publikacije
+42 6
+27 7
+38 7
+Multiplikator
+Projekti
+2,32
+3,26
+5,22
+3,92
+6,07
+2,55
+3,51
+6,53
+4,05
+5,77
+
+ 
+  50 
+ 
+Slika 38 - Primerjava kazalnikov rezultatov RR programov in RR projektov po konzorciju 
+Slika zgoraj predstavlja primerjavo sredstev in rezultatov po upravičencu ter izračunan multiplikator 
+za RR projekte do RR programov . Razlika v izračunu multiplikatorja v primerjavi s prejšnjo analizo 
+je narejena zaradi boljšega razumevanja podatkov, saj so po tej analizi RR projekti naredili več 
+rezultatov po upravičencu v primerjavi z RR programi. RR projekti so imeli po upravičencu na voljo 
+več sredstev (multiplikator 1,12), kar je 12% več kot v primerjavi z upravičenci v RR programih. Pri 
+vseh kazalniki h so upravičenci v RR projektih dosegli  boljše rezultate, kar pokaže povprečni 
+multiplikator v višini 2,59. Če izničimo multiplikator za skupni znesek sredstev, dobimo razliko v 
+višini 1,46, kar pomeni, da so na ravni upravičenca RR projekti dosegli 1,46-krat več rezultatov, v 
+kolikor bi bil obseg sredstev za oba razpisa enak.  
+Naj na koncu vseh teh analiz še poudarimo, da rezultatov nismo tehtali. Vsi kazalniki rezultata so 
+bili obravnavani enakovredno. V kolikor bi rezultate tehtali po pomembnosti (prioritetah), bi se 
+multiplikatorji seveda spremenili.   
+Na fokusnih skupinah je bilo pojasnjeno, da so bili RR programi zahtevnejši z vidika koordinacije, da 
+si bili zelo široko zastavljeni in da se v njih včasih zato izgubi fokus, saj pokrivajo več različnih tem 
+oziroma področij raziskovanja. Udeležencem, ki so sodelovali v tako RR programih in RR projektih, 
+so bili RR projekti »ljubši«, saj so bili bolj osredotočeni na ožje usmerjen razvoj in so ohranili fokus 
+specifične raziskave. Manjši konzorciji so bili po mnenju udeležencev fokusnih skupin enostavnejši, 
+predvsem zato, ker so bila partnerstva manj kompleksna  in bolj homogena .  Na programih  z 
+nekaterimi partnerji, čeprav so vsi prispevali k skupnemu cilju,  niti niso imeli veliko stikov. Pri RR 
+programih pa so kot največjo prednost izpostavili širino in globino kot tudi horizontalnost tem 
+raziskovanja v sklopu enega samega konzorcija.   
+ 
+ 
+ 
+ 
+ 
+Primerjava kazalnikov rezultata RR programov in RR projektov po upravičencu
+RR programi RR projekti
+Št. raziskovalnih ur v FTE 75 364
+Št. podjetji, ki sodelujejo z RO 5 16
+Št. Inovacij 14 29
+Št. patentov (ali prijav patentov) 4 10
+Povprečni multiplikator Programi
+Razlika do multiplikatorja sredstev
+Skupni znesek sredstev 345,912 387.931
+Razvite nove rešitve
+Novi produkti in storitve
+Nove mednarodne publikacije
+17 29
+11 30
+14 30
+Multiplikator
+Programi
+4,88
+3,47
+2,17
+2,89
+2,59
+1,46
+1,12
+1,73
+2,79
+1,96
+
+ 
+  51 
+ 
+Priporočila 
+Predlagamo, da se termin »RRP« poenoti v vseh razpisih, s čimer bo v prihodnje mogoča neposredna 
+primerjava doseženih rezultatov po vseh razpisih. 
+Da bi lahko presojali in neposredno primerjali učinkovitost in uspešnost doseženih ciljev in 
+rezultatov, bi moralo biti poenoteno poročanje tako na nivoju samih RR programov in potem še RR 
+projektov, ki bi postali medsebojno primerljivi.  
+Predlagamo še, da se prouči možnost in smiselnost , da se pogoji in kriterija za RR programe in RR 
+projekte dodatno prilagodijo na način, da se bolj jasno pripravi ločnica med TRL3-4 in TRL5-6 tako 
+znotraj kot med posameznimi razpisi.   
+ 
+Izzivi in omejitve  
+Pri pripravi odgovora se nismo soočili z izzivi ali omejitvami.   
+ 
+
+ 
+  52 
+5 Pregled opravljenih nalog 
+Za potrebe pregleda opravljenih nalog je podjetje CEDARS pripravilo časovnico projekta z datumi posameznih izvedenih aktivnosti. 
+ 
+Slika 39 - Časovnica projekta

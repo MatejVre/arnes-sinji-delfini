@@ -1,0 +1,2777 @@
+ZBIRNI KATASTER GOSPODARSKE JAVNE 
+      INFRASTRUKTURE - IZDAJA PODATKOV 
+ 
+ŠIFRANT SLOJEV IN 
+     OPIS STRUKTU RE IZDANIH PODATKOV 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+Stran 2 
+ 
+ 
+VERZIJA DOKUMENTA: 2 
+ 
+Ljubljana, 26.01.2012 
+ 
+pregled objavljenih verzij: 
+Z.št. Verzija Oznaka dokumenta Opis spremembe Datum za četka 
+veljavnosti 
+1 1 GJI_izdaja_sifrant_in_struktura_1.doc / 01.02.2010 
+2 2 GJI_izdaja_sifrant_in_struktura_2.doc 
+Dopolnitev prikaza objekta vrste 2110 – 
+steber ali drog. Objekt se prikazuje lahko 
+tudi poligonsko. Dodan atribut DIM_Z za 
+objekt vrste 2111-svetilo (str. 25). 
+Dodan atribut DIM_Z za objekt vrste 
+2307-jašek  (str. 29). 
+Pri objektih vrste 3310 – zbiralnice lo čenih 
+frakcij  in 3311 – zbiralnice nevarnih frakcij 
+se briše Opomba ( str. 14 in 35).
+ 
+26.1.2012 
+3     
+4     
+5     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VSEBINA 
+ 
+1 NAČIN DOLOČITVE IMEN IZVOZNIH DATOTEK ........................................................................... 4 
+1.1 NAČIN DOLOČITVE IMENA DATOTEKE ZA IZVOZ POSAMEZNEGA SLOJA ZA OBMOČJE 
+CELE SLOVENIJE...................................................................................................................... ........................... 4 
+1.2 NAČIN DOLOČITVE IMENA DATOTEKE ZA IZVOZ VSEH SLOJEV ZA OBMOČJE OBČINE ..... 4 
+1.3 NAČIN DOLOČITVE IMENA DATOTEKE ZA POLJUBNO IZBRANO OBMOČJE........................... 5 
+2 STRUKTURA IZMENJEVALNE DATOTEKE V SHP FORMATU .................................................... 6 
+2.1 ŠIFRANTI ....................................................................................................................... .......................... 8 
+2.1.1 ŠIFRANT VRSTE OBJEKTOV GJI ................................................................................................... 8 
+2.1.2 ŠIFRANT TIPA SPREMEMBE........................................................................................................ 1 5 
+2.1.3 ŠIFRANT TOPOLOŠKE OBLIKE................................................................................................... 16  
+2.1.4 ŠIFRANT POLOŽAJNE NATANČNOSTI ....................................................................................... 16 
+2.1.5 ŠIFRANT VIŠINSKE NATANČNOSTI ............................................................................................ 16 
+2.1.6 ŠIFRANT STATUSA GJI ................................................................................................................. 16 
+2.1.7 ŠIFRANT VIRA................................................................................................................... ............. 16 
+2.1.8 ŠIFRANT OPUŠČENOSTI.............................................................................................................. 17  
+2.2 TABELA POSEBNIH ATRIBUTOV PO VRSTI OBJEKTOV GJI........................................................ 17  
+2.2.1 PREGLEDNICA POSEBNIH ATRIBUTOV PO VRSTI OBJEKTOV GJI....................................... 17 
+2.2.2 ŠIFRANTI POSEBNIH ATRIBUTOV.............................................................................................. 20  
+3 GML STRUKTURA IZMENJEVALNE DATOTEKE ATRIBUTNIH PODATKOV O OBJEKTIH 
+GJI 39  
+ 
+
+ 
+Stran 3 
+ 
+Definicija okrajšav in pojmov, uporabljenih v dokumentu: 
+ 
+ 
+GJI – Gospodarska javna infrastruktura 
+ 
+objekt GJI - omrežja in objekti gospodarske javne infrastrukture. Objekt GJI je najmanjša 
+enota v zbirki podatkov, za katerega veljajo enake vrednosti atributov  
+ 
+Lokacijo objektov GJI opišemo s to čko, linijo ali poligonom v državnem koordinatnem 
+sistemu. Topološka oblika za posamezne objekte GJI ni eksplicitno predpisana. 
+ 
+IPL  /infrastruktura poligoni lokacijsko/ lokacijski podatki poligonskih objektov GJI 
+ILL  / infrastruktura linije lokacijsko/ lokacijski podatki linijskih objektov GJI 
+ITL  / infrastruktura točke lokacijsko/ lokacijski podatki točkovnih objektov GJI 
+IVPL /infrastruktura višine poligonov lokacijsko/ lokacijski podatki višinskih to čk poligonskih 
+objektov GJI 
+IVLL /infrastruktura višine linij lokacijsko/ lokacijski podatki višinskih to čk linijskih objektov 
+GJI 
+
+ 
+Stran 4 
+ 
+1 NA ČIN DOLOČITVE IMEN IZVOZNIH DATOTEK  
+ 
+1.1  NA ČIN DOLOČITVE IMENA DATOTEKE ZA IZVOZ POSAMEZNEGA 
+SLOJA ZA OBMOČJE CELE SLOVENIJE 
+ 
+ 
+Ime izvozne datoteke je oblikovano na naslednji način: 
+ 
+TTTT LLLLMMDD 01 _ SHP 
+GML 
+.zip 
+ID GJI sloja 
+4 mesta 
+Datum priprave 
+podatkov 
+8 mest 
+Oznaka 
+območja – pri 
+izvozu sloja za 
+celo Slo je to 
+vedno 01 
+2 mesti 
+Podčrtaj 
+1 mesto 
+Oznaka formata 
+(SHP ali GML) 
+3 mesta 
+Končnica za 
+stisnjeno mapo 
+ 
+ Primer: 
+22002010011501_GML.zip 
+(sloj 2200 – zemeljski plin, datum izvoza – 15.01.2010, oznaka obmo čja – 01, 
+format – GML) 
+ 
+11002010012601_SHP.zip (sloj 1100 – ceste, datum izvo za – 26.01.2010, oznaka obmo čja – 01, format – 
+SHP) 
+ 
+Pri formatu GML so kon čne datoteke s podatki shranjene neposredno v razširjeni mapi na 
+prvem nivoju. 
+ 
+Pri formatu SHP pa so po razširitvi mape na pr vem nivoju znotraj le-te shranjene podmape 
+za posamezen sloj  
+ 
+Za vsak posamezni sloj GJI se ob izvozu kreira svoja zip datoteka po zgoraj opisanem 
+postopku. 
+ 
+ 
+1.2  NA ČIN DOLOČITVE IMENA DATOTEKE ZA IZVOZ VSEH SLOJEV ZA 
+OBMOČJE OBČINE 
+ 
+ 
+Ime izvozne datoteke je oblikovano na naslednji način: 
+ 
+SSS _ SHP .zip 
+ID številka 
+občine 
+3 mesta 
+Podčrtaj 
+1 mesto 
+Oznaka formata 
+(SHP ali GML) 
+3 mesta 
+Končnica za 
+stisnjeno mapo 
+ 
+ Primer: 
+ 002_SHP.zip 
+ 
+Po razširitvi mape na prvem nivoju so znotraj le-te shranjene podmape za vsak sloj GJI 
+posebej. Ime teh map na drugem nivoju je oblikovano na naslednji način:   
+ 
+
+ 
+Stran 5 
+TTTT LLLLMMDD 
+ID GJI sloja 
+4 mesta 
+Datum priprave 
+podatkov 
+8 mest 
+ 
+ 
+Primer: 
+310020100115 
+(sloj 3100 – vodovod, datum izvoza – 15.01.2010) 
+320020100123 (sloj 3200 – kanalizacija, datum izvoza – 23.01.2010) 
+ 
+Znotraj teh map so shranjene končne datoteke (*.shp, *.shx, *.dbf, *.prj, *.cst). 
+ 
+ 
+1.3 NA ČIN DOLOČITVE IMENA DATOTEKE ZA POLJUBNO IZBRANO 
+OBMOČJE  
+ 
+ 
+Ime izvozne datoteke je oblikovano na naslednji način: 
+ 
+OBMOCJE _ LLLLMMDD _ 01 
+02 
+… 
+_ SHP 
+ 
+Pri izvozih za poljubno 
+izbranih območjih vedno na 
+začetku imena 
+15 mest 
+Podčrtaj 
+1 mesto 
+Datum priprave 
+podatkov 
+8 mest 
+Podčrtaj 
+1 mesto 
+Oznaka 
+območja – 
+pri izvozu 
+več območij 
+vsak dobi 
+svojo 
+zaporedno 
+številko 
+2 mesti 
+Podčrtaj 
+1 mesto 
+Oznaka 
+formata 
+3 mesta 
+ 
+Primer: 
+OBMOCJE_20100201_01_SHP  
+ 
+Po razširitvi mape na prvem nivoju so znotraj le-te shranjene podmape za vsak sloj GJI 
+posebej. Ime teh map na drugem nivoju je oblikovano na naslednji način:   
+ 
+OBMOCJE _ TTTT _ LLLLMMDD 
+vedno na 
+začetku imena 
+7 mest 
+Podčrtaj 
+1 mesto 
+ID GJI sloja 
+4 mesta 
+Podčrtaj 
+1 mesto 
+Datum priprave 
+podatkov 
+8 mest 
+ 
+Primer: 
+OBMOCJE_6100_20100206 
+(izbrano obmo čje, sloj 6100 – elektronske komunikacije, datum izvoza – 
+06.02.2010) 
+ 
+Znotraj teh map so shranjene končne datoteke (*.shp, *.shx, *.dbf, *.prj, *.cst). 
+ 
+
+ 
+Stran 6 
+ 
+2 STRUKTURA IZMENJEVALNE DATOTEKE V SHP FORMATU  
+ 
+ 
+V zbirnem katastru GJI se za posamezne objekte GJI vodi osnovne in posebne atribute . Vsi 
+atributi so obvezni, če so za dolo čeno vrsto GJI taki atributi predpisani. Temu ustrezno je 
+določena vsebina in struktura izmenjevalne datoteke atributnih podatkov o objektih GJI, ki 
+vključuje dvajset osnovnih atributov in pet posebnih atributov.  
+ 
+Vsebina in struktura izmenjevalne datoteke, s katero podajamo osnovne (v tabeli so 
+označeni z rumeno barvo) in posebne (v tabeli so ozna čeni z modro barvo) atribute o 
+objektih GJI je naslednja: 
+ 
+ZAP.
+ŠT.  ATRIBUT OPIS ATRIBUTA FORMAT 
+ZAPISA 
+ŠIFRANT 
+VREDNOSTI 
+ATRIBUTA 
+1 TIP_SPR Tip spremembe podatkov  1C Šifrant tipa 
+spremembe  
+2 ID 
+Enolična identifikacijska številka objekta v 
+sistemu zbirnega katastra GJI  
+Atribut dodeli GU ob prvem vpisu. Če je bil atribut že 
+posredovan lastniku, ga mora le-ta voditi in v primeru 
+spreminjanja ali brisanja objekta ta ID tudi uporabiti. 
+ID pri atributnih podatkih mora biti identi čen ID-ju 
+lokacijskih podatkov istega objekta! 
+10N 
+  
+3 ID_UPR 
+Enolična identifikacijska številka objekta v 
+sistemu katastra lastnika.  
+Identifikacijska številka mora biti enoli čna vsaj znotraj 
+ene tematike (vodovod, kanalizacija,...) istega 
+lastnika. Npr. v to čkovnem sloju iste tematike ne sme 
+biti enakih ID_UPR kot v linijskem.  
+Ta identifikacija je bistvena pri prvem vpisu podatkov, 
+ko ID še ne obstaja.  
+ID_UPR pri atributnih podatkih mora biti identi čen 
+ID_UPR-ju lokacijskih podatkov istega objekta! 
+20C 
+ 
+4 SIF_VRSTE 
+Vrsta objekta 
+Evidentira se s šifro objekta po šifrantu vrste objektov 
+GJI. 
+4N 
+Šifrant vrste 
+objektov GJI  
+5 CC_KLAS 
+Šifra vrste objekta po CC-SI klasifikaciji  
+Določena na osnovi Uredbe o uvedbi in uporabi 
+enotne klasifikacije vrst objektov in o dolo čitvi 
+objektov državnega pomena (Uradni list RS, št. 
+33/03) ter Metodoloških pojasnil in navodil za 
+razvrščanje objektov po enotni klasifikaciji vrst 
+objektov (CC-SI). 
+5N 
+ 
+6 TOPO Topološka oblika objekta 1N Šifrant topološke 
+oblike  
+7 NAT_YX 
+Natančnost dolo čitve položaja objekta  (y,x 
+koordinate)  
+Izražena s srednjim pogreškom meritve, ki je bila 
+uporabljena za določitev koordinat točke ali lomov linij 
+ali lomov meje poligona. 
+2N 
+Šifrant položajne 
+natančnosti  
+8 Z Absolutna nadmorska višina temena objekta 
+/Samo za točkovne objekte!/   7N2  
+9 NAT_Z 
+Natančnost dolo čitve absolutne nadmorske 
+višine objekta 
+V primeru linijskih in poligonskih objektov je to 
+natančnost najslabše določene točke objekta. 
+2N 
+Šifrant višinske 
+natančnosti 
+
+ 
+Stran 7 
+10 GJI 
+Atribut GJI 
+Določa, ali je objekt GJI ali druga infrastruktura, ki 
+nima statusa GJI, temve č je evidentirana v katastru 
+zaradi interesa lastnika. 
+1N 
+Šifrant statusa 
+GJI  
+11 VIR Vir  
+Vir iz katerega je bil pridobljen podatek o lokaciji. 2N Šifrant vira  
+12 DAT_VIR 
+Datum podatkovnega vira 
+V primeru terenskega zajema je to datum zajema. 
+Datum se zapiše v obliki YYYYMMDD (leto, mesec, 
+dan). 
+8C 
+  
+13 MAT_ST Matična številka lastnika objekta 
+Iz Poslovnega registra Slovenije.  7N     
+14 MAT_GJS 
+Matična številka upravljavca na objektu  
+Iz Poslovnega registra Slovenije. Če infrastruktura ni 
+GJI, je atribut neobvezen. 
+7N 
+  
+15 ID_EL 
+Identifikacijska številka zadnjega elaborata  
+sprememb podatkov objekta GJI v sistemu 
+zbirnega katastra GJI za objekt GJI 
+/Atribut določi GU. 
+15C 
+  
+16 DAT_EL 
+Datum zadnjega vnosa podatkov objekta GJI v 
+zbirni kataster GJI 
+Datum se zapiše v obliki YYYYMMDD. 
+/Atribut določi GU. 
+8C 
+  
+17 DIM_YX 
+Zunanja tlorisna dimenzija objekta (v m) 
+/največja prečna tlorisna dimenzija objekta/  
+Podatek se ne vpisuje pri poligonskih objektih! 
+Pri to čkovnih objektih velja: za okrogle objekte = 
+premer; za pravokotne objekte = diagonala. 
+Pri linijskih objektih velj a: za cevovode=zunanji 
+premer cevi. 
+6N2 
+ 
+18 DIM_Z 
+Zunanja vertikalna dimenzija objekta (v m)  
+Pomeni razliko med najvišjo in najnižjo to čko objekta. 
+V primeru to čkovnih in poligonskih objektov je to 
+višina objekta, v primeru linijskih objektov (npr. 
+vodov) pa je to vertikalni premer cevi, ki je v ve čini 
+primerov enak kot zunanji premer cevi.    
+6N2 
+ 
+19 OPU 
+Opuščenost objekta 
+Z atributom se poda, ali je objekt neupoš čen 
+(delujoč), ali gre za opuščen objekt. To so objekti GJI, 
+ki jih nih če ne uporablja in po prenehanju delovanja 
+niso bili odstranjeni. 
+2N 
+Šifrant 
+opuščenosti 
+20 ATR1 
+Posebni atribut 1* 
+Pod tem atributom se za razli čne vrste objektov 
+vodijo različne karakteristike objektov.  
+2N 
+ 
+21 ATR2 
+Posebni atribut 2* 
+Pod tem atributom se za razli čne vrste objektov 
+vodijo različne karakteristike objektov.  
+2N 
+ 
+22 ATR3 
+Posebni atribut 3* 
+Pod tem atributom se za razli čne vrste objektov 
+vodijo različne karakteristike objektov.  
+10N 
+ 
+23 ATR4 
+Posebni atribut 4* 
+Pod tem atributom se za razli čne vrste objektov GJI 
+vodijo različne karakteristike objektov.  
+8C 
+ 
+24 ATR5 
+Posebni atribut 5* 
+Pod tem atributom se za razli čne vrste objektov 
+vodijo različne karakteristike objektov.  
+5C 
+ 
+25 OPIS 
+Dodaten opis  
+Po potrebi se objektu GJI doda poljubno informacijo, 
+ki v ostalih atributih ni zajeta. 
+30C 
+ 
+* glej podrobnosti pod poglavjem, kjer so opisani posebni atributi 
+ 
+ 
+ 
+ 
+
+ 
+Stran 8 
+Podatki o opuščenih objektih – atribut »OPU« 
+Opuščeni objekti so objekti, ki so še vedno na svoji lokaciji, vendar ne opravljajo ve č funkcije. 
+V primeru vodovodnih sistemov se opuš čene cevi pogosto pusti na lokaciji. Podatek o 
+opuščenih objektih je pomemben, saj v primeru gradbenega posega na javnem zemljiš ču 
+investitorji pogosto naletijo na infrastrukturo, ki jo nobeden od lastnikov ne prepozna za 
+svojo. Da bi se izognili tovrstnim situacijam, je podatek o opuš čenih infrastrukturnih objektih 
+zelo pomemben (atribut OPU). 
+ 
+Podatki o dimenziji objekta - atribut »DIM_YX« 
+Zunanja dimenzija objekta (npr. komunalnega voda) izražena v metrih je osnovni podatek, ki 
+opredeljuje zasedenost prostora. Upravljavci v svojih zbirkah podatkov obi čajno vodijo 
+podatek v obliki nazivnega premera (DIN standardi) ali notranjega premera cevi, zaradi 
+potrebe po hidravli čnem modeliranju. Glede na to, da imajo cevi iz razli čnih materialov z 
+enakim notranjim premerom lahko zelo različne zunanje premere, ki običajno niso zavedeni v 
+podatkovnih zbirkah upravljavcev, se to polje izpolni tako, da se zunanja dimenzija tudi 
+strokovno oceni glede na notranjo dimenzijo voda. 
+ 
+Vsi navedeni atributi so obvezni v kolikor je za dolo čeno vrsto GJI tak atribut predpisan. 
+Vrednosti navedenih atributov se za vsak posamezen objekt zapišejo v svojo vrstico v 
+predpisanem formatu po zaporedju, ki ga ozna čujejo zaporedne številke (kolona zap. št.) v 
+tabeli.   
+ 
+Struktura te izmenjevalne datoteke je fiksna in velja za vse tipe topološke oblike objektov 
+(točkovni, linijski in poligonski). Posebnost je le v na činu zapisa podatka o višini pri linijskih in 
+poligonskih objektih, v teh primerih se vrednost pri atributu Z pusti prazno in se podatke o 
+višinah vpiše v posebno izmenjevalno datoteko višinskih točk. 
+ 
+ 
+ 
+2.1 ŠIFRANTI 
+ 
+V nadaljevanju so podani šifranti pripadajo či formatom izmenjevalnih datotek elaborata 
+sprememb oziroma šifriranih zapisov v bazi zbirnega katastra GJI. 
+ 
+2.1.1 ŠIFRANT VRSTE OBJEKTOV GJI 
+ 
+SLOJ VRSTA OBJEKTA OPIS VRSTE OBJEKTA 
+ŠIFRA VRSTE 
+OBJEKTA 
+/SIF_VRSTE/ 
+PROMETNA 
+INFRASTRUKTURA 
+  1000 
+Ceste*   1100 
+ Cesta (os ceste) Pododsek ceste je najmanjša enota ceste 
+(avtoceste, hitre ceste, glavne ceste, regionalne 
+ceste, lokalne ceste, javne poti, gozdne ceste), za 
+katero lastnik vodi podatke.  
+1101 
+ Objekt cestne 
+infrastrukture 
+Objekti so most, nadvoz, podvoz, železnica, če je 
+na nadvozu, viadukt, predor, galerija.  
+1102 
+ Drugi objekti cestne 
+infrastrukture 
+ 1199 
+Železnice*   1200 
+ Železniška proga Glavne, regionalne železniške proge ter 
+industrijski tiri. 
+1201 
+
+ 
+Stran 9 
+SLOJ VRSTA OBJEKTA OPIS VRSTE OBJEKTA 
+ŠIFRA VRSTE 
+OBJEKTA 
+/SIF_VRSTE/ 
+ Potniški peron Potniški peron je  objekt, ki je zgrajen v sklopu 
+železniške postaje.  
+1202 
+ Ranžirna postaja Ranžirna postaja je mesto, kjer se sestavljajo 
+vlaki in razporejajo lokomotive po razli čnih tirih in 
+v različne smeri. 
+1203 
+ Grajeni objekt K grajenim objektom se uvrš ča most, prepust, 
+nadhod, podhod, predor, objekt za zaščito. 
+1204 
+ Signalno-varnostna 
+naprava 
+So naprave namenjene varnosti v železniškem 
+prometu. 
+1205 
+ Drugi objekti železniške 
+infrastrukture 
+ 1299 
+Letališča*   1300 
+ Obmo čje letališča Evidentira se obmo čje letališ ča, ki je v ve čini 
+primerov ograjeno (npr. ograja). Objekti znotraj 
+tega obmo čja se prav tako evidentirajo, vrsta pa 
+se določi po šifrantu vrst. 
+1301 
+ Vzletno pristajalne in 
+vozne steze 
+Vzletno pristajalne in vozne steze. 1302 
+ Letališke ploš čadi Letališke ploš čadi. 1303 
+ Objekti, naprave in 
+sistemi navigacijskih 
+služb 
+Objekti, naprave in sistem i navigacijskih služb so 
+objekti namenjeni varnosti v letalskem prometu. 
+1304 
+ Drugi objekti letališke 
+infrastrukture 
+ 1399 
+Pristanišča*   1400 
+ Obmo čje pristanišča Evidentira se obmo čje pristaniš ča, ki je v ve čini 
+primerov ograjeno (npr. ograja). Objekti znotraj 
+tega obmo čja se prav tako evidentirajo, vrsta pa 
+se določi po šifrantu vrst. 
+1401 
+ Svetilnik Svetilnik je naprav a, ki z oddajanjem svetlobnih 
+signalov omogo ča ladjam orientacijo. Postavljeni 
+so v navigacijsko najpomembnejših orientacijskih 
+točkah ter na mestih nevarnosti. 
+1402 
+ Signalne in radijske 
+postaje 
+Signalne in radijske postaje so naprave 
+namenjene komunikaciji in varnosti.  
+1403 
+ Opti čne, zvočne, 
+električne, elektronske, 
+radarske in druge 
+naprave 
+Optične, zvočne, električne, elektronske, radarske 
+in druge naprave so naprave, ki prav tako služijo 
+komunikaciji v pomorskem prometu.  
+1404 
+ Drugi objekti pristaniške 
+infrastrukture 
+ 1499 
+Žičnice*   1500 
+ Žičnica 
+ 
+Sem spadajo nihalne žičnice, krožne žičnice, 
+žičnice, ki pozimi delujejo kot vlečnice, vlečnice 
+ter ostale žičnice. Evidentira se os žičnice (linijski 
+objekti).  
+ 1501 
+ Drog žičnice  1502 
+ Drugi objekti žičniške 
+infrastrukture  
+ 
+1503 
+ENERGETSKA 
+INFRASTRUKTURA 
+  2000 
+Električna energija*   2100 
+ Prostozra čni daljnovod  Obsega objekt v celoti od odponskega portala 
+enega objekta, do odponskega portala drugega 
+objekta, vklju čno z odponsko izolatorsko verigo. 
+Del daljnovoda so tudi telekomunikacijski vodi v 
+strelovodni vrvi (OPGW) ter telekomunikacijski 
+vodi v faznem vodniku (OPPC). 
+2101 
+
+ 
+Stran 10 
+SLOJ VRSTA OBJEKTA OPIS VRSTE OBJEKTA 
+ŠIFRA VRSTE 
+OBJEKTA 
+/SIF_VRSTE/ 
+ Polizolirani daljnovod  Elektri čni vod v zraku praviloma nad 
+1kV napetosti z delno izoliranimi vodniki. 
+ 
+2102 
+ Kabelski daljnovod  Elektri čni vod v zraku praviloma nad 1kV 
+napetosti izveden z izoliranimi vodniki. 
+2103 
+ Kablovod (podzemni 
+kabelski vod) 
+Elektricni vod v zemlji izveden z izoliranimi 
+vodniki. 
+2104 
+ Signalni ali krmilni vod 
+(spremljevalni vod) 
+Vod za signalizacijo in krmiljenje sistema 2105 
+ Omrežje javne 
+razsvetljave 
+Objekti in naprave namenjeni javni razsvetljavi 
+javnih površin vseh kategorij cest, naselij… 
+(napajalni vod, krmilni vod).  
+2106 
+ Kogeneracija Tip obrata za proizvodnjo elektri čne energije s 
+pomočjo plinske in parne turbine. 
+2107 
+ Razdelilna 
+transformatorska postaja 
+  
+Skupina naprav, ki omogo ča transformacijo 
+napetosti in napajanje razdelilnega omrežja. 
+2108 
+ Razdelilna postaja 
+ 
+ 2109 
+ Steber ali drog 
+ 
+Enojni drog, A-drog, H-drog 2110 
+ Svetilo Vir razsvetljave, ki sl uži za osvetljevanje temnih 
+površin 
+2111 
+ Obmo čje objekta 
+električne energije 
+Evidentira se obmo čje kateregakoli objekta 
+električne energije, ki je ograjeno (npr. ograja) in 
+je s tem omejen dostop do tega obmo čja (npr. 
+elektrarna). Objekti znotraj tega obmo čja se prav 
+tako evidentirajo, vrsta pa se dolo či po šifrantu 
+vrst. 
+ 
+2112 
+ Transformatorska 
+postaja 
+ 
+Objekt v katerem se transformira napetost. 2113 
+ Drugi objekti elektro 
+energetske infrastrukture
+ 
+ 2199 
+Zemeljski plin*   2200 
+ Plinovod Objekti za daljinski prenos plina do uporabnika 
+(magistralni, regionalni; objekti višjega reda ter 
+objekti nižjega reda, ki jih imajo v upravljanju 
+distribucijska podjetja kot primarne, sekundarne, 
+priključne, ulične objekte). 
+2201 
+ Skladiš če Posoda ali prostor za skladiš čenje zemeljskega 
+plina. 
+2202 
+ Regulatorska postaja Je postroj, sestavljen iz vstopnega in izstopnega 
+cevovoda do lo čitvenih zapornih elementov in 
+opreme, ki se uporablja za regulacijo tlaka plina in 
+zaščito pred preseganjem nastavljenega tlaka 
+plina v nadzorovanem procesu. 
+2203 
+ Merilna postaja Je postroj, sestavljen iz vstopnega in izstopnega 
+cevovoda do lo čitvenih zapornih elementov in 
+opreme vgrajeno v ohišju postaje, ki se uporablja 
+za merjenje parametrov plina v nadzorovanem 
+procesu. 
+2204 
+ Merilno regulatorska 
+postaja 
+Objekt, postaja z napravami in opremo za 
+merjenje in regulacijo pretoka, tlaka in 
+temperature plina, tehnološko povezana s 
+plinovodom.  
+2205 
+ Mejna merilno 
+regulatorska postaja 
+ 2206 
+
+ 
+Stran 11 
+SLOJ VRSTA OBJEKTA OPIS VRSTE OBJEKTA 
+ŠIFRA VRSTE 
+OBJEKTA 
+/SIF_VRSTE/ 
+ Kompresorska postaja Je postroj, sestavljen iz vstopnega in izstopnega 
+cevovoda do lo čitvenih zapornih elementov in 
+opreme ter se uporablja za dvig tlaka plina v 
+nadzorovanem procesu. 
+2207 
+ Katodna zaš čita  Antikorozijska zaš čita vkopanih kovinskih 
+objektov. 
+2208 
+ Odorirna naprava Naprava, ki  z dodajanjem odorirnega sredstva 
+daje zemeljskemu plinu značilen vonj. 
+2209 
+ Zaporni elementi Naprava za zaprtje toka plina (Ventili, zasun, 
+krogelna pipa). 
+2210 
+ Odzra čevalna pipa Odzra čevalna pipa, sifon, »fajfa«, izpihovalna 
+pipa. 
+2211 
+ Vstopno izstopna čistilna 
+naprava 
+ 2212 
+ Izparilna naprava  2213 
+ Obmo čje objekta 
+plinovodnega omrežja 
+Evidentira se obmo čje kateregakoli objekta 
+plinovodnega omrežja, ki je ograjeno (npr. ograja) 
+in je s tem omejen dostop do tega obmo čja (npr. 
+merilno regulatorska posta ja ). Objekti znotraj 
+tega obmo čja se prav tako evidentirajo, vrsta pa 
+se določi po šifrantu vrst. 
+2214 
+ Drugi objekti 
+infrastrukture 
+zemeljskega plina 
+ 2299 
+Toplotna energija*   2300 
+ Toplovod Objekt namenjen za prenos toplotne energije po 
+toplovodnem sistemu (primarno, sekundarno, 
+priključni vod, lo čimo jih tudi po legi omrežja-
+podzemni ali nadzemni). Sistem je namenjen za 
+daljinski prenos ogrevanja. 
+2301 
+ Vro čevod Objekt namenjen za prenos po vro čevodnem 
+sistemu (primarno, sekundarno, priklju čni vod). 
+Sistem je namenjen za daljinsko oskrbovanje 
+uporabnikov z vročo vodo.  
+2302 
+ Parovod Objekt namenjen za prenos pare po sistemu 
+(primarno, sekundarno). Sistem se uporablja v 
+glavnem v industrijske namene. 
+2303 
+ Kineta Gradbeni objekt namenjen zaš čiti toplovodnega 
+omrežja pred atmosferskimi in mehanskimi vplivi. 
+Ločimo povozno in nepovozno kineto ali pohodno 
+in nepohodno. 
+2304 
+ Kotlovnica oz. vir 
+toplotne energije 
+So naprave, ki spreminjajo primarno energijo 
+goriv v toplotno. 
+2305 
+ Toplotna postaja So naprav e, kjer toplota iz vro čevodnega sistema 
+preko toplotnega izmenjevalnika ogreva 
+toplovodni sistem. 
+2306 
+ Jašek Gradbeni objekt za potrebe vzdrževanja in 
+upravljanja. 
+2307 
+ Kolektor  2308 
+ Obmo čje objekta 
+toplotne energije 
+Evidentira se obmo čje kateregakoli objekta 
+toplotne energije, ki je ograjeno (npr. ograja) in je 
+s tem omejen dostop do tega obmo čja (npr. 
+kotlovnica). Objekti znotraj tega obmo čja se prav 
+tako evidentirajo, vrsta pa se dolo či po šifrantu 
+vrst. 
+2309 
+ Drugi objekti 
+infrastrukture toplotne 
+energije 
+ 2399 
+Nafta in naftni 
+derivati* 
+  2400 
+
+ 
+Stran 12 
+SLOJ VRSTA OBJEKTA OPIS VRSTE OBJEKTA 
+ŠIFRA VRSTE 
+OBJEKTA 
+/SIF_VRSTE/ 
+ Naftovod Naftovodi so med seboj spojeno zaporedje cevi 
+za transport nafte in tekočih goriv. 
+2401 
+ Zaporni element 
+naftovoda 
+ 2402 
+ Pokrov jaška  2403 
+ Katodna zaš čita  2404 
+ Skladiš če Skladiš če so objekti za shranjevanje nafte in 
+tekočih goriv. 
+2405 
+ Rezervoar Rezervoar je posoda za uskladiš čevanje nafte in 
+tekočih goriv. 
+2406 
+ Črpališče  2407 
+ Pretakališ če  2408 
+ Obmo čje objekta 
+naftovodnega omrežja 
+Evidentira se obmo čje kateregakoli objekta 
+naftovodnega omrežja, ki je ograjeno (npr. ograja) 
+in je s tem omejen dostop do tega obmo čja (npr. 
+skladišče). Objekti znotraj tega obmo čja se prav 
+tako evidentirajo, vrsta pa se dolo či po šifrantu 
+vrst. 
+2409 
+ Drugi objekti naftne 
+infrastrukture 
+ 2499 
+KOMUNALNA 
+INFRASTRUKTURA 
+  3000 
+Vodovod**   3100 
+ Vodooskrbna cev  Vodooskrbna cev vklju čuje vse vode, ki so v 
+funkciji vodooskrbe. 
+3101 
+ Vodohran Objekt za hranjenje vode. V primeru vodohrana s 
+prečrpalno postajo se evidentira posebej 
+vodohran in črpališče. 
+3102 
+ Črpališče Objekt v katerem so nameš čene črpalne  
+naprave namenjene črpanju vode (pre črpališče). 
+V primeru vodohrana s pre črpalno postajo se 
+evidentira posebej vodohran in črpališče. 
+3103 
+ Razbremenilnik Naprava za zmanjšanje vodnega tlaka v  
+dovodnih ceveh. 
+3104 
+ Jašek Navpi čen cevast prostor za dostop do 
+vodooskrbnega omrežja pod površjem, ki je 
+največkrat pokrit s pokrovom. 
+3105 
+ Oprema Pod opremo spadajo manjši objekti na 
+vodooskrbnem omrežju kot so hidrant, ventil, 
+zračnik, blatnik, regulacijski ventil in podobno. 
+3106 
+ Obmo čje objekta 
+vodooskrbnega omrežja 
+Evidentira se obmo čje kateregakoli objekta 
+vodooskrbnega omrežja, ki je ograjeno (npr. z 
+ograjo) in je s tem omejen dostop do tega 
+območja (npr. črpališče). Objekti znotraj tega 
+območja se prav tako evi dentirajo, vrsta pa se 
+določi po šifrantu vrst. 
+3107 
+ Čistilne naprave za 
+pripravo pitne vode 
+Naprave in objekte, s katerimi se vpliva na 
+kakovost pitne vode (kloriranje, razne filtracije, 
+ozoniranje idr.) 
+3108 
+ Zajetje Zajetje so vodnjaki (vrtani, kopani) in razli čna 
+zajetja površinskih in po dzemnih voda s katerimi 
+se v vodovodni sistem iz vodonosnika ali 
+vodotoka dovaja voda. 
+3109 
+
+ 
+Stran 13 
+SLOJ VRSTA OBJEKTA OPIS VRSTE OBJEKTA 
+ŠIFRA VRSTE 
+OBJEKTA 
+/SIF_VRSTE/ 
+ Objekt za bogatenje ali 
+aktivno zaščito 
+vodonosnika 
+Objekti za bogatenje vo dnega vira so objekti 
+zajetja, transporta in napajanja vodnega vira, ki 
+služijo bogatenju vodonosnika ali njegovi aktivni 
+zaščiti. 
+3110 
+ Drugi objekti vodovodne 
+infrastrukture 
+ 3199 
+Kanalizacija*   3200 
+ Kanalizacijski vodi Vsi vodi, ki so v funkciji odvajanja in čiščenja 
+fekalnih in meteornih odpadnih voda, vklju čno s 
+priključki ter odvodi meteorne kanalizacije od 
+požiralnikov in cestnih kanalov do odprtih kanalov 
+(kanalizacijska cev, kanalizacijski vod,..). 
+3201 
+ Črpališče Objekt v katerem so nameš čene črpalne  
+naprave namenjene črpanju odpadne vode. 
+3202 
+ Razbremenilnik Razbremenilniki so objekti s katerimi se v času 
+padavin iz kanalizacijskega sistema nadzorovano 
+odvajajo presežne vodne količine. 
+3203 
+ Čistilna naprava za 
+odpadno vodo 
+Čistilna naprava se evidentira kot območje čistilne 
+naprave (npr. območje ograje). Objekti znotraj nje 
+se prav tako evidentirajo, vrsta pa se dolo či po 
+šifrantu vrst.  
+3204 
+ Izpust iz 
+kanalizacijskega sistema 
+Izpust iz kanalizacijskega sistema, ki je v lasti 
+enega lastnika. Izpust je lahko v kanalizacijski 
+sistem drugega lastnika, v vodotok, podzemno 
+vodo ali na čistilno napravo. 
+3205 
+ Jašek Navpi čen cevast prostor za dostop do 
+kanalizacijskega omrežja pod površjem, ki je 
+največkrat pokrit s pokrovom. 
+3206 
+ Oprema Pod opremo spada vsa  oprema, ki je vgrajena 
+zunaj objektov, vpliva pa na rabo prostora - 
+zapornica, zračnik in podobno. 
+3207 
+ Obmo čje objekta 
+kanalizacijskega sistema 
+Evidentira se obmo čje kateregakoli objekta 
+kanalizacijskega sistema, ki je ograjeno (npr. z 
+ograjo) in je s tem omejen dostop do tega 
+območja (npr. črpališče). Objekti znotraj tega 
+območja se prav tako evi dentirajo, vrsta pa se 
+določi po šifrantu vrst.  
+3208 
+ Zadrževalnik Objekt, ki služi uravnavanju vodnih koli čin v 
+kanalizacijskem omrežju z namenom nižanja 
+konic pretokov. Nahaja se v okviru 
+kanalizacijskega omrežja, pogosto v povezavi z 
+razbremenilnikom ali pred vstopom v 
+kanalizacijski sistem. 
+3209 
+ Drugi objekti 
+kanalizacijske 
+infrastrukture 
+ 3299 
+Ravnanje z odpadki*   3300 
+ Odlagališ če Obmo čje odlagališ ča, ki je ograjeno (npr. z 
+ograjo) s čimer je omejen dostop do tega 
+območja. 
+3301 
+ Kompostarna Obmo čje kompostarne, ki je ograjeno (npr. z 
+ograjo) s čimer je omejen dostop do tega 
+območja. 
+3302 
+ Sežigalnica Obmo čje sežigalnice, ki je ograjeno (npr. z 
+ograjo) s čimer je omejen dostop do tega 
+območja. 
+3303 
+ Zbirni center Obmo čje sortiranega zbiranja odpadkov, ki je 
+ograjeno (npr. z ograjo) s čimer je omejen dostop 
+do tega območja. 
+3304 
+
+ 
+Stran 14 
+SLOJ VRSTA OBJEKTA OPIS VRSTE OBJEKTA 
+ŠIFRA VRSTE 
+OBJEKTA 
+/SIF_VRSTE/ 
+ Sortirnice Objekt ali naprava za sortiranje razli čnih vrst 
+odpadkov. 
+3305 
+ Bioplinarne Objekt z napravami za proizvajanje bioplina iz 
+odpadnih organskih snovi. 
+3306 
+ Naprave za mehansko-
+biološko obdelavo 
+odpadkov 
+Naprave za mehansko in biološko obdelavo 
+odpadkov. 
+3307 
+ Naprave za termi čno 
+obdelavo odpadkov 
+Naprave za termično obdelavo odpadkov 3308 
+ Obmo čje objekta 
+ravnanja z odpadki 
+Evidentira se obmo čje kateregakoli objekta 
+ravnanja z odpadki, ki je ograjeno (npr. ograja) in 
+je s tem omejen dostop do tega obmo čja (npr. 
+sežigalnica). Objekti znotraj tega obmo čja se prav 
+tako evidentirajo, vrsta pa se dolo či po šifrantu 
+vrst. 
+3309 
+ Zbiralnice lo čenih frakcij Obmo čje ločenih odpadnih frakcij, kjer se zbirajo 
+določena vrste odpadkov, ki so ločeno zbrani in 
+pripravljeni za odvoz na enem mestu. 
+ 
+3310 
+ Zbiralnice nevarnih 
+frakcij 
+Območje zbiralnice nevarnih frakcij, kjer se 
+zbirajo okolju nevarni odpadki. 
+ 
+3311 
+ Drugi objekti za ravnanje 
+z odpadki 
+ 3399 
+ Zelene površine   3400 
+  Zelene površine Opomba: Do podrobnejše delitve zelenih površin 
+s strani sektorja se le te v zbirnem katastru GJI ne 
+evidentirajo. 
+3400 
+VODNA 
+INFRASTUKTURA*
+* 
+ Opomba: Objekti vodne infrastrukture so 
+podrobneje določeni v Pravilniku o določitvi vodne 
+infrastrukture, kjer je dolo čena CC klasifikacija za 
+te objekte. Zato podrobnejša delitev v zbirnem 
+katastru GJI ni potrebna.  
+4000 
+INFRASTRUKTURA 
+ZA 
+GOSPODARJENJE 
+Z DRUGIMI 
+VRSTAMI 
+NARAVNEGA 
+BOGASTVA ALI 
+VARSTVA OKOLJA 
+  5000 
+ Rudniška infrastruktura Rudniški objekti, ki so namenjeni pri četkom 
+raziskav. 
+5001 
+ Objekti za opravljanje 
+monitoringa stanja okolja
+Merilna mesta z instrumentarijem za izvajanje 
+monitoringa drugih naravnih pojavov, stanja 
+okolja, onesnaževanja okolja /brez voda - 
+monitoring voda vklju čen v skupino vodne 
+infrastrukture/. 
+5002 
+ Drugi objekti 
+infrastrukture za 
+gospodarjenje z drugimi 
+vrstami naravnega 
+bogastva ali varstva 
+okolja 
+ 5099 
+DRUGA OMREŽJA 
+IN OBJEKTI V 
+JAVNI RABI 
+  6000 
+
+ 
+Stran 15 
+SLOJ VRSTA OBJEKTA OPIS VRSTE OBJEKTA 
+ŠIFRA VRSTE 
+OBJEKTA 
+/SIF_VRSTE/ 
+Elektronske 
+komunikacije** 
+  6100 
+ Telekomunikacijski vod Telekomunikacijski vod  je celotna podzemna ali 
+nadzemna povezava med dvema ali ve č točkami, 
+po kateri je možna enosmerna, dvosmerna ali 
+obojesmerna komunikacija. Telekomunikacijski 
+vod se smatra kot trasa enega ali ve č 
+telekomunikacijskih vodov. 
+6101 
+ Kabelska kanalizacija Kabelska kanalizacija je horizontalni gradbeni 
+inženirski objekt, sestavljen iz kanalov, cevi in 
+podobnega, ki omogoča postavitev in vzdrževanje 
+telekomunikacijskih vodov. 
+6102 
+ Antenski stolp Antenski stolp je gradbeni inženirski objekt, na 
+katerega je pritrjena ena ali ve č anten s 
+pripadajočo ozemljilno opremo. 
+6103 
+ Objekt bazne postaje Je prostor, v katerem je nameš čena vsa 
+pripadajoča oprema bazne postaje. Kot 
+samostojen objekt je to največkrat zabojnik.  
+6104 
+ Radijska postaja Radijska postaja je eden ali ve č oddajnikov ali 
+sprejemnikov ali kombinacija oddajnikov in 
+sprejemnikov, vklju čno s potrebno opremo, ki so 
+potrebni na enem fiksnem mestu za izvajanje 
+radiokomunikacijske storitve. 
+6105 
+ Antena Antena je naprava, ki služi izsevanju 
+radiofrekvenčnega signala, opremljenega z 
+informacijo, v odprt prostor oziroma sprejemu 
+takšnega signala in je pritrjena na stavbo ali 
+gradbeni inženirski objekt. 
+6106 
+ Jašek Jašek je vertikalni gr adbeni inženirski objekt, ki 
+omogoča dostop do telekomunikacijskih vodov v 
+kabelski kanalizaciji. 
+6107 
+ Javna 
+telekomunikacijska 
+terminalska naprava 
+Javne telekomunikacijske terminalske naprave so 
+javne telefonske govorilnice in druga 
+telekomunikacijska terminalska oprema, 
+nameščena na javnosti dostopnih površinah. 
+6108 
+ Obmo čje objektov 
+elektronskih komunikacij 
+Evidentira se obmo čje kateregakoli objekta 
+elektronskih komunikacij, ki je ograjeno (npr. z 
+ograjo) in je s tem omejen dostop do tega 
+območja (npr. antena). Objekti znotraj tega 
+območja se prav tako evi dentirajo, vrsta pa se 
+določi po šifrantu vrst. 
+6109 
+ Drugi objekti elektronskih 
+komunikacij 
+Drugi objekti za potrebe elektronskih komunikacij, 
+kot so na primer komutacijski centri, 
+telekomunikacijske razdelilne omarica, oja čevalna 
+mesta telekomunikacijskih vodov, objekti za 
+namestitev naprav in druge podobne naprave in 
+oprema. 
+6199 
+* Objekte je določila GU v sodelovanju s pristojnim sektorjem 
+** Objekte je določil sektor in za njih že sprejel podzakonski predpis  
+ 
+Opomba: Delitev slojev na objekte je na zelo razli čnih nivojih, saj so na nekaterih podro čjih sektorji že predlagali 
+nabor objektov na drugih pa še ne. Seznam objektov se  bo z »življenjskim ciklom« zbirnega katastra GJI tudi 
+spreminjal. Trenutno za določene objekte ni natančnejše definicije, saj jo bo v prihodnje podal sektor.   
+ 
+2.1.2 ŠIFRANT TIPA SPREMEMBE 
+VREDNOST 
+ATRIBUTA: TIP_SPR POMEN 
+N  ni spremembe 
+
+ 
+Stran 16 
+D  objekt je dodan 
+B objekt je brisan 
+A  objektu so se spremenili samo atributni podatki 
+S  objektu so se spremenili lokacij ski in lahko tudi atributni podatki 
+ 
+2.1.3 ŠIFRANT TOPOLOŠKE OBLIKE 
+VREDNOST 
+ATRIBUTA: TOPO POMEN 
+1   to čka 
+2   linija 
+3   poligon 
+ 
+2.1.4 ŠIFRANT POLOŽAJNE NATAN ČNOSTI 
+VREDNOST 
+ATRIBUTA: NAT_YX POMEN 
+1 0,1m in manj 
+2 od 0,1m do 1m 
+3 od vklju čno 1m do 5m 
+4 od vklju čno 5m do 10m 
+5 od vklju čno 10m do vključno 20m 
+6 nad 20m 
+ 
+2.1.5 ŠIFRANT VIŠINSKE NATAN ČNOSTI 
+VREDNOST 
+ATRIBUTA: NAT_Z POMEN 
+1 0,1m in manj 
+2 od 0,1m do 0,5m 
+3 od vklju čno 0,5m do vključno 1m 
+4 ve č kot 1m 
+ 
+2.1.6 ŠIFRANT STATUSA GJI 
+VREDNOST 
+ATRIBUTA: GJI POMEN 
+1 gospodarska javna infrastruktura 
+2 druga infrastruktura 
+ 
+2.1.7 ŠIFRANT VIRA 
+VREDNOST 
+ATRIBUTA: VIR POMEN 
+1 geodetska izmera  
+2 geodetska izmera po zasutju 
+3 analogni geodetski na črt merila 1 : 500 
+4 analogni geodetski na črt merila 1 : 1000 
+5 analogni geodetski na črt merila 1 : 2880 
+6 analogni geodetski na črt merila 1 : 5000 
+7 analogni geodetski na črt merila 1 : 10.000 ali manj 
+8 PGD,PZI projekti 
+9 fotogrametri čni zajem s pomočjo stereoparov (CAS, PAS)  
+
+ 
+Stran 17 
+10 DOF5 
+11 GPS 
+12 kartografske podlage merila 1 : 25.000 ali manj 
+99 drugo 
+ 
+2.1.8 ŠIFRANT OPUŠ ČENOSTI 
+VREDNOST 
+ATRIBUTA: OPU POMEN 
+1 neopuš čeni objekt 
+2 opuš čeni objekt 
+ 
+ 
+ 
+ 
+2.2 TABELA POSEBNIH ATRIBUTOV PO VRSTI OBJEKTOV GJI 
+ 
+Tabela posebnih atributov podaja pomen atributov, ki se glede na vrsto objekta vpisujejo na 
+mesta posebnih atributov: 
+ 
+2.2.1 PREGLEDNICA POSEBNIH ATRIBUTOV PO VRSTI OBJEKTOV GJI 
+ 
+SLOJ VRSTA OBJEKTA 
+ŠIFRA 
+VRSTE 
+OBJEKTA 
+ATR1 ATR2 ATR3 ATR4 ATR5 OPIS 
+PROMETNA 
+INFRASTRUKTURA   1000       
+Ceste   1100       
+  Cesta (os ceste) 1101 da da* da* da  da 
+  Objekt cestne infrastrukture 1102 da da  da  da 
+ Drugi objekti cestne infrastrukture 1199      da 
+Železnice   1200       
+  Železniška proga 1201 da da  da  da 
+  Potniški peron 1202      da 
+  Ranžirna postaja 1203      da 
+  Grajeni objekt 1204 da     da 
+  Signalno-varnostna naprava 1205 da     da 
+ Drugi objekti železniške 
+infrastrukture 1299      da 
+Letališča   1300       
+ Obmo čje letališča 1301      da 
+  Vzletno pristajalne in vozne steze 1302      da 
+  Letališke ploš čadi 1303      da 
+  Objekti, naprave in sistemi 
+navigacijskih služb 1304      da 
+ Drugi objekti letališke 
+infrastrukture 1399      da 
+Pristanišča   1400       
+ Območje pristanišča 1401      da 
+  Svetilnik 1402      da 
+  Signalne in radijske postaje 1403      da 
+  
+Optične, zvo čne, elektri čne, 
+elektronske, radarske in druge 
+naprave 
+1404      da 
+ Drugi objekti pristaniške 
+infrastrukture 1499      da 
+Žičnice  1500       
+
+ 
+Stran 18 
+SLOJ VRSTA OBJEKTA 
+ŠIFRA 
+VRSTE 
+OBJEKTA 
+ATR1 ATR2 ATR3 ATR4 ATR5 OPIS 
+ Žičnica 1501 da     da 
+ Drog žičnice 1502      d a  
+ Drugi objekti ži čniške 
+infrastrukture  1599      d a  
+ENERGETSKA 
+INFRASTRUKTURA   2000       
+Električna energija   2100       
+  Prostozra čni daljnovod  2101 da da    da 
+  Polizolirani daljnovod  2102 da da    da 
+  Kabelski daljnovod  2103 da da    da 
+  Kablovod (podzemni kabelski 
+vod) 2104 da da    da 
+  Signalni ali krmilni vod 
+(spremljevalni vod) 2105      da 
+  Omrežje javne razsvetljave 2106      da 
+  Kogeneracija 2107 da     da 
+  Razdelilna transformatorska 
+postaja  2108 da     da 
+  Razdelilna postaja 2109 da     da 
+  Steber ali drog 2110      da 
+  Svetilo 2111      da 
+ Območje objekta elektro 
+energetske infrastrukture 2112 da     da 
+ Transformatorska postaja 2113 da     da 
+  Drugi objekti elektro energetske 
+infrastrukture 2199      da 
+Zemeljski plin  2200       
+ Plinovod 2201 da da da da da da 
+ Skladiš če 2202 da da    da 
+ Regulatorska postaja 2203 da da    da 
+ Merilna postaja 2204 da da    da 
+ Merilno regulatorska postaja 2205 da da    da 
+ Mejna merilno regulatorska 
+postaja 2206 da da    da 
+ Kompresorska postaja 2207 da da    da 
+ Katodna zaš čita  2208      da 
+ Odorirna naprava 2209 da da    da 
+ Zaporni elementi 2210      da 
+ Odzra čevalna pipa 2211      da 
+ Vstopno izstopna čistilna naprava 2212 da da    da 
+ Izparilna naprava 2213 da da    da 
+ Območje objekta plinovodnega 
+omrežja 2214      da 
+ Drugi objekti infrastrukture 
+zemeljskega plina 2299      da 
+Toplotna energija   2300       
+ Toplovod 2301 da da da   da 
+ Vro čevod 2302 da da da   da 
+ Parovod 2303 da da da   da 
+ Kineta 2304      da 
+ Kotlovnica oz. vir toplotne 
+energije 2305      da 
+ Toplotna postaja 2306      da 
+ Jašek 2307      da 
+ Kolektor 2308      da 
+ Območje objekta toplotne 
+energije 2309      da 
+ Drugi objekti infrastrukture 
+toplotne energije 2399       
+Nafta in naftni derivati  2400       
+ Naftovod 2401 da    da da 
+
+ 
+Stran 19 
+SLOJ VRSTA OBJEKTA 
+ŠIFRA 
+VRSTE 
+OBJEKTA 
+ATR1 ATR2 ATR3 ATR4 ATR5 OPIS 
+ Zaporni element naftovoda 2402      da 
+ Pokrov jaška 2403      da 
+ Katodna zaš čita 2404      da 
+ Skladiš če 2405      da 
+ Rezervoar 2406      da 
+ Črpališče 2407      da 
+ Pretakališ če 2408      da 
+ Območje objekta naftovodnega 
+omrežja 2409      da 
+ Drugi objekti infrastrukture 
+toplotne energije 2499      da 
+KOMUNALNA 
+INFRASTRUKTURA   3000       
+Vodovod   3100       
+  Vodooskrbna cev  3101 da  da da da da 
+ Vodohran 3102   da  da da 
+ Črpališče 3103   da  da da 
+ Razbremenilnik 3104   da  da da 
+ Jašek 3105     da da 
+ Oprema 3106     da da 
+ Območje objekta vodooskrbnega 
+omrežja 3107     da da 
+ Čistilne naprave za pripravo pitne 
+vode 3108   da  da da 
+ Zajetje 3109   da  da da 
+ Objekt za bogatenje ali aktivno 
+zaščito vodonosnika 3110   da  da da 
+ Drugi objekti vodovodne 
+infrastrukture 3199     da da 
+Kanalizacija  3200       
+ Kanalizacijski vodi 3201 da da da da da da 
+ Črpališče 3202    da da da 
+ Razbremenilnik 3203    da da da 
+ Čistilna naprava za odpadno 
+vodo 3204   da da da da 
+ Izpust iz kanalizacijskega sistema 3205    da da da 
+ Jašek 3206     da da 
+ Oprema 3207     da da 
+ Območje objekta kanalizacijskega 
+sistema 3208     da da 
+ Zadrževalnik 3209     da da 
+ Drugi objekti kanalizacijske 
+infrastrukture 3299     da da 
+Ravnanje z odpadki  3300       
+ Odlagališ če 3301 da     da 
+ Kompostarna 3302      da 
+ Sežigalnica 3303      da 
+ Zbiralni center 3304      da 
+ Sortirnice 3305      da 
+ Bioplinarne 3306      da 
+ Naprave za mehansko-biološko 
+obdelavo odpadkov 3307      da 
+ Naprave za termi čno obdelavo 
+odpadkov 3308      da 
+ Območje objekta ravnanja z 
+odpadki 3309      da 
+ Zbiralnice lo čenih frakcij 3310      da 
+ Zbiralnice nevarnih frakcij 3311      da 
+ Drugi objekti za ravnanje z 
+odpadki 3399      da 
+Zelene površine  3400      d a  
+VODNA 
+INFRASTUKTURA  4000      d a  
+INFRASTRUKTURA ZA  5000       
+
+ 
+Stran 20 
+SLOJ VRSTA OBJEKTA 
+ŠIFRA 
+VRSTE 
+OBJEKTA 
+ATR1 ATR2 ATR3 ATR4 ATR5 OPIS 
+GOSPODARJENJE Z 
+DRUGIMI VRSTAMI 
+NARAVNEGA 
+BOGASTVA ALI 
+VARSTVA OKOLJA 
+ Rudniška infrastruktura 5001      da 
+ Objekti za opravljanje monitoringa 
+stanja okolja 5002      da 
+ 
+Drugi objekti infrastrukture za 
+gospodarjenje z drugimi vrstami 
+naravnega bogastva ali varstva 
+okolja 
+      d a  
+DRUGA OMREŽJA IN 
+OBJEKTI V JAVNI RABI  6000       
+Elektronske komunikacije  6100       
+ Telekomunikacijski vod 6101 da da    da 
+ Kabelska kanalizacija 6102  da    da 
+ Antenski stolp 6103  da    da 
+ Objekt bazne postaje 6104  da    da 
+ Radijska postaja 6105  da    da 
+ Antena 6106  da    da 
+ Jašek 6107  da    da 
+ Javna telekomunikacijska 
+terminalska naprava 6108  da    da 
+ Območje objektov elektronskih 
+komunikacij 6109  da    da 
+ Drugi objekti elektronskih 
+komunikacij 6199  da    da 
+* Atribut je potrebno izpolniti samo za državne ceste 
+ 
+Opomba: Atribut OPIS je lahko zapolnjen  pri vseh objektih, ni pa obvezen.  
+ 
+ 
+ 
+2.2.2 ŠIFRANTI POSEBNIH ATRIBUTOV 
+ 
+PROMETNA INFRASTRUKTURA CESTE 
+ 
+Objekti 
+ŠIFRA VRSTE 
+OBJEKTA 
+IM E VRSTE  
+OBJEKTA 
+POSEBNOSTI GRAFIČNEGA IN ATRIBUTNEGA PODAJANJA 
+OBJEKTA 
+1101 Cesta  
+(os ceste) 
+ Osi cest se vedno prikazujejo linijsko ne glede na kategorijo 
+ceste 
+ Dodatni atributi so: OPU, ATR1 , ATR2 (samo za državne ceste), 
+ATR3 (samo za državne ceste),  ATR4 
+1102 Objekt cestne 
+infrastrukture 
+• Med objekte cestne infrastrukture uvrš čamo objekte kot so most, 
+nadvoz, podvoz, železnica, če je na nadvozu, predor, galerija.. 
+Vsi navedeni objekti se prikazujejo linijsko, pri nekaterih drugih 
+objektih pa je možen tudi točkovni ali poligonski prikaz 
+• Dodatni atributi so: OPU, ATR1, ATR2, ATR4 
+1199 Drugi objekti 
+cestne 
+infrastrukture 
+• Objekti, ki ne spadajo med zgoraj navede objekte. Prikazujejo se 
+linijsko, točkovno ali poligonsko (odvisno od površine in oblike) 
+• Dodatni atributi so: OPU 
+Objekte je določila GU v sodelovanju s pristojnim sektorjem 
+ 
+Atributi 
+ATRIBUT OBJEKT OPIS ATRIBUTA 
+1101: Cesta (os ceste) ATR1 
+1102: Objekt cestne infrastrukture Kategorija ceste 
+ATR2 1101: Cesta (os ceste) Tip st acionaže (samo za državne ceste) 
+
+ 
+Stran 21 
+1102: Objekt cestne infrastrukture Vrsta objekta 
+ATR3 1101: Cesta (os ceste) Za četna stacionaža (samo za državne 
+ceste) 
+1101: Ceste Šifra odseka ATR4 
+1102: Objekt cestne infrastrukture Šifra objekta iz BCP 
+ 
+ 
+Šifranti 
+ 
+ATR1 - ŠIFRANT KATEGORIJE CESTE 
+VREDNOST 
+ATRIBUTA:ATR1 
+POMEN 
+1 avtocesta 
+2 hitra cesta 
+3 glavna cesta I. reda 
+4 glavna cesta II. reda 
+5 regionalna cesta I. reda 
+6 regionalna cesta II. reda 
+7 regionalna ce sta III. reda 
+8 turisti čna cesta 
+9 lokalna cesta 
+10 javna pot 
+11 glavna mestna cesta 
+12 zbirna mestna ali krajevna cesta 
+13 mestna ali krajevna cesta 
+14 daljinska kolesarska pot 
+15 glavna kolesarska pot 
+16 javna pot za kolesarje 
+17 gozdna cesta 
+18 nekategorizirana cesta 
+ATR2 - ŠIFRANT TIPA STACIONAŽE – (samo za državne ceste) 
+VREDNOST 
+ATRIBUTA: ATR2 POMEN 
+1 stacionaža upravnega tipa 
+2 dodatna stacionaža 
+3 navidezna stacionaža 
+ATR2 -  ŠIFRANT VRSTE OBJETOV CESTNE INFRASTUKTURE 
+VREDNOST 
+ATRIBUTA: ATR2 POMEN 
+1 most 
+2 nadvoz 
+3 podvoz 
+4 železnica, če je na nadvozu 
+5 viadukt 
+6 predor, galerija  
+ 
+ 
+ 
+PROMETNA INFRASTRUKTURA ŽELEZNICE 
+ 
+Objekti 
+  
+ŠIFRA VRSTE IME VRST E POSEBNOSTI GRAFI ČNEGA IN ATRIBUTNEGA PODAJANJA 
+
+ 
+Stran 22 
+OBJEKTA OBJEKTA OBJEKTA 
+1201 Železniška proga • Železniške proge se prikazujejo linijsko 
+• Dodatni atributi so: DIM_ YX, OPU, ATR1, ATR2, ATR4 
+1202 Potniški peron • Prikazuje se poligonsko  
+• Dodatni atributi so: DIM_Z, OPU 
+1203 Ranžirna postaja • Prikazuje se linijsko 
+• Dodatni atributi so: DIM_YX, OPU 
+1204 Grajeni objekt • Med grajene objekte uvrš čamo objekte kot so most, prepust, 
+nadhod, podhod, predor (vsi linijski prikaz), objekt za zaščito 
+(točkovni ali poligonski prikaz – odvisno od površine) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni), DIM_Z, 
+OPU, ATR1 
+1205 Signalno-
+varnostna 
+naprava 
+• Prikazuje se to čkovno 
+• Dodatni atributi so: DI M_YX, DIM_Z, OPU, ATR1 
+1299 Drugi objekti 
+železniške 
+infrastrukture 
+• Objekti, ki ne spadajo med zgoraj navede objekte. Prikazujejo se 
+linijsko, točkovno ali poligonsko (odvisno od površine in oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni ali linijski),  
+OPU 
+ 
+ 
+Atributi 
+ATRIBUT OBJEKT OPIS ATRIBUTA 
+1201: Železniška proga Elektrificiranost proge 
+1204: Železnice – grajeni objekti Tip grajenega objekta na železnici 
+ATR1 
+1205: Signalno-varnostna naprava Tip signalno-varnostne naprave 
+ATR2 1201: Železniška proga Kategorija proge 
+ATR4 1201: Železniška proga Številka proge 
+ 
+ 
+Šifranti 
+ATR1 - ŠIFRANT ELEKTRIFICIRANOSTI PROGE 
+VREDNOST 
+ATRIBUTA: ATR1 POMEN 
+1 diesel vlak 
+2 3 kW sistem elektrifikacije 
+3 15 kW sistem elektrifikacije 
+4 25 kW sistem elektrifikacije 
+99 elektrificirana drugo 
+ATR1 - ŠIFRANT TIPOV GRAJENIH OBJEKTOV ŽELEZNICE 
+VREDNOST 
+ATRIBUTA: ATR1 POMEN 
+1 most 
+2 prepust 
+3 nadhod 
+4 podhod 
+5 predor 
+6 objekti za zaščito 
+99 drugo 
+ATR1 - ŠIFRANT TIPOV SIGNALNO VARNOSTNIH NAPRAV 
+VREDNOST 
+ATRIBUTA: ATR1 POMEN 
+1 zapornica 
+2 andrejev križ 
+3 semafor 
+
+ 
+Stran 23 
+99 drugo 
+ATR2 - ŠIFRANT KATEGORIJE PROGE 
+VREDNOST 
+ATRIBUTA: ATR2 POMEN 
+1 glavna proga 
+2 regionalna proga 
+3 industrijski tir 
+4 postajni tir  
+ 
+ 
+ 
+PROMETNA INFRASTRUKTURA LETALIŠČA 
+ 
+Objekti 
+ŠIFRA VRSTE 
+OBJEKTA 
+IME VRSTE 
+OBJEKTA 
+POSEBNOSTI GRAFIČNEGA IN ATRIBUTNEGA PODAJANJA 
+OBJEKTA 
+1301 Obmo čje 
+letališča 
+• Prikazuje se poligonsko 
+• Dodatni atributi so: OPU 
+1302 Vzletno 
+pristajalne in 
+vozne steze 
+• Prikazujejo se linijsko ali poligonsko 
+• Dodatni atributi so: DIM_YX ( če je prikaz linijski), OPU 
+1303 Letališke 
+ploščadi 
+• Prikazujejo se poligonsko 
+• Dodatni atributi so: OPU 
+1304 Objekti, naprave 
+in sistemi 
+navigacijskih 
+služb 
+• Prikazujejo so linijsko, to čkovno ali poligonsko 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni ali linijski), 
+DIM_Z, OPU 
+ 
+1399 Drugi objekti 
+letališke 
+infrastrukture 
+• Objekti, ki ne spadajo med zgoraj navede objekte. Prikazujejo se 
+linijsko, točkovno ali poligonsko (odvisno od površine in oblike) 
+• Dodatni atributi so: DIM_XY ( če je prikaz to čkovni ali linijski), 
+OPU 
+ 
+ 
+Šifranti 
+Ni dodatnih šifrantov. 
+ 
+ 
+ 
+PROMETNA INFRASTRUKTURA PRISTANIŠČA 
+ 
+Objekti 
+ŠIFRA VRSTE 
+OBJEKTA 
+IME VRSTE 
+OBJEKTA 
+POSEBNOSTI GRAFIČNEGA IN ATRIBUTNEGA PODAJANJA 
+OBJEKTA 
+1401 Obmo čje 
+pristanišča 
+• Prikazuje se poligonsko 
+• Dodatni atributi so: OPU 
+1402 Svetilnik • Prikazujejo se to čkovno ali poligonsko (odvisno od površine) 
+• Dodatni atributi so: DIM_YX ( če je prikaz točkovni), DIM_Z, OPU 
+1403 Signalne in 
+radijske postaje 
+• Prikazujejo se linijsko, to čkovno ali poligonsko (odvisno od 
+površine in oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni ali linijski), 
+DIM_Z, OPU 
+1404 Opti čne, zvočne, 
+električne, 
+elektronske, 
+radarske in druge 
+naprave 
+• Prikazujejo se linijsko, to čkovno ali poligonsko (odvisno od 
+površine in oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni ali linijski), 
+DIM_Z, OPU 
+
+ 
+Stran 24 
+1499 Drugi objekti 
+pristaniške 
+infrastrukture 
+• Objekti, ki ne spadajo med zgoraj  navede objekte. Prikazujejo se 
+linijsko, točkovno ali poligonsko (odvisno od površine in oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni ali linijski), 
+OPU 
+ 
+ 
+Šifranti 
+Ni dodatnih šifrantov. 
+ 
+ 
+ 
+PROMETNA INFRASTRUKTURA ŽIČNICE 
+ 
+Objekti 
+ŠIFRA VRSTE 
+OBJEKTA 
+IME VRSTE 
+OBJEKTA 
+POSEBNOSTI GRAFIČNEGA IN ATRIBUTNEGA PODAJANJA 
+OBJEKTA 
+1501 Ži čnica 
+(os žičnice) 
+ Osi ži čnic se vedno prikazujejo linijsko ne glede na vrsto žičnice 
+ V atribut DIM_YX zapišemo širino ži čnice (razdaljo med vrvmi 
+oz. največji tlorisno dimenzijo, ki jo zaseda žičnica) 
+ Dodatni atributi so : DIM_YX, OPU, ATR1 
+1502 Drog ži čnice • Prikazujejo se to čkovno ali poligonsko (odvisno od površine) 
+• Dodatni atributi so: DIM_YX ( če je prikaz točkovni), DIM_Z, OPU 
+1599 Drugi objekti 
+žičniške 
+infrastrukture 
+• Objekti, ki ne spadajo med zgoraj  navede objekte. Prikazujejo se 
+linijsko, točkovno ali poligonsko (odvisno od površine in oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni ali linijski), 
+OPU 
+Objekte je določila GU v sodelovanju s pristojnim sektorjem 
+ 
+ 
+Atributi 
+ATRIBUT OBJEKT OPIS ATRIBUTA 
+ATR1 1500: ži čnica (os ceste) Tip ži čnice 
+ 
+ 
+Šifranti 
+ 
+ATR1 - ŠIFRANT TIPOV ŽIČNIC 
+VREDNOST 
+ATRIBUTA 
+KATEGORIJA 
+POMEN 
+1 nihalna žičnica 
+2 krožna žičnica 
+3 žičnica, ki pozimi deluje kot vlečnica 
+4 ostale žičnice  
+ 
+ 
+ 
+ 
+ 
+ 
+ENERGETSKA INFRASTRUKTURA ELEKTRIČNA ENERGIJA 
+ 
+Objekti 
+ŠIFRA VRSTE 
+OBJEKTA 
+IME VRSTE 
+OBJEKTA 
+POSEBNOSTI GRAFIČNEGA IN ATRIBUTNEGA PODAJANJA 
+OBJEKTA 
+2101 Prostozra čni 
+daljnovod  
+• Prikazuje se linijsko 
+• Dodatni atributi so: DIM_YX , DIM_Z, OPU, ATR1, ATR2 
+ 
+
+ 
+Stran 25 
+2102 Polizolirani 
+daljnovod  
+• Prikazuje se linijsko 
+• Dodatni atributi so: DIM_YX , DIM_Z, OPU, ATR1, ATR2 
+2103 Kabelski daljnovod  • Prikazuje se linijsko 
+ Dodatni atributi so: DIM_YX , DIM_Z, OPU, ATR1, ATR2 
+2104 Kablovod 
+(podzemni kabelski 
+vod) 
+ Prikazuje se linijsko 
+ Dodatni atributi so: DIM_YX , DIM_Z, OPU, ATR1, ATR2 
+ 
+2105 Signalni ali krmilni 
+vod (spremljevalni 
+vod) 
+ Prikazuje se linijsko 
+ Dodatni atributi so : DIM_YX, DIM_Z, OPU 
+ 
+2106 Omrežje javne 
+razsvetljave 
+ Prikazuje se linijsko 
+ Dodatni atributi so : DIM_YX, DIM_Z, OPU 
+2107 Kongregacija  Prikazujejo se linijsko, to čkovno ali poligonsko (odvisno od 
+površine in oblike) 
+ Dodatni atributi so: DIM_YX ( če je prikaz to čkovni ali linijski), 
+OPU, ATR1 
+2108 Razdelilna 
+transformatorska 
+postaja  
+ Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+ Dodatni atributi  so: DIM_YX ( če je prikaz to čkovni), DIM_Z 
+OPU, ATR1 
+2109 Razdelilna postaja  Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+ Dodatni atributi so: DIM_YX ( če je prikaz to čkovni), OPU, 
+ATR1 
+2110 Steber ali drog  Enojni drog, A-drog, H-drog 
+ Vedno se prikazuje to čkovno ali poligonsko (odvisno od 
+površine in oblike) 
+ Dodatni atributi so: DIM_YX ( če je prikaz to čkovni),, DIM_Z, 
+OPU 
+2111 Svetilo  Prikazuje se to čkovno 
+ Dodatni atributi so: DIM_YX,  DIM_Z, OPU 
+2112 Obmo čje objekta 
+električne energije 
+ Prikazuje se poligonsko 
+ Dodatni atributi so: OPU, ATR1 
+2113 Transformatorska 
+postaja 
+ Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+ Dodatni atributi so: DIM_YX ( če je prikaz to čkovni), DIM_Z, 
+OPU, ATR1 
+2199 Drugi objekti 
+elektro energ. 
+infrastrukture 
+• Objekti, ki ne spadajo med zgor aj navede objekte. Prikazujejo 
+se linijsko, to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+ Dodatni atributi so: DIM_YX ( če je prikaz to čkovni ali linijski), 
+OPU 
+ 
+ 
+Atributi 
+ATRIBUT ŠIFRA IN IME OBJEKT OPIS ATRIBUTA 
+2101: Prostozračni daljnovod 
+2102: Polizolirani daljnovod 
+2103: Kabelski daljnovod 
+2104: Podzemni kabelski vod 
+Število sistemov v posneti osi 
+2107: Kongregacija 
+2108: Razdelilna transformatorska postaja 
+2109: Razdelilna postaja 
+2113: Transformatorska postaja 
+Nazivna moč 
+ATR1 
+2112: Območje objekta elektro energetske 
+infrastrukture 
+Vrsta območja objekta elektro energetske 
+infrastrukture 
+2101: Prostozračni daljnovod 
+2102: Polizolirani daljnovod 
+2103: Kabelski daljnovod 
+ATR2 
+2104: Podzemni kabelski vod 
+Nazivna napetost 
+ 
+ 
+Šifranti 
+
+ 
+Stran 26 
+ATR1 - ŠIFRANT ŠTEVILA SISTEMOV  
+VREDNOST 
+ATRIBUTA: ATR1 POMEN 
+1 ena  
+2 dva 
+3 tri 
+4 štiri 
+5 pet 
+6 šest 
+ATR1 - ŠIFRANT NAZIVNE MOČI 
+VREDNOST 
+ATRIBUTA: ATR1 POMEN 
+1 do vključno 100 kVA 
+2 od 100 kVA do vključno 200 kVA 
+3 od 200kVA do vključno 300 kVA 
+4 od 300 kVA do vključno 400 kVA 
+5  nad 400 kVA do vključno 500 kVA 
+6 nad 500 kVA do vključno 600 kVA 
+7 nad 600 kVA do vključno 700 kVA 
+8 nad 700 kVA 
+ATR1 - ŠIFRANT VRSTE OBMOČJA OBJEKTA ELEKTRIČNE ENERGIJE 
+VREDNOST 
+ATRIBUTA: ATR1 POMEN 
+1 območje hidroelektrarne 
+2 območje termoelektrarne 
+3 območje nuklearne elektrarne 
+4 območje vetrne elektrarne 
+99 območje drugega objekta 
+ATR2 - ŠIFRANT NAZIVNIH NAPETOSTI ELEKTROVODOV  
+VREDNOST 
+ATRIBUTA: ATR2 POMEN 
+1 400 kV 
+2 220 kV 
+3 110 kV 
+4 35 kV 
+5 20 kV 
+6 10 kV 
+7 6 kV 
+8 0,4 kV   
+ 
+ 
+ 
+ 
+ENERGETSKA INFRASTRUKTURA ZEMELJSKI PLIN 
+ 
+Objekti 
+ŠIFRA VRSTE 
+OBJEKTA 
+IME VRSTE 
+OBJEKTA 
+POSEBNOSTI GRAFIČNEGA IN ATRIBUTNEGA PODAJANJA 
+OBJEKTA 
+2201 Plinovod • Prikazuje se linijsko 
+• Dodatni atributi so: DIM_YX, OPU, ATR1, ATR2, ATR3, ATR4, 
+
+ 
+Stran 27 
+ATR5 
+2202 Skladiš če • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi  so: DIM_YX ( če je prikaz to čkovni), OPU, ATR1, 
+ATR2 
+2203 Regulatorska 
+postaja 
+• Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi  so: DIM_YX ( če je prikaz to čkovni), OPU, ATR1, 
+ATR2 
+2204 Merilna postaja • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni) OPU, ATR1, 
+ATR2 
+2205 Merilno 
+regulatorska 
+postaja 
+• Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi  so: DIM_YX ( če je prikaz to čkovni), OPU, ATR1, 
+ATR2 
+2206 Mejna merilno 
+regulatorska 
+postaja 
+• Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi  so: DIM_YX ( če je prikaz to čkovni), OPU, ATR1, 
+ATR2 
+2207 Kompresorska 
+postaja 
+• Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi  so: DIM_YX ( če je prikaz to čkovni), OPU, ATR1, 
+ATR2 
+2208 Katodna zaš čita  • Prikazuje se linijsko ali to čkovno 
+• Dodatni atributi so: DIM_YX, OPU 
+2209 Odorirna naprava • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi  so: DIM_YX ( če je prikaz to čkovni), OPU, ATR1, 
+ATR2 
+2210 Zaporni elementi • Sem uvrš čamo ventile, zasune, krogelne pipe 
+• Prikazuje se to čkovno 
+• Dodatni atributi so: DIM_YX, OPU 
+2211 Odzra čevalna 
+pipa 
+• Sem uvrš čamo odzračevalno pipo, sifon, »fajfo«, izpihovalno 
+pipo 
+• Prikazuje se to čkovno 
+• Dodatni atributi so: DIM_YX, OPU 
+2212 Vstopno izstopna 
+čistilna naprava 
+• Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi  so: DIM_YX ( če je prikaz to čkovni), OPU, ATR1, 
+ATR2 
+2213 Izparilna naprava • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi  so: DIM_YX ( če je prikaz to čkovni), OPU, ATR1, 
+ATR2 
+2214 Obmo čje objekta 
+plinovodnega 
+omrežja 
+• Prikazuje se poligonsko 
+• Dodatni atributi so: OPU 
+2299 Drugi objekti 
+infrastrukture 
+zemeljskega 
+plina 
+• Objekti, ki ne spadajo med zgoraj  navede objekte. Prikazujejo se 
+linijsko, točkovno ali poligonsko (odvisno od površine in oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni ali linijski), 
+OPU 
+ 
+ 
+ 
+Atributi 
+ATRIBUT ŠIFRA IN IME OBJEKT OPIS ATRIBUTA 
+2201: Plinovod 
+2202: Skladišče plina 
+2203: Regulatorska postaja 
+ATR1 
+2204: Merilna postaja 
+Vrsta plina 
+
+ 
+Stran 28 
+2205: Merilna regulatorska postaja 
+2206: Mejna merilna regulatorska postaja 
+2207: Kompresorska postaja 
+2209: Odorirna naprava 
+2212: Vstopno iztopna čistilna naprava 
+2213: Izparilna naprava plina 
+2201: Plinovod Tip segmenta 
+2202: Skladišče plina 
+2203: Regulatorska postaja 
+2204: Merilna postaja 
+2205: Merilna regulatorska postaja 
+2206: Mejna merilna regulatorska postaja 
+2207: Kompresorska postaja 
+2209: Odorirna naprava 
+2212: Vstopno iztopna čistilna naprava 
+ATR2 
+2213: Izparilna naprava plina 
+Kapaciteta plinovodnega objekta 
+ATR3 2201: Plinovod Material plinovoda 
+ATR4 2201: Plinovod Nazivni premer plinovoda 
+ATR5 2201: Plinovod Maksimalni obratovalni čas (v barih) 
+ 
+ 
+Šifranti 
+ATR1 - ŠIFRANT VRSTE PLINA 
+VREDNOST 
+ATRIBUTA: ATR1 POMEN 
+1 zemeljski plin 
+2 utekočinjen naftni plin 
+ATR2 - ŠIFRANT TIPOV SEGMENTA PLINOVODA 
+VREDNOST 
+ATRIBUTA: ATR2 POMEN 
+1 omrežni plinovod 
+2 priključni plinovod 
+ATR2 - ŠIFRANT KAPACITETE PLINOVODNEGA OBJEKTA  
+VREDNOST 
+ATRIBUTA: ATR2 POMEN 
+1 do vključno 6000 m3/h 
+2 nad 6000 m3/h 
+ATR3 - ŠIFRANT MATERIALA PLINOVODA  
+VREDNOST 
+ATRIBUTA: ATR3 POMEN 
+1 polietilen visoke gostote (PE 80, PE 100,...) 
+2 jeklo 
+3 polivinilklorid 
+4 drugo 
+ 
+ATR4 - ŠIFRANT NAZIVNIH PREMEROV PLINOVODA  
+VREDNOST 
+ATRIBUTA: ATR4 POMEN 
+1 Do vključno DN 32 
+2 Od DN 32 do vključno DN 63 
+
+ 
+Stran 29 
+4 Od DN 90 do vključno DN 110 
+5 Od DN 110 do vključno DN 160 
+6 Od DN 160 do vključno DN 225 
+7 Od DN 225 do vključno DN 250 
+8 Od DN 250 do vključno DN 315 
+9 Nad DN 315  
+ 
+ 
+ 
+ENERGETSKA  INFRASTRUKTURA TOPLOTNA ENERGIJA 
+ 
+Objekti 
+ŠIFRA VRSTE 
+OBJEKTA 
+IME VRSTE 
+OBJEKTA 
+POSEBNOSTI GRAFIČNEGA IN ATRIBUTNEGA PODAJANJA 
+OBJEKTA 
+2301 Toplovod • Prikazuje se linijsko 
+• Dodatni atributi so: DIM_ YX, OPU, ATR1, ATR2, ATR3 
+2302 Vro čevod • Prikazuje se linijsko 
+• Dodatni atributi so: DIM_ YX, OPU, ATR1, ATR2, ATR3 
+2303 Parovod • Prikazuje se linijsko 
+• Dodatni atributi so: DIM_ YX, OPU, ATR1, ATR2, ATR3 
+2304 Kineta • Prikazuje se linijsko ali poligonsko  
+• Dodatni atributi so: DIM_YX ( če je prikaz linijski), OPU 
+2305 Kotlovnica oz. vir 
+toplotne energije 
+• Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz točkovni), OPU 
+2306 Toplotna postaja • Prikazuje se to čkovno ali poligonsko (odvisno od površine in  
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz točkovni), OPU 
+2307 Jašek • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkoven), DIM_Z, 
+OPU 
+2308 Kolektor • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz točkoven), OPU 
+2309 Obmo čje objekta 
+toplotne energije 
+• Prikazuje se poligonsko 
+• Dodatni atributi so: OPU 
+2399 Drugi objekti 
+infrastrukture 
+toplotne energije 
+• Objekti, ki ne spadajo med zgoraj  navede objekte. Prikazujejo se 
+linijsko, točkovno ali poligonsko (odvisno od površine in oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni ali linijski), 
+OPU 
+ 
+ 
+Atributi 
+ATRIBUT ŠIFRA IN IME OBJEKT OPIS ATRIBUTA 
+2301: Toplovod 
+2302: Vročevod 
+ATR1 
+2303: Parovod 
+Lega voda 
+2301: Toplovod 
+2302: Vročevod 
+ATR2 
+2303: Parovod 
+Nazivni premer voda 
+2301: Toplovod 
+2302: Vročevod 
+ATR3 
+2303: Parovod 
+Število pripadajočih cevi k posneti osi 
+ 
+ 
+Šifranti 
+
+ 
+Stran 30 
+ATR1 - ŠIFRANT LEGE VODA 
+VREDNOST 
+ATRIBUTA: ATR1 POMEN 
+1 v zemlji 
+2 v kineti 
+3 v kabelski kanalizaciji 
+4 prosto/vidno 
+5 v stavbi 
+ATR2 - ŠIFRANT NAZIVNIH PREMEROV VODA TOPLOTNE ENERGIJE 
+VREDNOST 
+ATRIBUTA: ATR2 POMEN 
+1 do vključno DN 25 
+2 od DN 25 do vključno DN 50 
+3 od DN 50 do vključno DN 80 
+4 od DN 80 do vključno DN 100 
+5 od DN 100 do vključno DN 125 
+6 od DN 125 do vključno DN 150 
+7 od DN 150 do vključno DN 200 
+8 od DN 200 do vključno DN 240 
+9 od DN 240 do vključno DN 300 
+10 Nad DN 300  
+ 
+ 
+ 
+ENERGETSKA INFRASTRUKTURA NAFTA IN NAFTNI DERIVATI 
+ 
+Objekti 
+ŠIFRA VRSTE 
+OBJEKTA 
+IME VRSTE 
+OBJEKTA 
+POSEBNOSTI GRAFIČNEGA IN ATRIBUTNEGA PODAJANJA 
+OBJEKTA 
+2401 Naftovod • Prikazuje se linijsko 
+• Dodatni atributi so: DI M_YX, OPU, ATR1, ATR5 
+2402 Zaporni element 
+naftovoda 
+• Prikazuje se to čkovno 
+• Dodatni atributi so: DIM_YX, OPU 
+2403 Pokrov jaška • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz točkovni), OPU 
+2404 Katodna zaš čita • Prikazuje se linijsko  
+• Dodatni atributi so: DIM_YX, OPU 
+2405 Skladiš če • Prikazuje se poligonsko 
+• Dodatni atributi so: OPU 
+2406 Rezervoar • Prikazuje se poligonsko 
+• Dodatni atributi so: OPU 
+2407 Črpališče • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz točkovni), OPU 
+2408 Pretakališ če • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz točkovni), OPU 
+2409 Obmo čje objekta 
+naftovodnega 
+omrežja 
+• Prikazuje se poligonsko 
+• Dodatni atributi so: OPU 
+2499 Drugi objekti 
+naftne 
+infrastrukture 
+• Objekti, ki ne spadajo med zgoraj  navede objekte. Prikazujejo se 
+linijsko, točkovno ali poligonsko (odvisno od površine in oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni ali linijski), 
+OPU 
+
+ 
+Stran 31 
+ 
+ 
+Atributi 
+ATRIBUT ŠIFRA IN IME OBJEKT OPIS ATRIBUTA 
+ATR1 2401: Naftovod Nazivni premer naftovoda 
+ATR5 2401: Naftovod Maksimalni obratovalni tlak (v barih) 
+ 
+ 
+Šifranti 
+ATR1 - ŠIFRANT NAZIVNIH PREMEROV NAFTOVODA 
+VREDNOST 
+ATRIBUTA: ATR4 POMEN 
+1 Do vključno DN 32 
+2 Od DN 32 do vključno DN 63 
+3 Od DN 63 do vključno DN 90 
+4 Od DN 90 do vključno DN 110 
+5 Od DN 110 do vključno DN 160 
+6 Od DN 160 do vključno DN 225 
+7 Od DN 225 do vključno DN 250 
+8 Od DN 250 do vključno DN 315 
+9 Nad DN 315  
+ 
+ 
+ 
+KOMUNALNA INFRASTRUKTURA VODOVOD 
+ 
+Objekti 
+ŠIFRA VRSTE 
+OBJEKTA 
+IME VRSTE 
+OBJEKTA 
+POSEBNOSTI GRAFIČNEGA IN ATRIBUTNEGA PODAJANJA 
+OBJEKTA 
+3101 Vodooskrbna cev  • Prikazuje se linijsko 
+• Dodatni atributi so: DIM_YX, OPU, ATR1, ATR3, ATR4, ATR5 
+3102 Vodohran • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni), DIM_Z, 
+OPU, ATR3, ATR5 
+3103 Črpališče • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni), DIM_Z, 
+OPU, ATR3, ATR5 
+3104 Razbremenilnik • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni), DIM_Z, 
+OPU, ATR3, ATR5 
+3105 Jašek • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni), DIM_Z, 
+OPU, ATR5 
+3106 Oprema • Sem uvrš čamo hidrant, ventil, zračnik, blatnik, regulacijski ventil 
+• Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni), DIM_Z, 
+OPU,  ATR5 
+3107 Obmo čje objekta 
+vodooskrbnega 
+omrežja 
+• Prikazuje se poligonsko 
+• Dodatni atributi so: OPU, ATR5 
+3108 Čistilne naprave 
+za pripravo pitne 
+vode 
+• Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+
+ 
+Stran 32 
+• Dodatni atributi so: DIM_YX ( če je prikaz točkovni), OPU,  ATR3, 
+ATR5 
+3109 Zajetje • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz točkovni), OPU,  ATR3, 
+ATR5 
+3110 Objekt za 
+bogatenje ali 
+aktivno zaščito 
+vodonosnika 
+• Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz točkovni), OPU,  ATR3, 
+ATR5 
+3199 Drugi objekti 
+vodovodne 
+infrastrukture 
+• Objekti, ki ne spadajo med zgoraj  navede objekte. Prikazujejo se 
+linijsko, točkovno ali poligonsko (odvisno od površine in oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni ali linijski), 
+OPU, ATR5 
+ 
+ 
+Atributi 
+ATRIBUT ŠIFRA IN IME OBJEKT OPIS ATRIBUTA 
+ATR1 3101: Vodooskrbna cev Material vodovoda 
+3101: Vodooskrbna cev 
+3102: Vodohram 
+3103: Črpališče 
+3104: Razbremenilnik 
+3108: Objekt za bogatenje vodnega vira 
+3109: Zajetje 
+ATR3 
+3110: Čistilna naprave za pripravo pitne vode 
+Leto izgradnje oz. zadnje obnove 
+ATR4 3101: Vodooskrbna cev Vrsta omrežja 
+ATR5 3101: Vodovod (vsi objekti) Identifikacijska številka vodovodnega 
+sistema upravljavca 
+ 
+ 
+Šifranti 
+ATR1 - ŠIFRANT MATERIALA VODOVODA 
+VREDNOST 
+ATRIBUTA: ATR1 
+KRATICA POMEN 
+1 AC      Azbest cement, vlaknocement 
+2 BET       Beton (vse vrste tudi centrifugirani) 
+3 JE      Jeklo in nerjave če jeklo 
+4 KA      Kamen 
+5 KER      Keramika 
+6 LZ      Lito železo 
+7 NL      Nodularna litina 
+8 OP      Opeka (zidani kanali) 
+9 PC      Pocinkano železo 
+10 PE      Polietilen 
+11 PVC     Polivinil klorid 
+12 RE      Obloga ka nala po metodi insituform 
+13 SV      Svinec 
+14 TE  (GRP) Armirane centrifugirane poliestrske cevi 
+15 PP  Polipropilen 
+98 NEZ Neznano 
+99 DRUG Drugo 
+ATR4 - ŠIFRANT VRSTE OMREŽJA 
+VREDNOST 
+ATRIBUTA: ATR4 POMEN 
+1 magistralno omrežje 
+
+ 
+Stran 33 
+2 primarno omrežje 
+3 sekundarno omrežje 
+4 terciarno omrežje  
+ 
+ 
+ 
+KOMUNALNA INFRASTRUKTURA KANALIZACIJA 
+ 
+Objekti 
+ŠIFRA VRSTE 
+OBJEKTA 
+IME VRSTE 
+OBJEKTA 
+POSEBNOSTI GRAFIČNEGA IN ATRIBUTNEGA PODAJANJA 
+OBJEKTA 
+3201 Kanalizacijski 
+vodi 
+• Prikazuje se linijsko 
+• Dodatni atributi so: DIM_YX, OPU, ATR1, ATR2, ATR3, ATR4, 
+ATR5 
+3202 Črpališče • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni), DIM_Z, 
+OPU, ATR4, ATR5 
+3203 Razbremenilnik • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni), DIM_Z, 
+OPU, ATR4, ATR5 
+3204 Čistilna naprava 
+za odpadno vodo 
+• Prikazuje se to čkovno ali poligonsko (odvisno od površine) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni), DIM_Z, 
+OPU, ATR3, ATR4, ATR5 
+3205 Izpust iz 
+kanalizacijskega 
+sistema 
+• Prikazuje se to čkovno  
+• Dodatni atributi so: DIM_YX  , DIM_Z, OPU, ATR4, ATR5 
+3206 Jašek • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni), DIM_Z, 
+OPU, ATR5 
+3207 Oprema • Prikazuje se to čkovno  
+• Dodatni atributi so: DI M_YX, DIM_Z, OPU, ATR5 
+3208 Obmo čje objekta 
+kanalizacijskega 
+sistema 
+• Prikazuje se poligonsko  
+• Dodatni atributi so: OPU, ATR5 
+ 
+3209 Zadrževalnik • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_XY ( če je prikaz to čkovni), DIM_Z, 
+OPU, ATR5 
+3299 Drugi objekti 
+kanalizacijske 
+infrastrukture 
+• Objekti, ki ne spadajo med zgoraj  navede objekte. Prikazujejo se 
+linijsko, točkovno ali poligonsko (odvisno od površine in oblike) 
+ Dodatni atributi so: DIM_YX ( če je prikaz to čkovni ali linijski), 
+OPU, ATR5 
+ 
+Atributi 
+ATRIBUT ŠIFRA IN IME OBJEKT OPIS ATRIBUTA 
+ATR1 3201: Kanalizacijski vodi Specifi čna karakteristika 1 – Vrsta voda 
+ATR2 3201: Kanalizacijski vodi Specifi čna karakteristika 2 – Tlak 
+3201: Kanalizacijski vodi Material cevi ATR3 
+3204: Čistilna naprava za odpadno vodo Nazivni populacijski ekvivalent 
+3201: Kanalizacijski vodi 
+3202: Črpališče 
+3203: Razbremenilnik 
+3204: Čistilna naprava za odpadno vodo 
+ATR4 
+3205: Izpust iz kanalizacijskega sistema 
+Leto izgradnje oz. zadnje obnove 
+ATR5 3101: Kanalizacija (vsi objekti) Identifikacijska številka kanalizacijskega 
+sistema upravljavca 
+ 
+
+ 
+Stran 34 
+ 
+Šifranti 
+ATR1 - ŠIFRANT VRSTE KANALIZACIJSKEGA VODA 
+VREDNOST 
+ATRIBUTA: ATR1 POMEN 
+1 mešani vod 
+2 fekalni vod 
+3 meteorni vod 
+4 drugi vod 
+ATR2 - ŠIFRANT TLAČNIH TIPOV KANALIZACIJSKEGA VODA 
+VREDNOST 
+ATRIBUTA: ATR2 POMEN 
+1 gravitacijski 
+2 tlačni 
+3 podtlačni 
+ATR3 - ŠIFRANT MATERIALA KANALIZACIJSKEGA VODA 
+VREDNOST 
+ATRIBUTA: ATR3 
+KRATICA POMEN 
+1 AC      Azbest cement, vlaknocement 
+2 BET       Beton (vse vrste tudi centrifugirani) 
+3 JE      Jeklo in nerjave če jeklo 
+4 KA      Kamen 
+5 KER      Keramika 
+6 LZ      Lito železo 
+7 NL      Nodularna litina 
+8 OP      Opeka (zidani kanali) 
+9 PC      Pocinkano železo 
+10 PE      Polietilen 
+11 PVC     Polivinil klorid 
+12 RE      Obloga ka nala po metodi insituform 
+13 SV      Svinec 
+14 TE  (GRP) Armirane centrifugirane poliestrske cevi 
+15 PP  Polipropilen 
+98 NEZ Neznano 
+99 DRUG Drugo  
+ 
+ 
+KOMUNALNA INFRASTRUKTURA RAVNANJE Z ODPADKI 
+ 
+Objekti 
+ŠIFRA VRSTE 
+OBJEKTA 
+IME VRSTE 
+OBJEKTA 
+POSEBNOSTI GRAFIČNEGA IN ATRIBUTNEGA PODAJANJA 
+OBJEKTA 
+3301 Odlagališ če • prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_XY ( če je prikaz točkovni), OPU, ATR1 
+3302 Kompostarna • prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_XY ( če je prikaz točkovni), OPU 
+3303 Sežigalnica • prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_XY ( če je prikaz točkovni), OPU 
+
+ 
+Stran 35 
+3304 Zbirni center • prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_XY ( če je prikaz točkovni), OPU 
+3305 Sortirnice • prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_XY ( če je prikaz točkovni), OPU 
+3306 Bioplinarne • prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_XY ( če je prikaz točkovni), OPU 
+3307 Naprave za 
+mehansko-
+biološko 
+obdelavo 
+odpadkov 
+• prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_XY ( če je prikaz točkovni), OPU 
+3308 Naprave za 
+termično 
+obdelavo 
+odpadkov 
+• prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_XY ( če je prikaz točkovni), OPU 
+3309 Obmo čje objekta 
+ravnanja z 
+odpadki 
+• prikazuje se poligonsko  
+• Dodatni atributi so: OPU 
+ 
+3310 Zbiralnice lo čenih 
+frakcij 
+• prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_XY ( če je prikaz točkovni), OPU 
+ 
+3311 Zbiralnice 
+nevarnih frakcij 
+• prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike) 
+• Dodatni atributi so: DIM_XY ( če je prikaz točkovni), OPU 
+ 
+3399 Drugi objekti za 
+ravnanje z 
+odpadki 
+• Objekti, ki ne spadajo med zgoraj navede objekte. Prikazuje se 
+linijsko, točkovno ali poligonsko (odvisno od površine in oblike) 
+• Dodatni atributi so: DIM_XY ( če je prikaz točkovni), OPU 
+ 
+ 
+Atributi 
+ATRIBUT ŠIFRA IN IME OBJEKT OPIS ATRIBUTA 
+ATR1 3301: Odlagališ če Vrsta odlagališ ča 
+ 
+ 
+Šifranti 
+ATR1 - ŠIFRANT VRSTE ODLAGALIŠČA 
+VREDNOST 
+ATRIBUTA: ATR1 POMEN 
+1 odlagališče za nevarne odpadke 
+2 odlagališče za nenevarne odpadke 
+3 odlagališče za inertne odpadke  
+ 
+ 
+ 
+VODNA INFRASTRUKTURA  
+ 
+Objekti 
+ŠIFRA VRSTE 
+OBJEKTA 
+IME VRSTE 
+OBJEKTA 
+POSEBNOSTI GRAFIČNEGA IN ATRIBUTNEGA PODAJANJA 
+OBJEKTA 
+4000 Objekti vodne 
+infrastrukture 
+ Prikazuje se to čkovno, linijsko ali poligonsko  
+ Pod to šifro se evidentirajo vsi objekti vodne infrastrukture, 
+objektno podskupino pa se določi s pomočjo atributa CC_klas 
+
+ 
+Stran 36 
+ Dodatni atributi so: DIM_YX ( če je prikaz to čkovni ali linijski), 
+DIM_Z, OPU 
+ 
+ 
+Šifranti 
+Ni dodatnih šifrantov. 
+ 
+ 
+ 
+INFRASTRUKTURA ZA 
+GOSPODARJENJE Z DRUGIMI 
+VRSTAMI NARAVNEGA 
+BOGASTVA ALI VARSTVA 
+OKOLJA 
+ 
+ 
+ 
+Objekti 
+ŠIFRA VRSTE 
+OBJEKTA 
+IME VRSTE 
+OBJEKTA 
+POSEBNOSTI GRAFIČNEGA IN ATRIBUTNEGA PODAJANJA 
+OBJEKTA 
+5001 Rudniška 
+infrastruktura 
+• Prikazuje se to čkovno, linijsko ali poligonsko  
+• Dodatni atributi so: OPU 
+5002 Objekti za 
+opravljanje 
+monitoringa 
+stanja okolja 
+• Prikazuje se to čkovno, linijsko ali poligonsko  
+• Dodatni atributi so: OPU 
+5099 Drugi objekti 
+infrastrukture za 
+gospodarjenje z 
+drugimi vrstami 
+naravnega 
+bogastva ali 
+varstva okolja 
+• Objekti, ki ne spadajo med zgoraj navede objekte. Prikazuje se 
+točkovno, linijsko ali poligonsko (odvisno od površine in oblike) 
+• Dodatni atributi so: OPU 
+ 
+ 
+Šifranti 
+Ni dodatnih šifrantov. 
+ 
+ 
+ 
+DRUGA OMREŽJA IN OBJEKTI V JAVNI 
+RABI ELEKTRONSKE KOMUNIKACIJE 
+ 
+Objekti 
+ŠIFRA VRSTE 
+OBJEKTA 
+IME VRSTE 
+OBJEKTA 
+POSEBNOSTI GRAFIČNEGA IN ATRIBUTNEGA PODAJANJA 
+OBJEKTA 
+6101 Telekomunikacijs
+ki vod 
+• Prikazuje se linijsko 
+• Dodatni atributi so: DIM_YX , DIM_Z, OPU, ATR1, ATR2 
+6102 Kabelska 
+kanalizacija 
+• Prikazuje se linijsko 
+• Dodatni atributi so: DI M_YX, DIM_Z, OPU, ATR2 
+6103 Antenski stolp • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike)  
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkoven), DIM_Z, 
+OPU, ATR2 
+6104 Objekt bazne 
+postaje 
+• Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike)  
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkoven), DIM_Z, 
+OPU, ATR2 
+6105 Radijska postaja • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike)  
+
+ 
+Stran 37 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkoven), DIM_Z, 
+OPU, ATR2 
+6106 Antena • Prikazuje se to čkovno  
+• Dodatni atributi so: DI M_YX, DIM_Z, OPU, ATR2 
+6107 Jašek • Prikazuje se to čkovno ali poligonsko (odvisno od površine in 
+oblike)  
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkoven), DIM_Z, 
+OPU, ATR2 
+6108 Javna 
+telekomunikacijs
+ka terminalska 
+naprava 
+• Prikazuje se to čkovno ali poligonsko (odvisno od površine)  
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkoven), DIM_Z, 
+OPU, ATR2 
+6109 Obmo čje 
+objektov 
+elektronskih 
+komunikacij 
+• Prikazuje se poligonsko 
+• Dodatni atributi so: OPU, ATR2 
+6199 Drugi objekti 
+elektronskih 
+komunikacij 
+• Objekti, ki ne spadajo med zgoraj navede objekte. Prikazuje se 
+linijsko, točkovno ali poligonsko (odvisno od površine in oblike) 
+• Dodatni atributi so: DIM_YX ( če je prikaz to čkovni ali linijski),  
+OPU, ATR2 
+ 
+ 
+Atributi 
+ATRIBUT ŠIFRA IN IME OBJEKT OPIS ATRIBUTA 
+ATR1 6101: Telekomunikacijski vod Lega voda 
+6101: Telekomunikacijski vod 
+6102: Kabelska kanalizacija 
+6103: Antenski stolp 
+6104: Objekt bazne postaje 
+6105: Radijska postaja 
+6106: Antena 
+6107: Jašek 
+6108: Javna telekomunikacijska terminalska 
+postaja 
+6109: Območje objektov elektronskih 
+komunikacij 
+ATR2 
+6199: Drugi objekti elektronskih komunikacij 
+Vrsta elektronskega  komunikacijskega 
+omrežja 
+ 
+ 
+Šifranti 
+ATR1 - ŠIFRANT LEGE VODA 
+VREDNOST 
+ATRIBUTA: ATR1 POMEN 
+1 v zemlji 
+2 v kineti 
+3 v kabelski kanalizaciji 
+4 prosto/vidno 
+5 v stavbi 
+ 
+ATR2  - ŠIFRANT VRSTE ELEKTRONSKEGA OMREŽJA 
+VREDNOST 
+ATRIBUTA: ATR2 POMEN 
+1 satelitsko omrežje 
+2 fiksno prizemno omrežje 
+3 mobilno prizemno omrežje 
+4 elektri čni kabelski sistem 
+5 omrežje za radijsko in televizijsko radiodifuzijo 
+
+ 
+Stran 38 
+6 omrežje kabelske televizije  
+
+ 
+Stran 39 
+3 GML STRUKTURA IZ MENJEVALNE DATOTE KE ATRIBUTNIH 
+PODATKOV O OBJEKTIH GJI 
+ 
+ 
+      <TIP_SPR>D</TIP_SPR> 
+      <ID></ID> 
+      <ID_UPR>112578</ID_UPR> 
+      <SIF_VRSTE>2103</SIF_VRSTE> 
+      <CC_KLAS>22240</CC_KLAS> 
+      <TOPO>2</TOPO> 
+      <NAT_YX>1</NAT_YX> 
+      <Z></Z> 
+      <NAT_Z>1</NAT_Z> 
+      <GJI>1</GJI> 
+      <VIR>1</VIR> 
+      <DAT_VIR>19930412</DAT_VIR> 
+      <MAT_ST>5787421</MAT_ST> 
+      <MAT_GJS>5798632</MAT_GJS> 
+      <DIM_YX>0.30</DIM_YX> 
+      <DIM_Z>0.30</DIM_Z> 
+      <OPU>1</OPU> 
+      <ATR1>2</ATR1> 
+      <ATR2>2</ATR2> 
+      <ATR3></ATR3> 
+    <ATR4></ATR4> 
+      <ATR5></ATR5> 
+      <OPIS>KABEL</OPIS> 
+ 
+ 
+ 
+V GML zapisu atributnih podatkov objektov GJI morajo biti vpisani vsi atributi, ki so 
+predvideni za zapis objektov GJI, četudi jih določena objektna skupina GJI ne predvideva.

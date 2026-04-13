@@ -1,0 +1,1994 @@
+FIZIKALNO OZADJE PODNEBNIH 
+SPREMEMB IN NJIHOVE 
+POSLEDICE ZA SLOVENIJO 
+  
+LIFE IP CARE4CLIMATE (LIFE17 IPC/SI/000007)
+
+
+ 
+ 
+ 
+ 
+ 
+2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fizikalno ozadje podnebnih sprememb in njihove posledice za Slovenijo 
+Akcija C1.3 Povečanje ozaveščenosti o podnebnih spremembah in njihovih posledicah za 
+Slovenijo ter promocija dobrih praks zmanjševanja izpustov toplogrednih plinov 
+ 
+Avtorji: dr. Renata Karba, dr. Jonas Sonnenschein, Andrej Gnezda 
+ 
+Ljubljana, 15. 12. 2021 
+ 
+ 
+ 
+LIFE IP CARE4CLIMATE (LIFE17 IPC/SI/000007) je integralni projekt, sofinanciran s 
+sredstvi evropskega programa LIFE, sredstvi Sklada za podnebne spremembe in sredstvi 
+partnerjev projekta. 
+ 
+Za več informacij obiščite www.care4climate.si. 
+ 
+ 
+ 
+Vsak partner v projektu LIFE IP CARE4CLIMATE je odgovoren za strokovnost vsebin in 
+sporočila v dokumentih in stališčih, ki jih pripravi oziroma izrazi v okviru navedenega 
+projekta. 
+  
+
+ 
+ 
+ 
+ 
+ 
+3 
+ 
+Fizikalno ozadje podnebnih sprememb in 
+njihove posledice za Slovenijo 
+V dokumentu so predstavljeni vzroki in posledice podnebnih sprememb, ki jih povzročajo 
+človekove dejavnosti. Opisan je pojav tople grede in globalno ogrevanje kot posledica 
+naraščajoče vsebnosti toplogrednih plinov v ozračju od predindustrijske dobe do danes. Poleg 
+višanja temperature Zemljinega površja, sprememb regionalnih padavinskih vzorcev  ter 
+povečanja pogostosti in intenzivnosti nekaterih izjemnih vremenskih pojavov so med 
+posledicami podnebnih sprememb izpostavljeni vpliv na kriosfero in oceane, vpliv na zdravje 
+in varnost ljudi ter izguba biotske raznovrstnosti.  
+Podnebne spremembe v Sloveniji so zaznane zlasti pri temperaturi zraka. Slovenija se je v 
+zadnjih desetletjih ogrela, višina padavin pa se je do okoli leta 2000 počasi zmanjševala, nato 
+povečevala. V Sloveniji so največji povzročitelji izpustov toplogrednih plinov oskrba z energijo, 
+promet, industrija in kmetijstvo.  Ne glede na to, kako dobro bo svet nadziral izpuste v 
+prihodnjih letih, se bo podnebje še naprej spreminjalo. Predstavljene so projekcije podnebnih 
+sprememb v Sloveniji do konca 21. stoletja, ki jih je za tri scenarije družbenogospodarskega 
+razvoja pripravila Agencija Republike Slovenije za okolje. Prihodnje spremembe podnebja za 
+Slovenijo prinašajo vrsto tveganj in priložnosti, med drugim spremenjene razmere za pridelavo 
+hrane ter tveganje za zdravje ljudi.  
+ 
+Physical background of climate change and its 
+consequences for Slovenia 
+The document presents the causes and consequences of climate change caused by human 
+activities. Moreover, it describes the greenhouse effect and global warming as a result of the 
+increasing concentration of greenhouse gases in the atmosphere. Among the consequences 
+of climate change are the rise of Earth's surface temperature, changes in regional precipitation 
+patterns and increasing frequency and intensity of extreme weather events, impacts on the 
+cryosphere and oceans, human health and safety and biodiversity loss. 
+Climate change in Slovenia is particularly noticeable in the increase of average  air 
+temperature in recent decades . At the same time the amount of precipitation slowly 
+descreased till 2000 and increased afterwards. In Slovenia, the largest drivers of greenhouse 
+gas emissions are energy supply, transport, industry and agriculture. No matter how well the 
+world controls emissions in the coming years, the climate will continue to change. Projections 
+of climate change in Slovenia up to the end of the 21st century  are presented for three 
+scenarios of socio -economic development. Future climate change bring s a number of risks 
+and opportunities for Slovenia, including changed conditions for food production and risks to 
+human health.   
+
+ 
+ 
+ 
+ 
+ 
+4 
+ 
+Kazalo vsebine 
+1 Zemlja se ogreva, podnebje se spreminja ................................ ................................ ... 10 
+1.1. Učinek tople grede ................................ ................................ ............................ 10 
+1.2. Vsebnost CO2 v ozračju se je v zadnjih desetletjih močno povečala .................. 12 
+1.3. Povečana vsebnost toplogrednih plinov povzroča globalno ogrevanje .............. 15 
+2 Posledice podnebnih sprememb ................................ ................................ ................. 19 
+2.1. Učinki globalnega ogrevanja za 1,5 °C in za 2 °C glede na predindustrijsko raven
+ 24 
+2.2. Podnebne spremembe bodo postajale prevladujoči vzrok za razseljevanje in 
+migracije ................................ ................................ ................................ ......................... 26 
+2.3. Podnebne spremembe ogrožajo biotsko raznovrstnost ................................ ..... 27 
+2.4. Vpliv podnebnih sprememb na zdravje ................................ ..............................  29 
+3 Podnebje v prihodnosti ................................ ................................ ................................  30 
+3.1. Možen dvig globalne temperature do konca 21. stoletja ................................ .... 31 
+3.2. Projekcije sprememb v podnebnem sistemu ................................ ..................... 32 
+4 Podnebne spremembe v Sloveniji ................................ ................................ ............... 37 
+4.1. Izpusti toplogrednih plinov v Sloveniji ................................ ................................  41 
+5 Projekcije podnebnih sprememb v Sloveniji................................ ................................ . 44 
+5.1. Tveganja in priložnosti, ki jih podnebne spremembe prinašajo za Slovenijo ...... 53 
+5.2. V prihodnosti se bodo spremenile razmere za pridelavo hrane v Sloveniji ......... 53 
+5.3. Vpliv podnebnih sprememb na zdravje v Sloveniji ................................ ............. 54 
+ 
+  
+
+ 
+ 
+ 
+ 
+ 
+5 
+ 
+Kazalo slik 
+Slika 1.1: Učinek tople grede ................................ ................................ ...............................  10 
+Slika 1.2: Premalo učinka tople grede na Marsu in preveč učinka tople grede na Veneri .... 11 
+Slika 1.3: Vsebnost CO 2 v ozračju v 800.000 letih Zemljine zgodovine in strmi porast od 
+sredine 20. stoletja ................................ ................................ ................................ .............. 13 
+Slika 1.4: Naravni viri in ponori CO2 ................................ ................................ .................... 14 
+Slika 1.5: Vsebnost CO2 v ozračju v zadnjih desetletjih hitro narašča................................ .. 14 
+Slika 1.6: Sovpadanje temperature Zemljinega ozračja in vsebnosti CO2 v ozračju ............. 16 
+Slika 1.7: Sprememba globalne temperature od začetka industrijske revolucije .................. 17 
+Slika 1.8: Podnebni časovni stroj – spreminjanje globalne temperature od začetka industrijske 
+revolucije ................................ ................................ ................................ ............................. 18 
+Slika 2.1: Spreminjanje mase kopenskih lednih pokrovov na Grenlandiji in Antarktiki  ........ 20 
+Slika 2.2: Spreminjanje površine arktičnega morskega ledu v zadnjih desetletjih ................ 20 
+Slika 2.3: Shematski prikaz ključnih elementov in sprememb v svetovnem morju in kriosferi 
+ter povezav med njimi prek izmenjave toplote, vode in CO2 ................................ ................ 21 
+Slika 2.4: Povečanje vsebnosti CO 2 v ozračju in morski vodi ter povečanje kislosti oceanov
+ ................................ ................................ ................................ ................................ ........... 22 
+Slika 2.5: Dvig gladine svetovnega morja od konca 19. stoletja ................................ .......... 23 
+Slika 2.6: Dvig morske gladine ogroža prebivalce otokov in nizkoležečih obalnih predelov . 27 
+Slika 2.7: Hitra sprememba kislosti svetovnih morij morskemu življenju, ki se je razvilo v 
+milijonih let stabilnega pH, ne daje zadosti časa za prilagajanje ................................ .......... 28 
+Slika 3.1: Potek bodočih letnih izpustov CO 2 (levo) in izbranih ostalih dejavnikov pod nebnih 
+sprememb (desno) glede na pet scenarijev izpustov toplogrednih plinov  ........................... 30 
+Slika 3.2: Izbrani kazalniki globalnih podnebnih sprememb za pet scenarijev izpustov 
+toplogrednih plinov: sprememba temperature zraka (a), septembrska površina arktičnega 
+morskega ledu (b), pH na površju oceanov (c) ter sprememba gladine svetovnih morij gl ede 
+na leto 1900 do konca 21. stoletja (č) in do leta 2300 (d)  ................................ ................... 34 
+Slika 3.3: Ekstremne višine morske gladine in povprečje njihovih ponovitev v bližnji preteklosti 
+(1986–2005) in prihodnosti (2080–2100)................................ ................................ ............. 35 
+Slika 3.4: Ocene sprememb pogostosti poplavnih dogodkov v Ev ropi zaradi predvidenega 
+dviga morske gladine med letoma 2010 in 2100 za scenarija z nizkimi (RCP2.6) in visokimi 
+(RCP8.5) izpusti toplogrednih plinov ................................ ................................ ................... 36 
+
+ 
+ 
+ 
+ 
+ 
+6 
+ 
+Slika 4.1: Časovni niz meritev temperature meteorološke postaje Letališče Ljubljana - Brnik
+ ................................ ................................ ................................ ................................ ........... 37 
+Slika 4.2: Povprečna temperatura zraka v Sloveniji za zadnjih sedem desetletij ................. 38 
+Slika 4.3: Povprečna temperatura zraka v Sloveniji za zadnjih sedem desetletij   ............... 38 
+Slika 4.4: Povprečna višina padavin v Sloveniji v obdobju 1950–2020. Z modro so označene 
+letne vrednosti, z rdečo 11 -letno drseče povprečje, z zeleno pa dvajsetletni povprečji 1951 –
+1970 in 2001–2020.  ................................ ................................ ................................ ........... 39 
+Slika 4.5: Zmanjšanje števila zimskih dni, ko je Bohinjsko jezero zaledenelo, v 20. stoletju 40 
+Slika 4.6: Triglavski ledenik Zeleni sneg leta 1924, 1957 in 2003 ................................ ........ 41 
+Slika 4.7: Največji povzročitelji izpustov toplogrednih plinov v Sloveniji v letu 2019 ............. 42 
+Slika 4.8: Posledice ujm in napadov škodljivcev v gozdovih ................................ ................ 43 
+Slika 5.1: Ogrevanje ozračja v Sloveniji v preteklosti in projekcije do konca 21. stoletja (glede 
+na obdobje 1850–1900) za tri scenarije izpustov ................................ ................................ . 44 
+Slika 5.2: Sprememba povprečne temperature zraka po meteoroloških letnih časih in za celo 
+leto v treh projekcijskih obdobjih glede na obdobje 1981 –2010 za zmerno optimistični (levo) 
+in pesimistični scenarij izpustov (desno) (odklon temperature od povprečja v primerjalnem 
+obdobju 1981–2010) ................................ ................................ ................................ ........... 46 
+Slika 5.3: Možne posledice zvišanja temperature zraka in tal na zmanjšanje biotske 
+raznovrstnosti, če se bo uresničil pesimistični scenarij izpustov ................................ .......... 47 
+Slika 5.4: Umiranje smrekovih gozdov, do kakršnega bi lahko prišlo do konca 21. stoletja v 
+primeru pesimističnega scenarija izpustov ................................ ................................ .......... 48 
+Slika 5.5: Možne posledice dviga gladine morja konec 21. stoletja, če se bo uresničil 
+pesimistični scenarij izpustov ................................ ................................ ..............................  49 
+Slika 5.6: Časovni potek spremembe letne višine padavin do konca 21. stoletja v Sloveniji za 
+tri scenarije ................................ ................................ ................................ ......................... 49 
+Slika 5.7: Sprememba povprečne višine padavin po meteoroloških letnih časih in za celo leto 
+v treh projekcijskih obdobjih glede na obdobje 1981 –2010 za zmerno optim istični (levo) in 
+pesimistični scenarij izpustov (desno) (relativni odklon višine padavin od povprečja v 
+primerjalnem obdobju 1981–2010) ................................ ................................ ...................... 50 
+Slika 5.8: Nizkoležeča smučišča bodo čedalje pogosteje ostala brez zimske snežne odeje, kar 
+bo močno vplivalo na zimski turizem. ................................ ................................ .................. 51 
+Slika 5.9: Spremembe povprečnega letnega napajanja podzemne vode za tri projekcijska 
+obdobja in dva scenarija izpustov RCP4.5 (levo) in RCP8.5 (desno) glede na primerjalno 
+obdobje 1981–2010 ................................ ................................ ................................ ............ 52 
+Slika 5.10: Aedes aegypti, prenašalec virusa Zika ................................ ..............................  54 
+
+ 
+ 
+ 
+ 
+ 
+7 
+ 
+Kazalo preglednic 
+Preglednica 3.1: Spremembe globalne temperature do konca 21. stoletja (glede na obdobje 
+1850–1900) za pet scenarijev izpustov toplogrednih plinov  ................................ ................ 32 
+  
+
+ 
+ 
+ 
+ 
+ 
+8 
+ 
+Seznam kratic in okrajšav 
+Kratica/simbol Beseda ali besedna zveza Slovenski prevod 
+°C stopinj Celzija  
+°F stopinj Fahrenheita  
+CH4 metan  
+CO2 ogljikov dioksid  
+F-plini fluorirani toplogredni plini  
+HFC fluorirani ogljikovodiki  
+IDMC International Displacement 
+Monitoring Centre 
+Mednarodni center za spremljanje 
+razseljevanja 
+IPBES Intergovernmental Science-Policy 
+Platform on Biodiversity and 
+Ecosystem Services 
+Medvladna znanstveno-politična 
+platforma o biotski raznovrstnosti 
+in ekosistemskih storitvah 
+IPCC Intergovernmental Pannel on 
+Climate Change 
+Medvladni odbor za podnebne 
+spremembe 
+N2O didušikov oksid  
+NASA The National Aeronautics and 
+Space Administration 
+Državna uprava za aeronavtiko in 
+vesolje (ZDA) 
+NF3 dušikov trifluorid  
+NOAA National Oceanic and Atmospheric 
+Administration 
+Državna uprava za oceane in 
+atmosfero (ZDA) 
+O3 ozon  
+PFC perfluorirani ogljikovodiki  
+
+ 
+ 
+ 
+ 
+ 
+9 
+ 
+ppm parts per million molekul na milijon molekul v 
+ozračju 
+RCP Representative Concentration 
+Pathway 
+značilni potek vsebnosti 
+SF6 žveplov heksafluorid  
+UNFCCC United Nations Framework 
+Convention on Climate Change  
+Okvirna konvencija Združenih 
+narodov o spremembi podnebja 
+ 
+  
+
+ 
+ 
+ 
+ 
+ 
+10 
+ 
+1 Zemlja se ogreva, podnebje se spreminja 
+Povprečna temperatura ozračja na Zemljinem površju se je od konca 19. stoletja povišala za 
+več kot 1 °C.1  
+Globalno ogrevanje je pretežno posledica povečane vsebnosti ogljikovega dioksida (CO2) in 
+drugih toplogrednih plinov, ki se v ozračje sproščajo pri človekovih dejavnostih. 
+1.1 Učinek tople grede 
+Toplogredni plini v ozračju (ogljikov dioksid (CO2), vodna para (H2O), metan (CH4)) didušikov 
+oksid (N2O), ozon (O3) itd.2) imajo sposobnost, da dolgovalovno sevanje Zemljinega površja 
+deloma vpijejo in izsevajo nazaj proti tlom. S tem ogrejejo površje in nekaj kilometrov debelo 
+plast ozračja ob tleh. Ta pojav se imenuje učinek tople grede. 
+ 
+Slika 1.1: Učinek tople grede3 
+Ko sončno sevanje (zlasti vidna svetloba in kratkovalovno infrardeče sevanje) doseže Zemljo, 
+ga ozračje približno tretjino odbije. Manjši del preostalega sevanja ozračje absorbira, večino 
+pa prepusti. Prepuščeno sevanje nadaljuje pot do Zemljinega površja, od katerega se ga del 
+odbije, preostali del pa vpijejo oceani in kopno. Absorbirano sevanje greje oceane in kopno, ti 
+pa sevajo nazaj v obliki infrardečega sevanja. Toplogredni plini vpijejo del tega se vanja ter 
+tako preprečijo, da bi sevanje neovirano ušlo s tal v vesolje.4 
+Ker plini sevajo v vse smeri, je del tega sevanja usmerjen tudi navzdol in doseže Zemljino 
+površje, ki ga absorbira. Temperatura površja je zato višja, kot bi bila samo zaradi 
+neposrednega sončnega ogrevanja, višja je tudi temperatura najnižje plasti ozračja. To 
+dodatno ogrevanje Zemljine površine zaradi ozračja je naravni učinek tople grede.5 
+ 
+ 
+1 https://climate.nasa.gov/evidence/ 
+2 Plini z visokim toplogrednim učinkom, ki se sproščajo pri človekovih dejavnostih, so tudi F-plini, med katere spadajo fluorirani 
+ogljikovodiki (HFC), perfluorirani ogljikovodiki (PFC) in žveplov heksafluorid (SF6) ter dušikov trifluorid (NF3).   
+3 Vir slike: https://www.wonderworksonline.com/science-library/atmosphere-climate/greenhouse-effect/ 
+4 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+5 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+
+
+ 
+ 
+ 
+ 
+ 
+11 
+ 
+Zaradi učinka tople grede je naš planet dovolj topel za življenje, saj je povprečna temperatura 
+na površju Zemlje okrog 15 ˚C. Brez ozračja in ob enaki svetlobni odbojnosti bi bila Zemlja 
+zamrznjen planet s povprečno temperaturo površja le okrog –18 ˚C.6 
+Slika 1.2: Premalo učinka tople grede na Marsu in preveč učinka tople grede na Veneri7 
+Na Marsu (levo) je učinek tople grede zaradi zelo tankega, redkega ozračja šibek. Površje 
+planeta je zamrznjeno, brez znakov življenja.  V Venerinem ozračju  (desno) je približno 
+154.000-krat več C O2 kot v Zemljinem ozračju. Zaradi močnega toplogrednega učinka je 
+temperatura površja Venere 460 ˚C.8 
+CO2 je najpomembnejši toplogredni plin, ki se sprošča pri človekovih 
+dejavnostih. Zaradi visoke in hitro naraščajoče vsebnosti v ozračju ima 
+večji skupni učinek ogrevanja kot vsi ostali toplogredni plini skupaj.9 
+Presežek CO2 v ozračju (glede na kopno in oceane) ima dolgo življenjsko 
+dobo (40 % začetnega presežka ostane še po sto letih, okrog 25 % po 
+tisočih letih10), zato je za njegovo naravno odstranitev iz ozračja 
+potrebnega veliko časa. 
+ 
+ 
+ 
+6 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+7 Vir slike: https://climate.nasa.gov/causes/ 
+8 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+9 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+10 Ciais, P., in dr. (2013): Carbon and Other Biogeochemical Cycles. V: Climate Change 2013: The Physical Science Basis. Contribution 
+of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge University Press, 
+Cambridge, Velika Britanija, in New York, NY, ZDA. Dostopno na 
+www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_Chapter06_FINAL.pdf. 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+12 
+ 
+Človekove dejavnosti, ki povzročijo največ izpustov toplogrednih plinov, so: 
+• proizvodnja električne energije in toplote. Zgorevanje fosilnih goriv – premoga, 
+zemeljskega plina in nafte – za proizvodnjo elektrike in toplote je v svetovnem merilu 
+največji vir izpustov toplogrednih plinov, v Evropski uniji povzroči več kot polovico 
+skupnih izpustov toplogrednih plinov ( 52 % leta 2019).11 V to kategorijo spadajo tudi 
+izpusti zaradi zgorevanja fosilnih goriv za ogrevanje, kuhanje itd. v kuriščih v stavbah. 
+Nastaja predvsem CO2,  
+• promet (26 % skupnih izpustov v Evropski uniji v letu 2019). Izpusti toplogrednih plinov 
+tudi v tem sektorju nastajajo pri zgorevanju fosilnih goriv (večinoma bencina in 
+dizelskega goriva) v cestnem, železniškem, zračnem in pomorskem prometu, pri 
+čemer se sproščata CO2 in N2O, 
+• kmetijstvo v Evropski uniji povzroči 10 % skupnih izpustov toplogrednih plinov (v 2019). 
+Izpusti nastajajo pri živinoreji in gojenju poljščin ter ravnanju z gnojem (gnojenju in 
+skladiščenju). Nastajata CH4 in N2O, v manjši meri tudi CO2,  
+• industrijski procesi in gradbeništvo so bili v 2019 odgovorni za 9 % skupnih izpustov v 
+Evropski uniji. Izpusti toplogrednih plinov v industriji prav tako nastajajo predvsem pri 
+zgorevanju fosilnih goriv, in sicer za pridobivanje energije neposredno v indu strijskih 
+obratih (nastaja CO 2), ter v kemičnih, metalurških in mineralnih procesih 
+preoblikovanja, ki niso povezani s porabo energije (nastajajo F-plini, v manjši meri CH4 
+in N2O). (Opomba: Izpusti iz industrijske rabe električne energije so upoštevani v 
+sektorju proizvodnja električne energije in toplote.),  
+• ravnanje z odpadki je v Evropski uniji odgovorno za 3 % izpustov toplogrednih plinov 
+(2019). Nastajata CH4 in N2O, v manjši meri CO2.  
+Porast vsebnosti CO 2 v ozračju, ki je posledica človekovih dejavnosti, predstavlja daleč 
+največji delež povečanja toplogrednega učinka od predindustrijske dobe do danes.  
+1.2 Vsebnost CO2 v ozračju se je v zadnjih desetletjih 
+močno povečala  
+Starodavni mehurčki zraka, ujeti v ledenikih, nam omogočajo vpogled v stanje ozračja in 
+podnebja daleč nazaj v zgodovini Zemlje. Povedo nam, da se je vsebnost CO 2 v ozračju v 
+času ledenih dob gibala okrog 200 molekul na milijon molekul v ozračju (angl. parts per million 
+– ppm), v toplejših vmesnih obdobjih pa okrog 280 ppm.12 V zadnjih 800.000 letih ni nikoli za 
+dlje časa presegla 300 ppm. Od začetka industrijske revolucije in še posebej od sredine 20. 
+stoletja dalje pa je vsebnost CO 2 zaradi izpustov, ki so posledica človekove dejavnosti, hitro 
+naraščala in je leta 2013 prvič  v zabeleženi zgodovini presegla 400 ppm , v decembru 2021 
+pa je znašala 417 ppm.13 
+ 
+11 Vir podatkov o izpustih toplogrednih plinov v različnih sektorjih v Evropski uniji: European Environment Agency (2021): Annual 
+European Union greenhouse gas inventory 1990–2019 and inventory report 2021, dostopno prek 
+www.eea.europa.eu/publications/annual-european-union-greenhouse-gas-inventory-2021.   
+12 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+13 https://climate.nasa.gov/vital-signs/carbon-dioxide/ 
+
+ 
+ 
+ 
+ 
+ 
+13 
+ 
+ 
+Slika 1.3: Vsebnost CO2 v ozračju v 800.000 letih Zemljine zgodovine in strmi porast od sredine 20. stoletja14 
+Za dolgo obdobje od konca zadnje ledene dobe pred približno 10.000 leti, imenovano 
+»holocen«, je bila značilna stabilnost Zemljinega podnebnega sistema.15 V tem obdobju 
+stabilnosti, v katerem so se pojavljale, razvijale in uspevale človeške civilizacije,16 so bili 
+naravni viri CO2 (dihanje živali in rastlin) skoraj popolnoma uravnoteženi z naravnimi ponori 
+CO2 (oceani in rastline, ki CO2 porabijo v procesu fotosinteze).17 
+  
+ 
+14 Slika prirejena po: https://climate.nasa.gov/evidence/ 
+15 Kakšna je razlika med vremenom in podnebjem? 
+Vreme je stanje ozračja v določenem trenutku ali krajšem obdobju, podnebje pa opisuje obnašanje ozračja znotraj dolgih časovnih 
+obdobij. Podnebje je statistični opis vremena na določenem območju. 
+Vreme opisujemo s številnimi spremenljivkami, na primer temperaturo in vlažnostjo ozračja, padavinami,vetrom, zračnim tlakom in 
+sončnim obsevanjem. Podnebne spremembe so spremembe dolgoročnih povprečij in spremenljivosti omenjenih spremenljivk. 
+Posamezne zime brez snega praviloma ne pripišemo podnebnim spremembam, pač pa naravni spremenljivosti vremena. Če pa se 
+snežna odeja zmanjšuje v večdesetletnem obdobju, pa to kaže na spreminjanje podnebja. V določenih primerih lahko tudi posamezen 
+vremenski pojav pripišemo podnebnim spremembam, saj bi bila verjetnost tega vremenskega pojava v podnebju, ki je prevladovalo 
+pred pojavom podnebnih sprememb, zanemarljiva. 
+Poleg dolgoročnih sprememb podnebja obstajajo tudi kratkoročnejše spremembe ali podnebna spremenljivost, ki so lahko enkratne ali 
+ponavljajoče se spremembe zaradi različnih vplivov v Zemljinem sistemu, kot so npr. vulkanski izbruhi ter pojava el niño in la niña.  
+(Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2)  
+16 Rockström, J., in dr. (2009): A Safe Operating Space for Humanity, Nature 461: 472–475. 
+17 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+
+
+ 
+ 
+ 
+ 
+ 
+14 
+ 
+ 
+Slika 1.4: Naravni viri in ponori CO218 
+Rezultat tega naravnega ravnotežja so bile le majhne spremembe vsebnosti CO2 v ozračju v 
+zadnjih 10.000 letih. To ravnotežje pa je porušila dodatna količina CO 2, ki se je v ozračje 
+sprostila zaradi človekovih dejavnosti19 in so jo naravni ponori le deloma izločili iz ozračja.  
+ 
+Slika 1.5: Vsebnost CO2 v ozračju v zadnjih desetletjih hitro narašča20 
+ 
+18 Slika prirejena po: https://scied.ucar.edu/carbon-cycle. 
+19 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+20 Slika prirejena po: NOAA Earth System Research Laboratory, Global Monitoring Division, 
+www.esrl.noaa.gov/gmd/ccgg/trends/global.html#global. 
+
+
+ 
+ 
+ 
+ 
+ 
+15 
+ 
+ 
+Od začetka industrijske revolucije se je raven CO2 v ozračju povečala za približno 50 %. Ker 
+so v tem obdobju človekove dejavnosti postale glavni razlog globalnih okoljskih sprememb, je 
+ta nova era dobila ime »antropocen«.21 22 
+S hitrim in močnim povečanjem vsebnosti CO2 je človek pomembno 
+posegel v sestavo Zemljinega ozračja in porušil ravnotežje med viri in 
+ponori CO2. S tem je ogrozil stabilnost podnebnega sistema. 
+K povečanju vsebnosti CO 2 je največ prispevalo kurjenje fosilnih goriv (nafte, premoga in 
+zemeljskega pli na), pa tudi od človeka povzročene spremembe ekosistemov (predvsem 
+uničenje gozdov) in s tem zmanjšanje njihove zmožnosti, da iz ozračja izločijo CO2.  
+Porast vsebnosti CO2 v ozračju v zadnjem stoletju kaže tesno povezavo s količino porabljenih 
+fosilnih goriv.23 Pri tem je treba dodati, da je v zadnjih šestih desetletjih le približno 4 4 % 
+izpustov CO2, ki jih je povzročil človek, ostalo v ozračju. Preostali delež so vsrkali oceani in 
+kopno. Projekcije do konca 21. stoletja kažejo, da bodo v primeru naraščajočih izpustov CO2 
+ponori ogljika v oceanih in kopnem manj učinkoviti pri upočasnitvi kopičenja CO2 v ozračju.  
+Čim hitreje bodo v prihodnosti izpusti naraščali, tem manjši delež jih bodo 
+vsrkali kopno in oceani in večji delež izpuščenega CO2 bo ostajal v 
+ozračju. 24  
+1.3 Povečana vsebnost toplogrednih plinov povzroča 
+globalno ogrevanje 
+Vsaka sprememba v Zemljinem podnebnem sistemu, ki vpliva na to, koliko energije vstopa v 
+sistem oziroma ga zapusti, lahko poruši Zemljino sevalno ravnotežje 25 (ravnotežje med 
+dotokom energije, ki na naš planet prihaja od Sonca, in energijo, ki jo Zemlja seva nazaj v 
+vesolje) in lahko povzroči spremembo temperature ozračja in Zemljine površine. Med 
+naravnimi dejavniki, ki povzročajo takšne spremembe, so sprememb e Sončevega izseva, 
+spremembe sploščenosti Zemljine orbite in nagiba osi vrtenja (te se dogajajo v obdobjih, ki 
+trajajo več deset tisoč do sto tisoč let) ter veliki ognjeniški izbruhi, pri katerih svetlobo odbijajoči 
+delci dosežejo stratosfero in tam ostanejo do nekaj let.26 
+ 
+21 Crutzen, P., in Stoermer, P. J. (2000): The “Anthropocene”. IGBP Newsletter 41: 12–14. 
+22 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+23 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+24 IPCC (2021): Climate Change 2021 The Physical Science Basis Summary for Policymakers. Dostopno na 
+www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM_final.pdf. 
+25 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+26 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+
+ 
+ 
+ 
+ 
+ 
+16 
+ 
+Človek vpliva na podnebje najmočneje z višanjem vsebnosti toplogrednih plinov v ozračju, 
+poleg tega pa še z onesnaževanjem ozračja z aerosoli (mikroskopskimi delci, ki absorbirajo 
+ali odbijajo sončne žarke ter posredno vplivajo tudi na oblake)27 ter spreminjanjem lastnosti 
+Zemljinega površja (npr. krčenjem gozdov), kar vpliva na svetlobno odbojnost in vodni krog.  
+Zgodovinski podatki kažejo, da so dolgoročnim spremembam vsebnosti CO 2 vedno tesno 
+sledile (ali sovpadale) spremembe temperature ozračja.28 
+ 
+Slika 1.6: Sovpadanje temperature Zemljinega ozračja in vsebnosti CO2 v ozračju29 
+Zadnjih 300.000 let je temperatura Zemljinega ozračja na Antarktiki (rdeča krivulja) na 
+večtisočletni ravni dobro sovpadala s spremembami vsebnosti CO2 v ozračju (modra krivulja). 
+Raztegnjena časovna os za obdobje po začetku industrijske revolucije (od 1850 do 2020 ) 
+pokaže, da tudi povečano vsebnost CO2 v ozračju v zadnjem stoletju spremlja dvig povprečne 
+temperature na svetovni ravni. 30 Globalna temperatura Zemljinega površja se je od začetka 
+industrijske revolucije povišala za več kot 1 ˚C.31  
+Slika 1.7. prikazuje izmerjene spremembe globalne temperature (črna krivulja) ter modelske 
+simulacije z upoštevanjem človekovih in naravnih vzrokov (rjava krivulja) in samo naravnih 
+vzrokov (zelena krivulja).  
+ 
+27 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+28 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+29 Slika prirejena po: NOAA Climate.gov 
+30 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+31 https://climate.nasa.gov/vital-signs/global-temperature/  
+
+
+ 
+ 
+ 
+ 
+ 
+17 
+ 
+ 
+Slika 1.7: Sprememba globalne temperature od začetka industrijske revolucije 32 
+Prispevek k spremembi globalne temperature zaradi naravnih vzrokov, ki sta Sončeva in 
+ognjeniška dejavnost, je v primerjavi s prispevkom vzrokov, ki so posledica človekovih 
+aktivnosti, zanemarljiv.33 
+Medvladni odbor za podnebne spremembe (IPCC)34 v svojem šestem 
+poročilu o fizikalnih osnovah podnebnih sprememb35 poudarja, da je 
+povečanje temperature ozračja, oceanov in tal nedvomno posledica vpliva 
+človekovih dejavnosti. Dogajajo se obsežne in hitre spremembe v ozračju, 
+oceanih, kriosferi in biosferi.  
+ 
+32 Vir slike: Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne 
+osnove in stanje v Sloveniji, dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+33 IPCC (2021): Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of 
+the Intergovernmental Panel on Climate Change. Dostopno na www.ipcc.ch/report/ar6/wg1/. 
+34 Medvladni odbor za podnebne spremembe (angl. The Intergovernmental Panel on Climate Change – IPCC) je mednarodno telo, 
+namenjeno nepristranskim in znanstvenim ocenam podnebnih sprememb in njihovih posledic. Sestavlja ga več kot 1000 neodvisnih 
+znanstvenikov z vsega sveta. Deluje pod okriljem Združenih narodov in redno pripravlja poročila, ki so namenjena predvsem 
+oblikovalcem politik. Poročila IPCC so tudi podlaga za mednarodna pogajanja o ukrepih za preprečevanje podnebnih sprememb in 
+prilagajanje nanje, ki poteka na podnebnih konferencah v okviru Okvirne konvencije Združenih narodov o podnebnih spremembah 
+(angl. United Nations Framework Convention on Climate Change – UNFCCC). 
+35 IPCC (2021): Climate Change 2021 The Physical Science Basis Summary for Policymakers. Dostopno na 
+www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM_final.pdf.  
+
+
+ 
+ 
+ 
+ 
+ 
+18 
+ 
+ 
+Slika 1.8: Podnebni časovni stroj – spreminjanje globalne temperature od začetka industrijske revolucije36 
+S klikom na sliko vstopite v podnebni časovni stroj in lahko opazujete spreminjanje 
+temperature Zemljinega površja od leta 1884 do leta 20 21. Modra barva označuje področja, 
+ki so hladnejša od povprečja tega obdobja. Rdeča barva označuje področja, ki so toplejša od 
+povprečja tega obdobja.37 Sprememba temperature za 1  stopinjo Fahrenheita (°F) je enaka 
+spremembi temperature za 0,556 ˚C. 
+Sprememba temperature Zemljinega površja predvsem zaradi velike mase oceanov, ki imajo 
+zmožnost uskladiščiti velike količine toplote, časovno zaostaja za spremembami vsebnosti 
+CO2 v ozračju. Tudi če bi se vse bnost toplogrednih plinov v ozračju ustalila na sedanji 
+vrednosti, bi se površje Zemlje zaradi toplogrednih plinov, ki so že v ozračju, še naprej 
+ogrevalo (za približno 0,5 °C do konca 21. stoletja). Nadaljnje povišanje temperature je 
+odvisno od tega, koliko toplogrednih plinov bomo spustili v ozračje v prihodnosti.38 39 
+Dokler bo vsebnost toplogrednih plinov zaradi človekovih dejavnosti naraščala in krepila 
+učinek tople grede, bo količina zadržane sončne energije v Zemljinem podnebnem sistemu še 
+naprej presegala količino energije, ki pobegne v vesolje, in temperatura Zemljinega površja in 
+prizemnega sloja ozračja se bo še naprej zviševala. Dodatna energija, ki zaradi okrepljenega 
+toplogrednega učinka ostaja v podnebnem sistemu, povzroča spremembe Zemljinega 
+podnebja.40  
+  
+ 
+36 Vir podnebnega časovnega stroja: https://climate.nasa.gov/interactives/climate-time-machine  
+37 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+38 Meehl, G. A. (2005): How Much More Global Warming and Sea Level Rise? Science 307: 1769-1772. 
+39 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+40 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+
+
+ 
+ 
+ 
+ 
+ 
+19 
+ 
+2 Posledice podnebnih sprememb 
+Podnebne spremembe povzročajo vidne posledice v okolju. Zaznane so bile naslednje 
+spremembe zemeljskega podnebnega sistema:41 
+• Povprečna temperatura Zemljinega površja in prizemnega sloja ozračja se zvišuje. 
+Vsako od zadnjih štirih desetletij je bilo zapore doma toplejše od vseh predhodnih 
+desetletij po letu 1850. 42 Globalno ogrevanje je bilo najhitrejše od začetka 
+sedemdesetih let 20. stoletja, pri čemer je bilo v 21. stoletju (do leta 2020) 1 9 od 
+dvajsetih najtoplejših let v zgodovini instrumentalnih meritev, t.j. od leta 1880.43 
+Spremembe v biosferi so skladne z globalnim ogrevanjem: 44  
+• Podnebni pasovi so se pomaknili proti poloma na obeh poloblah. 
+• Rastna sezona se je od sredine prejšnjega stoletja na severni polobli na izventropskih 
+območjih podaljševala v povprečju za dva dneva na destletje.  
+Zaradi višjih temperatur je okrepljeno izhlapevanje vode in spreminjajo se regionalni 
+padavinski vzorci (količina dežja in snega):45  
+• Globalna povprečna višina padavin nad kopnim se je od leta 1950 verjetno povečala, 
+pri čemer je bilo povečanje hitrejše od leta 1980 dalje.46 
+• Na severni polobli se je površina snežne odeje  spomladi zmanjšala in jeseni 
+povečala.47 48  
+• Zaradi povečanega izhlapevanja se v nekaterih regijah povečuje pogostost kmetijskih 
+suš površinskega sloja tal.49  
+Povečujeta se pogostost in intenzivnost nekaterih izjemnih vremenskih pojavov – vročinskih 
+valov, obilnih nalivov, suš in tropskih ciklonov.50 
+Podnebne spremembe še posebej močno vplivajo na kriosfero:51 
+ 
+41 Podnebni sistem je sestavljen iz ozračja, hidrosfere, kriosfere, kopne površine Zemlje in biosfere. 
+42 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne osnove in 
+stanje v Sloveniji. Dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+43 NASA, Global Temperature: https://climate.nasa.gov/vital-signs/global-temperature/  
+44 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne osnove in 
+stanje v Sloveniji. Dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+45 IPCC (2014): Climate Change 2014: Impacts, Adaptation, and Vulnerability. Part A: Global and Sectoral Aspects. Contribution of 
+Working Group II to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change, Cambridge University Press, 
+Cambridge, Velika Britanija, in New York, NY, ZDA. 
+46 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne osnove in 
+stanje v Sloveniji. Dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+47 National Snow and Ice Data Center: https://nsidc.org/cryosphere/snow/climate.html  
+48 Rutgers University Global Snow Lab: http://climate.rutgers.edu/snowcover/chart_seasonal.php?ui_set=nhland&ui_season=2 
+49 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne osnove in 
+stanje v Sloveniji. Dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+50 IPCC (2021): Climate Change 2021 The Physical Science Basis Summary for Policymakers. Dostopno na 
+www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM_final.pdf 
+51 Kriosfera predstavlja del površja Zemlje, ki je sestavljen iz vode v trdnem stanju – snega in ledu. To vključuje morski, jezerski in rečni 
+led, snežno odejo, ledenike, ledeniške kape, kopenske ledene pokrove in zmrznjena tla (vključno s permafrostom). 
+
+ 
+ 
+ 
+ 
+ 
+20 
+ 
+• Ledeniki in kopenski ledeni pokrovi (Grenlandija, Antarktika) se talijo, zaledenelost rek 
+in jezer se zmanjšuje.52 Posledično se zmanjšuje količina zamrznjene sladke vode. 
+ 
+ 
+Slika 2.1: Spreminjanje mase kopenskih lednih pokrovov na Grenlandiji in Antarktiki 53 
+ 
+• Zmanjšuje se površina morskega ledu in odmrzuje se permafrost. 54 Zaradi manjše 
+površine morskega ledu oceani vpijejo več sončnega sevanja , pojavi se pozitivna 
+povratna zanka, ki vodi do nadaljnjega ogrevanja.55  
+ 
+ 
+Slika 2.2: Spreminjanje površine arktičnega morskega ledu v zadnjih desetletjih56 
+V primeru nadaljevanja naraščajočega trenda izpustov toplogrednih plinov lahko že sredi 21. 
+stoletja na Arktiki pričakujemo poletja s krajšim obdobjem brez morskega ledu. Arktični led 
+ 
+52 IPCC (2013): Summary for Policymakers. V: Climate Change 2013: The Physical Science Basis. Contribution of Working Group I to 
+the Fifth Assessment Report of the Intergovernmental Panel on Climate Change, Cambridge University Press, Cambridge, Velika 
+Britanija, in New York, NY, ZDA. 
+53 Slika prirejena po: IPCC (2021): Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth 
+Assessment Report of the Intergovernmental Panel on Climate Change, dostopno na www.ipcc.ch/report/ar6/wg1/. 
+54 IPCC (2019): Special Report on the Ocean and Cryosphere in a Changing Climate. Dostopno prek www.ipcc.ch/srocc/home/.  
+55 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+56 Slika prirejena po: IPCC (2021): Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth 
+Assessment Report of the Intergovernmental Panel on Climate Change, dostopno prek www.ipcc.ch/report/ar6/wg1/. 
+
+
+ 
+ 
+ 
+ 
+ 
+21 
+ 
+pomembno vpliva na globalni podnebni sistem, a vseh posledic njegovega i zginotja 
+znanstveniki za zdaj ne znajo napovedati.57 58 
+Podnebne spremembe (delno prek sprememb v kriosferi) vplivajo tudi na svetovno morje 
+(oceane):59 
+ 
+ 
+Slika 2.3: Shematski prikaz ključnih elementov in sprememb v svetovnem morju in kriosferi ter povezav med njimi 
+prek izmenjave toplote, vode in CO260 
+ 
+• Oceani postajajo bolj kisli.  
+S povečanjem vsebnosti CO2 v ozračju se v zadnjih desetletjih povečuje tudi vsebnost 
+CO2 v morski vodi in kislost oceanov . Ko se CO 2 raztaplja v morski vodi in tvori 
+ogljikovo kislino, voda postaja bolj kisla (vrednost pH se znižuje). V zadnjih 200 letih 
+so svetovna morja postala z a 30 % bolj kisla. 61 Takšna relativno hitra sprememba 
+morskemu življenju, ki se je razvilo v milijonih let stabilnega pH, ne daje zadosti časa 
+za prilagajanje (lupine nekaterih morskih živali se že topijo v bolj kisli vodi). Pričakuje 
+se, da bo imelo zakis ljevanje dramatične učinke na morske ekosisteme, npr. 
+zmanjšanje biotske raznovrstnosti.62 
+ 
+57 https://phys.org/news/2019-11-arctic-ocean-ice-free-year.html 
+58 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+59 IPCC (2019): Special Report on the Ocean and Cryosphere in a Changing Climate. Dostopno prek www.ipcc.ch/srocc/home/. 
+60 Slika prirejena po: IPCC (2019): Special Report on the Ocean and Cryosphere in a Changing Climate, dostopno prek 
+www.ipcc.ch/srocc/home/. 
+61 https://ocean.si.edu/ocean-life/invertebrates/ocean-acidification 
+62 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+
+
+ 
+ 
+ 
+ 
+ 
+22 
+ 
+ 
+Slika 2.4: Povečanje vsebnosti CO2 v ozračju in morski vodi ter povečanje kislosti oceanov63 
+ 
+• Oceani se ogrevajo in njihova gladina se zvišuje.  
+Globalna povprečna gladina oceanov se je od začetka 20. stoletja dvignila za 0,2  m.64 
+Morska gladina se na svetovni ravni dviga zar adi dveh vzrokov, povezanih s 
+podnebnimi spremembami – dotoka vode zaradi taljenja ledenikov in kopenskih 
+ledenih pokrovov Grenlandije in Antarktike ter raztezanja morske vode zaradi njenega 
+ogrevanja. Oceani namreč danes posrkajo večino odvečne energije, ki nastaja zaradi 
+podnebnih sprememb, in njihova temperatura se zvišuje. Zaradi ogrevanja morske 
+vode se tudi zmanjšuje količina kisika v oceanih, kar še povečuje negativne vplive 
+zakisljevanja morske vode na ekosistem in življenje v morju, od katerega je močno 
+odvisen tudi človek.  
+Po napovedih se bo gladina morja na svetovni ravni zaradi ogrevanja ozračja in 
+oceanov dvigovala še več stoletij in hitreje kot danes. Na višino dviga morske gladine 
+vplivajo tudi različni lokalni dejavniki, pri čemer za večino obale Evrope in tudi našega 
+morja podatki kažejo, da dvig morja sledi svetovnim spremembam gladine morja, ki 
+znaša 3–4 centimetre na desetletje.  
+ 
+63 Slika prirejena po: https://oceanacidification.noaa.gov/OurChangingOcean.aspx  
+64 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne osnove in 
+stanje v Sloveniji. Dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+vsebnost CO2 v ozračju (ppm) 
+vsebnost CO2 v morski vodi 
+ 
+pH morske vode 
+leto 
+
+ 
+ 
+ 
+ 
+ 
+23 
+ 
+ 
+Slika 2.5: Dvig gladine svetovnega morja od konca 19. stoletja65 
+Podnebne spremembe in njihove posledice v okolju vplivajo tudi na ljudi ter na živalske in 
+rastlinske vrste: 
+• Pogostejši in močnejši ekstremni vremenski dogodki  (z izjemo nizkih temperatur in 
+deloma snega)  ter dvig morske gladine povzročajo izgubo imetja in gospodarsko 
+škodo. Čedalje več ljudi je prisiljenih zapustiti svoje domove na prizadetih območjih 
+zaradi pomanjkanja pitne vode in izpada kmetijskih pridelkov ter iskati primernejši 
+prostor, kjer bi si lahko zagotovili ustrezne življenjske pogoje. Podnebne spremembe 
+in okoljski dejavniki bodo v prihodnjih desetletjih prizadeli milijone ljudi in gospodinjstev 
+ter predvidoma postali pre vladujoči vzrok za razseljevanje in migracije, okoljsko 
+razseljene osebe pa največja skupina beguncev.  
+• Podnebne spremembe bodo vplivale na zdravje in varnost ljudi, pri čemer bodo najbolj 
+izpostavljene skupnosti, ki so že ranljive na podnebno pogojene zdr avstvene vplive, 
+kot so npr. nezadostna oskrba s hrano ali s hrano in vodo povezane bolezni. Grozijo 
+tudi bolezni, ki se bodo razširile na območjih, kjer jih prej ni bilo. Predvsem bodo 
+podnebne spremembe povečale tveganje za tiste nalezljive bolezni, ki s e širijo s 
+komarji, klopi in drugimi žuželkami, ter za pojav novih rastlin z visoko alergenim 
+cvetnim prahom. Zaradi vročin skih valov in posrednih vplivov vročine (npr. suš  in 
+gozdnih požarov ) že danes umre več ljudi kot med vsemi drugimi skrajnimi 
+vremenskimi pojavi skupaj.66 
+• Izguba biotske raznovrstnosti 
+Nekatere rastline zaradi povečane vsebnosti CO 2 v ozračju sicer hitreje rastejo in 
+učinkoviteje uporabljajo vodo. Vendar pa višje temperature in spremenjeni podnebni 
+vzorci spreminjajo tudi območja, kjer rastline in živali uspevajo najbolje, zato se 
+premikajo rastlinski pasovi in meje rastlinskih višinskih pasov. Pri preseljevanju lahko 
+nove vrste ogrožajo in jemljejo življenjski prostor starim. Na splošno se ekosistemi 
+ 
+65 Slika prirejena po: https://climate.nasa.gov/system/charts/12_seaLevel_left.gif  
+66 https://news.un.org/en/story/2021/09/1098662 
+Sprememba višine morske gladine 
+leto 
+
+ 
+ 
+ 
+ 
+ 
+24 
+ 
+hitrim spremembam težko prilagajajo in lahko tudi propadejo.67 Podnebne spremembe 
+so med najpomembnejšimi vzroki za izgubo biotske raznovrstnosti.  
+Čeprav se je podnebje spreminjalo v vsej zgodovini planeta, pa je 
+posebnost opaženih podnebnih sprememb v zadnjem stoletju njihova 
+velika hitrost, ki ekosistemom in človeški družbi otežujejo prilagajanje.68  
+Pomembni so tudi dejavniki, ki povzročajo spremembe. Če so bili v 
+Zemljini zgodovini to naravni (astronomski in geološki) dejavniki, sta 
+glavna dejavnika hitrih sprememb v zadnjem stoletju presežek 
+toplogrednih plinov in sprememba rabe tal. Oba dejavnika sta posledica 
+človekove dejavnosti.69 
+2.1 Učinki globalnega ogrevanja za 1,5 °C in za 2 °C glede 
+na predindustrijsko raven 
+V okviru prizadevanj za krepitev globalnega odziva na grožnjo podnebnih sprememb, 
+trajnostni razvoj in odpravo lakote je Medvladni odbor za podnebne spremembe leta 2018 
+izdal posebno Poročilo o vplivu globalnega ogrevanja za 1,5 °C glede na predindustrijsko 
+raven. Poročilo se osredotoča na regionalne in globalne učinke ogrevanja prizemnega sloja 
+ozračja za 1,5 °C glede na obdobje 1850–1900 ter učinke primerja s scenarijem ogrevanja za 
+2 °C.70 
+V njem ugotavljajo, da se bodo s spremembami podnebja povezana tveganja za zdravje, 
+imetje, varnost oskrbe s hrano in vodo, var nost ljudi in gospodarski razvoj občutno povečala 
+že ob globalnem ogrevanju za 1,5 °C, še bolj pa pri povišanju temperature za 2 °C. 
+Globalna temperatura se bo še naprej dvigovala vsaj do sredine stoletja ne 
+glede na uspešnost blaženja podnebnih sprememb. Globalno ogrevanje 
+za 1,5 °C in 2 °C v primerjavi s predindustrijskim obdobjem bo v 21. 
+stoletju preseženo, razen če bi v naslednjih desetletjih prišlo do velikega 
+zmanjšanja izpustov CO2 in drugih toplogrednih plinov.71 
+Upoštevanje meje 1,5 °C bi pomenilo, da bi bilo manj ljudi izpostavljenih vročinskim valovom,  
+suši, močnim deževjem, neurjem in poplavam. Pomenilo bi tudi manjše tveganje za prelomne 
+ 
+67 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+68 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+69 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+70 IPCC (2018): Special Report on the impacts of global warming of 1.5°C above preindustrial levels and related global greenhouse gas 
+emission pathways, in the context of strengthening the global response to the threat of climate change, sustainable development, and 
+efforts to eradicate poverty, dostopno prek www.ipcc.ch/sr15/.  
+71 IPCC (2021): Climate Change 2021 The Physical Science Basis Summary for Policymakers. Dostopno na 
+www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM_final.pdf 
+
+ 
+ 
+ 
+ 
+ 
+25 
+ 
+dogodke, kot je izguba polarnega ledu, ki lahko povzročijo obsežne, nena dne in nepovratne 
+spremembe v podnebnem sistemu.  
+V primerjavi s scenarijem 2 °C bi omejitev ogrevanja na 1,5 °C pomenila manjše vplive na 
+kopenske, sladkovodne in obalne ekosisteme ter ohranitev več njihovih storitev, od katerih je 
+odvisno človeštvo. Omej itev ogrevanja na 1,5 °C bi pred izumrtjem rešila več svetovnih 
+rastlinskih in živalskih vrst, pomenila bi tudi manjšo nevarnost gozdnih požarov in širjenja 
+invazivnih vrst.  
+V primerjavi z 2 °C bi ogrevanje pod 1,5 °C pomenilo 10 cm manj dviga morske glad ine do 
+leta 2100, s čimer bi bilo prizadetih manj ljudi in ekosistemov na otokih, morskih obalah in ob 
+rečnih deltah. Počasnejši dvig morske gladine bi povečal možnosti za izvedbo ukrepov 
+prilagajanja, vključno z obnovo naravnih obalnih ekosistemov in krepitvijo infrastrukture. 
+Omejitev globalnega ogrevanja na 1,5 °C bi v primerjavi s scenarijem 2 °C zmanjšala potrebe 
+po prilagajanju na podnebne spremembe. Pomenila bi tudi znatno zmanjšanje tveganj za 
+države z nizkimi prihodki, skupnosti, ki živijo v revščini, in ranljive skupine. Za več sto milijonov 
+bi se zmanjšalo število ljudi, ki bodo zaradi sprememb podnebja izpostavljeni revščini. 
+Posebno poročilo kaže, da je ogrevanje za 2 °C veliko bolj nevarno, kot je bilo napovedano 
+še v petem poročilu IPCC iz leta 2014. Podnebna znanost opozarja, da omejitev globalnega 
+ogrevanja na 2 °C ni varen ali sprejemljiv cilj. 
+V zadnjih 30 letih povprečna temperatura Zemljinega površja narašča za približno 0,2 °C na 
+desetletje, torej bi ob nadaljevanju tega trenda (in  ob upoštevanju nezanesljivosti podnebnih 
+modelov) dvig temperature za 1,5 °C glede na predindustrijsko raven dosegli že med letoma 
+2030 in 2052.  
+Omejitev globalnega ogrevanja na 1,5 ˚C glede na predindustrijsko raven 
+zahteva zelo hitro zmanjšanje izpustov CO2 in drugih dolgoživih 
+toplogrednih plinov.72 To predstavlja znaten politični, tehnološki, 
+gospodarski, socialni in institucionalni izziv, ki pa z odlašanjem odločnega 
+ukrepanja postaja čedalje večji.73 
+  
+ 
+72 Dolgoživi toplogredni plini (CO2, N2O, nekateri F-plini) so posebej pomembni za globalno ogrevanje, saj imajo v ozračju dolgo 
+življenjsko dobo (lahko tudi tisoče let) in je za njihovo naravno odstranitev iz ozračja potrebnega veliko časa. 
+73 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+
+ 
+ 
+ 
+ 
+ 
+26 
+ 
+2.2 Podnebne spremembe bodo postajale prevladujoči 
+vzrok za razseljevanje in migracije 
+Okolje je že od nekdaj pomemben dejavnik ali razlog za morebitno selitev in v tem smislu 
+sodobne migracije zaradi okolja niso nič novega. Ljudje se že od nekdaj selimo v iskanju 
+primernega prostora, kjer bi si lahko zagotovili ustrezne življenjske pogoje. Iskanje primernega 
+podnebja in kmetijskih površin za pridelavo hrane je bil razlog selitev pred tisočletji in ostaja 
+med razlogi za selitev tudi danes. Toda v nasprotju s preteklostjo so sodobne okoljske 
+migracije predvs em posledica človekovih dejavnosti oziroma uveljavljenega modela 
+ekonomskega razvoja in upravljanja naravnih virov, ki negativno vplivata na okolje ter vodita 
+v podnebne spremembe in degradacijo okolja.  
+Podnebne spremembe in okoljski dejavniki bodo v prihodnjih desetletjih prizadeli milijone ljudi 
+in gospodinjstev ter predvidoma postali prevladujoči vzrok za razseljevanje in migracije, 
+okoljsko razseljene osebe pa največja skupina beguncev. Ekstremni vremenski dogodki ter 
+postopne spremembe v okolju, kot so dvig morske gladine in erozija tal, so in bodo ljudi vodile 
+v razmere, v katerih bodo morali zapustiti svoj dom in – začasno ali trajno – iskati novo 
+življenjsko okolje.74 
+V letu 2018 je bilo po podatkih Centra za nadzor nad notranjimi migracijami 16 mil ijonov 
+razseljenih oseb zaradi vzrokov, povezanih s podnebjem in vremenskimi katastrofami. 
+Ekstremni vremenski dogodki so danes poleg konfliktov in nasilja najpomembnejši razlog za 
+razseljevanje. Do leta 2050 naj bi število okoljsko razseljenih oseb narasl o na več deset 
+milijonov ljudi.75  
+Možne posledice množičnih migracij so ogroženo zagotavljanje izobraževalnih in zdravstvenih 
+storitev (npr. cepljenja), urbanizacija (preseljevanje ljudi iz podeželskih v urbana okolja) ter s 
+tem povezan povečan pritisk na  urbano infrastrukturo in javne storitve (npr. zagotavljanje 
+primernih stanovanj in oskrbe s čisto vodo). Povečana gostota prebivalstva, poslabšanje 
+socialne slike in tekmovanje za naravne vire lahko povečajo nevarnost za konflikte in širjenje 
+nalezljivih bolezni ter ogrozijo družbeno in gospodarsko stabilnost.76 
+Napovedi števila migrantov so nezanesljive, saj so odvisne od več dejavnikov. Dejansko 
+število bodočih okoljsko razseljenih oseb bo odvisno predvsem od tega, kateri podnebni 
+scenarij se bo uresničil, kakšne strategije prilagajanja na podnebne spremembe bodo 
+izvedene ter kakšen bo družbeni razvoj z ekonomskimi, demografskimi in političnimi dejavniki, 
+ki so tesno povezani z razlogi za razseljevanje. Med najbolj ogroženimi skupnostmi na 
+svetovni ravni so male afriške, karibske in  pacifiške otoške države, od koder se bo zaradi 
+dviga morske gladine, do katerega bo prišlo po vseh scenarijih izpustov toplogrednih plinov, 
+moralo preseliti skoraj 40 milijonov ljudi.77 Dvig morske gladine ogroža tudi velemesta, kot so 
+ 
+74 Umanotera (2016): Okoljske migracije, Vprašanje varnosti ali pravičnosti? Dostopno na www.umanotera.org/wp-
+content/uploads/2016/03/Okoljske-migracije-vpra%C5%A1anje-varnosti-ali-pravi%C4%8Dnosti.pdf. 
+75 IDMC (2019): Global Report on Internal Displacement 2019. Dostopno na www.internal-displacement.org/global-report/grid2019/. 
+76 International Organization for Migration (2008): Migration and Climate Change. Dostopno na 
+www.ipcc.ch/apps/njlite/srex/njlite_download.php?id=5866.  
+77 IPBES (2019): Summary for policymakers of the global assessment report on biodiversity and ecosystem services of the 
+Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services. Dostopno na www.ipbes.net/global-assessment-
+report-biodiversity-ecosystem-services. 
+
+ 
+ 
+ 
+ 
+ 
+27 
+ 
+New York, Šanghaj, Hongkong, Osaka, Aleksandrija, Miami, Haag, Rio de Janeiro itd., s 
+skupno več kot 275 milijoni prebivalcev. 
+ 
+ 
+Slika 2.6: Dvig morske gladine ogroža prebivalce otokov in nizkoležečih obalnih predelov78 
+ 
+Pretekle raziskave med osebami, ki so jih spremembe v okolju prizadele do te mere, da so ali 
+bodo primorani v selitev, so pokazale, da se večina ljudi ne želi preseliti ali pa se preselijo na 
+najbližjo varno točko, pogosto oddaljeno le nekaj kilometrov od prvotnega bivališča. Vendar 
+pa bodo številna območja planeta postala trajno nenaseljiva in ljudje, ki danes živijo na teh 
+območjih, bodo prisiljeni v selitev tudi v bolj oddaljena območja. Nekateri bodo prišli tudi v 
+Slovenijo. 
+2.3 Podnebne spremembe ogrožajo biotsko raznovrstnost 
+Podnebje se je spreminjalo v vsej Zemljini zgodovini in skladno s tem so se razvijale, 
+prilagajale in propadale živalske in rastlinske vrste ter ekosistemi na našem planetu. Hitrost, 
+s katero se spreminja podnebje od druge po lovice 20. stoletja naprej, pa ogroža zmožnost 
+živali in rastlin, da se pravočasno prilagodijo s selitvami na geografske širine oziroma 
+nadmorske višine s primernejšim podnebjem (za selitev potrebujejo še posebej veliko časa 
+rastline), evolucijo in spremem bami vedenjskih vzorcev. Obstaja nevarnost, da se hitrim 
+spremembam podnebja in njihovim posledicam številne vrste ne bodo zmogle zadosti hitro 
+prilagoditi in bodo zato izumrle. Med ogroženimi vrstami so metulji, korale, morske želve, ribe 
+(atlantska trska), pingvini, tjulnji in severni medvedi.79 Zdravje ekosistemov dodatno ogrožajo 
+s podnebnimi spremembami povezane čedalje pogostejše in močnejše motnje ekosistemov, 
+kot so suše, orkanski vetrovi, požari in izbruhi škodljivcev, v oceanih pa zakisljevanje. 80 
+ 
+78 Vir slike: www.sciencenewsforstudents.org/article/explainer-why-sea-level-rise-rate-varies-globally 
+79 https://onekindplanet.org/top-10/10-adorable-animals-threatened-by-climate-change/ 
+80 IPCC (2014): Climate Change 2014: Synthesis Report. Contribution of Working Groups I, II and III to the Fifth Assessment Report of 
+the Intergovernmental Panel on Climate Change, IPCC, Ženeva, Švica. 
+
+
+ 
+ 
+ 
+ 
+ 
+28 
+ 
+ 
+Slika 2.7: Hitra sprememba kislosti svetovnih morij morskemu življenju, ki se je razvilo v milijonih let stabilnega 
+pH, ne daje zadosti časa za prilagajanje81 
+ 
+Znanstveniki opozarjajo, da se bo številčnost populacij večine kopenskih vrst znatno skrčila, 
+tudi če ogrevanje omejimo na 1,5 ali 2 °C. V naslednjih desetletjih več kot milijonu živalskih in 
+rastlinskih vrst grozi izumrtje, kar je največ v človeški zgodov ini.82 Med najpomembnejše 
+dejavnike, ki prispevajo k upadu biotske raznovrstnosti, so uvrščene podnebne spremembe, 
+njihov vpliv pa se bo po napovedih še zaostril.  
+Od zdravja in trdnosti ekosistemov je odvisno preživetje človeštva in drugih vrst. Podnebne 
+spremembe z ogrožanjem biotske raznovrstnosti spodjedajo temelje gospodarstva, virov 
+preživetja družin, varnosti oskrbe s hrano, zdravja in kakovosti življenja povsod po svetu. 
+Posledice že čutijo številni pomembni gospodarski sektorji: ribištvo npr. trpi zaradi 
+zmanjševanja staleža morskih organizmov (največji upad se pričakuje v tropskih predelih)  ,83 
+svetovni turizem se spoprijema s posledicami degradacije koralnih grebenov, gozdov in favne 
+v savanah, zaradi katerih potujejo milijoni turistov. 84 Zmanjšanje biotske raznovrstnosti bo 
+vplivalo na dostopnost virov hrane, saj bo prehranjevalna veriga pretrgana, s hitrim 
+spreminjanjem podnebja grozi tudi zmanjšanje populacij in izumrtje nekaterih vrst 
+opraševalcev kmetijskih rastlin, brez katerih te ne morejo proizvajati sadežev in semen. 85 
+Negativni trendi zmanjševanja biotske raznovrstnosti naj bi se nadaljevali do sredine 21. 
+stoletja in še naprej po vseh scenarijih družbenogospodarskega razvoja, razen tistega, ki 
+predvideva spremembe na področjih pridobivan ja energije, pridelave hrane, prometa in 
+industrijskih procesov, ki bi povzročile močno zmanjšanje izpustov toplogrednih plinov. 
+ 
+81 Vir slike: NOAA National Ocean Service. 
+82 IPBES (2019): Global Assessment Report on Biodiversity and Ecosystem Services. Dostopno na www.ipbes.net/global-assessment-
+report-biodiversity-ecosystem-services. 
+83 Food and Agriculture Organization of the United Nations (2018): Impacts of climate change on fisheries and aquaculture. Dostopno 
+na www.fao.org/3/i9705en/i9705en.pdf. 
+84 University of Cambridge (2014): Climate Change: Implications for Tourism - Key Findings from the Intergovernmental Panel on 
+Climate Change Fifth Assessment Report. Dostopno na www.cisl.cam.ac.uk/business-action/low-carbon-transformation/ipcc-climate-
+science-business-briefings/pdfs/briefings/IPCC_AR5__Implications_for_Tourism__Briefing__WEB_EN.pdf. 
+85 Food and Agriculture Organization of the United Nations (2012): Potential Effects of Climate Change on Crop Pollination. Dostopno 
+na www.fao.org/fileadmin/templates/agphome/documents/Biodiversity-pollination/Climate_Pollination_17_web__2_.pdf 
+
+
+ 
+ 
+ 
+ 
+ 
+29 
+ 
+2.4 Vpliv podnebnih sprememb na zdravje 
+Kako ob podnebnih spremembah zavarovati zdravje ljudi, bo vse pomembnejša tema 21. 
+stoletja. Dvig temperatur in vse pogostejši ekstremni vremenski dogodki povečujejo tveganja 
+za poškodbe, bolezni in smrt. Podnebne spremembe na zdravje vplivajo tudi prek sprememb 
+pojavljanja nalezljivih bolezni, prenosa endemnih bolezni zaradi migracijskih tokov,  širjenja 
+alergenih vrst rastlin, glodavcev in mrčesa ter onesnaženosti zraka. Ne nazadnje pa tudi prek 
+učinkov na družbo: begunstva, poslabša nja oskrbe s hrano in pitno vodo, duševnih motenj, 
+nasilja, stresa na delovnem mestu in večanja revščine. Najranljivejši so pri tem otroci, starejši, 
+bolni, prebivalci območij z večjim tveganjem za vplive podnebnih sprememb (npr. poplavnih 
+območij) in revni.  
+Svetovna zdravstvena organizacija ocenjuje, da zaradi posledic podnebnih sprememb že 
+danes predvsem v državah v razvoju umre več kot 140.000 ljudi na leto, med letoma 2030 in 
+2050 pa napoveduje na svetovni ravni dodatnih 250.000 smrti letno, predvsem zaradi 
+podhranjenosti otrok, malarije, črevesnih nalezljivih bolezni in vročinskega stresa pri 
+starejših.86  
+Naraščajoče temperature in spremembe padavinskih vzorcev bodo v prihodnosti zmanjšale 
+proizvodnjo osnovnih živil v številnih najrevnejših regijah sveta. To bo povečalo razširjenost 
+podhranjenosti, ki v državah z nizkimi dohodki ter nekaterimi državami s srednjimi dohodki že 
+zdaj povzroča 3,1 milijona smrti otrok vsako leto.87 
+Bolezni so močno povezane z lokalnimi značilnostmi podnebja. Globalne spremembe 
+temperature in padavin že razširjajo prenašalce bolezni na območja, kjer jih prej ni bilo. 
+Povečujejo se tveganja za nalezljive bolezni, ki jih prenašajo komarji, klopi in druge žuželke, 
+ter za širjenje tropskih bolezni tudi po Evropi.  
+Podnebne spremembe bodo prizadele večino skupnosti na planetu, nekatere pa so bolj 
+ranljive kot druge. Ljudje, ki živijo v majhnih otoških državah v razvoju in drugih obalnih regijah, 
+velikih obalnih mestih ter gorskih in polarnih regijah, so še posebej ranljivi. Otroci – zlasti 
+otroci, ki živijo v revnih državah, so med najranljivejšimi. Prav tako tudi starejši in ljudje, ki 
+trpijo zaradi različnih bolezni. Območja s šibko zdravstveno infrastrukturo – predvsem v 
+državah v razvoju – se bodo brez pomoči najmanj sposobna odzvati na te grožnje. 
+  
+ 
+86 www.who.int/health-topics/climate-change#tab=tab_1 
+87 Blackm, R. E., et al. (2013): Maternal and child undernutrition and overweight in low-income and middle-income countries, The 
+Lancet, vol. 382, št. 9890.  
+ 
+
+ 
+ 
+ 
+ 
+ 
+30 
+ 
+3 Podnebje v prihodnosti 
+Prihodnje podnebne razmere bodo zelo odvisne od razvoja družbe  in gospodarstva v 21. 
+stoletju (stopnje naraščanja prebivalstva, gospodarskega in tehnološkega razvoja, uspešnosti 
+ukrepov za omejevanje izpustov toplogrednih plinov) in s tem povezane dodatne količine 
+izpustov toplogrednih plinov, ki jih bo človeštvo pov zročilo v naslednjih desetletjih, ter od 
+občutljivosti Zemljinega podnebnega sistema na te izpuste. 
+Za šesto poročilo IPCC o podnebnih spremembah  (AR6) je znanstvena skupnost določila 
+nabor petih ilustrativnih scenarijev razvoja družbe in posledičnih izpustov toplogrednih plinov 
+v 21. stoletju . Rezultati so podani kot sprememb e v bližnji prihodnosti (2021 –2040), sredini 
+(2041–2060) in koncu stoletja (2081 –2100) glede na obdobje 1850 –1900, ki je primerljivo z 
+obdobjem pred industrijsko revolucijo. Scenariji se začnejo v letu 2015 in so naslednji:  
+- scenarija z velikimi in zelo velikimi izpusti toplogrednih plinov (SSP3-7.0 in SSP5-8.5) 
+in izpusti CO2, ki približno podvojijo zdajšnjo raven do leta 2100 oz. 2050,  
+- scenarij s srednjimi izpusti  toplogrednih plinov (SSP2-4.5) in izpusti CO 2 na sedanji 
+ravni do sredine stoletja, nato pa z njihovim padcem, in  
+- scenarija z zelo majhnimi in majhnimi izpusti toplogrednih plinov in izpusti CO2, ki se 
+zmanjšujejo do ničelne neto vrednosti okrog leta 2050 ali po n jem, čemur bi sledili 
+negativni neto izpusti CO2 (SSP1-1.9 in SSP1-2.6). 88  
+ 
+Slika 3.1: Potek bodočih letnih izpustov CO2 (levo) in izbranih ostalih dejavnikov podnebnih sprememb (desno) 
+glede na pet scenarijev izpustov toplogrednih plinov 89 
+ 
+88 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne osnove in 
+stanje v Sloveniji. Dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+89 Vir slike: Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne 
+osnove in stanje v Sloveniji, dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+
+
+ 
+ 
+ 
+ 
+ 
+31 
+ 
+Izpusti med scenariji so različni zaradi različnih družbeno -ekonomskih predpostavk, stopnje 
+blaženja podnebnih sprememb in stopnje izp ustov onesnaževal v zrak , ki se imenujejo p oti 
+skupnega družbeno-ekonomskega razvoja (angl. Shared Socioeconomic Pathways - SSP): 
+- SSP1: Trajnostni razvoj (zelena pot). Svet bi po tem scenariju postopoma, vendar 
+odločno krenil po poti trajnostnega razvoja, izboljšanja izobrazbe in zdravstvenega 
+sistema, gospodarski razvoj pa bi poudarjal manjšo materialno porabo in energijsko 
+intenzivnost. 
+- SSP2: Srednja pot. Svet bi sledil poti, kjer družbeni, gospodarski in tehnološki trendi 
+ne bi preveč odstopali od dosedanjih zgodovinskih. Globalne in nacionalne inštitucije 
+bi le počasi dosegle cilje trajnostnega razvoja. Razvoj in povečanje dohodka bi 
+napredovala enakomerno. 
+- SSP3: Regionalno tekmovanje (skalnata pot). Nacionalizem, skrb glede konkure nce 
+in varnosti ter regionalni konflikti bi prisilili države k osredotočanju na težave na največ 
+regionalni ravni, na račun širšega razvoja. Gospodarski razvoj bi bil počasen, poraba 
+materialno intenzivna, neenakost bi se ohranjala ali poslabšala. 
+- SSP4: Ne enakost (ločene poti). Velika neenakost vlaganj v človeški kapital ter 
+nesorazmernost v gospodarskem razvoju in političnem vplivu bi vodili do povečanja 
+neenakosti med državami in znotraj njih. Med razvitimi in nerazvitimi državami bi se 
+neenakost povečevala. V prvih bi bil tehnološki razvoj visok, v drugih bi gospodarstvo 
+temeljilo na delovno intenzivni sili in nizko razviti tehnologiji. Energetski sektor bi vlagal 
+tako v ogljično intenzivna goriva (premog, nafta) kot tudi v nizkoogljične vire. 
+- SSP5: Razvoj s fosilnimi gorivi (vožnja po avtocesti). Svet bi kot pot k trajnostnemu 
+razvoju prepustil skrb tekmovalnemu trgu, inovacijam in sodelovanju med družbami. 
+Vlaganja v zdravstvo in izobraževanje bi bila visoka, po drugi strani pa bi še vedno 
+izkoriščali tudi fosilna goriva, energijsko in materialno potraten življenjski slog bi se 
+razširil po vsem svetu. Svetovno gospodarstvo bi pospešeno raslo. 90 
+3.1 Možen dvig globalne temperature do konca 21. stoletja 
+Globalna temperatura se bo dvigovala še naprej najmanj do sredine stoletja po vseh scenarijih 
+izpustov toplogrednih plinov.91  
+Razlike v ocenah dviga globalne temperature za različne scenarije izpustov se s časovno 
+oddaljenostjo povečujejo. Za konec stoletja (2081 –2100) se srednja ocena dviga globalne 
+ 
+90 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne osnove in 
+stanje v Sloveniji. Dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+91 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne osnove in 
+stanje v Sloveniji. Dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+
+ 
+ 
+ 
+ 
+ 
+32 
+ 
+temperature glede na predindustrijsko obdobje giblje med 1,4 °C po scenariju z zelo majhnimi 
+in 4,4 °C po scenariju z zelo velikimi izpusti toplogrednih plinov.92     
+ 
+Preglednica 3.1: Spremembe globalne temperature do konca 21. stoletja (glede na obdobje 1850 –1900) za pet 
+scenarijev izpustov toplogrednih plinov 93 
+Globalno ogrevanje za 1,5 °C in 2 °C nad predindustrijsko ravnijo bo v 21. 
+stoletju preseženo, razen če v naslednjih desetletjih močno zmanjšamo 
+izpuste CO2 in drugih toplogrednih plinov.94 
+Globalno ogrevanje se bo nadaljevalo tudi po koncu 21. stoletja, razen v primeru hitrega in 
+učinkovitega zmanjšanja izpustov toplogrednih plinov, po katerem se bo temperatura ustalila 
+in nato počasi padala.95 
+3.2 Projekcije sprememb v podnebnem sistemu 
+Veliko sprememb v podnebnem sistemu postaja s povečevanjem globalne temperature večjih. 
+Povečala se bosta pogostost in jakost vročinskih izjemnih dogodkov, morskih vročinskih valov, 
+obilnih padavin, kmetijskih suš površinskega sloja tal v nekaterih regijah ter delež intenzivnih 
+tropskih ciklonov. Na globalni ravni bodo enodnevne ekstremne padavine za vsako stopinjo 
+Celzija globalnega ogrevanja za okrog 7 % obilnejše.96 
+ 
+92 IPCC (2021): Climate Change 2021 The Physical Science Basis Summary for Policymakers. Dostopno na 
+www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM_final.pdf 
+93 Vir tabele: Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne 
+osnove in stanje v Sloveniji, dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+94 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne osnove in 
+stanje v Sloveniji. Dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+95 IPCC (2014): Climate Change 2014: Synthesis Report. Contribution of Working Groups I, II and III to the Fifth Assessment Report of 
+the Intergovernmental Panel on Climate Change, Ženeva, Švica. 
+96 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne osnove in 
+stanje v Sloveniji. Dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+
+
+ 
+ 
+ 
+ 
+ 
+33 
+ 
+Dolgoročne podnebne spremembe in globalno ogrevanje bodo imeli velik vpliv tudi na oceane 
+in kriosfero. Okrepilo se bo odmrzovanje permafrosta , večja bo izguba snežne odeje, 
+kopenskega ledu in arktičnega morskega ledu. Arktika bo verjetno brez  morskega ledu v 
+mesecu septembru vsaj enkrat pred letom 2050 po vseh scenarijih izpustov toplogrednih 
+plinov, pri močnem ogrevanju pa pogosteje.97 
+Veliko sprememb zaradi preteklih in bodočih izpustov toplogrednih plinov 
+je nepovratnih v obdobju naslednjih stoletij in tisočletij, še posebej 
+spremembe v oceanih, ledenih pokrovih in gladini morij.  
+ 
+97 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne osnove in 
+stanje v Sloveniji. Dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+
+ 
+ 
+ 
+ 
+ 
+34 
+ 
+ 
+Slika 3.2: Izbrani kazalniki globalnih podnebnih sprememb za pet scenarijev izpustov toplogrednih plinov: 
+sprememba temperature zraka (a), septembrska površina arktičnega morskega ledu (b), pH na površju oceanov 
+(c) ter sprememba gladine svetovnih morij glede na leto 1900 do konca 21. stoletja (č) in do leta 2300 (d) 98 
+ 
+98 Vir slike: Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne 
+osnove in stanje v Sloveniji, dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+
+
+ 
+ 
+ 
+ 
+ 
+35 
+ 
+Dvig gladine morja na svetovni ravni vpliva tudi  na pogostost pojavljanja ekstremnih višin 
+morske gladine. Na večini svetovnih obalnih območij se bo pogostost pojavov ekstremnih višin 
+morske gladine in s tem nevarnost poplav do konca 21. stoletja močno povečala. Pojavi visoke 
+gladine morja, ki so se v preteklosti na lokalni ravni dogajali enkrat na 100 let, bodo do konca 
+stoletja predvidoma postali vsakoletni pojav. Večina tropskih otokov in številna obalna 
+velemesta pa bodo tveganju vsakoletnih poplav izpostavljeni že pred letom 2050.99  
+ 
+Slika 3.3: Ekstremne višine morske gladine in povprečje njihovih ponovitev v bližnji preteklosti (1986–2005) in 
+prihodnosti (2080–2100)100 
+Ocene pogostosti pojavljanja ekstremnih višin morske gladine v prihodnosti te meljijo na 
+lokaciji in scenariju izpustov toplogrednih plinov. V severnem Jadranu se bo v primeru 
+scenarija z velikimi izpusti toplogrednih plinov v 21. stoletju pogostost poplav obalnih območij 
+povečala za faktor 100 –200. Po drugi strani bo v primeru scen arija uspešnega omejevanja 
+izpustov pogostost poplav narasla zgolj za faktor 10 –50. Nekatera obalna območja v Evropi 
+(npr. v Španiji in Italiji) bodo poplavam ob pojavih visokih gladin morja izpostavljena 500-krat 
+pogosteje kot v preteklosti ne glede na uspešnost omejevanja izpustov toplogrednih plinov.101   
+ 
+99 IPCC (2019): Special Report on the Ocean and Cryosphere in a Changing Climate, dostopno prek www.ipcc.ch/srocc/home/. 
+100 Slika prirejena po: IPCC (2019): Special Report on the Ocean and Cryosphere in a Changing Climate, dostopno prek 
+www.ipcc.ch/srocc/home/. 
+101 European Environment Agency (2019), dostopno na https://www.eea.europa.eu/data-and-maps/figures/change-in-the-frequency-of.  
+
+
+ 
+ 
+ 
+ 
+ 
+36 
+ 
+ 
+Slika 3.4: Ocene sprememb pogostosti poplavnih dogodkov v Evropi zaradi predvidenega dviga morske gladine 
+med letoma 2010 in 2100 za scenarija z nizkimi (RCP2.6) in visokimi (RCP8.5) izpusti toplogrednih plinov102 
+Projekcije spreminjanja mase evropskih ledenikov do konca 21. stoletja kažejo, da bodo 
+povprečne izgube mase ledenikov leta 2100 glede na leto 2015 velike. V evropskih Alpah in 
+Pirenejih, kjer prev ladujejo manjši ledeniki, bi lahko izguba mase ledenikov presegla 80 %, 
+kar pomeni, da bo večina ledenikov popolnoma izginila.103 
+Podnebne spremembe v prihodnosti bodo povečale obstoječe nevarnosti 
+in povzročile nova tveganja za naravne sisteme in človeštvo. Tveganja so 
+neenakomerno porazdeljena in so v splošnem večja za ljudi in skupnosti v 
+državah v razvoju.104  
+  
+ 
+102 Slika prirejena po: https://www.eea.europa.eu/data-and-maps/figures/change-in-the-frequency-of  
+103 Hock, R., et al., 2019: High Mountain Areas. In: IPCC Special Report on the Ocean and Cryosphere in a Changing Climate [H.-O. 
+Pörtner, et al. (eds.)]. Dostopno na https://www.ipcc.ch/srocc/chapter/chapter-2/  
+104 IPCC (2013): Summary for Policymakers. In: Climate Change 2013: The Physical Science Basis. Contribution of Working Group I to 
+the Fifth Assessment Report of the Intergovernmental Panel on Climate, Cambridge University Press, Cambridge, Velika Britanija, in 
+New York, NY, ZDA. 
+RCP2.6 RCP8.5
+Sprememba pogostosti poplavnih dogodkov v primeru 
+predvidenega dviga morske gladine v dveh podnebnih scenarijih
+
+ 
+ 
+ 
+ 
+ 
+37 
+ 
+4 Podnebne spremembe v Sloveniji  
+Po zaslugi državne meteorološke službe imamo v Sloveniji bogat arhiv podnebnih meritev, na 
+podlagi katerih strokovnjaki analizirajo spremenljivost slovenskega podnebja in ugotavljajo, 
+kako se globalne podnebne spremembe izražajo na podnebju v Sloveniji. Vseh meteoroloških 
+postaj, ki so kakorkoli in kadarkoli v Sloveniji merile meteorološke spremenljivke, 105 je bilo 
+skoraj 800, merilnih mest pa kar 1.800.106 Med nižinskimi postajami je najdaljši niz meritev za 
+Ljubljano in med gorskimi za Kredarico.107 
+ 
+Slika 4.1: Časovni niz meritev temperature meteorološke postaje Letališče Ljubljana - Brnik108 
+Oglejte si časovne nize meritev temperature  slovenskih meteoroloških postaj. 109 Poiščite 
+merilne postaje, ki so najbližje vašemu kraju, in si oglejte podatke o temperaturi zraka in 
+časovne trende. Se je povprečna temperatura zraka v vašem kraju spremenila?110 
+Agencija Republike Slovenije za okolje, ki je v Sloveniji odgovorna za spremljanje in 
+analiziranje stanja podnebja, je leta 2008 začela obsežen projekt Podnebna spremenljivost v 
+Sloveniji. V publikaciji Podnebna spremenljivost Slovenije v obdobju 1961 –2011, Značilnosti 
+podnebja v Sloveniji, so predstavili podatke o temperaturi zraka, višini padavin, višini novega 
+snega in višini snežne odeje, sončnem obsevanju, hitrosti in smeri vetra, referenčni  
+evapotranspiraciji (izhlapevanju), temperaturi vode in zračnem tlaku v obdobju 1961–2011.111  
+Podnebne spremembe v Sloveniji so zaznane zlasti pri temperaturi zraka. Ozračje pri tleh v 
+Sloveniji se je v zadnjih desetletjih ogrelo, povečalo se je število vročih in toplih dni, nekoliko 
+manj izrazito pa je upadlo število hladnih, mrzlih in ledenih dni. Ogrevajo se vsi letni časi.112 
+ 
+105 Meteorološke spremenljivke so npr. temperatura in vlažnost zraka, višina padavin, zračni tlak, hitrost in smer vetra, višina 
+novozapadlega snega, debelina snežne odeje, trajanje sončnega obsevanja. 
+106 Ministrstvo za kmetijstvo in okolje, Agencija Republike Slovenije za okolje (2012): Okolje, v katerem živimo. Dostopno na 
+www.arso.gov.si/o%20agenciji/knji%C5%BEnica/publikacije/Knjiga%20okolje%20zaslon.pdf.  
+107 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+108 http://meteo.arso.gov.si/met/sl/climate/diagrams/time-series/  
+109 http://meteo.arso.gov.si/met/sl/climate/diagrams/time-series/  
+110 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+111 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2017): Podnebna spremenljivost Slovenije v obdobju 1961–
+2011. 3, Značilnosti podnebja v Sloveniji. Dostopno na 
+meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/Znacilnosti%20podnebja%20splet.pdf.  
+112 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2017): Podnebna spremenljivost Slovenije v obdobju 1961–
+2011. 3, Značilnosti podnebja v Sloveniji. Dostopno na 
+meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/Znacilnosti%20podnebja%20splet.pdf. 
+
+
+ 
+ 
+ 
+ 
+ 
+38 
+ 
+V Sloveniji je bilo vsako od zadnjih treh desetletij toplejše od vseh predhodnih, razen desetletja 
+2001–2010, ki ni bilo statistično toplejše od desetletja 1991–2000.113 
+ 
+Slika 4.2: Povprečna temperatura zraka v Sloveniji za zadnjih sedem desetletij114 
+Slovenija se zaradi svojih geografskih značilnosti ogreva hitreje od 
+svetovnega povprečja. Medtem ko se je globalna temperatura v zadnjih 
+šestdesetih letih dvignila za približno 0,8 stopinje115, se je povprečna 
+temperatura zraka v Sloveniji dvignila za okoli 2 °C.116 
+ 
+Slika 4.3: Povprečna temperatura zraka v Sloveniji za zadnjih sedem desetletij 117 118 
+ 
+113 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne osnove in 
+stanje v Sloveniji. Dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+114 Vir slike: Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne 
+osnove in stanje v Sloveniji, dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+115 Globalna temperatura vsebuje tudi temperaturo nad območji oceanov. Nad kopnim je ogrevanje v splošnem vsepovsod večje od 
+globalnega, približno za dvakrat. 
+116 Dolinar, M.: Spremembe podnebja v Sloveniji. V: Gozd in podnebne spremembe – povzetki referatov Znanstvenega srečanja Gozd 
+in les, Ljubljana, 28. november 2019 (ur. Hojka Kraigher); založba Silva Slovenica, Gozdarski inštitut Slovenije, 2019. 
+117 Vir slike: Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne 
+osnove in stanje v Sloveniji, dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+118 Na sliki so z modro označeni podatki niza Berkeley Earth, z rdečo pa homogenizirani podatki ARSO. S tankima črtama so 
+predstavljene letne vrednosti, z debelejšima pa 11-letno drseče povprečje. Razlika v absolutnih vrednostih med nizoma se pojavi zaradi 
+števila obravnavanih meteoroloških postaj nad ozemljem države, ločljivosti reliefa in metode interpolacije izmerjenih podatkov v pravilno 
+mrežo. 
+
+
+ 
+ 
+ 
+ 
+ 
+39 
+ 
+Od šestdesetih let prejšnjega stoletja se je višina padavin na letni ravni zmanjševala, po letu 
+2000 pa ponovno višala.119 
+  
+Slika 4.4: Povprečna višina padavin v Sloveniji v obdobju 1950–2020. Z modro so označene letne vrednosti, z 
+rdečo 11-letno drseče povprečje, z zeleno pa dvajsetletni povprečji 1951–1970 in 2001–2020. 120 
+ 
+Zmanjšala se je višina snežne odeje in višina novozapadlega snega. Najbolj opazne so 
+spremembe v niželežečih delih alpskega sveta.121 
+Višina snežne odeje se je v obdobju 1961–2011 več kot prepolovila.122 
+Povečalo se je trajanje sončnega obsevanja. Število sončnih ur je raslo za okoli 40 na 
+desetletje.123 Povečano trajanje sončnega obsevanja je najopaznejše v spomladanskih in 
+poletnih mesecih, malo manj v zimskih, jeseni pa opaznejših sprememb ni. Zaradi močne 
+odvisnosti od temperature zraka in sončnega obsevanja se je povečalo tudi izhlapevanje. 
+Posledica podnebne spremenljivosti Slovenije so tudi spremembe pretokov rek. Srednji 
+pretoki rek 124 v Sloveniji so se v obdobju 1961 –2013 zmanjšali, najbolj spomladi in poleti. 
+ 
+119 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne osnove in 
+stanje v Sloveniji. Dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+120 Vir slike: Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne 
+osnove in stanje v Sloveniji, dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+121 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2017): Podnebna spremenljivost Slovenije v obdobju 1961–
+2011. 3, Značilnosti podnebja v Sloveniji. Dostopno na 
+meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/Znacilnosti%20podnebja%20splet.pdf. 
+122 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2017): Podnebna spremenljivost Slovenije v obdobju 1961–
+2011. 3, Značilnosti podnebja v Sloveniji. Dostopno na 
+meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/Znacilnosti%20podnebja%20splet.pdf. 
+123 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2017): Podnebna spremenljivost Slovenije v obdobju 1961–
+2011. 3, Značilnosti podnebja v Sloveniji. Dostopno na 
+meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/Znacilnosti%20podnebja%20splet.pdf. 
+124 Srednji pretok predstavlja povprečno količino vode, ki v določenem obdobju teče skozi določen profil vodotoka. Mali pretoki se 
+pojavljajo v strugah vodotokov, ko dalj časa ni padavin ali taljenja snežne odeje in so odtoki posledica izcejanja podzemnih voda. S 
+
+
+ 
+ 
+ 
+ 
+ 
+40 
+ 
+Padajoči trend srednjih pretokov kaže, da se je letna količina razpoložljive vode v strugah 
+vodotokov zmanjšala, kar je posledica manjše letne količine padavin v tem obdobju in porasta 
+povprečne letne temperature zraka. Po drugi strani se je pogostost velikih pretokov ponekod 
+v osrednjem in vzhodnem delu države povečala.125  
+Zvišala se je temperatura površinskih in podzemnih vod. Temperatura vode je spremenljivka, 
+od katere je odvisno stanje vodnih ekosistemov, saj vpliva na razpoložljivost hranilnih snovi in 
+dolžino rastne dobe, določa pa tudi obdobja pokritosti z ledom.  
+ 
+Slika 4.5: Zmanjšanje števila zimskih dni, ko je Bohinjsko jezero zaledenelo, v 20. stoletju126 
+ 
+Podnebne spremembe pa se kažejo tudi na krčenju alpskih ledenikov. Sodelavci 
+Geografskega inštituta Antona Melika že od leta 1946 redno opazujejo, merijo in preučujejo 
+Triglavski ledenik pod Kredarico in od leta 1948 ledenik pod Skuto. Triglavski ledenik je ob 
+koncu 19. stoletja meril več kot 40 hektarjev, ob začetku natančnejših meritev leta 1946 je 
+meril 15 hektarjev, v naslednjih desetletjih se je njegova površina zmanjševala in s pol hektarja 
+leta 2007 dosegla svoj minimum.127 Zdaj nima več vseh značilnosti ledenika, saj na njem, na 
+primer, ni ledeniških razpok. Zaradi ujetosti ledenika v konkavni del pobočja tudi ne 
+ 
+kazalniki malih pretokov se opisuje sušno obnašanje posameznih vodotokov. Veliki pretoki pa so posledica večjih količin padavin, 
+zaradi katerih pretoki vode v vodotokih narastejo. Kazalnik velikih pretokov se uporablja za analize poplav. 
+Vir: Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do konca 
+21. stoletja: Sintezno poročilo – prvi del. Dostopno na  
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf.   
+125 Oblak, J. (2017): Analiza sezonske spremenljivosti rek v Sloveniji (magistrsko delo). Dostopno na https://repozitorij.uni-
+lj.si/Dokument.php?id=102560&lang=slv. 
+126 Frantar, P. (2003/2004): Analiza temperaturnega režima in pojava ledu na Bohinjskem jezeru. Ujma, št. 17–18.  
+127 Pavšek, M. (2010): Triglavski ledenik. DEDI – digitalna enciklopedija naravne in kulturne dediščine na Slovenskem. Dostopno na 
+www.dedi.si/dediscina/449-triglavski-ledenik.  
+
+
+ 
+ 
+ 
+ 
+ 
+41 
+ 
+zaznavamo več premikanja ledu. Označimo ga lahko kot »zelo majhen ledenik«. Morda smo 
+celo ena zadnjih generacij, ki ga še lahko občuduje.128 
+ 
+Slika 4.6: Triglavski ledenik Zeleni sneg leta 1924, 1957 in 2003129 
+Ledenik pod Skuto je leta 1948 meril 3 hektarje, leta 2010 pa le še 1 hektar. V tem času se je 
+tudi močno stanjšal, vendar pa zaradi senčne lege in ker njegovo površino občasno prekrije 
+obilnejše kamninsko gradivo, podnebnim spremembam podlega počasneje od Triglavskega 
+ledenika.130 
+4.1 Izpusti toplogrednih plinov v Sloveniji 
+Slovenija mora vsako leto poročati Evropski komisiji in Sekretariatu Okvirne konvencije 
+Združenih narodov o spremembi podnebja (angl. United Nations Framework Convention on 
+Climate Change – UNFCCC) o izpustih in ponorih toplogrednih plinov po metodologiji IPCC.  
+Nacionalno poročilo, ki ga je Slovenija predložila leta 2021 in v katerem se najnovejši podatki 
+nanašajo na leto 2019, je pokazalo, da so skupni izpusti toplogrednih plinov v tem letu znašali 
+17.065 kt ekvivalenta CO2131, kar je za 2,5 % manj kot leto poprej in za 16,5 % manj kot leta 
+ 
+128 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: http://www.slovenija-co2.si/index.php/o-co2 
+129 Foto: Triglavski ledenik. DEDI – digitalna enciklopedija naravne in kulturne dediščine na Slovenskem, www.dedi.si/dediscina/449-
+triglavski-ledenik.  
+130 Pavšek, M.; Trobec, T. 2010: Ledenik pod Skuto. DEDI – digitalna enciklopedija naravne in kulturne dediščine na Slovenskem, 
+www.dedi.si/dediscina/60-ledenik-pod-skuto.  
+131 Ekvivalent CO2 je količina nekega toplogrednega plina ali mešanice toplogrednih plinov, izražena s količino CO2, ki ima enak 
+toplogredni učinek. 
+
+
+ 
+ 
+ 
+ 
+ 
+42 
+ 
+1986. V letu 2019 so bili v Sloveniji največji povzročitelji izpustov oskrba z energijo, promet, 
+industrija in kmetijstvo.132   
+  
+Slika 4.7: Največji povzročitelji izpustov toplogrednih plinov v Sloveniji v letu 2019133 
+ 
+V skupnem deležu izpustov toplogrednih plinov ima v Sloveniji največji prispevek CO2 (v letu 
+2019 kar 82,1 %). CO2 nastaja predvsem pri zgorevanju fosilnih goriv v proizvodnji električne 
+energije v termoelektrarnah Šoštanj in Brestanica, soproizvodnji toplotne in električne 
+energije (npr. v Termoelektrarni toplarni Ljubljana),  sistemih daljinskega ogrevanja ter 
+individualnih kuriščih, pri zgorevanju bencina in dizelskega goriva v vozilih ter industrijskih 
+procesih. Izpusti toplogrednih plinov iz cestnega prometa igrajo ključno vlogo pri doseganju 
+nacionalnih ciljev zmanjševanja izpustov, ki jih ima Slovenija kot članica Evropske unij e. 
+Promet je v Sloveniji namreč edini sektor, v katerem so se emisije v obdobju 2005−201 9 
+povečale, in sicer za skoraj 28 %,134 tako da so leta 2019 predstavljale kar tretjino nacionalnih 
+izpustov.  
+Drugi največji prispevek v skupnem deležu izpustov toplogr ednih plinov ima v Sloveniji CH4 
+(11,3 %), ki večinoma izvira iz kmetijstva (govedoreje in skladiščenja živinskih gnojil) in 
+ravnanja z odpadki . N2O, ki predstavlja  4,8 % nacionalnih izpustov , prav tako nastaja 
+predvsem v kmetijstvu, opazni pa so tudi njegovi izpusti iz cestnega prometa. Izpusti F-plinov 
+nastajajo v industrijskih procesih (največ v proizvodnji in obratovanju hladilnih naprav) in so 
+sicer majhni ( 1,9 %), vendar zaradi visokega toplogrednega učinka njihov prispevek k 
+ogrevanju ozračja ni zanemarljiv.135  
+ 
+132 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Slovenia's National  Inventory Report 2021: GHG 
+emissions inventories 1986–2019. Dostopno na https://unfccc.int/documents/273460 
+133  Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Slovenia's National  Inventory Report 2021: GHG 
+emissions inventories 1986–2019. Dostopno na https://unfccc.int/documents/273460.  
+134 Institut »Jožef Stefan« s partnerji (2021): Podnebno ogledalo 2021 – Povzetek za odločanje. Dostopno na 
+https://podnebnapot2050.si/wp-content/uploads/2021/10/PO2021_Zvezek0_Povzetek_Koncen_2021-10-14.pdf. 
+135 Agencija Republike Slovenije za okolje: Nacionalne emisije tologrednih plinov: 
+http://okolje.arso.gov.si/onesnazevanje_zraka/vsebine/toplogredni-plini 
+37 %
+33 %
+17 %
+10 %
+3 %
+Oskrba z energijo
+Promet
+Industrijski procesi ter raba goriv v
+industriji in gradbeništvu
+Kmetijstvo
+Odpadki
+
+ 
+ 
+ 
+ 
+ 
+43 
+ 
+V sektorju rabe zemljišč, spremembe rabe zemljišč in gozdarstva so bili neto ponori 
+toplogrednih plinov  v letu 201 9 ocenjeni na - 101 kt ekvivalenta  CO2. Medtem ko so bili 
+slovenski gozdovi v preteklosti pomemben ponor CO2 (v letu 1986 so npr. iz ozračja odstranili 
+petino nacionalnih izpustov)136, sta se od leta 2012 dalje zaradi ujm (žledolom, vetrolomi) in 
+napadov škodljivcev močno povečali tako sečnja, kot tudi umrljivost dreves, kar je privedlo do 
+zmanjšanja lesnih zalog v gozdovih in pos ledično veliko manjšega ponora toplogrednih 
+plinov.137 Kljub povečanju površine gozdov v Sloveniji se je njihova zmožnost odstranitve CO2 
+iz ozračja v obdobju 1986 – 2019 močno zmanjšala, gozdovi so bili leta 2019 namesto ponora 
+celo neto vir izpustov CO2.138 
+Ker se je v obdobju 1986–2019 močno zmanjšala količina toplogrednih 
+plinov, ki jih slovenski gozdovi odstranijo iz ozračja, se je naš vpliv na 
+podnebne spremembe kljub 16,5-odstotnemu zmanjšanju izpustov precej 
+povečal (za 8 %).139 
+ 
+Slika 4.8: Posledice ujm in napadov škodljivcev v gozdovih140  
+ 
+136 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Slovenia's National  Inventory Report 2021: GHG 
+emissions inventories 1986–2019. Dostopno na https://unfccc.int/documents/273460.   
+137 Poljanec, A., Grah, A., in Skudnik, M.: Ali je slovenski gozd še vedno ponor ogljika? Rezultati zadnje inventure gozdov. V: Gozd in 
+podnebne spremembe – povzetki referatov Znanstvenega srečanja Gozd in les, Ljubljana, 28. november 2019 (ur. Hojka Kraigher); 
+založba Silva Slovenica, Gozdarski inštitut Slovenije, 2019.  
+138 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Slovenia's National  Inventory Report 2021: GHG 
+emissions inventories 1986–2019. Dostopno na https://unfccc.int/documents/273460. 
+139 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Slovenia's National  Inventory Report 2021: GHG 
+emissions inventories 1986–2019. Dostopno na https://unfccc.int/documents/273460.  
+140 Foto: Slovenski državni gozdovi d.o.o. 
+
+
+ 
+ 
+ 
+ 
+ 
+44 
+ 
+5 Projekcije podnebnih sprememb v Sloveniji 
+Ne glede na to, kako dobro bo svet nadziral izpuste toplogrednih plinov v 
+prihajajočih letih, se bo podnebje še naprej spreminjalo.141  
+Na podnebne spremembe se bomo morali prilagoditi. Prilagajanje na podnebne spremembe 
+je ključni dejavnik prihodnje varnosti in blaginje ljudi, zaščite okolja, narave in premoženja, 
+trajnostne oskrbe z naravnimi viri ter učinkovitega gospodarstva. 
+Ozračje pri tleh v Sloveniji se je do leta 2020 glede na obdobje pred industrijsko revolucijo že 
+ogrelo za 2,3 °C in n araščanje temperature zraka se bo v 21. stoletju nadaljevalo, velikost 
+dviga pa je zelo odvisna od scenarija izpustov toplogrednih plinov.142 
+ 
+Slika 5.1: Ogrevanje ozračja v Sloveniji v preteklosti in projekcije do konca 21. stoletja (glede na obdobje 1850–
+1900) za tri scenarije izpustov143 
+V primeru scenarija s hitro po jemajočimi izpusti  CO2, ki se zmanjšujejo do ničelne neto 
+vrednosti okrog leta 20 80 (SSP1-2.6), bo temperatura do konca stoletja v primerjavi s 
+predindustrijskim obdobjem zrasla za približno 3,4 °C. Če se bo uresničil scenarij s srednjimi 
+izpusti toplogrednih plinov (SSP2-4.5), bo temperature zraka konec stoletja za približno 4,9 
+°C višja kot v predindustrijskem obdobju. Scenarij z velikimi izpusti toplogrednih plinov (SSP3-
+7.0) pa Slovenijo do konca stoletja vodi v ogrevanje za več kot 7 °C glede na predindustrijsko 
+obdobje. 
+ 
+141 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: http://www.slovenija-co2.si/index.php/o-co2  
+142 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne osnove in 
+stanje v Sloveniji. Dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+143 Vir slike: Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2021): Podnebne spremembe 2021 Fizikalne 
+osnove in stanje v Sloveniji, dostopno na www.meteo.si/uploads/probase/www/climate/text/sl/publications/2021_11-
+Poro%C4%8Dilo%20IPPC%20Podnebje%202021.pdf. 
+
+
+ 
+ 
+ 
+ 
+ 
+45 
+ 
+Da bi priskrbela kakovostne podatke za učinkovito načrtovanje ukrepov prilagajanja 
+spremenjenim podnebnim razmeram, je Agencija Republike Slovenije za okolje (ARSO) že 
+leta 2018 objavila oceno oziroma projekcije podnebnih spre memb v Sloveniji do konca 21. 
+stoletja glede na referenčno obdobje 1981–2010.144 
+Podnebne projekcije ne veljajo za natančne napovedi stanja v prihodnosti, temveč opisujejo 
+več možnih ter verjetnih stanj podnebnega sistema v Sloveniji na podlagi globalnega 
+družbenogospodarskega razvoja in služijo kot ocena prihodnjih temperaturnih, padavinskih in 
+hidroloških razmer. 
+Prihodnje podnebne razmere bodo močno odvisne od razvoja družbe in 
+gospodarstva v 21. stoletju (stopnje naraščanja prebivalstva, bruto 
+domačega proizvoda in tehnološkega razvoja) ter uspešnosti podnebnih 
+politik.  
+Pri pripravi ocene sprememb podnebja v Sloveniji do konca 21. stoletja so strokovnjaki 
+Agencije Republike Slovenije za okolje upoštevali tri scenarije razvoja družbe in posledičnih 
+izpustov toplogrednih plinov v 21. stoletju, ki jih je mednarodna znanstvena skupnost določila 
+že za peto poročilo IPCC (AR5)145:146 
+1. Optimistični scenarij izpustov (RCP2.6) se najbolj približa ciljem Pariškega 
+sporazuma in predvideva, da bo politika omejevanja izpustov zelo hitra in uspešna: 
+izpusti bodo dosegli višek na začetku 21 . stoletja in se nato hitro zmanjševali ter 
+dosegli ničelno vrednost 147 do osemdesetih let 21. stoletja, v nadaljevanju pa bodo 
+celo rahlo negativni (ponori bodo večji od izpustov). Ta scenarij je podoben scenariju 
+SSP1-2.6 šestega poročila IPCC (AR6). 
+2. Zmerno optimistični scenarij (RCP4.5) predvideva, da se bodo izpusti toplogrednih 
+plinov sprva še povečevali, nato pa sredi in proti koncu 21. stoletja zmanjševali, vendar 
+bodo ostali sorazmerno veliki. Ta scenarij je podoben scenariju SSP2 -4.5 šestega 
+poročila IPCC (AR6).  
+3. Pri pesimističnem scenariju (RCP8.5) pa se večji uspehi pri omejevanju izpustov ne 
+predvidevajo, zato se bodo ti skozi celotno 21. stoletje hitro povečevali. Ta scenarij je 
+podoben scenariju SSP5-8.5 šestega poročila IPCC (AR6). 
+ 
+144 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do konca 21. 
+stoletja: Sintezno poročilo – prvi del. Dostopno na 
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf. 
+145 IPCC (2014): Climate Change 2014: Synthesis Report. Contribution of Working Groups I, II and III to the Fifth Assessment Report of 
+the Intergovernmental Panel on Climate Change, Ženeva, Švica. 
+146 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do konca 21. 
+stoletja: Sintezno poročilo – prvi del. Dostopno na 
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf. 
+147 (Neto) ničelni izpusti toplogrednih plinov so doseženi, ko izpusti (npr. zaradi kurjenja fosilnih goriv) ne presegajo zmožnosti ponorov, 
+da jih odstranijo iz ozračja. Najpomembnejši naravni ponor predstavljajo gozdovi.    
+
+ 
+ 
+ 
+ 
+ 
+46 
+ 
+Rezultati simulacij za prihodnost napovedujejo znaten dvig povprečne 
+letne temperature zraka do konca 21. stoletja na celotnem območju 
+Slovenije v vseh letnih časih.148  
+Verjetno bo temperatura najbolj zrasla pozimi, le nekoliko manj poleti in jeseni, najma nj pa 
+spomladi.149 
+ 
+Slika 5.2: Sprememba povprečne temperature zraka po meteoroloških letnih časih in za celo leto v treh 
+projekcijskih obdobjih glede na obdobje 1981–2010 za zmerno optimistični (levo) in pesimistični scenarij izpustov 
+(desno) (odklon temperature od povprečja v primerjalnem obdobju 1981–2010)150 
+Dvig temperature bo močno povečal toplotno obremenitev. V primeru optimističnega scenarija 
+izpustov se bo letno število vročih dni v Sloveniji do konca stoletja povečalo za približno 6, v 
+primeru zmerno optimističnega scenarija iz pustov za približno 11, v primeru pesimističnega 
+scenarija izpustov pa za približno 27.151  
+ 
+148 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do konca 21. 
+stoletja: Sintezno poročilo – prvi del. Dostopno na  
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf. 
+149 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do konca 21. 
+stoletja: Sintezno poročilo – prvi del. Dostopno na 
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf. 
+150 Vir slike: Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do 
+konca 21. stoletja: Sintezno poročilo – prvi del. Dostopno na 
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf. 
+151 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do konca 21. 
+stoletja: Sintezno poročilo – prvi del. Dostopno na 
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf. 
+
+
+ 
+ 
+ 
+ 
+ 
+47 
+ 
+V vseh scenarijih izpustov se bo povečalo število in trajanje vročinskih 
+valov.  
+V primeru zmerno optimističnega scenarija izpustov bomo imeli konec stoletja povprečno vsaj 
+en vročinski val letno, ki bo po jakosti primerljiv ali hujši od vročinskega vala, ki smo ga imeli 
+poleti 2003. 
+Ogreval se bo površinski sloj tal.  
+Skladno z dvigom temperature zraka se bo ogreval površinski sloj tal, oboje pa bo vplivalo na 
+fenološki razvoj rastlin in dolžino rastne dobe. Spomladanski fenološki razvoj rastlin (razvoj 
+listov in cvetov) bo zgodnejši. V primeru srednje optimističnega scenarija izpustov bo olistanje 
+gozdnega drevja približno dva tedna, v primeru pesimističnega scenarija izpustov pa celo do 
+približno 40 dni zgodnejše kot v primerjalnem obdobju 1981–2010.152  
+Zaradi zvišanja temperature zraka in tal bo prišlo do premika rastlinskih pasov. Ker je 
+sposobnost selitve rastlinstva majhna, obstaja nevarnost, da se precej rastlin skih vrst ne bo 
+zmoglo preseliti in bodo zato izumrle. To bi povzročilo zmanjšanje biotske raznovrstnosti.153 
+ 
+Slika 5.3: Možne posledice zvišanja temperature zraka in tal na zmanjšanje biotske raznovrstnosti, če se bo 
+uresničil pesimistični scenarij izpustov 154 
+Dolžina rastne dobe se bo podaljševala, spomladi se bo začela prej, jeseni 
+pa končala pozneje. Vprašljivo je preživetje današnjih drevesnih vrst v tem 
+geografskem prostoru. 
+ 
+152 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do konca 21. 
+stoletja: Sintezno poročilo – prvi del. Dostopno na 
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf. 
+153 Vir: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+154 Vir slike: spletna stran Slovenija znižuje CO2 – dobre prakse: www.slovenija-co2.si/index.php/o-co2 
+
+
+ 
+ 
+ 
+ 
+ 
+48 
+ 
+Drevesna sestava slovenskih gozdov se bo s spreminjanjem podnebja postopno spreminjala. 
+Podnebne spremembe bodo najbolj prizadele smreko, jelko in druge iglavce. Dolgoročno je 
+lahko ogrožena tudi bukev, ki danes predstavlja znaten del slovenskih gozdov in bo verjetno 
+ostala glavna drevesna vrsta. Pričakuje se povečanje deleža ostalih listavcev, pri čemer bodo 
+današnje vrste sčasoma nadomestili toploljubni listavci, in povečevanje deleža nekaterih 
+tujerodnih vrst (robinja, pajesen, duglazija …).155  
+Poleg sprememb temperature in padavin bodo na gozd pomembno vplivali tudi sekundarni 
+učinki podnebnih sprememb, kot so pojavi novih bolezni in škodljivcev ter večja pogostost 
+gozdnih požarov. Zaradi višjih temperatur in pogostejših ekstremnih vremenskih do godkov 
+tudi že opažamo vse več škodljivcev, npr. podlubnikov, katerih število je v srednji Evropi 
+skokovito naraslo. Znanstveniki opozarjajo tudi na nevarnost širjenja invazivnih tujerodnih vrst, 
+ki odvzemajo prostor za rast avtohtonim vrstam.  
+ 
+Slika 5.4: Umiranje smrekovih gozdov, do kakršnega bi lahko prišlo do konca 21. stoletja v primeru 
+pesimističnega scenarija izpustov156 
+Gladina morja se bo dvigovala. 
+Po optimističnem scenariju se bo gladina morja do konca 21. stoletja dvignila še za pol metra, 
+po pesimističnem scenariju pa za dodaten meter. V slovenskem obalnem območju so zaradi 
+dviga gladine morja najbolj izpostavljene soline, luka Koper, marine in kopališča, ranljiva pa 
+so vsa obmorska mesta. 
+ 
+  
+ 
+155 Zavod za gozdove (2019): Predvidene spremembe sestave gozda zaradi podnebnih sprememb. Dostopno na 
+www.podnebnapot2050.si/wp-content/uploads/2019/03/Predvidene-spremembe-sestave-gozda-zaradi-podnebnih-sprememb.pdf.  
+156 Vir slike: Umanotera, razstava Slovenija 50+ 
+
+
+ 
+ 
+ 
+ 
+ 
+49 
+ 
+ 
+ 
+Slika 5.5: Možne posledice dviga gladine morja konec 21. stoletja, če se bo uresničil pesimistični scenarij 
+izpustov157 
+V Sloveniji bo konec stoletja v povprečju več padavin, še posebej pozimi. 
+Povečala se bosta jakost in pogostost izjemnih padavin, povečanje pa bo 
+najbolj izrazito v primeru pesimističnega scenarija izpustov. 
+V nasprotju s temperaturo so ocene sprememb padavin v Sloveniji do konca 21. stoletja manj 
+zanesljive. Slika 5.6 prikazuje časovni potek spremembe letne višine padavin do konca 21. 
+stoletja v Sloveniji za tri scenarije, vključno z razponi odstopanj zaradi uporabe različnih 
+podnebnih modelov. Prikazana je relativna vrednost glede na povprečje v obdobju 1981–2010 
+(to pomeni, da ima povprečje v obdobju 1981–2010 na grafu vrednost 1, vrednost 1,2 pa npr. 
+pomeni, da bo količina padavin za 1,2-krat večja od povprečja v obdobju 1981–2010). 
+ 
+Slika 5.6: Časovni potek spremembe letne višine padavin do konca 21. stoletja v Sloveniji za tri scenarije158 
+ 
+157 Vir slike: Umanotera, razstava Slovenija 50+ 
+158 Vir slike: Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do 
+konca 21. stoletja: Sintezno poročilo – prvi del. Dostopno na 
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf. 
+
+
+ 
+ 
+ 
+ 
+ 
+50 
+ 
+Višina padavin na letni ravni in pozimi se bo po zmerno optimističnem in pesimističnem 
+scenariju izpustov sredi ali konec 21. stoletja znatno povečala. V primeru obeh scenarijev 
+izpustov bo povprečno povečanje letnih padavin konec stoletja v primerjavi z obdobjem 1981–
+2010 do 20 %. Še bolj se bodo padavine povečale pozimi, nekoliko bolj na vzhodu države. Že 
+v sredini stoletja se bodo v vzhodni Sloveniji zimske padavine povečale do 40 %, do konca  
+stoletja pa bo v primeru pesimističnega scenarija izpustov lahko tudi več kot 60 % več zimskih 
+padavin. V ostalih letnih časih je smer in velikost spremembe padavin zelo odvisna od 
+scenarija izpustov in deloma modela, spremembe pa so večinoma manjše od na ravne 
+spremenljivosti padavin.159  
+ 
+Slika 5.7: Sprememba povprečne višine padavin po meteoroloških letnih časih in za celo leto v treh projekcijskih 
+obdobjih glede na obdobje 1981–2010 za zmerno optimistični (levo) in pesimistični scenarij izpustov (desno) 
+(relativni odklon višine padavin od povprečja v primerjalnem obdobju 1981–2010)160 
+ 
+Povečala se bosta tako jakost kot pogostost izjemnih padavin, povečanje pa bo najbolj izrazito 
+v primeru pesimističnega scenarija izpustov.  161 
+ 
+159 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do konca 21. 
+stoletja: Sintezno poročilo – prvi del. Dostopno na 
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf. 
+160 Vir slike: Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do 
+konca 21. stoletja: Sintezno poročilo – prvi del. Dostopno na 
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf. 
+161 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do konca 21. 
+stoletja: Sintezno poročilo – prvi del. Dostopno na 
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf. 
+
+
+ 
+ 
+ 
+ 
+ 
+51 
+ 
+Zimsko naraščanje padavin ne pomeni povečane možnosti za sneg, saj 
+bodo z naraščajočo temperaturo zraka snežne padavine čedalje manj 
+pogoste.162 
+ 
+Slika 5.8: Nizkoležeča smučišča bodo čedalje pogosteje ostala brez zimske snežne odeje, kar bo močno vplivalo 
+na zimski turizem.163 
+Predvsem zaradi povečanja zimskih padavin v obliki dežja se bo povečala 
+nevarnost poplav. Ker bo manj snežnih padavin, bomo izgubili naravni 
+zadrževalnik vode v obliki snežne odeje. 
+Srednje letne konice rečnih pretokov se bodo po vseh scenarijih izpustov v primerjavi z 
+obdobjem 1981–2010 povečale povsod po državi, v povprečju od 20 do 30 %. Povečanje se 
+od bližnje prihodnosti proti koncu stoletja stopnjuje. N ajvečje povečanje konic bo na 
+severovzhodu države, kjer bo v primeru zmerno optimističnega scenarija izpustov znašalo do 
+približno 30 %. V primeru pesimističnega scenarija izpustov bo povečanje proti koncu stoletja 
+med 20 in 40 % na skoraj vseh vodomernih postajah.164 
+Zaradi povečanja padavin se bo povečalo napajanje podzemne vode.  
+Ne glede na scenarij izpustov toplogrednih plinov se bo povprečno letno napajanje podzemne 
+vode v primerjavi z obdobjem 1981 –2010 do konca stoletja povečalo v povprečju do 20 %. 
+ 
+162 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do konca 21. 
+stoletja: Sintezno poročilo – prvi del. Dostopno na 
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf. 
+163 Vir slike: Umanotera, razstava Slovenija 50+ 
+164 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do konca 21. 
+stoletja: Sintezno poročilo – prvi del. Dostopno na 
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf. 
+
+
+ 
+ 
+ 
+ 
+ 
+52 
+ 
+Izstopa severovzhodna Slovenija, kjer lahko povečanje preseže 30 % .165 Vode nam skratka 
+ne bo primanjkovalo.  
+ 
+Slika 5.9: Spremembe povprečnega letnega napajanja podzemne vode za tri projekcijska obdobja in dva 
+scenarija izpustov RCP4.5 (levo) in RCP8.5 (desno) glede na primerjalno obdobje 1981–2010166 
+Čeprav poleti in jeseni ne pričakujemo sprememb v skupni količini 
+padavin, se bo povečala jakost kratkotrajnih suš med posameznimi 
+padavinskimi dogodki. 
+Šestdesetdnevni vodni primanjkljaj se bo v zmerno optimističnem scenariju izpustov v 
+primerjavi z obdobjem 1981–2010 povečal le v sredini stoletja, v poletnem in jesenskem času, 
+do 70 mm. Proti koncu stoletja se bo nato spet zmanjšal na nivo primerjalnega obdobja. V 
+pesimističnem scenariju izpustov se bo primanjkljaj povečal šele ob koncu stoletja, prav tako 
+poleti in jeseni, ko bodo spremembe ponekod tudi večje od 70 mm.167 
+ 
+165 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do konca 21. 
+stoletja: Sintezno poročilo – prvi del. Dostopno na 
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf. 
+166 Vir slike: Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do 
+konca 21. stoletja: Sintezno poročilo – prvi del. Dostopno na 
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf. 
+167 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do konca 21. 
+stoletja: Sintezno poročilo – prvi del. Dostopno na 
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf. 
+
+
+ 
+ 
+ 
+ 
+ 
+53 
+ 
+5.1 Tveganja in priložnosti, ki jih podnebne spremembe 
+prinašajo za Slovenijo  
+V procesu priprave državnega Strateškega okvira prilagajanja podnebnim spremembam168 so 
+strokovnjaki Biotehniške fakultete Univerze v Ljubljani izdelali Podlage za pripravo ocene 
+tveganj in priložnosti, ki jih podnebne spremembe prinašajo za Slovenijo.169  
+• Ugotavljajo, da utegnejo podnebne spremembe v Sloveniji močno vplivati na vodne 
+vire in vodooskrbo ter povzročiti težave pri oskrbi s pitno vodo poleti.  
+• Zaradi dviga temperature in povečanja pogostosti in trajanja vročinskih valov se 
+utegnejo spremeniti vzorci porab e energije in pogoji za njeno proizvodnjo (zelo 
+povečana potreba  po hlajenju poleti in nekoliko zmanjšana potreba po ogrevanju 
+pozimi, težave z zagotavljanjem oskrbe z vodo za hlajenje objektov za proizvodnjo 
+električne energije) ter povečati potrebe po zelenih površinah v mestih.  
+• Podnebne spremembe utegnejo tudi spremeniti turistične tokove in ogroziti turistično 
+infrastrukturo, povzročiti motnje v delovanju industrije in povečati obratovalne stroške.  
+• Zaradi spremembe padavinskih vzorcev se utegnejo poja viti motnje v proizvodnji 
+energije, zlasti hidroenergije.  
+• Zaradi zakisanja morja utegnejo biti ogroženi nekateri organizmi v Jadranskem morju, 
+zaradi dviga morske gladine pa utegnejo biti v prihodnosti potrebni premiki cestne in 
+železniške infrastrukture ter izpraznitev nekaterih (delov) obalnih naselij.  
+• Povečana pogostost in jakost ekstremnih vremenskih pojavov utegne povečati škodo 
+na lastnini, proizvodnih, turističnih in poslovnih objektih in infrastrukturi ter povzročiti 
+gospodarsko škodo (npr. poveča ti stroške in ogroziti stabilnost zavarovalniškega 
+sistema). Za preprečitev škode naj bi bili potrebni spremenjeni pristopi pri gradnji in 
+prostorskem načrtovanju (npr. načrtovanje zunaj poplavnih območij).  
+• Ne nazadnje se utegne zaradi podnebnih sprememb v prihodnosti povečati potreba 
+po humanitarni pomoči ter potreba po pomoči na kriznih območjih, ki jih bodo prizadeli 
+konflikti, nastali zaradi naravnih virov. 
+5.2 V prihodnosti se bodo spremenile razmere za pridelavo 
+hrane v Sloveniji 
+Z naraščanjem temperature zraka se bodo v prihodnosti spremenile tudi razmere za pridelavo 
+hrane v Sloveniji. Strokovnjaki Agencije Republike Slovenije za okolje so pripravili oceno 
+vpliva podnebnih sprememb v Sloveniji do konca 21. stoletja na kmetijstvo in gozdarstvo .170 
+Ta kaže, da se bo ogreval površinski sloj tal in dolžina rastne dobe se bo podaljševala – 
+ 
+168 Ministrstvo za okolje in prostor (2016): Strateški okvir prilagajanja podnebnim spremembam. Dostopno na 
+https://www.gov.si/assets/ministrstva/MOP/Dokumenti/Podnebne-spremembe/SOzP.pdf.   
+169 Biotehniška fakulteta Univerze v Ljubljani (2014): Podlage za pripravo ocene tveganj in priložnosti, ki jih podnebne spremembe 
+prinašajo za Slovenijo. Končno poročilo. Dostopno na http://mop.arhiv-
+spletisc.gov.si/fileadmin/mop.gov.si/pageuploads/podrocja/podnebne_spremembe/pripr_podl_prip_ocene_tveganj.pdf.  
+170 Ministrstvo za okolje in prostor, Agencija Republike Slovenije za okolje (2018): Ocena podnebnih sprememb v Sloveniji do konca 21. 
+stoletja: Sintezno poročilo – prvi del. Dostopno na  
+https://meteo.arso.gov.si/uploads/probase/www/climate/text/sl/publications/OPS21_Porocilo.pdf.. 
+
+ 
+ 
+ 
+ 
+ 
+54 
+ 
+spomladi se bo začela prej, jeseni pa končala pozneje, na Primorskem se bo razpotegnila tudi 
+v zimsko obdobje.  
+Sprememba v dolžini rastne dobe bo lahko imela tako pozitivne  kakor tudi negativne učinke 
+na pridelek kmetijskih rastlin. Povečal se bo izbor kmetijskih rastlin, ki bodo lahko uspevale 
+tudi na območjih, kjer jih danes še ne gojimo, in možno bo uvajanje novih toplotno zahtevnejših 
+kmetijskih rastlin. Tako so v Ajdovščini leta 2015 na občinski njivi uspešno preizkusili gojenje 
+vrste tropskih in subtropskih kulturnih rastlin, ki bi lahko ob ogrevanju podnebja nadomestile 
+ali dopolnile tradicionalne kulture v Vipavski dolini: afriško kumaro, sladki krompir, okro, 
+različne vrste buč in andsko jagodo.171 Skrb pa vzbuja širjenje rastlinskih bolezni, ki jih še ne 
+poznamo, in širjenje tujih invazivnih rastlinskih vrst, zlasti plevelov.  
+Rastlinski svet bo ob daljši rastni dobi še bolj izpostavljen sušnim in vročim poletjem in 
+povečale se bodo potrebe po namakanju. Zaradi zgodnejšega razvoja rastlin in zgodnejše 
+setve pa kljub višjim temperaturam pomembna dejavnika tveganja ostajata tudi zastoj rasti ob 
+ohladitvah ter pozeba, ki ju bodo prinašali naključni vdori polarnega zraka, zato se bo povečala 
+tudi potreba po zaščiti pred pozebo.  
+Časovno neusklajene spremembe nastopa razvojnih faz rastlin (npr. spomladanskega 
+olistanja in cvetenja) bodo ogrozile tudi prehranjevalne verige in življenjski prostor nekaterih 
+žuželk opraševalk. Spremenjena dinamika cvetenja alergenih rastlinskih vrst že danes vpliva 
+na zgodnejšo in dlje trajajočo obremenjenost zraka s cvetnim prahom in s tem povezanimi 
+vplivi na zdravje prebivalstva. V toplejšem prihodnjem podnebju skrb vzbujajo tudi številnejše 
+generacije toploljubnih insektov, med katerimi so številni rastlinski škodljivci. 
+5.3 Vpliv podnebnih sprememb na zdravje v Sloveniji 
+V Sloveniji se zaradi milih zim že množijo klopi, okuženi z borelijo in virusom klopnega 
+meningoencefalitisa, ugodnejše postajajo razmere za razmnoževanje tigrastega komarja, ki 
+je lahko prenašalec denge in čikungunje, zdravniki pa bodo morali verjetno zdraviti tudi 
+bolezni, ki jih doslej nismo poznali pri nas, kot je npr. okužba z virusom Zika in vročica 
+Zahodnega Nila.172 
+ 
+Slika 5.10: Aedes aegypti, prenašalec virusa Zika173 
+ 
+171 Vir: http://znanost.sta.si/2285491/ajdovscina-vodilna-obcina-na-podrocju-prilagajanja-podnebnim-spremembam.  
+172 Nacionalni inštitut za javno zdravje (2016): Podnebne spremembe in zdravje v Sloveniji 2015. Dostopno na 
+www.nijz.si/sl/publikacije/podnebne-spremembe-in-zdravje-v-sloveniji-2015. 
+173 Vir slike: https://en.wikipedia.org/wiki/Aedes 
+
+
+ 
+ 
+ 
+ 
+ 
+55 
+ 
+Izjemno visoke temperature in vročinski valovi bodo tudi v Sloveniji pomenili veliko tveganje 
+za zdravje ljudi in bodo pri starejših osebah ter kroničnih bolnikih tudi ogrožali življenja. Samo 
+vročinski val leta 2003 je bil v Evropi glavni vzrok smrti za 70.000 ljudi,174 povečano smrtnost 
+v obdobju vročinskih valov pa so zabeležili tudi v Sloveniji.  
+Prav tako so tudi pri nas že opazni negativni vplivi vročinskega stresa na delovnem mestu na 
+zdravje in produktivnost delavcev,175 ki se bodo z naraščajočimi temperaturami še stopnjevali 
+predvsem v gradbeništvu, predelovalnih dejavnostih, prevozništvu, turizmu in kmetijstvu. Ob 
+odsotnosti resnega ukrepanja na  svetovni ravni in nadaljnjem povečevanju vsebnosti 
+toplogrednih plinov v ozračju bo ob koncu stoletja na številnih območjih Slovenije poleti tako 
+vroče, da običajne dejavnosti, kot sta pridelava hrane in delo na prostem čez dan, zaradi 
+vročinskega stresa ne bodo več mogoče. 
+ 
+174 Robine, J. M., in dr. (2008): Death toll exceeded 70,000 in Europe during the summer of 2003, C. R. Biologies vol. 331, št. 2. 
+175 Pogačar, T., in Kajfež Bogataj, L. (2017): Obremenjenost slovenskih delavcev z vročinskim stresom, Ujma, št. 37.
