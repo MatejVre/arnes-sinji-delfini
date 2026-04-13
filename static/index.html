@@ -555,6 +555,31 @@
     .btn-send:disabled { opacity: 0.4; cursor: not-allowed; }
     .btn-send svg { width: 18px; height: 18px; }
     .chat-err-wrap { width: 100%; padding: 0; margin-bottom: 0.35rem; }
+    .msg-row.loading {
+      opacity: 0.9;
+    }
+    .msg-row.loading .msg.bot {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1rem;
+      min-height: 44px;
+    }
+    .loader-text {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    .loader-logo {
+      width: 72px;
+      height: 72px;
+      object-fit: contain;
+      animation: loaderSpin 2s linear infinite;
+      opacity: 0.85;
+    }
+    @keyframes loaderSpin {
+      from { transform: rotateY(0deg); }
+      to { transform: rotateY(360deg); }
+    }
   </style>
 </head>
 <body>
@@ -763,6 +788,40 @@
       messagesEl.appendChild(row);
       scrollMessagesToBottom();
       syncEmptyChatLayout();
+    }
+
+    function appendLoader() {
+      const row = document.createElement("div");
+      row.className = "msg-row assistant loading";
+      row.setAttribute("data-loader", "true");
+
+      const div = document.createElement("div");
+      div.className = "msg bot";
+
+      const text = document.createElement("div");
+      text.className = "loader-text";
+      text.textContent = "Pomočnik razmišlja…";
+
+      const logo = document.createElement("img");
+      logo.className = "loader-logo";
+      logo.src = "images/logo2.png";
+      logo.alt = "";
+      logo.decoding = "async";
+
+      div.appendChild(logo);
+      div.appendChild(text);
+      row.appendChild(div);
+      messagesEl.appendChild(row);
+      scrollMessagesToBottom();
+      syncEmptyChatLayout();
+      return row;
+    }
+
+    function removeLoader(loaderRow) {
+      if (loaderRow && loaderRow.parentNode) {
+        loaderRow.parentNode.removeChild(loaderRow);
+        syncEmptyChatLayout();
+      }
     }
 
     async function renderChatList() {
@@ -999,6 +1058,7 @@
       input.value = "";
       input.style.height = "auto";
       appendUser(text);
+      const loaderRow = appendLoader();
       const btn = document.getElementById("btn-send");
       btn.disabled = true;
       try {
@@ -1006,12 +1066,14 @@
           method: "POST",
           body: JSON.stringify({ chat_id: currentChatId, chat: text }),
         });
+        removeLoader(loaderRow);
         appendAssistantBubble(data.response, data.allowed_matches, data.num_docs_not_allowed, {
           showSources: true,
           groupsToContact: data.groups_to_contact || [],
         });
         await renderChatList();
       } catch (e) {
+        removeLoader(loaderRow);
         chatErr.textContent = e.message;
         chatErr.classList.remove("hidden");
         if (e.message.includes("401") || e.message.toLowerCase().includes("token")) {
