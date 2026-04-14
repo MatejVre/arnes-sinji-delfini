@@ -1289,8 +1289,10 @@ class SinjiDesktopApp(tk.Tk):
         self._usr_grp_frame = tk.Frame(right, bg=COLORS["card"])
         self._usr_grp_frame.pack(fill=tk.BOTH, expand=True, pady=(4, 8), padx=4)
 
+        action_row = tk.Frame(right, bg=COLORS["card"])
+        action_row.pack(anchor=tk.W, pady=(0, 4))
         tk.Button(
-            right,
+            action_row,
             text="Shrani skupine",
             font=self._subtitle_font,
             fg="#ffffff",
@@ -1302,7 +1304,34 @@ class SinjiDesktopApp(tk.Tk):
             pady=8,
             cursor="hand2",
             command=self._usr_save_groups,
-        ).pack(anchor=tk.W, pady=(0, 4))
+        ).pack(side=tk.LEFT, padx=(0, 8))
+        tk.Button(
+            action_row,
+            text="Osveži seznam",
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg=COLORS["bg_elevated"],
+            highlightthickness=0,
+            bd=0,
+            padx=14,
+            pady=8,
+            cursor="hand2",
+            command=self._usr_refresh_all,
+        ).pack(side=tk.LEFT, padx=(0, 8))
+        tk.Button(
+            action_row,
+            text="Izbriši izbranega",
+            font=self._subtitle_font,
+            fg=COLORS["text"],
+            bg="#5c3030",
+            activebackground="#703838",
+            highlightthickness=0,
+            bd=0,
+            padx=14,
+            pady=8,
+            cursor="hand2",
+            command=self._usr_delete,
+        ).pack(side=tk.LEFT)
 
         add_fr = tk.LabelFrame(
             pad,
@@ -1404,36 +1433,6 @@ class SinjiDesktopApp(tk.Tk):
             cursor="hand2",
             command=self._usr_update_password,
         ).pack(side=tk.LEFT, padx=(10, 0))
-
-        btn_row = tk.Frame(pad, bg=COLORS["card"])
-        btn_row.pack(fill=tk.X, pady=(4, 8))
-        tk.Button(
-            btn_row,
-            text="Osveži seznam",
-            font=self._subtitle_font,
-            fg=COLORS["text"],
-            bg=COLORS["bg_elevated"],
-            highlightthickness=0,
-            bd=0,
-            padx=14,
-            pady=8,
-            cursor="hand2",
-            command=self._usr_refresh_all,
-        ).pack(side=tk.LEFT, padx=(0, 10))
-        tk.Button(
-            btn_row,
-            text="Izbriši izbranega",
-            font=self._subtitle_font,
-            fg=COLORS["text"],
-            bg="#5c3030",
-            activebackground="#703838",
-            highlightthickness=0,
-            bd=0,
-            padx=14,
-            pady=8,
-            cursor="hand2",
-            command=self._usr_delete,
-        ).pack(side=tk.LEFT)
 
         self._usr_status = tk.StringVar(value="")
         tk.Label(
@@ -1753,7 +1752,23 @@ class SinjiDesktopApp(tk.Tk):
         except Exception as exc:
             self._perm_status.set(f"Napaka: {exc}")
         else:
-            self._perm_doc_rows = [(int(r["document_id"]), str(r["document_name"])) for r in rows]
+            # Prikažemo samo dokumente, ki trenutno obstajajo v data/documents.
+            try:
+                docs_dir = Path(db.data_documents_dir)
+                existing_files = {
+                    p.name
+                    for p in docs_dir.iterdir()
+                    if p.is_file() and p.suffix.lower() in {".txt", ".csv"}
+                }
+            except Exception:
+                existing_files = set()
+
+            if existing_files:
+                filtered_rows = [r for r in rows if str(r["document_name"]) in existing_files]
+            else:
+                filtered_rows = rows
+
+            self._perm_doc_rows = [(int(r["document_id"]), str(r["document_name"])) for r in filtered_rows]
             for _did, name in self._perm_doc_rows:
                 self._perm_doc_list.insert(tk.END, name)
             if keep_selection_id is not None:
@@ -2053,6 +2068,8 @@ class SinjiDesktopApp(tk.Tk):
             self._grp_new_name.set("")
             self._grp_status.set("Skupina dodana.")
             self._grp_refresh()
+            self._usr_refresh_all()
+            self._perm_refresh_all()
         except sqlite3.IntegrityError:
             messagebox.showerror("Skupine", "Skupina s tem imenom že obstaja.")
         except ValueError as exc:
@@ -2074,6 +2091,8 @@ class SinjiDesktopApp(tk.Tk):
             db.update_group(gid, name)
             self._grp_status.set("Ime posodobljeno.")
             self._grp_refresh()
+            self._usr_refresh_all()
+            self._perm_refresh_all()
         except sqlite3.IntegrityError:
             messagebox.showerror("Skupine", "Skupina s tem imenom že obstaja.")
         except ValueError as exc:
@@ -2100,6 +2119,8 @@ class SinjiDesktopApp(tk.Tk):
             else:
                 messagebox.showwarning("Skupine", "Skupina ni bila najdena.")
             self._grp_refresh()
+            self._usr_refresh_all()
+            self._perm_refresh_all()
         finally:
             db.close()
 
@@ -2110,6 +2131,12 @@ class SinjiDesktopApp(tk.Tk):
         page = self._pages.get(name)
         if page is None:
             return
+        if name == "groups":
+            self._grp_refresh()
+        elif name == "users":
+            self._usr_refresh_all()
+        elif name == "permissions":
+            self._perm_refresh_all()
         page.pack(fill=tk.BOTH, expand=True)
 
 
