@@ -8,3 +8,6 @@ __pycache__
 
 LLM/models/*
 LLM/finetuning/*
+dist
+build
+sinji-delfini.spec
