@@ -204,7 +204,26 @@ arnes-hackathon/
 
 ---
 
-## 9. Vloge in dovoljenja (RAG)
+## 9. LLM in fine-tuning (povzetek)
+
+Generiranje odgovorov je zasnovano z enotnim vmesnikom v `LLM/llm.py`:
+
+- lokalni način: Transformers model (z možnostjo LoRA/QLoRA adapterja),
+- API način: oddaljeni ponudniki (`openai` ali `gemini`) prek istega klicnega toka.
+
+Za domensko prilagoditev je uporabljen pristop `QLoRA` za fine-tuning na osnovnem modelu `cjvt/GaMS3-12B-Instruct`. Kratek proces:
+
+1. zbiranje in ureditev javno dostopnih virov (GOV.SI, eUprava, SPOT, e-JN, OPSI in PISRS),
+2. gradnja učnih primerov (klasifikacija, povzemanje, ekstrakcija, grounded QA, zavrnitev/usmerjanje),
+3. fine-tuning modela (QLoRA),
+
+Rezultat fine-tuninga je praviloma adapter (npr. `adapter_model.safetensors` in `adapter_config.json`), ki se lahko po potrebi združi z osnovnim modelom.
+
+Podrobna dokumentacija fine-tuning dela je v [finetuning/README.md](finetuning/README.md).
+
+---
+
+## 10. Vloge in dovoljenja (RAG)
 
 Dovoljenja za dokumente so v SQLite (`document_group`) in se ob upsertu zapisujejo v Pinecone metadata kot seznam nizov `allowed_groups`.
 
@@ -214,7 +233,7 @@ Ob iskanju mora uporabnikova skupina (prek `user_group`) sekati `allowed_groups`
 
 ---
 
-## 10. LLM načini (okoljske spremenljivke)
+## 11. LLM načini (okoljske spremenljivke)
 
 - **`USE_LOCAL_LLM=1`:** nalaganje baze iz Hugging Face / lokalnega predpomnilnika; opcijski LoRA v `LLM/finetuning/<basename>/`; spremenljivke `LLM_*` — glej `README`.
 - **`USE_LOCAL_LLM=0`:** `LLM_API_PROVIDER=openai` \| `gemini`, ustrezni API ključi in modeli; ob napaki ponudnika: HTTP 502 (brez samodejnega preklopa na lokalno).
@@ -223,7 +242,7 @@ Ob iskanju mora uporabnikova skupina (prek `user_group`) sekati `allowed_groups`
 
 ---
 
-## 11. Zagon (skrajšano)
+## 12. Zagon (skrajšano)
 
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
@@ -249,7 +268,7 @@ Odpri `http://127.0.0.1:8000` → preusmeri na UI.
 
 ---
 
-## 12. Diagrami (Mermaid)
+## 13. Diagrami (Mermaid)
 
 Na **GitHubu** se ti diagrami v `.md` datoteki običajno **izrišejo** (ne kot gola koda). V lokalnem pregledovalniku potrebuješ podporo za Mermaid.
 
@@ -318,13 +337,13 @@ flowchart TD
 
 ---
 
-## 13. Testne in pomožne datoteke
+## 14. Testne in pomožne datoteke
 
 `RAG/test-upsert.py`, `RAG/test-retrieval.py` — ročni/skriptni testi okolja Pinecone/SQLite brez polnega strežnika (preveri lokalno pred integracijo).
 
 ---
 
-## 14. Znane omejitve / opombe za vzdrževalce
+## 15. Znane omejitve / opombe za vzdrževalce
 
 - Ime Pinecone indeksa in embedding modela sta zakodirana v `retrieval.py` in `upsert.py` — morata ostati usklajena.
 - Privzeta pot baze je glede na delovni imenik procesa (`DB/app.db`); uvicorn iz korena projekta je pričakovan.
