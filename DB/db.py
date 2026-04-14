@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import sqlite3
 from pathlib import Path
 from typing import Any
@@ -20,7 +21,20 @@ class Db:
         project_root = Path(__file__).resolve().parents[1]
         self.schema_path = schema_path or str(Path(__file__).with_name("sqlite_init.sql"))
         self.seed_path = seed_path or str(Path(__file__).with_name("seed.sql"))
-        self.data_documents_dir = data_documents_dir or str(project_root / "data" / "documents")
+        if data_documents_dir is not None:
+            p = Path(data_documents_dir)
+            if not p.is_absolute():
+                p = (project_root / p).resolve()
+            self.data_documents_dir = str(p)
+        else:
+            env_dir = os.getenv("DATA_DOCUMENTS_DIR", "").strip()
+            if env_dir:
+                p = Path(env_dir)
+                if not p.is_absolute():
+                    p = (project_root / p).resolve()
+                self.data_documents_dir = str(p)
+            else:
+                self.data_documents_dir = str((project_root / "data" / "documents").resolve())
         self.data_permissions_path = data_permissions_path or str(project_root / "data" / "permissions.json")
 
         Path(db_path).parent.mkdir(parents=True, exist_ok=True)
@@ -168,6 +182,103 @@ class Db:
             (user_id,),
         )
         return [row["name"] for row in cursor.fetchall()]
+
+    def list_groups(self) -> list[dict[str, Any]]:
+        rows = self.conn.execute(
+            "SELECT id, name FROM groups ORDER BY name COLLATE NOCASE",
+        ).fetchall()
+        return [{"id": int(row["id"]), "name": row["name"]} for row in rows]
+
+    def create_group(self, name: str) -> int:
+        cleaned = name.strip()
+        if not cleaned:
+            raise ValueError("Ime skupine ne sme biti prazno.")
+        with self.conn:
+            cursor = self.conn.execute(
+                "INSERT INTO groups(name) VALUES (?)",
+                (cleaned,),
+            )
+        return int(cursor.lastrowid)
+
+    def update_group(self, group_id: int, name: str) -> None:
+        cleaned = name.strip()
+        if not cleaned:
+            raise ValueError("Ime skupine ne sme biti prazno.")
+        with self.conn:
+            cursor = self.conn.execute(
+                "UPDATE groups SET name = ? WHERE id = ?",
+                (cleaned, group_id),
+            )
+        if cursor.rowcount == 0:
+            raise ValueError(f"Skupina z id {group_id} ne obstaja.")
+
+    def delete_group(self, group_id: int) -> bool:
+        with self.conn:
+            cursor = self.conn.execute("DELETE FROM groups WHERE id = ?", (group_id,))
+        return cursor.rowcount > 0
+
+    def list_document_permissions(self) -> list[dict[str, Any]]:
+        rows = self.conn.execute(
+            """
+            SELECT d.id AS document_id, d.name AS document_name, g.id AS group_id
+            FROM documents d
+            LEFT JOIN document_group dg ON dg.document_id = d.id
+            LEFT JOIN groups g ON g.id = dg.group_id
+            ORDER BY d.name COLLATE NOCASE, g.id
+            """,
+        ).fetchall()
+        grouped: dict[int, dict[str, Any]] = {}
+        for row in rows:
+            document_id = int(row["document_id"])
+            if document_id not in grouped:
+                grouped[document_id] = {
+                    "document_id": document_id,
+                    "document_name": row["document_name"],
+                    "group_ids": [],
+                }
+            gid = row["group_id"]
+            if gid is not None:
+                grouped[document_id]["group_ids"].append(int(gid))
+        for item in grouped.values():
+            item["group_ids"] = sorted(set(item["group_ids"]))
+        return sorted(grouped.values(), key=lambda x: str(x["document_name"]).lower())
+
+    def get_document_group_ids(self, document_id: int) -> list[int]:
+        rows = self.conn.execute(
+            "SELECT group_id FROM document_group WHERE document_id = ? ORDER BY group_id",
+            (document_id,),
+        ).fetchall()
+        return [int(row["group_id"]) for row in rows]
+
+    def set_document_groups(self, document_id: int, group_ids: list[int]) -> None:
+        unique_sorted = sorted({int(g) for g in group_ids})
+        with self.conn:
+            self.conn.execute("DELETE FROM document_group WHERE document_id = ?", (document_id,))
+            if unique_sorted:
+                self.conn.executemany(
+                    "INSERT INTO document_group(document_id, group_id) VALUES (?, ?)",
+                    [(document_id, gid) for gid in unique_sorted],
+                )
+
+    def sync_permissions_json_from_db(self) -> None:
+        """Zapiše data/permissions.json v skladu s tabelo document_group (enaka shema kot ročni JSON)."""
+        export: list[dict[str, Any]] = []
+        for entry in self.list_document_permissions():
+            names: list[str] = []
+            for gid in entry["group_ids"]:
+                row = self.conn.execute("SELECT name FROM groups WHERE id = ? LIMIT 1", (gid,)).fetchone()
+                if row is not None:
+                    names.append(str(row["name"]))
+            export.append(
+                {
+                    "dokument": entry["document_name"],
+                    "allowed_groups": sorted(set(names)),
+                }
+            )
+        export.sort(key=lambda x: str(x["dokument"]).lower())
+        path = Path(self.data_permissions_path)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(export, indent=4, ensure_ascii=False) + "\n", encoding="utf-8")
 
     def get_chat_owner_id(self, chat_id: int) -> int | None:
         row = self.conn.execute(
@@ -436,6 +547,43 @@ class Db:
                 (username, password_hash),
             )
         return int(cursor.lastrowid)
+
+    def list_users(self) -> list[dict[str, Any]]:
+        rows = self.conn.execute(
+            "SELECT id, name FROM users ORDER BY name COLLATE NOCASE",
+        ).fetchall()
+        return [{"id": int(row["id"]), "name": row["name"]} for row in rows]
+
+    def get_user_group_ids(self, user_id: int) -> list[int]:
+        rows = self.conn.execute(
+            "SELECT group_id FROM user_group WHERE user_id = ? ORDER BY group_id",
+            (user_id,),
+        ).fetchall()
+        return [int(row["group_id"]) for row in rows]
+
+    def set_user_groups(self, user_id: int, group_ids: list[int]) -> None:
+        unique_sorted = sorted({int(g) for g in group_ids})
+        with self.conn:
+            self.conn.execute("DELETE FROM user_group WHERE user_id = ?", (user_id,))
+            if unique_sorted:
+                self.conn.executemany(
+                    "INSERT INTO user_group(user_id, group_id) VALUES (?, ?)",
+                    [(user_id, gid) for gid in unique_sorted],
+                )
+
+    def update_user_password(self, user_id: int, password_hash: str) -> None:
+        with self.conn:
+            cursor = self.conn.execute(
+                "UPDATE users SET password_hash = ? WHERE id = ?",
+                (password_hash, user_id),
+            )
+        if cursor.rowcount == 0:
+            raise ValueError(f"Uporabnik z id {user_id} ne obstaja.")
+
+    def delete_user(self, user_id: int) -> bool:
+        with self.conn:
+            cursor = self.conn.execute("DELETE FROM users WHERE id = ?", (user_id,))
+        return cursor.rowcount > 0
 
     def revoke_token(self, jti: str, expires_at: int) -> None:
         with self.conn:

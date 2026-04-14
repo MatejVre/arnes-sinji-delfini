@@ -7,9 +7,14 @@ from threading import Lock
 from pinecone import Pinecone
 from sentence_transformers import SentenceTransformer
 
-INDEX_NAME = "sinji-delfini-test"
+DEFAULT_INDEX_NAME = "sinji-delfini-test"
 TOP_K = 5
 EMBEDDING_MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
+
+
+def _resolve_index_name() -> str:
+    raw = (os.getenv("PINECONE_INDEX_NAME") or DEFAULT_INDEX_NAME).strip()
+    return raw or DEFAULT_INDEX_NAME
 
 
 def create_retrieval_resources() -> tuple[object, SentenceTransformer]:
@@ -18,7 +23,7 @@ def create_retrieval_resources() -> tuple[object, SentenceTransformer]:
         raise ValueError("Missing PINECONE_API_KEY environment variable.")
 
     pc = Pinecone(api_key=api_key)
-    index = pc.Index(INDEX_NAME)
+    index = pc.Index(_resolve_index_name())
     model = SentenceTransformer(EMBEDDING_MODEL_NAME)
     return index, model
 

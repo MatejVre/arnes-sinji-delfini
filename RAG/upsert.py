@@ -8,8 +8,13 @@ from sentence_transformers import SentenceTransformer
 
 from DB.db import Db
 
-INDEX_NAME = "sinji-delfini-test"
+DEFAULT_INDEX_NAME = "sinji-delfini-test"
 EMBEDDING_MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
+
+
+def _resolve_index_name() -> str:
+    raw = (os.getenv("PINECONE_INDEX_NAME") or DEFAULT_INDEX_NAME).strip()
+    return raw or DEFAULT_INDEX_NAME
 VECTOR_DIMENSION = 384
 VECTOR_METRIC = "cosine"
 VECTOR_CLOUD = "aws"
@@ -29,9 +34,10 @@ def create_upsert_resources() -> tuple[object, SentenceTransformer]:
         raise ValueError("Missing PINECONE_API_KEY environment variable.")
 
     pc = Pinecone(api_key=api_key)
-    if not pc.has_index(INDEX_NAME):
+    index_name = _resolve_index_name()
+    if not pc.has_index(index_name):
         pc.create_index(
-            name=INDEX_NAME,
+            name=index_name,
             vector_type="dense",
             dimension=VECTOR_DIMENSION,
             metric=VECTOR_METRIC,
@@ -43,7 +49,7 @@ def create_upsert_resources() -> tuple[object, SentenceTransformer]:
             tags={"environment": "development"},
         )
 
-    index = pc.Index(INDEX_NAME)
+    index = pc.Index(index_name)
     model = SentenceTransformer(EMBEDDING_MODEL_NAME)
     return index, model
 
