@@ -1,82 +1,77 @@
-# Arnes Sinji Delfini — dokumentacija projekta
+# Arnes Sinji Delfini — projektna dokumentacija
 
-*Verzija: ustrezna stanju repozitorija (hackathon / demo RAG klepet). Jezik: slovenščina.*
+*Verzija: skladna s trenutnim stanjem repozitorija (hackathon / demo RAG klepet).*
 
 ---
 
 ## 1. Namen in povzetek
 
-Projekt je spletni demostrant »varnega« klepeta nad internimi dokumenti: uporabnik se prijavi, klepetuje v vmesniku, odgovori pa temeljijo na semantičnem iskanju po vektorjih (Pinecone), pri čemer se upoštevajo skupine dostopa (SQLite). Jezikovni model lahko teče lokalno (Transformers + opcijski LoRA) ali prek oddaljenega API-ja (OpenAI / Gemini prek enotnega adapterja).
+Projekt je sistem za varen klepet in iskanje nad internimi dokumenti: enostven uporabniški vmesnik za vzpostavitev sistema na server enote javne uprave, uporabnik se nato prijavi, klepeta v spletnem vmesniku, odgovori pa temeljijo na semantičnem iskanju po vektorjih (Pinecone), pri čemer se upoštevajo skupine dostopa (SQLite). V kolikor uporabnik nima dostopa do dokumenta ga sistem napoti k skupini, ki ga ima. Jezikovni model lahko teče lokalno (Transformers + opcijski LoRA) ali prek oddaljenega API-ja (OpenAI / Gemini prek enotnega adapterja).
 
 **Jedro:**
 
 - FastAPI aplikacija v mapi `API/` (vstopna točka, REST + statični UI)
 - SQLite baza za uporabnike, skupine, dokumente, klepete in revokacijo JWT
 - Pinecone indeks za goste vektorje besedilnih kosov dokumentov
-- Sentence-Transformers za enake embeddinge pri upsertu in retrievalu
-- Modul `LLM/` za nalaganje in generiranje odgovorov
+- Modul `LLM/` za nalaganje modela in generiranje odgovorov
 
 ---
 
 ## 2. Tehnološki sklad
 
 - Python 3, FastAPI, Uvicorn, Pydantic
-- SQLite (sqlite3), PyJWT, passlib (PBKDF2)
+- SQLite (`sqlite3`), PyJWT, passlib (PBKDF2)
 - Pinecone (vektorski indeks), sentence-transformers  
-  - Model: `paraphrase-multilingual-MiniLM-L12-v2` (384 dimenzij, cosine)
-- LLM: transformers, torch, peft (LoRA), bitsandbytes (4-bit, opcijsko) ali OpenAI / Gemini SDK prek notranjega API načina
+  - model: `paraphrase-multilingual-MiniLM-L12-v2` (384 dimenzij, cosine)
+- LLM: transformers, torch, peft (LoRA), bitsandbytes (4-bit, opcijsko) ali OpenAI / Gemini SDK prek internega API načina
 - Frontend: enotna datoteka `static/index.html` (vanilla JS, kliče REST API)
 - Konfiguracija: python-dotenv (`.env` v korenu projekta, ni v gitu)
 
-Podrobnosti odvisnosti: `requirements.txt`  
+Podrobnosti o odvisnostih: `requirements.txt`  
 Navodila za zagon in `.env`: `README.md`
 
 ---
 
-## 3. Drevesna struktura projekta (datoteke v repozitoriju)
+## 3. Drevesna struktura projekta
 
 ```text
 arnes-hackathon/
 ├── .gitignore
-├── dokumentacija.md           ← ta datoteka
+├── dokumentacija.md             Tehnična dokumentacija
 ├── README.md
 ├── requirements.txt
-├── test_data.zip                (ZIP z vzorčnimi dokumenti)
 │
 ├── API/                         (FastAPI — HTTP vmesnik)
 │   ├── main.py                  (aplikacija, endpointi, lifespan, mount /ui)
 │   └── auth.py                  (JWT, bcrypt/pbkdf2, Depends get_current_user)
 │
-├── DB/                          (perzistentna plast)
+├── DB/
 │   ├── db.py                    (razred Db — vse SQL operacije)
-│   ├── sqlite_init.sql          (shema tabele)
+│   ├── sqlite_init.sql          (shema tabel)
 │   ├── seed.sql                 (demo uporabniki, skupine, dokumenti)
-│   └── app.db                   (ustvari se ob poganjanju; običajno .gitignore)
 │
 ├── LLM/                         (jezikovni model)
 │   └── llm.py                   (lokalni GaMS3 + LoRA ali API način)
-│   (priporočena mapa LLM/finetuning/ — glej README)
+│   (mapa LLM/finetuning/ — glej README)
 │   (predpomnilnik LLM/models/ — ob prvem zagonu)
 │
 ├── RAG/                         (retrieval, indeksiranje, pravice)
 │   ├── retrieval.py             (Pinecone query, TOP_K, normalizacija zadetkov)
 │   ├── upsert.py                (branje datotek, chunking, upsert v Pinecone)
 │   ├── acces_controll.py        (prag zadetkov + filter po skupinah)
-│   ├── openai_reply.py          (alternativni async RAG odgovor prek OpenAI;
-│   │                             glavni tok uporablja LLM/llm.py)
 │   ├── test-retrieval.py
 │   └── test-upsert.py
 │
 ├── data/                        (vsebina dokumentov in JSON dovoljenj)
 │   ├── permissions.json         (dokument → allowed_groups za dinamični seed)
 │   └── documents/
-│       ├── doc1.txt … doc6.txt
-│       └── stroski_2023.csv
+│       ├── ...
+│       └── ...
 │
 ├── finetuning/                  (orodja za pripravo podatkov in fine-tuning)
 │   ├── README.md                (navodila za fine-tuning pipeline)
 │   ├── configs/                 (konfiguracije za pripravo podatkov, učenje in primerjavo)
-│   ├── data/                    (korpus, chunki, SFT nizi in eval primeri)
+│   ├── data/                    (korpus, chunki, ...)
 │   ├── runs/                    (rezultati zagonov: adapterji, checkpointi, primerjave)
 │   ├── scripts/                 (Python skripte za pripravo, učenje, evalvacijo, izvoz)
 │   └── slurm/                   (batch skripte za zagon na gruči Arnes SLING)
@@ -84,15 +79,12 @@ arnes-hackathon/
 └── static/                      (spletni UI, serviran pod /ui/)
     ├── index.html               (login, seznam klepetov, composer, klici API)
     └── images/
-        ├── logo1.png, logo2.png, Sinji Delfini-Photoroom.png
-        └── favicon_io/          (ikone, manifest)
-```
 
-> **Opomba:** ime datoteke `RAG/acces_controll.py` vsebuje tipkarsko napako (*acces* namesto *access*); v kodi in uvozih ostaja tako.
+```
 
 ---
 
-## 4. Visoko nivojska arhitektura (ASCII)
+## 4. Visokonivojska arhitektura
 
 ```text
                         ┌─────────────────┐
@@ -119,14 +111,14 @@ arnes-hackathon/
 
 ---
 
-## 5. Tok obdelave klepeta `POST /chat` (ASCII)
+## 5. Tok obdelave klepeta `POST /chat`
 
 ```text
   Uporabnik pošlje { chat_id, chat }
        │
-       ├─► Preverjanje JWT + lastništvo klepeta (SQLite)
+       ├─► Preverjanje JWT + lastništva klepeta (SQLite)
        │
-       ├─► Naloži zadnjih K=10 sporočil iz zgodovine (vrstni red za LLM)
+       ├─► Nalaganje zadnjih K=10 sporočil iz zgodovine (vrstni red za LLM)
        │
        ├─► Embedding vprašanja + Pinecone query (TOP_K=5)
        │
@@ -138,7 +130,7 @@ arnes-hackathon/
        │        → allowed_matches, groups_to_contact
        │
        ├─► Če so zadetki, a nobeden ni dovoljen:
-       │        fiksno slovensko sporočilo + seznam skupin za kontakt
+       │        fiksno sporočilo + seznam skupin za kontakt
        │
        └─► Sicer: preprocess_rag_data(...) → sporočila za chat_with_model
                  │
@@ -160,17 +152,17 @@ arnes-hackathon/
        │
        └─► Za vsak dokument:
              - preberi data/documents/<ime> (.txt ali .csv)
-             - chunk (besede z overlap; CSV po vrsticah)
+             - chunk (besede s prekrivanjem; CSV po vrsticah)
              - embedding z istim modelom kot retrieval
              - index.upsert z metadata: text, document_id, document_name,
                allowed_groups
 ```
 
-**Pinecone:** `INDEX_NAME = "sinji-delfini-test"` (v `retrieval.py` in `upsert.py`). Ob zagonu `create_upsert_resources()` ustvari indeks, če ne obstaja (Serverless AWS `us-east-1`, cosine, dense 384).
+**Pinecone:** `INDEX_NAME = "sinji-delfini-test"` (v `retrieval.py` in `upsert.py`). Ob zagonu `create_upsert_resources()` ustvari indeks, če še ne obstaja (Serverless AWS `us-east-1`, cosine, dense 384).
 
 ---
 
-## 7. Podatkovni model (SQLite) — ER poenostavitev (ASCII)
+## 7. Podatkovni model (SQLite)
 
 ```text
   users ────────┬──── user_group ──── groups
@@ -183,12 +175,11 @@ arnes-hackathon/
                         │
                         └── chat_message_document ─── documents
                                                               │
-  documents ────────┬──── document_group ──── groups
-                    │
-                    (M:N katera skupina vidi kater dokument)
+                                                              └──── document_group ──── groups
+                                                                                                                    
 ```
 
-**Tabele** (`sqlite_init.sql`): `users`, `groups`, `user_group`, `chat`, `chat_message`, `chat_message_document`, `documents`, `document_group`, `revoked_token` (jti + expires_at za logout).
+**Tabele** (`sqlite_init.sql`): `users`, `groups`, `user_group`, `chat`, `chat_message`, `chat_message_document`, `documents`, `document_group`, `revoked_token` (`jti` + `expires_at` za logout).
 
 ---
 
@@ -214,8 +205,8 @@ Generiranje odgovorov je zasnovano z enotnim vmesnikom v `LLM/llm.py`:
 Za domensko prilagoditev je uporabljen pristop `QLoRA` za fine-tuning na osnovnem modelu `cjvt/GaMS3-12B-Instruct`. Kratek proces:
 
 1. zbiranje in ureditev javno dostopnih virov (GOV.SI, eUprava, SPOT, e-JN, OPSI in PISRS),
-2. gradnja učnih primerov (klasifikacija, povzemanje, ekstrakcija, grounded QA, zavrnitev/usmerjanje),
-3. fine-tuning modela (QLoRA),
+2. priprava učnih primerov (klasifikacija, povzemanje, ekstrakcija, grounded QA, zavrnitev/usmerjanje),
+3. fine-tuning modela (QLoRA).
 
 Rezultat fine-tuninga je praviloma adapter (npr. `adapter_model.safetensors` in `adapter_config.json`), ki se lahko po potrebi združi z osnovnim modelom.
 
@@ -227,9 +218,9 @@ Podrobna dokumentacija fine-tuning dela je v [finetuning/README.md](finetuning/R
 
 Dovoljenja za dokumente so v SQLite (`document_group`) in se ob upsertu zapisujejo v Pinecone metadata kot seznam nizov `allowed_groups`.
 
-Ob iskanju mora uporabnikova skupina (prek `user_group`) sekati `allowed_groups` posameznega chunka, sicer chunk ne pride v kontekst LLM.
+Ob iskanju se mora uporabnikova skupina (prek `user_group`) prekrivati z `allowed_groups` posameznega chunka, sicer chunk ne pride v kontekst LLM.
 
-Če Pinecone vrne relevantne chunk-e, ki pa so vsi »zaklenjeni«, API vrne besedilo z navodilom, na katere skupine se obrniti (`groups_to_contact`).
+Če Pinecone vrne relevantne kose, ki pa so vsi »zaklenjeni«, API vrne besedilo z navodilom, na katere skupine se obrniti (`groups_to_contact`).
 
 ---
 
@@ -242,12 +233,10 @@ Ob iskanju mora uporabnikova skupina (prek `user_group`) sekati `allowed_groups`
 
 ---
 
-## 12. Zagon (skrajšano)
-
+## 12. Zagon (za razvijalce)
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-pip install fastapi "uvicorn[standard]"   # če README še predpisuje ločeno
 ```
 
 Nastavi `.env` (`PINECONE_API_KEY`, `JWT_SECRET`, `LLM` / `USE_LOCAL_LLM`, …).
@@ -264,7 +253,10 @@ Odpri `http://127.0.0.1:8000` → preusmeri na UI.
 2. `GET /schema/seed`
 3. (opcijsko) `POST /index/clear`
 4. `GET /upsert/all`
-5. Registracija/prijava v UI, klepet
+5. registracija/prijava v UI, klepet
+
+
+(ostali uporabniki lahko naložijo .exe datoteko na strežnik in konfigurirajo sistem preko uporabniškega vmesnika)
 
 ---
 
@@ -337,14 +329,3 @@ flowchart TD
 
 ---
 
-## 14. Testne in pomožne datoteke
-
-`RAG/test-upsert.py`, `RAG/test-retrieval.py` — ročni/skriptni testi okolja Pinecone/SQLite brez polnega strežnika (preveri lokalno pred integracijo).
-
----
-
-## 15. Znane omejitve / opombe za vzdrževalce
-
-- Ime Pinecone indeksa in embedding modela sta zakodirana v `retrieval.py` in `upsert.py` — morata ostati usklajena.
-- Privzeta pot baze je glede na delovni imenik procesa (`DB/app.db`); uvicorn iz korena projekta je pričakovan.
-- `RAG/openai_reply.py` je ločen async tok; produkcijski `/chat` trenutno uporablja enoten tok prek `LLM/llm.py` (`chat_with_model`).
