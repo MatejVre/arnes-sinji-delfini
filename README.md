@@ -1,4 +1,5 @@
 # Arnes Sinji Delfini API
+Whole documentation is inside file Dokumentacija.md
 
 ## 1) Create Environment
 
