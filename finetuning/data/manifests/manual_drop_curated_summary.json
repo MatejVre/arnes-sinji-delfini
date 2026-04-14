@@ -1,0 +1,50 @@
+{
+  "manual_first_pass_count": 16,
+  "manual_curated_keep_count": 13,
+  "manual_low_signal_count": 3,
+  "merged_curated_count": 113,
+  "kept_by_folder": {
+    "e-uprava": 7,
+    "ejn": 1,
+    "gov": 5
+  },
+  "low_signal_titles": [
+    "Dovoljenje za izvedbo javne prireditve",
+    "Izvrševanje proračuna",
+    "Sprejeti proračun"
+  ],
+  "top_domains": [
+    [
+      "civil-status",
+      3
+    ],
+    [
+      "e-government",
+      2
+    ],
+    [
+      "public-sector-hr",
+      2
+    ],
+    [
+      "budget",
+      2
+    ],
+    [
+      "vehicle-registration",
+      1
+    ],
+    [
+      "residence",
+      1
+    ],
+    [
+      "public-procurement",
+      1
+    ],
+    [
+      "health-procedures",
+      1
+    ]
+  ]
+}

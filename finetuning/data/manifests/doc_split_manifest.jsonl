@@ -1,0 +1,113 @@
+{"doc_id": "slo-admin-001", "doc_family_id": "family-d9f21a151e23", "split": "train", "domain": "open-data", "title": "OPSI - O portalu"}
+{"doc_id": "slo-admin-002", "doc_family_id": "family-9e379dfba29c", "split": "train", "domain": "legal-metadata", "title": "Osnovni podatki o predpisih RS"}
+{"doc_id": "slo-admin-003", "doc_family_id": "family-25f8684645c9", "split": "train", "domain": "legal-backbone", "title": "Pravno-informacijski sistem Republike Slovenije"}
+{"doc_id": "slo-admin-004", "doc_family_id": "family-bc1a69b2ba9f", "split": "train", "domain": "legal-api", "title": "PISRS API za razvijalce"}
+{"doc_id": "slo-admin-005", "doc_family_id": "family-36919f70fc3b", "split": "train", "domain": "e-government", "title": "O državnem portalu eUprava"}
+{"doc_id": "slo-admin-006", "doc_family_id": "family-c05ee6ec07ec", "split": "train", "domain": "public-participation", "title": "Kako lahko sam sodelujem v procesu priprave predpisov?"}
+{"doc_id": "slo-admin-007", "doc_family_id": "family-491cfdca8161", "split": "train", "domain": "public-participation", "title": "Ali je sodelovanje javnosti v procesu priprave predpisov obvezno?"}
+{"doc_id": "slo-admin-008", "doc_family_id": "family-9c0a19513124", "split": "train", "domain": "public-participation", "title": "Ali so komentarji, predlogi in mnenja javnosti javno objavljeni?"}
+{"doc_id": "slo-admin-009", "doc_family_id": "family-870e6c956046", "split": "train", "domain": "business-procedures", "title": "Ustanovitev podjetja"}
+{"doc_id": "slo-admin-010", "doc_family_id": "family-2f82d7b0f78c", "split": "train", "domain": "tax-and-bookkeeping", "title": "Davki in vodenje poslovnih knjig"}
+{"doc_id": "slo-admin-011", "doc_family_id": "family-4d09d613f26a", "split": "train", "domain": "tax-registration", "title": "Vpis v davčni register"}
+{"doc_id": "slo-admin-012", "doc_family_id": "family-71c59b2a4fa5", "split": "train", "domain": "vat", "title": "Davek na dodano vrednost (DDV)"}
+{"doc_id": "slo-admin-013", "doc_family_id": "family-f926902765e2", "split": "train", "domain": "public-administration", "title": "O ministrstvu za javno upravo"}
+{"doc_id": "slo-admin-014", "doc_family_id": "family-d439abee75a6", "split": "train", "domain": "public-sector-management", "title": "Direktorat za javni sektor"}
+{"doc_id": "slo-admin-015", "doc_family_id": "family-1220dec8f26a", "split": "train", "domain": "public-procurement", "title": "Direktorat za javno naročanje"}
+{"doc_id": "slo-admin-016", "doc_family_id": "family-7b08133c71ff", "split": "train", "domain": "finance-administration", "title": "O ministrstvu za finance"}
+{"doc_id": "slo-admin-017", "doc_family_id": "family-d0c2f6189393", "split": "train", "domain": "budget", "title": "Direktorat za proračun"}
+{"doc_id": "slo-admin-018", "doc_family_id": "family-c8f457c7ef4f", "split": "train", "domain": "budget", "title": "Državni proračun"}
+{"doc_id": "slo-admin-019", "doc_family_id": "family-4b99893f2cd1", "split": "train", "domain": "public-finance", "title": "Javne finance"}
+{"doc_id": "slo-admin-020", "doc_family_id": "family-33d669355fce", "split": "train", "domain": "public-procurement", "title": "Javno naročanje"}
+{"doc_id": "slo-admin-021", "doc_family_id": "family-3bf286b99cf9", "split": "train", "domain": "public-procurement-support", "title": "Pomoč uporabnikom"}
+{"doc_id": "slo-admin-022", "doc_family_id": "family-f18c0b0b5143", "split": "train", "domain": "public-procurement-support", "title": "Koristne informacije za javno naročanje"}
+{"doc_id": "slo-admin-023", "doc_family_id": "family-0d149047cbab", "split": "val", "domain": "health-procedures", "title": "Vloga za zagotavljanje zdravstvenega varstva na prireditvah"}
+{"doc_id": "slo-admin-024", "doc_family_id": "family-6afcf8d0a300", "split": "train", "domain": "health-procedures", "title": "Razvid upravnih postopkov Ministrstva za zdravje"}
+{"doc_id": "adm-kako-in-kje-lahko-ustanovite-podjetj-4092f4b621", "doc_family_id": "family-473fa8b8a7bd", "split": "train", "domain": "business-procedures", "title": "Kako in kje lahko ustanovite podjetje"}
+{"doc_id": "adm-obveznosti-do-financne-uprave-1587f57878", "doc_family_id": "family-2d3b106212b1", "split": "val", "domain": "business-procedures", "title": "Obveznosti do Finančne uprave"}
+{"doc_id": "adm-ustanovitev-s-p-dbf0824dfc", "doc_family_id": "family-fc5e906129bf", "split": "train", "domain": "business-procedures", "title": "Postopek registracije s.p."}
+{"doc_id": "adm-pred-postopkom-ustanovitve-podjetja-66ee52c9ae", "doc_family_id": "family-6958a25d8eb1", "split": "train", "domain": "business-procedures", "title": "Pred postopkom ustanovitve podjetja"}
+{"doc_id": "adm-primerjava-med-s-p-in-d-o-o-8fa96567b6", "doc_family_id": "family-bde2e57a698c", "split": "train", "domain": "business-procedures", "title": "Primerjava med s.p. in d.o.o."}
+{"doc_id": "adm-ustanovitev-d-o-o-4c871630cd", "doc_family_id": "family-4b349b82c396", "split": "train", "domain": "business-procedures", "title": "Ustanovitev d.o.o."}
+{"doc_id": "seed-spot-business", "doc_family_id": "family-870e6c956046", "split": "train", "domain": "business-procedures", "title": "Ustanovitev podjetja"}
+{"doc_id": "adm-davek-na-dodano-vrednost-ddv-3852194200", "doc_family_id": "family-71c59b2a4fa5", "split": "train", "domain": "vat", "title": "Davek na dodano vrednost (DDV)"}
+{"doc_id": "adm-davek-od-dohodka-iz-dejavnosti-229d69ab83", "doc_family_id": "family-577253739005", "split": "val", "domain": "tax-and-bookkeeping", "title": "Davek od dohodka iz dejavnosti"}
+{"doc_id": "adm-davek-od-dohodkov-pravnih-oseb-8f20c13583", "doc_family_id": "family-aa6fca469742", "split": "train", "domain": "tax-and-bookkeeping", "title": "Davek od dohodkov pravnih oseb"}
+{"doc_id": "adm-davcne-olajsave-d33d1589f9", "doc_family_id": "family-b5409a5e1844", "split": "train", "domain": "tax-and-bookkeeping", "title": "Davčne olajšave"}
+{"doc_id": "adm-vodenje-poslovnih-knjig-4bf0091638", "doc_family_id": "family-b32787ccd786", "split": "train", "domain": "tax-and-bookkeeping", "title": "Vodenje poslovnih knjig"}
+{"doc_id": "adm-vpis-v-davcni-register-8b1a4708bf", "doc_family_id": "family-4d09d613f26a", "split": "train", "domain": "tax-registration", "title": "Vpis v davčni register"}
+{"doc_id": "seed-spot-finance", "doc_family_id": "family-c280150c9e59", "split": "train", "domain": "tax", "title": "Davki in vodenje poslovnih knjig"}
+{"doc_id": "adm-www-gov-si-49d3aae9cb", "doc_family_id": "family-c6d2e7b48af9", "split": "train", "domain": "local-government", "title": "Financiranje občin"}
+{"doc_id": "adm-www-gov-si-bad6dd99f6", "doc_family_id": "family-bcb98ea808bb", "split": "train", "domain": "access-to-public-information", "title": "Informacije javnega značaja"}
+{"doc_id": "adm-www-gov-si-358a5ad9e3", "doc_family_id": "family-5140ed30d3c9", "split": "train", "domain": "local-government", "title": "Lokalna samouprava in mednarodna skupnost"}
+{"doc_id": "adm-www-gov-si-fcdbf5a7f4", "doc_family_id": "family-f4ce0ab5aaf3", "split": "val", "domain": "local-government", "title": "Naloge občin"}
+{"doc_id": "adm-www-gov-si-ac902264a2", "doc_family_id": "family-af801a32f384", "split": "train", "domain": "local-government", "title": "Občine v številkah"}
+{"doc_id": "adm-www-gov-si-0103d6b124", "doc_family_id": "family-e9779342a8bc", "split": "train", "domain": "local-government", "title": "Občinski organi"}
+{"doc_id": "adm-www-gov-si-e473483aba", "doc_family_id": "family-df1e61da6202", "split": "train", "domain": "public-sector-pay", "title": "Plačni sistem"}
+{"doc_id": "adm-www-gov-si-6c4f923858", "doc_family_id": "family-3018a8349c38", "split": "train", "domain": "public-sector-hr", "title": "Ravnanje s kadri"}
+{"doc_id": "adm-www-gov-si-fc50ff3524", "doc_family_id": "family-c2100ed47478", "split": "train", "domain": "public-procurement", "title": "Skupno javno naročanje"}
+{"doc_id": "adm-www-gov-si-5984fa60fa", "doc_family_id": "family-82c77acabd73", "split": "train", "domain": "administrative-fees", "title": "Upravne takse"}
+{"doc_id": "adm-www-gov-si-1b8cd4d940", "doc_family_id": "family-1f830166535b", "split": "train", "domain": "administrative-procedure", "title": "Upravni postopek"}
+{"doc_id": "adm-www-gov-si-b10cfbf4d7", "doc_family_id": "family-3874b925610d", "split": "train", "domain": "administrative-operations", "title": "Upravno poslovanje"}
+{"doc_id": "adm-www-gov-si-16649cc383", "doc_family_id": "family-9ffc28db493f", "split": "train", "domain": "public-sector-hr", "title": "Uslužbenski sistem"}
+{"doc_id": "adm-www-gov-si-70ebc85f1e", "doc_family_id": "family-7b7500133b8b", "split": "train", "domain": "public-procurement", "title": "Zeleno javno naročanje"}
+{"doc_id": "seed-mju-themes", "doc_family_id": "family-cb9ba63141d4", "split": "train", "domain": "public-administration", "title": "Teme in projekti Ministrstva za javno upravo"}
+{"doc_id": "adm-www-gov-si-e8f8767231", "doc_family_id": "family-66286a6fcd21", "split": "train", "domain": "public-sector-pay", "title": "Pravice in obveznosti javnih uslužbencev"}
+{"doc_id": "adm-www-gov-si-d57ed02ac2", "doc_family_id": "family-0bccf14de2a9", "split": "val", "domain": "public-administration", "title": "Razvoj in upravljanje javnega sektorja"}
+{"doc_id": "adm-www-gov-si-5a3dadde3b", "doc_family_id": "family-2a16079ee39f", "split": "train", "domain": "access-to-public-information", "title": "Transparentnost in integriteta"}
+{"doc_id": "adm-www-gov-si-9b4bdf2270", "doc_family_id": "family-aaa6bc28b08c", "split": "train", "domain": "administrative-procedure", "title": "Upravno poslovanje"}
+{"doc_id": "seed-public-sector-overview", "doc_family_id": "family-9217f551f887", "split": "train", "domain": "public-administration", "title": "Javni sektor"}
+{"doc_id": "seed-mju-procurement-sector", "doc_family_id": "family-617f8158b99d", "split": "train", "domain": "public-procurement", "title": "Sektor za sistem javnega naročanja"}
+{"doc_id": "seed-mf-themes", "doc_family_id": "family-d4d838a23717", "split": "train", "domain": "public-finance", "title": "Teme in projekti Ministrstva za finance"}
+{"doc_id": "adm-www-gov-si-4ad1986b38", "doc_family_id": "family-f901e1919aaa", "split": "train", "domain": "tax", "title": "Davki, carine in druge dajatve"}
+{"doc_id": "adm-www-gov-si-9a306798db", "doc_family_id": "family-e4daac5ae046", "split": "train", "domain": "tax", "title": "Državne pomoči"}
+{"doc_id": "adm-www-gov-si-91bf531992", "doc_family_id": "family-c8f457c7ef4f", "split": "train", "domain": "budget", "title": "Državni proračun"}
+{"doc_id": "adm-www-gov-si-74ba26c3f6", "doc_family_id": "family-40de6dfd62e8", "split": "train", "domain": "tax", "title": "Finančni sistem"}
+{"doc_id": "adm-www-gov-si-19bdc9f197", "doc_family_id": "family-9ac3df843a4d", "split": "test", "domain": "budget", "title": "Javna plačila"}
+{"doc_id": "adm-www-gov-si-9ee909644a", "doc_family_id": "family-4b99893f2cd1", "split": "train", "domain": "public-finance", "title": "Javne finance"}
+{"doc_id": "adm-www-gov-si-f31f061ff4", "doc_family_id": "family-324e1a8c1f33", "split": "train", "domain": "public-procurement", "title": "Javno naročanje"}
+{"doc_id": "adm-www-gov-si-1ca8e7282f", "doc_family_id": "family-fd2b71600320", "split": "train", "domain": "tax", "title": "Javno premoženje"}
+{"doc_id": "adm-www-gov-si-0d6dd64c05", "doc_family_id": "family-7e008478edc3", "split": "train", "domain": "budget", "title": "Sredstva EU"}
+{"doc_id": "adm-www-gov-si-6ca906bc1c", "doc_family_id": "family-6e9cdf1cd6ac", "split": "train", "domain": "local-government", "title": "Zakladništvo"}
+{"doc_id": "seed-finance-overview", "doc_family_id": "family-00347716253e", "split": "val", "domain": "tax", "title": "Finance in davki"}
+{"doc_id": "seed-mf-budget-sector", "doc_family_id": "family-cd4d02ec1d8f", "split": "train", "domain": "budget", "title": "Sektor za proračun"}
+{"doc_id": "adm-www-gov-si-d788ea281b", "doc_family_id": "family-3035224a413d", "split": "test", "domain": "health-procedures", "title": "Dovoljenje ali odločba za opravljanje zdravstvene dejavnosti"}
+{"doc_id": "adm-spot-gov-si-722f6a9cfc", "doc_family_id": "family-a94764959c8b", "split": "train", "domain": "health-procedures", "title": "Dovoljenje za izdajo zdravil prek medmrežja"}
+{"doc_id": "adm-spot-gov-si-9b8e973670", "doc_family_id": "family-11f27a0bcd75", "split": "test", "domain": "health-procedures", "title": "Dovoljenje za opravljanje dejavnosti DDD"}
+{"doc_id": "adm-www-gov-si-d950b11751", "doc_family_id": "family-941f7742691b", "split": "test", "domain": "health-procedures", "title": "Dovoljenje za opravljanje zdravstvene dejavnosti javnih zavodov"}
+{"doc_id": "adm-izbris-iz-registra-zasebnih-zdravstv-ea99eb9d28", "doc_family_id": "family-e57744288805", "split": "train", "domain": "health-procedures", "title": "Izbris iz registra zasebnih zdravstvenih delavcev"}
+{"doc_id": "adm-www-gov-si-5c33c264db", "doc_family_id": "family-09f72ae41492", "split": "test", "domain": "health-procedures", "title": "Izdaja dovoljenj za delo medicinskih laboratorijev"}
+{"doc_id": "adm-izdaja-potrdil-glede-na-direktivo-20-8eb5c2634f", "doc_family_id": "family-306a895269cf", "split": "train", "domain": "health-procedures", "title": "Izdaja potrdil glede na Direktivo 2005/36/ES za poklicne kvalifikacije, pridobljene v Sloveniji"}
+{"doc_id": "adm-www-gov-si-8790763b65", "doc_family_id": "family-16b4f69f055a", "split": "train", "domain": "health-procedures", "title": "Opravljanje zdravilske dejavnosti - licenca in dovoljenje"}
+{"doc_id": "adm-oprostitev-posameznih-vsebin-strokov-8a96e69a6a", "doc_family_id": "family-38fb1e4221c7", "split": "train", "domain": "health-procedures", "title": "Oprostitev posameznih vsebin strokovnega izpita in oprostitev pripravništva in strokovnega izpita za zdravstvene delavce oziroma zdravstvene sodelavce"}
+{"doc_id": "adm-www-gov-si-368bee64ee", "doc_family_id": "family-c7a5c4770090", "split": "train", "domain": "health-procedures", "title": "Pooblastilo za izvajanje zdravstvenega nadzora izpostavljenih delavcev"}
+{"doc_id": "adm-www-gov-si-5f643b2f75", "doc_family_id": "family-54e316c3f96c", "split": "train", "domain": "health-procedures", "title": "Postopek obravnave vlog za nove zdravstvene programe"}
+{"doc_id": "adm-potrdilo-o-dobrem-imenu-9df7b8d9a3", "doc_family_id": "family-e358ee2a62ab", "split": "test", "domain": "health-procedures", "title": "Potrdilo o dobrem imenu na področju zdravstva"}
+{"doc_id": "adm-opravljanje-nalog-resevalca-na-smuci-3599bc4e28", "doc_family_id": "family-aed407b15112", "split": "train", "domain": "health-procedures", "title": "Potrdilo o izpolnjevanju pogojev za reševalca na smučišču"}
+{"doc_id": "adm-pridobitev-dovoljenja-za-opravljanje-88135e85c3", "doc_family_id": "family-845f53b09a63", "split": "train", "domain": "health-procedures", "title": "Pridobitev dovoljenja za opravljanje zdravstvene dejavnosti za fizične osebe - zasebni zdravstveni delavec"}
+{"doc_id": "adm-licenca-za-opravljanje-zdravilske-de-70a6eedb13", "doc_family_id": "family-043f9468fc93", "split": "test", "domain": "health-procedures", "title": "Pridobitev oziroma podaljšanje licence za opravljanje zdravilske dejavnosti"}
+{"doc_id": "adm-www-gov-si-b1a81c642a", "doc_family_id": "family-3af1a8e6700f", "split": "val", "domain": "health-procedures", "title": "Prijava na preizkus iz zdravstvenih vsebin za zdravilce, ki nimajo zdravstvene izobrazbe"}
+{"doc_id": "adm-www-gov-si-35d96e2e99", "doc_family_id": "family-2d98d4d062ee", "split": "train", "domain": "health-procedures", "title": "Prijava na strokovne izpite za zdravstvene delavce in sodelavce"}
+{"doc_id": "adm-www-gov-si-d301ac90ff", "doc_family_id": "family-0e3634341807", "split": "train", "domain": "health-procedures", "title": "Prijava za občasno/začasno opravljanje zdravstvenih storitev"}
+{"doc_id": "seed-health-services", "doc_family_id": "family-afcab23fd75d", "split": "val", "domain": "health-procedures", "title": "Storitve Ministrstva za zdravje"}
+{"doc_id": "adm-poklici-in-strokovni-kadri-414b62d830", "doc_family_id": "family-f0d2425f9b22", "split": "train", "domain": "public-sector-hr", "title": "Poklici in strokovni kadri"}
+{"doc_id": "adm-priznanje-poklicne-kvalifikacije-pri-f9c72da75a", "doc_family_id": "family-b605154b589f", "split": "train", "domain": "health-procedures", "title": "Priznanje poklicne kvalifikacije, pridobljene v EU za zdravstvene poklice"}
+{"doc_id": "adm-sprememba-dovoljenja-za-opravljanje--1d87385202", "doc_family_id": "family-950afcd2d7dd", "split": "train", "domain": "health-procedures", "title": "Sprememba dovoljenja za opravljanje zdravstvene dejavnosti za fizične osebe - zasebni zdravstveni delavec"}
+{"doc_id": "adm-vpis-v-register-zdravstvenih-delavce-605e73e53f", "doc_family_id": "family-c92f0c4297f7", "split": "train", "domain": "health-procedures", "title": "Vpis v register zdravstvenih delavcev in sodelavcev"}
+{"doc_id": "seed-health-professions-spot", "doc_family_id": "family-83fd7a1f6765", "split": "test", "domain": "health-procedures", "title": "Dejavnosti in poklici"}
+{"doc_id": "seed-health-events", "doc_family_id": "family-18c619023136", "split": "train", "domain": "health-procedures", "title": "Zagotavljanje zdravstvenega varstva na prireditvah"}
+{"doc_id": "seed-health-professions-euprava", "doc_family_id": "family-d63841b61cb1", "split": "train", "domain": "health-procedures", "title": "eUprava - Delo"}
+{"doc_id": "seed-ejn-help", "doc_family_id": "family-241b24ce293f", "split": "test", "domain": "public-procurement", "title": "Pomoč uporabnikom"}
+{"doc_id": "seed-ejn-guidance", "doc_family_id": "family-4a426d71e4ec", "split": "train", "domain": "public-procurement", "title": "Koristne informacije za javno naročanje"}
+{"doc_id": "manual-o-dr-avnem-portalu-euprava-659ae1e75e", "doc_family_id": "family-36919f70fc3b", "split": "train", "domain": "e-government", "title": "O državnem portalu eUprava"}
+{"doc_id": "manual-varen-elektronski-predal-v-moji-eupravi-82efca7c50", "doc_family_id": "family-87cffef6b497", "split": "train", "domain": "e-government", "title": "Varen elektronski predal v Moji eUpravi"}
+{"doc_id": "manual-kupil-bom-nov-avto-v-sloveniji-37bfd8ce24", "doc_family_id": "family-fb7732862c65", "split": "train", "domain": "vehicle-registration", "title": "Kupil bom nov avto v Sloveniji"}
+{"doc_id": "manual-poro-ila-se-bova-zunaj-uradnih-prostorov-1d86e0a7bc", "doc_family_id": "family-4fd213270bc7", "split": "train", "domain": "civil-status", "title": "Poročila se bova zunaj uradnih prostorov"}
+{"doc_id": "manual-rojstvo-prvega-otroka-d27b93aa55", "doc_family_id": "family-ef5e64d37462", "split": "train", "domain": "civil-status", "title": "Rojstvo prvega otroka"}
+{"doc_id": "manual-selim-se-za-stalno-15ed74e6be", "doc_family_id": "family-50385fd2fe44", "split": "train", "domain": "residence", "title": "Selim se za stalno"}
+{"doc_id": "manual-smrt-osebe-na-domu-89d50c3186", "doc_family_id": "family-65f875f5edad", "split": "train", "domain": "civil-status", "title": "Smrt osebe na domu"}
+{"doc_id": "manual-navodila-in-obrazci-0f0a97fc50", "doc_family_id": "family-f54082874532", "split": "val", "domain": "public-procurement", "title": "Navodila in obrazci"}
+{"doc_id": "manual-javni-nate-aji-a3c0f1debd", "doc_family_id": "family-e08bb816028c", "split": "train", "domain": "public-sector-hr", "title": "JAVNI NATEČAJI"}
+{"doc_id": "manual-na-rt-razvojnih-programov-64f4320e5e", "doc_family_id": "family-caf66e25f437", "split": "train", "domain": "budget", "title": "Načrt razvojnih programov"}
+{"doc_id": "manual-priprava-prora-una-32cfbfc4bb", "doc_family_id": "family-ea31182dde99", "split": "train", "domain": "budget", "title": "Priprava proračuna"}
+{"doc_id": "manual-priro-nik-za-presojanje-in-razvoj-kompetenc-v-dr-d40fb85bf4", "doc_family_id": "family-0382712dcefd", "split": "test", "domain": "public-sector-hr", "title": "PRIROČNIK ZA PRESOJANJE IN RAZVOJ KOMPETENC V DRŽAVNI UPRAVI"}
+{"doc_id": "manual-tevilka-021-139-2025-2711-16-402a2dce17", "doc_family_id": "family-6afcf8d0a300", "split": "train", "domain": "health-procedures", "title": "Razvid upravnih postopkov Ministrstva za zdravje"}

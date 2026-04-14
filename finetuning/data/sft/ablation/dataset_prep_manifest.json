@@ -1,0 +1,11 @@
+{
+  "config_path": "configs\\data_prep_finetune_ready.yaml",
+  "train_input": "data\\sft\\finetune_plus_reviewed_chat_train.jsonl",
+  "val_input": "data\\sft\\finetune_plus_reviewed_chat_val.jsonl",
+  "train_rows": 630,
+  "val_rows": 54,
+  "validation_errors": [],
+  "ablation_enabled": true,
+  "reduced_train_output": "data\\sft\\ablation\\finetune_plus_reviewed_chat_train_25pct.jsonl",
+  "reduced_train_rows": 156
+}

@@ -1,0 +1,69 @@
+experiment_name: gams3-12b-instruct-qlora-reviewed
+description: >
+  Full QLoRA training template for GaMS3-12B-Instruct on the reviewed merged
+  chat dataset.
+
+paths:
+  model_path: ${MODEL_PATH}
+  output_dir: ${OUTPUT_DIR}
+  run_dir: ${RUN_DIR}
+  train_jsonl: data/sft/finetune_plus_reviewed_chat_train.jsonl
+  val_jsonl: data/sft/finetune_plus_reviewed_chat_val.jsonl
+
+dataset:
+  format: chat
+  message_field: messages
+  max_train_samples: null
+  max_val_samples: null
+  shuffle: true
+  seed: 42
+  packing: false
+
+model:
+  base_model_path: ${MODEL_PATH}
+  trust_remote_code: true
+  load_in_4bit: true
+  bnb_4bit_quant_type: nf4
+  bnb_4bit_compute_dtype: bf16
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
+
+training:
+  max_seq_length: 2048
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  gradient_accumulation_steps: 16
+  learning_rate: 1.0e-4
+  num_train_epochs: 3
+  warmup_ratio: 0.03
+  lr_scheduler_type: cosine
+  weight_decay: 0.0
+  bf16: true
+  gradient_checkpointing: true
+  logging_steps: 10
+  eval_steps: 250
+  save_steps: 250
+  save_total_limit: 3
+  group_by_length: true
+  seed: 42
+
+generation:
+  max_new_tokens: 512
+  temperature: 0.0
+  do_sample: false
+
+runtime:
+  report_to: tensorboard
+  save_adapter_only: true
+  resume_from_checkpoint: null

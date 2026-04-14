@@ -1,0 +1,16 @@
+{
+  "review_candidates": 409,
+  "review_candidates_by_task": {
+    "summarization": 354,
+    "information_extraction": 55
+  },
+  "priority_batch_size": 100,
+  "priority_batch_by_task": {
+    "information_extraction": 55,
+    "summarization": 45
+  },
+  "gold_eval_templates": 13,
+  "review_workbench_all_csv": "data\\reviews\\review_workbench_all.csv",
+  "review_priority_batch_csv": "data\\reviews\\review_priority_batch.csv",
+  "gold_eval_workbench_csv": "data\\eval\\gold_eval_workbench.csv"
+}

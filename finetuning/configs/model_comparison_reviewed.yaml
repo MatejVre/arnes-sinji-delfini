@@ -1,0 +1,34 @@
+output_dir: ${OUTPUT_DIR}
+
+datasets:
+  - name: gold_eval
+    path: data/eval/gold_eval.jsonl
+  - name: heldout_chat_test
+    path: data/sft/finetune_plus_reviewed_chat_test.jsonl
+
+generation:
+  max_new_tokens: 256
+  do_sample: false
+
+models:
+  - name: baseline
+    model_name_or_path: ${MODEL_PATH}
+    torch_dtype: bfloat16
+    load_in_4bit: false
+    device_map: auto
+
+  - name: qlora
+    model_name_or_path: ${MODEL_PATH}
+    adapter_path: ${QLORA_ADAPTER_PATH}
+    torch_dtype: bfloat16
+    load_in_4bit: false
+    bnb_4bit_quant_type: nf4
+    bnb_4bit_compute_dtype: float16
+    device_map: auto
+
+  - name: lora
+    model_name_or_path: ${MODEL_PATH}
+    adapter_path: ${LORA_ADAPTER_PATH}
+    torch_dtype: bfloat16
+    load_in_4bit: false
+    device_map: auto

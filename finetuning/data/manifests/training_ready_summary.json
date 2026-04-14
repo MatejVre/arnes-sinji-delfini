@@ -1,0 +1,128 @@
+{
+  "input_corpus": "data\\cleaned\\raw_corpus_with_manual.jsonl",
+  "documents": 113,
+  "sections": 742,
+  "split_counts": {
+    "train": 94,
+    "val": 9,
+    "test": 10
+  },
+  "section_split_counts": {
+    "train": 541,
+    "val": 29,
+    "test": 172
+  },
+  "domains": [
+    [
+      "health-procedures",
+      28
+    ],
+    [
+      "public-procurement",
+      9
+    ],
+    [
+      "business-procedures",
+      8
+    ],
+    [
+      "budget",
+      8
+    ],
+    [
+      "tax",
+      6
+    ],
+    [
+      "local-government",
+      6
+    ],
+    [
+      "tax-and-bookkeeping",
+      5
+    ],
+    [
+      "public-sector-hr",
+      5
+    ],
+    [
+      "public-administration",
+      4
+    ],
+    [
+      "e-government",
+      3
+    ],
+    [
+      "public-participation",
+      3
+    ],
+    [
+      "public-finance",
+      3
+    ],
+    [
+      "civil-status",
+      3
+    ],
+    [
+      "tax-registration",
+      2
+    ],
+    [
+      "vat",
+      2
+    ],
+    [
+      "public-procurement-support",
+      2
+    ],
+    [
+      "access-to-public-information",
+      2
+    ],
+    [
+      "public-sector-pay",
+      2
+    ],
+    [
+      "administrative-procedure",
+      2
+    ],
+    [
+      "open-data",
+      1
+    ]
+  ],
+  "high_confidence_examples": 791,
+  "high_confidence_by_task": {
+    "classification": 760,
+    "grounded_qa": 16,
+    "information_extraction": 3,
+    "refusal_routing": 12
+  },
+  "high_confidence_by_split": {
+    "train": 590,
+    "val": 43,
+    "test": 158
+  },
+  "finetune_ready_examples": 734,
+  "finetune_ready_by_task": {
+    "classification": 706,
+    "information_extraction": 3,
+    "grounded_qa": 13,
+    "refusal_routing": 12
+  },
+  "finetune_ready_by_split": {
+    "train": 541,
+    "val": 43,
+    "test": 150
+  },
+  "review_candidates": 409,
+  "review_candidates_by_task": {
+    "summarization": 354,
+    "information_extraction": 55
+  },
+  "eval_candidates": 10,
+  "gold_eval_templates": 13
+}

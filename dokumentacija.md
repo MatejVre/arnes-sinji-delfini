@@ -73,6 +73,14 @@ arnes-hackathon/
 │       ├── doc1.txt … doc6.txt
 │       └── stroski_2023.csv
 │
+├── finetuning/                  (orodja za pripravo podatkov in fine-tuning)
+│   ├── README.md                (navodila za fine-tuning pipeline)
+│   ├── configs/                 (konfiguracije za pripravo podatkov, učenje in primerjavo)
+│   ├── data/                    (korpus, chunki, SFT nizi in eval primeri)
+│   ├── runs/                    (rezultati zagonov: adapterji, checkpointi, primerjave)
+│   ├── scripts/                 (Python skripte za pripravo, učenje, evalvacijo, izvoz)
+│   └── slurm/                   (batch skripte za zagon na gruči Arnes SLING)
+│
 └── static/                      (spletni UI, serviran pod /ui/)
     ├── index.html               (login, seznam klepetov, composer, klici API)
     └── images/

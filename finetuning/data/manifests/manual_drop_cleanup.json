@@ -1,0 +1,9 @@
+{
+  "removed_raw_paths": [
+    "data\\manual_drop\\e-uprava",
+    "data\\manual_drop\\ejn",
+    "data\\manual_drop\\gov",
+    "data\\manual_drop\\pirs"
+  ],
+  "processed_outputs_root": "data\\manual_processed"
+}

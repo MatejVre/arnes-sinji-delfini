@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local environments and tool state
+.venv/
+venv/
+.env
+.env.*
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
+# Local reference files not needed in git
+Hackathon_Sinji_Delfini.pdf
+
+# Training/runtime outputs
+runs/
+logs/
+models/
+checkpoints/
+outputs/
+slurm/*.out
+slurm/*.err
+
+# Raw collection artifacts and manual processing scratch space
+data/raw/
+data/manual_processed/
+
+# Generated ablation subsets and manifests
+data/sft/ablation/*.jsonl
+data/sft/ablation/*.csv
+data/sft/ablation/*.parquet
+
+# Optional future local caches
+.cache/

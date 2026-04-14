@@ -1,0 +1,29 @@
+{
+  "documents": 81,
+  "seed_documents": 14,
+  "discovered_documents": 67,
+  "domains": [
+    "access-to-public-information",
+    "administrative-fees",
+    "administrative-operations",
+    "administrative-procedure",
+    "budget",
+    "business-procedures",
+    "health-procedures",
+    "local-government",
+    "public-administration",
+    "public-finance",
+    "public-procurement",
+    "public-sector-hr",
+    "public-sector-pay",
+    "tax",
+    "tax-and-bookkeeping",
+    "tax-registration",
+    "vat"
+  ],
+  "raw_dir": "data\\raw\\expanded",
+  "corpus_file": "data\\cleaned\\raw_corpus_expanded.jsonl",
+  "metadata_file": "data\\manifests\\expanded_metadata.csv",
+  "discovered_manifest": "data\\manifests\\expanded_discovered_sources.jsonl",
+  "accessed_at": "2026-04-07"
+}

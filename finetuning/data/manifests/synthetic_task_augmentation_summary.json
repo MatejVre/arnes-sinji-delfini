@@ -1,0 +1,33 @@
+{
+  "synthetic_examples_total": 1054,
+  "synthetic_by_split": {
+    "train": 960,
+    "val": 94
+  },
+  "synthetic_train_task_counts": {
+    "grounded_qa": 260,
+    "information_extraction": 260,
+    "refusal_routing": 120,
+    "summarization": 320
+  },
+  "synthetic_val_task_counts": {
+    "grounded_qa": 32,
+    "information_extraction": 25,
+    "refusal_routing": 16,
+    "summarization": 21
+  },
+  "merged_train_task_counts": {
+    "classification": 522,
+    "grounded_qa": 268,
+    "information_extraction": 313,
+    "refusal_routing": 129,
+    "summarization": 358
+  },
+  "outputs": {
+    "synthetic_sft": "data\\sft\\synthetic_task_augments.jsonl",
+    "merged_sft": "data\\sft\\finetune_plus_reviewed_synthetic.jsonl",
+    "merged_chat_train": "data\\sft\\finetune_plus_reviewed_synthetic_chat_train.jsonl",
+    "merged_chat_val": "data\\sft\\finetune_plus_reviewed_synthetic_chat_val.jsonl",
+    "merged_chat_test": "data\\sft\\finetune_plus_reviewed_synthetic_chat_test.jsonl"
+  }
+}

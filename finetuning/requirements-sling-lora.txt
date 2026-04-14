@@ -1,0 +1,15 @@
+# Linux / SLING LoRA stack for single-GPU H100-class runs.
+# Install torch separately so it matches the CUDA runtime on the allocated node.
+# Example:
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+
+transformers==5.5.0
+datasets==4.8.4
+peft==0.18.1
+accelerate==1.13.0
+tensorboard==2.20.0
+PyYAML==6.0.3
+beautifulsoup4==4.14.3
+pypdf==6.9.1
+requests==2.33.1
+sentencepiece==0.2.1

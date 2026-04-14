@@ -1,0 +1,455 @@
+﻿eval_id,task,domain,doc_type,title,source_doc_id,source_section_ids_json,instruction,input_context,rubric_tags_json,answerability,policy_signal,gold_output,review_status,reviewer,review_notes
+gold-template-adm-www-gov-si-19bdc9f197-sec-001-chunk-01,summarization,budget,topic hub,Javna plačila,adm-www-gov-si-19bdc9f197,"[""adm-www-gov-si-19bdc9f197-sec-001-chunk-01""]","Pripravi zvest, jedrnat in formalen upravni povzetek odlomka.","Javna plačila
+Plačilne in druge storitve za proračunske uporabnike izvaja Uprava Republike Slovenije za javna plačila (UJP). Za izvajanje te naloge vodi Register proračunskih uporabnikov, v katerem se registrirajo uporabniki javnega proračuna. Na zahtevo proračunskega uporabnika UJP odpre račun, ki je osnova za izvajanje plačilnih storitev. Javno plačilo odredi proračunski uporabnik, izvrši pa ga UJP prek Banke Slovenije.
+Register proračunskih uporabnikov
+Plačilne storitve za proračunske uporabnike
+Izmenjava e-računov in e-dokumentov s proračunskimi uporabniki
+Obvezne dajatve in drugi javnofinančni prihodki
+Register proračunskih uporabnikov, ki ga sestavljajo neposredni in posredni uporabniki državnega in občinskih proračunov, vodi Uprava Republike Slovenije za javna plačila. V okviru te naloge vodi in vzdržuje podatke o različnih vrstah računov.
+Register proračunskih uporabnikov je brezplačno javno dostopen na spletu. Podatki so javni, zato se vam za spletni vpogled ni treba prijaviti oziroma registrirati.
+Proračunski uporabniki uporabljajo javna sredstva, zato so vključeni v enotni sistem zakladniških računov prek podračuna v okviru občinskega oziroma državnega zakladniškega računa, ki je odprt pri Banki Slovenije. Enotni sistem zakladniških računov olajšuje gospodarjenje z javnimi sredstvi.
+Proračunskemu uporabniku so plačilne storitve dostopne prek podračuna, ki ga lahko odpre le pri UJP in ima v plačilnih sistemih enako veljavo kot transakcijski račun.
+Poslanstvo UJP je opravljanje plačilnih storitev za proračunske uporabnike, izvajanje in evidentiranje javnofinančnih tokov ter opravljanje drugih storitev, povezanih s plačilnim prometom proračunskih uporabnikov. Storitve opravljamo na sodoben način in v zadovoljstvo uporabnikov storitev.
+Izmenjava e-računov s proračunskimi uporabniki
+Za izmenjavo e-računov s proračunskimi uporabniki je enotna vstopna in izstopna točka Uprava Republike Slovenije za javna plačila. Proračunski uporabniki lahko izmenjujejo e-račune le prek UJP. Vsi, ki poslujejo s proračunskimi uporabniki, pošiljajo e-račune za dobavljeno blago in izvedene storitve.
+Obvezne dajatve in drugi javnofinančni prihodki so vsi davčni in nedavčni prihodki, ki so z zakoni in drugimi predpisi določeni kot splošno obvezni, na primer davki, prispevki, takse, pristojbine, denarne kazni in druge. Zavezanci plačujejo obvezne dajatve in druge javnofinančne prihodke na podračune javnofinančnih prihodkov.
+Uprava Republike Slovenije za javna plačila
+Ministrstvo za finance
+Ministrstvo za finance
+Dunajska cesta 48
+1000 Ljubljana
+Prikaži na zemljevidu
+01 475 16 51
+is.vog.pju@pju","[""faithfulness"", ""clarity"", ""administrative_style"", ""completeness""]",answerable,,"Uprava Republike Slovenije za javna plačila opravlja plačilne storitve za proračunske uporabnike, vodi Register proračunskih uporabnikov in odpira podračune za izvajanje plačilnega prometa. Register je javno dostopen, plačilne storitve pa se izvajajo v okviru enotnega sistema zakladniških računov pri Banki Slovenije. UJP je tudi enotna vstopna in izstopna točka za izmenjavo e-računov s proračunskimi uporabniki ter za evidentiranje javnofinančnih tokov.",edited,Codex-main-gold,Manual gold summary prepared from source context.
+gold-template-adm-licenca-za-opravljanje-zdravilske-de-70a6eedb13-sec-001-chunk-01,summarization,health-procedures,procedure page,Pridobitev oziroma podaljšanje licence za opravljanje zdravilske dejavnosti,adm-licenca-za-opravljanje-zdravilske-de-70a6eedb13,"[""adm-licenca-za-opravljanje-zdravilske-de-70a6eedb13-sec-001-chunk-01""]","Pripravi zvest, jedrnat in formalen upravni povzetek odlomka.","Pridobitev oziroma podaljšanje licence za opravljanje zdravilske dejavnosti
+SI
+Družina, otroci, zakonska zveza
+Osebni dokumenti, potrdila, selitev
+Država in družba
+Nepremičnine in okolje
+Izobraževanje, kultura
+Promet in prometna infrastruktura
+Delo in upokojitev
+Kmetijstvo, gozdarstvo, prehrana
+Davki
+Potovanja
+Storitve občin
+Javni sektor
+Delo
+Pridobitev oziroma podaljšanje licence za opravljanje zdravilske dejavnosti
+Skoči na filtre seznama
+Filtriranje se bo izvedlo ob spremembi izbire filtra in ne zahteva dodatne potrditve.
+Delo :
+Za opravljanje nekaterih zdravilskih sistemov in zdravilskih metod je treba pridobiti licenco za opravljanje zdravilske dejavnosti.
+Zdravilsko dejavnost lahko opravlja le izvajalec z licenco. Zdravilec je oseba, ki opravlja zdravilsko dejavnost. Je polnoletna fizična oseba, ki ima pridobljeno najmanj srednjo izobrazbo zdravstvene smeri ali najmanj srednjo strokovno izobrazbo in opravljen preizkus iz zdravstvenih vsebin in veljavno licenco.
+Licenca je javna listina, ki dokazuje strokovno usposobljenost zdravilca za samostojno izvajanje posameznih zdravilskih sistemov in zdravilskih metod in ki jo zdravilcu podeli Zdravilska zbornica za dobo sedmih let.
+Za podaljšanje licence mora zdravilec v obdobju veljavnosti licence z usposabljanji in izobraževanji obnavljati in izpopolnjevati svoje znanje s področja zdravilstva.
+Vloga za pridobitev oziroma podaljšanje licence za opravljanje zdravilske dejavnosti
+Dodajte opomnik
+Uredite nastavitve obveščanja
+S to vlogo lahko zaprosite za pridobitev prve licence ali podaljšanje licence za opravljanje zdravilske dejavnosti.
+Možni načini oddaje:
+elektronsko
+po pošti
+osebno","[""faithfulness"", ""clarity"", ""administrative_style"", ""completeness""]",answerable,,"Za opravljanje nekaterih zdravilskih sistemov in metod je treba pridobiti licenco za opravljanje zdravilske dejavnosti. Licenca je javna listina, ki jo Zdravilska zbornica podeli za sedem let in izkazuje strokovno usposobljenost zdravilca za samostojno delo. Z isto vlogo je mogoče zaprositi za prvo izdajo ali podaljšanje licence, podaljšanje pa je vezano na redno usposabljanje in izpopolnjevanje znanja.",edited,Codex-main-gold,Manual gold summary prepared from source context with condensation of portal or handbook noise.
+gold-template-adm-potrdilo-o-dobrem-imenu-9df7b8d9a3-sec-001-chunk-01,summarization,health-procedures,procedure page,Potrdilo o dobrem imenu na področju zdravstva,adm-potrdilo-o-dobrem-imenu-9df7b8d9a3,"[""adm-potrdilo-o-dobrem-imenu-9df7b8d9a3-sec-001-chunk-01""]","Pripravi zvest, jedrnat in formalen upravni povzetek odlomka.","Potrdilo o dobrem imenu na področju zdravstva
+SI
+Družina, otroci, zakonska zveza
+Osebni dokumenti, potrdila, selitev
+Država in družba
+Nepremičnine in okolje
+Izobraževanje, kultura
+Promet in prometna infrastruktura
+Delo in upokojitev
+Kmetijstvo, gozdarstvo, prehrana
+Davki
+Potovanja
+Storitve občin
+Javni sektor
+Delo
+Potrdilo o dobrem imenu na področju zdravstva
+Skoči na filtre seznama
+Filtriranje se bo izvedlo ob spremembi izbire filtra in ne zahteva dodatne potrditve.
+Delo :
+Potrdilo o dobrem imenu predstavlja dokument iz katerega izhaja, da je stranka vpisana v register izvajalcev zdravstvene dejavnosti in delavcev v zdravstvu ter, da zoper njega ni bil izrečen ukrep prepovedi opravljanja dela in lahko s tem samostojno opravlja svoj poklic v Republiki Sloveniji.
+V kolikor v Republiki Sloveniji ne obstaja pristojna zbornica za vpis v register, potrdilo o dobrem imenu izda Ministrstvo za zdravje.
+Dodajte opomnik
+Uredite nastavitve obveščanja
+Z vlogo državljan zaprosi za potrdilo o dobrem imenu pristojno zbornico oziroma Ministrstvo za zdravje.
+Možni načini oddaje:
+elektronsko
+po pošti
+osebno
+Začnite postopek
+Pristojne zbornice, ki vodijo register in delujejo v Republiki Sloveniji so:
+Zdravniška zbornica Slovenije,
+Zbornica zdravstvene in babiške nege - Zveza strokovnih društev medicinskih sester, babic in zdravstvenih tehnikov Slovenije,
+Zbornica laboratorijske medicine Slovenije,
+Lekarniška zbornica Slovenije.
+PRAVNA PODLAGA
+Zakon o zdravstveni dejavnosti
+PRISTOJNI ORGAN
+Ministrstvo za zdravje","[""faithfulness"", ""clarity"", ""administrative_style"", ""completeness""]",answerable,,"Potrdilo o dobrem imenu izkazuje, da je oseba vpisana v ustrezen register izvajalcev zdravstvene dejavnosti oziroma zdravstvenih delavcev in da ji ni bil izrečen ukrep prepovedi opravljanja dela. Praviloma ga izda pristojna zbornica, če take zbornice v Republiki Sloveniji ni, pa Ministrstvo za zdravje. Vlogo je mogoče oddati elektronsko, po pošti ali osebno.",edited,Codex-main-gold,Manual gold summary prepared from source context with condensation of portal or handbook noise.
+gold-template-adm-spot-gov-si-9b8e973670-sec-001-chunk-01,summarization,health-procedures,procedure page,Dovoljenje za opravljanje dejavnosti DDD,adm-spot-gov-si-9b8e973670,"[""adm-spot-gov-si-9b8e973670-sec-001-chunk-01""]","Pripravi zvest, jedrnat in formalen upravni povzetek odlomka.","Dovoljenje za opravljanje dejavnosti DDD
+Pogoji in dokazila
+Postopki
+Pristojni organ
+Seznam dejavnosti
+Pravne podlage
+Register dovoljenj
+Dezinfekcijo, dezinsekcijo in deratizacijo (v nadaljevanju: DDD) lahko opravljajo pravne in fizične osebe (v nadaljevanju: izvajalec dejavnosti DDD), ki izkažejo, da imajo sedež v Republiki Sloveniji ali v kateri od držav članic Evropske unije, pri čemer pa morajo imeti slednje v Republiki Sloveniji podružnico oziroma fizično ali pravno osebo, pooblaščeno za delovanje v njihovem imenu in za njihov račun in, ki izpolnjujejo pogoje, določene s Pravilnikom o pogojih, načinu in sredstvih za izvajanje dezinfekcije, dezinsekcije in deratizacije, na podlagi dovoljenja, ki ga izda minister za zdravje.
+Za opravljanje dejavnosti DDD morajo upoštevati tudi določbe iz Zakona o kemikalijah.
+Za pridobitev dovoljenja je treba izpolnjevati strokovne pogoje (zaposlovati ustrezen kader z opravljenim izobraževanjem), pogoje glede ustreznosti prostorov in sredstev za izvajanje DDD (oprema in pripomočki; osebna zaščitna sredstva; sredstva za zaščito prostorov in okolja) in voditi evidence o nabavi in uporabi biocidov in pesticidov za nadaljnjo poročanje.
+Navedeni pogoji veljajo za dejavnost Dezinfekcija, dezinsekcija in deratizacija po Zakonu o nalezljivih boleznih
+Odpri razdelek:
+Zapri razdelek:
+Vodja dezinfekcije, dezinsekcije in deratizacije
+Za izvajanje dejavnosti DDD mora biti na voljo za to usposobljen kader.
+Vodja dejavnosti DDD je posameznik z ustrezno izobrazbo.
+Podrobneje
+Vodja posameznih del dezinsekcije, dezinfekcije in deratizacije
+Vodja posameznih del je posameznik, ki je določen za vodenje del, ki mu jih določi vodja DDD.
+Za opravljanje del mora imeti ustrezno izobrazbo.
+Izvajalec osnovnih del dezinfekcije, dezinsekcije in deratizacije (izvajalec DDD)
+Osnova dela DDD izvajajo osebe, ki imajo najmanj izobrazbo, pridobljeno po izobraževalnih programih za pridobitev srednje izobrazbe oziroma srednje strokovne izobrazbe.
+Ustrezen prostor
+Izvajalec dejavnosti je dolžan zagotoviti ustrezne prostore. Na voljo morajo biti:
+pisarna s telefonom in faksom;
+prostori za izvajalce;
+garderoba s tušem in WC;
+tehnično ustrezni prostori za shranjevanje pripomočkov in sredstev;
+prostor za začasno skladiščenje ostankov sredstev in embalaže, uporabljene pri izvajanju dejavnosti;
+tehnično ustrezno skladišče, urejeno za shranjevanje nevarnih kemikalij.
+Pravilnik o pogojih, načinu in sredstvih za izvajanje dezinfekcije, dezinsekcije in deratizacije
+Ustrezna oprema in pripomočki","[""faithfulness"", ""clarity"", ""administrative_style"", ""completeness""]",answerable,,"Za opravljanje dejavnosti dezinfekcije, dezinsekcije in deratizacije morajo izvajalci s sedežem v Sloveniji ali EU pridobiti dovoljenje ministra za zdravje in izpolnjevati predpisane strokovne, prostorske in organizacijske pogoje. Pri izvajanju dejavnosti morajo upoštevati tudi določbe Zakona o kemikalijah ter voditi evidence o uporabi biocidov in pesticidov. Odlomek dodatno opredeljuje usposobljen kader in osnovne pogoje glede prostorov za izvajanje dejavnosti.",edited,Codex-main-gold,Manual gold summary prepared from source context.
+gold-template-adm-spot-gov-si-9b8e973670-sec-001-chunk-02,summarization,health-procedures,procedure page,Dovoljenje za opravljanje dejavnosti DDD,adm-spot-gov-si-9b8e973670,"[""adm-spot-gov-si-9b8e973670-sec-001-chunk-02""]","Pripravi zvest, jedrnat in formalen upravni povzetek odlomka.","Ustrezna oprema in pripomočki
+Izvajanje dejavnosti mora praviloma zagotoviti najmanj naslednjo opremo in pripomočke:
+posode za pripravo razredčil;
+tlačno brizgalko z razpršilci;
+aparat za mikrorazprševanje;
+motorno škropilnico;
+električni atomizer za hladno zamegljevanje;
+električno škropilnico z zvišanim pritiskom in vročo vodo;
+napravo za toplo zamegljevanje prostorov (swingfog);
+prevozno sredstvo;
+torbe za prenašanje in prevoz deratizacijskih vadb;
+merilec rezidualnega klora v vodi;
+hladilno torbo za prenos vzorcev;
+opremo za prvo pomoč z ustreznimi antidoti;
+reanimacijski komplet;
+osebna zaščitna sredstva.
+Ustrezna sredstva za osebno zaščito
+Izvajalec mora zagotoviti naslednja sredstva za osebno zaščito:
+delovno obleko, obutev in pokrivalo;
+zaščitna očala;
+zaščitne rokavice;
+plastične rokavice in obutev za enkratno uporabo;
+specialne zaščitne maske z ustreznimi filtri.
+Ustrezna sredstva za zaščito prostorov in okolja
+Izvajalec mora zagotoviti najmanj naslednja sredstva za zaščito prostorov in okolja:
+opozorilne letake in obvestila (na dvojezičnih območjih tudi v jeziku narodnosti) o vrsti, mestu in času izvajanja dejavnosti;
+lepilne trakove;
+plastične folije;
+ročni gasilni aparat;
+posodo za pobiranje ostankov vab in živalskih trupel;
+sredstva za dekontaminacijo.
+Uporaba kemikalij in ostalih sredstev za izvajanje DDD dejavnosti
+Za izvajanje DDD se lahko uporabljajo samo sredstva , ki izpolnjujejo pogoje v skladu z zakonom, ki ureja kemikalije.
+Zakon o kemikalijah (ZKem)
+Ministrstvo za zdravje
+Štefanova ulica 5","[""faithfulness"", ""clarity"", ""administrative_style"", ""completeness""]",answerable,,"Odlomek določa minimalno opremo, pripomočke in zaščitna sredstva, ki jih mora zagotoviti izvajalec dejavnosti DDD. Med drugim so zahtevani ustrezni aparati za izvajanje postopkov, osebna zaščitna oprema ter sredstva za zaščito prostorov in okolja. Za izvajanje dejavnosti se smejo uporabljati le sredstva, ki izpolnjujejo pogoje po zakonodaji s področja kemikalij.",edited,Codex-main-gold,Manual gold summary prepared from source context.
+gold-template-adm-www-gov-si-5c33c264db-sec-001-chunk-01,summarization,health-procedures,procedure page,Izdaja dovoljenj za delo medicinskih laboratorijev,adm-www-gov-si-5c33c264db,"[""adm-www-gov-si-5c33c264db-sec-001-chunk-01""]","Pripravi zvest, jedrnat in formalen upravni povzetek odlomka.","Izdaja dovoljenj za delo medicinskih laboratorijev
+Način izvedbe
+Vlogi za pridobitev in podaljšanje dovoljenj za delo medicinskih laboratorijev
+Seznami preiskav
+Pravna podlaga
+Seznam laboratorijev, ki imajo izdano dovoljenje Ministrstva za zdravje
+Dejavnost laboratorijske medicine je po veljavni zakonodaji del zdravstvene dejavnosti. Po nekaterih podatkih iz tujine je več kot tri četrtine kliničnih odločitev v zdravstvu vezanih na izvide laboratorijskih preiskav. Področje laboratorijske medicine je torej izjemno pomembno tako za zagotavljanje kakovostne obravnave pacientov in njihovo varnost kot tudi za obvladovanje stroškov zdravstvene obravnave.
+Pravilnik o pogojih, ki jih morajo izpolnjevati laboratoriji za izvajanje preiskav na področju laboratorijske medicine, določa strokovne in tehnične pogoje, ki jih morajo izpolnjevati laboratoriji za izvajanje preiskav laboratorijske medicine.
+Zahteve tega pravilnika se smiselno uporabljajo tudi za tiste izvajalce laboratorijske medicine, ki niso organizirani kot laboratoriji in za izvajanje preiskav na področju laboratorijske medicine ob preiskovancu (POCT).
+Dovoljenje se lahko izda za področja, ki jih pokrivajo specializacije s področja zdravstva, ali za del področja, ki ga pokriva specializacija, in sicer:
+patologija,
+sodna medicina,
+medicinska biokemija,
+klinična mikrobiologija,
+transfuzijska medicna,
+laboratorijska medicinska genetika.
+V kolikor se kateri od laboratorijev opredeli, da opravlja preiskave iz več področij laboratorijske medicine, mora izpolnjevati pogoje, ki so predpisani za vsako posamezno področje (predvsem kadrovska zasedba).
+Za pridobitev dovoljenja je potrebno poslati eno od spodnjih vlog na naslov Ministrstva za zdravje.
+Obrazci, prijavnice
+Vloga za pridobitev dovoljenja
+(doc, 103 KB)
+Vloga za podaljšanje dovoljenja
+Vprašalnik za pregled medicinskega laboratorija po zahtevah
+(doc, 448 KB)
+Pod pristojnost specialista – transfuziologa spadajo preiskave s področja medicinske biokemije in mikrobiologije, ki so namenjene kontroli krvi in krvnih pripravkov.
+Seznami in evidence
+Seznam preiskav s področja medicinske biokemije
+(pdf, 451 KB)
+Seznam preiskav s področja klinične mikrobiologije in imunologije
+(pdf, 6.3 MB)
+Seznam preiskav s področja transfuzijske medicine
+(pdf, 340 KB)
+Seznam preiskav s področja patologije
+(pdf, 169 KB)
+seznam preiskav s področja laboratorijske medicinske genetike
+(pdf, 199 KB)
+Pravilnik o pogojih, ki jih morajo izpolnjevati laboratoriji za izvajanje preiskav na področju laboratorijske medicine","[""faithfulness"", ""clarity"", ""administrative_style"", ""completeness""]",answerable,,"Dejavnost laboratorijske medicine je del zdravstvene dejavnosti, zato morajo laboratoriji za izvajanje preiskav izpolnjevati strokovne in tehnične pogoje iz pristojnega pravilnika. Dovoljenje Ministrstva za zdravje se lahko izda za posamezna področja laboratorijske medicine, pri izvajanju več področij pa morajo biti izpolnjeni pogoji za vsako posebej. Za pridobitev ali podaljšanje dovoljenja je treba ministrstvu predložiti predpisane vloge in spremljajočo dokumentacijo.",edited,Codex-main-gold,Manual gold summary prepared from source context.
+gold-template-adm-www-gov-si-d788ea281b-sec-001-chunk-01,summarization,health-procedures,procedure page,Dovoljenje ali odločba za opravljanje zdravstvene dejavnosti,adm-www-gov-si-d788ea281b,"[""adm-www-gov-si-d788ea281b-sec-001-chunk-01""]","Pripravi zvest, jedrnat in formalen upravni povzetek odlomka.","Dovoljenje ali odločba za opravljanje zdravstvene dejavnosti
+Izdaja dovoljenja za opravljanje zdravstvene dejavnosti
+Sprememba dovoljenja za opravljanje zdravstvene dejavnosti
+Izbris iz registra zasebnih zdravstvenih delavcev
+Pravočasno sporočanje sprememb na Ministrstvo za zdravje
+Zakonodaja
+21. maja 2025 je začel veljati Zakon o spremembah in dopolnitvah Zakona o zdravstveni dejavnosti (Uradni list RS, št. 32/25), ki posega tudi na področje izdaje dovoljenj za opravljanje zdravstvene dejavnosti, odločb o vpisu v register zasebnih zdravstvenih delavcev (po novem izdaja dovoljenja) in pogojev, ki jih morajo izpolnjevati izvajalci zdravstvene dejavnosti za pridobitev dovoljenja za opravljanje zdravstvene dejavnosti.
+Pogoji za pridobitev dovoljenja, na podlagi katere lahko izvajalci zdravstvene dejavnosti opravljajo zdravstveno dejavnost, so določeni v Zakonu o zdravstveni dejavnosti (ZZDej). Ministrstvo za zdravje na podlagi vloge izda dovoljenje za opravljanje zdravstvene dejavnosti, če so izpolnjeni pogoji iz 3.a člena ZZDej.
+Izvajalci zdravstvene dejavnosti so lahko:
+- domače in tuje pravne osebe (d. o. o., zavod), ki so pridobile dovoljenje Ministrstva za zdravje za opravljanje zdravstvene dejavnosti,
+- fizične osebe (s. p.), ki so pridobile dovoljenje Ministrstva za zdravje za opravljanje zdravstvene dejavnosti,
+- zasebni zdravstveni delavci (fizične osebe), ki so pridobili dovoljenje Ministrstva za zdravje.
+ZZDej v četrtem odstavku 3.a člena ZZDej določa, da za pridobitev dovoljenja za opravljanje zdravstvene dejavnosti izvajalec zdravstvene dejavnosti glede na vrsto zdravstvene dejavnosti izpolnjuje naslednje pogoje:
+1. ima določenega odgovornega nosilca zdravstvene dejavnosti, ki je z vidika funkcije vodenja, upoštevaje samostojnost in odgovornost posameznih zdravstvenih delavcev in zdravstvenih sodelavcev pri opravljanju zdravstvenih storitev, pri izvajalcu zdravstvene dejavnosti pristojen za organizacijo delovnih procesov in za sistemsko vzpostavitev pogojev glede strokovnega, kakovostnega in varnega opravljanja zdravstvene dejavnosti in ki je pri njem zaposlen za polni delovni čas ali za krajši delovni čas, sorazmerno glede na predviden obseg opravljanja zdravstvene dejavnosti, vendar ne manj kot osem ur tedensko, razen v primeru izvajalca zdravstvene dejavnosti, ki je fizična oseba, ko je sam izvajalec zdravstvene dejavnosti odgovorni nosilec zdravstvene dejavnosti, pri čemer se šteje, da je v javnem zavodu odgovorni nosilec zdravstvene dejavnosti strokovni direktor javnega zdravstvenega zavoda, strokovni vodja drugega javnega zavoda iz šestega odstavka 8. člena tega zakona ali vodja organizacijske enote zdravstvene dejavnosti iz šestega odstavka tega člena,","[""faithfulness"", ""clarity"", ""administrative_style"", ""completeness""]",answerable,,"Ministrstvo za zdravje izda dovoljenje za opravljanje zdravstvene dejavnosti na podlagi vloge, če izvajalec izpolnjuje pogoje iz Zakona o zdravstveni dejavnosti. Odlomek pojasnjuje, da se dovoljenje nanaša na domače in tuje pravne osebe, samostojne podjetnike ter zasebne zdravstvene delavce. Med bistvenimi pogoji so določitev odgovornega nosilca zdravstvene dejavnosti in izpolnjevanje drugih zakonsko določenih organizacijskih in strokovnih zahtev.",edited,Codex-main-gold,Manual gold summary prepared from source context with condensation of portal or handbook noise.
+gold-template-adm-www-gov-si-d788ea281b-sec-001-chunk-02,summarization,health-procedures,procedure page,Dovoljenje ali odločba za opravljanje zdravstvene dejavnosti,adm-www-gov-si-d788ea281b,"[""adm-www-gov-si-d788ea281b-sec-001-chunk-02""]","Pripravi zvest, jedrnat in formalen upravni povzetek odlomka.","2. ima zdravstvene delavce oziroma zdravstvene sodelavce, ki izpolnjujejo pogoje iz 62. in 64. člena ZZDej, zdravniki pa tudi pogoje za samostojno opravljanje zdravniške službe iz zakona, ki ureja zdravniško službo, ki so potrebni za opravljanje zdravstvene dejavnosti, ki je predmet tega dovoljenja,
+3. ima prostore in opremo, ustrezno za opravljanje zdravstvene dejavnosti, za katero se izdaja dovoljenje,
+4. je vključen v enotni zdravstveno-informacijski sistem, ki je organiziran na nacionalni ravni v skladu z zakonom, ki ureja zbirke podatkov s področja zdravstvenega varstva,
+5. ima urejeno zavarovanje poklicne odgovornosti za odgovornega nosilca zdravstvene dejavnosti in zdravstvene delavce oziroma zdravstvene sodelavce, ki bodo pri njem opravljali zdravstvene storitve,
+6. mu ni s pravnomočno odločbo prepovedano opravljanje zdravstvene dejavnosti,
+7. poda pisno izjavo, s katero se zaveže, da se bo v primeru razglasitve izrednega ali vojnega stanja oziroma ob aktiviranju državnega načrta zaščite in reševanja zaradi naravnih in drugih nesreč odzval na poziv ministrstva, pristojnega za zdravje, k sodelovanju v skladu s kadrovskimi zmogljivostmi, ki jih obsega to dovoljenje.
+Peti odstavek 3.a člena ZZDej določa, da odgovorni nosilec zdravstvene dejavnosti mora izpolnjevati naslednja merila:
+- izpolnjuje pogoje za samostojno opravljanje dela v zdravstveni dejavnosti iz 62. in 64. člena tega zakona oziroma pogoje za samostojno opravljanje zdravniške službe iz zakona, ki ureja zdravniško službo,
+- ni pravnomočno obsojen zaradi naklepnega kaznivega dejanja ali kaznivega dejanja, storjenega iz malomarnosti, zoper življenje in telo, spolno nedotakljivost ali človekovo zdravje, ali ni pravnomočno obsojen na nepogojno kazen zapora v trajanju več kot šest mesecev za katerokoli kaznivo dejanje, storjeno pri delu ali v zvezi z delom, ki se preganja po uradni dolžnosti, kar dokazuje s potrdilom iz kazenske evidence, ki ne sme biti starejše od treh mesecev, ali pa ministrstvu, pristojnemu za zdravje, predloži izjavo, s katero mu dovoljuje pridobitev teh podatkov iz uradnih evidenc,
+- ima najmanj dve leti delovnih izkušenj po izpolnitvi pogojev za samostojno opravljanje dela v zdravstveni dejavnosti, in sicer z vodenjem ali sodelovanjem v zdravstvenem timu.
+Pridobitev dovoljenja za opravljanje zdravstvene dejavnosti za fizične osebe - zasebni zdravstveni delavec: https://e-uprava.gov.si/si/podrocja/delo-upokojitev/delo/pridobitev-dovoljenja-za-opravljanje-zdravstvene-dejavnosti.html?lang=si","[""faithfulness"", ""clarity"", ""administrative_style"", ""completeness""]",answerable,,"Za pridobitev dovoljenja mora izvajalec zdravstvene dejavnosti zagotoviti ustrezne zdravstvene delavce, prostore in opremo, vključitev v enotni zdravstveno-informacijski sistem ter zavarovanje poklicne odgovornosti. Izvajalcu ne sme biti prepovedano opravljanje dejavnosti, hkrati pa mora podati tudi izjavo o sodelovanju v primeru izrednega ali vojnega stanja oziroma ob aktiviranju državnega načrta zaščite in reševanja. Odlomek določa tudi merila za odgovornega nosilca, vključno z izkušnjami in dokazovanjem nekaznovanosti.",edited,Codex-main-gold,Manual gold summary prepared from source context.
+gold-template-adm-www-gov-si-d950b11751-sec-001-chunk-01,summarization,health-procedures,procedure page,Dovoljenje za opravljanje zdravstvene dejavnosti javnih zavodov,adm-www-gov-si-d950b11751,"[""adm-www-gov-si-d950b11751-sec-001-chunk-01""]","Pripravi zvest, jedrnat in formalen upravni povzetek odlomka.","Dovoljenje za opravljanje zdravstvene dejavnosti javnih zavodov
+Izdaja dovoljenja javnim zavodom za opravljanje zdravstvene dejavnosti
+Sprememba dovoljenja za opravljanje zdravstvene dejavnosti
+Izdaja odločbe o opravljanju javne zdravstvene službe
+Zakonodaja
+21. maja 2025 je začel veljati Zakon o spremembah in dopolnitvah Zakona o zdravstveni dejavnosti (Uradni list RS, št. 32/25), ki posega tudi na področje izdaje dovoljenj za opravljanje zdravstvene dejavnosti in pogojev, ki jih morajo izpolnjevati izvajalci zdravstvene dejavnosti za pridobitev dovoljenja za opravljanje zdravstvene dejavnosti.
+Pogoji za pridobitev dovoljenja, na podlagi katerega lahko izvajalci zdravstvene dejavnosti opravljajo zdravstveno dejavnost, so določeni v Zakonu o zdravstveni dejavnosti (ZZDej). Ministrstvo za zdravje na podlagi vloge izda dovoljenje za opravljanje zdravstvene dejavnosti, če so izpolnjeni pogoji iz 3.a člena ZZDej.
+ZZDej v četrtem odstavku 3.a člena ZZDej določa, da za pridobitev dovoljenja za opravljanje zdravstvene dejavnosti izvajalec zdravstvene dejavnosti glede na vrsto zdravstvene dejavnosti izpolnjuje naslednje pogoje:
+1. ima določenega odgovornega nosilca zdravstvene dejavnosti, ki je z vidika funkcije vodenja, upoštevaje samostojnost in odgovornost posameznih zdravstvenih delavcev in zdravstvenih sodelavcev pri opravljanju zdravstvenih storitev, pri izvajalcu zdravstvene dejavnosti pristojen za organizacijo delovnih procesov in za sistemsko vzpostavitev pogojev glede strokovnega, kakovostnega in varnega opravljanja zdravstvene dejavnosti, in ki je pri njem zaposlen za polni delovni čas ali za krajši delovni čas, sorazmerno glede na predviden obseg opravljanja zdravstvene dejavnosti, vendar ne manj kot osem ur tedensko, razen v primeru izvajalca zdravstvene dejavnosti, ki je fizična oseba, ko je sam izvajalec zdravstvene dejavnosti odgovorni nosilec zdravstvene dejavnosti, pri čemer se šteje, da je v javnem zavodu odgovorni nosilec zdravstvene dejavnosti strokovni direktor javnega zdravstvenega zavoda, strokovni vodja drugega javnega zavoda iz šestega odstavka 8. člena tega zakona ali vodja organizacijske enote zdravstvene dejavnosti iz šestega odstavka tega člena,
+2. ima zdravstvene delavce oziroma zdravstvene sodelavce, ki izpolnjujejo pogoje iz 62. in 64. člena ZZDej, zdravniki pa tudi pogoje za samostojno opravljanje zdravniške službe iz zakona, ki ureja zdravniško službo, ki so potrebni za opravljanje zdravstvene dejavnosti, ki je predmet tega dovoljenja,","[""faithfulness"", ""clarity"", ""administrative_style"", ""completeness""]",answerable,,"Ministrstvo za zdravje izda javnemu zavodu dovoljenje za opravljanje zdravstvene dejavnosti, če so izpolnjeni pogoji iz Zakona o zdravstveni dejavnosti. Odlomek posebej poudarja obveznost določitve odgovornega nosilca zdravstvene dejavnosti in pojasnjuje njegovo vlogo pri organizaciji, kakovosti in varnosti dela. Pri javnih zavodih se za odgovornega nosilca praviloma šteje strokovni direktor, strokovni vodja ali vodja ustrezne organizacijske enote.",edited,Codex-main-gold,Manual gold summary prepared from source context with condensation of portal or handbook noise.
+gold-template-adm-www-gov-si-d950b11751-sec-001-chunk-02,summarization,health-procedures,procedure page,Dovoljenje za opravljanje zdravstvene dejavnosti javnih zavodov,adm-www-gov-si-d950b11751,"[""adm-www-gov-si-d950b11751-sec-001-chunk-02""]","Pripravi zvest, jedrnat in formalen upravni povzetek odlomka.","3. ima prostore in opremo, ustrezno za opravljanje zdravstvene dejavnosti, za katero se izdaja dovoljenje,
+4. je vključen v enotni zdravstveno-informacijski sistem, ki je organiziran na nacionalni ravni v skladu z zakonom, ki ureja zbirke podatkov s področja zdravstvenega varstva,
+5. ima urejeno zavarovanje poklicne odgovornosti za odgovornega nosilca zdravstvene dejavnosti in zdravstvene delavce oziroma zdravstvene sodelavce, ki bodo pri njem opravljali zdravstvene storitve,
+6. mu ni s pravnomočno odločbo prepovedano opravljanje zdravstvene dejavnosti,
+7. poda pisno izjavo, s katero se zaveže, da se bo v primeru razglasitve izrednega ali vojnega stanja oziroma ob aktiviranju državnega načrta zaščite in reševanja zaradi naravnih in drugih nesreč odzval na poziv ministrstva, pristojnega za zdravje, k sodelovanju v skladu s kadrovskimi zmogljivostmi, ki jih obsega to dovoljenje.
+Peti odstavek 3.a člena ZZDej določa, da odgovorni nosilec zdravstvene dejavnosti mora izpolnjevati naslednja merila:
+– izpolnjuje pogoje za samostojno opravljanje dela v zdravstveni dejavnosti iz 62. in 64. člena tega zakona oziroma pogoje za samostojno opravljanje zdravniške službe iz zakona, ki ureja zdravniško službo,
+– ni pravnomočno obsojen zaradi naklepnega kaznivega dejanja ali kaznivega dejanja, storjenega iz malomarnosti, zoper življenje in telo, spolno nedotakljivost ali človekovo zdravje, ali ni pravnomočno obsojen na nepogojno kazen zapora v trajanju več kot šest mesecev za katero koli kaznivo dejanje, storjeno pri delu ali v zvezi z delom, ki se preganja po uradni dolžnosti, kar dokazuje s potrdilom iz kazenske evidence, ki ne sme biti starejše od treh mesecev, ali pa ministrstvu, pristojnemu za zdravje, predloži izjavo, s katero mu dovoljuje pridobitev teh podatkov iz uradnih evidenc,
+– ima najmanj dve leti delovnih izkušenj po izpolnitvi pogojev za samostojno opravljanje dela v zdravstveni dejavnosti, in sicer z vodenjem ali sodelovanjem v zdravstvenem timu.
+Odgovornega nosilca zdravstvene dejavnosti v javnem zavodu, kadar ta ni tudi strokovni direktor javnega zdravstvenega zavoda ali strokovni vodja javnega zavoda iz šestega odstavka 8. člena tega zakona, določi direktor zavoda.
+Za pridobitev dovoljenja je treba izpolniti vlogo in ji priložiti vsa dokazila, ki so navedena v vlogi.
+Obrazci, prijavnice
+Vloga za dovoljenje za opravljanje zdravstvene dejavnosti - pravne osebe (javni zavodi)
+(doc, 114 KB)
+Izjava odgovornega nosilca glede pridobivanja podatkov o nekaznovanosti
+Izjava odgovornega nosilca glede pridobivanja podatkov o nekaznovanosti","[""faithfulness"", ""clarity"", ""administrative_style"", ""completeness""]",answerable,,"Za izdajo dovoljenja mora javni zavod zagotoviti ustrezne prostore in opremo, vključitev v enotni zdravstveno-informacijski sistem ter zavarovanje poklicne odgovornosti za odgovornega nosilca in izvajalce storitev. Izvajalcu ne sme biti prepovedano opravljanje dejavnosti, obvezna pa je tudi izjava o sodelovanju ob izrednem ali vojnem stanju oziroma ob aktiviranju državnega načrta zaščite in reševanja. Odlomek dodatno določa pogoje, ki jih mora izpolnjevati odgovorni nosilec zdravstvene dejavnosti.",edited,Codex-main-gold,Manual gold summary prepared from source context.
+gold-template-seed-ejn-help-sec-001-chunk-01,summarization,public-procurement,procurement guidance,Pomoč uporabnikom,seed-ejn-help,"[""seed-ejn-help-sec-001-chunk-01""]","Pripravi zvest, jedrnat in formalen upravni povzetek odlomka.","PONASTAVI NASTAVITVE
+Direktorat za JN
+Pomoč uporabnikom
+Telefonsko svetovanje
+Telefonsko svetovanje (sistem javnega naročanja) izvaja Direktorat za javno naročanje vsak torek, sredo in četrtek med 9.00 in 12.00 uro na tel. številki:
+01 478 1688
+Pojasnila v okviru svetovanja so podana izključno na podlagi podatkov, ki jih posreduje klicatelj. Ministrstvo za javno upravo ni pristojno za presojanje konkretnih situacij in s tem za presojanje pravilnosti oziroma nepravilnosti ravnanj naročnikov in ponudnikov v postopkih javnega naročanja, zaradi česar lahko podaja splošne neobvezujoče razlage določb javnonaročniške zakonodaje.
+Tehnična pomoč za e-JN
+Za tehnično pomoč funkcionalnosti portala e-JN lahko kontaktirate Enotni kontaktni center državne uprave (EKC) na 080 2002 ali na elektronski naslov ekc@gov.si . Svetovalci na EKC so vam na voljo od ponedeljka do petka, od 8.00 do 16.00 ure.
+Help desk
+V Partnerskem sporazumu, sklenjenim med Slovenijo in Evropsko komisijo za obdobje 2014-2020, se je Republika Slovenija zavezala k izpolnitvi splošne predhodne pogojenosti za uspešno implementacijo javno naročniške zakonodaje na področju izvajanja Evropskih strukturnih in investicijskih skladov tudi na način, da bo zagotovila delovanje t.im. help deska, preko katerega bo naročnikom omogočeno svetovanje oziroma pomoč pri pripravi dokumentacije v zvezi z oddajo javnega naročila in izvajanju postopkov oddaje javnega naročila oziroma izvajanju pogodbenih določil.
+Javna naročila
+Zakonodaja
+Povezave
+Pomoč
+Odprta Skrinja
+Novice
+ProfJN
+Izvedba postopkov v primerih naravnih nesreč
+Direktorat JN
+Predstavitev direktorata
+Osebna izkaznica
+Poročila in analize
+Skupno javno naročanje
+Projekti
+Evidenca gospodarskih subjektov z izrečenimi stranskimi sankcijami izločitve iz postopkov
+Strateška politika JN
+Oddaljen dostop
+Sistem JN
+Usmeritve in navodila
+Smernice in priporočila
+Pravno varstvo
+Zeleno JN
+e-JN vsebine
+DJNovice
+Profesionalizacija (profJN)
+Spletne učilnice","[""faithfulness"", ""clarity"", ""administrative_style"", ""completeness""]",answerable,,"Direktorat za javno naročanje izvaja telefonsko svetovanje o sistemu javnega naročanja v določenih urah in podaja splošna, nezavezujoča pojasnila na podlagi podatkov, ki jih posreduje klicatelj. Ministrstvo za javno upravo ni pristojno za presojo konkretnih ravnanj naročnikov in ponudnikov v posameznih postopkih. Za tehnično pomoč pri portalu e-JN je pristojen Enotni kontaktni center državne uprave.",edited,Codex-main-gold,Manual gold summary prepared from source context with condensation of portal or handbook noise.
+gold-template-manual-priro-nik-za-presojanje-in-razvoj-kompetenc-v-dr-d40fb85bf4-sec-021-chunk-02,summarization,public-sector-hr,manual/handbook,PRIROČNIK ZA PRESOJANJE IN RAZVOJ KOMPETENC V DRŽAVNI UPRAVI,manual-priro-nik-za-presojanje-in-razvoj-kompetenc-v-dr-d40fb85bf4,"[""manual-priro-nik-za-presojanje-in-razvoj-kompetenc-v-dr-d40fb85bf4-sec-021-chunk-02""]","Pripravi zvest, jedrnat in formalen upravni povzetek odlomka.","pregleda predpisov
+Analitično
+razmišljanje 2
+Čustvena odpornost
+3 Spoštljiv odnos 3 Argumentirano
+izražanje 1
+Argumentirano
+izražanje 1 Spoštljiv odnos 3 Temeljitost pri delu 3 Čut za raziskovanje 1
+Temeljitost pri delu 1 Temeljitost pri delu 2 Temeljitost pri delu 1
+Vključevanje javnosti
+SKLOP 2
+finančne uprave VII.
+finančne uprave V.
+Čut za raziskovanje 2 Čut za raziskovanje 3
+Spoštljiv odnos 2 Spoštljiv odnos 2
+Temeljitost pri delu 2 Temeljitost pri delu 2
+SKLOP 3
+Naloge inšpekcijskega in
+drugega nadzora (sv.)
+drugega nadzora
+izražanje 2
+Čut za raziskovanje 1 Čut za raziskovanje 2
+Razvoj strokovnega
+področja Spoštljiv odnos 2
+SKLOP 4
+PODSKLOP 4A PODSKLOP 4B PODSKLOP 4C
+Naloge s področja izvrševanja
+kazenskih sankcij in probacije –
+pravosodni policisti
+svetovalci
+inštruktorji
+Čustvena odpornost 1 Čustvena odpornost 1 Čustvena odpornost 2
+Podporno delovanje 2 Podporno delovanje 1 Spoštljiv odnos 1
+Spoštljiv odnos 1 Spoštljiv odnos 1 Zagotavljanje varnega okolja 2
+Zagotavljanje varnega okolja 1
+28
+SKLOP 5
+notranje revizije
+Analitično razmišljanje
+Čut za raziskovanje 1
+Temeljitost pri delu 2
+SKLOP 6
+diplomacije in zunanjih
+zadev
+Medkulturno
+delovanje
+Strateška širina 1
+Ustvarjanje stikov 1
+SKLOP 7
+kadrovskega poslovanja
+kadrovskega
+poslovanja V.
+Organiziranost pri
+delu 2
+delu 3
+Spoštljiv odnos 2 Spoštljiv odnos 3
+Strateška širina 3 Temeljitost pri delu
+SKLOP 8
+Pravne naloge in javna naročila
+Argumentirano izražanje 2
+Organiziranost pri delu 2
+Temeljitost pri delu 1
+SKLOP 9
+Naloge s področja financ in
+računovodstva VII.
+računovodstva V.
+Analitično razmišljanje 3 Organiziranost pri delu 3
+Organiziranost pri delu 2 Temeljitost pri delu 3
+SKLOP 10
+PODSKLOP 10A PODSKLOP 10B PODSKLOP 10C
+Naloge s področja informatike –
+uporabniki
+infrastruktura
+digitalne rešitve
+Analitično razmišljanje 3 Analitično razmišljanje 1 Analitično razmišljanje 1
+Celovitost rešitev 2 Celovitost rešitev 1 Celovitost rešitev 1
+Delo z uporabniki 2 Organiziranost pri delu 2 Delo z uporabniki 1
+Koordinacija tima 2
+29
+SKLOP 11
+Administrativne, splošne,
+strokovne in strokovno
+tehnične naloge VII.
+strokovne in strokovno tehnične
+naloge V.
+Organiziranost pri delu 2 Organiziranost pri delu 3
+Spoštljiv odnos 3 Spoštljiv odnos 3
+Temeljitost pri delu 2 Temeljitost pri delu 3
+SKLOP 12
+Komuniciranje in odnosi z javnostmi
+Obvladovanje dinamičnega okolja 2
+Odličnost v izražanju
+Organiziranost pri delu 1
+Ustvarjanje stikov 2
+SKLOP 13
+raziskovanja in analiz
+podatkov – znanstvenik
+podatkov – raziskovalec
+razmišljanje 1
+razmišljanje 1
+Razumevanje
+podatkov 1
+podatkov 2
+Temeljitost pri delu
+2 Temeljitost pri delu 2
+SKLOP 14
+Naloge projektnega
+vodenja
+Ambasador projekta
+Ustvarjanje
+učinkovitega tima
+SKLOP 15
+kohezije
+Obvladovanje
+dinamičnega okolja 2
+Strateška širina 2
+SKLOP 16
+mednarodnih zadev
+delu 1
+SKLOP 17
+spremljanja in
+poročanja o stanju
+okolja VII.
+okolja V.
+razmišljanje 3
+dinamičnega okolja 2 Temeljitost pri delu 3
+SKLOP 18
+zaščite in reševanja","[""faithfulness"", ""clarity"", ""administrative_style"", ""completeness""]",answerable,,"Odlomek prikazuje razporeditev kompetenc in zahtevane ravni posameznih kompetenc za različne vrste del in delovna področja v državni upravi. Izpostavljene so kompetence, kot so analitično razmišljanje, temeljitost pri delu, spoštljiv odnos, organiziranost pri delu in čut za raziskovanje. Besedilo predstavlja del kompetenčnega okvira, ki podpira enotnejše presojanje in razvoj zaposlenih.",edited,Codex-main-gold,Manual gold summary prepared from source context with condensation of portal or handbook noise.
+gold-template-manual-priro-nik-za-presojanje-in-razvoj-kompetenc-v-dr-d40fb85bf4-sec-079-chunk-01,summarization,public-sector-hr,manual/handbook,PRIROČNIK ZA PRESOJANJE IN RAZVOJ KOMPETENC V DRŽAVNI UPRAVI,manual-priro-nik-za-presojanje-in-razvoj-kompetenc-v-dr-d40fb85bf4,"[""manual-priro-nik-za-presojanje-in-razvoj-kompetenc-v-dr-d40fb85bf4-sec-079-chunk-01""]","Pripravi zvest, jedrnat in formalen upravni povzetek odlomka.","Slika 15
+Shematski prikaz sodelujočih v metodi 360° in njenih različicah
+Pri presoji po metodi 180° obstajata samo dva vira presoje – nadrejeni in presojani zaposleni. Redni razvojni
+pogovor je tipičen primer uporabe metode 180°. Vodja in zaposleni primerjata svoje poglede na stanje
+in razvoj kompetenc pri zaposlenem. Ta proces se uporablja v primerih, ko zaposleni potrebuje povratno
+informacijo o svojem delu oziroma ko vodja presodi, da zaposleni potrebuje povratno informacijo za
+izboljšanje dela, svoje poglede pa podata oba – vodja in zaposleni. Pogosto se uporablja pri strokovnem
+kadru.
+71
+Ko sem Janezu prvič povedal, da bova izvedla 180° povratno
+informacijo, me je vprašal, če bo res tako vroče in ali naj vklopi
+ventilatorje. Potem sva se še dolgo smejala tej šali.
+Če med presojo uporabljamo tri kategorije virov informacij (samopresojo zaposlenega, presojo nadrejenega
+in sodelavcev), govorimo o presoji 270°. Ta proces se uporablja, kadar zaposleni, ki ga presojamo, nima
+neposredno podrejene skupine – pogosto gre za strokovna delovna mesta, ki niso vodstvena. Za vodjo
+skupine takšen proces ne bi bil popoln, saj izključuje zelo pomemben segment – zaznave neposredno
+podrejenih. Te pa so ključnega pomena, kadar želimo uspešno voditi skupino ljudi.
+V kolikor presoja vključuje več kot tri skupine presojevalcev (samopresojo, presojo nadrejenega, presojo
+podrejenega, presojo sodelavcev na isti ravni ali presojo notranjih in zunanjih uporabnikov), govorimo
+o presoji 360°, saj zajema celoten krog presojevalcev. Ta celostna oblika povratne informacije je najbolj
+uporabna, kadar je presojani vodja skupine – torej vodja na srednji ali višji ravni. Ta skupina zaposlenih ima
+pogosto zelo razvejane stike z različnimi deležniki. Če v proces presoje povabimo tudi osebe iz drugih
+oddelkov, s katerimi vodja pogosto sodeluje, bo poročilo dobljeno v procesu presojanja bolj popolno in
+smiselno.
+Povratna informacija je lahko del razvojnega razgovora ali pa
+samostojni razgovor s presojanim. Glede na to, za koliko stopenjsko
+povratno informacijo gre, lahko razgovor traja nekaj minut (v primeru
+dveh vključenih) ali eno uro (v primeru 360° povratne informacije).
+Medtem ko metoda 360° ponudi vpogled zaposlenemu, ima praktično vrednost predvsem, če je zaposleni
+pripravljen na to vrsto povratnih informacij. Za skrbnike in vodje je ključnega pomena, da presojani
+zaposleni sprejme celoten proces še preden je vključen vanj. Pogovor o ideji in namenu procesa je pri
+tem zelo pomemben. O izzivih pri podajanju povratnih informacij pa pišemo tudi v posebnem poglavju.
+tem zelo pomemben. O izzivih pri podajanju povratnih informacij pa pišemo tudi v posebnem poglavju.
+72
+PREDNOSTI IN OMEJITVE METODE 360°
+V spodnji tabeli so predstavljene glavne prednosti podajanja povratnih informacij po metodi 360° za
+posamezne deležnike v organizaciji.
+Tabela 5
+Prednosti metode 360° za zaposlene, vodje in kadrovike
+PREDNOSTI METODE 360° ZA
+ZAPOSLENEGA
+VODJO","[""faithfulness"", ""clarity"", ""administrative_style"", ""completeness""]",answerable,,"Odlomek pojasnjuje razlike med metodami 180°, 270° in 360° povratne informacije pri presojanju kompetenc zaposlenih. Metoda 180° vključuje zaposlenega in nadrejenega, metoda 270° dodatno sodelavce, metoda 360° pa zajame celoten krog presojevalcev, zato je posebej uporabna pri vodjih skupin. Besedilo poudarja, da obseg vključenih presojevalcev vpliva na popolnost povratne informacije in dolžino razvojnega razgovora.",edited,Codex-main-gold,Manual gold summary prepared from source context.

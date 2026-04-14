@@ -1,0 +1,20 @@
+{
+  "review_rows_seen": 409,
+  "promoted_examples": 100,
+  "promoted_by_task": {
+    "information_extraction": 55,
+    "summarization": 45
+  },
+  "merged_training_rows": 834,
+  "gold_rows_seen": 13,
+  "promoted_gold_eval": 13,
+  "outputs": {
+    "promoted_sft": "data\\sft\\reviewed_promoted.jsonl",
+    "promoted_chat": "data\\sft\\reviewed_promoted_chat.jsonl",
+    "merged_sft": "data\\sft\\finetune_plus_reviewed.jsonl",
+    "merged_chat_train": "data\\sft\\finetune_plus_reviewed_chat_train.jsonl",
+    "merged_chat_val": "data\\sft\\finetune_plus_reviewed_chat_val.jsonl",
+    "merged_chat_test": "data\\sft\\finetune_plus_reviewed_chat_test.jsonl",
+    "gold_eval": "data\\eval\\gold_eval.jsonl"
+  }
+}
